@@ -1,0 +1,159 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei","宋体","Segoe UI","Lucida Grande",Helvetica,Arial,sans-serif,FreeSans,Arimo;
+	font-size: 14px;
+	color: #666;
+	background-color: #494A5F;
+}
+h2{
+	font-size: 2em;
+	line-height: 1em;
+	text-align: center;
+}
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.flex-item{
+	flex: 30%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.box{
+	position: relative;
+	background: linear-gradient(#8E2DE2,#4A00E0);
+	font-family: 'Merriweather Sans', sans-serif;
+	border-radius: 7px;
+	overflow: hidden;
+}
+.box:hover{
+	box-shadow: 3px 3px 5px #999;
+}
+.box:before, .box:after{
+	content: "";
+	position: absolute;
+	opacity: 0;
+	z-index: 1;
+	transform: rotate(45deg);
+	transition: all .4s ease-in-out;
+}
+.box:before{
+	background: radial-gradient(circle at 23% 70%,rgba(255,255,255,0.8),#fff 30%);
+	width: 150%;
+	height: 150%;
+	top:-10.5%;
+	right: -150%;
+}
+.box:hover:before{
+	opacity: 1;
+	right: -85%;
+}
+.box:after{
+	background-color: rgba(255,255,255,0.5);
+	width: 65%;
+	height: 65%;
+	top: -65%;
+	left: -20%;
+	right: auto;
+}
+.box:hover:after{
+	opacity: 1;
+	top: -42%;
+}
+
+
+/* Image */
+img{
+	width: 100%;
+	height: auto;
+	border: 0;
+	vertical-align: middle;
+	transition: all .4s ease;
+}
+.box:hover img{
+	transform: scale(1.2);
+}
+
+/* Content */
+.content{
+	position: absolute;
+	top:50%;
+	right: -100%;
+	text-align: right;
+	color: #1e272e;
+	opacity: 0;
+	z-index: 2;
+	transform: translateY(-50%);
+	transition: all .4s ease-in-out;
+}
+
+.box:hover .content{
+	right: 5%;
+	opacity: 1;
+}
+
+.content .title{
+	font-size: 23px;
+	font-weight: 800;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin:  0 0 2px;
+}
+
+.content .post{
+	font-size: 16px;
+	text-transform: capitalize;
+}
+/* Icons */
+.icon{
+	padding: 0;
+	margin-top: 20px;
+	list-style: none;
+}
+.icon li {
+	display: inline-block;
+	margin: 0 4px;
+}
+.icon li i{
+	font-size: 16px;
+	line-height: 35px;
+	font-weight: 900;
+	color: #fff;
+	text-align: center;
+	background-color: #3498db;
+	width: 35px;
+	height: 35px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	transition: all .4s;
+}
+.fa-search:before{
+	content: "\f002";
+}
+.fa-link:before{
+	content: "\f0c1";
+}
+.box:hover .icon{
+	opacity: 1;
+}
+
+.icon li i:hover{
+	border: 3px solid #3498db;
+	color: #3498db;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+

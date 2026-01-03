@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple jQuery Contact Form With Validation</title>
+  <meta name="description" content="The HTML5 Template">
+  <meta name="author" content="hztechnology">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+	<div class="login">
+	  <span>Contact Me</span>
+	  <form id="contact" name="contact" method="post">
+	  	<!-- First Name & Last Name -->
+	  	<div class="row">
+		  <div class="col-sm-6">
+		  	<!-- First Name -->
+		    <div class="form-group">
+		      <input id="firstname" spellcheck=false class="form-control" name="firstname" type="text" size="18" alt="login" required="">
+		      <span class="form-highlight"></span>
+		      <span class="form-bar"></span>
+		      <label for="firstname" class="float-label">First Name *</label>
+		      <div id="errfirstname" class="errortext"></div>
+		    </div>
+		  </div>
+		  <div class="col-sm-6">
+		  	<!-- Last Name -->
+		    <div class="form-group">
+		      <input id="lastname" spellcheck=false class="form-control" name="lastname" type="text" size="18" alt="login" required="">
+		      <span class="form-highlight"></span>
+		      <span class="form-bar"></span>
+		      <label for="lastname" class="float-label">Last Name *</label>
+		      <div id="errlastname" class="errortext"></div>
+		    </div>
+		  </div>
+		</div>
+	  	
+	    <!-- Email -->
+	    <div class="form-group">
+	      <input id="email" spellcheck=false class="form-control" name="email" type="text" size="18" alt="login" required="">
+	      <span class="form-highlight"></span>
+	      <span class="form-bar"></span>
+	      <label for="email" class="float-label">Email *</label>
+	      <div id="erremail" class="errortext"></div>
+	    </div>
+	    <!-- Comment -->
+	    <div class="form-group">
+	      <label for="subject">Comment</label>
+	      <span class="form-highlight"></span>
+	      <span class="form-bar"></span>
+	      <textarea id="comment" name="comment" placeholder="Your Comment.." style="height:200px"></textarea>
+	      <div id="errcomment" class="errortext"></div>
+	    </div>
+
+	    <div class="form-group">
+		    <button id="submit" type="submit" ripple>Submit</button>
+	    </div>
+	    <!-- The Modal -->
+		<div id="myModal" class="modal">
+		  <!-- Modal content -->
+		  <div class="modal-content">
+		    <span class="close">&times;</span>
+		    <p id="info"></p>
+		  </div>
+		</div>
+	  </form>
+	</div>
+  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script src="js/scripts.js"></script>
+</body>
+</html>

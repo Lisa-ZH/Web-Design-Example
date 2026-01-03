@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta id="testViewport" name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta charset="UTF-8">
+<title>Parallax Scrolling</title>
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="files/styles/style.css" rel="stylesheet" type="text/css">
+<link href="files/styles/responsive.css" rel="stylesheet" type="text/css">
+<style>
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Lato", sans-serif;
+}
+section {
+    height: 60vh;
+	background-color: rgba(0,0,0,.7);
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	line-height: 60vh;
+}
+.g-word{
+	display: flex;
+	justify-content:center;
+	vertical-align: center;
+	
+}
+.g-img1 {
+    background-image: url(Boston.jpg);
+}
+.g-img2 {
+    background-image: url(New-York.jpg);
+}
+.g-img3 {
+    background-image: url(Orlando.jpg);
+}
+.g-img1,.g-img2,.g-img3{
+	background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+</style>
+</head>
+
+<body>
+<section class="g-word">Header</section>
+<section class="g-img1">Boston</section>
+<section class="g-word">Content1</section>
+<section class="g-img2">New York</section>
+<section class="g-word">Content2</section>
+<section class="g-img3">Orlando</section>
+<section class="g-word">Footer</section>
+</body>
+
+</html>

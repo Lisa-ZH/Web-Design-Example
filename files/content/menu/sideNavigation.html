@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Side Navigation</title>
+<style>
+	body{
+		font-family: "Lato", sans-serif;
+		transition: background-color 0.5s;
+	}
+	.sidenav{
+		background-color: #111;
+		height: 100%;
+		width: 0;
+		position: fixed;
+		top: 0;
+		overflow: hidden;
+		transition: .5s;
+		/*left: 0;*/  /* from left */
+		right: 0;  /* from right */
+	}
+	.sidenav a{
+		display: block;
+		color: #818181;
+		text-decoration: none;
+		font-size:25px;
+		padding: 20px;
+		transition: .3s;
+	}
+	.sidenav a:hover{
+		color: #f1f1f1;
+	}
+	.btn{
+		font-size: 30px;
+		display: block;
+		padding: 20px;
+		cursor: pointer;
+	}
+	.closebtn{
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+	}
+	#main{
+		transition: margin-left .5s;
+		padding: 20px;
+	}
+</style>
+</head>
+
+<body>
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a>
+	  <a href="#">About</a>
+	  <a href="#">Services</a>
+	  <a href="#">Clients</a>
+	  <a href="#">Contact</a>
+	</div>
+	<div id="main">
+	  <h2>Sidenav Push Example</h2>
+	  <p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
+	  <div class="btn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Open Side Menu</div>
+	</div>
+	<script>
+		/* overlay */
+		function openNav(){
+			document.getElementById("mySidenav").style.width = "250px";
+		}
+		function closeNav(){
+			document.getElementById("mySidenav").style.width = "0";
+		}
+		/* push & opacity */
+		/*function openNav(){
+			document.getElementById("mySidenav").style.width = "250px";
+			document.getElementById("main").style.marginLeft = "250px";
+			document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+		}
+		function closeNav(){
+			document.getElementById("mySidenav").style.width = "0";
+			document.getElementById("main").style.marginLeft = "0";
+			document.body.style.backgroundColor = "#ffffff";
+		}*/
+		/* push full-width  */
+		/*function openNav(){
+			document.getElementById("mySidenav").style.width = "100%";
+		}
+		function closeNav(){
+			document.getElementById("mySidenav").style.width = "0";
+		}*/
+	</script>
+</body>
+</html>

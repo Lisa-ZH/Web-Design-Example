@@ -1,0 +1,347 @@
+/**************************** GLOBAL ****************************/	
+@font-face {
+   font-family: Gotham-Book;
+   src: url(../fonts/Gotham-Book/BOOK/HomepageBaukasten-Book.ttf);
+}
+@font-face {
+   font-family: Gotham-Light;
+   src: url(../fonts/Metropolis-ExtraLight/Metropolis-ExtraLight.otf);
+
+}
+*{
+	box-sizing: border-box;
+}
+body {
+	margin: 0px;
+	color: #000;
+	-webkit-text-size-adjust: none;
+	font-family: 'Lato', "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+	font-size: 1.1em;
+	line-height: 1.3em;
+}
+img {
+	width: 100%;
+	height: auto;
+	vertical-align: middle; /*  very important, otherwise there is a gap at the bottom  */
+	border: 0;
+}
+
+input[type="button"], input[type="submit"], input[type="reset"] { /* remove for standard buttons */
+	-webkit-appearance: none;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	-moz-appearance: none;
+	appearance: none;
+}
+/*
+.scalable {
+	max-width: 100% !important;
+	height: auto !important;
+}
+
+.imgover { 
+	cursor: pointer;
+}
+
+.imagefit img {
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.clearfix {
+	clear: both;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}*/
+.benefits ul {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	align-items: flex-start;
+	list-style-type: none;
+	padding: 0;
+	margin-bottom: 100px;
+}
+
+.benefits ul li{
+	margin: 1%;
+	margin: 0;
+	border-right: 1px solid rgba(0,0,0,.1); 
+}
+
+.benefits ul li:last-child{
+	border-right: 0;
+}
+.benefits ul li img{
+	display: block;
+	width: 90%;
+	padding-bottom: 5%;
+	margin: 0px auto .65em;
+}
+.benefits h3{
+	width: 90%;
+	font-family: Gotham-Book;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+	margin: 15px auto;
+}
+.benefits p{
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	font-family: Gotham-Light;
+	font-size: 12px;
+	line-height: 1.2em;
+	text-align: left;
+}
+.benefits .btn{
+	width: 100%;
+	margin: 0 auto;
+	margin-left: 60px;
+}
+/*
+.benefits .btn:nth-child(1){
+	left: -100px;
+}
+
+.benefits .btn:nth-child(2){
+	left: -50px;
+}
+
+.benefits .btn:nth-child(3){
+	left: 100px;
+}
+
+.benefits .btn:nth-child(4){
+	left: 200px;
+}*/
+.benefits .btn a:link, .benefits .btn a:active, .benefits .btn a:visited {
+	color: #161616;
+	background-color: #ffc843;
+	padding: 10px 15px;
+	outline: none;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 16px;
+	line-height: 1.2em;
+	box-shadow: 0 5px #e6ac1f; 
+}
+.benefits a:hover {
+	color: #64b246;
+	text-decoration: none;
+}
+
+
+/*      Container     */
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+h2{
+	font-family: Gotham-Light;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 45px;
+	color: #1e73be;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.red-line{
+	background-color: #d42027;
+	margin-bottom: 40px;
+	height: 3px;
+	width: 100px;
+	margin: 0 auto 40px;
+}
+.intro{
+	font-family: Gotham-Light;
+	font-size: 24px;
+	font-weight: 100!important;
+	line-height: 34px;
+	text-align: center;
+	color: #161616;
+	padding-bottom: 40px;
+}
+
+.slideshow-section{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items: flex-start;
+}
+
+.left-slideshow, .right-list{
+	display: inline-block;
+	border: 1px solid #000;
+}
+
+/* Slideshow container */
+.left-slideshow {
+	width: 50%;
+  max-width: 600px;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #fff;
+  background-color: rgba(0,0,0,0.8);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.6);
+}
+
+/* Caption text */
+.caption-wrap{
+  width: 100%;
+  max-width: 700px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background-color: #000;
+  opacity: 0.7;
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  line-height: 1.1em;
+  padding: 15px;
+  text-align: center;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.right-list{
+	width: 45%;
+}
+
+.right-list ul{
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 2em;
+	margin-right: 10px;
+}
+.right-list .icon{
+	display:inline-block;
+	margin-right: 10px;
+}
+.right-list i{
+	width: 2em;
+	height: 2em;
+	font-size: 8px;
+	line-height: 2em;
+	color:#ffffff;
+	background:#d62027;
+}
+
+.right-list li{
+	font-family: Gotham-Book;
+	font-size: .8em;
+	line-height: 1.3em;
+	padding-left: 10px;
+	margin-bottom: 7px;
+}
+
+ul.inside-list{
+	margin-left: 0;
+}
+
+.inside-list li{
+	padding-left: 0;
+}
+.inside-list li div{
+	display: flex;
+	line-height: 1.3em;
+	margin-bottom: 10px;
+}
+
+.inside-list li div p{
+	font-size: 1.2em;
+	line-height: 1.2em;
+	margin: 0 auto;
+}
+.inside-list li i{
+	color:#ffffff;
+	background:#d62027;
+	border-radius: 50%;
+	padding: 5px;
+	margin-right: 5px;
+	font-size: 9px;
+	line-height: .9em;
+	height: 100%;
+	margin-top: 3px;
+}
+.right-list .btn{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	margin-bottom: 20px;
+}
+.right-list .btn a:link, .right-list .btn a:active, .right-list .btn a:visited {
+	color: #ffffff;
+	background-color: #d32027;
+	padding: 10px 15px;
+	outline: none;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 16px;
+	line-height: 1.2em;
+	box-shadow: 0 5px #a7191f;
+}
+.right-list .btn a:hover {
+	color: #64b246;
+	text-decoration: none;
+}

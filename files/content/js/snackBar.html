@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Snackbar / Toast</title>
+<style>
+	.btn{
+		background-color: #333;
+		color: #fff;
+		padding: 10px 20px;
+		display: inline-block;
+		cursor: pointer;
+	}
+	#snackbar{
+		visibility: hidden;
+		position: fixed;
+		z-index: 1;
+		left: 50%;
+		bottom:30px;
+		background-color: #333;
+		color: #fff;
+		padding: 10px 20px;
+		min-width: 250px;
+		text-align: center;
+		margin-left: -125px;
+	}
+	#snackbar.show{
+		visibility: visible;
+		-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+		animation: fadein 0.5s, fadeout 0.5s 2.5s;
+	}
+	
+	@-webkit-keyframes fadein {
+		from {bottom:0; opacity: 0;}
+		to {bottom: 30px; opacity: 1;}
+	}
+	
+	@keyframes fadein{
+		from {bottom:0; opacity: 0;}
+		to {bottom: 30px; opacity: 1;}
+	}
+	
+	@-webkit-keyframes fadeout {
+		from {bottom: 30px; opacity: 1;}
+		to {bottom:0; opacity: 0;}
+	}
+	
+	@keyframes fadeout{
+		from {bottom: 30px; opacity: 1;}
+		to {bottom:0; opacity: 0;}
+	}
+</style>
+</head>
+
+<body>
+	<h1>Snackbar / Toast</h1>
+	
+	<p>Snackbars are often used as tooltips/popups to show a message at the bottom of the screen.</p>
+	<p>Click on the button to show the snackbar. It will disappear after 3 seconds.</p>
+	
+	<div class="btn" onClick="showBar()">Show Bar</div>
+	<div id="snackbar">Message Here</div>
+<script>
+	function showBar(){
+		var x = document.getElementById("snackbar");
+		
+		x.className = "show";
+		
+		setTimeout(function(){x.className = x.className.replace("show","");},3000);
+		
+	}
+</script>
+</body>
+</html>

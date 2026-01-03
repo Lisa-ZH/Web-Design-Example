@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta id="testViewport" name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta charset="UTF-8">
+<title>Parallax Scrolling</title>
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="files/styles/style.css" rel="stylesheet" type="text/css">
+<link href="files/styles/responsive.css" rel="stylesheet" type="text/css">
+<style>
+body{
+	margin: 0 0 0 20px;
+	padding: 0;
+	font-family: "Lato", sans-serif;
+}
+.title {
+	background-color: #929474;
+	color: #FFFFFF;
+	font-size: 1.4rem;
+	line-height: 1.1rem;
+	padding: 10px 40px;
+}
+.container {
+	width: 960px;
+	margin: 30px auto 0 auto;
+}
+section {
+    height: 35vh;
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	line-height: 60vh;
+}
+header{
+	background-color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	height: 30vh;
+	margin-top: 30vh;
+}
+h4{
+	font-size: 20px;
+	font-weight: 300;
+	color: #000;	
+	letter-spacing: 6px;
+}
+h2{
+	font-size: 30px;
+	letter-spacing: 10px;
+	font-weight: 600;
+	color: #000;
+}
+.g-img1 {
+    background-image: url(Boston.jpg);
+}
+.g-img2 {
+    background-image: url(New-York.jpg);
+}
+.g-img3 {
+    background-image: url(Orlando.jpg);
+}
+.g-img1,.g-img2,.g-img3{
+	background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.g-word{
+	font-size: 16px;
+	line-height: 20px;
+	padding: 30px;
+	color: #000;
+	background-color: #fff;
+}
+/*
+.subhead{
+	initial-letter:2;
+}
+*/
+.subhead{
+	font-family: "Slabo";
+	font-size: 18px;
+	line-height: 26px;
+	color: #000;
+	padding: 60px 200px;
+	text-align: left;
+}
+.subhead::first-letter{
+	font-weight: bold;
+	color: #266e64;
+	initial-letter:3;
+	-webkit-initial-letter:3;
+	-moz-initial-letter:3;
+	-o-initial-letter:3;
+	margin-right: 0.4em;
+}
+hr{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+</style>
+</head>
+
+<body>
+	<div class="title">Others / Parallax Scrolling</div>
+    <div class="container">
+        <header>
+	<h4>
+		Let's do some
+	</h4>
+	<h2>
+		Parallax
+	</h2>
+</header>
+<section class="g-img1">Boston</section>
+<section class="subhead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in faucibus purus. Quisque a lectus ex. Integer leo magna, pretium a mauris mattis, sagittis condimentum orci. In ac ipsum dignissim, rutrum felis eu, tincidunt purus. Etiam iaculis lectus non ligula sollicitudin, gravida rhoncus tortor dignissim. Nam justo arcu, commodo ut mi a, fringilla ultricies ligula. Praesent augue quam, pulvinar et elit a, bibendum posuere turpis. Nulla ac dapibus nulla, id elementum turpis. Pretium a mauris mattis, sagittis condimentum orci. In ac ipsum dignissim, rutrum felis eu, tincidunt purus. Etiam iaculis lectus non ligula sollicitudin, gravida rhoncus tortor dignissim. Nam justo arcu, commodo ut mi a, fringilla ultricies ligula. Praesent augue quam, pulvinar et elit a, bibendum posuere turpis. Nulla ac dapibus nulla, id elementum turpis.<br><br><hr /><br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in faucibus purus.</b>
+</section>
+<section class="g-img2">New York</section>
+<section class="g-word">Content2</section>
+<section class="g-img3">Orlando</section>
+<section class="g-word">Footer</section>
+    </div>
+</body>
+
+</html>

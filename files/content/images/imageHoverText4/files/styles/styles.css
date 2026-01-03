@@ -1,0 +1,198 @@
+/**************************** GLOBAL ****************************/	
+*{
+	box-sizing: border-box;
+}
+body {
+	margin: 0 0 0 20px;
+	color: #000;
+	-webkit-text-size-adjust: none;
+	font-family: 'Lato', "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+	font-size: 1.1em;
+	line-height: 1.3em;
+}
+.title {
+    background-color: #929474;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    line-height: 1.1rem;
+    padding: 10px 40px;
+}
+.container {
+    width: 960px;
+    margin: 30px auto 0 auto;
+}
+img {
+	width: 100%;
+	height: auto;
+	vertical-align: middle; /*  very important, otherwise there is a gap at the bottom  */
+	border: 0;
+}
+.call-out{
+    width: 100%;
+    margin: 0 auto 30px auto;
+    max-width: 1180px;
+}
+.blue-bar{
+    color: #fff;
+    background-color: #164c7d;
+    padding: 20px 0;
+}
+.headline-large{
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.headline-tiny{
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 10px;
+}
+.headshots{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    border: 1px solid #164c7d;
+}
+.speaker-left, .speaker-right{
+    width: 24%;
+}
+.image-left{
+	position: relative;
+    background-image: url("../images/img_avatar.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 100%;
+}
+.image-left .overlay, .image-right .overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #fff;
+	opacity: 0;
+}
+.image-left p, .image-right p{
+	position: absolute;
+	width: 90%;
+	margin: 0 auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	font-size: .9em;
+	line-height: 1em;
+	font-weight: 600;
+	text-align: left;
+	color: #000;
+	transform: translateY(80%);
+	transition: all .4s ease;
+}
+.image-left:hover .overlay, .image-right:hover .overlay{
+	opacity: 0.8;
+}
+.image-left:hover p, .image-right:hover p{
+	margin-top: 20px;
+	opacity: 1;
+	transform: translateY(0);
+}
+.speaker-title{
+    color: #164c7d;
+    font-size: .9em;
+    line-height: 1em;
+    text-align: center;
+    padding-top: 10px;
+}
+.speaker-middle{
+    color: #164c7d;
+    text-align: center;
+}
+.speaker-date{
+    font-size: 2.5em;
+    line-height: 1em;
+}
+.speaker-time{
+    font-size: 2.3em;
+    line-height: 1.2em;
+}
+.featured-speaker-title{
+    font-size: 1.8em;
+    margin-top:20px;
+    text-transform: uppercase;
+}
+.featured-speaker-name{
+    font-size: 1.6em;
+    line-height: 1.5em;
+    font-weight: 600;
+}
+a.speaker-btn{
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    padding:  10px 30px;
+    color: #fff;
+    background-color: #164c7d;
+    font-size: 1.2em;
+    line-height: 1em;
+    letter-spacing: .05em;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid #fff;
+    vertical-align: middle;
+    transform: translateY(0);
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    transition: color .2s ;
+}
+a:hover.speaker-btn{
+    color: #164c7d;
+    background-color: #fff;
+}
+.image-right{
+    position: relative;
+    background-image: url("../images/img_avatar2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 100%;
+}
+
+
+
+
+
+@media only screen and (max-width: 940px) {
+	.headshots{
+	    flex-direction: column;
+	}
+	.speaker-left{
+	    order: 2;
+	}
+	.speaker-middle{
+	    order: 1;
+	}
+	.speaker-right{
+	    order: 3;
+	}
+	.image-left, .image-right{
+	    margin-top: 30px;
+	}
+	.speaker-left, .speaker-right{
+	    width: 50%;
+	}
+	.speaker-title{
+	    font-size: 1.2em;
+	}
+}
+
+

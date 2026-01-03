@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Horizontal Centering & Vertical Centering</title>
+<link href="files/styles/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="row8">
+		<div class="row8-inner">
+			<h3>若元素是行内块级元素, 基本思想是使用display: inline-block, vertical-align: middle和一个伪元素让内容块处于容器中央.</h3>
+			<p>
+				.parent::after, .son{ <br>
+				    display:inline-block;<br>
+				    vertical-align:middle;<br>
+				}<br>
+				.parent::after{<br>
+				    content:'';<br>
+				    height:100%;<br>
+				}
+			</p>
+		</div>
+	</div>
+</body>
+</html>

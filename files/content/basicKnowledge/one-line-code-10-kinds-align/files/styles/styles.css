@@ -1,0 +1,221 @@
+/**************************** GLOBAL ****************************/	
+*{
+	box-sizing: border-box;
+}
+body {
+	margin: 0 0 0 20px;
+	padding: 0;
+	color: #000;
+	-webkit-text-size-adjust: none;
+	font-family: 'Lato', "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+	font-size: 1.1em;
+	line-height: 1.3em;
+}
+.title {
+	background-color: #929474;
+	color: #FFFFFF;
+	font-size: 1.4rem;
+	line-height: 1.1rem;
+	padding: 10px 40px;
+}
+.container {
+	width: 960px;
+	margin: 30px auto 0 auto;
+}
+img {
+	width: 40%;
+	height: auto;
+	vertical-align: middle; /*  very important, otherwise there is a gap at the bottom  */
+	border: 0;
+}
+.ex1{
+	background-color: #b7e2e4;
+	width: 200px;
+	height: 200px;
+	display: grid;
+	place-items: center;
+}
+code{
+	color: #000;
+	outline: 0px;
+	visibility: visible;
+}
+.ex2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 500px;
+	height: 200px;
+	border: 1px solid #333;
+}
+.inner-1, .inner-2, .inner-3{
+	flex: 1 1 150px;
+	margin: 5px;
+	background-color: #dbf6bf;
+}
+.ex3{
+	display: grid;
+	grid-template-columns: minmax(150px, 25%) 1fr;
+	width: 800px;
+}
+.ex3 .left{
+	background-color: #f4e4ae;
+}
+.ex3 .right{
+	background-color: #d3c7dd;
+}
+.ex4{
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	width: 600px;
+	height: 400px;
+}
+.ex4 header{
+	background-color: #b7e2e4;
+	padding: 20px 10px;
+}
+.ex4 main{
+	background-color: #e1bba2;
+	padding: 20px 10px;
+}
+.ex4 footer{
+	background-color: #d5c8df;
+	padding: 20px 10px;
+}
+.ex5{
+	display: grid;
+	height: 50vh;
+	grid-template: auto 1fr auto / auto 1fr auto;
+}
+.ex5 header{
+	background-color:#e8d6e4;
+	padding: 2rem;
+	grid-column: 1 / 4;
+}
+.ex5 .left{
+	padding: 2rem;
+	background-color:#b7e2e4;
+	grid-column: 1 / 2;
+}
+.ex5 .content{
+	background-color:#e1bba2;
+	padding: 2rem;
+	grid-column: 2 / 3;
+}
+.ex5 .right{
+	background-color:#f4e4ae;
+	padding: 2rem;
+	grid-column: 3 / 4;
+}
+.ex5 footer{
+	background-color:#dbf6bf;
+	padding: 2rem;
+	grid-column: 1 / 4;
+}
+.ex6{
+	display: grid;
+	height: 50vh;
+	grid-template-columns: repeat(12, 1fr);
+	place-content: center;
+}
+.span-12 {
+	background: lightpink;
+	grid-column: 1 / 13;
+}
+.span-6 {
+	background: lightblue;
+	grid-column: 1 / 7;
+}
+.span-4 {
+	background: coral;
+	grid-column: 4 / 9;
+}
+.span-2 {
+	background: yellow;
+	grid-column: 3 / 5;
+}
+.ex7{
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.box{
+	display: grid;
+	font-size: 2rem;
+	padding: 2rem;
+	place-content: center;
+	border-radius: 1rem;
+}
+.pink{
+	background-color: #f5e0e9;
+}
+.purple{
+	background-color: #dfd3e4;
+}
+.blue{
+	background-color: #a9e2ea;
+}
+.green{
+	background-color: #d4f2c4;
+  }
+.ex8{
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: repeat(3, 1fr);
+}
+.ex8 .visual {
+	height: 100px;
+	width: 100%;
+	margin: 0.5rem 0;
+}
+.ex8 .card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: #fee8b4;
+	padding: 1rem;
+}
+.visual .pink{
+	background-color: #f5e0e9;
+}
+.visual .green{
+	background-color: #a9e2ea;
+}
+.visual .pink{
+	background-color: #d4f2c4;
+}
+.ex9{
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+.ex9 .visual {
+	height: 100px;
+	width: 100%;
+	background: wheat;
+	margin: 0.5rem 0;
+}
+.ex9 .card {
+	width: clamp(23ch, 50%, 46ch);
+	display: flex;
+	flex-direction: column;
+	background: lightpink;
+	padding: 1rem;
+}
+.ex10{
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+.ex10 .visual {
+  aspect-ratio: 16/9;
+  background: wheat;
+  margin: 0.5rem 0;
+}
+.ex10 .card {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  background: lightpink;
+  padding: 1rem;
+}

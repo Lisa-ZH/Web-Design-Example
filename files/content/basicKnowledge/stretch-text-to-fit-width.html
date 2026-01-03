@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta id="testViewport" name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta charset="UTF-8">
+<title>Stretch text to fit width of div</title>
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<!--
+<link href="files/styles/style.css" rel="stylesheet" type="text/css">
+<link href="files/styles/responsive.css" rel="stylesheet" type="text/css">
+-->
+<style>
+body {
+    margin: 0 0 0 20px;
+    padding: 0;
+    font-size: 1.2rem;
+}
+.title {
+    background-color: #929474;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    line-height: 1.1rem;
+    padding: 10px 40px;
+}
+.container {
+    width: 960px;
+    margin: 30px auto 0 auto;
+}    
+div {
+	
+    margin: 10px 0; 
+    width: 100px;
+    border: 1px solid red;
+    text-align: justify;
+}
+div:after{
+    /* used to stretch word */
+    content: '';
+    width: 100%;
+    display: inline-block; 
+}
+</style>
+</head>
+
+<body>
+    <div class="title">Basic Knowledge / Stretch Text to Fit Width of div</div>
+    <div class="container">
+        <div>姓名</div>
+        <div>手机号码</div>
+        <div>账号</div>
+        <div>密码</div>
+    </div>
+	
+</body>
+</html>

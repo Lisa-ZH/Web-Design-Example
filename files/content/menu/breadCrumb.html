@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Breadcrumb Navigation</title>
+<style>
+	ul.breadcrumb{
+		background-color: #eee;
+		list-style: none;
+		padding: 10px 16px;
+	}
+	.breadcrumb li{
+		display: inline-block;
+		font-size: 18px;
+	}
+	/* Add a slash symbol (/) before/behind each list item */
+	ul.breadcrumb li+li:before{
+		content: "/\00a0";
+		color: #000;
+		padding: 8px;
+	}
+	.breadcrumb a{
+		text-decoration: none;
+		color: #0275d8;
+		cursor: pointer;
+	}
+	.breadcrumb a:hover{
+		color: #01447e;
+		text-decoration: underline;
+	}
+</style>
+</head>
+
+<body>
+	<div>
+		<ul class="breadcrumb">
+		  <li><a href="#">Home</a></li>
+		  <li><a href="#">Pictures</a></li>
+		  <li><a href="#">Summer 15</a></li>
+		  <li>Italy</li>
+		</ul>
+	</div>
+	
+<script>
+	
+</script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	background-color: #FFFFFF;
+}
+body, td, th {
+	color: #000;
+	font-size: 0.9em;
+	line-height: 1.4em;
+	font-family: 'Titillium Web', sans-serif;
+}
+/**************************** ACCORDION SECTION ****************************/	
+.accordion, .accordion * {
+	text-decoration: none !important;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.accordion {
+	overflow: hidden;
+	width: 80%;
+	margin: auto;
+	padding: auto;
+}
+.accordion-section-title {
+	width: auto;
+	display: block;
+	transition: all linear 0.15s;
+	background-image: url(../images/accordian-btn.png) !important;
+	text-align: center;
+	color: #fff !important;
+	font-size: 2.1em !important;/*EDITED KD 01-16-18 was 1.8em*/
+	background-color: #0E4C7F;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	line-height: normal;
+}
+.accordion-section-title, .accordion-section-title:focus {
+	background-repeat: no-repeat!important;
+	background-position: 90% center!important;
+	background-size: 21px 20px!important;
+}
+.accordion-section-title.active{
+	transition: all linear 0.15s;
+	background-image: url(../images/accordian-btn-open.png) !important;
+	background-color: #0E4C7F;
+	text-decoration: none;
+	color: #FFFFFF !important;
+}
+.accordion-section-title:hover {
+	background-color: #3079B4;
+	text-decoration: none;
+	color: #FFFFFF !important;
+}
+.accordion-section:last-child .accordion-section-title {
+	border-bottom: none !important;
+}
+.accordion-section-content {
+	display: none;
+}
+.career-event-info-box {
+	width: auto;
+	margin-top: 26px;
+	margin-bottom: 8px;
+	border: 2px solid #0461b4;
+	text-align: center;
+	padding: 14px;
+}
+.career-event-info-box-dateTime3 {
+	color: #000000;
+	font-size: 2em;
+	line-height: 1.2em;
+	font-weight: bold;
+	margin-bottom: 15px;
+	display: block;
+}
+.career-event-info-box-detail {
+	color: #000000;
+	font-size: 1.4em;
+	line-height: 1.2em;
+	margin-bottom: 15px;
+	display: block;
+}
+.career-event-info-box-saveDate {
+	color: #000000;
+	font-size: 1.3em;
+	line-height: 1.2em;
+	margin-top: 8px;
+	display: block;
+}
+.row-4-center { /*added by KD 01-16-18*/
+	width: 100%;
+	padding-top: 20px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center !important;
+	padding-bottom: 0px;
+	/* [disabled]display: block; */
+}
+.row-4-center-heading { /*added by KD 01-16-18*/
+	font-size: 1.6em;
+	font-weight: bold;
+	color: #0461b4;
+	display: block;
+	margin-bottom: 4px;
+	line-height: 1.2em;
+}
+.row-4-center-heading2 { /*added by KD 01-16-18*/
+	font-size: 1.3em;
+	color: #5C5C5C;
+	display: block;
+	margin-bottom: 15px;
+	line-height: 1.3em;
+	margin-top: 10px;
+}
+.col-3 {
+	width: 100%;
+	float: left;
+	border: 1px solid #a3a4a4;
+	background-image: -webkit-linear-gradient(270deg, rgba(230,231,232,1.00) 0%, rgba(255,255,255,1.00) 21.85%);
+	background-image: linear-gradient(180deg, rgba(230,231,232,1.00) 0%, rgba(255,255,255,1.00) 21.85%);
+	padding: 12px 8px 8px;
+}
+.clearfix {
+	clear: both;
+	margin-bottom: 10px;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+a.btn1:link, a.btn1:active, a.btn1:visited {
+	font-size: 1.6em;
+	background-color: #ab0032;
+	color: #ffffff;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	font-weight: 700;
+	margin-bottom: 0px;
+	text-decoration: none;
+	width: 70%;
+	text-align: center;
+	max-width: 250px !important;
+	border: 1px solid #AB0032;
+	border-radius: 8px;
+	background-image: -webkit-linear-gradient(270deg,rgba(171,0,50,1.00) 0%,rgba(120,0,35,1.00) 99.48%);
+	background-image: -moz-linear-gradient(270deg,rgba(171,0,50,1.00) 0%,rgba(120,0,35,1.00) 99.48%);
+	background-image: -o-linear-gradient(270deg,rgba(171,0,50,1.00) 0%,rgba(120,0,35,1.00) 99.48%);
+	background-image: linear-gradient(180deg,rgba(171,0,50,1.00) 0%,rgba(120,0,35,1.00) 99.48%);
+}
+a.btn1:hover {
+	background-color: #84072C;
+	background-image: -webkit-linear-gradient(270deg,rgba(243,77,126,1.00) 0%,rgba(171,0,50,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(243,77,126,1.00) 0%,rgba(171,0,50,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(243,77,126,1.00) 0%,rgba(171,0,50,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(243,77,126,1.00) 0%,rgba(171,0,50,1.00) 100%);
+}

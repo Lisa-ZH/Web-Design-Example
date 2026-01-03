@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Toggle Show/Hide</title>
+<style>
+	.btn{
+		background-color: #333;
+		color: #fff;
+		padding: 10px 20px;
+		display: inline-block;
+		cursor: pointer;
+	}
+	#snackbar{
+		display: none;
+		position: fixed;
+		z-index: 1;
+		left: 50%;
+		bottom:30px;
+		background-color: #333;
+		color: #fff;
+		padding: 10px 20px;
+		min-width: 250px;
+		text-align: center;
+		margin-left: -125px;
+	}
+	
+</style>
+</head>
+
+<body>
+	<h1>Toggle Show/Hide</h1>
+	
+	<div class="btn" id="showBtn" onClick="showBar()">Show Bar</div>
+	<div id="snackbar">Message Here</div>
+<script>
+	function showBar(){
+		var x = document.getElementById("snackbar");
+		var y = document.getElementById("showBtn");
+		
+		if (x.style.display === "none" || x.style.display===""){
+			x.style.display = "block";
+			y.innerHTML = "Hide Bar";
+		}else{
+			x.style.display = "none";
+			y.innerHTML = "Show Bar";
+		}
+	}
+</script>
+</body>
+</html>

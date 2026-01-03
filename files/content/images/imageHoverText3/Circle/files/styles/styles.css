@@ -1,0 +1,148 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei","宋体","Segoe UI","Lucida Grande",Helvetica,Arial,sans-serif,FreeSans,Arimo;
+	font-size: 14px;
+	color: #666;
+}
+h2{
+	font-size: 2em;
+	line-height: 1em;
+	text-align: center;
+}
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.flex-item{
+	flex: 30%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.box{
+	position: relative;
+	overflow: hidden;
+}
+.box:before{
+	content: "";
+	background-color: #3498db;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: 1;
+	transition: all .4s ease-in-out;
+
+}
+.box:hover:before{
+	border-radius: 0 0 250px 250px;
+	box-shadow: 0 0 20px #000;
+	opacity: .9;
+	height: 75%;
+}
+
+/* Image */
+img{
+	width: 100%;
+	height: auto;
+	border: 0;
+	vertical-align: middle;
+	transition: all .4s;
+}
+.box:hover img{
+	opacity: .8;
+	filter: hue-rotate(180deg);
+}
+
+/* Content */
+.content{
+	position: absolute;
+	top:25%;
+	left: 50%;
+	transform:translateX(-50%);
+	width: 100%;
+	padding: 0 30px;
+	color: #fff;
+	text-align: center;
+	opacity: 0;
+	z-index: 1;
+	transition: all .4s ease-in-out;
+}
+
+.box:hover .content{
+	opacity: 1;
+}
+
+.content .title{
+	font-size: 23px;
+	font-weight: 800;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin:  0 0 2px;
+}
+
+.content .post{
+	font-size: 16px;
+	text-transform: capitalize;
+}
+/* Icons */
+.icon{
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	transform: translateX(-50%);
+}
+.icon li{
+	display: inline-block;
+	margin: 0 2px;
+	transform: translateX(-300px);
+	transition: all .4s ease;
+}
+.box .icon li:nth-child(2){
+	transform: translateX(300px);
+}
+.icon i{
+	font-size: 16px;
+	line-height: 35px;
+	font-weight: 900;
+	color: #fff;
+	text-align: center;
+	background-color: #3498db;
+	width: 35px;
+	height: 35px;
+	border: 3px solid #fff;
+	transition: all .3s;
+}
+.fa-search:before{
+	content: "\f002";
+}
+.fa-link:before{
+	content: "\f0c1";
+}
+.box:hover .icon li{
+	transform: translateX(0);
+}
+
+.icon li i:hover{
+	color: #3498db;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+

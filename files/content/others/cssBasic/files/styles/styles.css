@@ -1,0 +1,563 @@
+body{
+	font-family: 'Titillium Web', sans-serif;
+	margin: 0 0 0 20px;
+    padding: 0;
+}
+    .title {
+      background-color: #929474;
+      color: #FFFFFF;
+      font-size: 1.4rem;
+      line-height: 1.1rem;
+      padding: 10px 40px;
+    }
+.container{
+	margin-top: 30px;
+}
+a:link, a:active, a:visited{
+	text-decoration: none;
+	outline: none;
+}
+.flex-container{
+	display: flex;
+	flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.flex-item{
+	width: 22%;
+	margin-top: 100px;
+}
+.flex-item p{
+	font-family: Consolas,"courier new";
+  color: crimson;
+  /*background-color: #f1f1f1;*/
+  padding: 2px;
+  font-size: 12px;
+	text-align: left;
+}
+h3{
+	text-align: center;
+}
+h4{
+	margin-bottom: 10px;
+}
+/* Social media button with icon */
+.btn {
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.btn:hover{
+  opacity: 1;
+}
+.fa {
+  background-color: #3B5998;
+  color: white;
+}
+i{
+	padding-right: 20px;
+}
+
+/* Register button */
+.registerBtn {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1em;
+  padding: .6em 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: #ffffff;
+  border-radius: 10px;
+  border: 2px solid rgba(120, 0, 35, 1.00);
+  background-image: -webkit-linear-gradient(270deg, rgba(171, 0, 50, 1.00) 0%, rgba(120, 0, 35, 1.00) 99.48%);
+  background-image: -moz-linear-gradient(270deg, rgba(171, 0, 50, 1.00) 0%, rgba(120, 0, 35, 1.00) 99.48%);
+  background-image: -o-linear-gradient(270deg, rgba(171, 0, 50, 1.00) 0%, rgba(120, 0, 35, 1.00) 99.48%);
+  background-image: linear-gradient(180deg, rgba(171, 0, 50, 1.00) 0%, rgba(120, 0, 35, 1.00) 99.48%);
+  transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+}
+.registerBtn:hover {
+  color: #ffffff;
+  background-image: -webkit-linear-gradient(270deg, rgba(120, 0, 35, 1.00) 0%, rgba(120, 0, 35, 1.00) 99.48%);
+  background-image: -moz-linear-gradient(270deg, rgba(120, 0, 35, 1.00) 0%, rgba(120, 0, 35, 1.00) 99.48%);
+  background-image: -o-linear-gradient(270deg, rgba(120, 0, 35, 1.00) 0%, rgba(120, 0, 35, 1.00) 99.48%);
+  background-image: linear-gradient(180deg, rgba(120, 0, 35, 1.00) 0%, rgba(120, 0, 35, 1.00) 99.48%);
+}
+
+/* Join Button */
+a.joinBtn:link, a.joinBtn:active, a.joinBtn:visited {
+  background-color: #f37036;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  color: #FFFFFF;
+  font-size: 1.4em;
+  line-height: 1em;
+  text-align: center;
+  width: auto;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 360px;
+  border-bottom: 8px solid #CB5E2D;*/
+  margin-bottom: 10px;
+}
+a.joinBtn:hover {
+  background-color: #CB5E2D;
+  border-bottom: 8px solid #f37036;*/
+}
+
+/* Pressed Effect Button */
+.pressed-effect{
+	box-shadow: 0 9px #999;
+	background-color: #CD3404;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	border-radius: 6px;
+}
+.pressed-effect:active{
+	box-shadow: 0 5px #999;
+	transform: translateY(4px);
+}
+
+/* CSS Triangle */
+.triangle {
+  width: 200px;
+  height: 200px;
+  border: 10px solid black;
+	
+  border-left-color:    red;
+  border-right-color:   yellowgreen;
+  border-top-color:     orange;
+  border-bottom-color:  rebeccapurple;
+	
+  width: 0;
+  height: 0;
+	
+  border-left-color: transparent;
+  border-right: 10px solid yellowgreen;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+.righttriangle {
+ 
+  border: 10px solid black;
+	
+  width: 0;
+  height: 0;
+	
+  border-left-color: red;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}	
+.lefttriangle {
+ 
+  border: 10px solid black;
+	
+  width: 0;
+  height: 0;
+	
+  border-left-color: transparent;
+  border-right-color: yellowgreen;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+.bottomtriangle {
+ 
+  border: 10px solid black;
+	
+  width: 0;
+  height: 0;
+	
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: orange;
+  border-bottom-color: transparent;
+}	
+.toptriangle {
+ 
+  border: 10px solid black;
+	
+  width: 0;
+  height: 0;
+	
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: rebeccapurple;
+}	
+
+.lefttriangle, .righttriangle, .toptriangle, .bottomtriangle{
+	margin: 0 auto;
+}
+
+/* Tool Tips Four Positions */
+.tooltip-container{
+	margin-left: 200px;
+}
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	  
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	margin-left: -60px;
+}
+
+.tooltip .top{
+	bottom: 100%;
+	left: 50%;
+}
+.tooltip .bottom{
+	top: 100%;
+	left: 50%;
+}
+.tooltip .left{
+	top: -5px;
+	right: 105%;
+}
+.tooltip .right{
+	top: -5px;
+	left: 150%;
+}
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+	
+/* Line */
+.line {
+    position: relative;
+}
+.line:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+    -webkit-transform: scaleY(.5);
+    -moz-transform: scaleY(.5);
+    -ms-transform: scaleY(.5);
+    -o-transform: scaleY(.5);
+    transform: scaleY(.2);
+}
+
+/* Letter Type */
+.texteffect{
+	font-size: 30px;
+	color: #222;
+	text-shadow: 2px 3px 3px #555;
+}
+
+/* Fans */
+.shan{
+	width: 0;
+	height: 0;
+	border: solid 100px red;
+	border-color: red transparent transparent transparent;
+	border-radius: 100px;
+}
+
+/* Custom Bullet Points */
+ul{
+	list-style: none;
+}
+ul.style1 li::before{
+	content: "* ";
+}
+ul.style2 li::before{
+	content: "/ ";
+}
+a{
+	text-decoration: none;
+}
+.style3{
+	font-size: 1em;
+	line-height: 1.2em;
+	font-weight: 600;
+}
+.breadcrumb a:first-child::before{
+	content: ">>";
+}
+.breadcrumb a::after{
+	content: "/";
+}
+.breadcrumb a:last-child::after{
+	content: " " url("../../timewatch.jpg");
+}
+.breadcrumb a[href ^= 'http']:not([href *= 'yourdomain.']) {
+    background: transparent url("../../timewatch.jpg") no-repeat center right;
+    padding-right: 16px;
+}
+
+/* Table */
+table{
+	width: auto;
+	border-collapse: collapse;
+}
+table tr th{
+	border: 1px solid #D0F5A9;
+	padding: 5px;
+}
+table tr td{
+	width: 50%;
+	border: 1px solid #D0F5A9;
+	padding: 5px;
+}
+.zebra{
+	background-color: #D0F5A9;
+}
+
+/* Shape */
+.g-content {
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
+  	background:
+	    linear-gradient(135deg, deeppink 25%, transparent 25%) -50px 0,
+	    linear-gradient(225deg, deeppink 25%, transparent 25%) -50px 0,
+	    linear-gradient(315deg, deeppink 25%, transparent 25%),
+	    linear-gradient(45deg, deeppink 25%, transparent 25%);
+  }
+
+/* Check Mark */
+.check-mark{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	opacity: 0.85;
+	background-color: #2196f3;
+}
+.check-mark:hover{
+	opacity: 1;
+}
+.check-mark:after{
+	content: "";
+	position: absolute;
+	display: block;
+	left: 50px;
+	top: 5px;
+	width: 50px;
+	height: 100px;
+	border: solid #fff;
+	border-width: 0 10px 10px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+/* Vertical Line */
+.vertical-line{
+	position: relative;
+	width: 100%;
+}
+.vl{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	border: 2px solid #ddd;
+	height: 175px;
+}
+.vl-innertext{
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #f1f1f1;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+	padding: 8px 10px;
+	vertical-align: 
+}
+
+/* Copy Text to Clipboard */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* Create an Animated Search Form */
+.animation-search input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+.animation-search input[type=text]:focus {
+  width: 100%;
+}
+
+/* Remove arrows/spinners from input type number with CSS */
+/* Chrome, Safari, Edge, Opera */
+.remove-arrow input::-webkit-outer-spin-button,
+.remove-arrow input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+.remove-arrow input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Change the style of the title attribute inside an anchor tag */
+.change-title-attribute a{
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+}
+.change-title-attribute a[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  top: -200%;
+  left: 0;
+  color: red;
+}
+
+/* Using ruby indicate the pinyin */
+.ruby-container{
+	width: 30%;
+	margin: 0 auto 100px;
+}
+ruby{
+	ruby-position:over;
+}
+rt{
+	font-size: 20px;
+	padding-left: 10px;
+}
+rb{
+	font-size: 20px;
+}
+
+/* Big first letter (Only Safari supports this property) & 50% <hr> */
+.subhead{
+	width: 60%;
+	font-family: "Slabo";
+	font-size: 18px;
+	line-height: 26px;
+	color: #000;
+	margin: 0 auto;
+	padding: 20px 100px;
+	text-align: left;
+}
+.subhead::first-letter{
+	font-weight: bold;
+	color: #266e64;
+	initial-letter:3;
+	-webkit-initial-letter:3;
+	-moz-initial-letter:3;
+	-o-initial-letter:3;
+	margin-right: 0.4em;
+}
+hr{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

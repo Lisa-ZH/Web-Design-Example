@@ -1,0 +1,315 @@
+<!doctype html>
+<html>
+<head>
+<meta id="testViewport" name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta charset="UTF-8">
+<title>Hover Text Animation</title>
+<!--
+<link href="files/styles/normalize.css" rel="stylesheet" type="text/css">
+-->
+<link href="files/styles/styles.css" rel="stylesheet" type="text/css">
+
+<link href="files/styles/responsive.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js"><\/script>')</script>
+<script src="files/js/script.js"></script>
+
+</head>
+
+<body>
+  <div class="title">Images / Image Hover Text Effect - 5</div>
+  <div class="container">
+    <h3 id="border-classes">Hover Text Animation</h3>
+
+<div class="row">
+  <div class="column">
+    <figure class="hover-text">
+      <img src="image13.jpg" alt="Sample Image" />
+      <figcaption>
+        <div class="reveal reveal-up"><h3>Reveal Up</h3></div>
+      </figcaption>
+    </figure>
+   <div class="code-caption">
+    <h4>Reveal Up</h4>
+    .reveal-up > *{<br>
+      transform: translateY(100%);<br>
+    }<br>
+    .hover-text:hover .reveal-up{<br>
+      opacity: 1;<br>
+    }<br>
+    .hover-text:hover .reveal-up > *{<br>
+      transform: translate(0) rotate(0deg);<br>
+    }
+   </div>
+  </div>
+
+  <div class="column">
+    <figure class="hover-text">
+      <img src="image13.jpg" alt="Sample Image" />
+      <figcaption>
+        <div class="reveal reveal-down"><h3>Reveal Down</h3></div>
+      </figcaption>
+    </figure>
+   <div class="code-caption">
+    <h4>Reveal Down</h4>
+    .reveal-down > *{<br>
+      transform: translateY(-100%);<br>
+    }<br>
+    .hover-text:hover .reveal-down{<br>
+      opacity: 1;<br>
+    }<br>
+    .hover-text:hover .reveal-down > *{<br>
+      transform: translate(0) rotate(0deg);<br>
+    }
+   </div>
+  </div>
+
+  <div class="column">
+    <figure class="hover-text">
+      <img src="image13.jpg" alt="Sample Image" />
+      <figcaption>
+        <div class="reveal reveal-left"><h3>Reveal Left</h3></div>
+      </figcaption>
+    </figure>
+   <div class="code-caption">
+    <h4>Reveal Left</h4>
+    .reveal-left > *{<br>
+      transform: translateX(100%);<br>
+    }<br>
+    .hover-text:hover .reveal-left{<br>
+      opacity: 1;<br>
+    }<br>
+    .hover-text:hover .reveal-left > *{<br>
+      transform: translate(0) rotate(0deg);<br>
+    }
+   </div>
+  </div>
+
+  <div class="column">
+    <figure class="hover-text">
+      <img src="image13.jpg" alt="Sample Image" />
+      <figcaption>
+        <div class="reveal reveal-right"><h3>Reveal Right</h3></div>
+      </figcaption>
+    </figure>
+   <div class="code-caption">
+    <h4>Reveal Right</h4>
+    .reveal-right > *{<br>
+      transform: translateX(-100%);<br>
+    }<br>
+    .hover-text:hover .reveal-right{<br>
+      opacity: 1;<br>
+    }<br>
+    .hover-text:hover .reveal-right > *{<br>
+      transform: translate(0) rotate(0deg);<br>
+    }
+   </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <figure class="hover-text">
+      <img src="image13.jpg" alt="Sample Image" />
+      <figcaption>
+        <div class="fade fade-up"><h3>Fade Up</h3></div>
+      </figcaption>
+    </figure>
+   <div class="code-caption">
+    <h4>Fade Up</h4>
+    .fade-up{<br>
+      transform: translateY(1.5em);<br>
+    }<br>
+    .hover-text:hover .fade-up{<br>
+      opacity: 1;<br>
+    }<br>
+    .hover-text:hover .fade-up{<br>
+      transform: translate(0);<br>
+    }
+   </div>
+  </div>
+
+  <div class="column">
+    <figure class="hover-text">
+      <img src="image13.jpg" alt="Sample Image" />
+      <figcaption>
+        <div class="fade fade-down"><h3>Fade Down</h3></div>
+      </figcaption>
+    </figure>
+   <div class="code-caption">
+    <h4>Fade Down</h4>
+    .fade-down{<br>
+      transform: translateY(-1.5em);<br>
+    }<br>
+    .hover-text:hover .fade-down{<br>
+      opacity: 1;<br>
+    }<br>
+    .hover-text:hover .fade-down{<br>
+      transform: translate(0);<br>
+    }
+   </div>
+  </div>
+
+  <div class="column">
+    <figure class="hover-text">
+      <img src="image13.jpg" alt="Sample Image" />
+      <figcaption>
+        <div class="fade fade-left"><h3>Fade Left</h3></div>
+      </figcaption>
+    </figure>
+   <div class="code-caption">
+    <h4>Fade Left</h4>
+    .fade-left{<br>
+      transform: translateX(1.5em);<br>
+    }<br>
+    .hover-text:hover .fade-left{<br>
+      opacity: 1;<br>
+    }<br>
+    .hover-text:hover .fade-left{<br>
+      transform: translate(0);<br>
+    }
+   </div>
+  </div>
+
+  <div class="column">
+    <figure class="hover-text">
+      <img src="image13.jpg" alt="Sample Image" />
+      <figcaption>
+        <div class="fade fade-right"><h3>Fade Right</h3></div>
+      </figcaption>
+    </figure>
+   <div class="code-caption">
+    <h4>Fade Right</h4>
+    .fade-right{<br>
+      transform: translateX(-1.5em);<br>
+    }<br>
+    .hover-text:hover .fade-right{<br>
+      opacity: 1;<br>
+    }<br>
+    .hover-text:hover .fade-right{<br>
+      transform: translate(0);<br>
+    }
+   </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <figure class="hover-text">
+      <img src="image13.jpg" alt="Sample Image" />
+      <figcaption>
+        <div class="rotate rotate-up-right"><h3>Rotate Up Right</h3></div>
+      </figcaption>
+    </figure>
+   <div class="code-caption">
+    <h4>Rotate Up Right</h4>
+    .rotate-up-right > *{<br>
+      transform-origin: bottom left;<br>
+      transform: rotate(90deg);<br>
+    }<br>
+    .hover-text:hover .rotate-up-right{<br>
+      opacity: 1;<br>
+    }<br>
+    .hover-text:hover .rotate-up-right > *{<br>
+      transform: translate(0);<br>
+    }
+   </div>
+  </div>
+
+  <div class="column">
+    <figure class="hover-text">
+      <img src="image13.jpg" alt="Sample Image" />
+      <figcaption>
+        <div class="rotate rotate-up-left"><h3>Rotate Up Left</h3></div>
+      </figcaption>
+    </figure>
+   <div class="code-caption">
+    <h4>Rotate Up Left</h4>
+    .rotate-up-left > *{<br>
+      transform-origin: bottom right;<br>
+      transform: rotate(-90deg);<br>
+    }<br>
+    .hover-text:hover .rotate-up-left{<br>
+      opacity: 1;<br>
+    }<br>
+    .hover-text:hover .rotate-up-left > *{<br>
+      transform: translate(0);<br>
+    }
+   </div>
+  </div>
+
+  <div class="column">
+    <figure class="hover-text">
+      <img src="image13.jpg" alt="Sample Image" />
+      <figcaption>
+        <div class="rotate rotate-down-right"><h3>Rotate Down Right</h3></div>
+      </figcaption>
+    </figure>
+   <div class="code-caption">
+    <h4>Rotate Down Right</h4>
+    .rotate-down-right > *{<br>
+      transform-origin: top left;<br>
+      transform: rotate(-90deg);<br>
+    }<br>
+    .hover-text:hover .rotate-down-right{<br>
+      opacity: 1;<br>
+    }<br>
+    .hover-text:hover .rotate-down-right > *{<br>
+      transform: translate(0);<br>
+    }
+   </div>
+  </div>
+
+  <div class="column">
+    <figure class="hover-text">
+      <img src="image13.jpg" alt="Sample Image" />
+      <figcaption>
+        <div class="rotate rotate-down-left"><h3>Rotate Down Left</h3></div>
+      </figcaption>
+    </figure>
+   <div class="code-caption">
+    <h4>Rotate Down Left</h4>
+    .rotate-down-left > *{<br>
+      transform-origin: top right;<br>
+      transform: rotate(90deg);<br>
+    }<br>
+    .hover-text:hover .rotate-down-left{<br>
+      opacity: 1;<br>
+    }<br>
+    .hover-text:hover .rotate-down-left > *{<br>
+      transform: translate(0);<br>
+    }
+   </div>
+  </div>
+</div>
+
+<br><br><br><br><br><br>
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

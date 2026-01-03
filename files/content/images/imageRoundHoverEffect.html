@@ -1,0 +1,168 @@
+<!--||{% load job_tags %}||-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <link href="file/css/style.css" rel="stylesheet" type="text/css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/default.min.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+   <title>纯css圆形网格图片鼠标hover动画特效</title>
+   <style>
+body {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+      font-weight: 300;
+      margin: 0 0 0 20px;
+      padding: 0;
+   display: flex;
+   flex-direction: column;
+}
+.title {
+      background-color: #929474;
+      color: #FFFFFF;
+      font-size: 1.4rem;
+      line-height: 1.1rem;
+      padding: 10px 40px;
+    }
+.container {
+  margin-top: 30px;
+  min-height: 60vh;
+  display: grid;
+  place-content: center;
+  background: #3B8686;
+}
+.gallery {
+  --g: 8px;   /* the gap */
+  --s: 400px; /* the size */
+  
+  display: grid;
+  border-radius: 50%;
+}
+.gallery > img {
+  grid-area: 1/1;
+  width: 400px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  transform: translate(var(--_x,0),var(--_y,0));
+  cursor: pointer;
+  z-index: 0;
+  transition: .3s, z-index 0s .3s;
+}
+.gallery img:hover {
+  --_i: 1;
+  z-index: 1;
+  transition: transform .2s, clip-path .3s .2s, z-index 0s;
+}
+.gallery:hover img {
+  transform: translate(0,0);
+}
+.gallery > img:nth-child(1) {
+  clip-path: polygon(50% 50%,calc(50%*var(--_i,0)) calc(120%*var(--_i,0)),0 calc(100%*var(--_i,0)),0 0,100% 0,100% calc(100%*var(--_i,0)),calc(100% - 50%*var(--_i,0)) calc(120%*var(--_i,0)));
+  --_y: calc(-1*var(--g))
+}
+.gallery > img:nth-child(2) {
+  clip-path: polygon(50% 50%,calc(100% - 120%*var(--_i,0)) calc(50%*var(--_i,0)),calc(100% - 100%*var(--_i,0)) 0,100% 0,100% 100%,calc(100% - 100%*var(--_i,0)) 100%,calc(100% - 120%*var(--_i,0)) calc(100% - 50%*var(--_i,0)));
+  --_x: var(--g)
+}
+.gallery > img:nth-child(3) {
+  clip-path: polygon(50% 50%,calc(100% - 50%*var(--_i,0)) calc(100% - 120%*var(--_i,0)),100% calc(100% - 120%*var(--_i,0)),100% 100%,0 100%,0 calc(100% - 100%*var(--_i,0)),calc(50%*var(--_i,0)) calc(100% - 120%*var(--_i,0)));
+  --_y: var(--g)
+}
+.gallery > img:nth-child(4) {
+  clip-path: polygon(50% 50%,calc(120%*var(--_i,0)) calc(50%*var(--_i,0)),calc(100%*var(--_i,0)) 0,0 0,0 100%,calc(100%*var(--_i,0)) 100%,calc(120%*var(--_i,0)) calc(100% - 50%*var(--_i,0)));
+  --_x: calc(-1*var(--g))
+}
+   </style>
+</head>
+
+<body>
+  <div class="title">Images / Image Round Hover Effect</div>
+   <div class="container">
+      <div class="gallery">
+      <img src="https://picsum.photos/id/174/400/400" alt="a hot air balloon">
+      <img src="https://picsum.photos/id/188/400/400" alt="a sky photo of an old city">
+      <img src="https://picsum.photos/id/211/400/400" alt="a small boat">
+      <img src="https://picsum.photos/id/28/400/400" alt="a forest">
+   </div>
+   </div>
+   <br>   <br>
+   <h3>HTML Code</h3>
+   <pre>
+      <code id="codeBlock"></code>
+   </pre>
+
+   <h3>CSS Code</h3>
+   <pre>
+      <code>
+body {
+   display: flex;
+   flex-direction: column;
+}
+.container {
+  margin: 0;
+  min-height: 60vh;
+  display: grid;
+  place-content: center;
+  background: #3B8686;
+}
+.gallery {
+  --g: 8px;   /* the gap */
+  --s: 400px; /* the size */
+  
+  display: grid;
+  border-radius: 50%;
+}
+.gallery > img {
+  grid-area: 1/1;
+  width: 400px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  transform: translate(var(--_x,0),var(--_y,0));
+  cursor: pointer;
+  z-index: 0;
+  transition: .3s, z-index 0s .3s;
+}
+.gallery img:hover {
+  --_i: 1;
+  z-index: 1;
+  transition: transform .2s, clip-path .3s .2s, z-index 0s;
+}
+.gallery:hover img {
+  transform: translate(0,0);
+}
+.gallery > img:nth-child(1) {
+  clip-path: polygon(50% 50%,calc(50%*var(--_i,0)) calc(120%*var(--_i,0)),0 calc(100%*var(--_i,0)),0 0,100% 0,100% calc(100%*var(--_i,0)),calc(100% - 50%*var(--_i,0)) calc(120%*var(--_i,0)));
+  --_y: calc(-1*var(--g))
+}
+.gallery > img:nth-child(2) {
+  clip-path: polygon(50% 50%,calc(100% - 120%*var(--_i,0)) calc(50%*var(--_i,0)),calc(100% - 100%*var(--_i,0)) 0,100% 0,100% 100%,calc(100% - 100%*var(--_i,0)) 100%,calc(100% - 120%*var(--_i,0)) calc(100% - 50%*var(--_i,0)));
+  --_x: var(--g)
+}
+.gallery > img:nth-child(3) {
+  clip-path: polygon(50% 50%,calc(100% - 50%*var(--_i,0)) calc(100% - 120%*var(--_i,0)),100% calc(100% - 120%*var(--_i,0)),100% 100%,0 100%,0 calc(100% - 100%*var(--_i,0)),calc(50%*var(--_i,0)) calc(100% - 120%*var(--_i,0)));
+  --_y: var(--g)
+}
+.gallery > img:nth-child(4) {
+  clip-path: polygon(50% 50%,calc(120%*var(--_i,0)) calc(50%*var(--_i,0)),calc(100%*var(--_i,0)) 0,0 0,0 100%,calc(100%*var(--_i,0)) 100%,calc(120%*var(--_i,0)) calc(100% - 50%*var(--_i,0)));
+  --_x: calc(-1*var(--g))
+}
+      </code>
+   </pre>
+   <script>
+      const code = `
+<div class="gallery">
+  <img src="https://picsum.photos/id/174/400/400" alt="a hot air balloon">
+  <img src="https://picsum.photos/id/188/400/400" alt="a sky photo of an old city">
+  <img src="https://picsum.photos/id/211/400/400" alt="a small boat">
+  <img src="https://picsum.photos/id/28/400/400" alt="a forest">
+</div>
+      `;
+      document.getElementById('codeBlock').textContent = code;
+      hljs.highlightAll();
+   </script>
+</body>
+
+</html>

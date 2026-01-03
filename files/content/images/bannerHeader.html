@@ -1,0 +1,426 @@
+<!--||{% load job_tags %}||-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="file/css/style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+    <title>Banner Header</title>
+    <style>
+        body {
+			font-size: 1em;
+    line-height: 1.4em;
+    font-family: Titillium Web, Arial, sans-serif;
+    color: #000;
+    background-size: contain;
+    letter-spacing: -0.5px;
+            margin: 0 0 0 20px;
+            padding: 0;
+        }
+        .title {
+            background-color: #929474;
+            color: #FFFFFF;
+            font-size: 1.4rem;
+            line-height: 1.1rem;
+            padding: 10px 40px;
+        }
+        .container {
+            width: 960px;
+            margin: 30px auto 0 auto;
+        }
+        /**************************** Headline FadeInOut ****************************/
+.content-row1, .content-row2, .content-row3, .content-row4, .content-row5, .content-row6{
+	display: block;
+	position: relative;
+	width: 100%;
+	margin: 10px auto;
+	height: 300px;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.content-row1, .content-row3, .content-row5{
+	background-image: url(../../images/banner-desktop-woodlands.jpg);
+}
+.content-row2, .content-row4, .content-row6{
+	background-image: url(../../images/banner-desktop-hmh.jpeg);
+}
+.content-row1 .text, .content-row2 .text, .content-row3 .text, .content-row4 .text, .content-row5 .text, .content-row6 .text{
+	font-size: 1.4em;
+	line-height: 1.2em;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: -.02em;
+	text-transform: uppercase;
+	color: #0e4c7f;
+}
+.content-row1 span, .content-row2 span, .content-row3 span, .content-row4 span, .content-row5 span, .content-row6 span{
+	display: block;
+	font-size: 2em;
+	line-height: 1em;
+	font-weight: 600;
+}
+.content-row1 .text, .content-row3 .text, .content-row5 .text{
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	transform: translateY(-50%);
+	width: auto;
+}
+.content-row2 .text, .content-row4 .text, .content-row6 .text{
+	position: absolute;
+	top: 50%;
+	left: 12%;
+	transform: translateY(-50%);
+	width: auto;
+	text-align: left;
+}
+/*animation: fadeIn 3s ease-out;*/
+.content-row1 .text, .content-row2 .text{
+	animation: fadeIn ease 3s;
+	-webkit-animation: fadeIn ease 3s;
+	-moz-animation: fadeIn ease 3s;
+	-o-animation: fadeIn ease 3s;
+	-ms-animation: fadeIn ease 3s;
+}
+@keyframes fadeIn{
+ 0%   { 
+  opacity:0;
+ }
+ 100% { 
+  opacity:1;
+ }
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+/*animation: Right to Left 4s ease-out;*/
+.content-row3 .text{
+ animation: rl_animate 4s;
+ -webkit-animation: rl_animate 4s;
+ -moz-animation: rl_animate 4s;
+}
+@keyframes rl_animate {
+ 0%{transform: translate(100%,-50%);}
+ 50%{transform: translate(0px,-50%);}
+}
+@-webkit-keyframes rl_animate {
+ 0%{-webkit-transform: translate(100%,-50%);}
+ 50%{-webkit-transform: translate(0px,-50%);}
+}
+@-moz-keyframes rl_animate {
+ 0%{-moz-transform: translate(100%,-50%);}
+ 50%{-moz-transform: translate(0px,-50%);}
+}
+
+/*animation: Left to Right 4s ease-out;*/
+.content-row4 .text{
+ animation: lr_animate 4s;
+ -webkit-animation: lr_animate 4s;
+ -moz-animation: lr_animate 4s;
+}
+@keyframes lr_animate {
+ 0%{transform: translate(-100%,-50%);}
+ 50%{transform: translate(0px,-50%);}
+}
+@-webkit-keyframes lr_animate {
+ 0%{-webkit-transform: translate(-100%,-50%);}
+ 50%{-webkit-transform: translate(0px,-50%);}
+}
+@-moz-keyframes lr_animate {
+ 0%{-moz-transform: translate(-100%,-50%);}
+ 50%{-moz-transform: translate(0px,-50%);}
+}
+
+/*animation: Top to Bottom 4s ease-out;*/
+.content-row5 .text{
+ animation: tb_animate 4s;
+ -webkit-animation: tb_animate 4s;
+ -moz-animation: tb_animate 4s;
+}
+@keyframes tb_animate {
+ 0%{transform: translate(0px,-200%);}
+ 50%{transform: translate(0px,-50%);}
+}
+@-webkit-keyframes tb_animate {
+ 0%{-webkit-transform: translate(0px,-200%);}
+ 50%{-webkit-transform: translate(0px,-50%);}
+}
+@-moz-keyframes tb_animate {
+ 0%{-moz-transform: translate(0px,-200%);}
+ 50%{-moz-transform: translate(0px,-50%);}
+}
+
+/*animation: Bottom to Top 4s ease-out;*/
+.content-row6 .text{
+ animation: bt_animate 4s;
+ -webkit-animation: bt_animate 4s;
+ -moz-animation: bt_animate 4s;
+}
+@keyframes bt_animate {
+ 0%{transform: translate(0px,100%);}
+ 50%{transform: translate(0px,-50%);}
+}
+@-webkit-keyframes bt_animate {
+ 0%{-webkit-transform: translate(0px,100%);}
+ 50%{-webkit-transform: translate(0px,-50%);}
+}
+@-moz-keyframes bt_animate {
+ 0%{-moz-transform: translate(0px,100%);}
+ 50%{-moz-transform: translate(0px,-50%);}
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="title">Images / Banner Header</div>
+    <div class="container">
+        <!--Headline Position Right-->
+<h1>Headline Position Right FadeIn</h1>
+<div class="content-row1">
+	<div class="text">
+		<span>KICKSTART THE NEW YEAR <br /> WITH A BETTER PLACE <br /> TO WORK AND PLAY</span>
+		Join our Nursing Team <br /> in The Woodlands
+	</div>
+</div>
+
+<!--Headline Position Left-->
+<h1>Headline Position Left FadeIn</h1>
+<div class="content-row2">
+	<div class="text">
+		<span>CARING FOR <br>YOUR COMMUNITY</span>
+		HAS NEVER BEEN <br>MORE IMPORTANT
+	</div>
+</div>
+
+<!--Headline Right to Left-->
+<h1>Headline Right to Left</h1>
+<div class="content-row3">
+	<div class="text">
+		<span>KICKSTART THE NEW YEAR <br /> WITH A BETTER PLACE <br /> TO WORK AND PLAY</span>
+		Join our Nursing Team <br /> in The Woodlands
+	</div>
+</div>
+
+<!--Headline Left to Right-->
+<h1>Headline Left to Right</h1>
+<div class="content-row4">
+	<div class="text">
+		<span>CARING FOR <br>YOUR COMMUNITY</span>
+		HAS NEVER BEEN <br>MORE IMPORTANT
+	</div>
+</div>
+
+<!--Headline Top to Bottom-->
+<h1>Headline Top to Bottom</h1>
+<div class="content-row5">
+	<div class="text">
+		<span>KICKSTART THE NEW YEAR <br /> WITH A BETTER PLACE <br /> TO WORK AND PLAY</span>
+		Join our Nursing Team <br /> in The Woodlands
+	</div>
+</div>
+
+<!--Headline Bottom to Top-->
+<h1>Headline Bottom to Top</h1>
+<div class="content-row6">
+	<div class="text">
+		<span>CARING FOR <br>YOUR COMMUNITY</span>
+		HAS NEVER BEEN <br>MORE IMPORTANT
+	</div>
+</div>
+    </div>
+    <br> <br>
+    
+
+    <h3>CSS Code</h3>
+    <pre>
+      <code>
+/**************************** Headline FadeInOut ****************************/
+.content-row1, .content-row2, .content-row3, .content-row4, .content-row5, .content-row6{
+	display: block;
+	position: relative;
+	width: 100%;
+	margin: 10px auto;
+	height: 300px;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.content-row1, .content-row3, .content-row5{
+	background-image: url(../images/banner-desktop-woodlands.jpg);
+}
+.content-row2, .content-row4, .content-row6{
+	background-image: url(../images/banner-desktop-hmh.jpeg);
+}
+.content-row1 .text, .content-row2 .text, .content-row3 .text, .content-row4 .text, .content-row5 .text, .content-row6 .text{
+	font-size: 1.4em;
+	line-height: 1.2em;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: -.02em;
+	text-transform: uppercase;
+	color: #0e4c7f;
+}
+.content-row1 span, .content-row2 span, .content-row3 span, .content-row4 span, .content-row5 span, .content-row6 span{
+	display: block;
+	font-size: 2em;
+	line-height: 1em;
+	font-weight: 600;
+}
+.content-row1 .text, .content-row3 .text, .content-row5 .text{
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	transform: translateY(-50%);
+	width: auto;
+}
+.content-row2 .text, .content-row4 .text, .content-row6 .text{
+	position: absolute;
+	top: 50%;
+	left: 12%;
+	transform: translateY(-50%);
+	width: auto;
+	text-align: left;
+}
+/*animation: fadeIn 3s ease-out;*/
+.content-row1 .text, .content-row2 .text{
+	animation: fadeIn ease 3s;
+	-webkit-animation: fadeIn ease 3s;
+	-moz-animation: fadeIn ease 3s;
+	-o-animation: fadeIn ease 3s;
+	-ms-animation: fadeIn ease 3s;
+}
+@keyframes fadeIn{
+ 0%   { 
+  opacity:0;
+ }
+ 100% { 
+  opacity:1;
+ }
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+/*animation: Right to Left 4s ease-out;*/
+.content-row3 .text{
+ animation: rl_animate 4s;
+ -webkit-animation: rl_animate 4s;
+ -moz-animation: rl_animate 4s;
+}
+@keyframes rl_animate {
+ 0%{transform: translate(100%,-50%);}
+ 50%{transform: translate(0px,-50%);}
+}
+@-webkit-keyframes rl_animate {
+ 0%{-webkit-transform: translate(100%,-50%);}
+ 50%{-webkit-transform: translate(0px,-50%);}
+}
+@-moz-keyframes rl_animate {
+ 0%{-moz-transform: translate(100%,-50%);}
+ 50%{-moz-transform: translate(0px,-50%);}
+}
+
+/*animation: Left to Right 4s ease-out;*/
+.content-row4 .text{
+ animation: lr_animate 4s;
+ -webkit-animation: lr_animate 4s;
+ -moz-animation: lr_animate 4s;
+}
+@keyframes lr_animate {
+ 0%{transform: translate(-100%,-50%);}
+ 50%{transform: translate(0px,-50%);}
+}
+@-webkit-keyframes lr_animate {
+ 0%{-webkit-transform: translate(-100%,-50%);}
+ 50%{-webkit-transform: translate(0px,-50%);}
+}
+@-moz-keyframes lr_animate {
+ 0%{-moz-transform: translate(-100%,-50%);}
+ 50%{-moz-transform: translate(0px,-50%);}
+}
+
+/*animation: Top to Bottom 4s ease-out;*/
+.content-row5 .text{
+ animation: tb_animate 4s;
+ -webkit-animation: tb_animate 4s;
+ -moz-animation: tb_animate 4s;
+}
+@keyframes tb_animate {
+ 0%{transform: translate(0px,-200%);}
+ 50%{transform: translate(0px,-50%);}
+}
+@-webkit-keyframes tb_animate {
+ 0%{-webkit-transform: translate(0px,-200%);}
+ 50%{-webkit-transform: translate(0px,-50%);}
+}
+@-moz-keyframes tb_animate {
+ 0%{-moz-transform: translate(0px,-200%);}
+ 50%{-moz-transform: translate(0px,-50%);}
+}
+
+/*animation: Bottom to Top 4s ease-out;*/
+.content-row6 .text{
+ animation: bt_animate 4s;
+ -webkit-animation: bt_animate 4s;
+ -moz-animation: bt_animate 4s;
+}
+@keyframes bt_animate {
+ 0%{transform: translate(0px,100%);}
+ 50%{transform: translate(0px,-50%);}
+}
+@-webkit-keyframes bt_animate {
+ 0%{-webkit-transform: translate(0px,100%);}
+ 50%{-webkit-transform: translate(0px,-50%);}
+}
+@-moz-keyframes bt_animate {
+ 0%{-moz-transform: translate(0px,100%);}
+ 50%{-moz-transform: translate(0px,-50%);}
+}
+
+      </code>
+   </pre>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>

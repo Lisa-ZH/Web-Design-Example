@@ -1,0 +1,377 @@
+<!--||{% load job_tags %}||-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link href="file/css/style.css" rel="stylesheet" type="text/css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/default.min.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+   <title>Hover Buttons Effect</title>
+	<style>
+		body {
+			margin: 0 0 0 20px;
+			padding: 0;
+			background-color: #e0e5ec;
+		}
+		.container{
+			display: flex;
+			flex-direction: column;
+		}
+		.title {
+			background-color: #929474;
+			color: #FFFFFF;
+			font-size: 1.4rem;
+			line-height: 1.1rem;
+			padding: 10px 40px;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		.search-container {
+			width: 100%;
+			max-width: 1500px;
+			margin: 14px auto 10px auto;
+			padding: 17px 0px 9px 0px;
+			background-color: #003b4c;
+			height: 50px;
+			text-align: center;
+		}
+
+		.search-button-container {
+			display: inline-block;
+			vertical-align: center;
+			margin-left: 30px;
+		}
+
+		.searchbar-search {
+			text-transform: uppercase;
+			font-size: .9em;
+			font-weight: 500;
+			letter-spacing: .05em;
+			padding: 9px 29px 9px 29px;
+			margin-left: 8%;
+			color: #ffffff;
+			background: #003b4c;
+			border: 2px solid #ffffff;
+			display: inline-block;
+			vertical-align: middle;
+			/*-webkit-transform: perspective(1px) translateY(0);
+			transform: perspective(1px) translateY(0);*/
+			-webkit-transform: translateY(0);
+			transform: translateY(0);
+			box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+			position: relative;
+			-webkit-transition-property: color;
+			transition-property: color;
+			-webkit-transition-duration: 0.15s;
+			transition-duration: 0.15s;
+			width: 165px;
+			text-align: center;
+		}
+
+		.searchbar-search:before {
+			background-color: #ffffff;
+			content: "";
+			position: absolute;
+			z-index: -1;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+		}
+
+		.searchbar-search:hover,
+		.searchbar-search:focus,
+		.searchbar-search:active {
+			color: #003b4c;
+			font-weight: 600;
+		}
+
+		.searchbar-search.btn1:before,
+		.searchbar-search.btn2:before,
+		.searchbar-search.btn3:before,
+		.searchbar-search.btn4:before,
+		.searchbar-search.btn5:before,
+		.searchbar-search.btn6:before {
+			-webkit-transition-property: transform;
+			transition-property: transform;
+			-webkit-transition-duration: 0.15s;
+			transition-duration: 0.15s;
+			-webkit-transition-timing-function: ease-out;
+			transition-timing-function: ease-out;
+		}
+
+		.searchbar-search.btn1:before {
+			-webkit-transform: scaleY(0);
+			transform: scaleY(0);
+			-webkit-transform-origin: 0% 100%;
+			transform-origin: 0% 100%;
+
+		}
+
+		.searchbar-search.btn2:before {
+			-webkit-transform: scaleY(0);
+			transform: scaleY(0);
+			-webkit-transform-origin: 100% 0;
+			transform-origin: 100% 0;
+
+		}
+
+		.searchbar-search.btn3:before {
+			-webkit-transform: scaleY(0);
+			transform: scaleY(0);
+			-webkit-transform-origin: 100% 50%;
+			transform-origin: 100% 50%;
+		}
+
+		.searchbar-search.btn4:before {
+			-webkit-transform: scaleX(0);
+			transform: scaleX(0);
+			-webkit-transform-origin: 50% 100%;
+			transform-origin: 50% 100%;
+		}
+
+		.searchbar-search.btn5:before {
+			-webkit-transform: scaleX(0);
+			transform: scaleX(0);
+			-webkit-transform-origin: 0% 100%;
+			transform-origin: 0% 100%;
+		}
+
+		.searchbar-search.btn6:before {
+			-webkit-transform: scaleX(0);
+			transform: scaleX(0);
+			-webkit-transform-origin: 100% 0%;
+			transform-origin: 100% 0%;
+		}
+
+		.searchbar-search.btn1:hover:before,
+		.searchbar-search.btn1:focus:before,
+		.searchbar-search.btn1:active:before {
+			-webkit-transform: scaleY(1);
+			transform: scaleY(1);
+		}
+
+		.searchbar-search.btn2:hover:before,
+		.searchbar-search.btn2:focus:before,
+		.searchbar-search.btn2:active:before {
+			-webkit-transform: scaleY(1);
+			transform: scaleY(1);
+		}
+
+		.searchbar-search.btn3:hover:before,
+		.searchbar-search.btn3:focus:before,
+		.searchbar-search.btn3:active:before {
+			-webkit-transform: scaleY(1);
+			transform: scaleY(1);
+		}
+
+		.searchbar-search.btn4:hover:before,
+		.searchbar-search.btn4:focus:before,
+		.searchbar-search.btn4:active:before {
+			-webkit-transform: scaleX(1);
+			transform: scaleX(1);
+		}
+
+		.searchbar-search.btn5:hover:before,
+		.searchbar-search.btn5:focus:before,
+		.searchbar-search.btn5:active:before {
+			-webkit-transform: scaleX(1);
+			transform: scaleX(1);
+		}
+
+		.searchbar-search.btn6:hover:before,
+		.searchbar-search.btn6:focus:before,
+		.searchbar-search.btn6:active:before {
+			-webkit-transform: scaleX(1);
+			transform: scaleX(1);
+		}
+
+		.code-container {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: space-around;
+			align-items: flex-start;
+		}
+
+		.code-item {
+			width: 45%;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="title">Buttons / Hover Buttons</div>
+	<div class="search-container">
+		<div class="search-button-container"> <a href="{% url 'search' %}" class="searchbar-search btn1">Advanced
+				Search</a> </div>
+		<div class="search-button-container"> <a href="{% url 'search' %}" class="searchbar-search btn2">Advanced
+				Search</a> </div>
+	</div>
+	<div class="search-container">
+		<div class="search-button-container"> <a href="{% url 'search' %}" class="searchbar-search btn3">Advanced
+				Search</a> </div>
+		<div class="search-button-container"> <a href="{% url 'search' %}" class="searchbar-search btn4">Advanced
+				Search</a> </div>
+	</div>
+	<div class="search-container">
+		<div class="search-button-container"> <a href="{% url 'search' %}" class="searchbar-search btn5">Advanced
+				Search</a> </div>
+		<div class="search-button-container"> <a href="{% url 'search' %}" class="searchbar-search btn6">Advanced
+				Search</a> </div>
+	</div>
+
+	<div class="code-container">
+		<div class="code-item">
+			<p>
+				.searchbar-search{<br>
+				&nbsp;&nbsp;&nbsp;display: inline-block;<br>
+				&nbsp;&nbsp;&nbsp;position: relative;<br>
+				&nbsp;&nbsp;&nbsp;padding: 10px 30px;<br>
+				&nbsp;&nbsp;&nbsp;font-size: 1em;<br>
+				&nbsp;&nbsp;&nbsp;line-height: 1em;<br>
+				&nbsp;&nbsp;&nbsp;letter-spacing: .05em;<br>
+				&nbsp;&nbsp;&nbsp;font-weight: 600;<br>
+				&nbsp;&nbsp;&nbsp;text-transform: uppercase;<br>
+				&nbsp;&nbsp;&nbsp;<strong>color: #fff;<br>
+					&nbsp;&nbsp;&nbsp;background-color: #003b4c;</strong><br>
+				&nbsp;&nbsp;&nbsp;border: 2px solid #fff;<br>
+				&nbsp;&nbsp;&nbsp;vertical-align: middle;<br>
+				&nbsp;&nbsp;&nbsp;<strong>transform: translateY(0);</strong><br>
+				&nbsp;&nbsp;&nbsp;-webkit-transition: color .2s ease-in-out;<br>
+				&nbsp;&nbsp;&nbsp;-moz-transition: color .2s ease-in-out;<br>
+				&nbsp;&nbsp;&nbsp;<strong>transition: color .2s ease-in-out;</strong><br>
+				}
+			</p>
+		</div>
+		<div class="code-item">
+			<p>
+				.searchbar-search:hover{<br>
+				&nbsp;&nbsp;&nbsp;color:#003b4c;<br>
+				}<br>
+				.searchbar-search:before{<br>
+				&nbsp;&nbsp;&nbsp;content: "";<br>
+				&nbsp;&nbsp;&nbsp;position: absolute;<br>
+				&nbsp;&nbsp;&nbsp;<strong>top:0;<br>
+					&nbsp;&nbsp;&nbsp;left: 0;<br>
+					&nbsp;&nbsp;&nbsp;bottom: 0;<br>
+					&nbsp;&nbsp;&nbsp;right: 0;<br>
+					&nbsp;&nbsp;&nbsp;z-index: -1;<br>
+					&nbsp;&nbsp;&nbsp;background-color: #fff;</strong><br>
+				}
+			</p>
+		</div>
+	</div>
+	<hr>
+	<div class="code-container">
+		<div class="code-item">
+			<h3>Bottom to Top</h3>
+			<p>
+				.searchbar-search.btn1:before{<br>
+				&nbsp;&nbsp;&nbsp;<strong>transform: scaleY(0);<br>
+					&nbsp;&nbsp;&nbsp;transform-origin: 0% 100%;</strong><br>
+				&nbsp;&nbsp;&nbsp;-webkit-transition:transform .2s ease-in-out;<br>
+				&nbsp;&nbsp;&nbsp;-moz-transition:transform .2s ease-in-out;<br>
+				&nbsp;&nbsp;&nbsp;transition:transform .2s ease-in-out;<br>
+				}<br>
+				.searchbar-search.btn1:hover:before{<br>
+				&nbsp;&nbsp;&nbsp;<strong>transform: scaleY(1);</strong><br>
+				}
+			</p>
+		</div>
+
+		<div class="code-item">
+			<h3>Top to Bottom</h3>
+			<p>
+				.searchbar-search.btn2:before{<br>
+				&nbsp;&nbsp;&nbsp;<strong>transform: scaleY(0);<br>
+					&nbsp;&nbsp;&nbsp;transform-origin: 100% 0%;</strong><br>
+				&nbsp;&nbsp;&nbsp;-webkit-transition:transform .2s ease-in-out;<br>
+				&nbsp;&nbsp;&nbsp;-moz-transition:transform .2s ease-in-out;<br>
+				&nbsp;&nbsp;&nbsp;transition:transform .2s ease-in-out;<br>
+				}<br>
+				.searchbar-search.btn2:hover:before{<br>
+				&nbsp;&nbsp;&nbsp;<strong>transform: scaleY(1);</strong><br>
+				}
+			</p>
+		</div>
+	</div>
+	<hr>
+	<div class="code-container">
+		<div class="code-item">
+			<h3>Middle-Top-Bottom</h3>
+			<p>
+				.searchbar-search.btn3:before{<br>
+				&nbsp;&nbsp;&nbsp;<strong>transform: scaleY(0);<br>
+					&nbsp;&nbsp;&nbsp;transform-origin: 100% 50%;</strong><br>
+				&nbsp;&nbsp;&nbsp;-webkit-transition:transform .2s ease-in-out;<br>
+				&nbsp;&nbsp;&nbsp;-moz-transition:transform .2s ease-in-out;<br>
+				&nbsp;&nbsp;&nbsp;transition:transform .2s ease-in-out;<br>
+				}<br>
+				.searchbar-search.btn3:hover:before{<br>
+				&nbsp;&nbsp;&nbsp;<strong>transform: scaleY(1);</strong><br>
+				}
+			</p>
+		</div>
+
+		<div class="code-item">
+			<h3>Middle-Left-Right</h3>
+			<p>
+				.searchbar-search.btn4:before{<br>
+				&nbsp;&nbsp;&nbsp;<strong>transform: scaleX(0);<br>
+					&nbsp;&nbsp;&nbsp;transform-origin: 50% 100%;</strong><br>
+				&nbsp;&nbsp;&nbsp;-webkit-transition:transform .2s ease-in-out;<br>
+				&nbsp;&nbsp;&nbsp;-moz-transition:transform .2s ease-in-out;<br>
+				&nbsp;&nbsp;&nbsp;transition:transform .2s ease-in-out;<br>
+				}<br>
+				.searchbar-search.btn4:hover:before{<br>
+				&nbsp;&nbsp;&nbsp;<strong>transform: scaleX(1);</strong><br>
+				}
+			</p>
+		</div>
+	</div>
+	<hr>
+	<div class="code-container">
+		<div class="code-item">
+			<h3>Right-Left</h3>
+			<p>
+				.searchbar-search.btn5:before{<br>
+				&nbsp;&nbsp;&nbsp;<strong>transform: scaleX(0);<br>
+					&nbsp;&nbsp;&nbsp;transform-origin: 0% 100%;</strong><br>
+				&nbsp;&nbsp;&nbsp;-webkit-transition:transform .2s ease-in-out;<br>
+				&nbsp;&nbsp;&nbsp;-moz-transition:transform .2s ease-in-out;<br>
+				&nbsp;&nbsp;&nbsp;transition:transform .2s ease-in-out;<br>
+				}<br>
+				.searchbar-search.btn5:hover:before{<br>
+				&nbsp;&nbsp;&nbsp;<strong>transform: scaleX(1);</strong><br>
+				}
+			</p>
+		</div>
+
+		<div class="code-item">
+			<h3>Left-Right</h3>
+			<p>
+				.searchbar-search.btn6:before{<br>
+				&nbsp;&nbsp;&nbsp;<strong>transform: scaleX(0);<br>
+					&nbsp;&nbsp;&nbsp;transform-origin: 100% 0%;</strong><br>
+				&nbsp;&nbsp;&nbsp;-webkit-transition:transform .2s ease-in-out;<br>
+				&nbsp;&nbsp;&nbsp;-moz-transition:transform .2s ease-in-out;<br>
+				&nbsp;&nbsp;&nbsp;transition:transform .2s ease-in-out;<br>
+				}<br>
+				.searchbar-search.btn6:hover:before{<br>
+				&nbsp;&nbsp;&nbsp;<strong>transform: scaleX(1);</strong><br>
+				}
+			</p>
+		</div>
+	</div>
+
+
+
+</body>
+
+</html>

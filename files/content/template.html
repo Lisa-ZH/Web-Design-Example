@@ -1,0 +1,57 @@
+<!--||{% load job_tags %}||-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="file/css/style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+    <title></title>
+    <style>
+        body {
+            margin: 0 0 0 20px;
+            padding: 0;
+            font-size: 1.2rem;
+        }
+        .title {
+            background-color: #929474;
+            color: #FFFFFF;
+            font-size: 1.4rem;
+            line-height: 1.1rem;
+            padding: 10px 40px;
+        }
+        .container {
+            width: 960px;
+            margin: 30px auto 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title">Images / Image Hover Effect</div>
+    <div class="container">
+        
+    </div>
+    <br> <br>
+    <h3>HTML Code</h3>
+    <pre>
+      <code id="codeBlock"></code>
+   </pre>
+
+    <h3>CSS Code</h3>
+    <pre>
+      <code>
+
+      </code>
+   </pre>
+    <script>
+        const code = `
+
+      `;
+        document.getElementById('codeBlock').textContent = code;
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>

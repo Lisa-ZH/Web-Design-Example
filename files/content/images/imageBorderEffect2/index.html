@@ -1,0 +1,698 @@
+<!doctype html>
+<html>
+<head>
+<meta id="testViewport" name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta charset="UTF-8">
+<title>Image Hover Border Animation</title>
+<!--
+<link href="files/styles/normalize.css" rel="stylesheet" type="text/css">
+-->
+<link href="files/styles/styles.css" rel="stylesheet" type="text/css">
+
+<link href="files/styles/responsive.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js"><\/script>')</script>
+<script src="files/js/script.js"></script>
+<style>
+  .title {
+      background-color: #929474;
+      color: #FFFFFF;
+      font-size: 1.4rem;
+      line-height: 1.1rem;
+      padding: 10px 40px;
+  }
+  .container {
+      width: 960px;
+      margin: 30px auto 0 auto;
+  }
+</style>
+</head>
+
+<body>
+  <div class="title">Images / Image Border Effect - 1</div>
+  <div class="container">
+    <h3>Image Hover Border Animation</h3>
+
+<div class="row">
+  <div class="column">
+    <figure class="border-center">
+      <img src="image.jpeg" alt="Sample Image" />
+      <figcaption></figcaption>
+    </figure>
+   <div class="code-caption">
+    <h4>Border Center</h4>
+    /* Top Line */<br>
+    .border-center:before{<br>
+      transform: scaleX(0);<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border-center:hover:before{<br>
+      transform: scaleX(1);<br>
+    }<br><br>
+    /* Bottom Line */<br>
+    .border-center:after{<br>
+      transform: scaleX(0);<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border-center:hover:after{<br>
+      transform: scaleX(1);<br>
+    }<br><br>
+    /* Left Line */<br>
+    .border-center figcaption:before{<br>
+      transform: scaleY(0);<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border-center figcaption:hover:before{<br>
+      transform: scaleY(1);<br>
+    }<br><br>
+    /* Right Line */<br>
+    .border-center figcaption:after{<br>
+      transform: scaleY(0);<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border-center figcaption:hover:after{<br>
+      transform: scaleY(1);<br>
+    }<br>
+   </div>
+  </div>
+
+  <div class="column">
+    <figure class="border">
+      <img src="image.jpeg" alt="Sample Image" />
+      <figcaption></figcaption>
+    </figure>
+   <div class="code-caption">
+    <h4>Border</h4>
+    /* Top Line */<br>
+    .border:before{<br>
+      transform: scaleX(0);<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border:hover:before{<br>
+      transform: scaleX(1);<br>
+    }<br><br>
+    /* Bottom Line */<br>
+    .border:after{<br>
+      transform: scaleX(0);<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border:hover:after{<br>
+      transform: scaleX(1);<br>
+    }<br><br>
+    /* Left Line */<br>
+    .border figcaption:before{<br>
+      transform: scaleY(0);<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border figcaption:hover:before{<br>
+      transform: scaleY(1);<br>
+    }<br><br>
+    /* Right Line */<br>
+    .border figcaption:after{<br>
+      transform: scaleY(0);<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border figcaption:hover:after{<br>
+      transform: scaleY(1);<br>
+    }<br>
+   </div>
+  </div>
+  <div class="column">
+    <figure class="border-around-clockwise">
+      <img src="image.jpeg" alt="Sample Image" />
+      <figcaption></figcaption>
+    </figure>
+    <div class="code-caption">
+      <h4>Border Around-Clockwise</h4>
+    /* Top Line */<br>
+    .border-around-clockwise:before{<br>
+      transform: scaleX(0);<br>
+      transform-origin: 0 0;<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border-around-clockwise:hover:before{<br>
+      transform: scaleX(1);<br>
+    }<br><br>
+    /* Bottom Line */<br>
+    .border-around-clockwise:after{<br>
+      transform: scaleX(0);<br>
+      transform-origin: 100% 100%;<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border-around-clockwise:hover:after{<br>
+      transform: scaleX(1);<br>
+    }<br><br>
+    /* Left Line */<br>
+    .border-around-clockwise figcaption:before{<br>
+      transform: scaleY(0);<br>
+      transform-origin: 100% 100%;<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border-around-clockwise figcaption:hover:before{<br>
+      transform: scaleY(1);<br>
+    }<br><br>
+    /* Right Line */<br>
+    .border-around-clockwise figcaption:after{<br>
+      transform: scaleY(0);<br>
+      transform-origin: 0 0;<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border-around-clockwise figcaption:hover:after{<br>
+      transform: scaleY(1);<br>
+    }<br>
+    </div>
+  </div>
+
+  <div class="column">
+    <figure class="border-around-anticlockwise">
+      <img src="image.jpeg" alt="Sample Image" />
+      <figcaption></figcaption>
+    </figure>
+    <div class="code-caption">
+      <h4>Border Around-Anticlockwise</h4>
+    /* Top Line */<br>
+    .border-around-anticlockwise:before{<br>
+      transform: scaleX(0);<br>
+      transform-origin: 100% 100%;<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border-around-anticlockwise:hover:before{<br>
+      transform: scaleX(1);<br>
+    }<br><br>
+    /* Bottom Line */<br>
+    .border-around-anticlockwise:after{<br>
+      transform: scaleX(0);<br>
+      transform-origin: 0 0;<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border-around-anticlockwise:hover:after{<br>
+      transform: scaleX(1);<br>
+    }<br><br>
+    /* Left Line */<br>
+    .border-around-anticlockwise figcaption:before{<br>
+      transform: scaleY(0);<br>
+      transform-origin: 0 0;<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border-around-anticlockwise figcaption:hover:before{<br>
+      transform: scaleY(1);<br>
+    }<br><br>
+    /* Right Line */<br>
+    .border-around-anticlockwise figcaption:after{<br>
+      transform: scaleY(0);<br>
+      transform-origin: 100% 100%;<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border-around-anticlockwise figcaption:hover:after{<br>
+      transform: scaleY(1);<br>
+    }<br>
+    </div>
+  </div>  
+</div>
+
+<div class="row">
+  <div class="column">
+    <figure class="border-corner-topright-bottomleft">
+      <img src="image.jpeg" alt="Sample Image" />
+      <figcaption></figcaption>
+    </figure>
+    <div class="code-caption">
+      <h4>Border Corner-TopRight-BottomLeft</h4>
+      /* Top Line */<br>
+    .border-corner-topright-bottomleft:before{<br>
+      transform: scaleX(0);<br>
+      transform-origin: 100% 100%;<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border-corner-topright-bottomleft:hover:before{<br>
+      transform: scaleX(1);<br>
+    }<br><br>
+    /* Bottom Line */<br>
+    .border-corner-topright-bottomleft:after{<br>
+      transform: scaleX(0);<br>
+      transform-origin: 0 0;<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border-corner-topright-bottomleft:hover:after{<br>
+      transform: scaleX(1);<br>
+    }<br><br>
+    /* Left Line */<br>
+    .border-corner-topright-bottomleft figcaption:before{<br>
+      transform: scaleY(0);<br>
+      transform-origin: 100% 100%;<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border-corner-topright-bottomleft figcaption:hover:before{<br>
+      transform: scaleY(1);<br>
+    }<br><br>
+    /* Right Line */<br>
+    .border-corner-topright-bottomleft figcaption:after{<br>
+      transform: scaleY(0);<br>
+      transform-origin: 0 0;<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border-corner-topright-bottomleft figcaption:hover:after{<br>
+      transform: scaleY(1);<br>
+    }<br>
+    </div>
+  </div>
+
+  <div class="column">
+    <figure class="border-corner-topleft-bottomright">
+      <img src="image.jpeg" alt="Sample Image" />
+      <figcaption></figcaption>
+    </figure>
+    <div class="code-caption">
+      <h4>Border Corner-TopLeft-BottomRight</h4>
+      /* Top Line */<br>
+    .border-corner-topleft-bottomright:before{<br>
+      transform: scaleX(0);<br>
+      transform-origin: 0 0;<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border-corner-topleft-bottomright:hover:before{<br>
+      transform: scaleX(1);<br>
+    }<br><br>
+    /* Bottom Line */<br>
+    .border-corner-topleft-bottomright:after{<br>
+      transform: scaleX(0);<br>
+      transform-origin: 100% 100%;<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border-corner-topleft-bottomright:hover:after{<br>
+      transform: scaleX(1);<br>
+    }<br><br>
+    /* Left Line */<br>
+    .border-corner-topleft-bottomright figcaption:before{<br>
+      transform: scaleY(0);<br>
+      transform-origin: 0 0;<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border-corner-topleft-bottomright figcaption:hover:before{<br>
+      transform: scaleY(1);<br>
+    }<br><br>
+    /* Right Line */<br>
+    .border-corner-topleft-bottomright figcaption:after{<br>
+      transform: scaleY(0);<br>
+      transform-origin: 100% 100%;<br>
+      transition: 0.5s transform ease-out;<br>
+    }<br>
+    .border-corner-topleft-bottomright figcaption:hover:after{<br>
+      transform: scaleY(1);<br>
+    }<br>
+    </div>
+  </div>
+
+  <div class="column">
+    <figure class="border-bottom-left-clockwise">
+      <img src="image.jpeg" alt="Sample Image" />
+      <figcaption></figcaption>
+    </figure>
+    <div class="code-caption">
+      <h4>Border Bottom Left Clockwise</h4>
+      /* Top Line */<br>
+      .border-bottom-left-clockwise:before{<br>
+        transform: scaleX(0);<br>
+        transform-origin: 0 0;<br>
+        transition: transform 0.3s ease 0.6s;<br>
+      }<br>
+      .border-bottom-left-clockwise:hover:before{<br>
+        transform: scaleX(1);<br>
+        transition-delay:0.3s;<br>
+      }<br><br>
+      /* Bottom Line */<br>
+      .border-bottom-left-clockwise:after{<br>
+        transform: scaleX(0);<br>
+        transform-origin: 100% 100%;<br>
+        transition: transform 0.3s ease 0s;<br>
+      }<br>
+      .border-bottom-left-clockwise:hover:after{<br>
+        transform: scaleX(1);<br>
+        transition-delay:0.9s;<br>
+      }<br><br>
+      /* Left Line */<br>
+      .border-bottom-left-clockwise figcaption:before{<br>
+        transform: scaleY(0);<br>
+        transform-origin: 100% 100%;<br>
+        transition: transform 0.3s ease .9s;<br>
+      }<br>
+      .border-bottom-left-clockwise figcaption:hover:before{<br>
+        transform: scaleY(1);<br>
+        transition-delay:0s;<br>
+      }<br><br>
+      /* Right Line */<br>
+      .border-bottom-left-clockwise figcaption:after{<br>
+        transform: scaleY(0);<br>
+        transform-origin: 0 0;<br>
+        transition: transform 0.3s ease 0.3s;<br>
+      }<br>
+      .border-bottom-left-clockwise figcaption:hover:after{<br>
+        transform: scaleY(1);<br>
+        transition-delay:0.6s;<br>
+      }<br>
+    </div>
+  </div>
+  
+  <div class="column">
+    <figure class="border-top-left-anticlockwise">
+      <img src="image.jpeg" alt="Sample Image" />
+      <figcaption></figcaption>
+    </figure>
+    <div class="code-caption">
+      <h4>Border Top Left Anticlockwise</h4>
+      /* Top Line */<br>
+      .border-top-left-anticlockwise:before{<br>
+        transform: scaleX(0);<br>
+        transform-origin: 0 0;<br>
+        transition: transform 0.3s ease 0.9s;<br>
+      }<br>
+      .border-top-left-anticlockwise:hover:before{<br>
+        transform: scaleX(1);<br>
+        transition-delay:0s;<br>
+      }<br><br>
+      /* Bottom Line */<br>
+      .border-top-left-anticlockwise:after{<br>
+        transform: scaleX(0);<br>
+        transform-origin: 100% 100%;<br>
+        transition: transform 0.3s ease 0.3s;<br>
+      }<br>
+      .border-top-left-anticlockwise:hover:after{<br>
+        transform: scaleX(1);<br>
+        transition-delay:0.6s;<br>
+      }<br><br>
+      /* Left Line */<br>
+      .border-top-left-anticlockwise figcaption:before{<br>
+        transform: scaleY(0);<br>
+        transform-origin: 100% 100%;<br>
+        transition: transform 0.3s ease 0s;<br>
+      }<br>
+      .border-top-left-anticlockwise figcaption:hover:before{<br>
+        transform: scaleY(1);<br>
+        transition-delay:0.9s;<br>
+      }<br><br>
+      /* Right Line */<br>
+      .border-top-left-anticlockwise figcaption:after{<br>
+        transform: scaleY(0);<br>
+        transform-origin: 0 0;<br>
+        transition: transform 0.3s ease 0.6s;<br>
+      }<br>
+      .border-top-left-anticlockwise figcaption:hover:after{<br>
+        transform: scaleY(1);<br>
+        transition-delay:0.3s;<br>
+      }<br>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <figure class="border-top-left">
+      <img src="image.jpeg" alt="Sample Image" />
+      <figcaption></figcaption>
+    </figure>
+    <div class="code-caption">
+      <h4>Border Top Left</h4>
+      /* Top Line */<br>
+      .border-top-left:before{<br>
+        transform: scaleX(0);<br>
+        transform-origin: 0 0;<br>
+        transition: transform 0.6s ease .4s;<br>
+      }<br>
+      .border-top-left:hover:before{<br>
+        transform: scaleX(1);<br>
+        transition-delay:0s;<br>
+      }<br><br>
+      /* Bottom Line */<br>
+      .border-top-left:after{<br>
+        transform: scaleX(0);<br>
+        transform-origin: 0 0;<br>
+        transition: transform 0.6s ease 0s;<br>
+      }<br>
+      .border-top-left:hover:after{<br>
+        transform: scaleX(1);<br>
+        transition-delay:0.4s;<br>
+      }<br><br>
+      /* Left Line */<br>
+      .border-top-left figcaption:before{<br>
+        transform: scaleY(0);<br>
+        transform-origin: 0 0;<br>
+        transition: transform 0.6s ease .4s;<br>
+      }<br>
+      .border-top-left figcaption:hover:before{<br>
+        transform: scaleY(1);<br>
+        transition-delay:0s;<br>
+      }<br><br>
+      /* Right Line */<br>
+      .border-top-left figcaption:after{<br>
+        transform: scaleY(0);<br>
+        transform-origin: 0 0;<br>
+        transition: transform 0.6s ease 0s;<br>
+      }<br>
+      .border-top-left figcaption:hover:after{<br>
+        transform: scaleY(1);<br>
+        transition-delay:0.4s;<br>
+      }<br>
+   </div>
+  </div>
+  <div class="column">
+    <figure class="border-top-right">
+      <img src="image.jpeg" alt="Sample Image" />
+      <figcaption></figcaption>
+    </figure>
+    <div class="code-caption">
+      <h4>Border Top Right</h4>
+      /* Top Line */<br>
+      .border-top-right:before{<br>
+        transform: scaleX(0);<br>
+        transform-origin: 100% 0;<br>
+        transition: transform 0.6s ease .4s;<br>
+      }<br>
+      .border-top-right:hover:before{<br>
+        transform: scaleX(1);<br>
+        transition-delay:0s;<br>
+      }<br><br>
+      /* Bottom Line */<br>
+      .border-top-right:after{<br>
+        transform: scaleX(0);<br>
+        transform-origin: 100% 0;<br>
+        transition: transform 0.6s ease 0s;<br>
+      }<br>
+      .border-top-right:hover:after{<br>
+        transform: scaleX(1);<br>
+        transition-delay:0.4s;<br>
+      }<br><br>
+      /* Left Line */<br>
+      .border-top-right figcaption:before{<br>
+        transform: scaleY(0);<br>
+        transform-origin: 100% 0;<br>
+        transition: transform 0.6s ease 0s;<br>
+      }<br>
+      .border-top-right figcaption:hover:before{<br>
+        transform: scaleY(1);<br>
+        transition-delay:0.4s;<br>
+      }<br><br>
+      /* Right Line */<br>
+      .border-top-right figcaption:after{<br>
+        transform: scaleY(0);<br>
+        transform-origin: 100% 0;<br>
+        transition: transform 0.6s ease 0.4s;<br>
+      }<br>
+      .border-top-right figcaption:hover:after{<br>
+        transform: scaleY(1);<br>
+        transition-delay:0s;<br>
+      }<br>
+   </div>
+  </div>
+  <div class="column">
+    <figure class="border-bottom-left">
+      <img src="image.jpeg" alt="Sample Image" />
+      <figcaption></figcaption>
+    </figure>
+    <div class="code-caption">
+      <h4>Border Top Left</h4>
+      /* Top Line */<br>
+      .border-bottom-left:before{<br>
+        transform: scaleX(0);<br>
+        transform-origin: 0 100%;<br>
+        transition: transform 0.6s ease 0s;<br>
+      }<br>
+      .border-bottom-left:hover:before{<br>
+        transform: scaleX(1);<br>
+        transition-delay:0.4s;<br>
+      }<br><br>
+      /* Bottom Line */<br>
+      .border-bottom-left:after{<br>
+        transform: scaleX(0);<br>
+        transform-origin: 0 100%;<br>
+        transition: transform 0.6s ease 0.4s;<br>
+      }<br>
+      .border-bottom-left:hover:after{<br>
+        transform: scaleX(1);<br>
+        transition-delay:0s;<br>
+      }<br><br>
+      /* Left Line */<br>
+      .border-bottom-left figcaption:before{<br>
+        transform: scaleY(0);<br>
+        transform-origin: 0 100%;<br>
+        transition: transform 0.6s ease .4s;<br>
+      }<br>
+      .border-bottom-left figcaption:hover:before{<br>
+        transform: scaleY(1);<br>
+        transition-delay:0s;<br>
+      }<br><br>
+      /* Right Line */<br>
+      .border-bottom-left figcaption:after{<br>
+        transform: scaleY(0);<br>
+        transform-origin: 0 100%;<br>
+        transition: transform 0.6s ease 0s;<br>
+      }<br>
+      .border-bottom-left figcaption:hover:after{<br>
+        transform: scaleY(1);<br>
+        transition-delay:0.4s;<br>
+      }<br>
+   </div>
+  </div>
+  <div class="column">
+    <figure class="border-bottom-right">
+      <img src="image.jpeg" alt="Sample Image" />
+      <figcaption></figcaption>
+    </figure>
+    <div class="code-caption">
+      <h4>Border Bottom Right</h4>
+      /* Top Line */<br>
+      .border-bottom-right:before{<br>
+        transform: scaleX(0);<br>
+        transform-origin: 100% 100%;<br>
+        transition: transform 0.6s ease .4s;<br>
+      }<br>
+      .border-bottom-right:hover:before{<br>
+        transform: scaleX(1);<br>
+        transition-delay:0s;<br>
+      }<br><br>
+      /* Bottom Line */<br>
+      .border-bottom-right:after{<br>
+        transform: scaleX(0);<br>
+        transform-origin: 100% 100%;<br>
+        transition: transform 0.6s ease 0s;<br>
+      }<br>
+      .border-bottom-right:hover:after{<br>
+        transform: scaleX(1);<br>
+        transition-delay:0.4s;<br>
+      }<br><br>
+      /* Left Line */<br>
+      .border-bottom-right figcaption:before{<br>
+        transform: scaleY(0);<br>
+        transform-origin: 100% 100%;<br>
+        transition: transform 0.6s ease 0s;<br>
+      }<br>
+      .border-bottom-right figcaption:hover:before{<br>
+        transform: scaleY(1);<br>
+        transition-delay:0.4s;<br>
+      }<br><br>
+      /* Right Line */<br>
+      .border-bottom-right figcaption:after{<br>
+        transform: scaleY(0);<br>
+        transform-origin: 100% 100%;<br>
+        transition: transform 0.6s ease 0.4s;<br>
+      }<br>
+      .border-bottom-right figcaption:hover:after{<br>
+        transform: scaleY(1);<br>
+        transition-delay:0s;<br>
+      }<br>
+   </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="code-caption">
+      <h4>Border</h4>
+      /* Top Line */<br>
+      .border-center:before{
+        content: "";
+        position: absolute;
+        height: 3px;
+        top: 15px;
+        left: 15px;
+        right: 15px;
+        background-color: #fff;
+      }<br><br>
+      
+      /* Bottom Line */<br>
+      .border-center:after{<br>
+        content: "";<br>
+        position: absolute;<br>
+        height: 3px;<br>
+        bottom: 15px;<br>
+        left: 15px;<br>
+        right: 15px;<br>
+        background-color: #fff;<br>
+      }<br>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="code-caption">
+      <h4>Border</h4>
+      .border-center figcaption{<br>
+        position: absolute;<br>
+        top: 0;<br>
+        left: 0;<br>
+        right: 0;<br>
+        bottom: 0;<br>
+        width: 100%;<br>
+      }<br><br>
+      /* Left Line */<br>
+      .border-center figcaption:before{<br>
+        content: "";<br>
+        position: absolute;<br>
+        width: 3px;<br>
+        top: 15px;<br>
+        bottom: 15px;<br>
+        left: 15px;<br>
+        background-color: #fff;<br>
+      }<br><br>
+
+      /* Right Line */<br>
+      .border-center figcaption:after{<br>
+        content: "";<br>
+        position: absolute;<br>
+        width: 3px;<br>
+        top: 15px;<br>
+        bottom: 15px;<br>
+        right: 15px;<br>
+        background-color: #fff;<br>
+      }<br>
+      
+    </div>
+  </div>
+</div>
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

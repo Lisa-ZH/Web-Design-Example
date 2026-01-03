@@ -1,0 +1,407 @@
+<!doctype html>
+<html>
+<head>
+<meta id="testViewport" name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta charset="UTF-8">
+<title>CSS Basic</title>
+<!--
+<link href="files/styles/normalize.css" rel="stylesheet" type="text/css">
+-->
+<link href="files/styles/styles.css" rel="stylesheet" type="text/css">
+<!--
+<link href="files/styles/responsive.css" rel="stylesheet" type="text/css">
+-->
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700,900" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js"><\/script>')</script>
+<script src="files/js/script.js"></script>
+
+</head>
+
+<body>
+<div class="title">Others / CSS Basic</div>
+<div class="container">
+	<div class="flex-container">
+<!-- Social media button with icon -->
+   <div class="flex-item">
+      <h3>Social media button with icon</h3>
+      <a href="#" class="btn fa"><i class="fa fa-facebook"></i>Login with Facebook</a>
+   </div>
+
+<!-- Gradient background color -->
+   <div class="flex-item">
+      <h3>Gradient background color</h3>
+      <a href="#" class="registerBtn">Register Today</a>
+   </div>
+
+<!-- Join Button (Hover) -->
+   <div class="flex-item">
+      <h3>Join Button (Hover)</h3>
+      <a href="#" class="joinBtn">Join Our Team</a>
+   </div>
+
+<!-- Pressed Effect(Click) -->
+   <div class="flex-item">
+      <h3>Pressed Effect(Click)</h3>
+         <div class="pressed-effect">
+            Pressed Effect (Click)
+         </div>
+   </div>
+
+<!-- Left Triangle -->
+   <div class="flex-item">
+      <h3>LEFT</h3>
+      <div class="lefttriangle"></div>
+   </div>
+
+<!-- Right Triangle -->
+   <div class="flex-item">
+      <h3>RIGHT</h3>
+   <div class="righttriangle"></div>
+   </div>
+
+<!-- Top Triangle -->
+   <div class="flex-item">
+      <h3>TOP</h3>
+      <div class="toptriangle"></div>
+   </div>
+
+<!-- Bottom Triangle -->
+   <div class="flex-item">
+      <h3>BOTTOM</h3>
+      <div class="bottomtriangle"></div>
+   </div>
+
+<!-- Tool Tips Four Positions-Top -->
+   <div class="flex-item">
+      <h3>Tool Tips Four Positions-Top</h3>
+      <div class="tooltip">
+         Hover over me--Top
+         <span class="tooltiptext top">Top</span>
+      </div>
+   </div>
+
+<!-- Tool Tips Four Positions-Bottom -->
+   <div class="flex-item">
+      <h3>Tool Tips Four Positions-Bottom</h3>
+      <div class="tooltip">
+         Hover over me--Bottom
+         <span class="tooltiptext bottom">Bottom</span>
+      </div>
+   </div>
+
+<!-- Tool Tips Four Positions-Left -->
+   <div class="flex-item">
+      <h3>Tool Tips Four Positions-Left</h3>
+      <div class="tooltip">
+         Hover over me--Left
+         <span class="tooltiptext left">Left</span>
+      </div>
+   </div>
+
+<!-- Tool Tips Four Positions-Right -->
+   <div class="flex-item">
+      <h3>Tool Tips Four Positions-Right</h3>
+      <div class="tooltip">
+         Hover over me--Right
+         <span class="tooltiptext right">Right</span>
+      </div>
+   </div>
+
+<!-- css3实现0.2px的细线 -->
+   <div class="flex-item">
+      <h3>css3实现0.2px的细线 (not show in Safari)</h3>
+      <div class="line"></div>
+      <p><br><br><br>
+         <strong>display: flex;<br>
+   flex-direction:row;<br>
+   justify-content:space-around;<br>
+   align-items:center;<br></strong>
+      </p>
+      <p><strong>
+         @media only screen and (max-width: 1600px) {<br>
+         <br>
+         }<br><br>
+
+         @media only screen and (max-width: 1400px) {<br>
+         <br>
+         }<br><br>
+
+         @media only screen and (max-width: 1200px) {<br>
+         <br>
+         }<br><br>
+
+         @media only screen and (max-width: 780px) {<br>
+         <br>
+         }<br><br>
+
+         @media only screen and (max-width: 450px) {<br>
+         <br>
+         }<br>
+      </strong></p>
+   </div>
+
+<!-- Letter Type -->
+   <div class="flex-item">
+      <h3>Letter Type</h3>
+      <div class="texteffect">Letterpress Type Through CSS</div>
+   </div>
+
+<!-- Fans -->
+   <div class="flex-item">
+      <h3>用css画一个扇形</h3>
+      <div class="shan"></div>
+      <p>
+       -moz-border-radius: 2em;<br>
+       -ms-border-radius: 2em;<br>
+       -o-border-radius: 2em;<br>
+       -webkit-border-radius: 2em;<br>
+       border-radius: 2em;
+      </p>
+   </div>
+
+<!-- Custom Bullet Points -->
+   <div class="flex-item">
+      <h3>Custom Bullet Points</h3>
+      <ul class="style1">
+         <li>ITME 1</li>
+         <li>ITME 2</li>
+         <li>ITME 3</li>
+         <li>ITME 4</li>
+      </ul>
+      
+      <ul class="style2">
+         <li>ITME A</li>
+         <li>ITME B</li>
+         <li>ITME C</li>
+         <li>ITME D</li>
+      </ul>
+      
+      <ul class="style3">
+         <li>&#8226; ITME A</li>
+         <li>&#8226; ITME B</li>
+         <li>&#8226; ITME C</li>
+         <li>&#8226; ITME D</li>
+      </ul>
+
+      <div class="breadcrumb">
+         <a href="">Home</a>
+         <a href="">Career</a>
+         <a href="">Nurse Career</a>
+      </div>
+   </div>
+
+
+<!-- Table -->
+   <div class="flex-item">
+      <h3>Zebra Line Table</h3>
+         <table>
+            <tr>
+               <th>Student Name</th>
+               <th>Marks in Science</th>
+            </tr>
+            <tr>
+               <td>Janet</td>
+               <td>85.00</td>
+            </tr>
+            <tr>
+               <td>David</td>
+               <td>92.00</td>
+            </tr>
+            <tr>
+               <td>Arthur</td>
+               <td>79.00</td>
+            </tr>
+            <tr>
+               <td>Bill</td>
+               <td>82.00</td>
+            </tr>
+         </table>
+   </div>
+
+<!-- Shape -->
+   <div class="flex-item">
+      <h3>Shape</h3>
+         <div class="g-content"></div>
+   </div>
+
+<!-- Check Mark -->
+   <div class="flex-item">
+      <h3>Shape</h3>
+         <div class="check-mark"></div>
+   </div>
+
+<!-- Vertical Line -->
+   <div class="flex-item">
+      <h3>Vertical Line</h3>
+      <div class="vertical-line">
+         <div class="vl">
+            <span class="vl-innertext">or</span>
+         </div>
+      </div>
+   </div>
+
+<!-- Copy Text to Clipboard -->
+   <div class="flex-item">
+      <h3>Copy Text to Clipboard</h3>
+      <input type="text" value="Hello World" id="myInput">
+      <button onclick="myFunction()">Copy text</button>
+   </div>
+
+<!-- Create an Animated Search Form -->
+   <div class="flex-item">
+      <h3>Create an Animated Search Form</h3>
+      <div class="animation-search">
+         <input type="text" name="search" placeholder="Search..">
+      </div>
+   </div>
+
+<!-- Remove arrows/spinners from input type number with CSS -->
+   <div class="flex-item">
+      <h3>Remove arrows/spinners from input type number with CSS</h3>
+      <div class="remove-arrow">
+         <h4>Remove Arrow (Only Safari supports this property)</h4>
+         <input type="number" value="5">
+      </div><br>
+      <h4>Not Remove Arrow</h4>
+      <input type="number" value="5">
+   </div>
+
+<!-- Change the style of the title attribute inside an anchor tag -->
+   <div class="flex-item">
+      <h3>Change the style of the title attribute inside an anchor tag</h3>
+      <div class="change-title-attribute">
+         <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+      </div>
+      <p>
+      .change-title-attribute <strong>a[title]:hover::after</strong> {<br>
+        <strong>content: attr(title);</strong><br>
+        position: absolute;<br>
+        top: -200%;<br>
+        left: 0;<br>
+        color: red;<br>
+      }<br>
+      </p>
+   </div>
+
+
+
+<!-- Background Image -->
+   <div class="flex-item">
+      <h3>Background Image</h3>
+      <p>
+      background-image: url("../images/light-blue-bckgrd.jpeg");<br>
+      background-repeat: no-repeat;<br>
+      background-position: center center;<br>
+      background-size: cover;<br>
+      padding-top: 2em;<br>
+      padding-bottom: 2em;<br>
+      </p>
+   </div>
+
+<!-- Background Image Shadow (1) -->
+   <div class="flex-item">
+      <h3>Background Image Shadow (1)</h3>
+      <p>
+      color: #fff;<br>
+      background-color: #AC1D37;<br>
+      box-shadow: 5px 5px 8px 0px rgb(0 0 0 / 50%);<br>
+      -webkit-box-shadow: 5px 5px 8px 0px rgb(0 0 0 / 50%); /* Chrome, Safari */<br>
+      -moz-box-shadow: 5px 5px 8px 0px rgb(0 0 0 / 50%); /* Firefox */<br>
+      -o-box-shadow: 5px 5px 8px 0px rgb(0 0 0 / 50%); /* Opera */<br>
+      -ms-box-shadow: 5px 5px 8px 0px rgb(0 0 0 / 50%); /* IE(Internet Explorer) */<br>
+      </p>
+   </div>
+
+<!-- Background Image Shadow (2) -->
+   <div class="flex-item">
+      <h3>Background Image Shadow (2)</h3>
+      <p>
+      background-color: aliceblue;<br>
+      text-align: center;<br>
+      box-shadow: 5px 5px 5px -1px rgb(0 0 0 /32%);<br>
+      border: 1px solid rgba(0, 0, 0, .5);<br>
+      -webkit-border: 1px solid rgba(0, 0, 0, .5);<br>
+      -moz-border: 1px solid rgba(0, 0, 0, .5);<br>
+      -o-border: 1px solid rgba(0, 0, 0, .5);<br>
+      -ms-border: 1px solid rgba(0, 0, 0, .5);<br>
+      </p>
+   </div>
+</div>
+
+<h3>Using ruby indicate the pinyin</h3>
+<div class="ruby-container">
+   <p>The <strong>&lt;ruby&gt;</strong> tag specifies a ruby annotation.
+   A ruby annotation is a small extra text, attached to the main text to indicate the pronunciation or meaning of the corresponding characters. This kind of annotation is often used in Japanese publications.<br>
+   Use <strong>&lt;ruby&gt;</strong> together with <strong>&lt;rt&gt;</strong> and <strong>&lt;rp&gt;</strong>: The <strong>&lt;ruby&gt;</strong> element consists of one or more characters that needs an explanation/pronunciation, and an <strong>&lt;rt&gt;</strong> element that gives that information, and an optional <strong>&lt;rp&gt;</strong> element that defines what to show for browsers that do not support ruby annotations.
+   </p>
+   <br>
+   <ruby>
+      <rb>他生怕被人笑话</rb>
+      <rp>(</rp><rt>ta sheng pa bei ren xiao hua</rt><rp>)</rp>
+   </ruby>
+   <br><br><br>
+   <ruby>
+      漢 <rt> ㄏㄢˋ </rt>
+   </ruby>
+</div>
+
+
+<h3>Big first letter (Only Safari supports this property)</h3>      
+<section class="subhead">
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in faucibus purus. Quisque a lectus ex. Integer leo magna, pretium a mauris mattis, sagittis condimentum orci. In ac ipsum dignissim, rutrum felis eu, tincidunt purus. Etiam iaculis lectus non ligula sollicitudin, gravida rhoncus tortor dignissim. <br><br><hr><br>
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in faucibus purus. Quisque a lectus ex. Integer leo magna, pretium a mauris mattis, sagittis condimentum orci. In ac ipsum dignissim, rutrum felis eu, tincidunt purus. Etiam iaculis lectus non ligula sollicitudin, gravida rhoncus tortor dignissim. Nam justo arcu, commodo ut mi a, fringilla ultricies ligula. Praesent augue quam, pulvinar et elit a, bibendum posuere turpis. Nulla ac dapibus nulla, id elementum turpis. 
+</section></div>
+
+</body>
+
+<script>
+/* Table */
+$(document).ready(function(){
+   $('tr:odd').addClass('zebra');
+});
+
+/* Copy Text to Clipboard */
+function myFunction() {
+  /* Get the text field */
+  var copyText = document.getElementById("myInput");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+  /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+  
+  /* Alert the copied text */
+  alert("Copied the text: " + copyText.value);
+}
+
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

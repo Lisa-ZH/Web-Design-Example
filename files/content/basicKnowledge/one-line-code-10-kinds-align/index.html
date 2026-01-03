@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta id="testViewport" name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta charset="UTF-8">
+<title>用一行 CSS 实现 10 种现代布局</title>
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="files/styles/styles.css" rel="stylesheet" type="text/css">
+<link href="files/styles/responsive.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js"><\/script>')</script>
+<script src="files/js/script.js"></script>
+
+</head>
+
+<body>
+  <div class="title">Basic Knowledge / 用一行 CSS 实现 10 种现代布局</div>
+    <div class="container">
+        <h3>01. 超级居中: place-items: center</h3>
+  <div class="ex1">
+      <img src="red-star.png" alt="" />
+  </div>
+
+  <h3>02. 解构煎饼式布局: flex:<code><grow></code>&nbsp; <code><shrink></code>&nbsp;  <code><baseWidth></code> (change width to see the different)</h3>
+  <div class="ex2">
+      <div class="inner-1">1</div>
+      <div class="inner-2">2</div>
+      <div class="inner-3">3</div>
+  </div>
+
+  <h3>03. 侧边栏布局: grid-template-columns: minmax(<min>, <max>) …)  (change width to see the different)</h3>
+  <div class="ex3">
+      <div class="left">side-bar</div>
+      <div class="right">main</div>
+  </div>
+
+  <h3>04. 煎饼堆栈布局: grid-template-rows: auto 1fr auto</h3>
+  <div class="ex4">
+      <header>Header</header>
+      <main>Main</main>
+      <footer>Footer</footer>
+  </div>
+
+  <h3>05. 经典圣杯布局: grid-template: auto 1fr auto / auto 1fr auto</h3>
+  <div class="ex5">
+    <header>Header</header>
+        <div class="left">Left Sidebar</div>
+        <div class="content">Main Content</div>
+        <div class="right">Right Sidebar</div>
+    <footer>Footer</footer>
+  </div>
+
+  <h3>06. 12 跨网格:grid-template-columns: repeat(12, 1fr)</h3>
+  <div class="ex6">
+    <div class="span-12">Span 12</div>
+    <div class="span-6">Span 6</div>
+    <div class="span-4">Span 4</div>
+    <div class="span-2">Span 2</div>
+  </div>
+
+  <h3>07. RAM (Repeat, Auto, MinMax): grid-template-columns(auto-fit, minmax(<base>, 1fr))</h3>
+  <div class="ex7">
+    <div class="box pink">1</div>
+    <div class="box purple">2</div>
+    <div class="box blue">3</div>
+    <div class="box green">4</div>
+  </div>
+
+  <h3>08. 排列布局:justify-content: space-between</h3>
+  <div class="ex8">
+    <div class="card">
+        <h1>Title - Card 1</h1>
+        <p>Medium length description. Let's add a few more words here.</p>
+        <div class="visual pink"></div>
+      </div>
+      <div class="card">
+        <h1>Title - Card 2</h1>
+        <p>Long Description. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed est error repellat veritatis.</p>
+        <div class="visual blue"></div>
+      </div>
+      <div class="card">
+        <h1>Title - Card 3</h1>
+        <p>Short Description.</p>
+        <div class="visual green"></div>
+      </div>
+  </div>
+
+  <h3>09. 保持我的风格:clamp(<min>, <actual>, <max>)</h3>
+  <div class="ex9">
+    <div class="card">
+        <h1>Title Here</h1>
+        <div class="visual"></div>
+        <p>Descriptive Text. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed est error repellat veritatis.</p>
+        <br/>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eveniet beatae veritatis saepe corporis voluptates illo placeat maxime sapiente. Sit facere cumque quidem ad quo, dolores pariatur repudiandae ullam animi?</p>
+      </div>
+  </div>
+
+  <h3>10.保持宽高比:aspect-ratio: <width> / <height></h3>
+  <div class="ex10">
+    <div class="card">
+        <h1>Title Here</h1>
+        <div class="visual"></div>
+        <p>Descriptive Text. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed est error repellat veritatis.</p>
+      </div>
+  </div>
+    </div>
+</body>
+</html>

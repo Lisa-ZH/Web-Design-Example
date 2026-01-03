@@ -1,0 +1,139 @@
+<!--||{% load job_tags %}||-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <link href="file/css/style.css" rel="stylesheet" type="text/css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/default.min.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+   <title>纯CSS图片边框动画特效</title>
+   <style>
+      body{
+        font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+        font-weight: 300;
+        margin: 0 0 0 20px;
+        padding: 0;
+         display: flex;
+         flex-direction: column;
+      }
+      
+    .title {
+      background-color: #929474;
+      color: #FFFFFF;
+      font-size: 1.4rem;
+      line-height: 1.1rem;
+      padding: 10px 40px;
+    }
+
+    .container {
+      background: #e8e9ba;
+      display: grid;
+      gap: 40px;
+      height: 60vh;
+      margin-top: 30px;
+      grid-auto-flow: column;
+      place-content: center;
+    }
+    img {
+      --color: #8A9B0F; /* the border color */
+      --border: 10px;   /* the border thickness*/
+      --offset: 20px;   /* control the offset*/
+      --gap: 5px;       /* the gap on hover */
+      
+      --_c: var(--color) var(--border), #0000 0 calc(100% - var(--border)),var(--color) 0;
+      --_o: calc(3*var(--offset));
+      padding: 
+        calc(var(--gap) + var(--border))
+        calc(var(--gap) + var(--border) + var(--offset))
+        calc(var(--gap) + var(--border) + var(--offset))
+        calc(var(--gap) + var(--border));
+      background: 
+        linear-gradient(      var(--_c)) var(--_o) var(--_o), 
+        linear-gradient(90deg,var(--_c)) var(--_o) var(--_o);
+      background-size: calc(100% - var(--_o)) calc(100% - var(--_o));
+      background-repeat: no-repeat;
+      filter: grayscale(.4);
+      transition: .5s;
+      cursor: pointer;
+  }
+img:hover {
+  background-position: 0px 0px;
+  background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
+  filter: grayscale(0);
+}
+   </style>
+</head>
+
+<body>
+  <div class="title">Images / Image Border Effect</div>
+   <div class="container">
+      <img src="https://picsum.photos/id/1022/200/200" >
+      <img src="https://picsum.photos/id/1015/200/200" style="--color:#4ECDC4">
+      <img src="https://picsum.photos/id/1016/200/200" style="--color:#FF6B6B">     
+   </div>
+   <br>   <br>
+   <h3>HTML Code</h3>
+   <pre>
+      <code id="codeBlock"></code>
+   </pre>
+
+   <h3>CSS Code</h3>
+   <pre>
+      <code>
+body{
+   display: flex;
+   flex-direction: column;
+}
+.container {
+  background: #e8e9ba;
+  display: grid;
+  gap: 40px;
+  height: 60vh;
+  margin: 0;
+  grid-auto-flow: column;
+  place-content: center;
+}
+img {
+  --color: #8A9B0F; /* the border color */
+  --border: 10px;   /* the border thickness*/
+  --offset: 20px;   /* control the offset*/
+  --gap: 5px;       /* the gap on hover */
+  
+  --_c: var(--color) var(--border), #0000 0 calc(100% - var(--border)),var(--color) 0;
+  --_o: calc(3*var(--offset));
+  padding: 
+    calc(var(--gap) + var(--border))
+    calc(var(--gap) + var(--border) + var(--offset))
+    calc(var(--gap) + var(--border) + var(--offset))
+    calc(var(--gap) + var(--border));
+  background: 
+    linear-gradient(      var(--_c)) var(--_o) var(--_o), 
+    linear-gradient(90deg,var(--_c)) var(--_o) var(--_o);
+  background-size: calc(100% - var(--_o)) calc(100% - var(--_o));
+  background-repeat: no-repeat;
+  filter: grayscale(.4);
+  transition: .5s;
+  cursor: pointer;
+}
+img:hover {
+  background-position: 0px 0px;
+  background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
+  filter: grayscale(0);
+}
+
+      </code>
+   </pre>
+   <script>
+      const code = `
+      <img src="https://picsum.photos/id/1022/200/200" >
+      <img src="https://picsum.photos/id/1015/200/200" style="--color:#4ECDC4">
+      <img src="https://picsum.photos/id/1016/200/200" style="--color:#FF6B6B">    
+      `;
+      document.getElementById('codeBlock').textContent = code;
+      hljs.highlightAll();
+   </script>
+</body>
+
+</html>

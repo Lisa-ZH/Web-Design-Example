@@ -1,0 +1,23 @@
+@media only screen and (max-width: 780px) {
+.mainpage-video-row-left {
+ 	width: 100%;
+	margin: 0 auto;
+}
+.mainpage-video-row-right {
+ 	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+.mainpage-video-row-left h2 {
+	font-size: 1.8em;
+	line-height: 1.2em;
+}
+.mainpage-video-row-left p{
+ 	font-size: 1.3em;
+	line-height: 1.2em;
+}
+}
+
+
+

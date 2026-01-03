@@ -1,0 +1,26 @@
+body{
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    margin: 0;
+    padding: 0;
+}
+.menu{
+  background-color: #929474;
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  line-height: 1.1rem;
+  padding: 10px 40px;
+}
+.submenu{
+  border: 1px solid #929474;
+  color: #000;
+  font-size: 1.4rem;
+  line-height: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 20px 0 20px 80px;
+}
+.submenu li{
+  list-style: none;
+  padding: 10px 0;
+  font-size: 1.1rem;
+}

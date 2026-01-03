@@ -1,0 +1,3444 @@
+@media only screen and (max-width: 1700px) {
+  .slide-copy {
+    font-size: 3.8vw !important;
+    line-height: 1.05em !important;
+  }
+  .new-slide-copy {
+    font-size: 3.8vw !important;
+    line-height: 1.05em !important;
+  }
+  .hero-copy {
+    font-size: 3.4vw !important;
+    line-height: 1.05em !important;
+  }
+  .hero-sub-copy {
+    font-size: 3.4vw !important;
+    line-height: 1.05em !important;
+  }
+  .intro-section li {
+    width: 24%;
+    padding: 0px 4%;
+  }
+  .intro-section li a div {
+    width: 90%;
+    padding-bottom: 90%;
+    margin-bottom: .75em;
+  }
+  .intro-section li:first-child {
+    padding: 0px 4% 0px 1%;
+  }
+  .intro-section li:last-child {
+    padding: 0px 0px 0px 4%;
+  }
+  .wellness-award .smallertxt {
+    font-size: 1.48vw;
+    line-height: 1em;
+  }
+  .intro-section li a {
+    font-size: 1.3vw;
+  }
+  .footer-lower {
+    font-size: 1.28vw;
+    line-height: 1.4em;
+  }
+}
+@media only screen and (max-width: 1550px) {
+  .slide-copy {
+    font-size: 4.1vw !important;
+    line-height: 1.05em !important;
+  }
+  .new-slide-copy {
+    font-size: 4.1vw !important;
+    line-height: 1.05em !important;
+  }
+  .talent-network .inner {
+    width: 100%;
+    max-width: 1550px;
+  }
+  .event-banner-main .inner {
+    width: 100%;
+    max-width: 1550px;
+  }
+  .talent-network-sub-copy {
+    font-size: 1.45vw;
+    line-height: 1em;
+  }
+  .philanthropy-sub-copy {
+    font-size: 1.45vw;
+    line-height: 1.1em;
+  }
+  .main-content h2 {
+    font-size: 2.25vw;
+    line-height: 1em;
+  }
+  .event-banner-main-date {
+    font-size: 2vw;
+    line-height: 1em;
+  }
+  .intro-video {
+    top: .4em;
+  }
+  .intro-section h3 {
+    font-size: 1.95vw;
+    line-height: 1em;
+    padding: 0em 0px .3em;
+  }
+  #job-list-section li dl div {
+    margin: 5px 5px 5px 0px;
+  }
+  .footer-lower li a {
+    padding: 0px 10px 0px 6px;
+    color: #ffffff !important;
+  }
+  .learning-session .inner, .leadership-dev .inner, .coaching .inner, .consulting .inner, .workforce-dev .inner, .philanthropy-intro .inner, .about-phil .inner, .about-phil2 .inner, .info-session-phil .inner  {
+    width: 100%;
+    max-width: 1550px;
+  }
+ .learning-session h2, .leadership-dev h2, .coaching h2, .consulting h2, .benefits h2, .learning h2, .partners-logos h2, .workforce-dev h2, .philanthropy-intro h2, .philan-benefits h2, .about-phil h2, .about-phil2 h2, .info-session-phil h2 {
+    font-size: 2.25vw;
+    line-height: 1em;
+  }
+  .belong-icons h2 {
+    font-size: 2.25vw;
+  }
+  .belongings-intro .inner {
+    width: 100%;
+    max-width: 1550px;
+  }
+  .belongings-intro h2 {
+    font-size: 2.25vw;
+    line-height: 1em;
+  }
+  .workforce-dev .inner {
+    width: 100%;
+    max-width: 1550px;
+  }
+  .workforce-dev h2 {
+    font-size: 2.25vw;
+    line-height: 1em;
+  }
+  .divisions .individual-division {
+    width: 45%;
+    margin: 2.5%;
+  }
+  .groups .inner p {
+    font-size: 1.3vw;
+    line-height: 1.3em;
+  }
+  section.rewards p {
+    font-size: 1.5vw;
+    line-height: 1.3em;
+  }
+  .groups h2 {
+    font-size: 2.25vw;
+    line-height: 1em;
+    margin: 10px auto;
+  }
+  section.rewards h2 {
+    font-size: 2.25vw;
+    line-height: 1em;
+  }
+  .groups h3 {
+    font-size: 2.25vw;
+    line-height: 1em;
+  }
+  .groups .individual-group h3 {
+    font-size: 2.25vw;
+    line-height: 1em;
+  }
+  .group-sub-title {
+    font-size: 1.8vw;
+    line-height: 1em;
+  }
+  .phil-inclusion-statement .inner p {
+    font-size: 1.3vw;
+    line-height: 1.3em;
+  }
+	 .phil-inclusion-statement .inner h2 {
+    font-size: 2.25vw;
+    line-height: 1em;
+    margin: 10px auto 0px;
+  }
+	 .phil-inclusion-statement .inner h3 {
+    font-size: 1.25vw;
+    line-height: 1.3em;
+  }
+  .strategy h2 {
+    font-size: 2.25vw;
+    line-height: 1em;
+  }
+  section.commitment h2 {
+    font-size: 2.25vw;
+    line-height: 1em;
+  }
+  .learning-session .table-text, .leadership-dev .table-text, .coaching .table-text, .consulting .table-text {
+    width: 80%;
+    padding: 6% 10%;
+  }
+  .nurse-callout .copy-holder h2 {
+    font-size: 30px;
+    line-height: 1.2em;
+  }
+  .nurse-callout li {
+    font-size: 18px;
+    line-height: 1.2em;
+  }
+	.responsibility-content ul li {
+  font-size: 18px;
+    line-height: 1.2em;
+}
+	.hero-graphic-main .carousel > li .inner .copy {
+  position: relative;
+  z-index: 1;
+  width: 40%;
+  text-align: left;
+  font-size: 2vw;
+  line-height: 1.05em;
+}
+.require-wrapper p {
+ font-size: 18px;
+}
+	  .require-wrapper li {
+    font-size: 18px;
+    line-height: 1.2em;
+  }
+	.dj-qualifications .copy-container {
+    font-size: 1.8vw;
+    padding: 2em 0px;
+}
+	.map-row p {
+  font-size: 1.8vw;
+  
+}
+}
+@media only screen and (max-width: 1350px) {
+.hero-graphic-main .front-page-logo {
+  width: 40%;
+  padding-bottom: 11%;
+}
+.hero-graphic-main .carousel {
+  padding-top: 40%;
+}
+.philan-teams-box {
+    width: 26%;
+    margin: 0px .5% 20px .5%;
+    padding: .5% 2%;
+}
+section.philan-teams .inside {
+    width: 98%;
+}
+}
+@media only screen and (max-width: 1200px) {
+  header {
+    font-size: 1.3vw;
+  }
+  .accordion-section-title2 {
+    padding: 75px 45px 0px 45px;
+  }
+  .main-content .inner {
+    font-size: 1.2vw;
+    line-height: 1.5em;
+  }
+  .main-content h2 {
+    font-size: 2.75vw;
+    line-height: 1em;
+  }
+  .learning-session h2, .leadership-dev h2, .benefits h2, .philan-benefits h2, .learning h2, .partners-logos h2, .philanthropy-intro h2 {
+    font-size: 2.75vw;
+    line-height: 1em;
+  }
+  .learning-session p, .leadership-dev p {
+    font-size: 1.2vw;
+    line-height: 1.5em;
+  }
+  .learning-session .inner, .leadership-dev .inner {
+    font-size: 1.2vw;
+    line-height: 1.5em;
+  }
+  .belongings-intro h2 {
+    font-size: 2.75vw;
+    line-height: 1em;
+  }
+  .belongings-intro .inner {
+    font-size: 1.2vw;
+    line-height: 1.5em;
+  }
+  .belong-icons h2 {
+    font-size: 2.5vw;
+  }
+  .belong-icons p {
+    font-size: 1.2vw;
+    line-height: 1.5em;
+  }
+  .workforce-dev h2 {
+    font-size: 2.75vw;
+    line-height: 1em;
+  }
+  .workforce-dev p {
+    font-size: 1.2vw;
+    line-height: 1.5em;
+  }
+  .workforce-dev .inner {
+    font-size: 1.2vw;
+    line-height: 1.5em;
+  }
+		.about-phil h2, info-session-phil h2 {
+    font-size: 2.75vw;
+    line-height: 1em;
+  }
+	.about-phil h3{
+    font-size: 2vw;
+}
+  .about-phil p, info-session-phil p {
+    font-size: 1.2vw;
+    line-height: 1.5em;
+  }
+  .about-phil .inner, info-session-phil inner {
+    font-size: 1.2vw;
+    line-height: 1.5em;
+  }
+  .divisions .individual-division .division-copy {
+    font-size: 1.5vw;
+    line-height: 1.2em;
+  }
+  .coach-consult .copy-holder h2 {
+    font-size: 2.75vw;
+    line-height: 1em;
+  }
+  .coach-consult .copy-holder p {
+    font-size: 1.5vw;
+    line-height: 1.5em;
+  }
+  .event-banner-main-date {
+    font-size: 2.2vw;
+    line-height: 1em;
+  }
+  .wellness-award .smallertxt {
+    font-size: 1.43vw;
+    line-height: 1.15em;
+  }
+  .featured-jobs-bottom a {
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    padding: 1.25em 2.75em 1.25em 1.75em;
+    background-size: 12px 12px;
+    background-position: 88% 48.5%;
+  }
+  .featured-jobs-bottom a:hover {
+    background-position: 90% 48.5%;
+  }
+  section.featured-career-areas {
+    width: 100%;
+    padding: 4em 0px 5em;
+  }
+  .featured-career-areas li {
+    width: 31%;
+    padding-bottom: 28%;
+    margin: 0px 1%;
+  }
+  .career-path-label {
+    font-size: 1.85vw;
+    padding: 10px 0px;
+  }
+  .featured-career-areas li:hover .career-path-label span {
+    top: 57%;
+    transform: translateY(-57%);
+  }
+  .talent-network a {
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    padding: 1.25em 2.75em 1.25em 1.75em;
+    background-size: 12px 12px;
+    background-position: 88% 48.5%;
+  }
+  .talent-network a:hover {
+    background-position: 90% 48.5%;
+  }
+  .event-banner-main a {
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    padding: 1.25em 2.75em 1.25em 1.75em;
+    background-size: 12px 12px;
+    background-position: 88% 48.5%;
+  }
+  .event-banner-main a:hover {
+    background-position: 90% 48.5%;
+  }
+  .job-search-search {
+    width: 300px;
+  }
+  .content-search-results-left {
+    width: calc(100% - 340px);
+  }
+  .content-search-results-right {
+    width: 300px;
+  }
+  .talent-network-sub-copy {
+    font-size: 1.7vw;
+    line-height: 1em;
+  }
+  .footer-contact-address {
+    display: block;
+    padding: 0px;
+    margin: 0px 0px 20px;
+    border-right: 0px solid #003452;
+  }
+  .footer-lower li a {
+    padding: 0px 10px 0px 6px;
+    color: #ffffff !important;
+  }
+  .policy-section-inner {
+    width: calc(90% - 10em);
+    padding: 3em 5em 4em;
+    font-size: 1.3vw;
+  }
+  .groups p {
+    font-size: 1.2vw;
+    line-height: 1.5em;
+    width: 90%;
+  }
+		section.dj-callout-01 .inside h2 {
+  font-size: 2.25vw;
+  line-height: 1.2em;
+}
+}
+@media only screen and (max-width: 1050px) {
+  .testimonial {
+    width: 70%;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .dynamic-job-details .responsibilities, .dynamic-job-details .requirements {
+    height: 420px;
+  }
+  .benefits-box {
+    width: 28%;
+    margin: 0px 2% 40px 2%
+  }
+  .benefits-box-top {
+    width: 70%;
+    margin: 0px auto 0px auto;
+  }
+  .benefits-box-btm {
+    font-size: 2vw;
+    line-height: 1.2em;
+    margin-top: 10px;
+  }
+  .benefits-box a .benefit-description {
+    width: 110%;
+    min-height: 180px;
+  }
+		  .philan-benefits-box {
+    width: 28%;
+    margin: 0px 2% 40px 2%
+  }
+  .philan-benefits-box-top {
+    width: 70%;
+    margin: 0px auto 0px auto;
+  }
+  .philan-benefits-box-btm {
+    font-size: 2vw;
+    line-height: 1.2em;
+    margin-top: 10px;
+  }
+  .philan-benefits-box a .philan-benefit-description {
+    width: 110%;
+    min-height: 180px;
+  }
+  .learning-box {
+    width: 30%;
+    margin: 0px 2% 40px 2%
+  }
+  .learning-box-top {
+    width: 70%;
+    margin: 0px auto 0px auto;
+  }
+  .learning-box-btm {
+    font-size: 2.vw;
+    line-height: 1.2em;
+    margin-top: 10px;
+  }
+  .belong-box {
+    width: 30%;
+    margin: 0px 2% 40px 2%
+  }
+  .belong-box-top {
+    width: 70%;
+    margin: 0px auto 0px auto;
+  }
+  .belong-box-btm {
+    font-size: 2.vw;
+    line-height: 1.2em;
+    margin-top: 10px;
+  }
+  section.wellbeing-intro {
+    background-position: top left;
+  }
+  .wellbeing-intro .copy-holder p {
+    margin: 0 auto 15px;
+    font-size: 2.25vw;
+    line-height: 1.2em;
+  }
+  .wellbeing-intro .copy-holder .smalltxt {
+    font-size: 1.5vw;
+    line-height: 1.2em;
+  }
+  .nurse-callout .copy-holder {
+    padding: 10%;
+  }
+  .nurse-callout .copy-holder span {
+    margin-bottom: 1.5em;
+    font-size: 14px;
+    line-height: 21px;
+  }
+	.footer-upper-inner {
+    background-image: none;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .dynamic-job-details .requirements {
+    height: auto;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;/*margin: 40px auto*/
+  }
+  .dynamic-job-details .responsibilities {
+    flex-direction: column-reverse;
+    height: auto;
+    width: 90%;
+    margin: 40px auto;
+  }
+  .responsibility-content, .require-content {
+    width: 100%;
+    padding: 30px 5%;
+  }
+  .responsibility-wrapper, .require-wrapper {
+    margin: 0;
+  }
+  .responsibility-content .slant.desktop, .require-content .slant.desktop {
+    display: none;
+  }
+  .responsibility-content .slant.mobile, .require-content .slant.mobile {
+    display: block;
+    width: 100%;
+    left: 0;
+    bottom: auto;
+    top: -29px;
+    height: 30px;
+  }
+  .responsibility-image, .require-image {
+    width: 100%;
+    height: 300px;
+  }
+  .responsibilities .testimonial {
+    width: 210px;
+    left: 5%;
+    transform: none;
+    bottom: 40px;
+  }
+  .testimonial .byline {
+    font-size: 1.5vw;
+  }
+  .requirements .testimonial {
+    width: 250px;
+    left: auto;
+    right: 5%;
+    transform: none;
+    bottom: 40px;
+  }
+	.responsibilities #susansquote.testimonial {
+    width: 500px;
+    left: 5%;
+    transform: none;
+    bottom: 40px;
+}
+  header {
+    font-size: .9em;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  .header-inside {
+    width: 90%;
+    padding: 12px 0px 9px 0px;
+  }
+  .accordion-section-title2 {
+    padding: 65px 45px 0px 45px;
+  }
+  .accordion-section-content2 {
+    position: absolute;
+    right: -5vw;
+    max-height: calc(100vh - 70px);
+  }
+  .accordion-section-content2 ul li:first-child a {
+    padding: 30px 90px 19px 39px;
+  }
+  .accordion-section-content2 li a {
+    font-size: 16px;
+    line-height: 1em;
+    font-weight: 700;
+    padding: 19px 90px 19px 39px;
+  }
+  .accordion-section-content2 li:after {
+    width: 88%;
+  }
+  #logo {
+    width: 180px;
+  }
+  #toplinks li a {
+    color: rgba(0, 98, 155, 1.00) !important;
+    line-height: 1em;
+  }
+  #toplinks li:first-child {
+    border-right: 2px solid rgba(0, 98, 155, 1.00);
+  }
+  .all-the-fixins, .all-the-fixins::before, .all-the-fixins::after {
+    background-color: rgba(0, 98, 155, 1.00) !important;
+  }
+  .menu-label {
+    color: rgba(0, 98, 155, 1.00) !important;
+  }
+  .banner-area {
+    margin-top: 72px;
+    height: auto;
+  }
+  .slide-copy {
+    font-size: 5vw !important;
+    line-height: 1.05em !important;
+  }
+  .hero-copy {
+    font-size: 5vw !important;
+    line-height: 1.05em !important;
+    width: 100%;
+  }
+  .hero-sub-copy {
+    font-size: 5vw !important;
+    line-height: 1.05em !important;
+    width: 100%;
+  }
+  .front-page-inside {
+    width: 90%;
+  }
+  .front-page-inside #keyword-search {
+    width: calc(100% - 205px);
+  }
+  .search-textbox-sub {
+    font-size: .9em;
+    line-height: 1em !important;
+    width: 70%;
+  }
+  .search-button {
+    width: 20px;
+    height: 20px;
+    right: 20px;
+    top: 48%;
+  }
+  .advanced-search {
+    font-size: .9em;
+    line-height: 1em !important;
+    padding: 15px 20px 14px 20px;
+  }
+  .banner-area-sub {
+    border-bottom: 0px solid;
+    border-image: none;
+    margin-top: 71px;
+  }
+		.banner-area-phil {
+    margin-top: 72px;
+    height: auto;
+  }
+  .sub-banner-inner {
+    top: 86%;
+    -ms-transform: translateX(-50%) translateY(-80%);
+    -webkit-transform: translate(-50%, -80%);
+    transform: translate(-50%, -80%);
+  }
+  .content-search-results-left {
+    display: block;
+    float: none;
+    width: 90%;
+    margin: 1.75em auto 0em;
+    min-height: 250px;
+  }
+  .content-search-results-right {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  .job-search-search {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  .mobile-search {
+    width: 100%;
+    background-color: #023453;
+  }
+  .mobile-search-content {
+    width: 90%;
+    padding: 10px 5% 15px;
+  }
+  .keyword-search-column {
+    border: 0px solid rgba(0, 51, 84, .25);
+  }
+  .accordion-section-title3 {
+    color: #023453 !important;
+    background-color: #ffffff;
+    background-position: 97% center;
+    border: 0px solid rgba(0, 51, 84, .25);
+  }
+  .accordion-section-content3 {
+    border-left: 0px solid rgba(0, 51, 84, .25);
+    border-bottom: 0px solid rgba(0, 51, 84, .25);
+    border-right: 0px solid rgba(0, 51, 84, .25);
+  }
+  .talent-network-sub {
+    width: 80%;
+    margin: 0px auto 20px;
+    overflow: hidden;
+    transition: all .35s linear !important;
+  }
+  .talent-network-sub-copy {
+    font-size: 3.5vw;
+    line-height: 1em;
+    padding-top: 13%;
+  }
+  .philanthropy-sub {
+    width: 80%;
+    margin: 0px auto 20px;
+  }
+  .philanthropy-sub-head {
+    font-size: 4vw;
+    line-height: 1em;
+    letter-spacing: .035em;
+    padding: 4% 5% 3.5%;
+  }
+  .philanthropy-sub-copy {
+    font-size: 3.45vw;
+    line-height: 1.1em;
+    padding-top: 15%;
+  }
+  .philanthropy-sub-copy span {
+    padding: 2.25% 10% 2.75%;
+  }
+  .zip-column {
+    width: 100%;
+    border: 0px solid rgba(0, 51, 84, .25);
+  }
+  .featured-jobs-sub {
+    width: 70%;
+    margin: 0px auto;
+    margin-bottom: 40px;
+  }
+  .saved-jobs-sub {
+    width: 70%;
+    margin: 0px auto;
+    margin-bottom: 40px;
+  }
+  
+  .main-content .inner {
+    font-size: 1.5vw;
+    line-height: 1.5em;
+  }
+  .main-content h2 {
+    font-size: 3.25vw;
+    line-height: 1em;
+  }
+  .event-banner-main-date {
+    font-size: 3vw;
+    line-height: 1em;
+  }
+  .divisions .individual-division .division-copy {
+    font-size: 1.5vw;
+    line-height: 1.2em;
+  }
+  .learning-session .inner, .leadership-dev .inner, .coaching .inner, .consulting .inner, .workforce-dev .inner, .about-phil .inner, .about-phil2 .inner,.info-session-phil .inner {
+    font-size: 1.5vw;
+    line-height: 1.5em;
+  }
+  .learning-session p, .leadership-dev p, .coaching p, .consulting p, .workforce-dev p, .about-phil p, .about-phil2 p, .info-session-phil p  {
+    font-size: 1.5vw;
+    line-height: 1.5em;
+  }
+  .learning-session h2, .leadership-dev h2, .coaching h2, .consulting h2, .benefits h2, .philan-benefits h2, .learning h2, .partners-logos h2, .workforce-dev h2, .philanthropy-intro h2, .about-phil h2, .about-phil2 h2, .info-session-phil h2  {
+    font-size: 3.25vw;
+    line-height: 1em;
+  }
+  .philan-teams h2 {
+   font-size: 3vw;
+	margin: 0px auto 30px;
+	}
+  .belongings-intro .inner {
+    font-size: 1.5vw;
+    line-height: 1.5em;
+  }
+  .belongings-intro p {
+    margin-bottom: 1.5em;
+    font-size: 2.8vw;
+    line-height: 1.3em;
+  }
+  .belongings-intro h2 {
+    font-size: 3.25vw;
+    line-height: 1em;
+  }
+  .belong-icons h2 {
+    font-size: 3vw;
+    line-height: 1.1em;
+  }
+  .belong-icons p {
+    font-size: 1.5vw;
+    line-height: 1.5em;
+  }
+  .workforce-dev .inner {
+    font-size: 1.5vw;
+    line-height: 1.5em;
+  }
+  .workforce-dev p {
+    font-size: 1.5vw;
+    line-height: 1.5em;
+  }
+  .workforce-dev h2 {
+    font-size: 3.25vw;
+    line-height: 1em;
+  }
+  .intro-section h3 {
+    font-size: 2.5vw;
+    line-height: 1em;
+    padding: 0em 0px .25em;
+  }
+  .wellness-award {
+    padding: 2.25% 5% 3.5%;
+    width: 90%;
+  }
+  .wellness-award img {
+    width: 46%;
+    margin: 0px 4% 0px 0px;
+  }
+  .wellness-award .smallertxt {
+    font-size: 3.2vw;
+    line-height: 1em;
+    text-align: center;
+    width: 49%;
+  }
+  section.featured-jobs-front {
+    padding: 4em 0px 3em;
+    text-align: center;
+  }
+  .featured-jobs-bottom h4 {
+    min-height: auto;
+  }
+  .featured-jobs-bottom {
+    margin: 3em auto 0px;
+  }
+  .featured-jobs-bottom > div {
+    width: 47%;
+    text-align: center;
+    margin: 0px auto;
+  }
+  .featured-jobs-bottom > div:first-child, .featured-jobs-bottom > div:nth-child(3) {
+    margin: 0px 2% 4em 0px;
+  }
+  .featured-jobs-bottom > div:last-child, .featured-jobs-bottom > div:nth-child(2) {
+    margin: 0px 0px 0px 2%;
+  }
+  .featured-jobs-bottom li {
+    width: 47%;
+    text-align: center;
+    margin: 0px auto;
+  }
+  .featured-jobs-bottom li:first-child, .featured-jobs-bottom li:nth-child(3) {
+    margin: 0px 2% 4em 0px;
+  }
+  .featured-jobs-bottom li:last-child, .featured-jobs-bottom li:nth-child(2) {
+    margin: 0px 0px 0px 2%;
+  }
+  .featured-jobs-bottom h3 {
+    font-size: 2em;
+    margin: 0px 0px 6px;
+  }
+  .talent-network .table-text {
+    padding: 12.5% 12.5% 15%;
+  }
+  .event-banner-main .table-text {
+    padding: 12.5% 12.5% 15%;
+  }
+  .learning-session .table-text, .leadership-dev .table-text {
+    padding: 10% 10% 10%;
+    width: 80%;
+  }
+  .belongings-intro .table-text {
+    padding: 10% 10% 10%;
+    width: 80%;
+  }
+  .workforce-dev .table-text {
+    padding: 12.5% 12.5% 15%;
+  }
+		.about-phil .table-text, .info-session-phil .table-text {
+    padding: 12.5% 12.5% 15%;
+  }
+  .featured-jobs-sub .featured-jobs-bottom div {
+    width: 100%;
+    margin: 0px auto 0px;
+    padding: 2em 0px;
+    text-align: left;
+  }
+  .featured-jobs-sub .featured-jobs-bottom div:last-child {
+    padding: 2em 0px 0px;
+    border-bottom: none;
+  }
+  .policy-section-inner {
+    width: calc(90% - 10em);
+    padding: 3em 5em 4em;
+    font-size: 1.5vw;
+  }
+  .policy-section p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+  .featured-jobs-bottom ul {
+    display: block;
+  }
+  .featured-jobs-front .featured-jobs-bottom a {
+    position: static;
+  }
+  .content-inner-holder {
+    width: 100%;
+    margin: 0px auto 50px;
+  }
+  .search-headings h1 {
+    font-size: 5vw;
+  }
+  .juicer-header {
+    font-size: 2.5em;
+    line-height: 1em;
+    padding: 20px 15%;
+    text-align: center;
+  }
+  .google-job-map {
+    padding-bottom: 400px;
+    margin-bottom: 20px !important;
+  }
+  .map-row {
+    background: rgba(245, 245, 245, 1);
+    margin: 0px auto;
+    padding: 1em 0;
+  }
+  .google-job-map iframe {
+    height: 400px;
+  }
+  .talent-network-container {
+    width: 90%;
+    margin: 20px auto 5% auto;
+  }
+  .talent-network-container label {
+    width: 100%;
+  }
+  .talent-network-container input {
+    width: 90%;
+    padding: 7px 5%;
+  }
+  .talent-network-container select {
+    padding: 7px 5%;
+    width: 100%;
+  }
+  .talent-network-container ul span {
+    width: 100%;
+    padding-top: 2px;
+  }
+  .talent-network-container ul ul {
+    width: 90%;
+    padding: 10px 5%;
+    max-height: 200px;
+  }
+  .talent-network-container ul span.upload-buttons-holder {
+    width: 100% !important;
+  }
+  .talent-network-container ul span.footnote {
+    width: 100% !important;
+  }
+  .upload-buttons-holder button {
+    font-size: .9em;
+    width: 225px;
+  }
+  .desktop-upload + label {
+    width: auto !important;
+    font-size: .9em;
+  }
+  .dropbox-dropin-btn, .dropbox-dropin-btn:link, .dropbox-dropin-btn:hover {
+    font-size: .9em !important;
+  }
+  .learning-intro .copy-holder {
+    padding: 20% 10%;
+  }
+  .learning-intro .copy-holder p {
+    margin-bottom: 1.5em;
+    font-size: 2.8vw;
+    line-height: 1.3em;
+  }
+  .wellbeing-intro .copy-holder {
+    padding: 10% 10%;
+  }
+  .benefits {
+    background-image: url(../images/sub/benefits/mobile/Benefits-banner-image-mobile.jpg);
+  }
+  .benefits-box {
+    width: 28%;
+    margin: 0px 2% 40px 2%
+  }
+  .benefits-box-btm {
+    font-size: 2.25vw;
+    line-height: 1.2em;
+    margin-top: 5px;
+  }
+		 .philan-benefits {
+    background-image: url(../images/sub/benefits/mobile/Benefits-banner-image-mobile.jpg);
+  }
+	.philan-benefits-box {
+    width: 28%;
+    margin: 0px 2% 40px 2%
+  }
+  .philan-benefits-box-btm {
+    font-size: 2.25vw;
+    line-height: 1.2em;
+    margin-top: 5px;
+  }
+  .learning-box-btm {
+    font-size: 1.1em;
+    line-height: 1.2em;
+    margin-top: 5px;
+  }
+  .belong-icons-box-btm {
+    font-size: 1.1em;
+    line-height: 1.2em;
+    margin-top: 5px;
+  }
+  .description-header {
+    font-size: 1.1em;
+    line-height: 1.1em;
+  }
+  .description-text {
+    font-size: .9em;
+    line-height: 1.3em;
+  }
+  .divisions .individual-division h3 {
+    font-size: 3.5vw;
+    line-height: 1.2em;
+  }
+  .belong-icons-box {
+    width: 30%;
+    margin: 0px 1% 60px 1%;
+  }
+  #coaching:before, #consulting:before, #leadership:before, #learning:before, #strategy:before, #erg:before {
+    content: "";
+    display: block;
+    padding-top: 72px; /* header height + empty space */
+    margin-top: -72px; /* header height to degrees padding’s space */
+  }
+  .map-row .table {
+    width: 100%;
+    padding: 0px 0px;
+  }
+  .map-row .cell {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+  .map-row .row {
+    display: block;
+  }
+  .map-row .copy-container {
+    width: 100%;
+    padding: 0% 0px;
+    margin: 0px auto;
+  }
+  .map-row .heading {
+    font-size: 4vw;
+    text-align: center;
+  }
+  .map-row p {
+    font-size: 2.8vw;
+    line-height: 1.4em;
+    text-align: left;
+  }
+  .map-right {
+    position: static;
+  }
+  .dj-qualifications .copy-container {
+    font-size: 2.25vw;
+    line-height: 1.3em;
+    padding: 2em 0px;
+  }
+		.philanthropy-intro li {
+   display: block;
+    margin: 0 auto 20px;
+/*    width: 80%;*/
+}
+		.philanthropy-intro ul {
+padding-left:0;
+}
+	.philanthropy-intro a {
+    display: block;
+		line-height: 1.2em;
+}
+		section.dj-callout-01 .inside h2 {
+  font-size: 3vw;
+  line-height: 1.2em;
+}
+}
+@media only screen and (max-width: 700px) {
+	.banner-area-sub ~ #brazenChatWidgetFrame.bc-resize-init-view-expanded {
+    	bottom: 50px !important;
+    	z-index: 999999 !important;
+	}
+	.banner-area-sub ~ #brazenChatWidgetFrame.bc-resize-expanded-slided-down {
+    	bottom: 60px !important;
+    	z-index: 999999 !important;
+	}
+	#brazenChatWidgetFrame.bc-resize-expanded {
+    	z-index: 99999999999 !important;
+	}
+	.banner-area-sub ~ #brazenChatWidgetFrame.bc-resize-expanded-slided-down {
+		top: auto !important;
+	}
+	.jobs-page .cc-window.cc-bottom {
+		bottom: 59px !important;
+	}
+  .responsibilities .testimonial, .requirements .testimonial {
+    width: 100%;
+    max-width: inherit;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eeeeee;
+    font-size: 3vw;
+    line-height: 1.3em;
+    color: #000000;
+    position: relative;
+  }
+	  .responsibilities #susansquote.testimonial {
+    width: 100%;
+    max-width: inherit;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eeeeee;
+    font-size: 3vw;
+    line-height: 1.3em;
+    color: #000000;
+    position: relative;
+  }
+  .responsibility-image .mobile, .require-image .mobile {
+    display: block;
+    width: 100%;
+  }
+  .responsibility-image, .require-image {
+    background-image: none;
+  }
+  .requirements .testimonial {
+    padding-bottom: 35px;
+  }
+  .responsibility-image, .require-image {
+    height: auto;
+  }
+  .testimonial .quote {
+    font-size: 40px;
+  }
+  .testimonial .byline {
+    font-size: 2.5vw;
+  }
+  .event-banner-main .table, .strategy .table {
+    display: block;
+  }
+  .event-banner-main .row, .strategy .row {
+    display: block;
+  }
+  .event-banner-main .cell, .strategy .cell {
+    display: block;
+  }
+  #toplinks {
+    display: none;
+  }
+  .accordion-section-content2 {
+    position: absolute;
+    right: -5vw;
+    left: -5vw;
+    max-height: calc(100vh - 70px);
+  }
+  .accordion-section-content2 .no-line a {
+    padding: 19px 90px 23px 39px;
+    background-position: 88% 45%;
+  }
+  .mobile-options {
+    display: block !important;
+  }
+  .mobile-options a {
+    background-color: rgba(0, 51, 84, 1) !important;
+    padding: 24px 90px 17px 39px !important;
+    background-position: 88% 55% !important;
+    font-size: 1.1em !important;
+    font-weight: 400 !important;
+  }
+  .accordion-section-content2 ul .mobile-options:last-child a {
+    padding: 17px 90px 38px 39px !important;
+    background-position: 88% 32% !important;
+  }
+  .front-page-search {
+    bottom: 0;
+    left: 0;
+    z-index: 9999999999;
+    -webkit-box-shadow: 0 -3px 5px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 -3px 5px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 -3px 5px 0 rgba(0, 0, 0, 0.15);
+  }
+  .front-page-inside {
+    width: 85%;
+    padding: 19px 0px 5px 0px;
+  }
+  .front-page-inside #keyword-search {
+    width: 100%;
+    display: block;
+  }
+  .search-textbox-sub {
+    margin-left: 17px;
+  }
+  .search-button {
+    right: 17px;
+  }
+  .advanced-search {
+    font-size: .8em;
+    line-height: 1em !important;
+    letter-spacing: .02em;
+    font-weight: 400 !important;
+    padding: 5px 15px 5px 0px;
+    margin: 0px;
+    color: #ffffff !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    background-image: url("../images/global/menu-arrow-white.png");
+    background-repeat: no-repeat;
+    background-position: 129px center;
+    background-size: 12px 12px;
+    position: absolute;
+    top: -5px;
+    right: 0;
+  }
+  .advanced-search:hover, .advanced-search:focus {
+    background-color: rgba(255, 255, 255, 0) !important;
+    background-position: 130px center;
+    text-decoration: underline;
+	color: #ffffff !important;
+  }
+  .front-page-search label {
+    display: inline-block;
+    font-size: .8em;
+    line-height: 1em !important;
+    letter-spacing: .02em;
+    font-weight: 700 !important;
+    padding: 5px 30px 5px 0px;
+    margin: 0px;
+    color: #ffffff !important;
+    position: absolute;
+    top: -23px;
+    left: 0;
+  }
+  .footer-lower {
+    padding: 28px 0px 90px;
+    margin-bottom: 0px;
+  }
+  .main-content section {
+    width: 100%;
+    padding: 3em 0px;
+    margin: 0px auto;
+  }
+  .main-content .inner {
+    font-size: 2.25vw;
+    line-height: 1.5em;
+  }
+  .main-content h2 {
+    font-size: 5.75vw;
+    line-height: 1em;
+    text-align: center;
+  }
+  .event-banner-main-date {
+    font-size: 4.9vw;
+    line-height: 1em;
+    text-align: center;
+  }
+.learning-session .inner, .leadership-dev .inner, .coaching .inner, .consulting .inner, .workforce-dev .inner, .about-phil .inner, .about-phil2 .inner,.info-session-phil .inner {
+    font-size: 2.25vw;
+    line-height: 1.5em;
+  }
+  .learning-session h2, .leadership-dev h2, .coaching h2, .consulting h2, .partners-logos h2, .workforce-dev h2, .philanthropy-intro h2, .about-phil h2, .about-phil2 h2, .info-session-phil h2 {
+    font-size: 5.75vw;
+    line-height: 1.1em;
+    text-align: left;
+  }
+	.philan-benefits h2, .benefits h2, .learning h2 {
+    font-size: 5.75vw;
+    line-height: 1.1em;
+    text-align: center;
+  }
+	.philanthropy-intro h2 {
+   margin:0 auto;
+  }
+	.philan-teams h2 {
+   font-size: 3.5vw;
+line-height: 1.2em;
+margin: 0px auto 20px;
+    width: 90%;
+    text-align: left;
+}
+	.about-phil h3{
+    font-size: 4vw;
+}
+  .learning-session p, .leadership-dev p, .coaching p, .consulting p, .workforce-dev p, .about-phil p, .about-phil2 p, .info-session-phil p {
+    font-size: 2.25vw;
+    line-height: 1.5em;
+    text-align: left;
+  }
+	.info-session-phil .table-text a {
+/*    width: 60%;*/
+    font-size: 3vw;
+     margin: 15px auto 0px;
+}
+  .belongings-intro .inner {
+    font-size: 2.25vw;
+    line-height: 1.5em;
+  }
+  .belongings-intro h2 {
+    font-size: 5.75vw;
+    line-height: 1.1em;
+    text-align: center;
+  }
+  .belong-icons h2 {
+    font-size: 4.5vw;
+    line-height: 1.2em;
+    text-align: center;
+  }
+  .belong-icons p {
+    font-size: 2.25vw;
+    line-height: 1.5em;
+    text-align: center;
+  }
+  .belong-icon p {
+    font-size: 2.25vw;
+    line-height: 1.5em;
+    text-align: center;
+  }
+  .workforce-dev .inner {
+    font-size: 2.25vw;
+    line-height: 1.5em;
+  }
+  .workforce-dev h2 {
+    font-size: 5.75vw;
+    line-height: 1.1em;
+  }
+  .workforce-dev p {
+    font-size: 2.25vw;
+    line-height: 1.5em;
+  }
+  .divisions h2 {
+    font-size: 3.5vw;
+    line-height: 1.2em;
+    text-align: left;
+    width: 100%;
+    margin: 0px 0 10px;
+  }
+  .divisions .individual-division .division-copy {
+    font-size: 2.25vw;
+    line-height: 1.3em;
+  }
+  .intro-section .inner {
+    width: 100%;
+    text-align: center;
+  }
+  section.intro-section {
+    padding: 3em 0px 0px;
+  }
+  .intro-copy {
+    width: 85%;
+    margin: 0px auto;
+  }
+  .intro-section ul {
+    width: 100%;
+    margin: 3em 0px 3em;
+  }
+  .intro-section li {
+    width: 18%;
+    padding: 0px 7%;
+  }
+  .intro-section li:first-child {
+    padding: 0px 7% 0px 7%;
+  }
+  .intro-section li:last-child {
+    padding: 0px 7% 0px 7%;
+  }
+  .intro-section li:last-child div {
+    background-image: url("../images/main/icon-diversity-white.png");
+    background-size: 50%;
+  }
+  .intro-section li a {
+    font-size: 3.4vw;
+  }
+  .intro-section li div {
+    width: 90%;
+    padding-bottom: 90%;
+  }
+  .intro-video {
+    width: 100%;
+    position: static;
+    background-color: #0d6499;
+    padding: 3em 0px 0px;
+  }
+  .intro-section h3 {
+    font-size: 4.5vw;
+    line-height: 1em;
+    margin-bottom: .5em;
+    color: #ffffff;
+  }
+  .responsive-container {
+    padding-top: 0px;
+  }
+  .wellness-award {
+    padding: 7% 7% 8%;
+    width: 86%;
+    -webkit-box-shadow: 0px 5px 35px rgba(0, 0, 0, .15);
+    box-shadow: 0px 5px 35px rgba(0, 0, 0, .15);
+    text-align: center;
+  }
+  .wellness-award img {
+    width: 46%;
+    margin: 0px 1% 0px 0px;
+  }
+  .wellness-award .smallertxt {
+    font-size: 3.75vw;
+    line-height: 1em;
+    width: 52%;
+  }
+  section.featured-jobs-front {
+    padding: 5em 0px 5.5em;
+  }
+  .featured-jobs-bottom {
+    margin: 3em auto 0px;
+  }
+  .featured-jobs-bottom > div {
+    display: block;
+    width: 100%;
+    padding: 3em 0px 4em;
+    border-bottom: 1px dashed rgba(0, 51, 84, .25);
+    margin: 0px auto;
+  }
+  .featured-jobs-bottom > div:first-child {
+    padding: 0em 0px 4em;
+    margin: 0px auto;
+  }
+  .featured-jobs-bottom > div:nth-child(2) {
+    margin: 0px auto;
+  }
+  .featured-jobs-bottom > div:nth-child(3) {
+    margin: 0px auto;
+  }
+  .featured-jobs-bottom > div:last-child {
+    padding: 3em 0px 0em;
+    margin: 0px auto;
+    border-bottom: 0px dashed rgba(0, 51, 84, .25);
+  }
+  .featured-jobs-bottom li {
+    display: block;
+    width: 100%;
+    padding: 3em 0px 4em;
+    border-bottom: 1px dashed rgba(0, 51, 84, .25);
+    margin: 0px auto;
+  }
+  .featured-jobs-bottom li:first-child {
+    padding: 0em 0px 4em;
+    margin: 0px auto;
+  }
+  .featured-jobs-bottom li:nth-child(2) {
+    margin: 0px auto;
+  }
+  .featured-jobs-bottom li:nth-child(3) {
+    margin: 0px auto;
+  }
+  .featured-jobs-bottom li:last-child {
+    padding: 3em 0px 0em;
+    margin: 0px auto;
+    border-bottom: 0px dashed rgba(0, 51, 84, .25);
+  }
+  .featured-jobs-bottom h3 {
+    font-size: 2.25em;
+    line-height: 1em;
+    margin: 0px 0px .35em;
+  }
+  .featured-jobs-bottom span:nth-child(2) {
+    font-size: 1.35em;
+    margin: 0px 0px .5em;
+  }
+  .featured-jobs-bottom span:nth-child(3) {
+    margin: 0px 0px 2em;
+  }
+  .featured-jobs-bottom a {
+    font-size: 1em;
+    padding: 1.5em 3em 1.5em 2em;
+    background-position: 86% 49.5%;
+  }
+  .featured-jobs-bottom a:hover {
+    background-position: 91% 49.5%;
+  }
+  section.featured-career-areas {
+    width: 85%;
+    padding: 4em 0px 1.5em;
+  }
+  .featured-career-areas ul {
+    margin: 2em auto 0px auto;
+  }
+  .featured-career-areas li {
+    width: 100%;
+    padding-bottom: 70%;
+    margin: 0px auto 2em;
+  }
+  .career-path-label {
+    font-size: 4.25vw;
+    padding: .5em 0px;
+    transition: all .5s ease;
+  }
+  .featured-career-areas li:hover .career-path-label span {
+    top: 66%;
+    transform: translateY(-66%);
+  }
+  section.talent-network {
+    padding: 0px 0px;
+  }
+  section.talent-network .inner {
+    width: 100%;
+  }
+  .talent-network .cell {
+    width: 100%;
+  }
+  .talent-network .table-text {
+    width: 85%;
+    padding: 7.5%;
+    text-align: center;
+  }
+  .talent-network a {
+    font-size: 1em;
+    padding: 1.5em 3em 1.5em 2em;
+    background-position: 87% 49.5%;
+  }
+  .talent-network a:hover {
+    background-position: 91% 49.5%;
+  }
+  .talent-network-left {
+    padding-bottom: 65%;
+  }
+  section.event-banner-main {
+    padding: 0px 0px;
+  }
+  section.event-banner-main .inner {
+    width: 100%;
+  }
+  .event-banner-main .cell {
+    width: 100%;
+  }
+  .event-banner-main .table-text {
+    width: 85%;
+    padding: 7.5%;
+    text-align: center;
+  }
+  .event-banner-main a {
+    font-size: 1em;
+    padding: 1.5em 3em 1.5em 2em;
+    background-position: 87% 49.5%;
+  }
+  .event-banner-main a:hover {
+    background-position: 91% 49.5%;
+  }
+  .event-banner-main-left {
+    padding-bottom: 45%;
+  }
+ section.learning-session, section.leadership-dev, section.coaching, section.consulting, section.workforce-dev, section.about-phil, section.about-phil2, section.info-session-phil {
+    padding: 0px 0px;
+  }
+  section.learning-session .inner, section.leadership-dev .inner, section.coaching .inner, section.consulting .inner, section.workforce-dev .inner, section.about-phil .inner, section.about-phil2 .inner, section.info-session-phil .inner{
+    width: 100%;
+  }
+  .learning-session .cell, .leadership-dev .cell, .coaching .cell, .consulting .cell, .workforce-dev .cell, .about-phil .cell, .about-phil2 .cell, .info-session-phil .cell {
+    width: 100%;
+  }
+  .learning-session .table-text, .leadership-dev .table-text, .coaching .table-text, .consulting .table-text, .workforce-dev .table-text, .about-phil .table-text, .about-phil2 .table-text, .info-session-phil .table-text {
+    width: 85%;
+    padding: 7.5%;
+    text-align: center;
+  }
+  .learning-session-image, .leadership-dev-image, .coaching-image, .consulting-image, .workforce-dev-image, .about-phil-image, .about-phil2-image, .about-phil-image2, .info-session-phil-image  {
+    display: none;
+  }
+  section.learning-session, section.leadership-dev, section.coaching, section.consulting, section.belongings-intro, section.workforce-dev, section.about-phil, section.about-phil2, section.info-session-phil {
+    width: 100%;
+    background-image: url("../images/sub/learning/mobile/life-session-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    margin-top: 0px !important;
+  }
+  section.belongings-intro {
+    padding: 0px 0px;
+  }
+  section.belongings-intro .inner {
+    width: 100%;
+  }
+  .belongings-intro .cell {
+    width: 100%;
+  }
+  .belongings-intro .table-text {
+    width: 85%;
+    padding: 7.5%;
+  }
+  .belongings-intro-image {
+    display: none;
+  }
+  section.belongings-intro {
+    width: 100%;
+    background-image: url("../images/sub/belonging/mobile/adele-joseph-mobile.jpg");
+    padding-top: 64.81% !important;
+    margin-top: 0px !important;
+  }
+  section.learning-session {
+    width: 100%;
+    background-image: url("../images/sub/learning/mobile/life-session-mobile.jpg");
+    padding-top: 64.81% !important;
+    margin-top: 0px !important;
+  }
+  section.wellbeing-intro {
+    background-image: url("../images/sub/well-being/mobile/wellbeing-intro-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top right;
+    /*padding-top: 52.75%;*/
+    border-bottom: 5px solid #00629b;
+    border-top: 5px solid #00629B;
+  }
+  section.leadership-dev {
+    width: 100%;
+    background-image: url("../images/sub/learning/mobile/leadership-dev-mobile.jpg");
+    padding-top: 64.81% !important;
+    margin-top: 0px !important;
+  }
+  section.coaching {
+    width: 100%;
+    background-image: url("../images/sub/learning/mobile/coaching-mobile.jpg");
+    padding-top: 64.81% !important;
+    margin-top: 0px !important;
+  }
+  section.workforce-dev {
+    width: 100%;
+    background-image: url("../images/sub/belonging/mobile/workforce-dev-mobile.jpg");
+    padding-top: 64.81% !important;
+    margin-top: 0px !important;
+  }
+		section.about-phil {
+    width: 100%;
+    background-image: url("../images/sub/philanthropy/mobile/about-phil-02-mobile.jpg");
+    padding-top: 64.81% !important;
+    margin-top: 0px !important;
+  }
+	section.about-phil2 {
+    width: 100%;
+    background-image: url("../images/sub/philanthropy/mobile/about-phil-03-mobile.jpg");
+    padding-top: 64.81% !important;
+    margin-top: 0px !important;
+  }
+	section.info-session-phil {
+    width: 100%;
+    background-image: url("../images/sub/philanthropy/mobile/phil-info-session-02-mobile.jpg");
+    padding-top: 64.81% !important;
+    margin-top: 0px !important;
+  }
+  section.consulting {
+    width: 100%;
+    background-image: url("../images/sub/learning/mobile/consulting-mobile.jpg");
+    padding-top: 64.81% !important;
+    margin-top: 0px !important;
+  }
+  .featured-jobs-sub .featured-jobs-bottom div {
+    width: 100%;
+    margin: 0px auto 0px;
+    padding: 2em 0px;
+    text-align: left;
+  }
+  .featured-jobs-sub .featured-jobs-bottom div:last-child {
+    padding: 2em 0px 0px;
+    border-bottom: none;
+  }
+  /* bottom expandable search */
+  .job-search-search {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0px;
+    z-index: 999999999999;
+  }
+  .mobile-search {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 -3px 5px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 -3px 5px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 -3px 5px 0 rgba(0, 0, 0, 0.15);
+  }
+  .mobile-search-title {
+    display: block;
+    margin: 0px auto 0px auto;
+    border-radius: 0px;
+    text-align: center;
+    padding: 19px 0px 19px;
+    color: #023453 !important;
+    position: relative;
+    overflow: hidden;
+    background-color: #023453;
+  }
+  .mobile-search-title.active {
+    padding: 12px 0px 11px;
+  }
+  .mobile-search-title:hover {}
+  .mobile-search-title::before {
+    content: 'Search Jobs Now';
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #023453;
+    background-color: #ffffff;
+    padding: 12px 60px 12px 20px;
+    background-image: url("../images/global/magnifying-glass.png");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 87% 48%;
+    border-radius: 3px;
+    font-size: 1.05em;
+  }
+  .mobile-search-title:hover::before {
+    content: 'Search Jobs Now';
+    color: #023453;
+    background-color: #ffa300;
+    background-image: url("../images/global/magnifying-glass-drk-blue.png");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 85% 48%;
+    border-radius: 3px;
+  }
+  .mobile-search-title::after {
+    content: 'Hide Job Search';
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #ffffff;
+    padding: 12px 26px 11px;
+    background-color: #023453;
+    transform: translateY(100%);
+    background-image: url("../images/global/accordian-arrow-down-yellow.png"), url("../images/global/accordian-arrow-down-yellow.png");
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 25% 48%, 75% 48%;
+    transition: all .2s ease-out;
+  }
+  .mobile-search-title:hover::after {
+    color: #023453 !important;
+    background-color: #ffa300;
+    background-image: url("../images/global/accordian-arrow-down-drk-blue.png"), url("../images/global/accordian-arrow-down-drk-blue.png");
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 25% 54%, 75% 54%;
+    transition: all .2s ease-out;
+  }
+  .mobile-search-title.active::after {
+    transform: translateY(0%);
+  }
+  .mobile-search-content {
+    display: none;
+    width: 90%;
+    padding: 10px 5% 15px;
+    max-height: calc(100vh - 100px);
+  }
+  .keyword-search-column {
+    border: 1px solid rgba(0, 51, 84, .25);
+  }
+  .accordion-section-title3 {
+    background-position: 96.25% center;
+    border: 1px solid rgba(0, 51, 84, .25);
+  }
+  .zip-column {
+    border: 1px solid rgba(0, 51, 84, .25);
+  }
+  .accordion-section-content3 {
+    position: relative;
+    max-height: 160px;
+    border-left: 1px solid rgba(0, 51, 84, .25);
+    border-bottom: 1px solid rgba(0, 51, 84, .25);
+    border-right: 1px solid rgba(0, 51, 84, .25);
+  }
+  .search-headings h1 {
+    font-size: 6.5vw;
+    letter-spacing: -.02em;
+  }
+  .search-headings h2 {
+    font-weight: 300;
+    letter-spacing: -.02em;
+  }
+  .talent-inside h1 {
+    text-align: center;
+  }
+  .talent-inside .utility-btn {
+    position: static;
+    display: block;
+    width: 90px;
+    margin: 0px auto;
+  }
+  footer {
+    padding: 40px 0px 0px;
+    text-align: center;
+  }
+  .footer-upper-inner ul {
+    text-align: center;
+    margin: 0px auto;
+  }
+  .footer-upper-inner ul:nth-child(2) {
+    max-width: 260px;
+    margin: 25px auto;
+  }
+  .footer-upper-inner ul:nth-child(3) li img {
+    height: 44px !important;
+    width: auto;
+  }
+  .footer-contact-social-media .header {
+    text-align: center;
+  }
+  .footer-contact-social-media-btm li {
+    margin: 0px 4px !important;
+  }
+  .footer-contact-social-media-btm li:first-child {
+    margin: 0px 4px 0px 0px !important;
+  }
+  .footer-contact-social-media-btm li:last-child {
+    margin: 0px 0px 0px 4px !important;
+  }
+  .footer-contact-social-media-btm li img {
+    height: 30px !important;
+  }
+  .footer-upper-inner img {
+    display: block;
+  }
+  .footer-lower ul {
+    margin-bottom: 20px;
+  }
+  .footer-lower li {
+    display: block;
+    width: 100%;
+    border-right: 0px solid #003354;
+    line-height: 1em;
+  }
+  .footer-lower li a {
+    display: block;
+    padding: 0px;
+    margin: 0px auto 5px;
+    font-weight: 300;
+  }
+  .footer-lower li a:hover {
+    font-weight: 500;
+  }
+  #sub-banner-jobsearch {
+    background-image: url(../images/sub/mobile/sub-banner-jobsearch-mobile.jpg);
+    padding-top: 0%;
+  }
+  #sub-banner-jobdetails {
+    background-image: url(../images/sub/mobile/sub-banner-jobdetails-mobile.jpg);
+    padding-top: 0%;
+  }
+  #sub-banner-talent {
+    background-image: url(../images/sub/mobile/sub-banner-talent-network-mobile.jpg);
+    padding-top: 0%;
+  }
+  #sub-banner-policies {
+    background-image: url("../images/sub/mobile/sub-banner-policies-mobile.jpg");
+    padding-top: 0%;
+  }
+  #sub-banner-learning {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, rgba(0, 0, 0, .8) 100%), url("../images/sub/mobile/sub-banner-learning-mobile.jpg");
+    padding-top: 12%;
+    max-height: 350px;
+  }
+  #sub-banner-well-being {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, rgba(0, 0, 0, .8) 100%), url("../images/sub/mobile/sub-banner-wellbeing-mobile.jpg");
+    padding-top: 0%;/*was 12%*/
+    max-height: 350px;
+  }
+  #sub-banner-belonging {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, rgba(0, 0, 0, .8) 100%), url("../images/sub/mobile/sub-banner-belonging-mobile.jpg");
+    padding-top: 12%;
+    max-height: 350px;
+  }
+  #sub-banner-clinic-coord {
+    background-image: url(../images/sub/mobile/sub-banner-jobdetails-mobile.jpg);
+    padding-top: 0%;
+  }
+ 	 #sub-banner-philanthropy {
+    background-image: url("../images/sub/mobile/sub-banner-philanthropy-mobile.jpg");
+    padding-top: 12%;
+		 max-height: 350px;
+  }
+  .sub-banner-inner {
+    top: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .hero-copy {
+    font-size: 6vw !important;
+    line-height: 1.1em !important;
+    width: 90%;
+    margin: 0px auto;
+  }
+  .hero-sub-copy {
+    font-size: 6vw !important;
+    line-height: 1.1em !important;
+    margin: 0px auto;
+  }
+  .policy-section-inner {
+    width: calc(90% - 6em);
+    padding: 3em 3em 4em;
+    font-size: 2.1vw;
+  }
+  .policy-section p {
+    font-size: 1.1em;
+    line-height: 1.65em;
+  }
+  .footer-lower {
+    font-size: 1em;
+    line-height: 1.65em;
+  }
+  /* HERO IMAGE */
+  .slide-background-image {
+    background-position: bottom center;
+    background-size: contain;
+    background-image: url(../images/main/top-banners/mobile/mobile-slide1.jpg);
+    background-color: #ffffff;
+  }
+  .slide-1 .slide-background-image {
+    background-image: url(../images/main/top-banners/mobile/mobile-slide1.jpg);
+    background-color: #ffffff;
+  }
+  .slide-2 .slide-background-image {
+    background-image: url(../images/main/top-banners/mobile/mobile-slide2.jpg);
+    background-color: #ffffff;
+  }
+  .juicer-header {
+    font-size: 6.25vw;
+    line-height: 1em;
+  }
+  .talent-network-details {
+    font-size: 3vw;
+  }
+  .learning-intro .cell:first-child {
+    width: 60%;
+  }
+  .learning-intro .cell:last-child {
+    width: 40%;
+  }
+  .learning-intro .copy-holder {
+    width: 80%; /*was 70%*/
+    max-width: 1540px;
+    padding: 15% 10% 15% 10%;
+  }
+  .benefits-box {
+    width: 30%;
+    margin: 0px 2% 30px 2%
+  }
+  .benefits-box-top {
+    width: 80%;
+    margin: 0px auto 0px auto;
+  }
+		.philan-benefits-box {
+    width: 30%;
+    margin: 0px 2% 30px 2%
+  }
+  .philan-benefits-box-top {
+    width: 80%;
+    margin: 0px auto 0px auto;
+  }
+  .learning-box-top {
+    width: 80%;
+    margin: 0px auto 0px auto;
+  }
+  .learning-box-btm {
+    font-size: 1em;
+    line-height: 1.2em;
+    margin-top: 5px;
+  }
+  .belong-icons-box-top {
+    width: 80%;
+    margin: 0px auto 0px auto;
+  }
+  .belong-icons-btm {
+    font-size: 1em;
+    line-height: 1.2em;
+    margin-top: 5px;
+  }
+  #toplinks li {
+    padding: 0px 8px 0px 5px !important;
+  }
+  #toplinks {
+    right: 85px !important;
+  }
+  #toplinks li a {
+    letter-spacing: -.01em !important;
+  }
+  .groups .inner .cell {
+    width: 100%;
+    display: block;
+    vertical-align: middle;
+  }
+  .groups .inner .table-text {
+    padding: 0;
+  }
+  .groups-inner-image {
+    display: block;
+    padding-bottom: 51.85%;
+    width: 100%
+  }
+  .group-logos {
+    width: 30%;
+    margin: 0 auto 20px;
+  }
+  .group-logos2 {
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+  #mosaic {
+    background-image: url("../images/sub/belonging/mobile/group-mosaic-mobile.jpg");
+  }
+  #lgbtq {
+    background-image: url("../images/sub/belonging/mobile/group-lgbtq-mobile.jpg");
+  }
+  #parents {
+    background-image: url("../images/sub/belonging/mobile/group-parents-mobile.jpg");
+  }
+  #professionals {
+    background-image: url("../images/sub/belonging/mobile/group-professionals-mobile.jpg");
+  }
+  .groups .inner {
+    margin: 0px auto 0px;
+  }
+  .groups .inner p {
+    font-size: 3.25vw;
+    line-height: 1.3em;
+    margin: 15px auto 20px;
+    width: 96%;
+  }
+  .groups p {
+    font-size: 3.25vw;
+    line-height: 1.3em;
+  }
+  section.rewards p {
+    font-size: 3.25vw;
+    line-height: 1.3em;
+	  text-align: left;
+  }
+  .groups {
+    padding: 20px 0px !important;
+    border-bottom: 5px solid #00629b;
+    background-image: none;
+    background-color: rgb(158, 195, 217);
+  }
+  .groups h2 {
+    font-size: 5.75vw;
+    line-height: 1em;
+    margin: 10px auto;
+	  width: 90%;
+    text-align: left;
+  }
+  section.rewards h2 {
+    font-size: 5.75vw;
+    line-height: 1em;
+  }
+  .groups h3 {
+    font-size: 4vw;
+    line-height: 1em;
+    margin: 0px auto 15px;
+	  text-align: left;
+  }
+  .groups .individual-group h3 {
+    padding: 20px 2% 5px;
+    font-size: 6vw;
+    line-height: 1em;
+  }
+  .group-sub-title {
+    font-size: 4.3vw;
+    line-height: 1em;
+  }
+  .groups .individual-group {
+    margin: 5% auto 5%;
+  }
+  .groups .individual-group:last-child {
+    margin: 0 auto 0%;
+  }
+		.phil-inclusion-statement .inner h2 {
+    font-size: 5.75vw;
+    line-height: 1em;
+    margin: 10px auto 0px;
+  }
+	 .phil-inclusion-statement .inner h3 {
+    font-size: 3vw;
+    line-height: 1.4em;
+    margin: 0px auto 15px;
+		 border: none;
+  }
+	  .phil-inclusion-statement .inner p {
+    font-size: 3.25vw;
+    line-height: 1.3em;
+    margin: 15px auto 20px;
+       width: 90%;
+  }
+  .strategy .cell {
+    width: 100%;
+  }
+  .strategy .table-text {
+    width: 100%;
+    padding: 2% 0;
+    display: inline-block;
+  }
+  .strategy-graphic {
+    width: 100%;
+    margin: 20px auto;
+    -webkit-box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.37);
+    box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.37);
+    padding-bottom: 0px;
+  }
+  .strategy h2 {
+    font-size: 5.75vw;
+    line-height: 1em;
+  }
+  section.commitment h2 {
+    font-size: 5.75vw;
+    line-height: 1em;
+  }
+  section.strategy {
+    padding: 3% 0 5%;
+    background: rgb(158, 195, 217);
+    background: linear-gradient(0deg, rgba(158, 195, 217, 1) 0%, rgba(255, 255, 255, 1) 95%);
+  }
+  .belongings-caption {
+    font-size: 13px;
+    line-height: 15px;
+    padding: 3% 5%;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 100%;
+    left: 0;
+    position: absolute;
+    z-index: 9999999;
+    width: auto;
+  }
+  .nurse-callout {
+    width: 100%;
+    background-image: url("../images/sub/dynamic-jobs/mobile/qualifications-man-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center top, top;
+    background-size: 100%;
+    background-color: #ffffff;
+  }
+	#infusion-team.nurse-callout {
+    width: 100%;
+    background-image: url("../images/sub/dynamic-jobs/mobile/infusion-team-mobile.jpg");
+  }
+  section.nurse-callout .inside {
+    width: 100%;
+    margin: 0;
+  }
+  .nurse-callout .table {
+    display: block !important;
+  }
+  .nurse-callout .row {
+    display: block !important;
+  }
+  .nurse-callout .cell, .nurse-callout .cell:first-child, .nurse-callout .cell:last-child {
+    width: 100%;
+    text-align: center;
+    display: block !important;
+  }
+  .nurse-callout .copy-holder {
+    /*display: block;*/
+    width: 80%;
+    padding: 10% 10%;
+    text-align: center;
+    margin-top: 50%;
+    background: rgba(30, 161, 224, 1);
+  }
+  .nurse-callout .copy-holder h2 {
+    text-align: center;
+    font-size: 4.5vw;
+    line-height: 1.1em;
+    width: 85%;
+  }
+  .nurse-callout li {
+    text-align: left;
+    padding: 5px 0px 5px 0px;
+    font-size: 3vw;
+  }
+	.require-wrapper li {
+    font-size: 3vw;
+  }
+	.require-wrapper p {
+    font-size: 3vw;
+}
+		.responsibility-content ul li {
+   font-size: 3vw;
+}
+  .responsibility-content h2, .require-content h2 {
+    font-size: 4.5vw;
+    line-height: 1.1em;
+  }
+  .talent-network .inner .table {
+    display: block !important;
+  }
+  .talent-network .inner .row {
+    display: block !important;
+  }
+  .talent-network .inner .cell {
+    display: block !important;
+  }
+  .dj-qualifications .table {
+    display: block;
+    padding: 0px;
+    padding-top: 0px;
+  }
+  .dj-qualifications .inner {
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 1.5em;
+  }
+  .dj-qualifications .row {
+    display: block;
+    margin: 0px auto;
+    padding: 0px;
+  }
+  .dj-qualifications .cell {
+    display: block;
+    width: 100% !important;
+    margin: 0px auto;
+    padding: 0px;
+  }
+  .dj-qualifications {
+    width: 100%;
+    /*    padding-top: 66% !important;*/
+    position: relative;
+    z-index: 1;
+  }
+  .dj-qualifications .video-holder {
+    display: block;
+    padding: 0px;
+    width: 100%;
+  }
+  .dj-qualifications .copy-container {
+    display: block;
+    font-size: 3vw;
+    line-height: 1.3em;
+    padding: .5em 0px;
+    max-width: none;
+  }
+  .dj-qualifications {
+    margin-top: 0em;
+  }
+  #dynamic-details .utility-btn, #dj-buttons-btm .utility-btn {
+    display: block;
+  }
+  /*--This style overrides the Save and Unsaved Job button embedded form styles that are controlled by the form. Remove if they are causing issues elsewhere on the site.--*/
+  .job-details-btns form {
+    display: block !important;
+  }
+  section.bottom-buttons {
+    width: 90%;
+    margin: 20px auto;
+  }
+  #dynamic-details h1 {
+    font-size: 5.5vw;
+    line-height: 1.1em;
+  }
+  #dynamic-details {
+    margin: 0px auto;
+    padding: 1.5em 0px 1em;
+    font-size: 3vw;
+    line-height: 1.3em;
+  }
+  #dynamic-details dl {
+    margin: 0px 0px 20px;
+  }
+	.hero-sub-copy h2 {
+    width: 100%;
+    font-size: 4.5vw !important;
+    line-height: 1.2em !important;
+}
+		section.philan-teams {
+    border-bottom: 8px solid #00629b;
+    border-top: 8px solid #00629B;
+    padding: 1.5em 0;
+}	
+		section.dj-callout-01 .inside h2 {
+  font-size: 3.5vw;
+  line-height: 1.2em;
+}
+	section.dj-callout-01 {
+  padding: 2em 0 .5em;
+}
+	section.notification-banner-main .inner {
+    width: 100%;
+}
+	.notification-banner-main p {
+    font-size: 2.5vw;
+    line-height: 1.3em;
+}
+	section.notification-banner-main .inner {
+    padding: 3% 0px;
+}
+	.notification-banner-main h2 {
+    font-size: 4vw;
+    line-height: 1.1em;
+}
+	section.notification-banner-main {
+    padding: 1em 0;
+}
+}
+@media only screen and (max-width: 600px) {
+  .table {
+    display: block;
+  }
+  .row {
+    display: block;
+  }
+  .cell {
+    display: block;
+  }
+  .learning-session .cell, .leadership-dev .cell, .coaching .cell, .consulting .cell, .workforce-dev .cell, .about-phil .cell, .about-phil2 .cell, .info-session-phil .cell {
+    width: 100%;
+  }
+  .learning-session .table-text, .leadership-dev .table-text, .coaching .table-text, .consulting .table-text, .workforce-dev .table-text, .about-phil .table-text, .about-phil2 .table-text, .info-session-phil .table-text  {
+    width: 85%;
+    padding: 7.5%;
+    text-align: center;
+  }
+  .learning-session-image, .leadership-dev-image, .coaching-image, .consulting-image, .workforce-dev-image, .about-phil-image, .about-phil-image2, .info-session-phil-image {
+    display: none;
+  }
+  section.learning-session, section.leadership-dev, section.coaching, section.consulting, section.workforce-dev, section.about-phil, section.about-phil2,.section.info-session-phil {
+    width: 100%;
+    background-image: url("../images/sub/learning/mobile/life-session-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    margin-top: 0px !important;
+  }
+  .belongings-intro .cell {
+    width: 100%;
+  }
+  .belongings-intro .table-text {
+    width: 85%;
+    padding: 7.5%;
+    text-align: center;
+  }
+  .belongings-intro-image {
+    display: none;
+  }
+  section.belongings-intro {
+    width: 100%;
+    background-image: url("../images/sub/belonging/mobile/adele-joseph-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    margin-top: 0px !important;
+  }
+  section.learning-session {
+    width: 100%;
+    background-image: url("../images/sub/learning/mobile/life-session-mobile.jpg");
+    padding-top: 64.81% !important;
+    margin-top: 0px !important;
+  }
+  section.wellbeing-intro {
+    background-image: url("../images/sub/well-being/mobile/wellbeing-intro-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top right;
+    /*padding-top: 52.75%;*/
+    border-bottom: 5px solid #00629b;
+    border-top: 5px solid #00629B;
+  }
+  section.leadership-dev {
+    width: 100%;
+    background-image: url("../images/sub/learning/mobile/leadership-dev-mobile.jpg");
+    padding-top: 64.81% !important;
+    margin-top: 0px !important;
+  }
+  section.belongings-intro {
+    width: 100%;
+    background-image: url("../images/sub/belonging/mobile/adele-joseph-mobile.jpg");
+    padding-top: 64.81% !important;
+    margin-top: 0px !important;
+  }
+  section.coaching {
+    width: 100%;
+    background-image: url("../images/sub/learning/mobile/coaching-mobile.jpg");
+    padding-top: 64.81% !important;
+    margin-top: 0px !important;
+  }
+  section.workforce-dev {
+    width: 100%;
+    background-image: url("../images/sub/belonging/mobile/workforce-dev-mobile.jpg");
+    padding-top: 64.81% !important;
+    margin-top: 0px !important;
+  }
+		section.about-phil {
+	width: 100%;
+	background-image: url(../images/sub/philanthropy/mobile/about-phil-02-mobile.jpg);
+	padding-top: 64.81% !important;
+	margin-top: 0px !important;
+  }
+section.about-phil2 {
+	width: 100%;
+	background-image: url(../images/sub/philanthropy/mobile/about-phil-03-mobile.jpg);
+	padding-top: 64.81% !important;
+	margin-top: 0px !important;
+  }
+  section.consulting {
+    width: 100%;
+    background-image: url("../images/sub/learning/mobile/consulting-mobile.jpg");
+    padding-top: 64.81% !important;
+    margin-top: 0px !important;
+  }
+  .learning-intro .copy-holder h2 {
+    margin-bottom: .5em;
+    line-height: 1.1em;
+  }
+  .learning-intro .copy-holder p {
+    display: block;
+    margin-bottom: 0px;
+    font-size: 3.8vw;
+    line-height: 1.4em;
+  }
+  .belongings-intro p {
+    display: block;
+    margin-bottom: 0px;
+    font-size: 3.8vw;
+    line-height: 1.4em;
+    margin-top: 0px;
+  }
+  .wellbeing-intro .copy-holder h2 {
+    margin-bottom: .5em;
+    line-height: 1.1em;
+  }
+  .wellbeing-intro .copy-holder p {
+    display: block;
+    margin-bottom: 1.5em;
+    margin-top: 0px;
+    font-size: 3.8vw;
+    line-height: 1.3em;
+  }
+  .wellbeing-intro .copy-holder .smalltxt {
+    display: block;
+    font-size: 3vw;
+    line-height: 1.4em;
+    margin-bottom: 0;
+  }
+  #toplinks {
+    display: none;
+  }
+  .learning-intro {
+    background: rgba(38, 47, 53, 1);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center, top right;
+    background-image: linear-gradient(0deg, rgba(38, 47, 53, 1) 45%, rgba(38, 47, 53, 0) 55%), url("../images/sub/learning/mobile/learning-intro-mobile.jpg");
+    background-size: cover, 100% !important;
+  }
+  .learning-intro .table {
+    display: block;
+  }
+  .learning-intro .cell, .learning-intro .cell:first-child, .learning-intro .cell:last-child {
+    width: 100%;
+    text-align: center;
+  }
+  .learning-intro .copy-holder {
+    display: inline-block;
+    width: 80%;
+    padding: 10% 10%;
+    text-align: left;
+    margin-top: 50%;
+    background: rgba(0, 98, 155.85);
+  }
+  .learning-intro .copy-holder h2 {
+    text-align: center;
+  }
+  .wellbeing-intro {
+    background: rgba(38, 47, 53, 1);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center, top right;
+    background-image: linear-gradient(0deg, rgba(38, 47, 53, 1) 45%, rgba(38, 47, 53, 0) 55%), url("../images/sub/well-being/mobile/wellbeing-intro-mobile.jpg");
+    background-size: cover, 100%;
+  }
+  .wellbeing-intro .table {
+    display: block;
+  }
+  .wellbeing-intro .cell, .wellbeing-intro .cell:first-child, .wellbeing-intro .cell:last-child {
+    width: 100%;
+    text-align: center;
+  }
+  .wellbeing-intro .copy-holder {
+    display: inline-block;
+    width: 80%;
+    padding: 10% 10%;
+    margin-top: 50%;
+    background: rgba(0, 98, 155.85);
+  }
+  .wellbeing-intro .copy-holder h2 {
+    text-align: center;
+  }
+  .learning-logo {
+    margin: 30px auto 0px;
+  }
+  .divisions .inner {
+    width: 85%;
+    padding: 4% 0px;
+  }
+  .divisions .individual-division {
+    width: 100%;
+    margin: 3% auto;
+  }
+  .divisions .individual-division .division-copy {
+    padding: 6% 10%;
+    font-size: 3.25vw;
+    line-height: 1.2em;
+  }
+  .division-link {
+    font-size: 2.8em;
+    line-height: 1em;
+    background-size: 9px 9px;
+  }
+  section.learning {
+    border-top: 0px;
+  }
+  section.belong-icons {
+    border-top: 0px;
+  }
+  .map-row p {
+    font-size: 3.5vw;
+    line-height: 1.3em;
+  }
+		.utility-btn {/*added kd 02-05-21*/
+    display: block;
+}
+		section.philanthropy-intro {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.philan-teams-box-btm {
+    font-size: 4vw;
+ }
+	.philan-teams-box {
+    display: block;
+    vertical-align: middle;
+    width: 98%;
+    margin: 0px 0 10px 0;
+    padding: 1%;
+}
+	section.philan-teams .inside {
+    width: 96%;
+}
+.philan-teams-box {
+	display: inline-block;
+vertical-align: middle;
+width: 96%;
+margin: 0px 1% 10px 1%;
+padding: 1%;
+}
+	
+.philan-teams-box-btm {
+    font-size: 4vw;
+    line-height: 1.2em;
+/*    min-height: 80px;*/
+	letter-spacing: 0em;
+}
+.philan-teams-box a .philan-teams-description {
+   width: 100%;
+min-height: none;
+padding: 3% 0;
+border-bottom: 10px solid #ffa300;
+display: block;
+position: static;
+margin: 0 auto;
+transform: none;
+}
+	.philan-teams-text {
+    font-size: 2.5vw;
+    line-height: 1.3em;
+}
+	.video {
+    display: block;
+    width: 100%;
+    margin: 0 0 20px;
+    padding-top: 56%;
+}
+	section.philan-videos {
+    padding: 1em 0 1em;
+}
+#dr-kaelin-video{
+	margin-bottom: 0;
+	}
+}
+@media only screen and (max-width: 450px) {
+  #sub-banner-well-being, #sub-banner-learning, #sub-banner-belonging {
+    padding-top: 0%;
+    max-height: 350px;
+  }
+  .sub-banner-inner {
+    top: 70%;
+    -ms-transform: translateX(-50%) translateY(-70%);
+    -webkit-transform: translate(-50%, -70%);
+    transform: translate(-50%, -70%);
+  }
+  .accordion-section-content2 {
+    position: absolute;
+    right: -5vw;
+    left: -5vw;
+    max-height: calc(100vh - 70px);
+  }
+  .accordion-section-content2 ul {
+    min-height: calc(100vh - 70px);
+    background-color: rgba(0, 51, 84, 1);
+  }
+  .mobile-options a {
+    padding: 24px 90px 17px 39px !important;
+    background-position: 88% 55% !important;
+  }
+  .accordion-section-content2 ul .mobile-options:last-child a {
+    padding: 17px 90px 24px 39px !important;
+    background-position: 88% 45% !important;
+  }
+  .front-page-search, .front-page-inside, .front-page-inside #keyword-search, .advanced-search, .front-page-search label, .front-page-search .search-button {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  /* .resize-me ~ .front-page-search {
+		background-color: #ffffff;
+	}
+	.resize-me ~ .front-page-search .front-page-inside #keyword-search {
+		width: calc(100% + 0px);
+		margin-left: -1px;
+		display: block;
+		border: 1px solid rgba(0, 51, 84, .25);
+	}
+	.resize-me ~ .front-page-search .front-page-inside {
+		padding: 18px 0px 4px 0px;
+	}
+	.resize-me ~ .front-page-search .advanced-search {
+		color: #023453 !important;
+		background-color: rgba(255,255,255,0) !important;
+	 	background-image: url("../images/global/menu-arrow-dk-blue.png");
+	}
+	.resize-me ~ .front-page-search .advanced-search:hover, .resize-me ~ .front-page-search .advanced-search:focus {
+		background-color: rgba(255,255,255,0) !important;
+	 	background-position: 130px center;
+		text-decoration: underline;
+	}
+	.resize-me ~ .front-page-search label {
+		color: #023453 !important;
+	}
+	.resize-me ~ .front-page-search .search-button {
+		top: 49%;
+		transform: translateY(-50%);
+	} */
+  .resize-me ~ #sub-content .job-search-search .accordion-section-content3 {
+    border-left: 0px solid rgba(0, 51, 84, .25);
+    border-bottom: 0px solid rgba(0, 51, 84, .25);
+    border-right: 0px solid rgba(0, 51, 84, .25);
+  }
+  .resize-me ~ #sub-content .job-search-search .mobile-search {
+    background-color: #023453;
+  }
+  .resize-me ~ #sub-content .job-search-search .mobile-search-title {
+    color: #023453 !important;
+    background-color: #ffffff;
+  }
+  .resize-me ~ #sub-content .job-search-search .mobile-search-title::before {
+    background-color: #023453;
+    color: #ffffff;
+    background-image: url("../images/global/magnifying-glass.png");
+  }
+  .resize-me ~ #sub-content .job-search-search .mobile-search-title:hover::before {
+    background-color: #ffa300;
+    color: #023453;
+    background-image: url("../images/global/magnifying-glass-drk-blue.png");
+  }
+  .resize-me ~ #sub-content .job-search-search .mobile-search-title::after {
+    color: #023453;
+    background-color: #ffffff;
+    background-image: url("../images/global/accordian-arrow-down-yellow.png"), url("../images/global/accordian-arrow-down-yellow.png");
+  }
+  .resize-me ~ #sub-content .job-search-search .mobile-search-title:hover::after {
+    color: #023453 !important;
+    background-color: #ffa300;
+    background-image: url("../images/global/accordian-arrow-down-drk-blue.png"), url("../images/global/accordian-arrow-down-drk-blue.png");
+  }
+  .resize-me ~ #sub-content .job-search-search .keyword-search-column {
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+  .resize-me ~ #sub-content .job-search-search .accordion-section-title3 {
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+  .resize-me ~ #sub-content .job-search-search .zip-column {
+    border: 0px solid rgba(0, 51, 84, .25);
+  }
+  .accordion-section-title3 {
+    background-position: 95% center;
+  }
+  .active-mobile-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(0, 150, 220, 1);
+    z-index: -1;
+    transition: all .3s ease;
+  }
+  .active-mobile-title span {
+    width: 190px;
+    display: inline-block;
+    font-weight: 900 !important;
+    letter-spacing: .06em;
+    padding: 0px 10px 0px 10px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    font-size: .9em;
+    text-transform: uppercase;
+    line-height: 1em;
+    color: rgba(255, 255, 255, 1) !important;
+    border-radius: 4px;
+    background-image: url(../images/global/accordion-arrow-down.png), url(../images/global/accordion-arrow-down.png);
+    background-repeat: no-repeat;
+    background-position: left 37%, right 37% !important;
+    background-size: 11px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .view-all-button {
+    font-size: 1em;
+    line-height: 1em !important;
+    padding: 11px 0px 12px 21px;
+    border: 1px solid rgba(0, 90, 160, 1) !important;
+    background-repeat: no-repeat;
+    background-size: 13px 14px;
+    background-position: 95% center;
+    background-color: rgba(0, 90, 160, 1);
+    background-image: url(../images/global/accordion-arrow-white.png);
+  }
+  .view-all-button:hover {
+    border: 1px solid rgba(0, 150, 220, 1) !important;
+    background: rgba(0, 150, 220, 1);
+    background-image: url(../images/global/accordian-arrow.png);
+    background-repeat: no-repeat;
+    background-size: 13px 14px;
+    background-position: 95% center;
+  }
+  .slide1 {
+    background-image: url(../images/main/slider/slide1m-10-11-19.jpg) !important;
+  }
+  .slide2 {
+    background-image: url(../images/main/slider/slide2m-10-11-19.jpg) !important;
+  }
+  .slide3 {
+    background-image: url(../images/main/slider/slide3m-10-11-19.jpg) !important;
+  }
+  .slide-copy {
+    font-size: 8vw !important;
+    line-height: 1.05em !important;
+    width: 90%;
+  }
+  .slide-copy br {
+    display: none;
+  }
+  .new-slide-copy br {
+    display: none;
+  }
+  .slide-type-smallest {
+    font-size: 3.6em !important;
+    line-height: .95em !important;
+  }
+  .slide-type-small {
+    font-size: 3.6em !important;
+    line-height: .95em !important;
+  }
+  .slide-type-large {
+    font-size: 4.7em !important;
+    line-height: 1.1em !important;
+    text-align: left;
+    text-shadow: 4px 4px 9px rgb(255, 255, 255);
+  }
+  .slide-type-large-white {
+    font-size: 4.7em !important;
+    line-height: 1.1em !important;
+    text-shadow: 4px 4px 9px rgb(255, 255, 255);
+  }
+  .banner-area {
+    padding-bottom: 0%;
+  }
+  .talent-network-inside .table-text {
+    padding: 20px 0px 40px;
+  }
+  .event-banner-main-inside .table-text {
+    padding: 20px 0px 40px;
+  }
+  .learning-session-inside .table-text, .leadership-dev-inside .table-text {
+    padding: 20px 0px 40px;
+  }
+  .belongings-intro-inside .table-text {
+    padding: 20px 0px 40px;
+  }
+  .workforce-dev-inside .table-text {
+    padding: 20px 0px 40px;
+  }
+		 .about-phil-inside .table-text, .info-session-phil-inside .table-text {
+    padding: 20px 0px 40px;
+  }
+  .banner-area-sub {
+    border-bottom: 0px solid;
+    border-image: none;
+    margin-top: 71px;
+    height: 0px;
+    padding-bottom: 75%;
+  }
+	 .banner-area-phil {
+    border-bottom: 0px solid;
+    border-image: none;
+    margin-top: 71px;
+    height: 0px;
+    padding-bottom: 75%;
+  }
+  .hero-copy h1 {
+    font-size: 6.7vw;
+    width: 80%;
+    margin: 0px auto;
+  }
+  .hero-sub-copy h1 {
+    font-size: 6.7vw;
+    width: 80%;
+    margin: 0px auto 10px !important;
+  }
+  .hero-sub-copy h2 {
+    font-size: 4.5vw !important;
+    line-height: 1.3em !important;
+    width: 90%;
+    margin: 0px auto !important;
+  }
+  .main-content .inner {
+    font-size: 3.25vw;
+    line-height: 1.5em;
+  }
+  .main-content h2 {
+    font-size: 7.25vw;
+    line-height: 1em;
+  }
+  section.intro-section {
+    padding: 2.75em 0px 0px;
+  }
+  .intro-video {
+    width: 100%;
+    position: static;
+    background-color: #0d6499;
+    padding: 1em 0px 0px;
+  }
+  .intro-section ul {
+    width: 100%;
+    margin: 2em 0px 3.5em;
+  }
+  .intro-section li {
+    width: 22%;
+    padding: 0px 4%;
+  }
+  .intro-section li:first-child {
+    padding: 0px 4% 0px 4%;
+  }
+  .intro-section li:last-child {
+    padding: 0px 4% 0px 4%;
+  }
+  .intro-section li a {
+    font-size: 4vw;
+  }
+  .wellness-award {
+    padding: 8.5% 7.5% 11%;
+    width: 85%;
+  }
+  .wellness-award img {
+    width: 90%;
+    margin: 0px auto .5em;
+  }
+  .wellness-award .smallertxt {
+    font-size: 6.15vw;
+    line-height: 1em;
+    width: 100%;
+  }
+  section.featured-jobs-front {
+    padding: 4em 0px 4.5em;
+  }
+  .featured-jobs-bottom {
+    margin: 1.75em auto 0px;
+  }
+  .featured-jobs-bottom > div {
+    padding: 2.5em 0px 4em;
+  }
+  .featured-jobs-bottom > div:first-child {
+    padding: 0em 0px 4em;
+  }
+  .featured-jobs-bottom > div:last-child {
+    padding: 3em 0px 0em;
+  }
+  .featured-jobs-bottom li {
+    padding: 2.5em 0px 4em;
+  }
+  .featured-jobs-bottom li:first-child {
+    padding: 0em 0px 4em;
+  }
+  .featured-jobs-bottom li:last-child {
+    padding: 3em 0px 0em;
+  }
+  .featured-jobs-bottom h3 {
+    font-size: 2em;
+    line-height: 1em;
+    margin: 0px 0px .25em;
+  }
+  .featured-jobs-bottom span:nth-child(3) {
+    margin: 0px 0px 3em !important;
+  }
+  .featured-jobs-bottom a {
+    font-size: 1em;
+  }
+  section.featured-career-areas {
+    padding: 2.25em 0px .5em;
+  }
+  .featured-career-areas ul {
+    margin: 1.5em auto 0px auto;
+  }
+  .career-path-label {
+    font-size: 5.75vw;
+  }
+  .talent-network .table-text {
+    width: 80%;
+    padding: 10% 10% 15%;
+    text-align: center;
+  }
+  .talent-network p {
+    margin-bottom: 3em;
+  }
+  .talent-network-sub {
+    width: 90%;
+    margin: 0px auto 20px;
+    overflow: hidden;
+    transition: all .35s linear !important;
+  }
+  .talent-network-sub-copy {
+    font-size: 5.8vw;
+    line-height: 1em;
+    padding-top: 15%;
+  }
+  .event-banner-main .table-text {
+    width: 80%;
+    padding: 10% 10% 15%;
+    text-align: center;
+  }
+  .event-banner-main p {
+    margin-bottom: 3em;
+  }
+  .learning-session .table-text, .leadership-dev .table-text, .coaching .table-text, .consulting .table-text, .workforce-dev .table-text, .about-phil .table-text, .about-phil2 .table-text, .info-session-phil .table-text {
+    width: 80%;
+    padding: 10% 10%;
+    text-align: center;
+  }
+  .learning-session p, .leadership-dev p, .coaching p, .consulting p, .workforce-dev p, .about-phil p, .about-phil2 p, .info-session-phil p {
+    font-size: 3.25vw;
+    line-height: 1.4em;
+  }
+  .learning-session p:last-child, .leadership-dev p:last-child, .coaching p:last-child, .consulting p:last-child, .workforce-dev p:last-child, .about-phil p:last-child, .about-phil2 p:last-child, .infor-session-phil p:last-child {
+    margin-bottom: 0px;
+  }
+	.info-session-phil .table-text a {
+    width: 60%;
+    font-size: 3vw;
+    line-height: 1.2em;
+}
+  .belongings-intro .table-text {
+    width: 80%;
+    padding: 10% 10%;
+    text-align: center;
+  }
+  .belongings-intro p {
+    font-size: 3.8vw;
+    line-height: 1.3em;
+  }
+  .belongings-intro p:last-child {
+    margin-bottom: 0px;
+  }
+  .belong-icons p {
+    font-size: 3.25vw;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+  }
+  section.consulting {
+    border-bottom: none;
+  }
+  .workforce-dev .table-text {
+    width: 80%;
+    padding: 10% 10% 10%;
+    text-align: center;
+  }
+  .workforce-dev p {
+    margin-bottom: 3em;
+  }
+	.about-phil .table-text, .info-session-phil .table-text {
+    width: 84%;
+    padding: 8% 8% 8%;
+    text-align: center;
+  }
+  .about-phil p,  .info-session-phil p{
+    margin-bottom: 2em;
+  }
+  .philanthropy-sub {
+    width: 90%;
+    margin: 0px auto 20px;
+  }
+  .philanthropy-sub-head {
+    font-size: 5.4vw;
+    line-height: 1em;
+    letter-spacing: .035em;
+    padding: 4% 5% 3.5%;
+  }
+  .philanthropy-sub-copy {
+    font-size: 5.4vw;
+    line-height: 1.1em;
+    padding-top: 19%;
+  }
+  .philanthropy-sub-copy span {
+    padding: 3.25% 10% 3.75%;
+  }
+  .featured-jobs-sub .featured-jobs-bottom div {
+    width: 100%;
+    margin: 0px auto 0px;
+    padding: 2em 0px;
+    text-align: left;
+  }
+  .featured-jobs-sub .featured-jobs-bottom span:nth-child(3) {
+    margin: 0px 0px 0em !important;
+  }
+  .featured-jobs-sub .featured-jobs-bottom div:last-child {
+    padding: 2em 0px 0px;
+    border-bottom: none;
+  }
+  .hero-copy {
+    font-size: 8vw !important;
+    line-height: 1.05em !important;
+    width: 90%;
+  }
+  .hero-sub-copy {
+    font-size: 8vw !important;
+    line-height: 1.05em !important;
+    width: 90%;
+  }
+  .policy-section {
+    padding: 1em 0px 1.75em;
+  }
+  .policy-section-inner {
+    width: calc(90% - 6em);
+    padding: 3em 3em 4em;
+    font-size: 2.8vw;
+  }
+  .policy-section p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+  .cc-banner .cc-message {
+    order: 1;
+    margin-left: 0em !important;
+  }
+  .cc-banner .cc-compliance {
+    order: 2;
+  }
+  .cc-banner .cc-message {
+    texte-align: center;
+  }
+  .cc-banner .cc-compliance a {
+    display: block;
+    width: 100%;
+    texte-align: center;
+  }
+  section.benefits-list {
+    padding: 2em 0px 1.5em;
+  }
+  .benefits-box {
+    width: 90%;
+    margin: 0px 1%;
+    padding: 20px 0 20px;
+    border-top: 3px dotted #BDD6E6;
+  }
+  .benefits-box:first-of-type {
+    border-top: none;
+    padding: 0px 0 20px;
+  }
+  .benefits-box-top {
+    width: 50%;
+    margin: 0px auto 0px auto;
+  }
+  .benefits-box-btm {
+    font-size: 4vw;
+    margin-top: 10px;
+  }
+		section.philan-benefits-list {
+    padding: 2em 0px 1.5em;
+  }
+  .philan-benefits-box {
+    width: 90%;
+    margin: 0px 1%;
+    padding: 20px 0 20px;
+    border-top: 3px dotted #BDD6E6;
+  }
+  .philan-benefits-box-top {
+    width: 50%;
+    margin: 0px auto 0px auto;
+  }
+  .philan-benefits-box-btm {
+    font-size: 4vw;
+    margin-top: 10px;
+  }
+  .learning-box {
+    width: 90%;
+    margin: 0px 1%;
+    padding: 20px 0 20px;
+    border-top: 3px dotted #BDD6E6;
+  }
+  .learning-box:first-of-type {
+    border-top: none;
+    padding: 0px 0 20px;
+  }
+  .learning-box-top {
+    width: 50%;
+    margin: 0px auto 0px auto;
+  }
+  .learning-box-btm {
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-top: 0px;
+  }
+  .belong-icons-box {
+    width: 90%;
+    margin: 0px 1%;
+    padding: 20px 0 20px;
+    border-top: 3px dotted #BDD6E6;
+  }
+  .belong-icons-box:first-of-type {
+    border-top: none;
+    padding: 0px 0 20px;
+  }
+  .belong-icons-box-top {
+    width: 50%;
+    margin: 0px auto 0px auto;
+  }
+  .belong-icons-box-btm {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 0px;
+  }
+  .description-header {
+    display: none;
+    margin: 30px 20px 0px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #ffffff;
+  }
+  .description-text {
+    margin: 10px 20px 0px;
+    font-size: .9em;
+    padding-top: 10px;
+    border-top: 1px dotted #cccccc;
+  }
+  .belong-icons h2 {
+    font-size: 4.5vw;
+    line-height: 1.1em;
+    margin: 0px auto;
+  }
+/*
+  .benefits-box a .benefit-description {
+    color: #000000;
+    display: block;
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+    width: 100%;
+    min-height: 0px;
+    border-radius: 10px;
+    text-align: center;
+    left: 0;
+    transform: translate(0%, 0%);
+    -webkit-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    z-index: 1;
+  }
+*/
+	.benefits-box a .philan-benefit-description {
+    color: #000000;
+    display: block;
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+    width: 100%;
+    min-height: 0px;
+    border-radius: 10px;
+    text-align: center;
+    left: 0;
+    transform: translate(0%, 0%);
+    -webkit-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    z-index: 1;
+  }
+	.philan-benefits-box a .philan-benefit-description {
+    color: #000000;
+    display: block;
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+    width: 100%;
+    min-height: 0px;
+    border-radius: 10px;
+    text-align: center;
+    left: 0;
+    transform: translate(0%, 0%);
+    -webkit-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    z-index: 1;
+  }
+  .divisions h2 {
+    font-size: 4vw;
+    line-height: 1.3em;
+  }
+  .divisions .individual-division h3 {
+    font-size: 4.5vw;
+    line-height: 1.2em;
+  }
+  .nurse-callout .copy-holder h2 {
+    font-size: 6.5vw;
+    line-height: 1.1em;
+  }
+/*
+	.philan-teams-box {
+	display: block;
+vertical-align: middle;
+width: 98%;
+margin: 0px 0 10px 0;
+padding: 1%;
+}
+	.philan-teams-box-btm {
+    font-size: 4vw;
+ }
+*/
+	.hero-graphic-main {
+  margin-top: 84px !important;
+}
+.hero-graphic-main .banner-h1-inner {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  z-index: 10;
+  top: 7.5%;
+  left: 10%;
+  transform: translate(0px, 0px);
+  width: 80%;
+}
+.hero-graphic-main .front-page-logo {
+  background-image: url(../images/main/MedicalSolutions-logo-white.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-bottom: 26%;
+	font-size: 5.5vw;
+line-height: 1.2em;
+text-align: center;
+}
+.hero-graphic-main .carousel {
+  padding-top: 130%;
+}
+.hero-graphic-main .carousel > li:first-child {
+  background-image: url(../images/main/slides/slide1-mobile.jpg);
+  background-color: #0077BC;
+}
+.hero-graphic-main .carousel > li:first-child .inner .copy::after {
+  background-color: #0077BC;
+}
+.hero-graphic-main .carousel > li:nth-child(2) {
+  background-image: url(../images/main/slides/slide2-desktop.jpg);
+  background-color: #06866B;
+}
+.hero-graphic-main .carousel > li:nth-child(2) .inner .copy::after {
+  background-color: #0077BC;
+}
+.hero-graphic-main .carousel > li:nth-child(2) .additional-images {
+  position: absolute;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-graphic-main .carousel > li .additional-images.image-1 {
+  width: 57%;
+  padding-bottom: 57%;
+  top: 52%;
+  right: 36.5%;
+  transform: translate(50%, 0%);
+  border: 6px solid #6dbe4b;
+}
+.hero-graphic-main .carousel > li.current .additional-images.image-1 {
+  transition: all .6s ease-in-out .3s;
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+.hero-graphic-main .carousel > li .additional-images.image-2 {
+  width: 34%;
+  padding-bottom: 34%;
+  top: 52%;
+  right: 10%;
+  transform: translate(40%, -0%);
+  border: 6px solid #6ccce0;
+}
+.hero-graphic-main .carousel > li.current .additional-images.image-2 {
+  transform: translate(0%, -0%);
+}
+.hero-graphic-main .carousel > li .additional-images.image-3 {
+  width: 30%;
+  padding-bottom: 30%;
+  top: auto;
+  bottom: 1%;
+  right: 4.5%;
+  transform: translate(50%, -0%);
+  z-index: 18;
+  border: 6px solid #0077BC;
+}
+.hero-graphic-main .carousel > li.current .additional-images.image-3 {
+  transform: translate(0%, -0%);
+}
+.hero-graphic-main .carousel > li:nth-child(3) {
+  background-image: url(../images/main/slides/slide3-mobile.jpg);
+  background-color: #047d96;
+}
+.hero-graphic-main .carousel > li:nth-child(3) .inner .copy::after {
+  background-color: #06866B;
+}
+.hero-graphic-main .carousel > li .inner {
+  position: absolute;
+  z-index: 1;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 85%;
+}
+.hero-graphic-main .carousel > li .inner .copy {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  font-size: 5vw;
+line-height: 1.1em;
+text-align: center;
+}
+.hero-graphic-main .carousel > li .inner .copy::after {
+  width: 300%;
+  padding-bottom: 300%;
+  right: auto;
+  top: auto;
+  left: 50%;
+  bottom: -50%;
+  transform: translate(0%, 0%);
+}
+.hero-graphic-main .carousel > li.current .inner .copy::after {
+  transform: translate(-50%, 0%);
+  opacity: 1;
+  transition: all .4s ease-in-out .3s;
+}
+.hero-graphic-main .carousel > li .inner .copy span {
+  display: block;
+  transform: translateX(-10%);
+  opacity: 0;
+  transition: all .1s ease-in-out 0s;
+}
+.hero-graphic-main .carousel > li.current .inner .copy span {
+  transform: translateX(0%);
+  opacity: 1;
+  transition: all .3s ease-in-out .6s;
+}
+.hero-graphic-main .carousel > li:nth-child(3) .inner strong:first-child {
+  display: block;
+}
+.hero-graphic-main .carousel .slidenav {
+  position: absolute;
+  z-index: 100;
+  bottom: auto;
+  top: 20px;
+  left: auto;
+  right: 20px;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.hero-graphic-main .carousel .slidenav li {
+  width: 13px;
+  padding-bottom: 13px;
+}
+.hero-graphic-main .carousel .slidenav li button {
+  font-size: 10px;
+  line-height: 10px;
+}
+.hero-graphic-main .carousel .controls {
+  top: 20px;
+  left: 18px;
+}
+.hero-graphic-main .carousel .controls li button {
+  font-size: 10px;
+  line-height: 10px;
+}
+.hero-graphic-main .carousel .slidenav li button.current {
+  background-color: rgba(255,255,255,1);
+  color: #0077BC;
+}
+.hero-graphic-main .carousel .slidenav li li:last-child button.current {
+  background-color: rgba(255,255,255,1);
+  color: #06866B;
+}
+.hero-graphic-main .carousel button img {
+  width: 12px;
+  height: 12px;
+}
+	.notification-banner-main p {
+    font-size: 3.5vw;
+    line-height: 1.3em;
+}
+	.notification-banner-main h2 {
+    font-size: 5.5vw;
+    line-height: 1em;
+}
+}
+@media only screen and (min-width: 700px) {
+  .mobile-search-title {
+    display: none;
+  }
+  .mobile-search-content {
+    display: block !important;
+	}
+	}

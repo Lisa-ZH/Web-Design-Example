@@ -1,0 +1,217 @@
+@charset "UTF-8";
+/* CSS Document */
+/*  Globe  */
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size:1em;
+	line-height: 1.4em;
+	color: #000;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+}
+img{
+	border: 0;
+}
+.scalable{
+	max-width: 100% !important;
+	height: auto !important;
+}
+a:link, a:visited, a:active{
+	text-decoration: none;
+	transition: all .15s ease-out;
+}
+a:hover{
+	text-decoration: none;
+}
+.imgover{
+	cursor: pointer;
+}
+.imagefit img{
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.clearfix{
+	clear:both;
+}
+.clearfix:after{
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+/*  Header  */
+.menu {
+	display: inline-block;
+	width: auto;
+	line-height: 1;
+	font-size: .84em;
+	-webkit-transform-style: preserve-3d;
+}
+.menu a {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	position: relative;
+	overflow: hidden;
+}
+.menu a:before {
+	content: "";
+	position: absolute;
+	z-index: 901;
+	left: 51%;
+	right: 51%;
+	bottom: 0;
+	background: #7fc55b;
+	height: 2px;
+	-webkit-transition-property: left, right;
+	transition-property: left, right;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+.menu a:hover:before, .menu a:focus:before, .menu a:active:before {
+	left: 0%;
+	right: 0%;
+	color: #7fc55b;
+}
+
+.menu ul{
+	display: inline-block;
+	
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	position: relative;
+}
+.menu ul li a {
+	display: block;
+	padding: 26px 9px 12px 9px;
+	margin: 0px -12px 0px 15px; 
+	color: #0077bc;
+	text-decoration: none;
+	background-position: left center;
+	background-repeat: no-repeat;
+	text-transform: uppercase;
+	letter-spacing: .07em;
+	font-weight: 500;
+}
+.menu ul li a:hover {
+	color: #7fc55b;
+}
+.menu ul ul {
+	padding: 10px 12px 15px 12px;
+	width: 175px;
+	margin-top: 20px;
+	margin-left: 14px;
+	background-color: #7fc55b;
+}
+.menu ul ul li {
+	border: none;
+	padding: 24px 0px 0px 0px;
+	background-color: #7fc55b;
+	width: 170px;
+	text-align: left;
+}
+.menu ul ul li a {
+	color: #FFFFFF;
+	font-size: .8em;
+	line-height: 1.2em;
+	padding: 0px;
+}
+.menu ul ul li a:hover{
+	color: #ddd;
+}
+.menu ul ul li:last-child a {
+	border-bottom: none;
+	padding-bottom: 24px;
+}
+.sub-menu{
+	position: relative;
+	display: inline-block;
+}
+
+ul.sub-menu-content{
+	display: block;
+	position: absolute;
+    min-width: 160px;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	padding: 12px 16px;
+	z-index: 1;
+	background-color: #7fc55b;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+}
+.sub-menu:hover ul.sub-menu-content{
+	display: block;
+	background-color: #7fc55b;
+	-webkit-transform: scaleY(1);
+	transform: scaleY(1);
+}
+.mobilemenu{
+	display: none;
+}
+/*-- ---- ---- BANNER ---- ---- --*/
+
+.BannerArea {
+	width: 100%;
+	background-image: url("../../MenuBanner/images/sub/banner-image.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*margin-top: 160px;*/
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	
+}
+.BannerArea-inner {
+    overflow: hidden;
+    display: table;
+    border-collapse: collapse;
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	border: 0px;
+	width: 100%;
+}
+.BannerArea-inner-row {
+    display: table-row;
+	margin: 0px;
+	padding: 0px;	
+}
+.BannerArea-inner-left {
+	display: table-cell;
+	vertical-align: middle;
+	width: 50%;
+	padding-bottom: 30%;
+}
+.BannerArea-inner-right {
+	display: table-cell;
+	vertical-align: middle;
+}
+.BannerArea-text {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	font-size: 3.2em;
+	line-height: 1em;
+	letter-spacing: -.02em;
+	font-weight: 400;
+	margin-left: 3.5em;
+}
+

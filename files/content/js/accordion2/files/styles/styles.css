@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Titillium Web, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.2em;
+	letter-spacing: -.5px;
+	color: #000;
+	background-color: #fff;
+}
+img{
+	height: 16px;
+	width: 16px;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	font-size: 16px;
+	text-align: left;
+	overflow: auto;
+}
+
+h1{
+	font-size: 2.4em;
+	font-weight: 600;
+	color: #164C7D;
+	margin: 50px 0 25px;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 90%
+}
+li.q{
+	display: inline-block;
+	width: 90%;
+	outline: none;
+	text-decoration: none;
+	color: #27659E;
+	font-size: 1.1em;
+	font-weight: 300;
+	margin-bottom: 30px;
+	background-image: url("../images/blue-arrow-left.png");
+	background-repeat: no-repeat;
+	background-position: 100% 53%;
+	background-size: 16px;
+}
+li.q:hover{
+	color: #ab1434;
+	cursor: pointer;
+}
+li.a{
+	display: none;
+	margin-bottom: 20px;
+	padding: 20px;
+	border: 1px solid #bcbcbc;
+}
+li.rotate{
+	background-image: url("../images/blue-arrow-down.png");
+}

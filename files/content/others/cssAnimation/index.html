@@ -1,0 +1,424 @@
+<!doctype html>
+<html>
+<head>
+<meta id="testViewport" name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta charset="UTF-8">
+<title>CSS Animation </title>
+<!--
+<link href="files/styles/normalize.css" rel="stylesheet" type="text/css">
+-->
+<link href="files/styles/styles.css" rel="stylesheet" type="text/css">
+<!--
+<link href="files/styles/responsive.css" rel="stylesheet" type="text/css">
+-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js"><\/script>')</script>
+<script src="files/js/script.js"></script>
+
+</head>
+
+<body>
+   <div class="title">Others / CSS Animation</div>
+   <div class="container">
+      <div class="flex-container">
+
+<!-- Marquee Images-->
+<div class='marquee-image'>
+   <div class='app__bestselling-container track'>
+      <img src="files/marquee/01-castle.png" alt="" />
+      <img src="files/marquee/01-egg.png" alt="" />
+      <img src="files/marquee/01-gold.png" alt="" />
+      <img src="files/marquee/01-octagon.png" alt="" />
+      <img src="files/marquee/01-pentagon.png" alt="" />
+      <img src="files/marquee/01-square.png" alt="" />
+   </div>
+</div>
+
+<!-- Marquee Text-->
+<div class='marquee-text'>
+   <div class='track'>
+      <p>Marquee -- Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+   </div>
+</div>
+
+<!-- Logo hover rotate -->
+<div class="flex-item">
+   <img src="logo512.png" class="logo-hover" alt="" />
+</div>
+
+<!-- Logo rotate infinite-->
+<div class="flex-item">
+   <img src="logo512.png" class="logo-infinite" alt="" />
+</div>
+
+<div class="flex-item block">
+   <p>
+      网页变灰<br>
+      body{<br>
+         &nbsp;&nbsp;filter: grayscale(1);<br>
+      }
+   </p>
+</div>
+
+<!-- Move Up -->
+   <div class="flex-item">
+      <h3>Move Up</h3>
+      <div class="move-up"></div>
+      <p>
+         .move-up{<br>
+            transition: all .2s ease-in-out;<br>
+         }<br>
+         .move-up:hover{<br>
+            transform: <strong>translateY(-20px);</strong><br>
+         }
+      </p>
+   </div>
+
+<!-- Move Down -->
+   <div class="flex-item">
+      <h3>Move Down</h3>
+      <div class="move-down"></div>
+      <p>
+         .move-down{<br>
+            transition: all .2s ease-in-out;<br>
+         }<br>
+         .move-down:hover{<br>
+            transform: <strong>translateY(20px);</strong><br>
+         }
+      </p>
+   </div>
+
+<!-- Move Left -->
+   <div class="flex-item">
+      <h3>Move Left</h3>
+      <div class="move-left"></div>
+      <p>
+         .move-left{<br>
+            transition: all .6s ease-in-out;<br>
+         }<br>
+         .move-left:hover{<br>
+            transform: <strong>translateX(-30px);</strong><br>
+         }
+      </p>
+   </div>
+
+<!-- Move Right -->
+   <div class="flex-item">
+      <h3>Move Right</h3>
+      <div class="move-right"></div>
+      <p>
+         .move-left{<br>
+            transition: all .6s ease-in-out;<br>
+         }<br>
+         .move-left:hover{<br>
+            transform: <strong>translateX(30px);</strong><br>
+         }
+      </p>
+   </div>
+
+<!-- Scale Bigger and Disappear -->
+   <div class="flex-item">
+      <h3>Scale Bigger and Disappear</h3>
+      <div class="scale-bigger"></div>
+      <p>
+         .scale-bigger{<br>
+            transition: all 1s ease-in-out;<br>
+         }<br>
+         .scale-bigger:hover{<br>
+            transform: <strong>scale(2);</strong><br>
+            opacity: 0;<br>
+         }
+      </p>
+   </div>
+
+<!-- Rotate and Disappear -->
+   <div class="flex-item">
+      <h3>Rotate and Disappear</h3>
+      <div class="rotate"></div>
+      <p>
+         .rotate{<br>
+            transition: all 1s ease-in-out;<br>
+         }<br>
+         .rotate:hover{<br>
+            transform: <strong>rotate(180deg);</strong><br>
+            opacity: 0;<br>
+         }
+      </p>
+   </div>
+
+   <!-- Change Background Color -->
+   <div class="flex-item">
+      <h3>Change Background Color</h3>
+      <div class="change-bg-color"></div>
+      <p>
+         .change-bg-color{<br>
+            cursor: pointer;<br>
+            background-color: #34D6B6;<br>
+            -webkit-transition: background-color .3s ease-in;<br>
+            -moz-transition: background-color .3s ease-in;<br>
+            <strong>transition: background-color .3s ease-in;</strong><br>
+         }<br><br>
+
+         .change-bg-color:hover{<br>
+            <strong>background-color: #1ABC9C;</strong><br>
+         }
+      </p>
+   </div>
+
+<!-- Image hover -->
+<div class="flex-item">
+   <h3>Image hover</h3>
+   <div class="image-hover">
+   <span class="overlay"></span>
+   </div>
+   <p>
+      .image-hover{<br>
+        position: relative;<br>
+        width: 100px;<br>
+        height: 100px;<br>
+        background-image: url("../../image.jpeg");<br>
+        background-repeat: no-repeat;<br>
+        background-position: center center;<br>
+        background-size: cover;<br>
+        box-shadow: 2px 2px 3px 0px rgb(0 0 0 / 50%); <br>
+      }<br>
+      .overlay{<br>
+         position: absolute;<br>
+         top: 0;<br>
+         left: 0;<br>
+         height: 100%;<br>
+         width: 100%;<br>
+         background-color: #00B4DB;<br>
+         opacity: 0;<br>
+         -webkit-transition: opacity .3s ease-in;<br>
+         -moz-transition: opacity .3s ease-in;<br>
+         transition: opacity .3s ease-in;<br>
+      }<br>
+      .overlay:hover{<br>
+         opacity: .7;<br>
+      }
+   </p>
+</div>
+
+<!-- Button Underline from left -->
+   <div class="flex-item">
+      <h3>Button Underline from left</h3>
+      <div class="btn-from-left"><a href="#" target="_blank">Underline from left</a></div>
+      <p>
+         .btn-from-left a{<br>
+            position: relative;<br>
+            font-family: 'Montserrat', sans-serif;<br>
+            color: #0077bc;<br>
+            text-decoration: none;<br>
+            text-transform: uppercase;<br>
+            font-size: 15px;<br>
+            letter-spacing: .07em;<br>
+            font-weight: 500;<br>
+            padding-bottom: 5px;<br>
+         }<br>
+         .btn-from-left a:before{<br>
+            content: "";<br>
+            position: absolute;<br>
+            top: 0;<br>
+            left: 0;<br>
+            <strong>width: 0;<br>
+            height: 100%;<br>
+            border-bottom: 2px solid #7fc55b;<br>
+            -webkit-transition: 0.5s all linear;<br>
+            -moz-transition: 0.5s all linear;<br>
+            transition: 0.5s all linear;</strong><br>
+         }<br>
+         .btn-from-left a:hover:before{<br>
+            <strong>width: 100%;</strong><br>
+         }
+      </p>
+   </div>
+
+<!-- Button Underline from left way 2 -->
+   <div class="flex-item">
+      <h3>Button Underline from left (Way 2)</h3>
+      <div class="btn-from-left-2"><a href="#" target="_blank">Underline from left</a></div>
+      <p>
+         .btn-from-left-2 a:before{<br>
+            content: "";<br>
+            position: absolute;<br>
+            <strong>left: 0%;<br>
+            right: 100%;<br>
+            bottom: 0;<br>
+            border-bottom: 2px solid #7fc55b;<br>
+            -webkit-transition: 0.5s all ease-out;<br>
+            -moz-transition: 0.5s all ease-out;<br>
+            transition: 0.5s all ease-out;</strong><br>
+         }<br>
+         .btn-from-left-2 a:hover:before{<br>
+            <strong>right: 0%;</strong><br>
+         }
+      </p>
+   </div>
+
+<!-- Button Underline from middle -->
+   <div class="flex-item">
+      <h3>Button Underline from middle</h3>
+      <div class="btn-from-middle"><a href="#" target="_blank">Underline from middle</a></div>
+      <p>
+         .btn-from-middle a:before{<br>
+            content: "";<br>
+            position: absolute;<br>
+            <strong>left: 50%;<br>
+            right: 50%;<br>
+            bottom: 0;<br>
+            border-bottom: 2px solid #7fc55b;<br>
+            -webkit-transition: 0.5s all ease-out;<br>
+            -moz-transition: 0.5s all ease-out;<br>
+            transition: 0.5s all ease-out;</strong><br>
+         }<br>
+         .btn-from-middle a:hover:before{<br>
+            <strong>left: 0%;<br>
+            right: 0%;</strong><br>
+         }
+      </p>
+   </div>
+
+<!-- Button Underline from right -->
+   <div class="flex-item">
+      <h3>Button Underline from right</h3>
+      <div class="btn-from-right"><a href="#" target="_blank">Underline from right</a></div>
+      <p>
+         .btn-from-right a:before{<br>
+            content: "";<br>
+            position: absolute;<br>
+            <strong>left: 100%;<br>
+            right: 0%;<br>
+            bottom: 0;<br>
+            border-bottom: 2px solid #7fc55b;<br>
+            -webkit-transition: 0.5s all ease-out;<br>
+            -moz-transition: 0.5s all ease-out;<br>
+            transition: 0.5s all ease-out;</strong><br>
+         }<br>
+         .btn-from-right a:hover:before{<br>
+            <strong>left: 0%;</strong><br>
+         }
+      </p>
+   </div>
+
+<!-- Button Move Left -->
+   <div class="flex-item">
+      <h3>Button Move Left</h3>
+      <div class="btn">
+         <div class="button-move-left">
+            Move Left
+         </div>
+      </div>
+      <p>
+         .button-move-left{<br>
+            <strong>transition: .5s transform ease-in-out;</strong><br>
+         }<br><br>
+
+         .button-move-left:hover{<br>
+            <strong>transform: translateX(-10px);</strong><br>
+         }<br><br>
+         .button-move-left:after{<br>
+            <strong>content: '\00bb';<br>
+            position: absolute;<br>
+            top: 50%;<br>
+            right: -20%;<br>
+            transform: translateY(-50%);<br>
+            transition: .5s right ease-in-out;</strong><br>
+         }<br>
+         .button-move-left:hover:after{<br>
+            <strong>right: -15%;</strong><br>
+         }
+      </p>
+   </div>
+
+
+
+<!-- Button Underline & bg -->
+   <div class="flex-item">
+      <h3>Button Underline and Background color</h3>
+      <div class="btn-underline-bgcolor"><a href="#" target="_blank">Underline & BG Color</a></div>
+      <p>
+         <strong>.btn-underline-bgcolor a</strong>{<br>
+            -webkit-transition: 0.5s all ease-out;<br>
+            -moz-transition: 0.5s all ease-out;<br>
+            transition: 0.5s all ease-out;<br>
+         }<br>
+         <strong>.btn-underline-bgcolor a:hover</strong>{<br>
+            background-color: #ddd;<br>
+         }<br>
+         .btn-underline-bgcolor a:before{<br>
+            content: "";<br>
+            position: absolute;<br>
+            <strong>left: 0%;<br>
+            right: 100%;<br>
+            bottom: 0;<br>
+            border-bottom: 2px solid #7fc55b;<br>
+            -webkit-transition: 0.5s all ease-out;<br>
+            -moz-transition: 0.5s all ease-out;<br>
+            transition: 0.5s all ease-out;</strong><br>
+         }<br>
+         .btn-underline-bgcolor a:hover:before{<br>
+            <strong>right: 0%;</strong><br>
+         }
+      </p>
+   </div>
+
+<!-- Button Pressed Effect (Click) -->
+   <div class="flex-item">
+      <h3>Hover Drop Menu</h3>
+         <div class="drop-menu">
+            <a href="#">Career Home</a>
+            <ul class="submenu">
+            <li>Nursing</li>
+            <li>Therapy</li>
+            <li>ABA Therapy</li>
+            <li>Habilitation</li>
+            <li>Companion and Personal Care</li>
+            <li>Corporate Support</li>
+         </ul>
+         </div>
+      <p>
+         ul.submenu{<br>
+            <strong>transform: scaleX(0);<br>
+            transform-origin: 50% 100%;<br>
+            transition: transform .5s ease-in-out;</strong><br>
+         }<br><br>
+
+         <strong>.drop-menu:hover ul.submenu</strong>{<br>
+            -webkit-transform: scaleX(1);<br>
+            -moz-transform: scaleX(1);<br>
+            <strong>transform: scaleX(1);</strong><br>
+         }
+      </p>
+   </div>
+</div>
+   </div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

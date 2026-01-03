@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/* CSS Document */
+@media only screen and (max-width: 1024px) {
+.top-menu, .menu {
+    display: none;
+}
+.mobilemenu {
+    display: block;
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: 500;
+    line-height: 3em;
+}
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 60px;
+    left: 0;
+    overflow-x: hidden;
+    background-color: rgba(255,255,255, 0.9);
+    transition: 0.5s;
+}
+
+.overlay ul li {
+    text-decoration: none;
+    color: #0077bc;
+    letter-spacing: .04em;
+    transition: 0.3s;
+}
+.overlay ul a{
+	display: block;
+}
+.overlay ul li:hover{
+	color: #7fc55b!important;
+	background-color: #fff;
+	cursor: pointer;
+	/*background-image: url(images/mobile/nav-arrow-green.png);*/
+}
+/*.overlay a:hover .overlay-content ul li{
+	background-image: url(images/mobile/nav-arrow-green.png);
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    background-size: 12px 12px;
+    margin-left: 30px;
+    padding-left: 20px;
+}*/
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #6bccdf;
+}
+.openbtn {
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    color: #6bccdf;
+    font-size: 30px;
+    cursor: pointer;
+}
+.overlay-content {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+}
+.overlay-content ul {
+    list-style: none;
+    padding: 0;
+}
+.overlay-content ul li a{
+	color: #0077bc;
+	margin-left: 30px;	
+}
+.overlay-content ul li{
+    /*background-image: url(images/mobile/nav-arrow-blue.png);
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    background-size: 12px 12px;*/
+    /*padding-left: 20px;*/
+}
+.overlay-content ul li:hover{
+	background-color: #ffffff;	
+	color: #0077bc;
+	/*background-image: url(images/mobile/nav-arrow-green.png);
+	background-repeat: no-repeat;
+    background-position: 0 center;
+    background-size: 12px 12px;*/
+}
+.overlay-content ul li a:hover, .overlay-content ul li a:focus {
+    color: #7fc55b;
+	/*background-image: url(images/mobile/nav-arrow-green.png);*/
+}
+
+ul.mobilesub-menu-content{
+	display: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #7fc55b;
+}
+
+ul.mobilesub-menu-content li{
+	display: block;
+	font-size: 1em;
+	line-height: 2em;
+	/*padding-left: 40px;*/	
+	cursor: pointer;
+}
+ul.mobilesub-menu-content li a{
+	color: #ffffff;
+	/*background-image: url(images/mobile/nav-arrow-white.png);
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    background-size: 12px 12px;*/
+}
+
+ul.mobilesub-menu-content li a:hover{
+	color: #7fc55b!important;
+	background-color: #fff;	
+}
+
+}
+@media only screen and (max-width: 700px) {
+	.green-bar-desktop-text{
+		display: none;
+	}
+}

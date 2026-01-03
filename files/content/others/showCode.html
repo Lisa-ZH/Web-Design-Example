@@ -1,0 +1,147 @@
+<!--||{% load job_tags %}||-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="file/css/style.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+  <title>Show Code</title>
+  <style>
+    body {
+      font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+      font-weight: 300;
+      margin: 0 0 0 20px;
+      padding: 0;
+    }
+
+    .title {
+      background-color: #929474;
+      color: #FFFFFF;
+      font-size: 1.4rem;
+      line-height: 1.1rem;
+      padding: 10px 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="title">Others / Show Code</div>
+  <h1>Show the code on the page</h1>
+  <h3>Use &lt;pre&gt; and &lt;code&gt; to show the CSS and JS codes</h3>
+  <h3>HTML Code:</h3>
+  <pre>
+<code id="css-js-Block">
+</code>
+</pre>
+  <h3>Output:</h3>
+  <pre>
+<code>
+.btn{
+  display: inline-block;
+  background-color: #dddddd;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  transition: width 2s;
+}
+</code>
+</pre>
+  <pre>
+<code>
+function helloWorld(){
+  console.log("Hello World");
+}
+</code>
+</pre>
+  <h3>To display HTML code, like &lt;div&gt;&lt;/div&gt;, you need to escape the angle brackets so that the browser
+    doesn't interpret them as actual HTML tags. You can use &amp;lt; for &lt; and &amp;gt; for &gt;.</h3>
+  <h3>HTML Code:</h3>
+  <p>
+    &amp;lt;div&amp;gt;This is a div.&amp;lt;/div&amp;gt;
+  </p>
+
+  <h3>Output:</h3>
+  <pre>
+<code id="simple-html-Block"></code>
+</pre>
+
+  <h3>If you have a long code with many < and> characters and want to avoid manually escaping each one, you can use a JS
+      Function or server-side solution to automatically escape them.</and>
+  </h3>
+  <h3>HTML Code:</h3>
+  <p>
+    &lt;pre&gt;<br>
+    &lt;code id="codeBlock"&gt;&lt;/code&gt;<br>
+    &lt;/pre&gt;
+    <br><br>
+    &lt;script&gt;<br>
+    const code = `<br>
+    &lt;div&gt;<br>
+    &lt;h1&gt;Hello, World!&lt;/h1&gt;<br>
+    &lt;p&gt;This is a paragraph.&lt;/p&gt;<br>
+    &lt;/div&gt;<br>
+    <br><br>
+
+    document.getElementById('codeBlock').textContent = code;<br>
+    &lt;/script&gt;
+  </p>
+
+
+  <h3>Output:</h3>
+  <pre>
+<code id="codeBlock"></code>
+</pre>
+
+  <script>
+    const codeCssJS = `
+CSS
+<pre>
+<code>
+.btn{
+  display: inline-block;
+  background-color: #dddddd;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  transition: width 2s;
+}
+</code>
+</pre>
+
+--------------------------------------------
+JS
+<pre>
+<code>
+function helloWorld(){
+  console.log("Hello World");
+}
+</code>
+</pre>
+`;
+
+    const codesimpleHtml = `
+<pre>
+<code>
+  <div>This is a div.</div>
+</code>
+</pre>
+`;
+
+    const code = `
+<div>
+<h1>Hello, World!</h1>
+
+<p>This is a paragraph.</p>
+</div>
+`;
+
+    document.getElementById('css-js-Block').textContent = codeCssJS;
+    document.getElementById('simple-html-Block').textContent = codesimpleHtml;
+
+    document.getElementById('codeBlock').textContent = code;
+    hljs.highlightAll()</script>
+</body>
+
+</html>

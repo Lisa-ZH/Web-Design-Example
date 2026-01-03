@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hoverable Sidenav Buttons</title>
+<style>
+#mySidenav a{
+	position: absolute;
+	left: -100px;
+	transition: 0.3s;
+	color: #ffffff;
+	padding: 10px 20px;	
+	text-align: center;
+	text-decoration: none;
+	width: 100px;
+	border-radius: 0 5px 5px 0;
+}
+#mySidenav a:hover{
+	left: 0;		
+}
+.sidenav{
+		
+}
+
+#about{
+	top: 20px;
+	background-color: #4CAF50;	
+}
+#blog{
+	top: 80px;
+	background-color: #2196F3;
+}
+#projects{
+	top: 140px;
+	background-color: #f44336;	
+}
+#contact{
+	top: 200px;
+	background-color: #555;
+}
+</style>
+</head>
+
+<body>
+	<div id="mySidenav" class="sidenav">
+	  <a href="#" id="about">About</a>
+	  <a href="#" id="blog">Blog</a>
+	  <a href="#" id="projects">Projects</a>
+	  <a href="#" id="contact">Contact</a>
+	</div>
+</body>
+</html>

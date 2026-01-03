@@ -1,0 +1,216 @@
+<!doctype html>
+<html>
+<head>
+<meta id="testViewport" name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta charset="UTF-8">
+<title>Hover Image Animation</title>
+<!--
+<link href="files/styles/normalize.css" rel="stylesheet" type="text/css">
+-->
+<link href="files/styles/styles.css" rel="stylesheet" type="text/css">
+
+<link href="files/styles/responsive.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js"><\/script>')</script>
+<script src="files/js/script.js"></script>
+
+</head>
+
+<body>
+  <div class="title">Images / Image Hover Effect</div>
+  <div class="container">
+    <h3 id="border-classes">Hover Image Animation</h3>
+
+<div class="row">
+  <div class="column">
+    <figure class="zoom-in">
+      <img src="image11.jpg" alt="Sample Image" />
+    </figure>
+   <div class="code-caption">
+    <h4>Zoom In (Bigger)</h4>
+    .zoom-in img{<br>
+      transition: all .6s ease-in-out;<br>
+    }<br><br>
+
+    .zoom-in:hover img{<br>
+      transform: scale(1.25);<br>
+    }<br>
+   </div>
+  </div>
+
+  <div class="column">
+    <figure class="zoom-out">
+      <img src="image11.jpg" alt="Sample Image" />
+    </figure>
+   <div class="code-caption">
+    <h4>Zoom Out (Smaller)</h4>
+    .zoom-out img{<br>
+      transform: scale(1.25);<br>
+      transition: all .6s ease-in-out;<br>
+    }<br><br>
+
+    .zoom-out:hover img{<br>
+      transform: scale(1);<br>
+    }<br>
+   </div>
+  </div>
+
+  <div class="column">
+    <figure class="pan-up">
+      <img src="image11.jpg" alt="Sample Image" />
+    </figure>
+   <div class="code-caption">
+    <h4>Pan Up</h4>
+    .pan-up img{<br>
+      transform-origin: top;<br>
+      transform: scale(1.2) translate(0,0);<br>
+      transition: all .6s ease-in-out;<br>
+    }<br><br>
+
+    .pan-up:hover img{<br>
+      transform: scale(1.2) translate(0,-15%);<br>
+    }<br>
+   </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <figure class="pan-down">
+      <img src="image11.jpg" alt="Sample Image" />
+    </figure>
+   <div class="code-caption">
+    <h4>Pan Down</h4>
+    .pan-down img{<br>
+      transform-origin: bottom;<br>
+      transform: scale(1.2) translate(0,0);<br>
+      transition: all .6s ease-in-out;<br>
+    }<br><br>
+
+    .pan-down:hover img{<br>
+      transform: scale(1.2) translate(0,15%);<br>
+    }<br>
+   </div>
+  </div>
+
+  <div class="column">
+    <figure class="pan-left">
+      <img src="image11.jpg" alt="Sample Image" />
+    </figure>
+   <div class="code-caption">
+    <h4>Pan Left</h4>
+    .pan-left img{<br>
+      transform-origin: left;<br>
+      transform: scale(1.2) translate(0,0);<br>
+      transition: all .6s ease-in-out;<br>
+    }<br><br>
+
+    .pan-left:hover img{<br>
+      transform: scale(1.2) translate(-15%,0);<br>
+    }<br>
+   </div>
+  </div>
+
+  <div class="column">
+    <figure class="pan-right">
+      <img src="image11.jpg" alt="Sample Image" />
+    </figure>
+   <div class="code-caption">
+    <h4>Pan Right</h4>
+    .pan-right img{<br>
+      transform-origin: right;<br>
+      transform: scale(1.2) translate(0,0);<br>
+      transition: all .6s ease-in-out;<br>
+    }<br><br>
+
+    .pan-right:hover img{<br>
+      transform: scale(1.2) translate(15%,0);<br>
+    }<br>
+   </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <figure class="rotate-left">
+      <img src="image11.jpg" alt="Sample Image" />
+    </figure>
+   <div class="code-caption">
+    <h4>Rotate Left</h4>
+    .rotate-left img{<br>
+      transform: scale(1.1) translate(0,0);<br>
+      transition: all .6s ease-in-out;<br>
+    }<br><br>
+    
+    .rotate-left:hover img{<br>
+      transform: scale(1.3) rotate(-15deg);<br>
+    }<br>
+   </div>
+  </div>
+
+  <div class="column">
+    <figure class="rotate-right">
+      <img src="image11.jpg" alt="Sample Image" />
+    </figure>
+   <div class="code-caption">
+    <h4>Rotate Right</h4>
+    .rotate-right img{<br>
+      transform: scale(1.1) translate(0,0);<br>
+      transition: all .6s ease-in-out;<br>
+    }<br><br>
+
+    .rotate-right:hover img{<br>
+      transform: scale(1.3) rotate(15deg);<br>
+    }<br>
+   </div>
+  </div>
+
+  <div class="column">
+    <figure class="blur">
+      <img src="image11.jpg" alt="Sample Image" />
+    </figure>
+   <div class="code-caption">
+    <h4>Blur</h4>
+    .blur img{
+      transform: scale(1.1) translate(0,0);
+      transition: all .6s ease-in-out;
+    }
+
+    .blur:hover img{
+      filter: blur(4px);
+      transform: scale(1.1);
+    }
+   </div>
+  </div>
+</div>
+
+<br><br><br><br><br><br>
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,99 @@
+@media only screen and (max-width: 780px) {
+.jobs-row1-col2-bottom {
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+body {
+	font-size: 80% !important;
+	width: 100%;
+}
+.heading1 {
+	font-size: 2em;
+	line-height: 1.1em;
+	margin-bottom: 10px;
+}
+.heading2 {
+	line-height: 1em;
+	font-size: 1.4em;
+}
+#bannerArea-sub {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	margin-bottom: -5px;
+}
+.content-row1-top {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+.content-row1-middle {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#content-row1 {
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.content-row1-middle-col1 {
+	width: 100%;
+	margin-right: 0px;
+	height: 60px;
+	display: block;
+	margin-bottom: 10px!important;
+	
+}
+.content-row1-middle-col2 {
+	width: 100%;
+	margin-right: 0px;
+	float: left;
+	display: block;
+	margin-bottom: 10px;
+}
+.content-row1-middle-col3 {
+	width: 100%;
+	margin-right: 0px;
+	float: left;
+}
+.content-row1-btm {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #FFFFFF;
+}
+.search-keyword-container {
+	width: 99%;
+	float: left;
+	border: 2px solid #ffffff;
+	margin-right: 0px;
+	margin-bottom: 10px!important;
+}
+a.join-LinkedIn-Btn:link, a.join-LinkedIn-Btn:active, a.join-LinkedIn-Btn:visited {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-size: 1em !important;
+	width: 90px;
+}
+.content-row1-btm-col1 {
+	width: 100%;
+	float: none;
+	margin-left:0px;
+}
+.content-row1-btm-col2 {
+	width: 100%;
+	float: none;
+	margin-top: 5px;
+	margin-right:0px;
+}
+}

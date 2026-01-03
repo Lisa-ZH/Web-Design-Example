@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Equal Height</title>
+<style>
+	body {
+		margin: 0 0 0 20px;
+		padding: 0;
+		font-size: 1.2rem;
+	}
+	.title {
+		background-color: #929474;
+		color: #FFFFFF;
+		font-size: 1.4rem;
+		line-height: 1.1rem;
+		padding: 10px 40px;
+	}
+	.container {
+		width: 960px;
+		margin: 30px auto 0 auto;
+	}
+	.row{
+		display: table;
+		width: 90%;
+		margin: 0 auto;
+	}
+	.col{
+		display: table-cell;
+		color: #fff;
+		padding: 16px;
+	}
+	.col.c1{
+		background-color: #DC2528;
+	}
+	.col.c2{
+		color: #000000;
+		background-color: #55ED6F;
+	}
+	.col.c3{color: #000000;
+		background-color: #F9E77A;
+	}
+</style>
+</head>
+
+<body>
+	<div class="title">Basic Knowledge / Equal Height</div>
+    <div class="container">
+        <div class="row">
+		<div class="col c1" >
+			<h2>Column 1</h2>
+    		<p>Hello World</p>
+		</div>
+		<div class="col c2" >
+			<h2>Column 2</h2>
+			<p>Hello World!</p>
+			<p>Hello World!</p>
+			<p>Hello World!</p>
+			<p>Hello World!</p>
+		</div>
+		<div class="col c3" >
+			<h2>Column 3</h2>
+			<p>Some other text..</p>
+			<p>Some other text..</p>
+		</div>
+	</div>
+	<h3> Equal Height </h3> 
+  <p>.row{<br>
+    display: table; <br>
+    width: 90%;<br>
+    margin: 0 auto;<br>
+  }<br><br>
+  .col{<br>
+    display: table-cell;<br>
+  }<br></p>
+    </div>
+</body>
+</html>

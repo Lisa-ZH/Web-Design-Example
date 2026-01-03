@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Progress Bar</title>
+<style>
+	.progress-bar{
+		background-color: green;
+		height:30px;
+		margin-bottom: 20px;
+		width: 1%;
+	}
+	button{
+		background-color: green;
+		color: #fff;
+		font-family: Raleway;
+		font-size: 20px;
+		padding: 10px 20px;
+		border: none;
+		cursor: pointer;
+	}
+</style>
+</head>
+
+<body>
+	<div class="progress-bar" id="myBar"></div>
+	<button onClick="myFunction()">Run</button>
+<script>
+	function myFunction(){
+		var elem = document.getElementById("myBar");
+		var width = 1;
+		var id = setInterval(frame, 10);
+		function frame(){
+			if (width >= 100){
+				clearInterval(id);
+			}else{
+				width ++;
+				elem.style.width = width + '%';
+			}
+		}
+	}
+</script>
+</body>
+</html>

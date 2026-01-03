@@ -1,0 +1,79 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="UTF-8">
+<!-- InstanceBeginEditable name="title" -->
+<title>Collapsibles/Accordion</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="style" -->
+<style>
+.accordion{
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	width: 100%;
+	padding: 18px;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+}
+.accordion:after{
+	content: '\02795';
+	font-size: 13px;
+	color: #777;
+	float: right;
+	margin-left: 5px;
+}
+.active:after{
+	content: '\2796';	
+}
+.active, .accordion:hover{
+	background-color: #ccc;	
+}
+.panel{
+	/*display: none;*/
+	padding: 0 18px;
+	background-color: white;
+	overflow: hidden;
+	max-height: 0;
+	transition: max-height 0.2s ease-out;
+}
+</style>
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<!-- InstanceBeginEditable name="body" -->
+	<button class="accordion">Section 1</button>
+	<div class="panel">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pulvinar, dolor in ultricies tempus, ipsum ante finibus orci, vel ultrices lorem massa vitae quam. Fusce tristique tortor vestibulum mollis viverra. Nullam pellentesque at urna euismod gravida. Fusce tempor, arcu consequat hendrerit accumsan</p>
+	</div>
+	<button class="accordion">Section 2</button>
+	<div class="panel">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pulvinar, dolor in ultricies tempus, ipsum ante finibus orci, vel ultrices lorem massa vitae quam. Fusce tristique tortor vestibulum mollis viverra. Nullam pellentesque at urna euismod gravida. Fusce tempor, arcu consequat hendrerit accumsan</p>
+	</div>
+	<button class="accordion">Section 3</button>
+	<div class="panel">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pulvinar, dolor in ultricies tempus, ipsum ante finibus orci, vel ultrices lorem massa vitae quam. Fusce tristique tortor vestibulum mollis viverra. Nullam pellentesque at urna euismod gravida. Fusce tempor, arcu consequat hendrerit accumsan</p>
+	</div>
+<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+	
+	for (i = 0; i < acc.length; i++){
+		acc[i].addEventListener("click", function(){
+			this.classList.toggle("active");
+			var panel = this.nextElementSibling;
+			if (panel.style.maxHeight){
+				panel.style.maxHeight = null;
+			} else {
+				panel.style.maxHeight = panel.scrollHeight + "px";
+			}
+			
+		});
+	}
+</script>
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>

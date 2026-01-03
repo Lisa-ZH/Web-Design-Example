@@ -1,0 +1,968 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+h3, h4{
+	text-align: center;
+}
+h4{
+	margin: 10px auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-top: 20px;
+}
+.column{
+	flex: 24%;
+	max-width: 25%;
+	padding: 0 4px;
+}
+.column img{
+	vertical-align: middle;
+	width: 100%;
+}
+figure{
+	position: relative;
+}
+figure:hover{
+	background-color: #00B4DB;
+}
+figure:hover img{
+	opacity: .25
+}
+.code-caption{
+	text-align: left;
+	padding-left: 10px;
+	vertical-align: middle;
+	border: 1px solid #000;
+}
+/*----------- Border-Center -----------*/
+/* Top Line */
+.border-center:before{
+	content: "";
+	position: absolute;
+	height: 3px;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transition: 0.5s transform ease-out;
+}
+.border-center:hover:before{
+	transform: scaleX(1);
+}
+/* Bottom Line */
+.border-center:after{
+	content: "";
+	position: absolute;
+	height: 3px;
+	bottom: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transition: 0.5s transform ease-out;
+}
+.border-center:hover:after{
+	transform: scaleX(1);
+}
+
+.border-center figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+}
+/* Left Line */
+.border-center figcaption:before{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	left: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transition: 0.5s transform ease-out;
+}
+.border-center figcaption:hover:before{
+	transform: scaleY(1);
+}
+/* Right Line */
+.border-center figcaption:after{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transition: 0.5s transform ease-out;
+}
+.border-center figcaption:hover:after{
+	transform: scaleY(1);
+}
+
+/*----------- Border -----------*/
+/* Top Line */
+.border:before{
+	content: "";
+	position: absolute;
+	height: 3px;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(1);
+	opacity: 0;
+	transition: opacity 0.5s ease-out;
+}
+.border:hover:before{
+	opacity: 1;
+}
+/* Bottom Line */
+.border:after{
+	content: "";
+	position: absolute;
+	height: 3px;
+	bottom: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(1);
+	opacity: 0;
+	transition: opacity 0.5s ease-out;
+}
+.border:hover:after{
+	opacity: 1;
+}
+
+.border figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+}
+/* Left Line */
+.border figcaption:before{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	left: 15px;
+	background-color: #fff;
+	transform: scaleY(1);
+	opacity: 0;
+	transition: opacity 0.5s ease-out;
+}
+.border figcaption:hover:before{
+	opacity: 1;
+}
+/* Right Line */
+.border figcaption:after{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleY(1);
+	opacity: 0;
+	transition: opacity 0.5s ease-out;
+}
+.border figcaption:hover:after{
+	opacity: 1;
+}
+
+/*----------- Border Around Clockwise-----------*/
+/* Top Line */
+.border-around-clockwise:before{
+	content: "";
+	position: absolute;
+	height: 3px;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: 0 0;
+	transition: 0.5s transform ease-out;
+}
+.border-around-clockwise:hover:before{
+	transform: scaleX(1);
+}
+/* Bottom Line */
+.border-around-clockwise:after{
+	content: "";
+	position: absolute;
+	height: 3px;
+	bottom: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: 100% 100%;
+	transition: 0.5s transform ease-out;
+}
+.border-around-clockwise:hover:after{
+	transform: scaleX(1);
+}
+
+.border-around-clockwise figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+}
+/* Left Line */
+.border-around-clockwise figcaption:before{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	left: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transform-origin: 100% 100%;
+	transition: 0.5s transform ease-out;
+}
+.border-around-clockwise figcaption:hover:before{
+	transform: scaleY(1);
+}
+/* Right Line */
+.border-around-clockwise figcaption:after{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transform-origin: 0 0;
+	transition: 0.5s transform ease-out;
+}
+.border-around-clockwise figcaption:hover:after{
+	transform: scaleY(1);
+}
+
+/*----------- Border Around Anticlockwise-----------*/
+/* Top Line */
+.border-around-anticlockwise:before{
+	content: "";
+	position: absolute;
+	height: 3px;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: 100% 100%;
+	transition: 0.5s transform ease-out;
+}
+.border-around-anticlockwise:hover:before{
+	transform: scaleX(1);
+}
+/* Bottom Line */
+.border-around-anticlockwise:after{
+	content: "";
+	position: absolute;
+	height: 3px;
+	bottom: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: 0 0;
+	transition: 0.5s transform ease-out;
+}
+.border-around-anticlockwise:hover:after{
+	transform: scaleX(1);
+}
+
+.border-around-anticlockwise figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+}
+/* Left Line */
+.border-around-anticlockwise figcaption:before{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	left: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transform-origin: 0 0;
+	transition: 0.5s transform ease-out;
+}
+.border-around-anticlockwise figcaption:hover:before{
+	transform: scaleY(1);
+}
+/* Right Line */
+.border-around-anticlockwise figcaption:after{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transform-origin: 100% 100%;
+	transition: 0.5s transform ease-out;
+}
+.border-around-anticlockwise figcaption:hover:after{
+	transform: scaleY(1);
+}
+
+/*----------- Border Corner TopRight-BottomLeft -----------*/
+/* Top Line */
+.border-corner-topright-bottomleft:before{
+	content: "";
+	position: absolute;
+	height: 3px;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: 100% 100%;
+	transition: 0.5s transform ease-out;
+}
+.border-corner-topright-bottomleft:hover:before{
+	transform: scaleX(1);
+}
+/* Bottom Line */
+.border-corner-topright-bottomleft:after{
+	content: "";
+	position: absolute;
+	height: 3px;
+	bottom: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: 0 0;
+	transition: 0.5s transform ease-out;
+}
+.border-corner-topright-bottomleft:hover:after{
+	transform: scaleX(1);
+}
+
+.border-corner-topright-bottomleft figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+}
+/* Left Line */
+.border-corner-topright-bottomleft figcaption:before{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	left: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transform-origin: 100% 100%;
+	transition: 0.5s transform ease-out;
+}
+.border-corner-topright-bottomleft figcaption:hover:before{
+	transform: scaleY(1);
+}
+/* Right Line */
+.border-corner-topright-bottomleft figcaption:after{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transform-origin: 0 0;
+	transition: 0.5s transform ease-out;
+}
+.border-corner-topright-bottomleft figcaption:hover:after{
+	transform: scaleY(1);
+}
+
+/*----------- Border Corner TopLeft-BottomRight -----------*/
+/* Top Line */
+.border-corner-topleft-bottomright:before{
+	content: "";
+	position: absolute;
+	height: 3px;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: 0 0;
+	transition: 0.5s transform ease-out;
+}
+.border-corner-topleft-bottomright:hover:before{
+	transform: scaleX(1);
+}
+/* Bottom Line */
+.border-corner-topleft-bottomright:after{
+	content: "";
+	position: absolute;
+	height: 3px;
+	bottom: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: 100% 100%;
+	transition: 0.5s transform ease-out;
+}
+.border-corner-topleft-bottomright:hover:after{
+	transform: scaleX(1);
+}
+
+.border-corner-topleft-bottomright figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+}
+/* Left Line */
+.border-corner-topleft-bottomright figcaption:before{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	left: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transform-origin: 0 0;
+	transition: 0.5s transform ease-out;
+}
+.border-corner-topleft-bottomright figcaption:hover:before{
+	transform: scaleY(1);
+}
+/* Right Line */
+.border-corner-topleft-bottomright figcaption:after{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transform-origin: 100% 100%;
+	transition: 0.5s transform ease-out;
+}
+.border-corner-topleft-bottomright figcaption:hover:after{
+	transform: scaleY(1);
+}
+
+/*----------- Border Bottom Left Clockwise -----------*/
+/* Top Line */
+.border-bottom-left-clockwise:before{
+	content: "";
+	position: absolute;
+	height: 3px;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: 0 0;
+	transition: transform 0.3s ease 0.6s;
+}
+.border-bottom-left-clockwise:hover:before{
+	transform: scaleX(1);
+	transition-delay:0.3s;
+}
+/* Bottom Line */
+.border-bottom-left-clockwise:after{
+	content: "";
+	position: absolute;
+	height: 3px;
+	bottom: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: 100% 100%;
+	transition: transform 0.3s ease 0s;
+}
+.border-bottom-left-clockwise:hover:after{
+	transform: scaleX(1);
+	transition-delay:0.9s;
+}
+
+.border-bottom-left-clockwise figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+}
+/* Left Line */
+.border-bottom-left-clockwise figcaption:before{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	left: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transform-origin: 100% 100%;
+	transition: transform 0.3s ease .9s;
+}
+.border-bottom-left-clockwise figcaption:hover:before{
+	transform: scaleY(1);
+	transition-delay:0s;
+}
+/* Right Line */
+.border-bottom-left-clockwise figcaption:after{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transform-origin: 0 0;
+	transition: transform 0.3s ease 0.3s;
+}
+.border-bottom-left-clockwise figcaption:hover:after{
+	transform: scaleY(1);
+	transition-delay:0.6s;
+}
+
+/*----------- Border Top Left Anticlockwise -----------*/
+/* Top Line */
+.border-top-left-anticlockwise:before{
+	content: "";
+	position: absolute;
+	height: 3px;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: 0 0;
+	transition: transform 0.3s ease 0.9s;
+}
+.border-top-left-anticlockwise:hover:before{
+	transform: scaleX(1);
+	transition-delay:0s;
+}
+/* Bottom Line */
+.border-top-left-anticlockwise:after{
+	content: "";
+	position: absolute;
+	height: 3px;
+	bottom: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: 100% 100%;
+	transition: transform 0.3s ease 0.3s;
+}
+.border-top-left-anticlockwise:hover:after{
+	transform: scaleX(1);
+	transition-delay:0.6s;
+}
+
+.border-top-left-anticlockwise figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+}
+/* Left Line */
+.border-top-left-anticlockwise figcaption:before{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	left: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transform-origin: 100% 100%;
+	transition: transform 0.3s ease 0s;
+}
+.border-top-left-anticlockwise figcaption:hover:before{
+	transform: scaleY(1);
+	transition-delay:0.9s;
+}
+/* Right Line */
+.border-top-left-anticlockwise figcaption:after{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transform-origin: 0 0;
+	transition: transform 0.3s ease 0.6s;
+}
+.border-top-left-anticlockwise figcaption:hover:after{
+	transform: scaleY(1);
+	transition-delay:0.3s;
+}
+
+
+/*----------- Border Top Left -----------*/
+/* Top Line */
+.border-top-left:before{
+	content: "";
+	position: absolute;
+	height: 3px;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: 0 0;
+	transition: transform 0.6s ease .4s;
+}
+.border-top-left:hover:before{
+	transform: scaleX(1);
+	transition-delay:0s;
+}
+/* Bottom Line */
+.border-top-left:after{
+	content: "";
+	position: absolute;
+	height: 3px;
+	bottom: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: 0 0;
+	transition: transform 0.6s ease 0s;
+}
+.border-top-left:hover:after{
+	transform: scaleX(1);
+	transition-delay:0.4s;
+}
+
+.border-top-left figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+}
+/* Left Line */
+.border-top-left figcaption:before{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	left: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transform-origin: 0 0;
+	transition: transform 0.6s ease .4s;
+}
+.border-top-left figcaption:hover:before{
+	transform: scaleY(1);
+	transition-delay:0s;
+}
+/* Right Line */
+.border-top-left figcaption:after{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transform-origin: 0 0;
+	transition: transform 0.6s ease 0s;
+}
+.border-top-left figcaption:hover:after{
+	transform: scaleY(1);
+	transition-delay:0.4s;
+}
+
+/*----------- Border Top Right -----------*/
+/* Top Line */
+.border-top-right:before{
+	content: "";
+	position: absolute;
+	height: 3px;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: 100% 0;
+	transition: transform 0.6s ease 0.4s;
+}
+.border-top-right:hover:before{
+	transform: scaleX(1);
+	transition-delay:0s;
+}
+/* Bottom Line */
+.border-top-right:after{
+	content: "";
+	position: absolute;
+	height: 3px;
+	bottom: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: 100% 0;
+	transition: transform 0.6s ease 0s;
+}
+.border-top-right:hover:after{
+	transform: scaleX(1);
+	transition-delay:0.4s;
+}
+
+.border-top-right figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+}
+/* Left Line */
+.border-top-right figcaption:before{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	left: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transform-origin: 100% 0;
+	transition: transform 0.6s ease 0s;
+}
+.border-top-right figcaption:hover:before{
+	transform: scaleY(1);
+	transition-delay:0.4s;
+}
+/* Right Line */
+.border-top-right figcaption:after{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transform-origin: 100% 0;
+	transition: transform 0.6s ease 0.4s;
+}
+.border-top-right figcaption:hover:after{
+	transform: scaleY(1);
+	transition-delay:0s;
+}
+
+/*----------- Border Bottom Left -----------*/
+/* Top Line */
+.border-bottom-left:before{
+	content: "";
+	position: absolute;
+	height: 3px;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: 0 100%;
+	transition: transform 0.6s ease 0s;
+}
+.border-bottom-left:hover:before{
+	transform: scaleX(1);
+	transition-delay:0.4s;
+}
+/* Bottom Line */
+.border-bottom-left:after{
+	content: "";
+	position: absolute;
+	height: 3px;
+	bottom: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: 0 100%;
+	transition: transform 0.6s ease 0.4s;
+}
+.border-bottom-left:hover:after{
+	transform: scaleX(1);
+	transition-delay:0s;
+}
+
+.border-bottom-left figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+}
+/* Left Line */
+.border-bottom-left figcaption:before{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	left: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transform-origin: 0 100%;
+	transition: transform 0.6s ease .4s;
+}
+.border-bottom-left figcaption:hover:before{
+	transform: scaleY(1);
+	transition-delay:0s;
+}
+/* Right Line */
+.border-bottom-left figcaption:after{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transform-origin: 0 100%;
+	transition: transform 0.6s ease 0s;
+}
+.border-bottom-left figcaption:hover:after{
+	transform: scaleY(1);
+	transition-delay:0.4s;
+}
+
+/*----------- Border Bottom Right -----------*/
+/* Top Line */
+.border-bottom-right:before{
+	content: "";
+	position: absolute;
+	height: 3px;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: 100% 100%;
+	transition: transform 0.6s ease 0s;
+}
+.border-bottom-right:hover:before{
+	transform: scaleX(1);
+	transition-delay:0.4s;
+}
+/* Bottom Line */
+.border-bottom-right:after{
+	content: "";
+	position: absolute;
+	height: 3px;
+	bottom: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: 100% 100%;
+	transition: transform 0.6s ease 0.4s;
+}
+.border-bottom-right:hover:after{
+	transform: scaleX(1);
+	transition-delay:0s;
+}
+
+.border-bottom-right figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+}
+/* Left Line */
+.border-bottom-right figcaption:before{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	left: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transform-origin: 100% 100%;
+	transition: transform 0.6s ease 0s;
+}
+.border-bottom-right figcaption:hover:before{
+	transform: scaleY(1);
+	transition-delay:0.4s;
+}
+/* Right Line */
+.border-bottom-right figcaption:after{
+	content: "";
+	position: absolute;
+	width: 3px;
+	top: 15px;
+	bottom: 15px;
+	right: 15px;
+	background-color: #fff;
+	transform: scaleY(0);
+	transform-origin: 100% 100%;
+	transition: transform 0.6s ease 0.4s;
+}
+.border-bottom-right figcaption:hover:after{
+	transform: scaleY(1);
+	transition-delay:0s;
+}
+
+
+
+
+
+
+
+

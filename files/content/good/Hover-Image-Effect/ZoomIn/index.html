@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>css3鼠标悬停图片内部放大和阴影特效|DEMO_jQuery之家-自由分享jQuery、html5、css3的插件库</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css" /><!--CSS RESET-->
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css"><!--演示页面样式，使用时可以不引用-->
+	<style>
+		.demo{ background-color: #E4E1D9; padding: 50px 0;}
+		.box{
+		    font-family: 'Kanit', sans-serif;
+		    text-align: center;
+		    border: 10px solid #fff;
+		    box-shadow: 1px 1px 2px #e6e6e6;
+		    overflow: hidden;
+		    position: relative;
+		}
+		.box:hover{ box-shadow: 13px 13px 15px rgba(0, 0, 0, 0.3); }
+		.box:before{
+		    content: "";
+		    background: linear-gradient(to left top,#11998e,#38ef7d);
+		    height: 100%;
+		    width: 100%;
+		    opacity: 0;
+		    position: absolute;
+		    left: 0;
+		    top: 0;
+		    transition: all 0.4s linear;
+		}
+		.box:hover:before{ opacity: 1; }
+		.box img{
+		    width: 100%;
+		    height: auto;
+		    transition: all 0.4s linear;
+		}
+		.box:hover img{
+		    opacity: 0;
+		    transform: scale(3);
+		}
+		.box .box-content{
+		    color: #fff;
+		    width: 100%;
+		    transform: translateY(-50%) scale(0);
+		    position: absolute;
+		    top: 50%;
+		    left: 0;
+		    transition: all 0.4s linear;
+		}
+		.box:hover .box-content{ transform: translateY(-50%) scale(1); }
+		.box .title{
+		    font-size: 25px;
+		    font-weight: 600;
+		    letter-spacing: 1px;
+		    text-transform: uppercase;
+		    margin: 0;
+		}
+		.box .post{
+		    font-size: 16px;
+		    text-transform: capitalize;
+		}
+		.box .icon{
+		    padding: 0;
+		    margin: 0;
+		    list-style: none;
+		    position: absolute;
+		    right: 8px;
+		    bottom: 10px;
+		}
+		.box .icon li{
+		    display: inline-block;
+		    margin: 0 1px;
+		    opacity: 0;
+		    transform: scale(1.3);
+		    transition: all 0.3s ease 0.4s;
+		}
+		.box:hover .icon li{
+		    opacity: 1;
+		    transform: scale(1);
+		}
+		.box:hover .icon li:nth-child(2){ transition: all 0.3s ease 0.2s; }
+		.box .icon li a{
+		    color: #11998e;
+		    background: #fff;
+		    font-size: 16px;
+		    line-height: 33px;
+		    height: 33px;
+		    width: 33px;
+		    border-radius: 50%;
+		    display: block;
+		    transition: all 0.5s ease;
+		}
+		.box .icon li  a:hover{
+		    color: #fff;
+		    background-color: #11998e;
+		    box-shadow: 0 0 5px #000;
+		}
+		@media only screen and (max-width:990px){
+		    .box { margin: 0 0 30px; }
+		}
+	</style>
+</head>
+<body>
+	<div class="htmleaf-container">
+		<header class="htmleaf-header">
+			<h1>css3鼠标悬停图片内部放大和阴影特效 <span>A Hover Effect Style</span></h1>
+			<div class="htmleaf-links">
+				<a class="htmleaf-icon icon-htmleaf-home-outline" href="http://www.htmleaf.com/" title="jQuery之家" target="_blank"><span> jQuery之家</span></a>
+				<a class="htmleaf-icon icon-htmleaf-arrow-forward-outline" href="http://www.htmleaf.com/css3/css3donghua/201911205844.html" title="返回下载页" target="_blank"><span> 返回下载页</span></a>
+			</div>
+		</header>
+		<div class="demo">
+	        <div class="container">
+
+	            <div class="row">
+	                <div class="col-md-4 col-sm-6">
+	                    <div class="box">
+	                        <img  src="images/img-1.jpg">
+	                        <div class="box-content">
+	                            <h3 class="title">Williamson</h3>
+	                            <span class="post">Web designer</span>
+	                        </div>
+	                        <ul class="icon">
+	                            <li><a href="#"><i class="fa fa-search"></i></a></li>
+	                            <li><a href="#"><i class="fa fa-link"></i></a></li>
+	                        </ul>
+	                    </div>
+	                </div>
+	                <div class="col-md-4 col-sm-6">
+	                    <div class="box">
+	                        <img  src="images/img-2.jpg">
+	                        <div class="box-content">
+	                            <h3 class="title">Miranda Roy</h3>
+	                            <span class="post">Web developer</span>
+	                        </div>
+	                        <ul class="icon">
+	                            <li><a href="#"><i class="fa fa-search"></i></a></li>
+	                            <li><a href="#"><i class="fa fa-link"></i></a></li>
+	                        </ul>
+	                    </div>
+	                </div>
+	                <div class="col-md-4 col-sm-6">
+	                    <div class="box">
+	                        <img  src="images/img-3.jpg">
+	                        <div class="box-content">
+	                            <h3 class="title">Steve Thomas</h3>
+	                            <span class="post">Web developer</span>
+	                        </div>
+	                        <ul class="icon">
+	                            <li><a href="#"><i class="fa fa-search"></i></a></li>
+	                            <li><a href="#"><i class="fa fa-link"></i></a></li>
+	                        </ul>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+		<div class="related">
+		    <h3>如果你喜欢这个插件，那么你可能也喜欢:</h3>
+		    <a href="http://www.htmleaf.com/css3/css3donghua/201911135838.html">
+			  <img src="related/1.jpg" width="300" alt="css3鼠标悬停图片动画特效库Izmir"/>
+			  <h3>css3鼠标悬停图片动画特效库Izmir</h3>
+			</a>
+			<a href="http://www.htmleaf.com/css3/css3donghua/201911065832.html">
+			  <img src="related/2.jpg" width="300" alt="css3鼠标hover图片遮罩层折页打开动画特效"/>
+			  <h3>css3鼠标hover图片遮罩层折页打开动画特效</h3>
+			</a>
+		</div>
+	</div>
+	
+
+</body>
+</html>

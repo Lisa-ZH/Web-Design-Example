@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Horizontal Centering & Vertical Centering</title>
+<link href="files/styles/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="title">Basic Knowledge / Horizontal Centering & Vertical Centering</div>
+    <div class="container">
+<h1>居中布局</h1>
+		<h2>水平居中(Horizontal Centering)</h2>
+			
+			<div class="row1">
+				<h3>&#42; 行内元素: text-align:center</h3>
+				<p>参见标题 h1 h2</p>
+			</div>
+
+			<div class="row2">
+				<div class="row2-inner">
+					<h3>&#42; 块级元素: margin:0 auto</h3>
+					<p>A cornerstone of Houston Methodist's strategic vision as a source for leading care, <strong>Houston Methodist Academic Institute</strong> conducts ground breaking translational and clinical research to provide the best care to patients in our community and around the world.</p>
+				</div>
+			</div>
+
+			<h3><a href="H-Transform.html" target="_blank">&#42; 绝对定位和移动: absolute + transform</a></h3>
+			<h3><a href="H-Margin-Auto.html" target="_blank">&#42; 绝对定位和边距自动: absolute + margin</a></h3>
+			<h3><a href="H-Margin-Minus.html" target="_blank">&#42; 绝对定位和负边距: absolute + margin</a></h3>
+			
+			<div class="row6">
+				<div class="row6-inner">
+					<h3>&#42; flex布局: flex + justify-content:center</h3>
+					<div class="row6-box-1"></div>
+					<div class="row6-box-2"></div>
+				</div>
+			</div>
+
+			
+		<h2>垂直居中(Vertical Centering)</h2>
+			<p><strong>
+				position:absolute;<br>
+				top: 50%;<br>
+				transform: translateY(-50%);<br></strong>
+			</p>
+			<h3>&#42; 子元素为单行文本: line-height:height</h3>
+			<h4>height: 50px;	line-height: 50px; text-align:center;</h4>
+			<div class="row7">
+				<p>Lorem ipsum dolor sit amet</p>
+			</div>
+
+			<h3>&#42; 绝对定位和移动: absolute + transform</h3>
+			<h3>&#42; flex布局: flex + align-items:center</h3>
+			<h3>&#42; table: display:table-cell; vertical-align: middle</h3>
+			<h3>&#42; 利用position和top和负margin</h3>
+			<h3>&#42; <a href="V-After.html" target="_blank">若元素是行内块级元素, 基本思想是使用<br>display: inline-block, vertical-align: middle和一个伪元素让内容块处于容器中央.</a></h3>
+			<h3>&#42; <a href="V-Img.html" target="_blank">img 的垂直居中</a></h3>
+
+			<br><br><br>
+
+
+		<h2>水平垂直居中</h2>
+		<div class="row10">
+			<code>// 1
+				.wraper {
+				position: relative;
+				.box {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				width: 100px;
+				height: 100px;
+				margin: -50px 0 0 -50px;
+				}
+				}
+				<br><br>
+
+				// 2
+				.wraper {
+				position: relative;
+				.box {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, 50%);
+				}
+				}
+				<br><br>
+
+				// 3
+				.wraper {
+				.box {
+				display: flex;
+				justify-content:center;
+				align-items: center;
+				height: 100px;
+				}
+				}
+				<br><br>
+
+				// 4
+				.wraper {
+				display: table;
+				.box {
+				display: table-cell;
+				vertical-align: middle;
+				}
+				}
+				<br><br>
+				// 5
+				.container {
+				display: grid;
+				grid-auto-columns: 1fr;
+				grid-auto-rows: 200px;
+				background: #eee;
+				}
+				.parent {
+				background: grey;
+				justify-self: center;
+				align-self: center;
+				}
+				.child {
+				font-size: 30px;
+				}
+				<br><br>
+				// 6、块级元素：calc()
+				.parent {
+				width: 300px;
+				height: 300px;
+				border: 1px solid red;
+				position: relative;
+				}
+				.child {
+				width: 100px;
+				height: 100px;
+				background: blue;
+				padding: -webkit-calc((100% - 100px) / 2);
+				padding: -moz-calc((100% - 100px) / 2);
+				padding: -ms-calc((100% - 100px) / 2);
+				padding: calc((100% - 100px) / 2);
+				background-clip: content-box;
+				}
+				<br><br>
+				// 7、margin:auto实现绝对定位元素的居中
+				.element {
+				width: 600px; height: 400px;
+				position: absolute; left: 0; top: 0; right: 0; bottom: 0;
+				margin: auto; /* 有了这个就自动居中了 */
+				}
+				<br><br>
+				// 8、
+				.parent{
+				display: flex;
+				}
+				.parent{
+				display: flex;
+				width: 500px;
+				height: 500px;
+				background-color: pink;
+				}
+				.child{
+				flex: 0 0 auto;
+				margin: auto;
+				width: 100px;
+				height: 100px;
+				background-color: red;
+			</code>
+		</div>
+			<br><br>
+
+
+		<h2>总结</h2>
+			<p>水平居中较为简单, 共提供了8种方法, 一般情况下 text-align:center,marin:0 auto; 足矣</p>
+			<ul>
+				<li>① text-align:center;</li>
+				<li>② margin:0 auto;</li>
+				<li>③ width:fit-content;</li>
+				<li>④ flex</li>
+				<li>⑤ 盒模型</li>
+				<li>⑥ transform</li>
+				<li>⑦ ⑧ 两种不同的绝对定位方法</li>
+			</ul>
+
+ 			<p>垂直居中, 共提供了8种方法.</p>
+			<ul>
+				<li>① 单行文本, line-height</li>
+				<li>② 行内块级元素, 使用 display: inline-block, vertical-align: middle; 加上伪元素辅助实现</li>
+				<li>③ vertical-align</li>
+				<li>④ flex</li>
+				<li>⑤ 盒模型</li>
+				<li>⑥ transform</li>
+				<li>⑦ ⑧ 两种不同的绝对定位方法</li>
+			</ul>
+			<p>
+				作者：路易斯
+				链接：https://juejin.cn/post/6844903474879004680
+				来源：稀土掘金
+				著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+				<br><br><br><br><br><br><br>
+	</div>
+
+	
+</body>
+</html>

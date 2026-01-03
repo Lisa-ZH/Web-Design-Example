@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Modal Boxes</title>
+<style>
+	.btn{
+		background-color: #333;
+		color: #fff;
+		padding: 30px;
+		position: absolute;
+		font-size: 30px;
+		cursor: pointer;
+	}
+	.modal{
+		display: none;
+		margin-top:60px;
+	}
+	.close{
+		color: #fff;
+		font-size: 30px;
+		font-weight: bold;
+		position: absolute;
+		top:70px;
+		right:30px;
+		cursor: pointer;
+	}
+	.close:hover{
+		color: #eee;
+	}
+	.header, .footer{
+		background-color: #f1453d;
+		color: #fff;
+		padding: 30px;
+		font-size:20px;
+	}
+	.content{
+		background-color: #fff;
+		color: #000;
+		height: 120px;
+	}
+</style>
+</head>
+
+<body>
+	<div class="btn" onClick="showModal()">Open a window</div>
+	<div id="myModel" class="modal">
+		<div id="closeModel" class="close" onClick="closeModal()">&times;</div>
+		<div class="header">Header</div>
+		<div class="content">Content</div>
+		<div class="footer">Footer</div>
+	</div>
+<script>
+	
+	function showModal(){
+		var myBtn = document.getElementsByClassName("btn")[0];
+		var myModel = document.getElementById("myModel");
+		myModel.style.display = "block";
+		myBtn.style.display = "none";
+		
+	}
+	
+	function closeModal(){
+		var myBtn = document.getElementsByClassName("btn")[0];
+		var myModel = document.getElementById("myModel");
+		myModel.style.display = "none";
+		myBtn.style.display = "block";
+	}
+</script>
+</body>
+</html>

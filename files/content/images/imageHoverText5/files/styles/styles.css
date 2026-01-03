@@ -1,0 +1,241 @@
+body{
+	margin: 0 0 0 20px;
+	padding: 0;
+}
+.title {
+    background-color: #929474;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    line-height: 1.1rem;
+    padding: 10px 40px;
+}
+.container {
+    width: 960px;
+    margin: 30px auto 0 auto;
+}
+h3, h4{
+	text-align: center;
+}
+h4{
+	margin: 10px auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-top: 20px;
+}
+.column{
+	flex: 24%;
+	padding: 0 4px;
+	overflow: hidden;
+}
+.column img{
+	object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+    height: 100%; 
+	vertical-align: middle;
+}
+.hover-text{
+	display: inline-flex;
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	background-color: #00B4DB;
+}
+
+.hover-text *{
+	transition: all .6s ease;
+}
+.hover-text img{
+	object-fit: cover;
+	max-width: 100%;
+	width: 100%;
+	height: 100%;
+}
+.hover-text figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*padding: 2em;*/
+    width: 100%;
+    z-index: 1; 
+    font-size: 1.2em;
+    font-weight: 600;
+    overflow: hidden;
+}
+.hover-text figcaption > *{
+	opacity: 0;
+}
+.hover-text h3:last-child{
+	margin-bottom: 0;
+}
+.hover-text h3{
+	margin-top: 0;
+}
+.hover-text:hover{
+	cursor: pointer;
+}
+.hover-text:hover img{
+	opacity: .25;
+}
+.code-caption{
+	text-align: left;
+	padding-left: 10px;
+	vertical-align: middle;
+	border: 1px solid #000;
+}
+.reveal, .fade, .rotate {
+	display: inline-block;
+	overflow: hidden;
+}
+/*----------- Reveal Up -----------*/
+.reveal-up > *{
+	transform: translateY(100%);
+}
+.hover-text:hover .reveal-up{
+	opacity: 1;
+}
+.hover-text:hover .reveal-up > *{
+	transform: translate(0) rotate(0deg);
+}
+/*----------- Reveal Down -----------*/
+.reveal-down > *{
+	transform: translateY(-100%);
+}
+.hover-text:hover .reveal-down{
+	opacity: 1;
+}
+.hover-text:hover .reveal-down > *{
+	transform: translate(0) rotate(0deg);
+}
+/*----------- Reveal Left -----------*/
+.reveal-left > *{
+	transform: translateX(100%);
+}
+.hover-text:hover .reveal-left{
+	opacity: 1;
+}
+.hover-text:hover .reveal-left > *{
+	transform: translate(0) rotate(0deg);
+}
+/*----------- Reveal Right -----------*/
+.reveal-right > *{
+	transform: translateX(-100%);
+}
+.hover-text:hover .reveal-right{
+	opacity: 1;
+}
+.hover-text:hover .reveal-right > *{
+	transform: translate(0) rotate(0deg);
+}
+/*----------- Fade Up -----------*/
+.fade-up{
+	transform: translateY(1.5em);
+}
+.hover-text:hover .fade-up{
+	opacity: 1;
+}
+.hover-text:hover .fade-up{
+	transform: translate(0);
+}
+/*----------- Fade Down -----------*/
+.fade-down{
+	transform: translateY(-1.5em);
+}
+.hover-text:hover .fade-down{
+	opacity: 1;
+}
+.hover-text:hover .fade-down{
+	transform: translate(0);
+}
+/*----------- Fade Left -----------*/
+.fade-left{
+	transform: translateX(1.5em);
+}
+.hover-text:hover .fade-left{
+	opacity: 1;
+}
+.hover-text:hover .fade-left{
+	transform: translate(0);
+}
+/*----------- Fade Right -----------*/
+.fade-right{
+	transform: translateX(-1.5em);
+}
+.hover-text:hover .fade-right{
+	opacity: 1;
+}
+.hover-text:hover .fade-right{
+	transform: translate(0);
+}
+/*----------- Rotate Up Right -----------*/
+.rotate-up-right > *{
+	transform-origin: bottom left;
+	transform: rotate(90deg);
+}
+.hover-text:hover .rotate-up-right{
+	opacity: 1;
+}
+.hover-text:hover .rotate-up-right > *{
+	transform: translate(0);
+}
+/*----------- Rotate Up Left -----------*/
+.rotate-up-left > *{
+	transform-origin: bottom right;
+	transform: rotate(-90deg);	
+}
+.hover-text:hover .rotate-up-left{
+	opacity: 1;
+}
+.hover-text:hover .rotate-up-left > *{
+	transform: translate(0);
+}
+/*----------- Rotate Down Right -----------*/
+.rotate-down-right > *{
+	transform-origin: top left;
+	transform: rotate(-90deg);	
+}
+.hover-text:hover .rotate-down-right{
+	opacity: 1;
+}
+.hover-text:hover .rotate-down-right > *{
+	transform: translate(0);
+}
+/*----------- Rotate Down Left -----------*/
+.rotate-down-left > *{
+	transform-origin: top right;
+	transform: rotate(90deg);	
+}
+.hover-text:hover .rotate-down-left{
+	opacity: 1;
+}
+.hover-text:hover .rotate-down-left > *{
+	transform: translate(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
