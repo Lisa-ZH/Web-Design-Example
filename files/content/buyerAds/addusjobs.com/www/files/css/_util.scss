@@ -1,0 +1,69 @@
+$navy: #093254;
+$brightBlue: #006fb9;
+$lightBlue: #cfe3f0;
+$menuToggleHeight: 3px;
+$menuToggleWidth: 25px;
+$menuToggleBackgroundColor: #093254;
+$headingFont: interstate, sans-serif;
+$bodyFont: proxima-nova, sans-serif;
+$gutter_width: 30;
+$column_width: 67 + $gutter_width;
+
+// * {
+//   outline: 1px solid rgba(255, 0, 0, .2);
+// }
+
+@mixin flex-w-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  @media screen and (max-width: 600px) {
+    //Reset for Mobile
+    flex-direction: column;
+  }
+}
+
+@mixin grid-wrap {
+  display: grid;
+  grid-gap: #{$gutter_width}px;
+  grid-template-columns: repeat(4, 1fr); // Mobile First
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  @media screen and (min-width: 960px) {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin inline-display {
+  display: inline-block;
+  vertical-align: top;
+}
+
+@mixin ab-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin button-height($i) {
+  height: #{$i}px;
+  line-height: #{$i}px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrolling Words Animation / Text Carousel Effect</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            font-size: 2rem;
+            font-weight: bold;
+            overflow: hidden;
+            /* height: 50px; */
+            width: 600px;
+            position: relative;
+        }
+        .words {
+            position: absolute;
+            animation: scroll 6s linear infinite;
+            padding-left: 10px;
+        }
+        @keyframes scroll {
+        /*    0% { transform: translateY(0); }
+            33% { transform: translateY(-50px); }
+            66% { transform: translateY(-100px); }
+            100% { transform: translateY(0); } */
+
+        /*    0%, 33.33% { transform: translateY(0); }
+            33.34%, 66.66% { transform: translateY(-36px); }
+            66.67%, 100% { transform: translateY(-75px); } */
+
+            0%{ transform: translateY(0); }
+            /* 0%, 33.33% { transform: translateY(0); } */
+            33.34% { transform: translateY(-36px); }
+            /* 33.34%, 66.66% { transform: translateY(-36px); } */
+            66.67% { transform: translateY(-75px); }
+            /* 66.67%, 100% { transform: translateY(-75px); } */
+            99% { transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        You are <span class="words">talent<br>kind<br>great</span>
+    </div>
+</body>
+</html>

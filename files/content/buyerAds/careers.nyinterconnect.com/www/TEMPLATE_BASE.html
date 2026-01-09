@@ -1,0 +1,854 @@
+<!--||{% load job_tags pagination_tags %}||-->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta id="testViewport" name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="format-detection" content="telephone=no">
+  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>{% block title %}Careers{% endblock %} | New York Interconnect</title>
+    <meta name="description" content="{% block meta_desc %}Experience the Lightpath Difference. Explore job opportunities and apply online today.{% endblock %}"/>
+    {% block canonical_link %}{% endblock %}
+
+  <!-- Google -->
+  <meta itemprop="image" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this-images/social-image.jpg">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image:src" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this-images/social-twitter-image.jpg">
+  <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+  <meta property="og:image" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this-images/social-image.jpg">
+  <!-- Open Graph (LinkedIn) -->
+  <meta name="image" property="og:image" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this-images/social-image.jpg">
+
+  <!-- icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="files/images/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="files/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="files/images/favicon-16x16.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="files/styles/styles-NYI.css" rel="stylesheet" type="text/css">
+  <link href="files/styles/styles-NYI-orig.css" rel="stylesheet" type="text/css">
+  <link href="files/styles/responsive-NYI.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="files/js/accordion.js"></script>
+  
+  
+  <script type="text/javascript" src="files/js/video-pop-up.js"></script>
+
+	<!--||{% load job_tags static %}||-->
+    <script type="text/javascript" src="{% static "js/common.js" %}"></script>
+
+    {% if location or category or section %}    {# Keep dropdowns open #}
+        <style>
+            {% if category or section %}#p7DMMs1_2 { display: block; }{% endif %}
+            {% if location %}#p7DMMs1_3 { display: block; }{% endif %}
+        </style>
+    {% endif %}
+
+    <!--||{% block head %}{% endblock %}||-->
+
+</head>
+
+<body>
+
+  <header id="scrollingDiv" class="default ">
+    <div class="inner">
+
+      <div class="logo-holder">
+        <div class="logo">
+          <a class="logo" href="https://www.nyinterconnect.com/" title="NEW YORK INTERCONNECT">
+          <svg class="logo__svg logo__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 40">
+            <title>NEW YORK INTERCONNECT</title>
+              <path d="M84 .1v39.2H72.9V.1H84zM47.9.2h22.8L59.3 14.4 47.9.2zm5 20.1l.1-.1c.6.9 1.2 1.9 1.2 3v16h-11V24.4L23.7 0H35c1.3 0 2.5.6 3 1.6l14 17.6.3.4.6.7zm-20.4 4l.1-.1c.6.9 1 1.9 1 3v12h-.5c-1.2 0-2.3-.5-3-1.5l-4.6-5.9L24 30l-2.9-3.5.2.1L11 14v25.3H0V.1h11.5c1.2 0 2.3.5 3 1.5l18 22.7z"></path>
+            </svg>
+            <!-- <svg class="logo__svg logo__label" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62 14">
+                  <path d="M6.603 5.842V.154h4.012v1.331H8.116v.848h2.149v1.234H8.116v.944h2.664v1.331zm9.215 0l-.768-2.087-.76 2.087h-1.26L10.872.154h1.543l1.311 4.01.022.067.318-1.357.002-.006-.91-2.714h1.384l.508 1.821.517-1.82h1.383l-.923 2.708-.002.005.336 1.362L17.686.154h1.55L17.08 5.842zm12.28-5.72c.426 0 .817.084 1.163.248.347.165.647.386.894.657.247.272.44.584.574.93.134.345.201.704.201 1.066 0 .372-.071.734-.213 1.077-.142.343-.341.65-.593.913a2.933 2.933 0 0 1-.906.637c-.349.16-.736.24-1.15.24-.426 0-.817-.083-1.163-.248a2.892 2.892 0 0 1-1.472-1.578 2.91 2.91 0 0 1-.205-1.074 2.886 2.886 0 0 1 .81-1.999 2.93 2.93 0 0 1 .91-.633 2.79 2.79 0 0 1 1.15-.236zm-.015 4.413c.225 0 .424-.045.59-.135.167-.09.305-.209.41-.353.104-.144.183-.31.234-.495a2.11 2.11 0 0 0 .076-.562c0-.194-.027-.385-.08-.566a1.412 1.412 0 0 0-.247-.483 1.253 1.253 0 0 0-.412-.336 1.253 1.253 0 0 0-.579-.128c-.225 0-.423.044-.587.132a1.215 1.215 0 0 0-.409.348 1.489 1.489 0 0 0-.238.491 2.067 2.067 0 0 0 .004 1.125 1.5 1.5 0 0 0 .242.487c.108.141.246.257.41.344.163.087.36.131.586.131zM.64 13.462V7.767h1.516v5.695zm39.72-7.62l-1.397-2.097-.013-.02-.453.475v1.642h-1.514V.154h1.514V2.37l1.75-2.216h1.7L39.92 2.687l-.01.012 2.186 3.143zm-18.096 0V3.855l-1.943-3.7h1.657l1.039 2.412L24.08.154h1.665l-1.973 3.708-.002 1.98zm-11.896 7.62V9.1H8.832V7.767h4.581v1.332h-1.529v4.363zm-3.477 0L4.648 10.65l-.035-.044v2.856H3.097V7.767H4.28l2.268 2.909.035.045V7.767H8.1v5.695zm7.27 0V7.767h3.925v1.332h-2.409v.849h2.058v1.236h-2.058v.945h2.481v1.333zm12.695-5.728c.54 0 1.017.115 1.414.341.39.223.687.52.88.885l-1.153.831a1.021 1.021 0 0 0-.502-.552 1.269 1.269 0 0 0-.336-.115c-.365-.068-.682-.029-.923.103-.164.09-.3.208-.406.353-.104.145-.183.31-.234.492-.05.181-.077.364-.077.542 0 .201.03.397.09.58.058.185.145.35.258.492.113.141.253.256.417.34.25.13.56.161.887.09.113-.024.223-.065.328-.122.105-.058.2-.132.285-.222a.987.987 0 0 0 .19-.312l1.234.746c-.084.2-.21.383-.376.543a2.45 2.45 0 0 1-.585.417 3.219 3.219 0 0 1-1.439.345c-.416 0-.8-.085-1.144-.253a2.917 2.917 0 0 1-.896-.67 3.067 3.067 0 0 1-.788-2.022 2.858 2.858 0 0 1 .76-1.933c.247-.266.551-.485.904-.65.352-.165.76-.249 1.212-.249zm5.379 0c.426 0 .817.084 1.164.249.346.165.648.386.895.658.247.27.44.584.574.93.134.347.202.705.202 1.067 0 .373-.071.736-.213 1.08a2.94 2.94 0 0 1-.595.914 2.937 2.937 0 0 1-.907.638c-.349.16-.737.24-1.152.24a2.69 2.69 0 0 1-1.164-.248 2.89 2.89 0 0 1-1.474-1.58 2.91 2.91 0 0 1-.206-1.076 2.897 2.897 0 0 1 .812-2.001c.255-.264.562-.477.911-.634.35-.157.738-.237 1.153-.237zm-.016 4.42c.226 0 .425-.046.592-.136.166-.09.304-.209.409-.353.105-.145.184-.311.235-.496a2.12 2.12 0 0 0 .076-.563c0-.194-.027-.385-.08-.567a1.425 1.425 0 0 0-.247-.484c-.111-.139-.25-.252-.414-.336a1.256 1.256 0 0 0-.58-.128c-.224 0-.422.045-.587.132a1.22 1.22 0 0 0-.41.35c-.107.143-.187.309-.238.49a2.08 2.08 0 0 0 .004 1.127c.054.182.135.346.243.487.107.142.245.258.41.345.163.087.361.132.587.132zm7.329 1.308l-2.279-3-.036-.047v3.047h-1.48V7.767h1.182l2.303 3.003.036.046v-3.05h1.48v5.696zm5.907 0l-2.278-3-.036-.047v3.047h-1.48V7.767h1.182l2.302 3.003.036.046v-3.05h1.48v5.696zm2.147 0V7.767h3.853v1.332h-2.338v.849h1.987v1.236h-1.987v.945h2.41v1.333zm7.103-5.728c.541 0 1.017.115 1.414.341.39.222.687.52.881.885l-1.153.831a1.026 1.026 0 0 0-.503-.552 1.27 1.27 0 0 0-.336-.115c-.364-.068-.681-.029-.923.103-.163.09-.3.208-.405.353-.105.145-.184.31-.235.492-.05.18-.076.363-.076.542 0 .202.03.397.089.58.059.185.146.35.258.492.113.141.253.256.418.34.25.129.558.162.886.09.114-.024.224-.065.329-.122.104-.057.2-.132.284-.222a.987.987 0 0 0 .19-.312l1.234.746c-.084.2-.21.383-.376.543-.17.165-.367.305-.585.417a3.22 3.22 0 0 1-1.439.345c-.415 0-.8-.085-1.144-.253a2.917 2.917 0 0 1-.895-.67 3.066 3.066 0 0 1-.789-2.022 2.854 2.854 0 0 1 .76-1.933 2.9 2.9 0 0 1 .904-.65c.352-.165.76-.249 1.212-.249zm4.197 5.728V9.1H57.36V7.767h4.591v1.332h-1.534v4.363zm-24.314-7.62l-1.088-1.759h-.52v1.76h-1.513V.153h2.466c1.368 0 1.991.995 1.991 1.92 0 .678-.345 1.292-.922 1.642l-.018.01 1.31 2.116zm-.732-3.064c.197 0 .371-.068.454-.176.088-.115.132-.276.132-.481 0-.21-.052-.375-.154-.487-.1-.11-.268-.17-.473-.17h-.834v1.314zm-11.71 10.684l-1.088-1.759h-.52v1.76h-1.513V7.774h2.466c1.368 0 1.991.994 1.991 1.919 0 .678-.344 1.292-.922 1.642l-.017.011 1.309 2.115zm-.732-3.064c.198 0 .371-.068.454-.176.088-.114.133-.276.133-.48 0-.212-.052-.375-.154-.488-.1-.11-.268-.17-.474-.17h-.834v1.314zM4.535 5.842L2.121 2.797v3.045H.642V.147h1.182L4.26 3.194V.147h1.48v5.695z"></path>
+                </svg> -->
+          </a>
+        </div>
+      </div>
+      <div class="burger mmmmmm">
+        <button type="button" class="header__burger" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle menu">
+          <span aria-hidden="true">close</span>
+        </button>
+      </div>
+      <nav id="main-menu" aria-hidden="true">
+        <ul>
+          <li>
+            <a href="https://www.nyinterconnect.com/audience-one/">Solution</a>
+          </li>
+          <li>
+            <a href="https://www.nyinterconnect.com/market/">Market</a>
+          </li>
+          <li>
+            <a href="https://www.nyinterconnect.com/network/">Networks</a>
+          </li>
+          <li>
+            <a href="https://www.nyinterconnect.com/exclusive-data/">Data</a>
+          </li>
+          <li>
+            <a href="https://www.nyinterconnect.com/discover/">Discover</a>
+          </li>
+          <li class=" header__contact"> <a href="https://www.nyinterconnect.com/home/contact-us/"> Contacts </a> </li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <!------------------------ BANNER --------------------------- -->
+
+<section class="bannerArea">
+  <div class="inner">
+    <div class="copy">
+     
+<h1>We're the #1 TV media sales organization in the industry &mdash; in the most exciting city in the world. See what we're all about.</h1>
+<div class="btn"><a href="https://vimeo.com/669903397" class="play-video-link"><i class="fa fa-play-circle-o" style="font-size:60px;"></i>Take A Look</a></div>
+    </div>
+  </div>
+</section>
+  <!------------------------ MAIN PG CONTENT --------------------------- -->
+  <main>
+
+
+    <div class="subpage-body search-sub-page" id="jsearch">
+
+      <div class="searchpage-body">
+
+
+        <div id="right-floating-column">
+        
+                  <div class="topbox">
+                    <div class="returning-applicants-link desktop"><a href="https://external-altice.icims.com/jobs/login?loginOnly=1" target="_blank">Returning Applicants</a></div>
+        
+        
+                    <!--||{% block search-options %}{% include "includes/search_options.html" %}{% endblock %}||-->
+
+                    <!--||{% comment %}||-->
+                    <form method="get" id="search-form">
+                      <div class="search-top-inset">
+        
+                        <div class="topSearchArea">
+                          <div class="topSearchArea-row1 clearfix">
+                            Search Opportunities
+                          </div>
+        
+                          <div class="topSearchArea-row2 clearfix">
+        
+                            <div class="searchBoxArea">
+                              <div class="searchKeyBox clearfix">
+                                <div class="searchKeyBoxfield">
+                                  <input id="search_term" name="search_term" type="text" class="textbox" value="" placeholder="Search by Keyword" />
+                                </div>
+                                <a href="#" class="searchKeyBtn" onClick="$('#search-form').submit();">SEARCH</a>
+                              </div>
+                            </div>
+        
+                            <div class="topSearchArea-row2-left">
+                              <div class="zip-col1">
+                                <input name="zipcode" type="text" id="id_zipcode" value="" placeholder="Zip Code">
+                              </div>
+                              <div class="zip-col2">
+                                <select name="zip" class="searchZip" id="id_radius" title="Zip">
+                                  <optgroup>
+                                    <option value="5">5 Miles</option>
+                                    <option value="10">10 Miles</option>
+                                    <option value="25" selected>25 Miles</option>
+                                    <option value="50">50 Miles</option>
+                                    <option value="100">100 Miles</option>
+                                  </optgroup>
+                                </select>
+                              </div>
+                              <div class="zip-col3"><a href="javascript:$('#search-form').submit()" id="id-zipcode-btn">GO</a></div>
+                            </div>
+        
+                          </div>
+                        </div>
+        
+                        <div class="SearchArea2 clearfix">
+                          <div id="p7DMM_1" class="p7DMM01 p7DMM p7dmm-left">
+                            <div id="p7DMMtb_1" class="p7DMM-toolbar">
+                              <a href="#" title="Hide/Show Menu"><img src="/static/sites/www/files/images/global/toggle-icon.png" alt="Toggle Menu" /></a>
+                            </div>
+                            <ul id="p7DMMu_1" class="p7DMM01-menu">
+        
+        <!-- 											<div class="col1">
+                                <div class="jobTitleArea">JOB DIVISION</div>
+                                <a id="p7DMMt1_1" href="#p7DMMs1_1">Search Jobs by Division</a>
+                                <div id="p7DMMs1_1" class="p7dmm-sub-wrapper" style="width: auto;">
+                                  <ul id="business-unit-search">
+                                    <li class="accordion-link"><a class="accordion-link business_unit_link" href="?business_unit=a4">a4</a></li>
+                                    <li class="accordion-link"><a class="accordion-link business_unit_link" href="?business_unit=a4 media">a4 media</a></li>
+                                    <li class="accordion-link"><a class="accordion-link business_unit_link" href="?business_unit=Altice Technical Services North">Altice Technical Services North</a></li>
+                                    <li class="accordion-link"><a class="accordion-link business_unit_link" href="?business_unit=Altice Technical Services South">Altice Technical Services South</a></li>
+                                    <li class="accordion-link"><a class="accordion-link business_unit_link" href="?business_unit=Business to Business">Business to Business</a></li>
+                                    <li class="accordion-link"><a class="accordion-link business_unit_link" href="?business_unit=Business to Consumer">Business to Consumer</a></li>
+                                    <li class="accordion-link"><a class="accordion-link business_unit_link" href="?business_unit=Cable Operations">Cable Operations</a></li>
+                                    <li class="accordion-link"><a class="accordion-link business_unit_link" href="?business_unit=Corporate">Corporate</a></li>
+                                    <li class="accordion-link"><a class="accordion-link business_unit_link" href="?business_unit=I24 News">I24 News</a></li>
+                                    <li class="accordion-link"><a class="accordion-link business_unit_link" href="?business_unit=News 12">News 12</a></li>
+                                  </ul>
+                                </div>
+                                <a class="search_link search-all-Btn" href="/jobs/">Search All Divisions</a>
+                                <input id="business_unit" type="hidden" name="business_unit" value="">
+                              </div> -->
+        
+                              <div class="col2">
+                                <div class="jobTitleArea">JOB CATEGORY</div>
+                                <a id="p7DMMt1_2" href="#p7DMMs1_2">Search Jobs by Category</a>
+                                <div id="p7DMMs1_2" class="p7dmm-sub-wrapper" style="width: auto;">
+                                  <ul id="category-search">
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/analytics/">Analytics Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/aviation/">Aviation Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/business-operations/">Business Operations Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/communications/">Communications Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/creative-services/">Creative Services Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/customer-service/">Customer Service Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/emerging-talent-program/">Emerging Talent Program Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/engineering/">Engineering Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/facilities/">Facilities Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/finance-accounting/">Finance &amp; Accounting Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/government-relations/">Government Relations Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/human-resources/">Human Resources Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/information-technology/">Information Technology Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/internship/">Internship Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/legal/">Legal Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/marketing/">Marketing Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/media-data-solutions/">Media &amp; Data Solutions Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/news-programming/">News &amp; Programming Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/procurement/">Procurement Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/product-manager/">Product Manager Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/public-relations/">Public Relations Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/real-estate/">Real Estate Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/risk-analysis/">Risk Analysis Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/sales/">Sales Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/tax/">Tax Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link" href="/jobs/technician/">Technician Jobs</a></li>
+                                  </ul>
+                                </div>
+                                <a class="search_link search-all-Btn" href="/jobs/">Search All Categories</a>
+                              </div>
+        
+                              <div class="col3">
+                                <div class="jobTitleArea">JOB LOCATION</div>
+                                <a id="p7DMMt1_3" href="#p7DMMs1_3">Search Jobs by Location</a>
+                                <div id="p7DMMs1_3" class="p7dmm-sub-wrapper" style="width: auto;">
+                                  <ul id="location-search">
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/ca-on/">Ontario Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/us-al/">Alabama Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/us-ar/">Arkansas Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/us-az/">Arizona Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/us-ca/">California Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/us-ct/">Connecticut Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/us-dc/">District Of Columbia Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/us-ga/">Georgia Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/us-id/">Idaho Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/us-ky/">Kentucky Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/us-la/">Louisiana Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/us-mo/">Missouri Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/us-ms/">Mississippi Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/us-nc/">North Carolina Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/us-nj/">New Jersey Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/us-nm/">New Mexico Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/us-ny/">New York Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/us-ok/">Oklahoma Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/us-pa/">Pennsylvania Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/us-tx/">Texas Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/us-ut/">Utah Jobs</a></li>
+                                    <li class="accordion-link"><a class="accordion-link search_link 30-link" href="/jobs/us-wv/">West Virginia Jobs</a></li>
+                                  </ul>
+                                </div>
+                                <a class="search_link search-all-Btn" href="/jobs/">Search All Locations</a>
+                              </div>
+        
+                            </ul>
+                            <script type="text/javascript">
+                              P7_opDMM('p7DMM_1', 3, 100, 0, 1, 1, 0, 0, 2, 1);
+                            </script>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <!--||{% endcomment %}||-->
+        
+                  </div>
+        
+                  <!--||{% block talent-community %}||-->
+        
+                  <!--||{% comment %}||-->
+                  <div class="job-alerts-container1">
+        
+                    <div class="talent-network-search-pages">
+                      <div class="talent-network-search-title">Don’t miss out <br /> on a great job.</div>
+                      <div class="talent-network-search-copy">Stay connected with us through job alerts!</div>
+        
+                      <div class="talent-network-signup-button-holder"><a href="/talentnetwork/">Sign Up Today!</a></div>
+                    </div>
+        
+                  </div>
+        
+                  <style type="text/css">
+                    .talent-network-search-bottom-holder {
+                      display: block !important;
+                    }
+                  </style>
+                  <!--||{% endcomment %}||-->
+
+                  <!--||{% endblock %}||-->
+        
+                </div>
+
+        <div class="white-box">
+
+          <!--||{% block full-width %}||-->
+
+          <div class="search-top-inset">
+            <div class="content2 clearfix">
+              <div class="content2-jobs">
+
+                <!--||{% block content %}{% endblock %}||-->
+
+                <!--||{% comment %}||-->
+                <h1 class="heading1">NYI Career Opportunities</h1>
+
+                <div id="interactive-joblist">
+                  <div id="interactive-joblist-inner">
+                    <div id="map-joblist-heading">
+                      <a href="#" id="map-joblist-close">Close</a>
+                      <div id="map-joblist-title"></div>
+                    </div>
+                    <div id="map-joblist-body">
+                      <div id="map-joblist-loading">Loading...</div>
+                    </div>
+                  </div>
+                </div>
+                <div id="interactive-map"></div>
+
+                <script>
+                  var locations = [
+
+
+
+                  ];
+                  var infowindow;
+
+                  function initMap() {
+                    var bounds = new google.maps.LatLngBounds();
+                    infowindow = new google.maps.InfoWindow();
+                    var map = new google.maps.Map(document.getElementById('interactive-map'), {
+                      center: {
+                        lat: 39.118054,
+                        lng: -94.62568
+                      },
+                      zoom: 4
+                    });
+
+                    var markers = locations.map(function(location, i) {
+                      var marker = new google.maps.Marker({
+                        position: {
+                          lat: location.lat,
+                          lng: location.lng
+                        },
+                        //label: ''+location.count,
+                        icon: '/static/img/interactive_map/pin.png'
+                      });
+                      bounds.extend(marker.position);
+                      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+                        return function() {
+                          var loc = locations[i],
+                            content =
+                            '<div class="map-marker">' +
+                            '<div class="map-marker-heading">' +
+                            loc.name +
+                            '</div>' +
+                            '<div class="map-marker-body">' +
+                            '<a href="#" data-location="' + loc.name + '" data-slug="' + loc.slug + '" data-ids="' + loc.ids + '" class="map-jobs">' +
+                            'View ' + loc.count + ' job' + (loc.count === 1 ? '' : 's') + ' &rarr;' +
+                            '</a>' +
+                            '</div>';
+                          infowindow.setContent(content);
+                          infowindow.open(map, marker);
+                        }
+                      })(marker, i));
+                      return marker;
+                    });
+
+                    map.fitBounds(bounds);
+
+                    var markerCluster = new MarkerClusterer(map, markers, {
+                      imagePath: '/static/img/interactive_map/m'
+                    });
+                  }
+                  // 
+                  // $(function() {
+                  //     $('#interactive-map').on('click', 'a.map-jobs', function() {
+                  //         if(infowindow) {
+                  //             infowindow.close();
+                  //         }
+                  //         $('#map-joblist-title').html('Jobs in ' + $(this).data('location'));
+                  //         $('#interactive-joblist').show();
+                  //         $.get('/ajax/jobs-by-location/?location=' + $(this).data('slug') + '&ids=' + $(this).data('ids'), function(results) {
+                  //             $('#map-joblist-body').html(results);
+                  //         });
+                  //         return false;
+                  //     });
+                  //     $('#map-joblist-close').click(function() {
+                  //         $('#interactive-joblist').hide();
+                  //         $('#map-joblist-body').html('<div id="map-joblist-loading">Loading...</div>');
+                  //         return false;
+                  //     });
+                  // 
+                  //     $('#interactive-joblist').on('click', 'a.map-show-job-desc', function() {
+                  //         var $this = $(this),
+                  //             showing = $this.data('showing'),
+                  //             $details = $this.closest('.map-joblist-body').find('.map-joblist-job-details');
+                  //         if(showing) {
+                  //             $details.slideUp();
+                  //             $this.text('Show job description');
+                  //             $this.data('showing', false);
+                  //         } else {
+                  //             $details.slideDown();
+                  //             $this.text('Hide job description');
+                  //             $this.data('showing', true);
+                  //         }
+                  //         return false;
+                  //     });
+                  // });
+                </script>
+                <script src="/static/js/markerclusterer.js"></script>
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKe8pAR_KKJvJ3bAUfrO15t0oIoGtL2qY&callback=initMap"></script>
+
+
+                <div id="job-list-section" class="searchResultBox">
+                  Found 288 jobs at NYI
+
+                  <div class="pagination">
+                    <span class="current page">1</span>
+                    <a href="?page_jobs=2&amp;radius=0&amp;zipcode=" class="page">2</a>
+                    <a href="?page_jobs=3&amp;radius=0&amp;zipcode=" class="page">3</a>
+                    <a href="?page_jobs=4&amp;radius=0&amp;zipcode=" class="page">4</a>
+                    <a href="?page_jobs=5&amp;radius=0&amp;zipcode=" class="page">5</a>
+                    <a href="?page_jobs=6&amp;radius=0&amp;zipcode=" class="page">6</a>
+                    <a href="?page_jobs=7&amp;radius=0&amp;zipcode=" class="page">7</a>
+                    <a href="?page_jobs=8&amp;radius=0&amp;zipcode=" class="page">8</a>
+                    <a href="?page_jobs=9&amp;radius=0&amp;zipcode=" class="page">9</a>
+                    ...
+                    <a href="?page_jobs=12&amp;radius=0&amp;zipcode=" class="page">12</a>
+                    <a href="?page_jobs=13&amp;radius=0&amp;zipcode=" class="page">13</a>
+                    <a href="?page_jobs=14&amp;radius=0&amp;zipcode=" class="page">14</a>
+                    <a href="?page_jobs=15&amp;radius=0&amp;zipcode=" class="page">15</a>
+                    <a href="?page_jobs=2&amp;radius=0&amp;zipcode=" class="next">next &rsaquo;&rsaquo;</a>
+                  </div>
+
+                  <div class="clearfix"></div>
+
+                  <div class="jobLisingArea clearfix">
+                    <div class="jobHeader clearfix">
+                      <div class="jobTitle"><strong>Job Title</strong></div>
+                      <div class="jobLocation"><strong>Location</strong></div>
+                      <div class="jobDivision"><strong>Category</strong></div>
+                    </div>
+
+                    <div class="jobLine1 clearfix">
+                      <div class="jobTitle">
+                        <a href="#" rel="nofollow"><span>Director Access Management</span></a>
+                      </div>
+                      <div class="jobLocation">1111 Stewart Ave, Bethpage, NY</div>
+                      <div class="jobDivision">
+                        Vendor Management
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="jobLine2 clearfix">
+                      <div class="jobTitle">
+                        <a href="#" rel="nofollow"><span>Director Access Management</span></a>
+                      </div>
+                      <div class="jobLocation">1111 Stewart Ave, Bethpage, NY</div>
+                      <div class="jobDivision">
+                        Vendor Management
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="jobLine1 clearfix">
+                      <div class="jobTitle">
+                        <a href="#" rel="nofollow"><span>Director Access Management</span></a>
+                      </div>
+                      <div class="jobLocation">1111 Stewart Ave, Bethpage, NY</div>
+                      <div class="jobDivision">
+                        Vendor Management
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="jobLine2 clearfix">
+                      <div class="jobTitle">
+                        <a href="#" rel="nofollow"><span>Director Access Management</span></a>
+                      </div>
+                      <div class="jobLocation">1111 Stewart Ave, Bethpage, NY</div>
+                      <div class="jobDivision">
+                        Vendor Management
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="jobLine1 clearfix">
+                      <div class="jobTitle">
+                        <a href="#" rel="nofollow"><span>Director Access Management</span></a>
+                      </div>
+                      <div class="jobLocation">1111 Stewart Ave, Bethpage, NY</div>
+                      <div class="jobDivision">
+                        Vendor Management
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="jobLine2 clearfix">
+                      <div class="jobTitle">
+                        <a href="#" rel="nofollow"><span>Director Access Management</span></a>
+                      </div>
+                      <div class="jobLocation">1111 Stewart Ave, Bethpage, NY</div>
+                      <div class="jobDivision">
+                        Vendor Management
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="jobLine1 clearfix">
+                      <div class="jobTitle">
+                        <a href="#" rel="nofollow"><span>Director Access Management</span></a>
+                      </div>
+                      <div class="jobLocation">1111 Stewart Ave, Bethpage, NY</div>
+                      <div class="jobDivision">
+                        Vendor Management
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="jobLine2 clearfix">
+                      <div class="jobTitle">
+                        <a href="#" rel="nofollow"><span>Director Access Management</span></a>
+                      </div>
+                      <div class="jobLocation">1111 Stewart Ave, Bethpage, NY</div>
+                      <div class="jobDivision">
+                        Vendor Management
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="jobLine1 clearfix">
+                      <div class="jobTitle">
+                        <a href="#" rel="nofollow"><span>Director Access Management</span></a>
+                      </div>
+                      <div class="jobLocation">1111 Stewart Ave, Bethpage, NY</div>
+                      <div class="jobDivision">
+                        Vendor Management
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="jobLine2 clearfix">
+                      <div class="jobTitle">
+                        <a href="#" rel="nofollow"><span>Director Access Management</span></a>
+                      </div>
+                      <div class="jobLocation">1111 Stewart Ave, Bethpage, NY</div>
+                      <div class="jobDivision">
+                        Vendor Management
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="jobLine1 clearfix">
+                      <div class="jobTitle">
+                        <a href="#" rel="nofollow"><span>Director Access Management</span></a>
+                      </div>
+                      <div class="jobLocation">1111 Stewart Ave, Bethpage, NY</div>
+                      <div class="jobDivision">
+                        Vendor Management
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="jobLine2 clearfix">
+                      <div class="jobTitle">
+                        <a href="#" rel="nofollow"><span>Director Access Management</span></a>
+                      </div>
+                      <div class="jobLocation">1111 Stewart Ave, Bethpage, NY</div>
+                      <div class="jobDivision">
+                        Vendor Management
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="jobLine1 clearfix">
+                      <div class="jobTitle">
+                        <a href="#" rel="nofollow"><span>Director Access Management</span></a>
+                      </div>
+                      <div class="jobLocation">1111 Stewart Ave, Bethpage, NY</div>
+                      <div class="jobDivision">
+                        Vendor Management
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="jobLine2 clearfix">
+                      <div class="jobTitle">
+                        <a href="#" rel="nofollow"><span>Director Access Management</span></a>
+                      </div>
+                      <div class="jobLocation">1111 Stewart Ave, Bethpage, NY</div>
+                      <div class="jobDivision">
+                        Vendor Management
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="jobLine1 clearfix">
+                      <div class="jobTitle">
+                        <a href="#" rel="nofollow"><span>Director Access Management</span></a>
+                      </div>
+                      <div class="jobLocation">1111 Stewart Ave, Bethpage, NY</div>
+                      <div class="jobDivision">
+                        Vendor Management
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="jobLine2 clearfix">
+                      <div class="jobTitle">
+                        <a href="#" rel="nofollow"><span>Director Access Management</span></a>
+                      </div>
+                      <div class="jobLocation">1111 Stewart Ave, Bethpage, NY</div>
+                      <div class="jobDivision">
+                        Vendor Management
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="jobLine1 clearfix">
+                      <div class="jobTitle">
+                        <a href="#" rel="nofollow"><span>Director Access Management</span></a>
+                      </div>
+                      <div class="jobLocation">1111 Stewart Ave, Bethpage, NY</div>
+                      <div class="jobDivision">
+                        Vendor Management
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="jobLine2 clearfix">
+                      <div class="jobTitle">
+                        <a href="#" rel="nofollow"><span>Director Access Management</span></a>
+                      </div>
+                      <div class="jobLocation">1111 Stewart Ave, Bethpage, NY</div>
+                      <div class="jobDivision">
+                        Vendor Management
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="jobLine1 clearfix">
+                      <div class="jobTitle">
+                        <a href="#" rel="nofollow"><span>Director Access Management</span></a>
+                      </div>
+                      <div class="jobLocation">1111 Stewart Ave, Bethpage, NY</div>
+                      <div class="jobDivision">
+                        Vendor Management
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="jobLine2 clearfix">
+                      <div class="jobTitle">
+                        <a href="#" rel="nofollow"><span>Director Access Management</span></a>
+                      </div>
+                      <div class="jobLocation">1111 Stewart Ave, Bethpage, NY</div>
+                      <div class="jobDivision">
+                        Vendor Management
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="pagination">
+                      <span class="current page">1</span>
+                      <a href="?page_jobs=2&amp;radius=0&amp;zipcode=" class="page">2</a>
+                      <a href="?page_jobs=3&amp;radius=0&amp;zipcode=" class="page">3</a>
+                      <a href="?page_jobs=4&amp;radius=0&amp;zipcode=" class="page">4</a>
+                      <a href="?page_jobs=5&amp;radius=0&amp;zipcode=" class="page">5</a>
+                      <a href="?page_jobs=6&amp;radius=0&amp;zipcode=" class="page">6</a>
+                      <a href="?page_jobs=7&amp;radius=0&amp;zipcode=" class="page">7</a>
+                      <a href="?page_jobs=8&amp;radius=0&amp;zipcode=" class="page">8</a>
+                      <a href="?page_jobs=9&amp;radius=0&amp;zipcode=" class="page">9</a>
+                      ...
+                      <a href="?page_jobs=12&amp;radius=0&amp;zipcode=" class="page">12</a>
+                      <a href="?page_jobs=13&amp;radius=0&amp;zipcode=" class="page">13</a>
+                      <a href="?page_jobs=14&amp;radius=0&amp;zipcode=" class="page">14</a>
+                      <a href="?page_jobs=15&amp;radius=0&amp;zipcode=" class="page">15</a>
+                      <a href="?page_jobs=2&amp;radius=0&amp;zipcode=" class="next">next &rsaquo;&rsaquo;</a>
+                    </div>
+
+                  </div>
+                </div>
+                <!--||{% endcomment %}||-->
+
+              </div>
+            </div>
+          </div>
+          
+          <!--||{% endblock full-width %}||-->
+
+
+        </div>
+
+      </div>
+
+
+<!--       <div class="returning-applicants-link mobile"><a href="https://external-altice.icims.com/jobs/login?loginOnly=1" target="_blank">Returning Applicants</a></div> -->
+
+      <div class="talent-network-search-bottom-holder" id="talentbtm">
+        <a href="/talentnetwork/">
+          <div class="talent-network-search-pages">
+            <div class="mobile-talent-link-image"></div>
+            <div class="mobile-talent-link-copy">
+              <div class="talent-network-search-title">
+                Can't find the job you're looking for?
+              </div>
+
+              <div>
+                Join our Talent Community and receive job alerts when we have new opportunities that match your interests.
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!---- ---- ---- CONNECTIONS AND SHARE ---- ---- ---->
+
+      <div class="content-row4 clearfix share-this-box">
+        <div class="content-row4-inside">
+          <div class="content-row4-inside-right">
+            <div class="content-row4-inside-right-col1">Share This Page</div>
+            <div class="content-row4-inside-right-col2">
+              <div class="addthis_sharing_toolbox"></div>
+              <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53a47c2d2f5ca32d" async="async"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+  </main>
+
+  <footer class="footer">
+    <div class="inner">
+      <div class="footer-content">
+        <section class="widget text-2 widget_text">
+          <h3>New York Interconnect</h3>
+          <div class="textwidget">
+            <p>530 5th Avenue New York, NY 10036 | &copy; copyright <span id="year">2022</span> NY Interconnect, LLC | <a href="https://www.nyinterconnect.com/terms-and-conditions/">terms and conditions </a>| <a href="https://www.nyinterconnect.com/privacy-notice/">privacy notice</a></p>
+          </div>
+        </section>
+      </div>
+      <div class="footer-extra">
+        <div class="footer-social">
+          <a href="https://www.facebook.com/NewYorkInterconnect/" target="_blank" rel="noreferrer noopener" class="footer__link facebook"></a>
+          <a href="https://www.instagram.com/newyorkinterconnect/" target="_blank" rel="noreferrer noopener" class="footer__link instagram"></a>
+          <a href="https://twitter.com/NYInterconnect" target="_blank" rel="noreferrer noopener" class="footer__link twitter"></a>
+          <a href="https://www.linkedin.com/company/new-york-interconnect" target="_blank" rel="noreferrer noopener" class="footer__link linkedin"></a>
+        </div>
+        <ul id="menu-footer" class="footer-menu">
+          <li class="menu-item menu-join-the-team"><a href="https://careers.nyinterconnect.com/">Join the Team</a></li>
+          <li class="menu-item menu-campaign-reports"><a href="https://campaignreports.nyinterconnect.com/">Campaign Reports</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script language="javascript">
+  jQuery(function($){
+    $('.open-search-mobile').on('click', function(e) {
+      e.preventDefault();
+      var target = $(this).attr('href');
+      $(target).slideToggle();
+      $(this).toggleClass('is-open');
+    });
+
+   $('.accordion-header').on('click', function(e){
+     e.preventDefault();
+     $(this).toggleClass('is-open');
+     var href = $(this).attr('href');
+     $(href).slideToggle();
+   });
+   
+   $('.header__burger').on('click', function(e){
+     
+     var expandedBoolean =  $(this).attr('aria-expanded');
+     
+     var mainMenu = $(this).attr('aria-controls');
+     expandedBoolean = (expandedBoolean === 'true') ? 'false' :'true';
+     $(this).attr('aria-expanded', expandedBoolean );
+     
+     var menuExpandedBoolean =  $('#'+mainMenu).attr('aria-hidden');
+     menuExpandedBoolean = (menuExpandedBoolean === 'true') ? 'false' :'true';
+     $('#'+mainMenu).attr('aria-hidden',menuExpandedBoolean);
+     $('body').toggleClass('hidden main-menu');
+     var windowHeight = $(window).height();
+ 
+     $('#'+mainMenu).height(windowHeight);
+     
+   });
+   var d = new Date();
+   $('#year').html( d.getFullYear() );
+ });
+  </script>
+  <script language="javascript">
+    $(document).ready(function() {
+      $('#backbtn').click(function() {
+        var ua = window.navigator.userAgent;
+        var is_ie = (ua.indexOf('MSIE ') + ua.indexOf('Trident/')) > -1;
+        if (is_ie) {
+          location.href = document.referrer;
+        } else {
+          history.back();
+        }
+        return false;
+      });
+    });
+  </script>
+  <script>
+    window.onscroll = function() {
+      pageScroller()
+    };
+    var Header = document.getElementById("scrollingDiv");
+    var Scrolled = (Header.offsetTop);
+
+    function pageScroller() {
+      if (window.pageYOffset > Scrolled) {
+        Header.classList.add("onScroll");
+      } else {
+        Header.classList.remove("onScroll");
+      }
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "{{ CANONICAL_URL }}/",
+      "image": "{{ CANONICAL_URL }}/static/sites/www/files/images/global/knowledge-graph-logo/logo.png"
+    }
+  </script>
+
+{% block js %}{% endblock %}
+  
+</body>
+
+</html>

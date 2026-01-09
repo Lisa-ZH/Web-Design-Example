@@ -1,0 +1,77 @@
+html[lang='fr'] {
+	.hero-banner .hero-banner-content h1,
+	.inner-banner .wrap h1 {
+		font-size: 52px;
+	}
+	#header .page-nav ul > li a {
+		font-size:15px;
+	}
+	#header .menu-wrap .bottom ul > li > a {
+		font-size: 18px;
+	}
+	.btn, 
+	.te-submit {
+		font-size: 14px;
+	}
+	.job-details-btns {
+		> .btn,
+		> form {
+			width: calc(50% - 20px);
+			margin-bottom: 5px;
+			margin-right: 10px;
+		}
+		form {
+			a.btn {
+				width: 100%;
+			}
+		}
+	}
+	#search-body .search-accordion-button {
+		font-size: 14px;
+	}
+	.results-content > li dl,
+	.results-content > div dl {
+		flex-wrap: wrap;
+		
+		span {
+			width: calc(33.33333% - 10px);
+			display: inline-block;
+			margin-bottom: 5px;
+		}
+	}
+}
+
+html[lang='es'] {
+	.hero-banner .hero-banner-content h1,
+	.inner-banner .wrap h1 {
+		font-size: 52px;
+	}
+	#header .page-nav ul {
+		align-items: center;
+	}
+	#header .page-nav ul > li a {
+		font-size:16px;
+		text-align: center;
+	}
+	#header .menu-wrap .bottom ul > li > a {
+		font-size: 16px;
+		padding: 8px 10px 10px 10px;
+	}
+	.btn, 
+	.te-submit {
+		font-size: 14px;
+	}
+	.job-details-btns {
+		> .btn,
+		> form {
+			width: calc(50% - 20px);
+			margin-bottom: 5px;
+			margin-right: 10px;
+		}
+		form {
+			a.btn {
+				width: 100%;
+			}
+		}
+	}
+}

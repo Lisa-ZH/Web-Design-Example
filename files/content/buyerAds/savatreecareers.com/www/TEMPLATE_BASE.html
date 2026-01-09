@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	
+		<meta id="testViewport" name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--||{% block headers %}||-->
+		<title>{% block title %}Careers Home Page | SavaTree | Work Here Thrive Here!{% endblock %}</title>
+		<meta name="keywords" content="">
+		<meta name="description" content="{% block meta_desc %}{% endblock %}">
+		<!--||{% endblock headers %}||-->
+		<!--||{% block canonical_link %}{% endblock %}||-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<!-- Google -->
+		<meta itemprop="image" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this/social-image.jpg">
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:image:src" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this/social-twitter-image.jpg">
+		<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+		<meta property="og:image" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this/social-image.jpg">
+		<meta property="og:image:secure_url" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this/social-image.jpg">
+		<!-- Open Graph (LinkedIn) -->
+		<meta name="image" property="og:image" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this/social-image.jpg">
+		<link rel="shortcut icon" href="/static/sites/wwwfiles/images/favicon.ico">
+		<script type="application/ld+json">
+		  {
+			  "@context": "http://schema.org",
+			  "@type": "Organization",
+			  "url": "{{ CANONICAL_URL }}/",
+			  "image": "{{ CANONICAL_URL }}/static/sites/www/files/images/global/knowledge-graph-logo/logo.png",
+			  "logo": "{{ CANONICAL_URL }}/static/sites/www/files/images/global/knowledge-graph-logo/logo.png"
+		  }
+		</script>
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="/static/sites/www/files/images/favicons/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/static/sites/www/files/images/favicons/favicon.svg" />
+		<link rel="shortcut icon" href="/static/sites/www/files/images/favicons/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/static/sites/www/files/images/favicons/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="SavATree" />
+		<link rel="manifest" href="/static/sites/www/files/images/favicons/site.webmanifest" />
+		<!-- End Favicon -->
+		<link rel="stylesheet" href="https://use.typekit.net/ufj8mlj.css">
+		<link rel="stylesheet" href="files/css/style.css" />
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		
+		<!--||{% load job_tags pagination_tags static %}||-->
+		<script src="{% static "js/common.js" %}"></script>
+		<!--||{% block head %}{% endblock %}||-->
+</head>
+<body>
+<a href="#main" class="skip-to-content">Skip to Content</a>
+<header id="header" class="click-menu">
+    <div class="wrap">
+        <div class="logo">
+            <a href="/"><img src="files/images/global/logo-color.png" alt="SavaTree Logo"></a>
+        </div>
+        <button data-target="#0" class="menu-toggle" aria-controls="nav">
+            <span>Open Menu</span>
+        </button>
+        <div class="nav-wrap" id="nav" aria-expanded="false">
+            <a href="" class="signin-link">Sign In</a>
+            <nav class="main-menu">
+                <ul>
+					<li><a href="/">Home</a></li>
+					<!-- 
+					<li><a href="/our-culture.html">Our Culture</a></li>
+					<li><a href="/career-paths.html">Career Paths</a></li> 
+					-->
+					<li><a href="/jobs/">Job Opportunities</a></li>
+					<li><a href="mailto:talent@savatree.com">Contact Us <div class="sr-only">(opens email app)</div></a></li>
+				</ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<main class="main">
+	<!--||{% block banner %}||-->
+	<section class="inner-banner">
+		<div class="inner-banner-image"></div>
+		<div class="inner-banner-content">
+			<div class="h1">Work Here <em>Thrive Here!</em></div>
+		</div>
+	</section>
+	<!--||{% endblock banner %}||-->
+
+	<div id="search-body" class="clearfix">
+		<div class="inner">
+			<!--||{% block search-options %}{% include "includes/search_options.html" %}{% endblock %}||-->
+			<!--||{% comment %}||-->
+			<section class="sub-search">
+				<button class="mobile-search-button" href="#search-form" aria-controls="#search-form" aria-expanded="false">Search Jobs</button>
+				<form id="search-form" method="get">
+					<ul class="search-content" id="search-content">
+						<li>
+							<input name="search_term" type="text" id="search_term" placeholder="Search Jobs by Keyword" value="" aria-label="Search Jobs by Keyword">
+							<button type="submit" class="search-button" id="search_term_btn" value="" aria-label="submit keyword search">
+								<span class="sr-only">Submit Keyword Search</span>
+							</button>
+						</li>
+						<li>
+							<button class="search-accordion-button" href="#category-search" aria-controls="category-search" aria-expanded="false">
+								Searcch Jobs by Category
+							</button>
+							<ul class="search-content" id="category-search">
+								<li class="accordion-link"><a class="accordion-link search_link" href="/jobs/">Search All Categories</a></li>
+								<li class="accordion-link active"><a class="accordion-link search_link" href="/jobs/accounting-finance/">Accounting / Finance Jobs</a></li>
+							</ul>
+						</li>
+						<li>
+							<button class="search-accordion-button" href="#location-search" aria-controls="location-search" aria-expanded="false">
+								Search Jobs by Location
+							</button>
+							<ul class="search-content" id="location-search">
+								<li class="accordion-link active"><a class="accordion-link search_link" href="/jobs/accounting-finance/">Search All Locations</a></li>
+								<li class="accordion-link"><a class="accordion-link search-link search-link-40" href="/jobs/accounting-finance/us/">North America Jobs</a></li>
+								<li class="accordion-link"><a class="accordion-link search-link search-link-20" href="/jobs/accounting-finance/us-ma-leominster/">Leominster, MA Jobs</a></li>
+								<li class="accordion-link"><a class="accordion-link search-link search-link-20" href="/jobs/accounting-finance/us-ri-pawtucket/">Pawtucket, RI Jobs</a></li>
+							</ul>
+						</li>
+						<li>
+							<button class="search-accordion-button" href="#employment_type-search" aria-controls="employment_type-search" aria-expanded="false">
+								Search Jobs by Job Type 
+							</button>
+							<ul class="search-content" id="employment_type-search">
+								<li class="accordion-link active"><a class="accordion-link search_link" href="/jobs/accounting-finance/">Search All Job Types</a></li>
+								<li class="accordion-link"><a class="accordion-link" href="/jobs/accounting-finance/?employment_type=Full Time">Full Time Jobs</a></li>
+							</ul>
+						</li>
+						<li>
+							<div class="zip-search">
+								<input name="zipcode" type="text" id="id_zipcode" class="radius2-col1" value="" placeholder="Zip Code" aria-label="Enter your desired Zip Code">
+								<select name="radius" class="search2" id="id_radius" aria-label="Radius (select number of miles from your desired zipcode)">
+									<optgroup>
+										<option value="10">10 Miles</option>
+										<option value="25" selected>25 Miles</option>
+										<option value="50">50 Miles</option>
+										<option value="100">100 Miles</option>
+									</optgroup>
+								</select>
+								<button class="submit-search" id="id-zipcode-btn">
+									<span class="sr-only"> Submit Zip Code and Radius Search</span>
+								</button>
+							</div>
+						</li>
+						<li>
+							<a href="/jobs/" class="advanced-button">Clear Filters</a>
+						</li>
+					</ul>
+				</form>
+			</section>
+			<!--||{% endcomment %}||-->
+
+			<section class="{% block content-class %} search-results {% endblock %}">
+				<!--||{% block content %}||-->				
+				<!--||{% comment %}||-->
+				<div class="search-headings">
+					<h1>Jobs at <span>SavATree</span></h1>
+					<h2>Found <strong>2,000</strong> jobs at SavAtree</h2>
+				</div>
+				<div class="pagination">
+					<span class="current page">1</span>
+					<a href="?page_jobs=2" class="page">2</a>
+					<a href="?page_jobs=3" class="page">3</a>
+					<a href="?page_jobs=4" class="page">4</a>
+					<a href="?page_jobs=5" class="page">5</a>
+					...
+					<a href="?page_jobs=424" class="page">424</a>
+					<a href="?page_jobs=425" class="page">425</a>
+					<a href="?page_jobs=2" class="next">next ››</a>
+				</div>
+				<ul class="results-content" id="job-list-section" >
+					<li>
+						<div class="job-info">
+							<div class="logo-col">
+								<img src="files/images/global/search-logos/pefection-lawn-and-pest-control.png" alt="">
+							</div>
+							<div class="data-col">
+								<a href="" rel="nofollow">
+									<h3>Tree Climber</h3>
+								</a>
+								<dl>
+									<div><dt>Location</dt> <dd>Arizona, Phoenix</dd></div>
+									<div><dt>Category</dt> <dd>General Tree Care</dd></div>
+									<div><dt>Job Type</dt> <dd>Accounting / Finance</dd></div>
+									<div><dt>Job Number</dt> <dd>TREE838194</dd></div>
+								</dl>
+							</div>
+						</div>
+						<p class="job-description">
+							The General Tree Care Team are the muscle of our operation. These industrial athletes work together to provide high-quality tree care, helping to maintain and preserve the overall health of our clients’ landscapes. This position pays between $25-35/hr depending on years of experience + paid PTO + paid benefits and 401K...
+						</p>		
+					</li>
+					<li>
+						<div class="job-info">
+							<div class="logo-col">
+								<img src="files/images/global/search-logos/stewarts.png" alt="">
+							</div>
+							<div class="data-col">
+								<a href="" rel="nofollow">
+									<h3>Tree Climber</h3>
+								</a>
+								<dl>
+									<div><dt>Location</dt> <dd>Arizona, Phoenix</dd></div>
+									<div><dt>Category</dt> <dd>General Tree Care</dd></div>
+									<div><dt>Job Type</dt> <dd>Accounting / Finance</dd></div>
+									<div><dt>Job Number</dt> <dd>TREE838194</dd></div>
+								</dl>
+							</div>
+						</div>
+						<p class="job-description">
+							The General Tree Care Team are the muscle of our operation. These industrial athletes work together to provide high-quality tree care, helping to maintain and preserve the overall health of our clients’ landscapes. This position pays between $25-35/hr depending on years of experience + paid PTO + paid benefits and 401K...
+						</p>		
+					</li>
+					<li>
+						<div class="job-info">
+							<div class="logo-col">
+								<img src="files/images/global/search-logos/central-ct-law-service.png" alt="">
+							</div>
+							<div class="data-col">
+								<a href="" rel="nofollow">
+									<h3>Tree Climber</h3>
+								</a>
+								<dl>
+									<div><dt>Location</dt> <dd>Arizona, Phoenix</dd></div>
+									<div><dt>Category</dt> <dd>General Tree Care</dd></div>
+									<div><dt>Job Type</dt> <dd>Accounting / Finance</dd></div>
+									<div><dt>Job Number</dt> <dd>TREE838194</dd></div>
+								</dl>
+							</div>
+						</div>
+						<p class="job-description">
+							The General Tree Care Team are the muscle of our operation. These industrial athletes work together to provide high-quality tree care, helping to maintain and preserve the overall health of our clients’ landscapes. This position pays between $25-35/hr depending on years of experience + paid PTO + paid benefits and 401K...
+						</p>		
+					</li>
+					<li>
+						<div class="job-info">
+							<div class="logo-col">
+								<img src="files/images/global/search-logos/lawn-tech.png" alt="">
+							</div>
+							<div class="data-col">
+								<a href="" rel="nofollow">
+									<h3>Tree Climber</h3>
+								</a>
+								<dl>
+									<div><dt>Location</dt> <dd>Arizona, Phoenix</dd></div>
+									<div><dt>Category</dt> <dd>General Tree Care</dd></div>
+									<div><dt>Job Type</dt> <dd>Accounting / Finance</dd></div>
+									<div><dt>Job Number</dt> <dd>TREE838194</dd></div>
+								</dl>
+							</div>
+						</div>
+						<p class="job-description">
+							The General Tree Care Team are the muscle of our operation. These industrial athletes work together to provide high-quality tree care, helping to maintain and preserve the overall health of our clients’ landscapes. This position pays between $25-35/hr depending on years of experience + paid PTO + paid benefits and 401K...
+						</p>		
+					</li>
+					<li>
+						<div class="job-info">
+							<div class="logo-col">
+								<img src="files/images/global/search-logos/simply.png" alt="">
+							</div>
+							<div class="data-col">
+								<a href="" rel="nofollow">
+									<h3>Tree Climber</h3>
+								</a>
+								<dl>
+									<div><dt>Location</dt> <dd>Arizona, Phoenix</dd></div>
+									<div><dt>Category</dt> <dd>General Tree Care</dd></div>
+									<div><dt>Job Type</dt> <dd>Accounting / Finance</dd></div>
+									<div><dt>Job Number</dt> <dd>TREE838194</dd></div>
+								</dl>
+							</div>
+						</div>
+						<p class="job-description">
+							The General Tree Care Team are the muscle of our operation. These industrial athletes work together to provide high-quality tree care, helping to maintain and preserve the overall health of our clients’ landscapes. This position pays between $25-35/hr depending on years of experience + paid PTO + paid benefits and 401K...
+						</p>		
+					</li>
+					<li>
+						<div class="job-info">
+							<div class="logo-col">
+								<img src="files/images/global/search-logos/simply.png" alt="">
+							</div>
+							<div class="data-col">
+								<a href="" rel="nofollow">
+									<h3>Tree Climber</h3>
+								</a>
+								<dl>
+									<div><dt>Location</dt> <dd>Arizona, Phoenix</dd></div>
+									<div><dt>Category</dt> <dd>General Tree Care</dd></div>
+									<div><dt>Job Type</dt> <dd>Accounting / Finance</dd></div>
+									<div><dt>Job Number</dt> <dd>TREE838194</dd></div>
+								</dl>
+							</div>
+						</div>
+						<p class="job-description">
+							The General Tree Care Team are the muscle of our operation. These industrial athletes work together to provide high-quality tree care, helping to maintain and preserve the overall health of our clients’ landscapes. This position pays between $25-35/hr depending on years of experience + paid PTO + paid benefits and 401K...
+						</p>		
+					</li>
+					<li>
+						<div class="job-info">
+							<div class="logo-col">
+								<img src="files/images/global/search-logos/savatree.png" alt="">
+							</div>
+							<div class="data-col">
+								<a href="" rel="nofollow">
+									<h3>Tree Climber</h3>
+								</a>
+								<dl>
+									<div><dt>Location</dt> <dd>Arizona, Phoenix</dd></div>
+									<div><dt>Category</dt> <dd>General Tree Care</dd></div>
+									<div><dt>Job Type</dt> <dd>Accounting / Finance</dd></div>
+									<div><dt>Job Number</dt> <dd>TREE838194</dd></div>
+								</dl>
+							</div>
+						</div>
+						<p class="job-description">
+							The General Tree Care Team are the muscle of our operation. These industrial athletes work together to provide high-quality tree care, helping to maintain and preserve the overall health of our clients’ landscapes. This position pays between $25-35/hr depending on years of experience + paid PTO + paid benefits and 401K...
+						</p>		
+					</li>
+					<li>
+						<div class="job-info">
+							<div class="logo-col">
+								<img src="files/images/global/search-logos/savatree.png" alt="">
+							</div>
+							<div class="data-col">
+								<a href="" rel="nofollow">
+									<h3>Tree Climber</h3>
+								</a>
+								<dl>
+									<div><dt>Location</dt> <dd>Arizona, Phoenix</dd></div>
+									<div><dt>Category</dt> <dd>General Tree Care</dd></div>
+									<div><dt>Job Type</dt> <dd>Accounting / Finance</dd></div>
+									<div><dt>Job Number</dt> <dd>TREE838194</dd></div>
+								</dl>
+							</div>
+						</div>
+						<p class="job-description">
+							The General Tree Care Team are the muscle of our operation. These industrial athletes work together to provide high-quality tree care, helping to maintain and preserve the overall health of our clients’ landscapes. This position pays between $25-35/hr depending on years of experience + paid PTO + paid benefits and 401K...
+						</p>		
+					</li>
+					<li>
+						<div class="job-info">
+							<div class="logo-col">
+								<img src="files/images/global/search-logos/savatree.png" alt="">
+							</div>
+							<div class="data-col">
+								<a href="" rel="nofollow">
+									<h3>Tree Climber</h3>
+								</a>
+								<dl>
+									<div><dt>Location</dt> <dd>Arizona, Phoenix</dd></div>
+									<div><dt>Category</dt> <dd>General Tree Care</dd></div>
+									<div><dt>Job Type</dt> <dd>Accounting / Finance</dd></div>
+									<div><dt>Job Number</dt> <dd>TREE838194</dd></div>
+								</dl>
+							</div>
+						</div>
+						<p class="job-description">
+							The General Tree Care Team are the muscle of our operation. These industrial athletes work together to provide high-quality tree care, helping to maintain and preserve the overall health of our clients’ landscapes. This position pays between $25-35/hr depending on years of experience + paid PTO + paid benefits and 401K...
+						</p>		
+					</li>
+					<li>
+						<div class="job-info">
+							<div class="logo-col">
+								<img src="files/images/global/search-logos/savatree.png" alt="">
+							</div>
+							<div class="data-col">
+								<a href="" rel="nofollow">
+									<h3>Tree Climber</h3>
+								</a>
+								<dl>
+									<div><dt>Location</dt> <dd>Arizona, Phoenix</dd></div>
+									<div><dt>Category</dt> <dd>General Tree Care</dd></div>
+									<div><dt>Job Type</dt> <dd>Accounting / Finance</dd></div>
+									<div><dt>Job Number</dt> <dd>TREE838194</dd></div>
+								</dl>
+							</div>
+						</div>
+						<p class="job-description">
+							The General Tree Care Team are the muscle of our operation. These industrial athletes work together to provide high-quality tree care, helping to maintain and preserve the overall health of our clients’ landscapes. This position pays between $25-35/hr depending on years of experience + paid PTO + paid benefits and 401K...
+						</p>		
+					</li>
+					
+				</ul>
+				<div class="pagination">
+						<span class="current page">1</span>
+						<a href="?page_jobs=2" class="page">2</a>
+						<a href="?page_jobs=3" class="page">3</a>
+						<a href="?page_jobs=4" class="page">4</a>
+						<a href="?page_jobs=5" class="page">5</a>
+						...
+						<a href="?page_jobs=424" class="page">424</a>
+						<a href="?page_jobs=425" class="page">425</a>
+						<a href="?page_jobs=2" class="next">next ››</a>
+				</div>
+				<div id="category-text">
+					<h2>General Tree Care</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium sapien nec orci semper, ac aliquet turpis aliquam. Suspendisse quis faucibus tortor, eu lobortis ipsum. Curabitur hendrerit eu velit sed porta. Aliquam massa purus, mattis sed enim vitae, porttitor vestibulum arcu. Curabitur facilisis ante et condimentum convallis. Nulla facilisi. Curabitur rutrum at odio et laoreet. </p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium sapien nec orci semper, ac aliquet turpis aliquam. Suspendisse quis faucibus tortor, eu lobortis ipsum. Curabitur hendrerit eu velit sed porta. Aliquam massa purus, mattis sed enim vitae, porttitor vestibulum arcu. Curabitur facilisis ante et condimentum convallis. Nulla facilisi. Curabitur rutrum at odio et laoreet. </p>
+				</div>
+				<!--||{% endcomment %}||-->
+				<!--||{% endblock content %}||-->
+			</section>
+
+
+			<div class="search-results-right">
+				<!--||{% block talent-network %}||-->
+				<section class="tn-callout">
+					<a href="/talentnetwork/">
+						<div><span>Join Our <strong>Talent Network</strong></span></div>
+					</a>
+				</section>
+				<!--||{% endblock talent-network %}||-->
+
+				<!--||{% block saved-jobs %}||-->
+                <!--||{% comment %}||-->
+				<section class="saved-jobs">
+					<h2>
+						Saved Jobs
+					</h2>
+					<ul class="featured-jobs-bottom">
+						<li>
+						<a href="" rel="nofollow">
+							<h3>Tree Climber</h3>
+						</a>
+						<dl>
+							<div><dt>Location</dt> <dd>Arizona, Phoenix</dd></div>
+							<div><dt>Category</dt> <dd>General Tree Care</dd></div>
+							<div><dt>Job Type</dt> <dd>Accounting / Finance</dd></div>
+							<div><dt>Job Number</dt> <dd>TREE838194</dd></div>
+						</dl>
+						<p class="job-description">
+							The General Tree Care Team are the muscle of our operation. These industrial athletes work together to provide high-quality tree care, helping to maintain and preserve the overall health of our clients’ landscapes. This position pays between $25-35/hr depending on years of experience + paid PTO + paid benefits and 401K...
+						</p>		
+					</li>
+					<li>
+						<a href="" rel="nofollow">
+							<h3>Tree Climber</h3>
+						</a>
+						<dl>
+							<div><dt>Location</dt> <dd>Arizona, Phoenix</dd></div>
+							<div><dt>Category</dt> <dd>General Tree Care</dd></div>
+							<div><dt>Job Type</dt> <dd>Accounting / Finance</dd></div>
+							<div><dt>Job Number</dt> <dd>TREE838194</dd></div>
+						</dl>
+						<p class="job-description">
+							The General Tree Care Team are the muscle of our operation. These industrial athletes work together to provide high-quality tree care, helping to maintain and preserve the overall health of our clients’ landscapes. This position pays between $25-35/hr depending on years of experience + paid PTO + paid benefits and 401K...
+						</p>		
+					</li>
+					<li>
+						<a href="" rel="nofollow">
+							<h3>Tree Climber</h3>
+						</a>
+						<dl>
+							<div><dt>Location</dt> <dd>Arizona, Phoenix</dd></div>
+							<div><dt>Category</dt> <dd>General Tree Care</dd></div>
+							<div><dt>Job Type</dt> <dd>Accounting / Finance</dd></div>
+							<div><dt>Job Number</dt> <dd>TREE838194</dd></div>
+						</dl>
+						<p class="job-description">
+							The General Tree Care Team are the muscle of our operation. These industrial athletes work together to provide high-quality tree care, helping to maintain and preserve the overall health of our clients’ landscapes. This position pays between $25-35/hr depending on years of experience + paid PTO + paid benefits and 401K...
+						</p>		
+					</li>
+					</ul>
+					<a class="btn" href="/my-saved-jobs/">View All</a>
+				</section>
+                <!--||{% endcomment %}||-->
+				<!--||{% endblock saved-jobs %}||-->
+
+                <!--||{% block featured-jobs %}||-->
+                <!--||{% comment %}||-->
+				<section class="sub-featured-jobs">
+					<h2>
+						Featured Jobs
+					</h2>
+					<ul class="featured-jobs-bottom">
+						<li>
+							<a href="" rel="nofollow">
+								<h3>Tree Climber</h3>
+							</a>
+							<dl>
+								<div><dt>Location</dt> <dd>Arizona, Phoenix</dd></div>
+								<div><dt>Category</dt> <dd>General Tree Care</dd></div>
+								<div><dt>Job Type</dt> <dd>Accounting / Finance</dd></div>
+								<div><dt>Job Number</dt> <dd>TREE838194</dd></div>
+							</dl>
+							<p class="job-description">
+								The General Tree Care Team are the muscle of our operation. These industrial athletes work together to provide high-quality tree care, helping to maintain and preserve the overall health of our clients’ landscapes. This position pays between $25-35/hr depending on years of experience + paid PTO + paid benefits and 401K...
+							</p>		
+						</li>
+						<li>
+							<a href="" rel="nofollow">
+								<h3>Tree Climber</h3>
+							</a>
+							<dl>
+								<div><dt>Location</dt> <dd>Arizona, Phoenix</dd></div>
+								<div><dt>Category</dt> <dd>General Tree Care</dd></div>
+								<div><dt>Job Type</dt> <dd>Accounting / Finance</dd></div>
+								<div><dt>Job Number</dt> <dd>TREE838194</dd></div>
+							</dl>
+							<p class="job-description">
+								The General Tree Care Team are the muscle of our operation. These industrial athletes work together to provide high-quality tree care, helping to maintain and preserve the overall health of our clients’ landscapes. This position pays between $25-35/hr depending on years of experience + paid PTO + paid benefits and 401K...
+							</p>		
+						</li>
+						<li>
+							<a href="" rel="nofollow">
+								<h3>Tree Climber</h3>
+							</a>
+							<dl>
+								<div><dt>Location</dt> <dd>Arizona, Phoenix</dd></div>
+								<div><dt>Category</dt> <dd>General Tree Care</dd></div>
+								<div><dt>Job Type</dt> <dd>Accounting / Finance</dd></div>
+								<div><dt>Job Number</dt> <dd>TREE838194</dd></div>
+							</dl>
+							<p class="job-description">
+								The General Tree Care Team are the muscle of our operation. These industrial athletes work together to provide high-quality tree care, helping to maintain and preserve the overall health of our clients’ landscapes. This position pays between $25-35/hr depending on years of experience + paid PTO + paid benefits and 401K...
+							</p>		
+						</li>
+					</ul>
+				</section>
+                <!--||{% endcomment %}||-->
+                <!--||{% endblock featured-jobs %}||-->
+            
+			</div>
+		</div>
+	</div>
+</main>
+
+<!--||{% block footer %}||--> 
+<footer id="footer">
+     <div class="top-bar">
+    <div class="wrap">
+       
+            <nav class="footer-nav">
+                <ul>
+                  <li><a href="/">Home</a></li>
+					 <!-- 
+					 <li><a href="/our-culture.html">Our Culture</a></li>
+					 <li><a href="/career-paths.html">Career Paths</a></li> 
+					 -->
+					 <li><a href="/jobs/">Job Opportunities</a></li>
+					 <li><a href="mailto:talent@savatree.com">Contact Us <div class="sr-only">(opens email app)</div></a></li>
+                </ul>
+            </nav>
+			<!--||{% block social %}||-->
+			<nav class="social-media">
+                <strong>Connect With Us</strong>
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/savatree_official/">
+						<svg class="instagram">
+						<use xlink:href="files/images/global/social-icons/icons.svg#instagram" />
+						</svg>
+						</a>
+                    </li>
+					<!--||{% block linkedin %}||--> 
+                    <li>
+                        <a href="https://www.linkedin.com/company/savatree">
+						<svg class="linkedin">
+						<use xlink:href="files/images/global/social-icons/icons.svg#linkedin" />
+						</svg>
+						</a>
+                    </li>
+					<!--||{% endblock linkedin %}||--> 
+                    <li>
+                        <a href="https://www.facebook.com/SavATreeHQ/">
+						<svg class="facebook">
+						<use xlink:href="files/images/global/social-icons/icons.svg#facebook" />
+						</svg>
+						</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=PdmgtKll3TY">
+						<svg class="youtube">
+						<use xlink:href="files/images/global/social-icons/icons.svg#youtube" />
+						</svg>
+						</a>
+                    </li>
+                    <li>
+                        <a href="https://savatree.staging-fxrecruiter.com/feeds/jobs-rss">
+						<svg class="rss">
+						<use xlink:href="files/images/global/social-icons/icons.svg#rss" />
+						</svg>
+						</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/savatree">
+						<svg class="x">
+						<use xlink:href="files/images/global/social-icons/icons.svg#x" />
+						</svg>
+						</a>
+                    </li>
+                </ul>
+            </nav>
+			<!--||{% endblock social %}||-->
+        </div>
+    </div>
+    <div class="bottom-bar">
+        <div class="wrap">
+           <p><strong>Have any questions? Please reach out to <a href="mailto:talent@savatree.com">talent@savatree.com</a></strong></p>
+            <p>© 2025 SavATree | <a href="/privacy-policy.html">Privacy Policy</a> | <a href="/terms-of-conditions.html">Terms & Conditions</a></p>
+        </div>
+    </div>
+</footer>
+<!--||{% endblock footer %}||-->
+
+<script src="files/js/app.js" type="text/javascript"></script>
+
+<!--||{% block js %}||--> 	
+<!--||{% endblock %}||-->
+</body>
+
+</html>

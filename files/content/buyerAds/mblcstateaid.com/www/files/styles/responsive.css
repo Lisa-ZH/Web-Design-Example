@@ -1,0 +1,409 @@
+@media only screen and (max-width: 1500px) {
+  .bannersub .inner .copy h3 {
+    font-size: 1.65vw;
+    line-height: 1.1em;
+  }
+  h1 {
+    font-size: 3vw;
+    line-height: 1.2em;
+  }
+  main {
+    margin-top: 120px;
+  }
+  }
+  @media only screen and (max-width: 1100px) {
+  header {
+    padding: 10px 0px 10px;
+    box-shadow: 2px 0px 4px rgb(0 0 0 / 10%);
+    border-bottom: 4px solid #007b7d;
+  }
+  .nav-top li:first-of-type {
+    border-right: none;
+  }
+  .header-inside .header-logo {
+    /*    width: 150px;*/
+    margin-bottom: 0;
+  }
+  .bannersub .inner .copy {
+    width: 48%;
+    padding: 2%;
+  }
+	  .bannersub .inner {
+  width: 90%;
+  
+}
+  .bannersub .inner .copy h2 {
+   font-size: 2.5rem;
+  line-height: 1;
+  }
+  .bannersub .inner .copy h3 {
+    font-size: 2vw;
+  }
+  h1 {
+    font-size: 3.65vw;
+    line-height: 1em;
+  }
+  .hamburger-title {
+    position: fixed;
+    z-index: 10000000;
+    display: inline-block;
+    top: 0;
+    right: 0;
+    width: calc(5% + 65px);
+    height: 103px;
+  }
+  .burger {
+    padding: 0px 0px;
+    top: 52px;
+    right: 5%;
+    display: inline-block;
+  }
+  .hamburger-content {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    transform: none;
+    top: 101px;
+    height: calc(100vh - 70px);
+    padding: 0px 0px 0px;
+    background-image: url("../images/menu-back-mobile.png");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    overflow-y: auto;
+  }
+  .lower-nav li a.hamburger-title-2 {
+    padding: 14px 30px;
+  }
+  header li {
+    display: block;
+  }
+  .nav-top {
+    background-color: #00643c;
+    position: static;
+    left: 0;
+    transform: none;
+  }
+  .nav-top li {
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+	  border-top:none;
+	  border-right:none;
+	  border-left:none;
+  }
+  .nav-top a {
+    display: block;
+    position: relative;
+    z-index: 1;
+  }
+  .nav-top a:hover, .nav-top a:focus, .nav-top a:active {
+    color: #046378;
+  }
+	  .nav-top li {
+  padding: 20px;
+  margin-right: 0;
+}
+  .lower-nav {
+    background-color: #ffffff;
+    color: #696a6c;
+    text-align: left;
+    position: static;
+    margin-bottom: 80px;
+  }
+  .lower-nav li {
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    background-color: #00643c;
+  }
+  .lower-nav li:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+  }
+  .lower-nav li a {
+    color: #ffffff;
+    display: block;
+    padding: 14px 30px;
+    font-size: 13px;
+    line-height: 13px;
+    transition: .15s all ease-in-out;
+  }
+  .lower-nav li a:hover, .lower-nav li a:focus, .lower-nav li a:active {
+    color: #00643c;
+    background-color: #ffffff;
+  }
+  .hamburger-content-2, .hamburger-content-3, .hamburger-content-4, .hamburger-content-5, .hamburger-content-6 {
+    position: relative;
+  }
+  .banner-image .inner .copy a {
+    display: none;
+  }
+  main {
+    margin-top: 101px;
+  }
+	  footer .bottom{
+   flex-direction: column;
+}
+	  .footer-logo-01{
+width:240px;
+margin: 0 auto 15px;
+}
+	 footer .footer-txt{
+  width:100%;
+		 margin: 0 auto 20px;
+		 text-align: center !important;
+}
+	  #stepone, #steptwo {
+ scroll-margin-top: 101px;
+}
+  }
+@media only screen and (max-width: 900px) {
+.wrapper .inner {
+ width: 78%;
+    padding: 6% 6%;
+    flex-direction: column;
+	}
+	.inner-text, .inner-text2{
+   width: 100%;
+}
+	.inner-image{
+ padding: 2.5% 0 1.5% 0;
+    margin: 30px 0 0 0;
+    width: 100%;
+}
+	.inner-image-full{
+ padding: 2.5% 0 2.5% 0;
+
+}
+	.inner-image-full img{
+		width:100%;
+	}
+	.buttonholder{
+	flex-direction: column;
+		text-align: center;
+}
+	.navbtn {
+    padding: 20px 60px 20px;
+   	margin:0 auto 10px;
+		font-size: 1.375rem;
+  }
+	#forms.photo img {
+  width: 50%;
+}
+
+	#subcommittee{
+	background-image: url("../images/sub/horz-photo-01.jpg") !important;
+  background-position: center !important;
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+}
+
+}
+  @media only screen and (max-width: 700px) {
+  h2 {
+    font-size: 1.75rem;
+        margin: 0px auto 20px;
+  }
+	  .wrapper h2{
+   font-size: 1.75rem;
+}
+	  .wrapper h3 {
+   font-size: 1.4rem;
+  margin: 0px 0 10px;
+}
+.wrapper .inner2 h2{
+   font-size: 1.875rem;
+}
+	  .bannersub {
+    padding: 0% 0% 70%;
+    width: 100%;
+    position: relative;
+    height: auto;
+    max-height: auto;
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url(../images/sub/banners/mobile/banner-jbsrch-mobile.jpg);
+    background-size: 40%, cover;
+    background-position: left top, center 60%;
+    background-repeat: no-repeat;
+  }
+  .mainpg {
+    background-image:  url("../images/main/banner-main-mobile.webp");
+	  background-size: cover;
+    background-position: center 25%;
+  }
+  .phaseonepg {
+    background-image:  url("../images/sub/banner-phase-one-mobile.jpg");
+	  background-size: cover;
+    background-position: center 25%;
+  }
+	  .phasetwopg {
+    background-image:  url("../images/sub/banner-phase-two-mobile.jpg");
+	  background-size: cover;
+    background-position: center 25%;
+  }
+	   .appendtwopg {
+    background-image:  url("../images/sub/banner-appendix-02-mobile.jpg");
+	  background-size: cover;
+    background-position: center 25%;
+  }
+  .bannersub .inner {
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+  .bannersub .inner .copy {
+    width: 90%;
+    padding: 3.5% 5%;
+    /*    background-color: rgba(0, 100, 60, .9);*/
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+  }
+	  .bannersub .inner .copy h2 {
+   font-size: 1.75rem;
+  line-height: 1;
+		   margin: 0 0 5px;
+  }
+.wrapper .inner2 h3{
+  font-size: 1.25rem;
+  line-height: 1;
+}
+  .bannersub .inner .copy h2 br {
+  display: none;
+}
+  .bannersub .inner .copy h3 {
+    width: 90%;
+    font-size: 3.5vw;
+    line-height: 1.1em;
+    margin: .1em auto 0;
+  }
+  .bannersub .inner .copy a {
+    padding: 3% 8%;
+    margin: 0px 0px 0px;
+    font-size: 2.2vw;
+    line-height: 1.2vw !important;
+  }
+	body {
+    font-size: 1rem;
+    line-height: 1.3;
+} 
+	  .navbtn {
+    padding: 10px 50px 10px;
+   	margin:0 auto 10px;
+		font-size: 1.1rem;
+  }
+	  .callout ul {
+	column-count: 1
+}
+	  .callout {
+  padding: 5%;
+}
+	  #sectionnav.wrapper .inner h2 {
+   color: #ffffff;
+	font-size: 2rem;
+  line-height: 1.1;
+		  margin-bottom:10px;
+}
+  }
+  @media only screen and (max-width: 600px) {
+  
+  .contact-us {
+    background-color: #f4f4f5;
+    color: #696a6c;
+    padding: 20% 0px 45px;
+    background-image: url("../images/mobile-contact-curves.png"), url("../images/grey-back-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    background-position: top center, bottom center;
+  }
+  .contact-us .inner .link-list {
+    font-size: 13px;
+    line-height: 1em;
+    padding: 20px 0px;
+    margin: 25px auto 0px;
+    text-align: center;
+  }
+  .contact-us .inner .link-list a {
+    padding: 4px 10px 4px 10px;
+    margin: 3px 0px;
+  }
+  .contact-us .inner .link-list a::before {
+    height: 1px;
+    transform-origin: center;
+  }
+  .contact-us .inner .link-list .column {
+    display: block;
+    margin: 0px auto 1em;
+    width: 100%;
+  }
+  .contact-us .social-media li a {
+    margin-top: 9px;
+    width: 28px;
+    height: 28px;
+  }
+  .footer-nav {
+    display: block;
+    position: static;
+    transform: translateY(0%);
+    width: 100%;
+    text-align: center;
+    margin: 20px auto 0px;
+  }
+  .footer-logo {
+    width: 180px;
+    margin: 0px auto;
+  }
+  .footer-top .address {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .footer-top .eoe {
+    display: block;
+    width: 100%;
+    text-align: center;
+	}
+	}
+	@media only screen and (max-width: 480px) {
+  .bannersub .inner .copy h2 {
+   font-size: 1.8rem;
+  line-height: 1;
+		   margin: 0 0 5px;
+  }
+  .bannersub .inner .copy a {
+    padding: 4% 10%;
+    margin: 0px 0px 0px;
+    font-size: 3vw;
+    line-height: 1em !important;
+  }
+  footer {
+    padding: 35px 0px 55px;
+    font-size: 11px;
+    line-height: 19px;
+    text-align: center;
+    border-top: 5px solid #046378;
+  }
+  .footer-top {
+    padding: 0px 0px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, .25);
+  }
+  .footer-top .address {
+    display: block;
+    width: 100%;
+  }
+  .footer-top .eoe {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+		  .bannersub {
+    padding: 0% 0% 90%;
+   
+  }
+  }
+  @media screen and (min-width: 1000px) {
+  .mobile-only {
+    display: none !important;
+  }
+  .sub-search {
+    width: 100%;
+  }
+}

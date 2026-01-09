@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+
+<title>Dana Farber Slider</title>
+<link href="files/styles/style.css" rel="stylesheet" type="text/css">
+<link href="files/styles/responsive.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+    
+</header>
+    
+<main>
+    <section class="testimonial-link-section pd-quotes">
+    <div class="inner"> </div>
+    <div class="background-image"> </div>
+  </section>
+  <section class="quote-slider pd-quotes">
+    <div class="inner">
+      <h2 class="quote-slider-header">Hear Their Stories</h2>
+      <ul id="quote-slider" class="quote-carousel">
+        <li class="quote-slide quote-slide-1">
+          <div class="image"> </div>
+          <div class="copy"> <span class="mobile-quote-center"> “My work has meaning and impact. I proudly tell people I work at Dana-Farber & the Jimmy Fund. When I was in a coffee shop a few years ago a man saw my ID badge and shook my hand to thank me. He told me because of the work we did his family member lived an extra 5 years. If this doesn’t motivate you to love what you do I’m not sure what will. This is why I work at Dana-Farber.” <span class="by-line"><strong>John</strong></span></span> </div>
+        </li>
+        <li class="quote-slide quote-slide-2">
+          <div class="image"> </div>
+          <div class="copy"> <span class="mobile-quote-center"> “I started here as a Co-op from Northeastern University several years ago. I was drawn to Dana-Farber’s impressive philanthropy efforts and I continue to feel immense pride knowing that I’m a part of such an exceptional research and care Institute. It is so motivating to work at a place that helps so many patients and their families, including my dad, who is now cancer-free thanks to Dana-Farber’s world-class faculty!” <span class="by-line"><strong>Kay</strong></span></span> </div>
+        </li>
+        <li class="quote-slide quote-slide-3">
+          <div class="image"> </div>
+          <div class="copy"> <span class="mobile-quote-center"> “Dana-Farber's Division of Philanthropy has been the best place I have ever worked, period. I am in awe of the tremendous people at Dana-Farber: my talented and dedicated colleagues in Philanthropy, the outstanding physician-scientists, nurses, and support staff at the Institute, the generous donors and committed volunteers, and the patients and families whose courage inspires me.” <span class="by-line"><strong>Michael</strong></span></span> </div>
+        </li>
+        <li class="quote-slide quote-slide-4">
+          <div class="image"> </div>
+          <div class="copy"> <span class="mobile-quote-center"> “One of my favorite activities afforded to me by working in the Division is the opportunity to volunteer at the Jimmy Fund events, like Fantasy Day and Radio-Telethon. I first volunteered at Radio-Telethon in 2019 and was assigned to answer the phones of callers making a donation. This experience gave me firsthand insight into why the work of the Division is so important - many of the people I spoke with that evening were former patients, knew someone who was treated at Dana-Farber, or was simply a regular supporter of the Jimmy Fund because of the Red Sox. It was touching to hear their many stories and be able to help them make their own contribution to easing the burden of cancer. It's also a lot of fun to have insider access at Fenway!”<span class="by-line"><strong>Alison</strong></span></span> </div>
+        </li>
+      </ul>
+      <div class="mobile-quote-spacer"></div>
+      <div class="quote-controls">
+        <ul class="prev-next">
+          <li> <a class="prev" onclick="plusSlides(-1)">&#10094;</a> </li>
+          <li> <a class="next" onclick="plusSlides(1)">&#10095;</a> </li>
+        </ul>
+        <ul class="lower-controls" aria-controls="#quote-slider">
+          <li> <a class="dot" onclick="currentSlide(1)"> <span class="sr-only">Slide 1 of 4</span> </a> </li>
+          <li> <a class="dot" onclick="currentSlide(2)"> <span class="sr-only">Slide 2 of 4</span> </a> </li>
+          <li> <a class="dot" onclick="currentSlide(3)"> <span class="sr-only">Slide 3 of 4</span> </a> </li>
+          <li> <a class="dot" onclick="currentSlide(4)"> <span class="sr-only">Slide 3 of 4</span> </a> </li>
+        </ul>
+      </div>
+      <script>
+				var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("quote-slide");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].className = slides[i].className.replace(" live", "");
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].className += " live"; 
+  dots[slideIndex-1].className += " active";
+}
+			</script> 
+    </div>
+  </section>
+
+</main>
+
+<!------------------------  FOOTER --------------------------- -->
+
+<footer>
+  
+</footer>
+<script src="files/js/index.js"></script>
+</body>
+</html>

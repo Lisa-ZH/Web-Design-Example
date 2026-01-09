@@ -1,0 +1,3904 @@
+@media only screen and (max-width: 1500px) {
+  .nav-top a {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .bannersub .inner .copy h2 {
+    font-size: 3vw;
+    line-height: 1.1em;
+  }
+  .erptxt h2 {
+    font-size: 3vw;
+    line-height: 1em;
+  }
+  .bannersub .inner .copy h3 {
+    font-size: 1.65vw;
+    line-height: 1.1em;
+  }
+  h1 {
+    font-size: 3vw;
+    line-height: 1.2em;
+  }
+  /*
+  main {
+    margin-top: 120px;
+  }
+*/
+  .featured-jobs-front h2 {
+    font-size: 2.5vw;
+    line-height: 1.2em;
+  }
+  .featured-jobs-front .featured-jobs-bottom h4 {
+    font-size: 2vw;
+    line-height: 1.2em;
+  }
+  section.featured-career-areas h2 {
+    font-size: 2.5vw;
+    line-height: 1em;
+  }
+  section.leadership-programs h2 {
+    font-size: 2.5vw;
+    line-height: 1em;
+  }
+  section.wellness-programs h2 {
+    font-size: 2.5vw;
+    line-height: 1em;
+  }
+  .intro-copy .inner h2, .intro-copy2 .inner h2, .text-only-section .inner h2 {
+    font-size: 2vw;
+  }
+  .unit-description h2 {
+    font-size: 2vw;
+  }
+  .unit-description p {
+    font-size: 1.3vw;
+  }
+  .unit-description .inner .text li {
+    font-size: 1.3vw;
+  }
+  .intro-copy .inner h3, .text-only-section .inner h3 {
+    font-size: 1.6vw;
+  }
+  .intro-copy .text h4 {
+    font-size: 1.5vw;
+  }
+  .intro-copy .inner, .intro-copy2 .inner, .text-only-section .inner {
+    font-size: 1.3vw;
+  }
+  .intro-copy .text p, .intro-copy2 .text p, .text-only-section .text p, #erpexclusions.intro-copy li, #hiringpgERPsection.isolated p {
+    font-size: 1.3vw;
+  }
+  #hiringpgERPsection.isolated h2 {
+    font-size: 2vw;
+  }
+  .text-only-section li {
+    font-size: 1.3vw;
+  }
+  .text-only-section h4 {
+    font-size: 1.5vw;
+  }
+  .map-row h2 {
+    font-size: 2vw;
+  }
+  .map-row p {
+    font-size: 1.3vw;
+  }
+  .callout-circle .inner .copy li {
+    font-size: 1.3vw;
+  }
+  .callout-circle .inner .copy p {
+    font-size: 1.3vw;
+  }
+  .plain-text .inner h2 {
+    font-size: 2vw;
+  }
+  .plain-text .inner p {
+    font-size: 1.3vw;
+  }
+  .callout-global-02 .inner p {
+    font-size: 1.3vw;
+  }
+  .featured-jobs-front .featured-jobs-bottom p {
+    font-size: 1.2vw;
+    line-height: 1.9vw;
+  }
+  .talent-network-inside {
+    width: 100%;
+  }
+  .talent-network-sub-copy {
+    font-size: 1.45vw;
+    line-height: 1em;
+  }
+  .talent-network-form h1 {
+    font-size: 3vw;
+  }
+	#LPNsessioninfo .talent-network-form h1 {
+  font-size: 2.5vw;
+}
+	#LPNsessioninfo .talent-network-form h1 br {
+  display: none;
+}
+  .search-results h1 {
+    font-size: 3vw;
+  }
+  .search-results h2 {
+    font-size: 1.8vw;
+  }
+  section.benefits-package h2 {
+    font-size: 2.5vw;
+    line-height: 1.1em;
+  }
+  section.additional-benefits h2 {
+    font-size: 2.5vw;
+    line-height: 1.1em;
+  }
+  .affiliates h3 {
+    font-size: 1.5vw;
+    line-height: 1.2em;
+  }
+  .affiliates h4 {
+    font-size: 1vw;
+    line-height: 1.2em;
+    width: 90%;
+  }
+  .affiliates .inner p {
+    font-size: 1.2vw;
+    line-height: 1.2em;
+  }
+  .affiliates .intro-txt {
+    font-size: 1.2vw;
+    line-height: 1.4em;
+  }
+  .affiliates-ff h2 {
+    font-size: 2vw;
+  }
+  .front-page-intro .inner .copy {
+    padding: 2% 3%;
+    background-color: rgba(255, 255, 255, .9);
+  }
+  .front-page-intro .inner h2 {
+    font-size: 3vw;
+    line-height: 1.1em;
+  }
+  .front-page-intro .inner p {
+    font-size: 1.5vw;
+    line-height: 1.5em;
+  }
+  .talent-main h2 {
+    font-size: 2.2vw;
+    line-height: 1.2em;
+  }
+  .talent-main .table-text p {
+    font-size: 1.5vw;
+  }
+  #banner-area .inner .copy h2 {
+    font-size: 3.5vw;
+  }
+  #banner-area .inner .copy h3 {
+    font-size: 2.5vw;
+  }
+  #banner-area .inner .copy h4 {
+    font-size: 1.5vw;
+  }
+  #banner-area .inner .copy p {
+    font-size: 1.5vw;
+  }
+  .wellness-area-wrapper .text {
+    font-size: 1.5vw;
+  }
+  .blog-announce .inner h2 {
+    font-size: 4.5vw;
+    line-height: 46px;
+  }
+  .blog-announce .inner h3 {
+    font-size: 2vw;
+    line-height: 1.3em;
+  }
+  .blog-announce .inner .copy {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 3% 5%;
+  }
+  .awards-details h2 {
+    font-size: 2.2vw;
+    line-height: 1.2em;
+  }
+  .awards-details p {
+    font-size: 1.2vw;
+  }
+  .callout-circle .inner .cc-photo, .callout-circle .inner .cvph-photo, .callout-circle .inner .ech-photo, .callout-circle .inner .ahmc-photo, .callout-circle .inner .hhh-photo, .callout-circle .inner .logistics-photo, .callout-circle .inner .ca-requirements-photo {
+    margin: 0px 20px 0px 0px;
+  }
+  .bulleted-list-col li {
+    font-size: 1.3vw;
+  }
+  #HHHarea.intro-copy li {
+    font-size: 1.3vw;
+  }
+  #NursingOpps.callout-global-03 li {
+    font-size: 1.3vw;
+  }
+	#PharmOpps.callout-global-03 li {
+    font-size: 1.3vw;
+  }
+  #benepackage.intro-copy .text h2 {
+    font-size: 2vw;
+  }
+  .callout-global-02 .inner h2 {
+    font-size: 2vw;
+  }
+  .callout-global-02 .inner h3 {
+    font-size: 1.5vw;
+  }
+  .highlight-02 li {
+    font-size: 1.3vw;
+  }
+  .bios .text h2 {
+    font-size: 1.8vw;
+    line-height: 1.2em;
+  }
+  .bios .text h3 {
+    font-size: 1.4vw;
+    line-height: 1.2em;
+  }
+  .bios .text p {
+    font-size: 1.3vw;
+    line-height: 1.3em;
+  }
+  .div-strategy-callout h2 {
+    font-size: 1.4vw;
+  }
+  .callout-lt-green-txt {
+    font-size: 1.3vw;
+    min-height: 6.5em;
+  }
+  .callout-descript-txt {
+    font-size: 1.3vw;
+  }
+  .callout-descript-txt p strong {
+    font-size: 1.5vw;
+  }
+  .isolated-header h2 {
+    font-size: 1.8vw;
+    line-height: 1.2em;
+    padding: 1% 0;
+  }
+  .life-photo-bar h2 {
+    font-size: 2vw;
+    line-height: 1.2em;
+    margin: 5% auto;
+  }
+  .callout-global-03 .text p {
+    font-size: 1.3vw;
+  }
+  .callout-global-03 .text h2 {
+    font-size: 2vw;
+  }
+  .callout-global-03 .text h3 {
+    font-size: 1.5vw;
+  }
+  .global-title-holder h2 {
+    font-size: 2vw;
+  }
+  .contact-container .inner h2 {
+    font-size: 2vw;
+  }
+  .contact-container .inner .contactbtn a {
+    font-size: 1.3vw;
+  }
+  .contact-container .inner p {
+    font-size: 1.3vw;
+  }
+  .ff-btm p {
+    font-size: 1.1vw;
+  }
+  .isolated h2 {
+    padding: 0;
+    font-size: 2vw;
+    width: 80%;
+  }
+  .isolated p {
+    padding: 0;
+    font-size: 1.3vw;
+    width: 80%;
+  }
+  .subpg-jobbtn-holder a {
+    font-size: 1.1vw;
+  }
+  section.intro-copy a {
+    font-size: 1.3vw;
+    line-height: 1.1em;
+  }
+  .txt-only-btn a {
+    font-size: 1.3vw;
+    line-height: 1.1em;
+  }
+  .pathways-contact .inner p {
+    font-size: 1.3vw;
+    line-height: 1.2em;
+  }
+  .pathways-contact .inner h2 {
+    font-size: 2.2vw;
+  }
+  .video-txt h2 {
+    font-size: 2.2vw;
+  }
+  .video-txt h3 {
+    font-size: 1.3vw;
+  }
+  section.benefits-pdfs h2 {
+    font-size: 2.5vw;
+    line-height: 1.1em;
+    margin: 0 auto 15px;
+  }
+  section.benefits-pdfs p {
+    font-size: 1.3vw;
+    line-height: 1.3em;
+    width: 90%;
+  }
+  #hiringfaqs a:link, #hiringfaqs a:active, #hiringfaqs a:visited {
+    font-size: 1.3vw;
+  }
+  .radiologychart-holder .inner div {
+    font-size: 1.3vw;
+  }
+	.newRNchart-holder .inner div {
+    font-size: 1.3vw;
+  }
+	.uvmcRNchart-holder .inner div {
+  font-size: 1.3vw;
+}
+  .callout-global-03 .inner2 h2 {
+    font-size: 2.8vw;
+  }
+  #mainpgvideo.callout-global-03 .inner2 h2, #madisonvideo.callout-global-03 .inner2 h2 {
+    font-size: 2vw;
+  }
+  .video-title p {
+    font-size: 1.2vw;
+    line-height: 1.3em;
+  }
+  #erpintro.intro-copy .text h3 {
+    font-size: 1.5vw;
+  }
+  #erpintro.intro-copy .text h4 {
+    font-size: 1.2vw;
+  }
+  .quote-slider {
+    margin: 0px auto 9px;
+  }
+  .quote-slider h2 {
+    width: 40%;
+    font-size: 2vw;
+    line-height: 1em;
+    padding: 3em 5% .75em;
+  }
+  .quote-slider .inner {
+    padding-bottom: 42%;
+  }
+  .quote-slider .copy .quote {
+    font-size: 1.75vw;
+    line-height: 1.3em;
+    margin-bottom: 1em;
+  }
+  .quote-slider .copy .name {
+    font-size: 1.3vw;
+  }
+  .callout-global-03#cvmcpathways h2, .callout-global-03#trainingprg h2 {
+    font-size: 2.5vw;
+  }
+  .callout-global-03#cvmcpathways h4, .callout-global-03#trainingprg h4 {
+    font-size: 1.5vw;
+  }
+  .pathways-contact h4 {
+    font-size: 1.3vw;
+  }
+  .nursing-quotes blockquote {
+    font-size: 1.3vw;
+  }
+  .nursing-quotes .inner h2 {
+    font-size: 2vw;
+  }
+  .testimonial-slide p {
+    font-size: 1.3vw;
+  }
+  #projinfosection h3 {
+    font-size: 2vw;
+  }
+	#divpgprojspecial h2 {
+	font-size: 1.8vw;
+  line-height: 1.2em;
+}
+	#rn-entities h2 {
+    font-size: 2vw;
+}
+	.rnentity-title {
+    font-size: 2vw;
+}
+	.newRNchart-holder h2 {
+  font-size: 2vw;
+}
+	.advpract-areas .inner h2 {
+  font-size: 2vw;
+}
+	.advpract-areas h3 {
+  font-size: 1.8vw;
+}
+	.mosaic .text h2 {
+  font-size: 2.5vw;
+}
+.mosaic .text h3 {
+  font-size: 1.8vw;
+}
+.affiliates-ff a {
+	font-size: 1.1vw;
+}
+	.bluebox{
+font-size: 1.3vw;
+}
+}
+@media only screen and (max-width: 1300px) {
+  .search-accordion-title {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 43px 10px 23px;
+  }
+  .advanced-search a {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 43px 10px 23px;
+  }
+  .talent-network-inside .table-text a {
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    padding: 18px 40px 20px 40px;
+    margin-top: 0px;
+  }
+  .talent-network-inside .table-text a:hover {
+    background-position: 87% 48.5%;
+    padding: 18px 55px 20px 40px;
+  }
+  .talent-network-inside .table-text a:hover {
+    background-position: 87% 48.5%;
+  }
+  .talent-network-sub-copy {
+    font-size: 1.7vw;
+    line-height: 1em;
+  }
+  #search_term {
+    font-size: 14px;
+    line-height: 14px;
+    padding: 8px 14px 8px;
+  }
+  .search-button, #id-zipcode-btn, #search-form > ul > li:first-child .search-button {
+    right: 14px;
+    width: 13px;
+    height: 13px;
+  }
+  .search.horizontal-search-bar ul.search-content > li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 24%;
+    margin: 0px .25% 0px;
+  }
+  .search.horizontal-search-bar ul.search-content > li:first-child {
+    margin: 0px .25% 0px 0px;
+  }
+  .search.horizontal-search-bar ul.search-content > li:last-child {
+    margin: 0px 0px 0px .25%;
+  }
+  .search-accordion-button {
+    font-size: 14px;
+    line-height: 14px;
+    padding: 10px 14px;
+  }
+  .search.horizontal-search-bar .advanced-button {
+    font-size: 12px;
+    line-height: 12px;
+    padding: 11px 14px 11px 14px;
+  }
+  .leadership-area-wrapper {
+    width: 100%;
+    margin: 0 0% 2% 0;
+  }
+  section.leadership-programs .inner {
+    flex-direction: column;
+  }
+  .leadership-area-wrapper .text {
+    padding: 4.5% 3%;
+  }
+  .subpg-jobbtn-holder {
+    border-bottom: 8px solid #ffffff;
+  }
+  .callout-circle {
+    padding: 4em 0px;
+    border-bottom: 8px solid #ffffff;
+  }
+  .callout-circle .inner .cc-photo, .callout-circle .inner .cvph-photo, .callout-circle .inner .ech-photo, .callout-circle .inner .ahmc-photo, .callout-circle .inner .hhh-photo, .callout-circle .inner .logistics-photo, .callout-circle .inner .ca-requirements-photo {
+    width: 26%;
+    padding-bottom: 26%;
+    margin: 0px 4% 0px 0px;
+  }
+  .callout-circle .inner .cc-photo::before, .callout-circle .inner .cvph-photo::before, .callout-circle .inner .ech-photo::before, .callout-circle .inner .ahmc-photo::before, .callout-circle .inner .hhh-photo::before, .callout-circle .inner .logistics-photo::before, .callout-circle .inner .ca-requirements-photo::before {
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+  }
+  .callout-circle .inner .cc-photo::after, .callout-circle .inner .cvph-photo::after, .callout-circle .inner .ech-photo::after, .callout-circle .inner .ahmc-photo::after, .callout-circle .inner .hhh-photo::after, .callout-circle .inner .logistics-photo::after, .callout-circle .inner .ca-requirements-photo::after {
+    top: -8px;
+    left: -8px;
+    right: 8px;
+    bottom: 8px;
+  }
+  .callout-circle .inner .copy {
+    width: 65%;
+    max-width: 1050px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .affiliates-ff h2 {
+    font-size: 3vw;
+  }
+}
+@media only screen and (max-width: 1210px) {
+  .hamburger-title {
+    position: fixed;
+    z-index: 10000000;
+    display: inline-block;
+    top: 0;
+    right: 0;
+    width: calc(5% + 65px);
+    height: 103px;
+  }
+  .burger {
+    padding: 0px 0px;
+    top: 60px; /*was 74px*/
+    right: 5%;
+    display: inline-block;
+  }
+  .hamburger-content {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    transform: none;
+    top: 102px;
+    height: calc(100vh - 70px);
+    padding: 0px 0px 0px;
+    background-image: url("../images/menu-back-mobile.png");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    overflow-y: auto;
+  }
+  .lower-nav li a.hamburger-title-2 {
+    padding: 14px 30px;
+  }
+  #respiratory, #audiology, #occtherapy, #phystherapy, #radtherapy, #speechtherapy {
+    scroll-margin-top: 110px;
+  }
+  a#BeneLink, a#HomeLink, a#TrainingLink, a#LifeinVtLink {
+    padding: 14px 30px;
+  }
+  header li {
+    display: block;
+  }
+  header {
+    padding: 10px 0px 10px;
+    box-shadow: 2px 0px 4px rgb(0 0 0 / 10%);
+    border-bottom: 4px solid #00643c;
+  }
+  .nav-top li:first-of-type {
+    border-right: none;
+  }
+  .header-inside .header-logo {
+    /*    width: 150px;*/
+    margin-bottom: 0;
+  }
+  .nav-top {
+    background-color: #00643c;
+    position: static;
+    left: 0;
+    transform: none;
+  }
+  .nav-top li {
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+  }
+  .nav-top a {
+    display: block;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 14px 30px;
+    position: relative;
+    z-index: 1;
+  }
+  .nav-top a:hover, .nav-top a:focus, .nav-top a:active {
+    color: #00643c;
+    background-color: #ffffff;
+    text-decoration: none;
+  }
+  .lower-nav {
+    background-color: #ffffff;
+    color: #696a6c;
+    text-align: left;
+    position: static;
+    margin-bottom: 80px;
+  }
+  .lower-nav li {
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    background-color: #00643c;
+  }
+  .lower-nav li:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+  }
+  .lower-nav li a {
+    color: #ffffff;
+    display: block;
+    padding: 14px 30px;
+    font-size: 13px;
+    line-height: 13px;
+    transition: .15s all ease-in-out;
+  }
+  .lower-nav li a:hover, .lower-nav li a:focus, .lower-nav li a:active {
+      color: rgb(0, 100, 60);
+    background-color: rgb(161, 199, 113);
+  }
+  .hamburger-content-2, .hamburger-content-3, .hamburger-content-4, .hamburger-content-5, .hamburger-content-6 {
+    position: relative;
+  }
+	.hamburger-content-2 {
+  max-height: none;
+  overflow-y: initial !important;
+}
+	.hamburger-content-2 li a {
+  border-bottom: 1px solid #5c9b0d;
+  background-color: #5c9b0d;
+}
+  main {
+    margin-top: 102px;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .quote-slider .inner {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    margin: 0px auto;
+    padding-bottom: 52%;
+  }
+  .quote-slider .copy {
+    top: 40%;
+  }
+  .quote-slider .copy .quote {
+    font-size: 1.8vw;
+    line-height: 1.3em;
+    margin-bottom: 1em;
+  }
+  .quote-slider .copy .name {
+    font-size: 1.5vw;
+    line-height: 1.3em;
+  }
+  .prev-next {
+    bottom: 10%;
+  }
+  .lower-controls {
+    bottom: 12.5%;
+    right: 7.5%;
+  }
+  a.utility-btn:link, a.utility-btn:active, a.utility-btn:visited {
+    margin: 20px 0 0;
+    font-size: 1.1vw;
+    /*   padding: 15px 30px;*/
+  }
+  .wlctext {
+    flex: 3;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .bannersub .inner .copy {
+    width: 45%;
+    max-width: 1390px;
+    padding: 2%;
+  }
+  .bannersub .inner .copy h2 {
+    font-size: 3.5vw;
+    line-height: 1em;
+  }
+  .erptxt h2 {
+    font-size: 3.5vw;
+    line-height: 1em;
+  }
+  .bannersub .inner .copy h3 {
+    font-size: 2vw;
+  }
+  h1 {
+    font-size: 3.65vw;
+    line-height: 1em;
+  }
+  .intro-copy .inner, .intro-copy2 .inner, #AffiliatesPgs.intro-copy .inner, .text-only-section .inner {
+    font-size: 1.8vw;
+  }
+  .intro-copy .inner h2, .intro-copy2 .inner h2, #AffiliatesPgs.intro-copy .inner h2, .text-only-section .inner h2 {
+    font-size: 3vw;
+  }
+  .unit-description h2 {
+    font-size: 3vw;
+  }
+  .text-only-section .inner h4 {
+    font-size: 1.5vw;
+  }
+  .plain-text .inner h2 {
+    font-size: 3vw;
+  }
+  .plain-text .inner p {
+    font-size: 1.4vw;
+  }
+  .callout-global-02 .inner p {
+    font-size: 1.4vw;
+  }
+  .banner-image .inner .copy a {
+    display: none;
+  }
+  .featured-jobs-front {
+    padding: 20px 0px;
+  }
+  .featured-jobs-front h2 {
+    width: 90%;
+    text-align: center;
+  }
+  .featured-jobs-front .featured-jobs-bottom {
+    width: 80%;
+    margin: 30px auto 0px;
+    display: block;
+  }
+  .featured-jobs-front .featured-jobs-bottom > div {
+    width: 100%;
+    display: block;
+    margin: 0px auto 0px;
+    border-bottom: 1px dotted rgba(67, 176, 42, .25);
+    padding: 20px 0;
+    text-align: left;
+  }
+  .featured-jobs-front .featured-jobs-bottom > div:first-child {
+    padding: 0px 0px 20px;
+    margin: 0px auto 0px;
+  }
+  .featured-jobs-front .featured-jobs-bottom > div:last-child {
+    margin: 0px auto 0px;
+    padding: 20px 0px 0px;
+    border-bottom: 0px dotted rgba(67, 176, 42, .25);
+  }
+  .featured-jobs-front .featured-jobs-bottom p {
+    min-height: 0;
+    margin: 0px auto 20px;
+    font-size: 1.5vw;
+    line-height: 1.6em;
+  }
+  .featured-jobs-front h2 {
+    font-size: 3vw;
+    line-height: 1.2em;
+  }
+  .featured-jobs-front .featured-jobs-bottom h4 {
+    margin: 0px 0px 10px;
+    font-size: 2.5vw;
+    min-height: 0;
+  }
+  .featured-jobs-front .featured-jobs-bottom span:nth-child(2) {
+    margin: 0px 0px 10px;
+  }
+  .featured-jobs-front .featured-jobs-bottom span {
+    display: block;
+  }
+  .featured-jobs-front .featured-jobs-bottom a {
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    margin-top: 0px;
+    left: 0;
+  }
+  .featured-career-areas li {
+    width: 40%;
+    padding-bottom: 28%;
+    margin: 0px 1% 1em;
+  }
+  .career-path-label {
+    font-size: 1.85vw;
+    padding: 10px 0px;
+  }
+  .featured-career-areas li:hover .career-path-label span {
+    top: 57%;
+    transform: translateY(-57%);
+  }
+  .content-inner-holder {
+    width: 100%;
+    margin: 0px auto 50px;
+  }
+  .content-search-results-left {
+    display: block;
+    width: 90%;
+    margin: 5% auto 3%;
+    float: none;
+    min-height: 0;
+  }
+  .content-search-results-right {
+    display: block;
+    width: 90%;
+    margin: 0px auto;
+    float: none;
+  }
+  .talent-network-sub-copy {
+    font-size: 4.8vw;
+    line-height: 1em;
+  }
+  .talent-network-sub-copy span {
+    padding: 4% 10%;
+  }
+  .talent-network-form h1 {
+    font-size: 3.6vw;
+  }
+	#LPNsessioninfo .talent-network-form h1 {
+  font-size: 3.2vw;
+}
+	#LPNsessioninfo .talent-network-form h1 br {
+  display: none;
+}
+  .google-job-map {
+    padding-bottom: 340px;
+    margin-bottom: 20px;
+  }
+  /*
+  .google-job-map iframe {
+    height: 340px;
+  }
+*/
+  .search-results h1 {
+    font-size: 3.6vw;
+  }
+  .search-results h2 {
+    font-size: 2vw;
+  }
+  section.benefits-package h2 {
+    font-size: 3vw;
+  }
+  section.additional-benefits h2 {
+    font-size: 3vw;
+  }
+  section.benefits-package {
+    padding: 4% 0 1%;
+  }
+  section.additional-benefits {
+    padding: 4% 0 1%;
+  }
+  .wellness-area-wrapper .text {
+    width: 94%;
+    padding: 3%;
+  }
+  .wellness-area-wrapper {
+    width: 100%;
+    margin: 0 0% 3% 0;
+  }
+  section.wellness-programs .inner {
+    flex-direction: column;
+  }
+  .affiliates h3 {
+    font-size: 2vw;
+  }
+  .affiliates h4 {
+    font-size: 1.2vw;
+  }
+  .affiliates .intro-txt {
+    font-size: 1.5vw;
+  }
+  .video-title p {
+    font-size: 1.5vw;
+  }
+  #mainpgvideo.callout-global-03 .inner2 h2, #madisonvideo.callout-global-03 .inner2 h2 {
+    font-size: 2.3vw;
+  }
+  .intro-copy .text p, .intro-copy2 .text p, .text-only-section .text p, #erpexclusions.intro-copy li, #hiringpgERPsection.isolated p {
+    font-size: 1.4vw;
+  }
+  #audiointro a, #resptherapiesintro a, #occtherapyintro a, #phystherapyintro a, #radtherapyintro a, #slpintro a {
+    font-size: 1.4vw;
+  }
+  #hiringpgERPsection.isolated h2 {
+    font-size: 3vw;
+  }
+  .unit-description p {
+    font-size: 1.4vw;
+  }
+  .unit-description .inner .text li {
+    font-size: 1.4vw;
+  }
+  .map-row h2 {
+    font-size: 3vw;
+  }
+  .map-row p {
+    font-size: 1.4vw;
+  }
+  .callout-circle .inner .copy li {
+    font-size: 1.4vw;
+  }
+  .callout-circle .inner .copy p {
+    font-size: 1.4vw;
+  }
+  .awards-details p {
+    font-size: 1.5vw;
+  }
+  .bulleted-list-col li {
+    font-size: 1.5vw;
+  }
+  #HHHarea.intro-copy li {
+    font-size: 1.5vw;
+  }
+  #NursingOpps.callout-global-03 li {
+    font-size: 1.5vw;
+  }
+  #PharmOpps.callout-global-03 li {
+    font-size: 1.5vw;
+  }
+  .bulleted-list-col ul {
+    column-count: 3;
+  }
+	.rnentity-content .inner-accordion ul {
+     column-count: 3 !important;
+}
+  .callout-global-02 .inner {
+    width: 90%;
+  }
+  .benefits-box a .benefit-description {
+    width: 120%;
+    min-height: 180px;
+  }
+  #benepackage.intro-copy .text h2 {
+    font-size: 3vw;
+  }
+  .callout-global-02 .inner h2 {
+    font-size: 3vw;
+  }
+  .callout-global-02 .inner h3 {
+    font-size: 2.5vw;
+    margin: 0 0 15px;
+  }
+  .highlight-02 li {
+    font-size: 1.4vw;
+  }
+  .bios .text h2 {
+    font-size: 2.5vw;
+  }
+  .bios .text h3 {
+    font-size: 2vw;
+  }
+  .bios .text p {
+    font-size: 1.5vw;
+  }
+  .div-strategy-callout h2 {
+    font-size: 1.8vw;
+  }
+  .callout-lt-green-txt {
+    font-size: 1.4vw;
+  }
+  .callout-descript-txt {
+    font-size: 1.4vw;
+  }
+  .callout-descript-txt p strong {
+    font-size: 1.6vw;
+  }
+  .isolated-header h2 {
+    font-size: 2.8vw;
+  }
+  .life-photo-bar h2 {
+    font-size: 2.8vw;
+  }
+  .callout-global-03 .text p {
+    font-size: 1.4vw;
+  }
+  .callout-global-03 .text h2 {
+    font-size: 2.4vw;
+  }
+  .callout-global-03 .text h3 {
+    font-size: 2.1vw;
+  }
+  .global-title-holder h2 {
+    font-size: 2.5vw;
+  }
+  .global-title-holder {
+    padding: 3% 0;
+  }
+  .contact-container .inner h2 {
+    font-size: 2.5vw;
+  }
+  .contact-container .inner .contactbtn a {
+    font-size: 1.4vw;
+  }
+  .contact-container .inner p {
+    font-size: 1.4vw;
+  }
+  .affiliates-ff .inner {
+    width: 86%;
+    margin: 0px auto 20px;
+    padding: 2% 2%;
+  }
+  .ff-btm p {
+    font-size: 1.3vw;
+  }
+  .isolated h2 {
+    font-size: 3vw;
+    width: 90%;
+  }
+  .isolated p {
+    font-size: 1.5vw;
+    width: 90%;
+  }
+  .affiliates-ff {
+    padding: 4% 0;
+  }
+  .affiliates-ff h2 {
+    font-size: 3vw;
+    margin: 0 0 15px;
+  }
+  .subpg-jobbtn-holder a {
+    font-size: 1.5vw;
+  }
+  section.intro-copy a {
+    font-size: 1.4vw;
+  }
+  .txt-only-btn a {
+    font-size: 1.4vw;
+  }
+  .pathways-contact .inner p {
+    font-size: 1.4vw;
+  }
+  section.benefits-pdfs h2 {
+    font-size: 3vw;
+  }
+  section.benefits-pdfs p {
+    font-size: 1.5vw;
+  }
+  #erpintro.intro-copy .text h3 {
+    font-size: 2vw;
+  }
+  #erpintro.intro-copy .text h4 {
+    font-size: 1.5vw;
+  }
+  .callout-global-03#cvmcpathways h2, .callout-global-03#trainingprg h2 {
+    font-size: 3vw;
+  }
+  .callout-global-03#cvmcpathways h4, .callout-global-03#trainingprg h4 {
+    font-size: 2vw;
+  }
+  .pathways-contact h4 {
+    font-size: 1.4vw;
+  }
+  .nursing-quotes blockquote {
+    font-size: 1.4vw;
+  }
+  .nursing-quotes .inner h2 {
+    font-size: 3vw;
+  }
+  .testimonial-slide p {
+    font-size: 1.4vw;
+  }
+  #worklifecomm p {
+    font-size: 1.4vw;
+  }
+  #projinfosection h3 {
+    font-size: 3vw;
+  }
+	.advpract-areas .inner h2 {
+  font-size: 3vw;
+}
+	.advpract-areas p {
+ font-size: 1.4vw;
+}
+	.mosaic .text h2 {
+  font-size: 3.2vw;
+}
+.mosaic .text h3 {
+  font-size: 2.2vw;
+}
+.affiliates-ff a {
+	font-size: 1.5vw;
+}.bluebox{
+font-size: 1.4vw;
+}
+}
+@media only screen and (max-width: 1000px) {
+  main {
+    margin-top: 124px;
+  }
+	main#alumni-connect-pg {
+  margin: 124px auto 0px;
+}
+  liferelocating {
+    background-position: 15% center;
+  }
+  .contact-us .inner .link-list .column {
+    width: 49%;
+  }
+  .featured-jobs-front .featured-jobs-bottom h4 {
+    font-size: 3vw;
+  }
+  .featured-jobs-front h2 {
+    font-size: 3.5vw;
+    width: 80%;
+    text-align: left;
+  }
+  /*
+	.mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none !important;
+  }
+*/
+  #search-body .inner .sub-search, .search, .search.horizontal-search-bar {
+    position: fixed;
+    z-index: 2021;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #c20018 !important;
+    padding: 0px 0px;
+    padding: 0px !important;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, .12);
+    box-sizing: border-box;
+    width: 100vw;
+  }
+  .search.horizontal-search-bar .inner {
+    width: 100%;
+    margin: 0px auto;
+  }
+  .mobile-search-button {
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 15px 50px;
+    margin: 0px auto 0px;
+    color: #ffffff !important;
+    border: 0px solid #789D4A;
+    background: #5E366E;
+    overflow: hidden;
+    transition: .25s all ease-in-out .05s;
+    text-decoration: none !important;
+  }
+  .mobile-search-button::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background-image: url("../images/global/magnifying-glass-white.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: .6;
+    transition: .25s all ease-in-out;
+  }
+  .mobile-search-button:hover::before, .mobile-search-button:focus::before, .mobile-search-button:active::before {
+    opacity: 1;
+  }
+  .mobile-search-button::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transform-origin: left;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #006341; /*--was gray--*/
+    opacity: 0;
+    transform: scaleX(0);
+    transition: .25s all ease-in-out;
+  }
+  .mobile-search-button:hover::after, .mobile-search-button:focus::after, .mobile-search-button:active::after {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+  .search ul.search-content {
+    padding: 18px 50px 25px;
+    display: none;
+    background-image: url(../images/green-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #search-body .inner .sub-search ul.search-content {
+    padding: 18px 50px 25px;
+    display: none;
+  }
+  .search.horizontal-search-bar ul.search-content > li, .search.horizontal-search-bar ul.search-content > li:first-child, .search.horizontal-search-bar ul.search-content > li:last-child {
+    display: block;
+    vertical-align: middle;
+    width: 100%;
+    margin: 5px auto 5px;
+  }
+  .search.horizontal-search-bar ul.search-content > li:nth-child(2) {
+    display: block;
+  }
+  .search-accordion-button::before {
+    right: 16px;
+    width: 10px;
+    height: 10px;
+  }
+  ul.search-content2 {
+    position: relative;
+  }
+  .menu-background {
+    position: fixed;
+    z-index: 2019;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/global/menu-back.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    display: none;
+    opacity: 0;
+  }
+  .menu-background.live {
+    display: block;
+    opacity: 1;
+    -webkit-animation-name: background-transition;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: .15s;
+    -webkit-animation-fill-mode: backwards;
+    animation-name: background-transition;
+    animation-timing-function: ease-in;
+    animation-duration: .15s;
+    animation-fill-mode: both;
+  }
+  @keyframes-webkit- background-transition {
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1
+    }
+  }
+  @keyframes background-transition {
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1
+    }
+  }
+  .search-results {
+    width: 100%;
+    float: none;
+    display: block;
+  }
+  .search-results-right {
+    width: 100%;
+    float: none;
+    display: block;
+  }
+  .search.horizontal-search-bar ul.search-content > li:nth-child(4) {
+    display: block;
+  }
+  .search.horizontal-search-bar ul.search-content > li:nth-child(5) {
+    display: block;
+  }
+  #search-body {
+    width: 100%;
+    padding: 2em 0px;
+  }
+  #search-body .inner {
+    width: calc(100% - 40px);
+  }
+  .results-content > div {
+    padding: 1.5em 0;
+    border-bottom: 1px solid #EBEBEC;
+  }
+  .apply {
+    margin: 1em 0px 1em 0px;
+  }
+  .sub-buttons {
+    margin: 1em 0px;
+  }
+  /*
+  .sub-buttons a, .apply a, .job-details-btns a, .utility-btn a {
+    margin: 5px auto 0;
+  }
+*/
+  .front-page-intro {
+    padding: 3em 0px 3em;
+  }
+  .front-page-intro .inner .copy {
+    padding: 4% 4%;
+    background-color: rgba(255, 255, 255, .7);
+  }
+  .front-page-intro .background-image {
+    background-position: left top, right center;
+  }
+  .front-page-intro .inner h2 {
+    font-size: 4vw;
+    line-height: 1.1em;
+  }
+  .front-page-intro .inner p {
+    font-size: 1.8vw;
+    line-height: 1.5em;
+  }
+  .affiliates .inner p {
+    font-size: 2vw;
+    line-height: 1.2em;
+  }
+  #banner-area {
+    height: 45vw;
+  }
+  #banner-area .inner {
+    top: 47%;
+  }
+  #banner-area .slidenav {
+    bottom: 0px;
+    right: 0px;
+    padding: 1px 21px 2px 2px;
+   
+    border-radius: 50px 0px 0px 50px;
+  }
+  #banner-area .slidenav li:first-child {
+    margin: 0px 0px 0px 0px;
+  }
+  #banner-area .controls {
+    top: auto;
+    right: auto;
+    left: 18px;
+    bottom: 3px;
+    opacity: .5;
+  }
+  .wellness-area-wrapper .text {
+    font-size: 2.1vw;
+  }
+  .search-accordion-button {
+    text-align: left;
+  }
+  .awards-details h2 {
+    font-size: 3vw;
+  }
+  .callout-circle {
+    padding: 5em 0px;
+  }
+  .callout-circle .inner .cc-photo, .callout-circle .inner .cvph-photo, .callout-circle .inner .ech-photo, .callout-circle .inner .ahmc-photo, .callout-circle .inner .hhh-photo, .callout-circle .inner .logistics-photo, .callout-circle .inner .ca-requirements-photo {
+    width: 32%;
+    padding-bottom: 32%;
+    margin: 0px 4% 0px 0px;
+  }
+  .callout-circle .inner .copy {
+    width: 62%;
+  }
+  .description-header {
+    font-size: 1.1em;
+    line-height: 1.1em;
+  }
+  .description-header {
+    font-size: 2vw;
+    line-height: 1.4em;
+  }
+  .description-text {
+    font-size: 2vw;
+    line-height: 1.4em;
+  }
+  .subpg-jobbtn-holder {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5% 0;
+  }
+  .subpg-jobbtn-holder#imagingjobslinks {
+    flex-direction: column;
+  }
+  .subpg-jobbtn-holder#imagingjobslinks a:first-child {
+    margin: 0 auto 10px;
+  }
+  .subpg-jobbtn-holder#imagingjobslinks a:last-child {
+    margin: 0 auto;
+  }
+  .subpg-jobbtn-holder#affiltopbtn {
+    margin: .5% auto;
+  }
+  .header-inside .header-logo {
+    width: 190px;
+  }
+  header {
+    padding: 40px 0px 20px;
+  }
+  .header-inside {
+    width: 96%;
+  }
+  .burger {
+    top: 70px;
+  }
+  .hamburger-content {
+    top: 124px;
+  }
+  #banner-area li a {
+    margin: 10px 0 0px;
+    font-size: 1.2vw;
+    line-height: 1em;
+  }
+  #worklifecomm.intro-copy .inner {
+    margin: 0px auto;
+    flex-direction: column;
+  }
+  .wlcphoto {
+    padding: 50% 0 0;
+    width: 100%;
+  }
+  .wlctext {
+    padding: 5% 3%;
+  }
+  #respiratory, #audiology, #occtherapy, #phystherapy, #radtherapy, #speechtherapy {
+    scroll-margin-top: 130px;
+	}
+}
+@media only screen and (max-width: 900px) {
+	.advpract-areas ul li {
+		width: 100%;
+    margin: 0 0 1.5%;
+	}
+	.talent-main .table-text {
+    width: 90%;
+    padding: 6% 5% 6%;
+  }
+  .talent-main h2 {
+    font-size: 3vw;
+    line-height: 1.2em;
+    width: 100%;
+    margin: 0px auto 10px;
+    text-align: center;
+  }
+  .talent-main .table-text p {
+    font-size: 2.1vw;
+    text-align: center;
+  }
+  section.talent-main {
+    width: 100%;
+    background-image: url(../images/global/medical-group-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    margin-top: 0px !important;
+    padding-top: 50% !important;
+  }
+  .table {
+    display: block;
+  }
+  .row {
+    display: block;
+  }
+  .cell {
+    display: block;
+  }
+  .map-right .google-job-map iframe {
+    height: 200px;
+  }
+  .map-row .table {
+    width: 100%;
+    position: relative;
+    padding: 200px 0px 0px;
+  }
+  .map-row .cell {
+    width: 100%;
+  }
+  .map-row {
+    margin: 0;
+  }
+  .map-row .copy-container {
+    width: 90%;
+    padding: 5% 0px;
+    margin: 0px auto;
+  }
+  .map-row p {
+    font-size: 2.8vw;
+    line-height: 1.4em;
+  }
+  .map-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: calc(100% - 2500px);
+  }
+  section.featured-career-areas h2 {
+    font-size: 4vw;
+    line-height: 1.1em;
+    margin: 0px auto;
+    width: 82%;
+  }
+  .talent-comm .table-text h2 {
+    font-size: 4vw;
+    line-height: 1.1em;
+    margin: 0px auto 10px auto;
+  }
+  .featured-jobs-front .featured-jobs-bottom p {
+    font-size: 1.9vw;
+    line-height: 1.6em;
+  }
+  .intro-copy .inner, .intro-copy2 .inner, #AffiliatesPgs.intro-copy .inner, .text-only-section .inner {
+    font-size: 2.1vw;
+  }
+  .intro-copy .inner h3, .text-only-section .inner h3 {
+    font-size: 1.8vw;
+  }
+  .intro-copy .text h4 {
+    font-size: 1.7vw;
+  }
+  .text-only-section h4 {
+    font-size: 1.8vw !important;
+  }
+  .featured-jobs-front h2 {
+    font-size: 4.5vw;
+  }
+  section.leadership-programs h2 {
+    font-size: 4vw;
+    line-height: 1em;
+  }
+  section.wellness-programs h2 {
+    font-size: 4vw;
+    line-height: 1em;
+  }
+  .contact-row .inner {
+    width: 90%;
+  }
+  .affiliates .intro-txt {
+    font-size: 1.9vw;
+    line-height: 1.6em;
+  }
+  .video-title p {
+    font-size: 1.9vw;
+    line-height: 1.6em;
+  }
+  .intro-copy .text p, .intro-copy2 .text p, #AffiliatesPgs.intro-copy .text p, .text-only-section .text p, #erpexclusions.intro-copy li, .callout-global-03 .text p, #hiringpgERPsection.isolated p {
+    font-size: 1.8vw;
+  }
+  #audiointro a, #resptherapiesintro a, #occtherapyintro a, #phystherapyintro a, #radtherapyintro a, #slpintro a {
+    font-size: 1.8vw;
+  }
+  #hiringpgERPsection.isolated h2 {
+    font-size: 3.5vw;
+  }
+  .unit-description p {
+    font-size: 1.8vw;
+  }
+  .unit-description .inner .text li {
+    font-size: 1.8vw;
+  }
+  .text-only-section li {
+    font-size: 1.8vw;
+  }
+  .map-row h2 {
+    font-size: 3vw;
+  }
+  .map-row p {
+    font-size: 1.8vw;
+  }
+  .callout-circle .inner .copy li {
+    font-size: 1.8vw;
+  }
+  .callout-circle .inner .copy p {
+    font-size: 1.8vw;
+  }
+  .plain-text .inner p {
+    font-size: 1.8vw;
+  }
+  .callout-global-02 .inner p {
+    font-size: 1.8vw;
+  }
+  #unit-orient.intro-copy .photo {
+    width: 40%;
+    background-position: 80% center;
+  }
+  #unit-orient.intro-copy .text {
+    width: 60%;
+  }
+  .awards-details p {
+    font-size: 1.9vw;
+    line-height: 1.6em;
+  }
+  #HHHarea.intro-copy li {
+    font-size: 2vw;
+  }
+  .bulleted-list-col li {
+    font-size: 2vw;
+  }
+  .bulleted-list-col ul {
+    column-count: 2;
+  }
+	.rnentity-content .inner-accordion ul {
+     column-count: 2 !important;
+}
+  .highlight-02 li {
+    font-size: 1.8vw;
+  }
+  .bios .inner {
+    margin: 0px auto;
+    flex-direction: column;
+  }
+  .bios .text {
+    padding: 5% 3% 4%;
+    width: 100%;
+  }
+  .bios .text h2 {
+    font-size: 2.8vw;
+  }
+  .bios .text h3 {
+    font-size: 2.2vw;
+  }
+  .bios .text p {
+    font-size: 1.8vw;
+  }
+  .bios .quote {
+    font-size: 2.2vw;
+    padding: 5% 3%;
+    width: 94%;
+    text-align: left;
+  }
+  .callout-lt-green-txt {
+    font-size: 1.6vw;
+    padding: 6% 5%;
+  }
+  .callout-descript-txt {
+    font-size: 1.8vw;
+  }
+  .callout-descript-txt p strong {
+    font-size: 2vw;
+  }
+  .isolated-header h2 {
+    font-size: 3vw;
+  }
+  .life-photo-bar .inner {
+    flex-direction: column;
+  }
+  #life-group-01, #life-group-02 {
+    width: 100% !important;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+  }
+  #pride-group-01, #food-truck-group, #psphotos {
+    width: 100% !important;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+  }
+  #pridephotos div, #foodtruck div, #psphotos div {
+    border-bottom: 2px solid #ffffff;
+  }
+  #food-montage-01 {
+    background-image: url("../images/sub/benefits/food-photo-03-mobile.jpg");
+    padding-top: 20%;
+  }
+  #food-montage-02 {
+    background-image: url("../images/sub/benefits/food-photo-04-mobile.jpg");
+    padding-top: 20%;
+  }
+  .benefits-box3 {
+    width: 40%;
+  }
+  .contact-container .inner .contactbtn a {
+    font-size: 1.8vw;
+  }
+  .contact-container .inner p {
+    font-size: 1.8vw;
+  }
+  .fact-holder {
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .fact {
+    padding: 1% 2% 1.51%;
+    margin: 0px .75% 1%;
+    flex: 1;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+  }
+  .ff-icon {
+    margin: 0 0 0;
+    width: 20%;
+  }
+  .ff-icon img {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .ff-btm {
+    width: 70%;
+  }
+  .ff-btm h3 {
+    font-size: 4vw;
+  }
+  .ff-btm p {
+    font-size: 2vw;
+  }
+  .isolated p {
+    font-size: 1.8vw;
+    padding: 0;
+  }
+  .talent-network-form {
+    padding: 2em 2em;
+  }
+  #imaging-pg-form.talent-network-form, #clinicalassistant-pg-form.talent-network-form, #medoffsupp-pg-form.talent-network-form, #rtpathaway-pg-form.talent-network-form, #rnpathaway-pg-form.talent-network-form, #mltpathaway-pg-form.talent-network-form, #caprogram-pg-form.talent-network-form, #lpnpathaway-pg-form.talent-network-form, #uvmhnhhhpathaway-pg-form.talent-network-form, #uvmhnhhhpathaway-pg-form.talent-network-form, #apptransition-pg-form.talent-network-form, #appstudents-pg-form.talent-network-form, #pathfinder-pg-form.talent-network-form, #alumniconnect-pg-form.talent-network-form   {
+    padding: 2em 2em;
+    width: 100%; /*--Style added 05-02-23-kd*/
+    border-radius: 0; /*--Style added 05-02-23-kd*/
+  }
+  #HHHarea.intro-copy ul {
+    -moz-column-count: 2;
+    -moz-column-gap: 50px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 50px;
+    column-count: 2;
+    column-gap: 50px;
+  }
+  .subpg-jobbtn-holder {
+    padding: 3% 0;
+  }
+  section.intro-copy a {
+    font-size: 1.8vw;
+  }
+  .txt-only-btn a {
+    font-size: 1.8vw;
+  }
+  #clinasstpg .pathways-contact .inner {
+    width: 100%;
+  }
+  .pathways-contact .inner p {
+    font-size: 1.8vw;
+  }
+  .pathways-contact .inner h2 {
+    font-size: 3vw;
+  }
+  .video-main .inner {
+    margin: 0px auto;
+    padding: 2em 0em;
+    flex-direction: column;
+  }
+  .video-txt {
+    padding: 5% 0 0;
+    margin: 0px auto 0px;
+    width: 95%;
+  }
+  .video-holder {
+    /*    width: 95%;*/
+    margin: 0 auto;
+  }
+	#HHHdjvideo01 .video-holder {
+   margin: 0 auto 10px;
+}
+  .video-txt h2 {
+    font-size: 3vw;
+  }
+  .video-txt h3 {
+    font-size: 1.8vw;
+  }
+  section.benefits-pdfs p {
+    font-size: 1.8vw;
+  }
+  .imaging-form-holder .inner, .medoffsupp-form-holder .inner, .clinicalassistant-form-holder .inner, .rtpathway-form-holder .inner, .rnpathway-form-holder .inner, .mltpathway-form-holder .inner, .caprogram-form-holder .inner, .lpnpathway-form-holder .inner, .uvmhnHHHpathway-form-holder .inner, .app-transition-form-holder .inner, .app-students-form-holder .inner, .pathfinder-form-holder .inner, .alumni-form-holder .inner  {
+    width: 100%;
+  }
+  #traininglist {
+    column-count: 1;
+  }
+  .pathways-contact h4 {
+    font-size: 1.8vw;
+  }
+  #mainpgvideo .video-title p, #madisonvideo .video-title p {
+    line-height: 1.5em;
+    font-size: 1.5vw;
+  }
+  .nursing-quotes blockquote {
+    font-size: 1.8vw;
+  }
+  .testimonial-slide p {
+    font-size: 1.8vw;
+  }
+  #worklifecomm p {
+    font-size: 1.8vw;
+  }
+	#divpgprojspecial h2 {
+	font-size: 3vw;
+}
+	#nurspgbtns.subpg-jobbtn-holder h3{
+	width:80%;
+}
+	.advpract-areas p {
+ font-size: 1.8vw;
+}
+	.advpract-areas h3 {
+  font-size: 2.8vw;	
+}
+	.bluebox{
+font-size: 1.8vw;
+}
+}
+@media only screen and (max-width: 780px) {
+  .phone-numbers {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .phone-numbers {
+    font-size: 25px;
+    font-size: 4vw;
+  }
+  .contact-row {
+    padding: 3% 0;
+  }
+  .contact-row .inner {
+    width: 90%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .featured-jobs-front h2 {
+    font-size: 5.5vw;
+    line-height: 1em;
+    width: 80%;
+    text-align: left;
+  }
+  .search-results dl span {
+    display: block;
+    padding: 0px 0px 0px;
+    margin: 0px 5px 0px 0px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #000000;
+  }
+  .search-results dl span dt, .search-results dl span dd {
+    padding: 0px 0px 0px;
+    margin: 0px 3px 0px 0px;
+  }
+  section.featured-career-areas {
+    padding: 2em 0px 1em;
+  }
+  .leadership-area-wrapper {
+    flex-direction: column;
+  }
+  #leadership01, #leadership02 {
+    height: 200px;
+  }
+  #banner-area .inner .copy h2 {
+    font-size: 4vw;
+  }
+  #banner-area .inner .copy h3 {
+    font-size: 3vw;
+  }
+  #banner-area .inner .copy h4 {
+    font-size: 2vw;
+  }
+  #banner-area .inner .copy p {
+    font-size: 2vw;
+  }
+  .talent-main h2 {
+    font-size: 4.5vw;
+    line-height: 1.2em;
+  }
+  .callout-circle {
+    padding: 13% 0px 15%;
+    background-image: url("../images/white-mobile-curve-1.png"), url("../images/white-mobile-curve-2.png"), url("../images/green-back-mobile.png");
+    background-position: top center, bottom center, bottom center;
+    background-repeat: no-repeat;
+    background-size: contain, contain, cover;
+  }
+  .callout-circle .inner {
+    width: 80%;
+  }
+  .callout-circle .inner .cc-photo, .callout-circle .inner .cvph-photo, .callout-circle .inner .ech-photo, .callout-circle .inner .ahmc-photo, .callout-circle .inner .hhh-photo, .callout-circle .inner .logistics-photo, .callout-circle .inner .ca-requirements-photo {
+    display: block;
+    width: 340px;
+    padding-bottom: 340px;
+    margin: 0px auto 5%;
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, .22);
+  }
+  .callout-circle .inner .copy {
+    display: block;
+    margin: 0px auto 0px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    /*    text-align: center;*/
+  }
+  .callout-circle .inner .copy .quote-name {
+    display: block;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 1em 0px 0px;
+  }
+  #HHHarea.intro-copy li {
+    font-size: 3vw;
+  }
+  #NursingOpps.callout-global-03 li {
+    font-size: 3vw;
+  }
+	#PharmOpps.callout-global-03 li {
+    font-size: 3vw;
+  }
+  .bulleted-list-col li {
+    font-size: 3vw;
+  }
+  .bulleted-list-col ul {
+    column-count: 2;
+    margin: 3% 0;
+  }
+	.rnentity-content .inner-accordion ul {
+     column-count: 2 !important;
+		margin: 3% 0;
+}
+  #unit-orient.intro-copy .inner {
+    margin: 0px auto;
+    font-size: 3vw;
+    line-height: 1.5em;
+    font-weight: 400;
+    flex-direction: column;
+  }
+  #unit-orient.intro-copy .text {
+    padding: 4% 4%;
+    width: 100%;
+  }
+  #unit-orient.intro-copy .text p {
+    margin: 0 0 15px;
+  }
+  #unit-orient.intro-copy .text p:last-of-type {
+    margin: 0;
+  }
+  #unit-orient.intro-copy .photo {
+    margin: 0;
+    display: flex;
+    padding: 40% 0 0;
+    width: 100%;
+    background-position: center center;
+    order: 2;
+  }
+  #unit-orient.intro-copy .text {
+    order: 0;
+  }
+  .benefits-box-top {
+    padding: 5%;
+  }
+  .benefits-box2-top {
+    padding: 5%;
+  }
+  .benefits-box2 {
+    width: 96% !important;
+    margin: 0px 0% 10px 0%;
+    padding: 3% 0px;
+    display: block;
+    max-width: none;
+  }
+  .benefits-box {
+    width: 90% !important;
+    margin: 0px 0% 10px 0%;
+    padding: 3% 2%;
+    display: block;
+    max-width: none;
+  }
+  .benefits-box2 {
+    width: 90% !important;
+    margin: 0px 0% 10px 0%;
+    padding: 3% 2%;
+    display: block;
+    max-width: none;
+  }
+  .benefits-box-btm, .benefits-box2-btm {
+    font-size: 3.5vw;
+    line-height: 1.2em;
+    margin-top: 20px;
+    min-height: 0;
+  }
+  .description-header {
+    display: none;
+    margin: 30px 20px 0px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #ffffff;
+  }
+  .description-text {
+    margin: 20px auto 15px;
+    font-size: 2vw;
+    padding-top: 10px;
+    border-top: 2px dotted #cccccc;
+    color: #000000;
+    width: 90%
+  }
+  .benefits-box a .benefit-description {
+    color: #000000;
+    display: block;
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+    width: 100%;
+    min-height: 0px;
+    border-radius: 10px;
+    text-align: center;
+    left: 0;
+    transform: translate(0%, 0%);
+    -webkit-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    z-index: 1;
+  }
+  .benefits-box2 a .benefit-description {
+    color: #000000;
+    display: block;
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+    width: 100%;
+    min-height: 0px;
+    border-radius: 10px;
+    text-align: center;
+    left: 0;
+    transform: translate(0%, 0%);
+    -webkit-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    z-index: 1;
+  }
+  .pathways-contact .inner h2 {
+    font-size: 4.5vw;
+    width: 90%;
+  }
+  .dates-holder {
+    flex-direction: column;
+  }
+  .dates-info, .dates-info:first-of-type {
+    margin: 0px 0 10px !important;
+  }
+  .callout-global-03 .inner#CCVApply .photo, .callout-global-03 .inner#CVMCApply .photo {
+    display: none;
+  }
+  .callout-global-03 .inner#CCVApply .text, .callout-global-03 .inner#CVMCApply .text {
+    width: 100%;
+    padding: 4% 5%;
+  }
+  .intro-copy .photo#enviroUVMC {
+    margin: 20px 0 0;
+    padding: 60% 0 0;
+  }
+  #banner-area li a {
+    margin: 5px 0 0px;
+    font-size: 1.5vw;
+  }
+  #mainpgvideo.callout-global-03 .inner2, #madisonvideo.callout-global-03 .inner2 {
+    flex-direction: column;
+  }
+  #mainpgvideo .video-title, #madisonvideo .video-title {
+    padding: 5% 6%;
+    width: 88%;
+    order: 0 !important;
+  }
+  #mainpgvideo.callout-global-03 .inner2 h2, #madisonvideo.callout-global-03 .inner2 h2 {
+    font-size: 3vw;
+  }
+  #mainpgvideo .video-title p, #madisonvideo .video-title p {
+    line-height: 1.3em;
+    font-size: 2vw;
+  }
+  #mainpgvideo .video-holder,  #madisonvideo .video-holder {
+    width: 100%;
+  }
+	#PSSvideo {
+  padding-top: 55%;
+}
+	.mosaic .text {
+  padding: 5% 5%;
+  width: 100%;
+		margin: 0;
+}
+	.mosaic .photo {
+  display: block;
+		width:100%;
+}
+	.mosaic .photo img {
+display: block;
+}
+	.mosaic .inner {
+	width: 90%;
+	max-width: none;
+	padding:0;
+	background-image: none;
+	background-size: cover;
+		flex-direction: column;
+}
+}
+@media only screen and (max-width: 700px) {
+  .bannersub {
+    padding: 0% 0% 70%;
+    width: 100%;
+    position: relative;
+    height: auto;
+    max-height: auto;
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url(../images/sub/banners/mobile/banner-jbsrch-mobile.jpg);
+    background-size: 40%, cover;
+    background-position: left top, center 60%;
+    background-repeat: no-repeat;
+  }
+  .patient-logistics {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-patient-logistics-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+  .clin-asst {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-clinical-asst-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+  .dj-nurses {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-dj-nurses-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+  .dj-nurses-cvmc {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-dj-nurses-cvmc-mobile.jpg");
+    background-position: left top, center 70%;
+  }
+  .dj-nurses-hhh {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-dj-nurses-hhh-mobile.jpg");
+    background-position: left top, center 85%;
+  }
+  .dj-nurses-uvmmc {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-dj-nurses-uvmmc-mobile.jpg");
+    background-position: left top, center 75%;
+  }
+  .dj-nurses-pmc {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-dj-nurses-pmc-mobile.jpg");
+    background-position: left top, center 60%;
+  }
+  .dj-nurses-ech {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-dj-nurses-ech-mobile.jpg");
+    background-position: left top, center 75%;
+  }
+  .jbsrch {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-jbsrch-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+  .jbsrch-details {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-jbsrch-details-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+  .hiring {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-hiring-mobile.jpg");
+    background-position: left top, center 20%;
+  }
+  .talent {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url(../images/sub/banners/mobile/banner-talent-mobile.jpg);
+    background-position: left top, center 65%;
+  }
+  .physicians {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-physicians-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+  .meetourteam {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-meet-our-team-mobile.jpg");
+    background-position: left top, center 55%;
+  }
+  .benefits {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-benefits-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+  .benefitswellness {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-wellness-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+  .benefitsgrowth {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-growth-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+  .environ-services {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-environ-services-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+  .food {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url(../images/sub/banners/mobile/banner-food-mobile.jpg);
+    background-position: left top, center 80%;
+  }
+  .nursing {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-nursing-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+	.pharmacy {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-pharmacy-mobile.jpg");
+    background-position: left top, center 35%;
+  }
+  .med-office {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-med-office-mobile.jpg");
+    background-position: left top, center 90%;
+  }
+  .grad-rn {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-grad-rn-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+	.newtonursing {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-newtonursing-mobile.jpg");
+    background-position: left top, center 23%;
+  }
+	.advpractice {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-adv-practice-mobile.jpg");
+    background-position: left top, center 15%;
+  }
+  .therapies {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-therapies-mobile.jpg");
+    background-position: left top, center center;
+  }
+  .alicepg {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-alice-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+  .porterpg {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-porter-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+	.LNAtoRNprog {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-lna-to-rn-mobile.jpg");
+    background-position: left top, center 20%;
+  }
+	
+  .UVMCpg {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-uvmc-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+  .CVMCpg {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-cvmc-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+  .CVPHpg {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-cvph-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+  .medgrouppg {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-med-group-mobile.jpg");
+    background-position: left top, center 40%;
+  }
+  .elizabethtownpg {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-elizabethtown-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+  .homehealthpg {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-home-health-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+  .elizabeth-scholarship {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-elizabethtown-scholarships-mobile.jpg");
+    background-position: left top, center center;
+  }
+  .workforce {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-workplace-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+  .training-prog {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-training-programs-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+  .diversity {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-diversity-mobile.jpg");
+    background-position: left top, center 70%;
+  }
+  .lifeVTNY {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-life-in-vt-ny-mobile.jpg");
+    background-position: left top, center 70%;
+  }
+  .MApathway {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-ma-pathway-mobile.jpg");
+    background-position: left top, center 70%;
+  }
+  .BSNpathway {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-bsn-pathway-mobile.jpg");
+    background-position: left top, center 70%;
+  }
+  .LNApathway {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-lna-pathway-mobile.jpg");
+    background-position: left top, center 70%;
+  }
+  .RNpathway {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-rn-pathway-mobile.jpg");
+    background-position: left top, center 70%;
+  }
+  .MLTpathway {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-mlt-pathway-mobile.jpg");
+    background-position: left top, center 70%;
+  }
+  .SurgTechpathwayNY {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-st-pathway-ny-mobile.jpg");
+    background-position: left top, center 80%;
+  }
+  .erp {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-erp-mobile.jpg");
+    background-position: left top, center 30%;
+  }
+  .Surgpathway {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-surgical-pathway-mobile.jpg");
+    background-position: left top, center 70%;
+  }
+  .LPNpathway {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-lpn-pathway-mobile.jpg");
+    background-position: left top, center 70%;
+  }
+  .ABSNpathway {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-absn-pathway-mobile.jpg");
+    background-position: left top, center 65%;
+  }
+  .RTpathway {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-rt-mobile.jpg");
+    background-position: left top, center 70%;
+  }
+	.pathfinder {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-pathfinder-mobile.jpg");
+    background-position: left top, center 40%;
+  }
+  .MSNnursingpathway {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-msn-nursing-pathway-mobile.jpg");
+    background-position: left top, center 70%;
+  }
+  .CAprogram {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-clinical-assistants-mobile.jpg");
+    background-position: left top, center 75%;
+  }
+  .dialysisprogram {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-dialysis-mobile.jpg");
+    background-position: left top, center 60%;
+  }
+  .imaging {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-imaging-mobile.jpg");
+    background-position: left top, center top;
+  }
+  .uvmhnHHHpathway {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-uvmhn-hhh-pathway-mobile.jpg");
+    background-position: left top, center 25%;
+  }
+  .projectSearch {
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-proj-search-mobile.jpg");
+    background-position: left top, center 75%;
+  }
+  #beebeintro {
+    background-size: cover;
+    padding: 50% 2% !important;
+  }
+  .bannersub .inner {
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+  .bannersub .inner .copy {
+    width: 90%;
+    padding: 3.5% 5%;
+    /*    background-color: rgba(0, 100, 60, .9);*/
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+  }
+  .bannersub .inner .copy h2 {
+    font-size: 5.5vw;
+    margin: 0 0 5px;
+  }
+  .erp {
+    padding: 0% 0% 0%;
+    width: 100%;
+    position: relative;
+    height: auto;
+    max-height: auto;
+    background-image: url(../images/global/slide-arc-horz-flipped.png), url("../images/sub/banners/mobile/banner-erp-mobile.jpg");
+    background-size: 40%, cover;
+    background-position: left top, center center;
+    background-repeat: no-repeat;
+  }
+  .bannersub .inner2 {
+    width: 90%;
+    max-width: none;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3% auto;
+    text-align: center;
+  }
+  .erptxt {
+    padding: 2.5% 5% 1.5%;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+  }
+  .erpgraphic {
+    padding: 0;
+    margin: 0px;
+    width: 60%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    order: 0;
+  }
+  .erptxt h2 {
+    font-size: 5.5vw;
+    line-height: 1em;
+    margin: 0 0 5px;
+  }
+  .bannersub .inner .copy h3 {
+    width: 90%;
+    font-size: 3.5vw;
+    line-height: 1.1em;
+    margin: .1em auto 0;
+  }
+  .bannersub .inner .copy a {
+    padding: 3% 8%;
+    margin: 0px 0px 0px;
+    font-size: 2.2vw;
+    line-height: 1.2vw !important;
+  }
+  /*
+  h1 {
+    font-size: 6.75vw;
+    line-height: 1em;
+  }
+*/
+  .callout-circle .inner .copy h2 {
+    font-size: 5vw;
+    margin: 0 0 15px;
+  }
+  .callout-circle .inner .copy li {
+    font-size: 3.5vw;
+  }
+  .callout-circle .inner .copy p {
+    font-size: 3.5vw;
+  }
+  .intro-copy .inner h2, .intro-copy2 .inner h2, #AffiliatesPgs.intro-copy .inner h2, .text-only-section .inner h2 {
+    font-size: 5vw;
+    margin: 0 0 15px;
+  }
+  .unit-description h2 {
+    font-size: 5vw;
+    margin: 0 0 15px;
+  }
+  .intro-copy .inner h3, .text-only-section .inner h3 {
+    font-size: 3.5vw;
+  }
+  .intro-copy .text h4 {
+    font-size: 3.3vw;
+  }
+  .text-only-section h4 {
+    font-size: 3.2vw !important;
+  }
+  .intro-copy, .intro-copy2, #AffiliatesPgs.intro-copy2, .text-only-section {
+    padding: 2em 0px 1em;
+  }
+  .intro-copy .inner, .intro-copy2 .inner, .text-only-section .inner, #dj-content .intro-copy .inner {
+    margin: 0px auto;
+    font-size: 3vw;
+    line-height: 1.5em;
+    font-weight: 400;
+    flex-direction: column;
+  }
+  .intro-copy .text, .intro-copy2 .text, #AffiliatesPgs.intro-copy .text, #dj-content .intro-copy .text {
+    padding: 5% 4% 5%;
+    width: 100%;
+  }
+	.widthfiftypercent {
+  width: 100% !important;
+}
+  #ERGaward.intro-copy .text {
+    padding: 5% 4% 5%;
+    width: 100%;
+  }
+  #ERGaward.intro-copy .photo {
+    padding: 0 0 50%;
+    width: 100%;
+    background-size: cover;
+    background-color: none;
+  }
+  .unit-description .inner .text {
+    padding: 5% 5% 5%;
+    width: 90%;
+  }
+  #AffiliatesPgs.intro-copy .inner {
+    margin: 0px auto;
+    font-size: 3vw;
+    line-height: 1.5em;
+    font-weight: 400;
+    flex-direction: column;
+  }
+  #AffiliatesPgs.intro-copy .text {
+    padding: 5% 4% 5%;
+    width: 100%;
+  }
+  #AffiliatesPgs.intro-copy .map {
+    padding: 0;
+    width: 100%;
+  }
+  .intro-copy .text p, .intro-copy2 .text p, #AffiliatesPgs.intro-copy .text p, .text-only-section .text p, #erpexclusions.intro-copy li, #hiringpgERPsection.isolated p {
+    font-size: 3vw;
+    margin: 0 0 15px;
+  }
+  #audiointro a, #resptherapiesintro a, #occtherapyintro a, #phystherapyintro a, #radtherapyintro a, #slpintro a {
+    font-size: 3vw;
+  }
+  #hiringpgERPsection.isolated h2 {
+    font-size: 5vw;
+  }
+  .isolated .inner {
+    width: 95%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .hiringERPtxt {
+    flex-direction: column;
+    padding: 5%;
+  }
+  .hiringERPimage {
+    padding: 110% 0 0;
+  }
+  .hiringERPlogo {
+    text-align: center;
+    padding: 3%;
+  }
+  .unit-description p {
+    font-size: 3vw;
+    margin: 0 0 15px;
+  }
+  .unit-description .inner .text li {
+    font-size: 3vw;
+    margin: 0 0 15px;
+  }
+  .text-only-section li {
+    font-size: 3vw;
+  }
+  .callout-global-02 .inner p {
+    font-size: 3vw;
+    margin: 0 0 15px;
+  }
+  .plain-text .inner h2 {
+    font-size: 5vw;
+  }
+  .plain-text .inner p {
+    font-size: 3vw;
+  }
+  .intro-copy .photo, .intro-copy2 .photo {
+    padding: 50% 0 0;
+    width: 100%;
+  }
+	#audiointro .photo, #pharminfusionintro .photo, #pharminpatientintro .photo, #pharmoutpatientintro .photo, #pharmbuyerintro .photo, #pharminformaticsintro .photo, #pharminspecialityintro .photo   {
+   padding: 50% 0 0;
+    width: 100%;
+}
+  #workforceintro.photo {
+    padding: 60% 0 0;
+    width: 100%;
+  }
+  #unit-orient.intro-copy .photo {
+    margin: 0;
+    padding: 50% 0 0;
+    order: 1 !important;
+  }
+  #diversityintro {
+    background-size: 80%;
+    padding: 40% 10% 0 0%;
+    width: 100%;
+  }
+  .featured-career-areas ul {
+    margin: 2em auto 0px auto;
+  }
+  .featured-career-areas li {
+    width: 100%;
+    padding-bottom: 70%;
+    margin: 0px auto 0.2em;
+  }
+  .career-path-label {
+    font-size: 4.25vw;
+    padding: .5em 0px;
+    transition: all .5s ease;
+  }
+  .featured-career-areas li:hover .career-path-label span {
+    top: 66%;
+    transform: translateY(-66%);
+  }
+  section.featured-career-areas h2 {
+    font-size: 5vw;
+    line-height: 1.1em;
+  }
+  .talent-comm .table-text h2 {
+    font-size: 5vw;
+    line-height: 1.1em;
+    margin: 0px auto 10px auto;
+  }
+  .featured-jobs-front .featured-jobs-bottom p {
+    font-size: 2.8vw;
+    line-height: 1.5em;
+  }
+  .search-results h1 {
+    font-size: 5vw;
+  }
+  .search-results h2 {
+    font-size: 3.5vw;
+  }
+  .talent-network-form h1 {
+    font-size: 6vw;
+  }
+	#LPNsessioninfo .talent-network-form h1 {
+  font-size: 4.5vw;
+}
+  section.benefits-package h2 {
+    font-size: 4vw;
+  }
+  section.additional-benefits h2 {
+    font-size: 4vw;
+  }
+  section.leadership-programs h2 {
+    font-size: 5vw;
+    line-height: 1.1em;
+  }
+  section.wellness-programs h2 {
+    font-size: 5vw;
+    line-height: 1.1em;
+  }
+  .affiliates ul li, #affiliates-advpractpg.affiliates ul li {
+    width: 100%;
+    margin: 0 0 1.5%;
+  }
+  .affiliates h3 {
+    font-size: 4vw;
+  }
+  .affiliates h4 {
+    font-size: 2.5vw;
+    width: 80%;
+    margin: 0 auto 20px;
+  }
+  .affiliates .inner p {
+    font-size: 3.5vw;
+    line-height: 1.1em;
+  }
+  .affiliates .inner {
+    width: calc(100% - 60px);
+  }
+  .affiliates h3 br {
+    display: none;
+  }
+  .affiliates {
+    padding: 1.5em 0px 3em;
+  }
+  .affiliates .intro-txt {
+    font-size: 2.8vw;
+  }
+  .video-title p {
+    font-size: 2.8vw;
+  }
+  .wellness-area-wrapper .text {
+    font-size: 3.5vw;
+  }
+  .blog-announce .inner h2 {
+    font-size: 5.5vw;
+    line-height: 40px;
+  }
+  .blog-announce .inner h3 {
+    font-size: 2.5vw;
+    line-height: 1.3em;
+  }
+  .blog-announce .inner .copy {
+    box-sizing: border-box;
+    width: 55%;
+    padding: 3% 3%;
+  }
+  section.awards .inner {
+    width: 80%;
+    margin: 0px auto;
+    flex-direction: column;
+  }
+  .awards-details {
+    padding: 2% 0 1.5%;
+    margin: 0px 0px 10px;
+    width: 100%;
+  }
+  .awards-details p {
+    font-size: 2.8vw;
+    line-height: 1.5em;
+  }
+  .awards-logo {
+    padding: 2% 1% 0%;
+    margin: 0px auto;
+    width: 40%;
+  }
+  section.awards#forbesaward .inner {
+    margin-bottom: 0;
+  }
+  #forbesaward .awards-logo {
+    padding: 2% 1% 4%;
+  }
+  #foodawards .awards-logo {
+    margin: 0px auto 15px;
+    width: 60%;
+  }
+  .description-header {
+    font-size: 3vw;
+    line-height: 1.4em;
+  }
+  .description-text {
+    font-size: 3vw;
+    line-height: 1.4em;
+  }
+  #benepackage.intro-copy .text h2 {
+    font-size: 5vw;
+  }
+  .callout-global-02 .inner h2 {
+    font-size: 5vw;
+    margin: 0 0 10px;
+  }
+  .callout-global-02 .inner h3 {
+    font-size: 4.5vw;
+  }
+  .callout-global-03 {
+    padding: 5% 0 4%;
+  }
+  .highlight-02 li {
+    font-size: 3vw;
+  }
+  #app-process {
+    padding: 4% 0;
+  }
+  .highlight-02 ul {
+    padding-left: 20px;
+    margin: 0 0 10px;
+  }
+  .highlight-02 {
+    padding: 4% 5% 2%;
+  }
+  .job-details-btns form {
+    display: block !important;
+  }
+  .sub-buttons a, .apply a, .job-details-btns a, .utility-btn a {
+    width: 100% !important;
+  }
+  .body-class-job-referral .job-details-btns a {
+    width: auto !important;
+  }
+  .sub-buttons li {
+    width: 100%;
+  }
+  .div-strategy-chart .inner {
+    width: 90%;
+    flex-direction: column;
+  }
+  .div-strategy-callout {
+    padding: 0 0 1% 0;
+    width: 100%;
+    margin: 0 0 10px;
+  }
+  .bios .text h2 {
+    font-size: 5vw;
+    line-height: 1.2em;
+  }
+  .bios .text h3 {
+    font-size: 4vw;
+    line-height: 1.2em;
+  }
+  .bios .text p {
+    font-size: 3vw;
+    line-height: 1.3em;
+  }
+  .bios .quote {
+    padding: 5% 3%;
+    width: 94%;
+    font-size: 3vw;
+  }
+  .div-strategy-callout h2 {
+    font-size: 4.8vw;
+  }
+  .callout-lt-green-txt {
+    font-size: 3vw;
+    min-height: 0;
+    padding: 4% 5%;
+  }
+  .callout-descript-txt {
+    font-size: 3vw;
+  }
+  .callout-descript-txt p strong {
+    font-size: 3.2vw;
+  }
+  .isolated-header h2 {
+    font-size: 5vw;
+  }
+  .life-photo-bar h2 {
+    font-size: 4vw;
+  }
+  .callout-global-03 .inner {
+    margin: 0px auto 20px;
+    flex-direction: column;
+  }
+  .callout-global-03 .text {
+    padding: 4% 5% 4%;
+    width: 100%;
+  }
+  .callout-global-03#trainingprg .text {
+    padding: 2.5% 3% 2.5%;
+    width: 94%;
+  }
+  .callout-global-03#trainingprg .photo {
+    padding: 55% 0 0;
+    width: 100%;
+  }
+  .callout-global-03 .text h2 {
+    font-size: 4vw;
+    line-height: 1.1em;
+  }
+  .callout-global-03 .text h3 {
+    font-size: 3.5vw;
+  }
+  .callout-global-03 .text p {
+    padding: 5px 0% 0;
+    width: 100%;
+    font-size: 3vw;
+    line-height: 1.4em;
+  }
+  .callout-global-03 .photo {
+    padding: 50% 0 0;
+    width: 100%;
+  }
+	#PharmOpps.callout-global-03 ul {
+  -moz-column-count: 1;
+  -webkit-column-count: 1;
+  column-count: 1;
+}
+  #workingfields {
+    background-position: center 20%;
+    padding: 30% 0;
+  }
+  #whatisaclinasst {
+    background-position: center 20%;
+    padding: 30% 0;
+  }
+  .global-title-holder h2 {
+    font-size: 5vw;
+  }
+  .contact-container .inner {
+    flex-direction: column;
+    width: 86%;
+    padding: 2% 2%;
+  }
+  .contact-container .inner div {
+    padding: 2%;
+    margin: 0px 0 10px;
+    width: 100%;
+  }
+  .contact-container .inner div:first-child {
+    margin: 0px 0 10px 0;
+  }
+  .contact-container .inner div:last-child {
+    margin: 0px 0 0px;
+  }
+  #erpcontact.contact-container .inner div:first-child {
+    margin: 0px !important;
+  }
+  #erpcontact.contact-container {
+    margin: 1em 0;
+  }
+  #erpfootnote.footnote-text {
+    margin: 0 auto 25px;
+  }
+  .contact-container .inner h2 {
+    font-size: 5vw;
+  }
+  .contact-container .inner .contactbtn a {
+    font-size: 2.5vw;
+    width: 70%;
+  }
+  .contact-container .inner p {
+    font-size: 3vw;
+    line-height: 1.4em;
+  }
+  #AmNurseAward.intro-copy .photo, #USNewsAward.intro-copy .photo {
+    padding: 0;
+  }
+  #AmNurseAward.intro-copy .photo img, #USNewsAward.intro-copy .photo img {
+    width: 45%;
+    margin: 0 auto 15px;
+  }
+  .fact {
+    padding: 3% 4% 3%;
+    margin: 0px .75% 2.5%;
+    flex: 1;
+    flex-direction: row;
+  }
+  .ff-icon {
+    margin: 0 2% 0 0;
+    width: 16%;
+  }
+  .ff-icon img {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .ff-btm {
+    width: 70%;
+  }
+  .ff-btm h3 {
+    font-size: 6vw;
+    margin: 0;
+  }
+  .ff-btm p {
+    font-size: 3vw;
+  }
+  .isolated p {
+    font-size: 3vw;
+    width: 90%;
+  }
+  #hiringpgERPsection.isolated {
+    padding: 4% 0;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #hiringpgERPsection.isolated .inner {
+    width: 90%;
+  }
+  #recruiter-message.isolated {
+    padding: 5% 4%;
+    width: 92%;
+    text-align: center;
+  }
+  .isolated {
+    padding: 5% 4%;
+    text-align: left;
+    width: 92%;
+  }
+  .subpg-jobbtn-holder a {
+    font-size: 2.5vw;
+    max-width: none;
+    width: 70%;
+  }
+  .affiliates-ff h2 {
+    font-size: 5vw;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto 15px;
+  }
+  .isolated h2 {
+    font-size: 5vw;
+    margin: 0 auto 10px;
+  }
+  .talent-main .table-text p {
+    font-size: 3vw;
+  }
+  .map-row p {
+    font-size: 3vw;
+  }
+  .map-row h2 {
+    font-size: 5vw;
+  }
+  #job-details-map-holder {
+    flex-direction: column;
+  }
+  .search-results #job-details-map-holder dl {
+    width: 96%;
+    padding: 0 2%;
+  }
+	#dj-content iframe, #search-body iframe {
+  width: 100%;
+}
+  #job-details-map-holder .google-job-map {
+    width: calc(100% - 2px);
+    padding-bottom: 200px;
+  }
+  .map-right.google-job-map iframe {
+    height: 200px;
+  }
+  .map-row .table {
+    padding: 200px 0px 0px;
+  }
+  #job-details-map-holder .google-job-map iframe {
+    height: 200px;
+  }
+  .pathways-contact .inner {
+    padding: 3% 0;
+  }
+  .pathways-contact .inner p {
+    font-size: 3vw;
+    width: 90%;
+    text-align: left;
+  }
+  #pathwayprograms.intro-copy .photo {
+    padding: 2% 0;
+    width: 100%;
+  }
+  #pathwayprograms.intro-copy .photo img {
+    display: none;
+  }
+  section.intro-copy a {
+    font-size: 3vw;
+  }
+  .txt-only-btn a {
+    font-size: 3vw;
+  }
+  .pathways-contact .inner h2 {
+    text-align: left;
+  }
+  #BSNphone.contact-container .inner div {
+    padding: 1.5% 2% 1.5%;
+    margin: 0px 0;
+    background-color: #f3f3f4;
+    flex: 1;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .video-txt h2 {
+    font-size: 4.5vw;
+  }
+  .video-txt h3 {
+    font-size: 3vw;
+  }
+  section.benefits-pdfs h2 {
+    font-size: 4vw;
+  }
+  section.benefits-pdfs p {
+    font-size: 3vw;
+    margin: 0 auto 15px;
+  }
+  .benefits-box3 {
+    width: 90%;
+    padding: 5%;
+    margin-bottom: 15px;
+  }
+  #hiringfaqs a:link, #hiringfaqs a:active, #hiringfaqs a:visited {
+    font-size: 3vw;
+  }
+  a.applyprocess:link, a.applyprocess:active, a.applyprocess:visited {
+    font-size: 3vw;
+    line-height: 1.4em;
+  }
+  .radiologychart-holder .inner {
+    flex-direction: row;
+  }
+  .radiologychart-holder .inner div {
+    font-size: 2.5vw;
+  }
+	.newRNchart-holder .inner {
+    flex-direction: row;
+  }
+  .newRNchart-holder .inner div {
+    font-size: 2.5vw;
+  }
+	.uvmcRNchart-holder .inner div {
+  font-size: 2.5vw;
+}
+  .callout-global-03 .inner2 h2 {
+    font-size: 4vw;
+    line-height: 1.1em;
+    margin: 0px auto;
+  }
+  .video-title {
+    width: 92%;
+    padding: 4%;
+    order: 1;
+  }
+  .video-holder {
+    width: 100%;
+  }
+	#HHHdjvideo01 .video-holder {
+  width: 100%;
+}
+#LPNpgvideo .video-title, #UVMHNPathProgpgvideo .video-title, #Pharmpgvideo .video-title, #enviroservvideo .video-title, #cvmcpgvideo .video-title, #HHHpgvideo .video-title {
+    order: 0 !important;
+}
+  #interviewvideo.video-holder {
+    order: 1 !important;
+  }
+  .callout-global-03 .inner2 {
+    flex-direction: column;
+  }
+  #erpintro.intro-copy .text h3 {
+    font-size: 3.5vw;
+  }
+  #erpintro.intro-copy .text h4 {
+    font-size: 3vw;
+  }
+  a.utility-btn:link, a.utility-btn:active, a.utility-btn:visited {
+    margin: 0px 0 0;
+    font-size: 2.5vw;
+  }
+  .callout-global-03#cvmcpathways h2, .callout-global-03#trainingprg h2 {
+    font-size: 5vw;
+  }
+  .callout-global-03#cvmcpathways h4, .callout-global-03#trainingprg h4 {
+    font-size: 4vw;
+  }
+  .pdf-info {
+    width: 86%;
+  }
+  .pathways-contact h4 {
+    margin: 0;
+    font-size: 2.5vw;
+  }
+  .pathways-contact h4 {
+    font-size: 2.5vw;
+  }
+	#madisonvideo.callout-global-03  {
+ 	 margin-bottom: 1em;
+}
+  #mainpgvideo.callout-global-03 .inner2 h2, #madisonvideo.callout-global-03 .inner2 h2 {
+    font-size: 4.5vw;
+    line-height: 1.2em;
+  }
+  #mainpgvideo .video-title p,  #madisonvideo .video-title p {
+    line-height: 1.4em;
+    font-size: 3vw;
+  }
+  #mltpathaway-pg-form-upper {
+    padding: 1em;
+  }
+  #pathwayprograms.intro-copy .photo2 {
+    padding: 30% 0;
+    width: 100%;
+  }
+  #dialysisprogram.intro-copy .photo {
+    padding: 30% 0;
+    width: 100%;
+  }
+  .nursing-quotes .inner h2 {
+    font-size: 5vw;
+  }
+  .nursing-quotes blockquote {
+    font-size: 3vw;
+  }
+  .testimonial-slide p {
+    font-size: 3vw;
+  }
+  .nursing-quotes .inner {
+    width: 100%;
+  }
+  #worklifecomm p {
+    font-size: 3vw;
+    margin: 0 0 15px;
+  }
+  #projectsrch.intro-copy .photo {
+    width: 100%;
+  }
+  #projinfosection h3 {
+    font-size: 5vw;
+  }
+	#divpgprojspecial h2 {
+	font-size: 5vw;
+}
+	#lnatornprogram, #pathfinderprogram{
+  padding: 60% 0 0 !important;
+}
+	.advpract-areas .inner{
+		width: calc(100% - 60px);
+	}	
+	.advpract-areas .inner h2 {
+  font-size: 5vw;
+}
+	.advpract-areas p {
+ font-size: 3vw;
+}
+	 .advpract-areas h3 {
+    font-size: 4vw;
+  }
+	.mosaic .text h2 {
+  font-size: 5.5vw;
+}
+.mosaic .text h3 {
+  font-size: 4.5vw;
+}
+.affiliates-ff a {
+	font-size: 2.5vw;
+	width:70%;
+}
+	.bluebox{
+font-size: 3vw;
+}
+}
+@media only screen and (max-width: 675px) {
+  .quote-slider {
+    background-color: #ededed;
+    color: #ffffff;
+    margin: 0px auto 12px;
+    border-top: 9px solid #006443;
+  }
+  .quote-slider h2 {
+    display: none;
+  }
+  .quote-slider h2::after {
+    content: none;
+  }
+  .quote-slider .inner {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding-bottom: 160%;
+  }
+  .quote-slide.live .copy {
+    transform: translate(0%, 0%);
+  }
+  .quote-slider .copy {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 45.5%;
+    transform: translate(10%, 0%);
+    width: 80%;
+    padding: 5% 10%;
+  }
+  .quote-slider .copy .quote {
+    display: block;
+    font-size: 4.5vw;
+    line-height: 1.3em;
+    margin-bottom: 1em;
+  }
+  .quote-slider .copy .name {
+    display: block;
+    font-size: 3vw;
+  }
+  .quote-slider .photograph {
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: auto;
+    width: 100%;
+    padding-bottom: 70%;
+    border-radius: 0;
+  }
+  .prev-next {
+    bottom: 2em;
+    left: 10%;
+  }
+  .lower-controls {
+    bottom: 2.5em;
+    right: 10%;
+  }
+	#nurspgbtns.subpg-jobbtn-holder h3{
+	width:80%;
+		font-size: 3vw;
+}
+}
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 6.75vw;
+    line-height: 1em;
+    margin: 0px auto 20px;
+  }
+  .contact-us {
+    background-color: #f4f4f5;
+    color: #696a6c;
+    padding: 20% 0px 45px;
+    background-image: url("../images/mobile-contact-curves.png"), url("../images/grey-back-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    background-position: top center, bottom center;
+  }
+  .contact-us .inner .link-list {
+    font-size: 13px;
+    line-height: 1em;
+    padding: 20px 0px;
+    margin: 25px auto 0px;
+    text-align: center;
+  }
+  .contact-us .inner .link-list a {
+    padding: 4px 10px 4px 10px;
+    margin: 3px 0px;
+  }
+  .contact-us .inner .link-list a::before {
+    height: 1px;
+    transform-origin: center;
+  }
+  .contact-us .inner .link-list .column {
+    display: block;
+    margin: 0px auto 1em;
+    width: 100%;
+  }
+  .contact-us .social-media li a {
+    margin-top: 9px;
+    width: 28px;
+    height: 28px;
+  }
+  .footer-nav {
+    display: block;
+    position: static;
+    transform: translateY(0%);
+    width: 100%;
+    text-align: center;
+    margin: 20px auto 0px;
+  }
+  .footer-logo {
+    width: 180px;
+    margin: 0px auto;
+  }
+  .footer-top .address {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .footer-top .eoe {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .featured-jobs-front .featured-jobs-bottom h4 {
+    font-size: 4.5vw;
+  }
+  .awards-details h2 {
+    font-size: 4.5vw;
+  }
+  .callout-circle {
+    padding: 1% 0px 15%;
+    margin: 60px auto 0px;
+  }
+  .callout-circle .inner .copy h2 {
+    text-align: left;
+  }
+  .callout-circle .inner .cc-photo, .callout-circle .inner .cvph-photo, .callout-circle .inner .ech-photo, .callout-circle .inner .ahmc-photo, .callout-circle .inner .hhh-photo, .callout-circle .inner .logistics-photo, .callout-circle .inner .ca-requirements-photo {
+    display: block;
+    width: 280px;
+    padding-bottom: 280px;
+    margin: -50px auto 10%;
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, .22);
+  }
+  .callout-circle .inner .cc-photo::before, .callout-circle .inner .cvph-photo::before, .callout-circle .inner .ech-photo::before, .callout-circle .inner .ahmc-photo::before, .callout-circle .inner .hhh-photo::before, .callout-circle .inner .logistics-photo::before, .callout-circle .inner .ca-requirements-photo::before {
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+  }
+  .callout-circle .inner .cc-photo::after, .callout-circle .inner .cvph-photo::after, .callout-circle .inner .ech-photo::after, .callout-circle .inner .ahmc-photo::after, .callout-circle .inner .hhh-photo::after, .callout-circle .inner .logistics-photo::after, .callout-circle .inner .ca-requirements-photo::after {
+    z-index: 1;
+    top: -8px;
+    left: -8px;
+    right: 8px;
+    bottom: 8px;
+  }
+  .callout-circle .inner .copy {
+    display: block;
+    margin: 0px auto 0px;
+    width: 100%;
+    max-width: 600px;
+    font-size: 3vw;
+    line-height: 1.4em;
+    font-weight: 400;
+  }
+  .callout-circle .inner .copy li:last-child {
+    margin-bottom: 0px;
+  }
+	#rn-entities h2 {
+    font-size: 4vw;
+		margin: 0px auto 20px;
+}
+	.rnentity-title {
+    font-size: 4vw;
+}
+	.newRNchart-holder h2 {
+  font-size: 4vw;
+}
+	#rn-entities .inner3 {
+  padding: 10px 0 10px;
+}
+}
+@media only screen and (max-width: 480px) {
+  main {
+    margin-top: 124px;
+  }
+  h2 {
+    font-size: 3.6vw;
+    line-height: 1.1em;
+  }
+  .bannersub .inner .copy a {
+    padding: 4% 10%;
+    margin: 0px 0px 0px;
+    font-size: 3vw;
+    line-height: 1em !important;
+  }
+  .intro-copy, .intro-copy2, #AffiliatesPgs.intro-copy, .text-only-section {
+    padding: 2em 0px 1.5em;
+  }
+  .intro-copy .inner, .intro-copy2 .inner, #AffiliatesPgs.intro-copy .inner, .text-only-section .inner {
+    font-size: 4vw;
+    line-height: 1.3em;
+  }
+  .callout-global-02 .inner p {
+    font-size: 3.5vw;
+  }
+  .contact-us .social-media {
+    display: block;
+    text-align: center;
+    position: static;
+    margin: 0px auto;
+  }
+  .contact-us .phone {
+    text-align: center;
+  }
+  .contact-us .phone a {
+    padding: 10px 25px 10px 32px;
+  }
+  .contact-us .social-media li {
+    margin: 0px 3px 0px 1px;
+  }
+  footer {
+    padding: 35px 0px 85px;
+    font-size: 11px;
+    line-height: 19px;
+    text-align: center;
+    border-top: 8px solid #699d27;
+  }
+  footer .inner {
+    width: 80%;
+  }
+  .footer-top {
+    padding: 0px 0px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, .25);
+  }
+  .footer-top .address {
+    display: block;
+    width: 100%;
+  }
+  .footer-top .eoe {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .featured-jobs-front {
+    color: #54585b;
+    padding: 2em 0px;
+  }
+  .featured-jobs-front h2 {
+    font-size: 6vw;
+    line-height: 1em;
+    margin: 0 auto 10px;
+  }
+  /*
+  .shareThis-holder-main-pg {
+    margin: 10px 0 0;
+  }
+*/
+  section.featured-career-areas h2 {
+    font-size: 7vw;
+    line-height: 1.1em;
+  }
+  .featured-jobs-front .featured-jobs-bottom {
+    margin: 0px auto 0px auto;
+    font-size: 14px;
+    line-height: 21px;
+    width: 80%;
+    text-align: left;
+  }
+  .featured-jobs-front .featured-jobs-bottom > div, .featured-jobs-front .featured-jobs-bottom > div:first-child, .featured-jobs-front .featured-jobs-bottom > div:last-child {
+    display: block;
+    width: 100%;
+    margin: 0px auto 0px;
+    position: relative;
+    padding: 1em 0;
+    border-bottom: 1px dashed rgba(84, 88, 91, .15);
+    text-align: left;
+  }
+  .featured-jobs-front .featured-jobs-bottom > div:last-child {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 0px auto 0px;
+    position: relative;
+    padding: 1em 10px 1em;
+    border-bottom: 0px dashed rgba(84, 88, 91, .15);
+  }
+  .featured-jobs-front .featured-jobs-bottom h4 {
+    font-size: 5vw;
+    line-height: 1.2em;
+    display: block;
+    margin: 0px auto 10px;
+    letter-spacing: -.02em;
+  }
+  .talent-network-inside .table-text a {
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 400;
+    letter-spacing: .01em;
+    padding: 13px 24px 15px;
+    display: inline-block;
+    text-align: left;
+    color: #ffffff !important;
+    position: relative;
+    z-index: 2;
+    -moz-box-shadow: 1px 2px 3px rgba(19, 60, 85, .2);
+    -webkit-box-shadow: 1px 2px 3px rgb(19 60 85 / 20%);
+    box-shadow: 1px 2px 3px rgb(19 60 85 / 20%);
+    margin: 5px 0 5px 0;
+    transition: all 0.2s ease;
+    overflow: hidden;
+    left: 0;
+  }
+  .talent-network-inside .table-text a:hover, .talent-network-inside .table-text a:focus, .talent-network-inside .table-text a:active {
+    color: #ffffff;
+    padding: 13px 24px 15px;
+  }
+  .talent-network-inside .table-text a::before {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 50%;
+    right: 21px;
+    z-index: 1;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: all 0.2s ease;
+  }
+  .talent-network-inside .table-text a:hover:before, .talent-network-inside .table-text a:focus:before, .talent-network-inside .table-text a:active:before {
+    opacity: 1;
+    transform: translateY(-50%);
+  }
+  .featured-jobs-front .featured-jobs-bottom p {
+    display: block;
+    min-height: 0em;
+    font-size: 3.5vw;
+    line-height: 1.3em;
+  }
+  section.featured-career-areas {
+    padding: 2.25em 0px .5em;
+  }
+  .featured-career-areas ul {
+    margin: 1.5em auto 0px auto;
+  }
+  .career-path-label {
+    font-size: 4vw;
+  }
+  .featured-jobs-front h2 {
+    font-size: 7vw;
+    line-height: 1em;
+    width: 80%;
+    text-align: left;
+  }
+  .mobile-search-button {
+    padding: 15px 30px 14px;
+  }
+  .mobile-search-button::before {
+    right: 30px;
+    transform: translateY(-50%);
+  }
+  .search ul.search-content {
+    padding: 15px 30px 20px;
+  }
+  #search-body .sub-search ul.search-content {
+    padding: 15px 30px 20px;
+  }
+  #search-body .inner {
+    width: calc(100% - 40px);
+  }
+  .results-content > div {
+    padding: 1.5em 0;
+  }
+  .featured-jobs .inner {
+    width: calc(100% - 50px);
+  }
+  .search-results h1 {
+    font-size: 1.8em;
+    line-height: 1.1em;
+  }
+  .talent-network-form {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2em 2.5em;
+    box-shadow: none;
+  }
+  section.benefits-package h2 {
+    font-size: 6vw;
+  }
+  section.additional-benefits h2 {
+    font-size: 6vw;
+  }
+  section.leadership-programs h2 {
+    font-size: 7vw;
+  }
+  section.wellness-programs h2 {
+    font-size: 7vw;
+  }
+  .affiliates .intro-txt {
+    font-size: 3.5vw;
+    line-height: 1.3em;
+  }
+  .affiliates h3 {
+    font-size: 4vw;
+    line-height: 1.3em;
+  }
+  .affiliates h4 {
+    font-size: 2.5vw;
+  }
+  .affiliates .inner p {
+    font-size: 3.5vw;
+    line-height: 1.1em;
+  }
+  .front-page-intro .inner {
+    width: 100%;
+    margin: 0px auto;
+  }
+  .front-page-intro .inner .copy {
+    box-sizing: border-box;
+    width: 100% !important;
+    padding: 5% 10% 5.5% !important;
+    background-color: rgba(255, 255, 255, .7) !important;
+  }
+  .front-page-intro .background-image {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: none;
+  }
+  .front-page-intro {
+    padding: 0px 0px 0em !important;
+  }
+  .front-page-intro .inner h2 {
+    font-size: 6vw;
+    line-height: 1.1em;
+  }
+  .front-page-intro .inner p {
+    font-size: 3.5vw;
+    line-height: 1.4em;
+  }
+  #google_translate_element {
+    left: 0;
+  }
+  #banner-area, #banner-area.job-search-banner {
+    height: 90vw;
+  }
+  #banner-area .inner {
+    top: auto;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 100%;
+  }
+  #banner-area .inner .copy {
+    width: 92%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    max-width: none;
+    padding: 4%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+	#slide4 .copy, #slide5 .copy /*add to increase body width on lengthy banners - remove when done*/
+{
+	width: 92% !important;
+  max-width: none !important;
+}
+  #banner-area .inner .copy::before {
+    content: none;
+  }
+  #banner-area .inner .copy::after {
+    content: none;
+  }
+  #banner-area .slide::after {
+    content: none;
+  }
+  #banner-area .slide.current::after {
+    opacity: 1;
+    transition: .45s all ease-in-out .15s;
+  }
+  #banner-area .slide::before {
+    width: 100%;
+    background-size: cover;
+  }
+  #banner-area .slide.current::before {
+    right: 0%;
+    transition: .65s all ease-in-out;
+  }
+	#slide1::before {
+    background-image: url("../images/main/slider/slide1m.jpg");
+	  background-position: center 65% !important;
+  }
+	#slide2::before {
+    background-image: url("../images/main/slider/slide-comm-hospice-mobile.jpg");
+	  background-position: center 70% !important;
+  }
+	#slide3::before {
+   background-image: url("../images/main/slider/slide-lpn-mobile.jpg");
+	  background-position: center 10% !important;
+  }
+	#slide4::before {
+   background-image: url("../images/main/slider/slider-medoffice-m.jpg");
+	  background-position: center center !important;
+  }
+	#slide5::before {
+    background-image: url("../images/main/slider/slide-rad-tech-mobile.jpg");
+	  background-position: center 40% !important;
+  }
+ 
+  #banner-area::after {
+    content: "";
+    position: absolute;
+    z-index: 50;
+    left: 0;
+    bottom: auto;
+    top: 0;
+    right: 0;
+    height: 28px;
+    background-color: rgba(0, 0, 0, .2);
+    /*    background-image: linear-gradient( 90deg, #789D4A 10%, #a1c771 45%, #a1c771 55%, #789D4A 90%);*/
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, .075)
+  }
+  #banner-area .slidenav {
+    bottom: auto;
+    top: 1px;
+    right: 0px;
+    padding: 1px 21px 3px 2px;
+    border-radius: 50px 0px 0px 50px;
+  }
+  #banner-area .slidenav li:first-child {
+    margin: 0px 0px 0px 0px;
+  }
+  #banner-area .controls {
+    top: 4px;
+    right: auto;
+    left: 18px;
+    bottom: auto;
+    opacity: .85;
+  }
+  #banner-area.sub-banner-class {
+    background-position: top center;
+    background-size: cover;
+    border-bottom: none;
+  }
+  #banner-area.sub-banner-class h1 {
+    margin: 2em auto .5em !important;
+  }
+  #banner-area.sub-banner-class::after {
+    content: none;
+  }
+  #banner-area .inner .copy br {
+    display: none;
+  }
+  .talent-main h2 {
+    font-size: 5vw !important;
+    margin: 0 auto 15px;
+    line-height: 1.1em;
+  }
+  .talent-main .table-text p {
+    font-size: 3.5vw;
+  }
+  .blog-announce {
+    padding: 10em 0px 2em;
+  }
+  .blog-announce .inner h2 {
+    font-size: 6.5vw;
+    line-height: 1.1em;
+  }
+  .blog-announce .inner h3 {
+    font-size: 3vw;
+    line-height: 1.3em;
+  }
+  .blog-announce .inner {
+    width: 100%;
+    max-width: none;
+    margin: 0px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+  }
+  .blog-announce .inner .copy {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 3% 3%;
+  }
+  .blog-announce .background-image {
+    background-image: url(../images/main/top-weave.png), url(../images/main/banner-blog-v1.jpg);
+    background-size: contain, cover;
+    background-position: bottom center, top center;
+    background-repeat: no-repeat;
+  }
+  #blog-mainpg a {
+    margin: 5px 0 0px;
+    font-size: 3vw;
+  }
+  .description-text {
+    margin: 15px auto 20px;
+    font-size: 3.5vw;
+    width: 90%
+  }
+  .benefits-box-btm, .benefits-box2-btm {
+    font-size: 4.5vw;
+    line-height: 1.3em;
+    margin-top: 20px;
+    min-height: 0;
+  }
+  .highlight-02 li {
+    font-size: 3.5vw;
+  }
+  #unit-orient.intro-copy .photo {
+    padding: 70% 0 0;
+  }
+  .subpg-jobbtn-holder a {
+    font-size: 3vw;
+    line-height: 1.3em;
+  }
+  .te-field.te-field-first_name {
+    width: 100%;
+    margin-right: 0;
+  }
+  .te-field.te-field-last_name {
+    width: 100%;
+    margin-right: 0;
+  }
+  .te-field.te-field-state {
+    width: 100%;
+    margin-right: 0;
+  }
+  .te-field.te-field-zipcode {
+    width: 100%;
+    margin-right: 0;
+  }
+  .talent-network-page #search-body .inner, .body-class-interest-capture #search-body .inner, .body-class-job-referral #search-body .inner {
+    width: 100%;
+  }
+  .body-class-interest-capture #search-body, .talent-network-page #search-body, .body-class-job-referral #search-body {
+    padding: 0 0px;
+  }
+  section.benefits-pdfs h2 {
+    font-size: 6vw;
+  }
+  #meetourteam h2 {
+    font-size: 5vw;
+  }
+  #banner-area .inner .copy h2 {
+    font-size: 5.5vw;
+    line-height: 1.1em;
+  }
+  #banner-area .inner .copy h3 {
+    font-size: 4vw;
+    margin: 5px 0;
+  }
+  #banner-area .inner .copy h4 {
+    font-size: 3vw;
+    margin: 5px 0;
+  }
+  #banner-area .inner .copy p {
+    font-size: 3vw;
+    margin: 5px 0 0;
+    width: 100%;
+  }
+  #banner-area li a {
+    padding: 8px 20px;
+    margin: 5px 0 0px;
+    font-size: 3vw;
+    line-height: 1.2em;
+  }
+  #recruiter-message.isolated a {
+    margin: 5px 0 0px;
+    font-size: 3vw;
+  }
+  #recruiter-message.isolated {
+    padding: 5% 0;
+    width: 100%;
+    text-align: center;
+  }
+	.rnentity-content .inner-accordion ul {
+     column-count: 1 !important;
+}
+	.affiliates-ff a {
+	font-size: 3vw;
+}
+}
+@media screen and (min-width: 1000px) {
+  .mobile-only {
+    display: none !important;
+  }
+  .sub-search {
+    width: 100%;
+  }
+}

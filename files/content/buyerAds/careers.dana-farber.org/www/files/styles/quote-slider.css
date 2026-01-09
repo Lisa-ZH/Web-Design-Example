@@ -1,0 +1,509 @@
+.quote-slider {
+	background-image: url(../images/main/quote-loops.png), linear-gradient(#0077bc, #0063a5);
+	background-size: cover;
+	background-position: bottom center;
+	color: #ffffff;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	width: 100%;
+}
+h2.quote-slider-header {
+	position: absolute;
+    z-index: 1;
+    top: 15%;
+    left: 60%;
+    right: 10%;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 400;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #ffffff;
+    letter-spacing: .01em;
+}
+.mobile-quote-spacer {
+	display: none;
+}
+.quote-slider .inner {
+	width: 95%;
+	position: relative;
+	z-index: 1;
+	padding-bottom: 45%;/* Edited by LZ 07-31-2023 - was 35% */
+	max-width: 1500px;
+margin: 0px auto;
+}
+.quote-slider ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.quote-slider ul li {
+	display: inline-block;
+}
+.quote-slider ul li.quote-slide {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.quote-slider ul li.quote-slide .image {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	right: 50%;
+	bottom: 0;
+	background-color: #0063a5;
+}
+.quote-slider ul li.quote-slide .copy {
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	right: 0;
+	padding: 10% 4% 7.5%;/*was 10% 7.5% 7.5%*/
+	font-size: 22px;
+    line-height: 26px;
+    font-weight: 300;
+	letter-spacing: .025em;
+	transform: translate(10%, -50%);
+	opacity: 0;
+	transition: all .25s ease-in-out .0s;
+	    text-align: left;
+ }
+.quote-slider ul li.quote-slide-4 .copy {
+	    font-size: 20px;
+    line-height: 22px;
+    font-weight: 300;
+
+	letter-spacing: .015em;
+}
+.quote-slider ul li.quote-slide.live .copy {
+	transform: translate(0%, -50%);
+	opacity: 1;
+	transition: all .45s ease-in-out .3s;
+}
+.quote-slider ul li.quote-slide .copy .by-line {
+	display: block;
+	margin: 1.5em 0px 0px;
+	font-size: 21px;
+	line-height: 24px;
+	font-weight: 800;
+}
+.quote-slide .image {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.quote-slide-1 .image {
+	background-image: url("../images/main/quote-slides/image1.jpg");
+}
+.quote-slide-2 .image {
+	background-image: url("../images/main/quote-slides/image2.jpg");
+}
+.quote-slide-3 .image {
+	background-image: url("../images/main/quote-slides/image3.jpg");
+}
+.quote-slide-4 .image {
+	background-image: url("../images/main/quote-slides/image4.jpg");
+}
+.pd-quotes .quote-slide-1 .image {
+	background-image: url("../images/sub/philanthropy/testimonial-slides/image1.jpg");
+}
+.pd-quotes .quote-slide-2 .image {
+	background-image: url("../images/sub/philanthropy/testimonial-slides/image2.jpg");
+}
+.pd-quotes .quote-slide-3 .image {
+	background-image: url("../images/sub/philanthropy/testimonial-slides/image3.jpg");
+}
+.pd-quotes .quote-slide-4 .image {
+	background-image: url("../images/sub/philanthropy/testimonial-slides/image4.jpg");
+}
+.pd-quotes .quote-slider ul li.quote-slide-4 .copy {
+	font-size: 19px;
+	line-height: 28px;
+}
+.quote-controls {
+	position: absolute;
+	z-index: 20020;
+	right: 5%;
+	left: 55%;
+	bottom: 10%;
+	transform: translateY(50%);
+}
+.prev-next {
+	position: absolute;
+	z-index: 20;
+	bottom: 0;
+	left: 0;
+	display: inline-block;
+	text-align: center;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.prev-next li {
+	display: inline-block;
+	margin: 0px 5px 0px 0px;
+	border: 2px solid;
+	width: 28px;
+	height: 28px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.prev-next li a {
+	position: absolute;
+	z-index: 1;
+	padding: 50px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #ffffff;
+	transition: all .2s ease-in-out .0s;
+}
+.prev-next li a:hover, .prev-next li a:focus, .prev-next li a:active {
+	color: #0077BC;
+	transition: all .2s ease-in-out .1s;
+	text-decoration: none;
+}
+.prev-next li a::after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	border-radius: 50%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ffffff;
+	transform: scale(0);
+	transition: all .3s ease-in-out;
+}
+.prev-next li a:hover::after, .prev-next li a:focus::after, .prev-next li a:active::after {
+	transform: scale(1);
+}
+.lower-controls {
+	position: absolute;
+	z-index: 20;
+	bottom: 11px;
+	right: 0%;
+	display: inline-block;
+	text-align: center;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.lower-controls li {
+	display: inline-block;
+	margin: 0px 1px;
+}
+.lower-controls .dot {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 2px solid #ffffff;
+	transition: all .2s ease-in-out;
+}
+.lower-controls .dot:hover, .lower-controls .dot:focus, .lower-controls .dot:active {
+	transform: translateY(-3px);
+}
+.lower-controls .dot.active {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 2px solid #ffffff;
+	background-color: #ffffff;
+}
+.quote-slide {
+	opacity: 0;
+	transition: all .3s ease-in-out;
+}
+.quote-slide.live {
+	opacity: 1;
+}
+
+
+
+@media only screen and (max-width: 1500px) {
+	.quote-slider .inner {
+		width: 100%;
+	}
+	h2.quote-slider-header {
+		font-size: 2.3vw;
+		line-height: 1em;
+		padding-bottom: .35em;
+	}
+	.quote-slider ul li.quote-slide .copy, .quote-slider ul li.quote-slide-4 .copy {
+		    font-size: 1.4vw;
+    line-height: 1.2em;
+		padding: 12% 4% 7.5%;
+	}
+	.quote-slider ul li.quote-slide .copy .by-line {
+		margin: 1.25em 0px 0px;
+		font-size: 1.3vw;
+		line-height: 1.4em;
+	}
+	.prev-next li {
+		display: inline-block;
+		margin: 0px 5px 0px 0px;
+		border: 2px solid;
+		width: 21px;
+		height: 21px;
+	}
+	.prev-next li a {
+		font-size: 12px;
+		line-height: 12px;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.quote-slider {
+		background-image: none;
+		color: #ffffff;
+		margin: 0%;/*was -26% 0px -5%*/
+	}
+	h2.quote-slider-header {
+		display: none;
+	}
+	.quote-slider .inner {
+		padding: 0px !important;
+	}
+	.mobile-quote-spacer {
+		display: block;
+		width: 100%;
+		padding-bottom: 150%;
+		background-image: url("../images/global/quote-spacer.png");
+		background-size: contain;
+		background-position: top center;
+		background-repeat: no-repeat
+	}
+	.quote-slider ul li.quote-slide .image {
+		top: 0;
+		left: 50%;
+		right: auto;
+		bottom: auto;
+		transform: translateX(-50%);
+		z-index: 20;
+		width: 65%;
+		padding-bottom: 65%;
+        border-radius: 500px;
+		overflow: hidden;
+	    background-color: #0063a5;
+		background-image: -webkit-linear-gradient(bottom left, rgba(255,255,255,.4), rgba(255,255,255,.0) 50%);
+		background-image: -o-linear-gradient(bottom left, rgba(255,255,255,.4), rgba(255,255,255,.0) 50%);
+		background-image: linear-gradient(to top right, rgba(255,255,255,.4), rgba(255,255,255,.0) 50%);
+
+	}
+	.quote-slider ul li.quote-slide .image::before, .quote-slider ul li.quote-slide .image::after {
+		content: "";
+		position: absolute;
+	}
+	.quote-slider ul li.quote-slide .image::before {
+		z-index: 2;
+		top: 14px;
+		left: 14px;
+		right: 14px;
+		bottom: 14px;
+		border-radius: 500px;
+		background-color: #444444;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.quote-slider ul li.quote-slide .image::after {
+		z-index: 1;
+		top: -15px;
+		left: -15px;
+		right: 15px;
+		bottom: 15px;
+/*
+		border-radius: 500px;
+		background-image: -webkit-linear-gradient(top left, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 60%);
+		background-image: -o-linear-gradient(top left, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 60%);
+		background-image: linear-gradient(to bottom right, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 60%);
+*/
+	}
+	.quote-slider ul li.quote-slide-1 .image, .quote-slider ul li.quote-slide-1 .image::before {
+		background-color: #ffa300;
+	}
+	.quote-slider ul li.quote-slide-2 .image, .quote-slider ul li.quote-slide-2 .image::before {
+		background-color: #ffa300;
+	}
+	.quote-slider ul li.quote-slide-3 .image, .quote-slider ul li.quote-slide-3 .image::before {
+		background-color: #ffa300;
+	}
+	.quote-slider ul li.quote-slide-4 .image, .quote-slider ul li.quote-slide-4 .image::before {
+		background-color: #ffa300;
+	}
+	.quote-slider ul li.quote-slide-1 .image::before {
+		background-image: -webkit-linear-gradient(55deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/main/quote-slides/image1.jpg");
+		background-image: -o-linear-gradient(55deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/main/quote-slides/image1.jpg");
+		background-image: linear-gradient(145deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/main/quote-slides/image1.jpg");
+	}
+	.quote-slider ul li.quote-slide-2 .image::before {
+		background-image: -webkit-linear-gradient(55deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/main/quote-slides/image2.jpg");
+		background-image: -o-linear-gradient(55deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/main/quote-slides/image2.jpg");
+		background-image: linear-gradient(145deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/main/quote-slides/image2.jpg");
+	}
+	.quote-slider ul li.quote-slide-3 .image::before {
+		background-image: -webkit-linear-gradient(55deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/main/quote-slides/image3.jpg");
+		background-image: -o-linear-gradient(55deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/main/quote-slides/image3.jpg");
+		background-image: linear-gradient(145deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/main/quote-slides/image3.jpg");
+	}
+	.quote-slider ul li.quote-slide-4 .image::before {
+		background-image: -webkit-linear-gradient(55deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/main/quote-slides/image4.jpg");
+		background-image: -o-linear-gradient(55deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/main/quote-slides/image4.jpg");
+		background-image: linear-gradient(145deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/main/quote-slides/image4.jpg");
+	}
+	
+
+	.pd-quotes ul li.quote-slide-1 .image::before {
+		background-image: -webkit-linear-gradient(55deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/sub/philanthropy/testimonial-slides/image1.jpg");
+		background-image: -o-linear-gradient(55deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/sub/philanthropy/testimonial-slides/image1.jpg");
+		background-image: linear-gradient(145deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/sub/philanthropy/testimonial-slides/image1.jpg");
+	}
+	.pd-quotes ul li.quote-slide-2 .image::before {
+		background-image: -webkit-linear-gradient(55deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/sub/philanthropy/testimonial-slides/image2.jpg");
+		background-image: -o-linear-gradient(55deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../sub/philanthropy/testimonial-slides/image2.jpg");
+		background-image: linear-gradient(145deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/sub/philanthropy/testimonial-slides/image2.jpg");
+	}
+	.pd-quotes ul li.quote-slide-3 .image::before {
+		background-image: -webkit-linear-gradient(55deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/sub/philanthropy/testimonial-slides/image3.jpg");
+		background-image: -o-linear-gradient(55deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/sub/philanthropy/testimonial-slides/image3.jpg");
+		background-image: linear-gradient(145deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/sub/philanthropy/testimonial-slides/image3.jpg");
+	}
+
+	.pd-quotes ul li.quote-slide-4 .image::before {
+
+		background-image: -webkit-linear-gradient(55deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/sub/philanthropy/testimonial-slides/image4.jpg");
+		background-image: -o-linear-gradient(55deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/sub/philanthropy/testimonial-slides/image4.jpg");
+		background-image: linear-gradient(145deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%), url("../images/sub/philanthropy/testimonial-slides/image4.jpg");
+
+	}
+	.quote-slider ul li.quote-slide .copy, .quote-slider ul li.quote-slide-4 .copy {
+		position: absolute;
+		z-index: 2;
+		top: auto;
+		left: 50%;
+		right: auto;
+		bottom: 0;
+		width: 120%;
+		padding: 0% 0% 110%;
+/*		border-radius: 5000px;*/
+		transform: translateX(-50%);
+		opacity: 0;
+		transition: all .25s ease-in-out .0s;
+		overflow: hidden;
+		background-color: #0077bc;
+/*
+		background-image: -webkit-linear-gradient(bottom left, rgba(255,255,255,.4), rgba(255,255,255,.0) 50%);
+		background-image: -o-linear-gradient(bottom left, rgba(255,255,255,.4), rgba(255,255,255,.0) 50%);
+		background-image: linear-gradient(to top right, rgba(255,255,255,.4), rgba(255,255,255,.0) 50%);
+*/
+	}
+	.quote-slider ul li.quote-slide .copy::before, .quote-slider ul li.quote-slide .copy::after {
+		content: "";
+		position: absolute;
+	}
+	.quote-slider ul li.quote-slide .copy::before {
+		z-index: -1;
+		top: 12px;
+		left: 12px;
+		right: 12px;
+		bottom: 12px;
+/*		border-radius: 500px;*/
+		background-color: #0077bc;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-image: -webkit-linear-gradient(155deg, rgba(255,255,255,.4), rgba(255,255,255,0) 50%);
+	}
+	.quote-slider ul li.quote-slide .copy::after {
+		z-index: -2;
+		top: -13px;
+		left: -13px;
+		right: 13px;
+		bottom: 13px;
+/*		border-radius: 500px;*/
+		background-image: -webkit-linear-gradient(top left, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 60%);
+		background-image: -o-linear-gradient(top left, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 60%);
+		background-image: linear-gradient(to bottom right, rgba(255,255,255,.6) 20%, rgba(255,255,255,.2) 60%);
+	}
+	.quote-slider ul li.quote-slide.live .copy, .quote-slider ul li.quote-slide-4.live .copy {
+		transform: translateX(-50%);
+		opacity: 1;
+		transition: all .45s ease-in-out .1s;
+	}
+	.quote-slider ul li.quote-slide .copy > span {
+		position: absolute;
+		width: 80vw;
+		font-size: 3vw;
+		line-height: 1.35em;
+		font-weight: 400;
+		letter-spacing: .01em;
+		z-index: 1;
+		top: 55%;/* Edited by LZ 07-31-2023 - was 50% */
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.hhh-quotes ul li.quote-slide .copy > span {
+		width: 80vw;
+		font-size: 4.6vw;
+		line-height: 1.3em;
+		font-weight: 400;
+		letter-spacing: .01em;
+	}
+/*
+	.quote-slider ul li.quote-slide-4 .copy > span {
+		width: 84vw;
+		font-size: 4.6vw;
+		line-height: 1.25em;
+		font-weight: 400;
+		letter-spacing: .01em;
+	}
+*/
+	.quote-slider ul li.quote-slide .copy .by-line {
+		margin: 1em 0px 0px;
+		font-size: 3vw;
+		line-height: 1em;
+		font-weight: 400;
+	}
+	.quote-controls {
+		position: absolute;
+		z-index: 2020;
+		right: auto;
+		left: 50%;
+		bottom: 40px;
+		width: 40%;
+		transform: translateX(-50%);
+		text-align: center;
+	}
+	.prev-next {
+		position: static;
+		display: inline-block;
+		text-align: center;
+	}
+	.prev-next li {
+		display: inline-block;
+		margin: 0px 3px 0px 3px;
+		border: 2px solid;
+		width: 33px;
+		height: 32px;
+	}
+	.prev-next li a {
+		font-size: 3.5vw;
+		line-height: 1em;
+	}
+	.lower-controls {
+		display: none;
+	}
+}

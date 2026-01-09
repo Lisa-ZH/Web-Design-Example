@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta id="testViewport" name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- Google -->
+	<meta itemprop="image" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this/social-image.jpg">
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image:src" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this/social-twitter-image.jpg">
+	<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+	<meta property="og:image" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this/social-image.jpg">
+	<meta property="og:image:secure_url" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this/social-image.jpg">
+	<!-- Open Graph (LinkedIn) -->
+	<meta name="image" property="og:image" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this/social-image.jpg">
+	<link rel="shortcut icon" href="/static/sites/wwwfiles/images/favicon.ico">
+	<script type="application/ld+json">
+	  {
+		  "@context": "http://schema.org",
+		  "@type": "Organization",
+		  "url": "{{ CANONICAL_URL }}/",
+		  "image": "{{ CANONICAL_URL }}/static/sites/www/files/images/global/knowledge-graph-logo/logo.png",
+		  "logo": "{{ CANONICAL_URL }}/static/sites/www/files/images/global/knowledge-graph-logo/logo.png"
+	  }
+	</script>
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="/static/sites/www/files/images/favicons/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="/static/sites/www/files/images/favicons/favicon.svg" />
+	<link rel="shortcut icon" href="/static/sites/www/files/images/favicons/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/static/sites/www/files/images/favicons/apple-touch-icon.png" />
+	<meta name="apple-mobile-web-app-title" content="SavATree" />
+	<link rel="manifest" href="/static/sites/www/files/images/favicons/site.webmanifest" />
+	<!-- End Favicon -->
+	<!-- <script src="/static/js/common.js"></script> -->
+	<link rel="stylesheet" href="https://use.typekit.net/ufj8mlj.css">
+	<link rel="stylesheet" href="files/css/style.css" />
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<!--||{% load job_tags pagination_tags static %}||-->
+	<script src="{% static "js/common.js" %}"></script>
+	<!--||{% block head %}{% endblock %}||-->
+</head>
+<body>
+<a href="#main" class="skip-to-content">Skip to Content</a>
+<header id="header" class="click-menu">
+    <div class="wrap">
+        <div class="logo">
+            <a href="/"><img src="files/images/global/logo-color.png" alt="SavaTree Logo"></a>
+        </div>
+        <button data-target="#0" class="menu-toggle" aria-controls="nav">
+            <span>Open Menu</span>
+        </button>
+        <div class="nav-wrap" id="nav" aria-expanded="false">
+            <a href="" class="signin-link">Sign In</a>
+            <nav class="main-menu">
+               <ul>
+				   <li><a href="/">Home</a></li>
+				   <!-- 
+				   <li><a href="/our-culture.html">Our Culture</a></li>
+				   <li><a href="/career-paths.html">Career Paths</a></li> 
+				   -->
+				   <li><a href="/jobs/">Job Opportunities</a></li>
+				   <li><a href="mailto:talent@savatree.com">Contact Us <div class="sr-only">(opens email app)</div></a></li>
+			   </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<main class="main">
+	<section class="inner-banner">
+		<div class="inner-banner-image our-culture"></div>
+		<div class="inner-banner-content our-culture">
+			<h1>Terms &amp; Conditions</h1>	
+		</div>
+	</section>
+	<section class="job-search-bar">
+		<button class="mobile-search-button" href="#search-form" aria-controls="search-form" aria-expanded="false">Search Jobs<div class="search-jobs-icon"><span></span></div></button>
+		<ul class="search-content" id="search-content">
+			<li>
+				<form id="search-form" method="get" action="/jobs/">
+					<input name="search_term" type="text" id="search_term" placeholder="Search Jobs by Keyword" value="">
+					<button type="submit" class="search-button" id="search_term_btn" value="" aria-label="submit keyword search">
+						<span class="sr-only">Submit Keyword Search</span>
+					</button>
+				</form>
+			</li>
+			<li>
+				<button class="search-accordion-button" href="#category-search" aria-controls="category-search" aria-expanded="false">Search Jobs by Category</button>
+				<ul class="search-content" id="category-search">
+					<!--||{% category_choices %}||-->
+					<!--||{% comment %}||-->
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<!--||{% endcomment %}||-->
+				</ul>
+			</li>
+			<li>
+				<button class="search-accordion-button" href="#location-search" aria-controls="location-search" aria-expanded="false">Search Jobs by Location</button>
+				<ul class="search-content" id="location-search">
+					<!--||{% location_choices %}||-->
+					<!--||{% comment %}||-->
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<li class="accordion-link"><a href="">Category Name</a></li>
+					<!--||{% endcomment %}||-->
+				</ul>
+			</li>
+			<li>
+				<a href="{% url 'search' %}" class="btn green">Search All Jobs</a>
+			</li>
+		</ul>
+	</section>
+<section class="plain-text">
+	<div class="wrap"> 
+<h2>Links</h2>
+
+<p>This site may contain links to other websites which we feel may be of interest to you. We accept no responsibility for or liability in respect of the content of those websites. The use of any such links is entirely at your own risk.</p>
+<h2>Use of this site</h2>
+
+<p>You may only use this site for lawful purposes and must not under any circumstances seek to misuse or vandalise this site in any way. In particular, but without limitation, you must not seek to access, alter or delete any information you are not authorised to access, attempt to overload the system or take any actions intended crash, delay, damage or otherwise interfere with the operation of this site or attempt to decipher, disassemble or modify any of the software, coding or information used in the site.</p>
+
+<p>You are solely responsible for any information submitted by you to this site. You are responsible for ensuring that all information supplied by you is true, accurate, up to date and not misleading or likely to mislead or deceive. You must not use this site to distribute, store or post any material which is discriminatory, obscene, offensive, defamatory or otherwise illegal, unlawful or in breach of any applicable legislation, regulations, guidelines or codes of practice or the copyright, trade mark or other intellectual property rights of any person in any jurisdiction.</p>
+
+<p>We may remove any information supplied by you from the website at our sole discretion, at any time and for any reason without being required to give any explanation.</p>
+
+<p>We may deny you access to the site by any lawful means at our disposal at any time or any reason without notice or explanation, or withdraw this site entirely, at our sole discretion.</p>
+<h2>Use of passwords</h2>
+
+<p>If you choose to register with our site, you will need to use a user name and password. You are solely responsible for the security and proper use of your password, which should be kept confidential at all times and not disclosed to any other person. You must notify us immediately if you believe that someone else knows your password. SavATree Company accepts no liability for any unauthorised or improper use or disclosure of any password.</p>
+<h2>Use of material</h2>
+
+<p>All intellectual property rights in or relating to the design of, and content on the site are and shall remain the sole property of SavATree Company, or where applicable are reproduced with the permission of the rights owner, such as content suppliers, affiliates and/or you.</p>
+
+<p>You may not modify, reproduce, display, distribute or sell any such material for any commercial or business purpose without SavATree Company’s prior written permission.</p>
+
+<p>Your use of the site and downloads from it, and the operation of these terms and conditions, shall be in accordance with the laws of England and Wales.</p>
+<h2>Disclaimer</h2>
+
+<p>Whilst SavATree Company makes every effort to ensure that the information on the site is accurate and up to date, we accept no liability for any loss or damage to you or any third party that may arise from, or in relation to, the use of any information posted on this site at any time.</p>
+
+<p>By using this site you agree to indemnify and hold harmless SavATree Company any and all costs damages, claims, liabilities, proceedings or expenses (including legal expenses) which may arise directly or indirectly from or in relation to any use or misuse of this site.</p>
+<h2>Changes to terms and conditions</h2>
+
+<p>These terms and conditions may be changed by SavATree Company at any time. You will be deemed to accept the terms and conditions (as amended) when you next use the site following any amendment</p>
+</div>
+</section>
+</main>
+
+<footer id="footer">
+     <div class="top-bar">
+    <div class="wrap">
+       
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="/">Home</a></li>
+					 <!-- 
+					 <li><a href="/our-culture.html">Our Culture</a></li>
+					 <li><a href="/career-paths.html">Career Paths</a></li> 
+					 -->
+					 <li><a href="/jobs/">Job Opportunities</a></li>
+					 <li><a href="mailto:talent@savatree.com">Contact Us <div class="sr-only">(opens email app)</div></a></li>
+                </ul>
+            </nav>
+
+            <nav class="social-media">
+                <strong>Connect With Us</strong>
+                <ul>
+                     <li>
+                        <a href="https://www.instagram.com/savatree_official/">
+						<svg class="instagram">
+						<use xlink:href="files/images/global/social-icons/icons.svg#instagram" />
+						</svg>
+						</a>
+                    </li>
+					<!--||{% block linkedin %}||--> 
+                    <li>
+                        <a href="https://www.linkedin.com/company/savatree">
+						<svg class="linkedin">
+						<use xlink:href="files/images/global/social-icons/icons.svg#linkedin" />
+						</svg>
+						</a>
+                    </li>
+					<!--||{% endblock linkedin %}||--> 
+                    <li>
+                        <a href="https://www.facebook.com/SavATreeHQ/">
+						<svg class="facebook">
+						<use xlink:href="files/images/global/social-icons/icons.svg#facebook" />
+						</svg>
+						</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=PdmgtKll3TY">
+						<svg class="youtube">
+						<use xlink:href="files/images/global/social-icons/icons.svg#youtube" />
+						</svg>
+						</a>
+                    </li>
+                    <li>
+                        <a href="https://savatree.staging-fxrecruiter.com/feeds/jobs-rss">
+						<svg class="rss">
+						<use xlink:href="files/images/global/social-icons/icons.svg#rss" />
+						</svg>
+						</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/savatree">
+						<svg class="x">
+						<use xlink:href="files/images/global/social-icons/icons.svg#x" />
+						</svg>
+						</a>
+                    </li
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="bottom-bar">
+        <div class="wrap">
+            <p><strong>Have any questions? Please reach out to <a href="mailto:talent@savatree.com">talent@savatree.com</a></strong></p>
+            <p>© 2025 SavATree | <a href="/privacy-policy.html">Privacy Policy</a> | <a href="/terms-of-conditions.html">Terms & Conditions</a></p>
+        </div>
+    </div>
+</footer>
+
+<script src="files/js/app.js" type="text/javascript"></script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+User-Agent: *
+Disallow: /feeds/
+Disallow: /apply/
+Disallow: /crm/apply/
+Disallow: /send-link/
+Disallow: /referral/
+Disallow: /linkedin-login/
+Disallow: /linkedin-apply/
+Disallow: /linkedin-mobile-apply/
+Crawl-delay: 2
+Sitemap: https://www.houstonmethodistcareers.org/sitemap.xml

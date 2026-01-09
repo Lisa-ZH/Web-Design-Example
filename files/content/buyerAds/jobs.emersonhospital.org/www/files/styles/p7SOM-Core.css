@@ -1,0 +1,190 @@
+/* 
+  -----------------------------------
+  Slide-Out Menu
+  by Project Seven Development
+  www.projectseven.com
+  Core CSS
+  -----------------------------------
+*/
+
+.p7SOM {
+	position: fixed !important;
+	height: 100%;
+	border: none;
+	width: auto;
+	-webkit-transition: width linear .35s 0s;
+	transition: width linear .35s 0s;
+}
+.p7SOM ul {
+	height: 100%;
+	overflow: auto;
+}
+.p7SOM ul ul {
+	height: auto;
+}
+
+.p7SOM,
+.p7SOM li,
+.p7SOM ul,
+.p7SOM ul a {
+	background-image: url(../images/global/mobile-nav/shim.png);
+}
+.p7SOM ul {
+	padding: 0px;
+	position: relative;
+	margin: auto;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.p7SOM ul ul {
+	min-width: 0px;
+	max-width: none;
+	display: block;
+	overflow: visible;
+	max-height: none;
+}
+
+.p7SOM ul li {
+	list-style-type: none;
+}
+
+.p7SOM ul li a {
+	display: block;
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.p7SOM ul ul {
+	display: block;
+}
+
+/*.p7SOM.som-shadows ul {box-shadow: 0px 0px 10px rgba(0,0,0,.5);}*/
+.p7SOM.som-shadows.som-from-right {padding-left: 10px;}
+.p7SOM.som-shadows.som-from-left {padding-right: 10px;}
+
+
+.p7SOM.som-auto-subs ul ul {width: auto;}
+
+/*Upsize Triggers */
+.p7SOM a.trig_closed,
+.p7SOM a.trig_open {
+	/*font-size: 120%;*/
+}
+
+/*
+NO-SCRIPT RULES
+The following rules enable your menu to work even when javascript is disabled in the browser
+*/
+
+.p7SOM.p7SOMnoscript {
+	position: static !important;
+	margin: auto !important;
+	display: block !important;
+}
+.som-toolbar.p7SOMnoscript {
+	display: none !important;
+}
+
+/*Toolbar Hamburger */
+.som-toolbar {
+	/*background: none !important;
+	display: inline-block !important;
+	position: absolute;
+	top: 0px;*/
+	display:none !important /*SA*/;
+}
+.som-toolbar a {
+	font-size: 2.25em;
+	line-height: .75em;
+	display: inline-block !important;
+	text-decoration: none;
+	font-family: Arial, Verdana, sans-serif;
+}
+.som-toolbar {
+	text-align: center;
+}
+.som-toolbar i {
+	cursor: pointer;
+}
+.som-toolbar.som-top-left {
+	left: .5em;
+	top: 0px;
+	border-radius: 0px 0px 5px 5px;
+}
+.som-toolbar.som-top-right {
+	right: 1em;
+	top: 10px;
+	border-radius: 5px 5px 5px 5px;
+}
+.som-toolbar.som-top-left a,
+.som-toolbar.som-top-right a {
+	border-radius: 5px;
+/*	padding: 5px 9px;*/
+}
+.som-toolbar.som-bottom-left {
+	left: .5em;
+	bottom: 0px;
+	border-radius: 5px 5px 0px 0px;
+}
+.som-toolbar.som-bottom-right {
+	right: .5em;
+	bottom: 0px;
+	border-radius: 5px 5px 0px 0px;
+}
+.som-toolbar.som-bottom-right,
+.som-toolbar.som-bottom-right a {
+	border-radius: 5px 5px 0px 0px !important;
+}
+.som-toolbar.som-bottom-left a,
+.som-toolbar.som-bottom-right a {
+	padding: .25em .35em .15em .35em;
+	border-radius: 5px 5px 0px 0px !important;
+}
+
+/*Menu Header */
+.som-header {
+	display: block;
+	cursor: pointer;
+	background-position: 98% 50%;
+	background-repeat: no-repeat;
+
+	}
+
+.p7SOM ul {
+	display: block !important;
+}
+.p7SOM ul ul, .p7SOM ul div {
+	position: static !important;
+	width: auto !important;
+	margin: 0px !important;
+}
+.p7SOM li {
+	float: none !important;
+	margin: 0px !important;
+}
+@media only screen and (max-width: 1200px) {/*To show menu in mobile SA*/
+.som-toolbar {
+	background: none !important;
+	display: inline-block !important;
+	position: absolute;
+	top: 0px;
+	
+}
+.p7SOM {
+	display: block;
+	width: 100%;
+}
+}
+ @media only screen and (min-width: 0px) and (max-width: 480px) {
+.p7SOM {
+	display: block;
+	width: 100%;
+}
+/*End old Android workaround*/
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	body {cursor: pointer;}
+	
+}

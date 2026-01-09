@@ -1,0 +1,159 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Titillium Web", sans-serif;
+  font-size: 16px;
+  line-height: 1.5
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+}
+section div .box{
+    margin: 10px;
+}
+section.column{
+    flex-direction: column;
+}
+.box{
+    width: 250px;
+    height: 30px;
+    border: solid 1px #FFFFFF;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box .text{
+    font-size: 12px;
+    color: #393535;
+}
+.box .text.white{
+    color: #ffffff;
+}
+    padding: 10px 20px;
+.box .left.text{
+    text-align: left;
+}
+.box .right.text{
+    text-align: right;
+}
+.b-1{
+    background-image: linear-gradient(90deg, #A2BBDA 0%, #E8F1F6 100%)
+}
+.b-2{
+    background-image: linear-gradient(90deg, #C4B3B7 0%, #F4EBEF 100%)
+}
+.b-3{
+    background-image: linear-gradient(90deg, #F0B1A8 0%, #FEFEF2 100%)
+}
+.b-4{
+    background-image: linear-gradient(90deg, #9BCFC2 0%, #E1F2F4 100%)
+}
+.b-5{
+    background-image: linear-gradient(90deg, #B0C8AE 0%, #F6F2E8 100%)
+}
+.b-6{
+    background-image: linear-gradient(90deg, #72749A 0%, #FFF5DF 100%)
+}
+.b-7{
+    background-image: linear-gradient(90deg, #728B9A 0%, #FCE5D7 100%)
+}
+.b-8{
+    background-image: linear-gradient(90deg, #729A93 0%, #FBFEE5 100%)
+}
+.b-9{
+    background-image: linear-gradient(90deg, #D693A1 0%, #E2F5FF 100%)
+}
+.b-10{
+    background-image: linear-gradient(90deg, #9FB6D9 0%, #D9F0E3 100%)
+}
+.b-11{
+    background-image: linear-gradient(90deg, #BA8DB9 0%, #FFF0E1 100%)
+}
+.b-12{
+    background-image: linear-gradient(90deg, #BA8D8E 0%, #FAF2D9 100%)
+}
+.b-13{
+    background-image: linear-gradient(90deg, #D9CA8F 0%, #D7ECF6 100%)
+}
+.b-14{
+    background-image: linear-gradient(90deg, #8FC9BD 0%, #EEDDF9 100%)
+}
+.b-15-blue{
+    background-color: #394261; 
+}
+.b-16-blue{
+    background-color: #4A5989; 
+}
+.b-17-blue{
+    background-color: #6A7FC1; 
+}
+.b-18-blue{
+    background-color: #9CB6DD; 
+}
+.b-19-blue{
+    background-color: #D3E2F2; 
+}
+.b-15-green{
+    background-color: #2D584B; 
+}
+.b-16-green{
+    background-color: #448870; 
+}
+.b-17-green{
+    background-color: #87C1AA; 
+}
+.b-18-green{
+    background-color: #B4DBCA; 
+}
+.b-19-green{
+    background-color: #DAEDE4; 
+}
+.b-20{
+    background-color: #008C8C;
+}
+.b-21{
+    background-color: #003153;
+}
+.b-22{
+    background-color: #F9DC24;
+}
+.b-23{
+    background-color: #002FA7;
+}
+.b-24{
+    background-color: #E85827;
+}
+.b-25{
+    background-color: #81D8D0; 
+}
+.b-26{
+    background-color: #800020; 
+}
+.b-27{
+    background-color: #4C0009; 
+}
+.b-28{
+    background-color: #8F4B28; 
+}
+.b-29{
+    background-color: #B05923; 
+}

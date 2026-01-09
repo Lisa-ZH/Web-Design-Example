@@ -1,0 +1,75 @@
+/*------ Location-- Primary Care Group & Specialty PhysicianGroup page ------*/
+@media screen and (max-width: 900px) {
+  .pcg-content .inner, .spg-content .inner {
+    flex-direction: column-reverse;
+  }
+  .pcg-content.pcg2 .inner, .spg-content.spg2 .inner {
+    flex-direction: column;
+  }
+  .pcg-content.pcg1 .photo, .pcg-content.pcg2 .photo, .pcg-content.pcg3 .photo {
+    width: 100%;
+    margin-top: 30px;
+    padding: 25%;
+  }
+  .pcg-content .inner .inner-wrap, .spg-content .inner .inner-wrap {
+    width: 80%;
+    padding: 50px;
+  }
+  .spg-content.spg1 .photo, .spg-content.spg2 .photo {
+    width: 100%;
+    padding: 25%;
+  }
+  .featured-talent h1 {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pcg-content .inner .inner-wrap, .spg-content .inner .inner-wrap {
+    padding: 20px;
+  }
+  .featured-talent {
+    display: block
+  }
+  .featured-talent h1 {
+    display: block;
+    font-size: 2.5rem;
+    margin-top: 0;
+  }
+  .featured-talent-container {
+    flex-direction: column;
+  }
+  .featured-talent-container .inner {
+    display: block;
+    width: 100%;
+    padding-bottom: 50%;
+    background-position: center 15%;
+  }
+  .featured-talent .inner .copy {
+    max-height: 100%;
+    background-color: rgba(30, 50, 90, .7215686275)
+  }
+  .featured-talent .inner .copy h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .pcg-content .inner .inner-wrap, .spg-content .inner .inner-wrap {
+    width: 90%;
+    padding: 30px;
+  }
+  .pcg-content .inner h3, .spg-content .inner h3 {
+    font-size: 24px;
+  }
+  .pcg-content.pcg2 .inner h3, .spg-content.spg2 .inner h3 {
+    font-size: 24px;
+  }
+  .pcg-content .inner ul, .spg-content .inner ul {
+    font-size: 18px;
+  }
+  .pcg-content .inner p, .spg-content .inner p {
+    font-size: 18px;
+  }
+  .featured-talent .inner .copy h2 {
+    font-size: 25px;
+  }
+}

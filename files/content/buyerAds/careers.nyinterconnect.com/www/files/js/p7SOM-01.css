@@ -1,0 +1,138 @@
+/* 
+  -----------------------------------
+  Slide-Out Menu
+  by Project Seven Development
+  www.projectseven.com
+  Style Theme: 01 - Spartan Dark
+  -----------------------------------
+*/
+
+.p7SOM-01 ul {
+	background-color: #eeeeee;
+	background: rgba(255,255,255,1);
+}
+
+/*Design View Background*/
+.p7SOM-01.p7SOMnoscript ul {
+	background: none !important;
+	background-color: #222 !important;
+}
+
+.p7SOM-01 ul ul {
+	background-color: transparent;
+	background: none;
+}
+
+.p7SOM-01 ul a {
+	font-size: .9em !important;
+	padding: 18px 45px;
+	color: #000000;
+	text-decoration: none;
+	border-radius: 0px !important;
+	-webkit-transition: all linear .25s;
+	transition: all linear .25s;
+	border-bottom: 1px solid #efefef;
+}
+.p7SOM-01 ul a:after {
+    content: "  \➞";
+    font-size: 1.8em;
+    display: inline-block;
+	position: absolute;
+	vertical-align: middle;
+	margin-left: 10px;
+	padding-bottom: 2px;
+	right: 45px
+}
+.p7SOM-01 ul ul a {
+	padding: 16px 85px;
+	background: #eeeeee;
+}
+.p7SOM-01 ul ul a:after {
+    content: "";
+    font-size: 1.8em;
+    display: inline-block;
+	position: absolute;
+	vertical-align: middle;
+	margin-left: 10px;
+	padding-bottom: 2px;
+	right: 45px
+}
+.p7SOM-01 ul a:hover {
+	background-color: #555;
+	color: #FFF;
+}
+.p7SOM-01 ul a.trig_open {
+	background-color: #333;
+	color: #ffffff;
+}
+.p7SOM-01 ul a.trig_open:after {
+    content: "" !important;
+    font-size: 1.6em;
+    display: inline-block;
+	position: absolute;
+	vertical-align: middle;
+	margin-left: 10px;
+	padding-bottom: 2px;
+	right: 45px
+}
+.p7SOM-01 a.trig_closed {
+	background-image: url(img/som-right-medium.gif);
+}
+.p7SOM-01 ul ul a.trig_closed {
+	background-image: url(img/som-right-medium.gif);
+}
+.p7SOM-01 a.trig_open {
+	background-image: url(img/som-down-medium.gif);
+}
+.p7SOM-01 ul ul a {
+	border-bottom: 0px solid rgba(0,0,0,.1);
+	font-size: .9em;
+}
+
+/*Level indentations */
+.p7SOM-01 ul ul ul a {
+	padding-left: 36px;
+}
+.p7SOM-01 ul ul ul ul a {
+	padding-left: 48px;
+}
+
+
+/*CURRENT MARK */
+.p7SOM-01 a.current_mark {
+}
+
+/*Toolbar */
+.p7SOM-01.som-toolbar a {
+	color: #ffffff !important;
+	-webkit-transition: all linear .25s;
+	transition: all linear .25s;
+}
+.p7SOM-01.som-toolbar a:hover {
+	color: #EEE !important;
+}
+.p7SOM-01.som-toolbar.opened a {
+	color: #ffffff;
+}
+
+/* Toolbar Icon Text */
+.som-toolbar i {
+    color: #fff;
+    display: block;
+    font-family: Arial,"Lucida Grande","Lucida Sans Unicode",sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    padding-top: 3px;
+    text-transform: uppercase;
+}
+
+/*Menu Header */
+.p7SOM-01 .som-header {
+	padding: 2px 18px;
+	font-size: 1.2em;
+	background-color: #ffffff;
+	background: rgba(255,255,255,0.9);
+	-webkit-transition: all linear .25s;
+	transition: all linear .25s;
+}
+

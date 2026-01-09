@@ -1,0 +1,175 @@
+/*------ Location-- Primary Care Group & Specialty PhysicianGroup page ------*/
+.interior-banner .interior-banner-img.locations-pcg {
+  background-image: url("../images/redesign/sub/locations/primary-care/banner-pcg.jpg");
+  background-position: center top;
+    padding-top: 20%; 
+    padding-bottom: 20%; 
+}
+.interior-banner .interior-banner-img.locations-spg {
+  background-image: url("../images/redesign/sub/locations/specialty-physician/banner-spg.jpg");
+  background-position: center top;
+}
+.pcg-content, .spg-content {
+  width: 100%;
+  background-image: linear-gradient(90deg, #507491 0%, #345168 100%)
+}
+.pcg-content.pcg2, .spg-content.spg2 {
+  background-color: #fff;
+  background-image: none;
+}
+.pcg-content .inner, .spg-content .inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 0;
+    max-width: unset;
+}
+.pcg-content.pcg1 .inner {
+  align-items: center;
+}
+.pcg-content .photo, .spg-content .photo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 50%;
+}
+.pcg-content.pcg1 .photo {
+  background-image: url("../images/redesign/sub/locations/primary-care/pcg-1.jpg");
+  background-position: center top;
+  background-size: contain;
+  padding: 15%;
+}
+.pcg-content.pcg2 .photo {
+  background-image: url("../images/redesign/sub/locations/primary-care/pcg-2.jpg");
+  background-position: right top;
+  padding: 15%;
+}
+.pcg-content .inner .inner-wrap, .spg-content .inner .inner-wrap {
+  width: 45%;
+  margin: 0 auto;
+  padding: 50px 30px;
+}
+.pcg-content .inner h3, .spg-content .inner h3 {
+  font-size: 32px;
+  line-height: 1.2;
+  color: #fff;
+  margin: 0 0 15px;
+  font-weight: 300;
+}
+.pcg-content .inner h3 strong, .spg-content .inner h3 strong {
+  font-weight: 700;
+}
+.pcg-content.pcg2 .inner h3, .spg-content.spg2 .inner h3 {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #ab0032;
+  margin: 0 0 10px
+}
+.pcg-content.pcg2 .inner p, .spg-content.spg2 .inner p {
+  color: #000;
+  font-size: 18px;
+}
+.pcg-content .inner ul, .spg-content .inner ul {
+  font-size: 21px;
+  margin-bottom: 5px;
+}
+.pcg-content .inner ul li, .spg-content .inner ul li {
+  margin: 0 10px 0 0;
+  color: #fff;
+}
+.pcg-content.pcg2 .inner ul li, .spg-content.spg2 .inner ul li {
+  color: #000;
+}
+.pcg-content .inner p, .spg-content .inner p {
+  color: #fff;
+  font-size: 21px;
+}
+.featured-talent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /*max-width: 1620px;*/
+  margin: 0 auto
+}
+.featured-talent h1 {
+  display: inline-block;
+  font-size: 4rem;
+  line-height: 2.5rem;
+  font-weight: 300;
+  color: #1e325a;
+  text-align: center;
+  margin-top: 60px;
+}
+.featured-talent-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.featured-talent .inner {
+  border: 1px solid #fff;
+  height: 0;
+  flex: 1;
+  position: relative;
+  padding-bottom: 38%;
+  padding-left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.featured-talent .inner.pcg-feature-1 {
+  background-image: url("../images/redesign/sub/locations/primary-care/featured-ph.jpg")
+}
+.featured-talent .inner.pcg-feature-2 {
+  background-image: url("../images/redesign/sub/locations/primary-care/featured-ma.jpg")
+}
+.featured-talent .inner.pcg-feature-3 {
+  background-image: url("../images/redesign/sub/locations/primary-care/featured-app.jpg")
+}
+.featured-talent .inner .copy {
+  background-color: #1e325a;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  max-height: 25%;
+  text-align: center;
+  padding: 15px 50px;
+  transition: all .25s ease-in-out
+}
+.featured-talent .inner .copy h2 {
+  font-size: 1.875vw;
+  margin: auto;
+  line-height: 1.2;
+  font-weight: normal;
+}
+.featured-talent .inner:hover .copy {
+  max-height: 100%;
+  background-color: rgba(30, 50, 90, .8)
+}
+.spg-content.spg1 .photo {
+  background-image: url("../images/redesign/sub/locations/specialty-physician/spg-1.jpg");
+  background-position: center top;
+  padding: 10%;
+}
+.spg-content.spg2 .photo {
+  background-image: url("../images/redesign/sub/locations/specialty-physician/spg-2.jpg");
+  background-position: center center;
+  padding: 10%;
+}
+.featured-talent .inner.spg-feature-1 {
+  background-image: url("../images/redesign/sub/locations/specialty-physician/featured-ph.jpg")
+}
+.featured-talent .inner.spg-feature-2 {
+  background-image: url("../images/redesign/sub/locations/specialty-physician/featured-ma.jpg")
+}
+.featured-talent .inner.spg-feature-3 {
+  background-image: url("../images/redesign/sub/locations/specialty-physician/featured-app.jpg")
+}

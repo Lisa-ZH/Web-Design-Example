@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expanding Carousel</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #f5f5f5;
+    }
+
+    .carousel-container {
+        position: relative;
+        width: 80%;
+        max-width: 800px;
+        overflow: hidden;
+    }
+
+    .carousel {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        align-items: center;
+        
+    }
+
+    .slide {
+        position: relative;
+        flex: 0 0 25%; /* 0 0 25% */
+        transition: all 0.5s ease-in-out;
+        overflow: hidden;
+        height: 400px;
+        padding-right: 15px;
+        border-radius: 20px;
+    }
+
+    .slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: translateX(-75%); /* translateX(-75%) */
+        transition: transform 0.5s ease-in-out;
+        
+    } 
+
+    .caption {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
+        display: none;
+    }
+
+    .active {
+        flex: 0 0 75%;
+    }
+
+    .active img {
+        transform: translateX(0);
+    } 
+
+    .active .caption {
+        display: block;
+    }
+
+    .prev,
+    .next,
+    .stop {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .prev {
+        left: 10px;
+    }
+
+    .next {
+        right: 10px;
+    }
+
+    .stop {
+        top: auto;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .dots {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .dot {
+        height: 10px;
+        width: 10px;
+        margin: 0 5px;
+        background: gray;
+        border-radius: 50%;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .dot.active {
+        background: black;
+    }
+</style>
+</head>
+
+<body>
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="slide"><img src="images/1.jpeg" alt="Slide 1">
+                <div class="caption">Caption 1</div>
+            </div>
+            <div class="slide"><img src="images/2.jpeg" alt="Slide 2">
+                <div class="caption">Caption 2</div>
+            </div>
+            <div class="slide"><img src="images/3.jpeg" alt="Slide 3">
+                <div class="caption">Caption 3</div>
+            </div>
+            <div class="slide"><img src="images/4.jpeg" alt="Slide 4">
+                <div class="caption">Caption 4</div>
+            </div>
+            <div class="slide"><img src="images/1.jpeg" alt="Slide 1">
+                <div class="caption">Caption 1</div>
+            </div>
+            <div class="slide"><img src="images/2.jpeg" alt="Slide 2">
+                <div class="caption">Caption 2</div>
+            </div>
+            <div class="slide"><img src="images/3.jpeg" alt="Slide 3">
+                <div class="caption">Caption 3</div>
+            </div>
+            <div class="slide"><img src="images/4.jpeg" alt="Slide 4">
+                <div class="caption">Caption 4</div>
+            </div>
+        </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+        <button class="stop">Stop</button>
+        <div class="dots"></div>
+    </div>
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        const carousel = document.querySelector('.carousel');
+        const prevBtn = document.querySelector('.prev');
+        const nextBtn = document.querySelector('.next');
+        const stopBtn = document.querySelector('.stop');
+        const dotsContainer = document.querySelector('.dots');
+        let index = 0;
+        let interval;
+        let isPlaying = true;
+
+        function updateCarousel() {
+            let newIndex = index % slides.length;
+            if (newIndex < 0) newIndex += slides.length;
+
+            carousel.style.transition = 'transform 0.5s ease-in-out';
+            carousel.style.transform = `translateX(-${newIndex * 25}%)`;
+
+            slides.forEach((slide, i) => {
+                slide.classList.toggle('active', i === newIndex);
+            });
+
+            document.querySelectorAll('.dot').forEach((dot, i) => dot.classList.toggle('active', i === newIndex));
+        }
+
+        function nextSlide() {
+            index = (index + 1) % slides.length;
+            updateCarousel();
+        }
+
+        function prevSlide() {
+            index = (index - 1 + slides.length) % slides.length;
+            updateCarousel();
+        }
+
+        function startAutoPlay() {
+            interval = setInterval(nextSlide, 3000);
+            stopBtn.textContent = 'Stop';
+            isPlaying = true;
+        }
+
+        function stopAutoPlay() {
+            clearInterval(interval);
+            stopBtn.textContent = 'Play';
+            isPlaying = false;
+        }
+
+        function togglePlay() {
+            if (isPlaying) {
+                stopAutoPlay();
+            } else {
+                startAutoPlay();
+            }
+        }
+
+        prevBtn.addEventListener('click', () => { prevSlide(); stopAutoPlay(); startAutoPlay(); });
+        nextBtn.addEventListener('click', () => { nextSlide(); stopAutoPlay(); startAutoPlay(); });
+        stopBtn.addEventListener('click', togglePlay);
+
+        slides.forEach(() => dotsContainer.innerHTML += '<span class="dot"></span>');
+        document.querySelectorAll('.dot').forEach((dot, i) => dot.addEventListener('click', () => { index = i; updateCarousel(); stopAutoPlay(); startAutoPlay(); }));
+
+        updateCarousel();
+        startAutoPlay();
+    </script>
+</body>
+
+</html>

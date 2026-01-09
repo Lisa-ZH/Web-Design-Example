@@ -1,0 +1,318 @@
+@media screen and (max-width: 1140px) {
+  header .logo-holder {
+    padding: 0 0 0 20px;
+  }
+  header .inner {
+    padding:0;
+  }
+  header .inner ul::before {
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  header {
+    background-color: #2db865;
+    padding: 10px;
+    position: absolute;
+   z-index: 40;
+  }
+  header .inner {
+    display: block;
+    text-align: left;
+  }
+  header .logo-holder {
+    margin: 0 auto;
+    padding:0;
+    display: block;
+    width: 60px;
+    text-align: center;
+  }
+  
+  .header__menu {
+    margin-bottom: 60px;
+    margin-top: 40px;
+  }
+ 
+  .burger {
+    display: block;
+    float:right;
+    margin-top: -28px;
+  }
+  .header__burger {
+    display: block;
+    font-size: 1rem;
+    height: 30px;
+    line-height: 20px;
+    position: relative;
+    text-align: right;
+    width: 50px;
+    z-index: 40;
+    color: #fff;
+    background: none;
+    border: none;
+    font-weight: 300;
+  }
+  
+  .header__burger::after, 
+  .header__burger::before {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) scale(1);
+    width: 25px;
+  }
+  
+  .header__burger::before {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    display: block;
+    height: 15px;
+    transition: transform .55s ease .55s;
+    color: #fff;
+  }
+  
+  .header__burger::after {
+    background-color: #fff;
+    height: 1px;
+    transition: transform .55s ease .35s;
+  }
+  .header__burger span {
+    opacity: 0;
+    pointer-events: none;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: right;
+    color: #fff;
+    transition: opacity .55s ease;
+  }
+  
+  .header__burger[aria-expanded="true"]:before {
+    transform: translateY(-50%) scaleY(0);
+    transition-delay: 0s;
+  }
+  .header__burger[aria-expanded="true"]:after {
+   transform: translateY(-50%) scaleX(0);
+  }
+  .header__burger[aria-expanded="true"] span {
+    opacity: 1;
+    transition-delay: .55s;
+  }
+  #main-menu {
+    display: block;
+    position: absolute;
+    left:-15px;
+    height:100%; width:calc(100% + 30px);
+    padding-top: 30px;
+    background-color: #2db865;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .55s ease;
+  }
+  #main-menu ul {
+    display: block;
+    text-align: center;
+  }
+  #main-menu ul li {
+    display: block;
+    max-width: 200px;
+    margin:0 auto;
+  }
+  #main-menu ul li a {
+    display: inline-block;
+    padding: 23px 10px 24px;
+  }
+  #main-menu[aria-hidden="false"] {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity .55s ease;
+  }
+
+  .footer-extra {
+      align-items: center;
+      bottom: 0;
+      flex-direction: column;
+      left: 0;
+      opacity: 0;
+      padding: 0;
+          padding-top: 0px;
+      position: fixed;
+      transform: translateY(-10px);
+      transition: all .35s ease;
+          transition-delay: 0s;
+      visibility: hidden;
+      width: 100%;
+      z-index: 200;
+  }
+  
+  .main-menu .footer-extra {
+    padding-top:8px;
+    opacity:1;
+    transform:none;
+    transition-delay:.55s;
+    visibility:visible;
+    background-color:#00ba62
+   }
+   
+   .footer-menu {
+    background-color: #fff;
+    justify-content: center;  
+    width:100%;
+    margin-top: 20px;
+   }
+   .footer-menu a {
+     background-color: transparent;
+     color: #14273d;
+     font-size: .8571428571rem;
+     margin-right: 0;
+     padding: 10px;
+   }
+   .footer-menu a:hover {
+     color: #fff;
+   }
+  .footer-social {
+      background-color: transparent;
+  }
+  section.job-accordions {
+    margin:40px 0  60px;
+  }
+  .white-box {
+    width: 55%;
+  }
+  #right-floating-column {
+    width: 40%;
+  }
+  video {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .latest-article .inner {
+    display: block;  
+  }
+  
+  .article-column {
+    width: 100%;
+    margin:0 auto 30px;
+    max-width: 520px;
+  }
+  section.cult-ben {
+    margin-bottom: 40px;
+  }
+  section.cult-ben a {
+    max-width: 520px;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+  }
+  section.cult-ben .inside {
+    flex-direction: column;
+  }
+  section.cult-ben .inside > div h2 {
+    font-size: 32px;
+  }
+  section.cult-ben .inside div {
+    max-width: 520px;
+    margin: 0 auto;
+  }
+  section.cult-ben .inside .info.info-1,
+  section.cult-ben .inside .info.info-2 {
+    background-position: center top;
+  }
+  section.cult-ben .inside .info.info-1 {
+    padding: 30% 20% 12% 3%;
+  }
+ section.cult-ben .inside .info.info-2 {
+   padding: 30% 20% 12% 3%;
+ }
+  .bannerArea > .inner .copy h1 {
+    font-size: 36px;
+  }
+  section.job-accordions h2 {
+    font-size: 30px;
+  }
+
+  section.job-accordions .accordion .accordion-header {
+    font-size: 16px;
+  }
+  .bannerArea {
+    padding-top: 10%;
+    height: 400px;
+  }
+  #right-floating-column .job-alerts-container1 .talent-network-search-pages{
+    display: none;
+  }
+  #talentbtm.talent-network-search-bottom-holder {
+    display: block !important;
+  }
+  .mobile-talent-link-copy {
+    color: #fff;
+    padding: 20px 30px;
+  }
+  .mobile-talent-link-copy .talent-network-search-title {
+    padding:0;
+    margin-bottom: 10px;
+  }
+  .white-box {
+    width: 100%;
+  }
+  #right-floating-column {
+    width: 100%;
+  }
+
+
+
+ 
+.article .article-btn{
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+}
+.article#art01 .article-btn {
+    background-color: #46c2d9;
+}
+
+.article#art02 .article-btn {
+    background-color: #ed0677;
+}
+
+.article#art03 .article-btn {
+    background-color: #00a959;
+}
+  
+  .interior-banner {
+    min-height: 430px;
+  }
+}
+
+
+
+@media screen and (max-width: 850px) {
+  .footer__content {
+      padding: 10px 20px 5px 0;
+  }
+  .footer-content .widget {
+      align-items: flex-start;
+      flex-direction: column;
+      line-height: 1.1;
+  }
+  .footer-content h3 {
+      margin-bottom: 5px;
+  }
+ .latest-article h2 span{
+   display: block;
+ }
+}
+
+@media screen and (max-width: 640px) {
+  .bannerArea > .inner .copy h1 {
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,356 @@
+[
+  {
+    "state": "Alabama",
+    "state-id": "alabama",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=AL#card-filter",
+    "state-link": "http://www.alabamapublichealth.gov/employment/opportunities.html"
+  },
+  {
+    "state": "Alaska",
+    "state-id": "alaska",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=AK#card-filter",
+    "state-link": "https://www.governmentjobs.com/careers/alaska?department[0]=Health%20%26%20Social%20Services&department[1]=Health&sort=PositionTitle%7CAscending"
+  },
+  {
+    "state": "Arizona",
+    "state-id": "arizona",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=AZ#card-filter",
+    "state-link": "https://azstatejobs.azdoa.gov/"
+  },
+  {
+    "state": "Arkansas",
+    "state-id": "arkansas",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=AR#card-filter",
+    "state-link": "https://www.ark.org/arstatejobs/index.php?ina_sec_csrf=12e4d5604e89adbf2d3e3456ec09c0cf&"
+  },
+  {
+    "state": "California",
+    "state-id": "california",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=CA#card-filter",
+    "state-link": "https://calcareers.ca.gov/CalHRPublic/Search/JobSearchResults.aspx#depid=277"
+  },
+  {
+    "state": "Colorado",
+    "state-id": "colorado",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=CO#card-filter",
+    "state-link": "https://www.colorado.gov/cdphe/current-openings"
+  },
+  {
+    "state": "Connecticut",
+    "state-id": "connecticut",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=CT#card-filter",
+    "state-link": "https://www.jobapscloud.com/CT/?Keyword=&Loc=&DeptNumber=DPH48500&OccList=&JobType=&KeywordFullText=0"
+  },
+  {
+    "state": "Delaware",
+    "state-id": "delaware",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=DE#card-filter",
+    "state-link": "https://statejobs.delaware.gov/apply/index.shtml"
+  },
+  {
+    "state": "Florida",
+    "state-id": "florida",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=FL#card-filter",
+    "state-link": "https://jobs.myflorida.com/"
+  },
+  {
+    "state": "Georgia",
+    "state-id": "georgia",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=GA#card-filter",
+    "state-link": "https://www.governmentjobs.com/careers/georgiadph"
+  },
+  {
+    "state": "Hawaii",
+    "state-id": "hawaii",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=HI#card-filter",
+    "state-link": "https://health.hawaii.gov/employment/job-opportunities/"
+  },
+  {
+    "state": "Idaho",
+    "state-id": "idaho",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=ID#card-filter",
+    "state-link": "https://statecareers.idaho.gov/search/jobs?q=public+health"
+  },
+  {
+    "state": "Illinois",
+    "state-id": "illinois",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=IL#card-filter",
+    "state-link": "https://dph.illinois.gov/about/employment-opportunities.html"
+  },
+  {
+    "state": "Indiana",
+    "state-id": "indiana",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=IN#card-filter",
+    "state-link": "https://workforindiana.in.gov/search/?searchby=location&createNewAlert=false&q=&optionsFacetsDD_customfield3=Indiana+Department+of+Health&optionsFacetsDD_city=&optionsFacetsDD_customfield1=&locationsearch=&geolocation="
+  },
+  {
+    "state": "Iowa",
+    "state-id": "iowa",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=IA#card-filter",
+    "state-link": "https://www.governmentjobs.com/careers/iowa"
+  },
+  {
+    "state": "Kansas",
+    "state-id": "kansas",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=KS#card-filter",
+    "state-link": "https://jobs.sok.ks.gov/psc/sokhrprdcg/APPLICANT/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U"
+  },
+  {
+    "state": "Kentucky",
+    "state-id": "kentucky",
+    "local-link": "https://chfs.wd12.myworkdayjobs.com/en-US/chfs",
+    "state-link": "https://kypersonnelcabinet.csod.com/ats/careersite/search.aspx?site=39&c=kypersonnelcabinet"
+  },
+  {
+    "state": "Louisiana",
+    "state-id": "louisiana",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=LA#card-filter",
+    "state-link": "https://www.governmentjobs.com/careers/louisiana?department%5b0%5d=LDH-Office%20of%20Public%20Health&sort=PositionTitle%7CAscending"
+  },
+  {
+    "state": "Maine",
+    "state-id": "maine",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=ME#card-filter",
+    "state-link": "https://www.maine.gov/dhhs/about/careers-at-dhhs"
+  },
+  {
+    "state": "Maryland",
+    "state-id": "maryland",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=MD#card-filter",
+    "state-link": "https://www.jobapscloud.com/MD/?Keyword=&Loc=&DeptNumber=32&OccList=&JobType=&KeywordFullText=0"
+  },
+  {
+    "state": "Massachusetts",
+    "state-id": "massachusetts",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=MA#card-filter",
+    "state-link": "https://massanf.taleo.net/careersection/ex/jobsearch.ftl?f=ORGANIZATION(11500120189)&a=null&multiline=true&ignoreSavedQuery"
+  },
+  {
+    "state": "Michigan",
+    "state-id": "michigan",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=MI#card-filter",
+    "state-link": "https://www.governmentjobs.com/careers/michigan?department[0]=Health%20and%20Human%20Services%20%20-%20Caro%20Center&department[1]=Health%20and%20Human%20Services%20-%20Central%20Office&department[2]=Health%20and%20Human%20Services%20-%20Forensic%20Center&department[3]=Health%20and%20Human%20Services%20-%20Hawthorn%20Center&department[4]=Health%20and%20Human%20Services%20-%20Institutions&department[5]=Health%20and%20Human%20Services%20-%20Kalamazoo%20Psychiatric%20Hospital&department[6]=Health%20and%20Human%20Services%20-%20South%20Michigan&department[7]=Health%20and%20Human%20Services%20-%20Walter%20Reuther%20Psychiatric%20Hospital&sort=PositionTitle%7CAscending"
+  },
+  {
+    "state": "Minnesota",
+    "state-id": "minnesota",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=MN#card-filter",
+    "state-link": "https://www.health.state.mn.us/about/jobs.html"
+  },
+  {
+    "state": "Mississippi",
+    "state-id": "mississippi",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=MS#card-filter",
+    "state-link": "https://agency.governmentjobs.com//mississippi/default.cfm"
+  },
+  {
+    "state": "Missouri",
+    "state-id": "missouri",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=MO#card-filter",
+    "state-link": "https://mocareers.mo.gov/hiretrue/ce3/job-board/5effe9b2-4b89-494b-ac76-c45e25190768?division=Department%20of%20Health%20and%20Senior%20Services"
+  },
+  {
+    "state": "Montana",
+    "state-id": "montana",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=MT#card-filter",
+    "state-link": "https://health.umt.edu/mphtc/workforce-program/public-health-jobs.php"
+  },
+  {
+    "state": "Nebraska",
+    "state-id": "nebraska",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=NE#card-filter",
+    "state-link": "https://www.governmentjobs.com/careers/nebraska?department%5b0%5d=Health%20%26%20Human%20Services%20Department&sort=PositionTitle%7cAscending"
+  },
+  {
+    "state": "Nevada",
+    "state-id": "nevada",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=NV#card-filter",
+    "state-link": "http://careers.nv.gov/"
+  },
+  {
+    "state": "New Hampshire",
+    "state-id": "new-hampshire",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=NH#card-filter",
+    "state-link": "https://jobsp.nhfirst.nh.gov/lawtaprd/CandidateSelfService/controller.servlet?dataarea=lawtaprd&context.session.key.HROrganization=10&context.session.key.JobBoard=EXTERNAL#"
+  },
+  {
+    "state": "New Jersey",
+    "state-id": "new-jersey",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=NJ#card-filter",
+    "state-link": "https://web.doh.state.nj.us/apps2/hr/hlthpos.aspx"
+  },
+  {
+    "state": "New Mexico",
+    "state-id": "new-mexico",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=NM#card-filter",
+    "state-link": "https://careers.share.nm.gov/psc/hprdcg/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U"
+  },
+  {
+    "state": "New York",
+    "state-id": "new-york",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=NY#card-filter",
+    "state-link": "https://www.health.ny.gov/employment/entry.htm"
+  },
+  {
+    "state": "North Carolina",
+    "state-id": "north-carolina",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=NC#card-filter",
+    "state-link": "https://www.governmentjobs.com/careers/northcarolina?department%5b0%5d=Dept%20of%20Health%20and%20Human%20Services&sort=PositionTitle%7CAscending"
+  },
+  {
+    "state": "North Dakota",
+    "state-id": "north-dakota",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=ND#card-filter",
+    "state-link": "https://www.omb.nd.gov/team-nd-careers/career-openings"
+  },
+  {
+    "state": "Ohio",
+    "state-id": "ohio",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=OH#card-filter",
+    "state-link": "https://dasstateoh.taleo.net/careersection/oh_ext/jobsearch.ftl?lang=en#"
+  },
+  {
+    "state": "Oklahoma",
+    "state-id": "oklahoma",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=OK#card-filter",
+    "state-link": "https://jobapscloud.com/OK/?Keyword=&Loc=&DeptNumber=340000&OccList=#SearchForm"
+  },
+  {
+    "state": "Oregon",
+    "state-id": "oregon",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=OR#card-filter",
+    "state-link": "https://oregon.wd5.myworkdayjobs.com/SOR_External_Career_Site/2/refreshFacet/318c8bb6f553100021d223d9780d30be"
+  },
+  {
+    "state": "Pennsylvania",
+    "state-id": "pennsylvania",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=PA#card-filter",
+    "state-link": "https://www.governmentjobs.com/careers/pabureau"
+  },
+  {
+    "state": "Rhode Island",
+    "state-id": "rhode-island",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=RI#card-filter",
+    "state-link": "https://www.governmentjobs.com/careers/rhodeisland?department[0]=EXECUTIVE%20OFFICE%20OF%20HEALTH%20AND%20HUMAN%20SERVICES&department[1]=DEPARTMENT%20OF%20HEALTH&sort=PostingDate%7CDescending"
+  },
+  {
+    "state": "South Carolina",
+    "state-id": "south-carolina",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=SC#card-filter",
+    "state-link": "https://www.governmentjobs.com/careers/sc/scdhec"
+  },
+  {
+    "state": "South Dakota",
+    "state-id": "south-dakota",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=SD#card-filter",
+    "state-link": "https://css-stateofsouthdako-prd.inforcloudsuite.com/hcm/Jobs/page/JobsHomePage?csk.showusingxi=true&csk.JobBoard=EXTERNAL&csk.HROrganization=1"
+  },
+  {
+    "state": "Tennessee",
+    "state-id": "tennessee",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=TN#card-filter",
+    "state-link": "https://www.tn.gov/health/health-program-areas/tdh-careers.html"
+  },
+  {
+    "state": "Texas",
+    "state-id": "texas",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=TX#card-filter",
+    "state-link": "https://careers.hhs.texas.gov/dshsjobs"
+  },
+  {
+    "state": "Utah",
+    "state-id": "utah",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=UT#card-filter",
+    "state-link": "https://www.governmentjobs.com/careers/utah?department[0]=270%20Department%20of%20Health&department[1]=250%20Health%20%26%20Human%20Services&sort=PositionTitle%7CAscending"
+  },
+  {
+    "state": "Vermont",
+    "state-id": "vermont",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=VT#card-filter",
+    "state-link": "https://careers.vermont.gov/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_location=&optionsFacetsDD_department=Health"
+  },
+  {
+    "state": "Virginia",
+    "state-id": "virginia",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=VA#card-filter",
+    "state-link": "https://www.jobs.virginia.gov/jobs/search?page=1&dropdown_field_2_uids%5B%5D=20bdb8164cb5f6eb3bc1c8c74d88bada&query="
+  },
+  {
+    "state": "Washington",
+    "state-id": "washington",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=WA#card-filter",
+    "state-link": "https://doh.wa.gov/about-us/workhealth"
+  },
+  {
+    "state": "West Virginia",
+    "state-id": "west-virginia",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=WV#card-filter",
+    "state-link": "https://www.governmentjobs.com/careers/wv?category%5B0%5D=Health%20Services&category%5B1%5D=Nursing&category%5B2%5D=Medical&sort=PositionTitle%7CAscending"
+  },
+  {
+    "state": "Wisconsin",
+    "state-id": "wisconsin",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=WI#card-filter",
+    "state-link": "https://wisc.jobs/Pages/Agency/DHS.aspx?unit=43500"
+  },
+  {
+    "state": "Wyoming",
+    "state-id": "wyoming",
+    "local-link": "https://www.naccho.org/membership/lhd-directory?searchType=standard&lhd-state=WY#card-filter",
+    "state-link": "https://www.governmentjobs.com/careers/wyoming?keywords=048"
+  },
+  {
+    "state": "American Samoa",
+    "state-id": "american-samoa",
+    "local-link": "",
+    "state-link": "https://www.americansamoa.gov/jobs"
+  },
+  {
+    "state": "District of Columbia",
+    "state-id": "district-of-columbia",
+    "local-link": "",
+    "state-link": "https://careers.dc.gov/psc/erecruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U&"
+  },
+  {
+    "state": "Guam",
+    "state-id": "guam",
+    "local-link": "",
+    "state-link": "https://hr.doa.guam.gov/employment-3/"
+  },
+  {
+    "state": "Federated States of Micronesia",
+    "state-id": "federated-states-of-micronesia",
+    "local-link": "",
+    "state-link": "https://hsa.gov.fm/job-vacancies-opportunities/"
+  },
+  {
+    "state": "Marshall Islands",
+    "state-id": "marshall-islands",
+    "local-link": "",
+    "state-link": "https://rmihealth.org/careers-mohhs"
+  },
+  {
+    "state": "Northern Mariana Islands",
+    "state-id": "northern-mariana-islands",
+    "local-link": "",
+    "state-link": "https://www.chcc.health/jobopportunities.php"
+  },
+  {
+    "state": "Palau",
+    "state-id": "palau",
+    "local-link": "",
+    "state-link": "https://www.palauhealth.org/MOHpages/MOHCareersTrainings1.aspx"
+  },
+  {
+    "state": "Puerto Rico",
+    "state-id": "puerto-rico",
+    "local-link": "",
+    "state-link": "https://www.empleos.pr.gov/"
+  },
+  {
+    "state": "U.S. Virgin Islands",
+    "state-id": "us-virgin-island",
+    "local-link": "",
+    "state-link": "https://doh.vi.gov/about-us/career-opportunities/"
+  }
+]

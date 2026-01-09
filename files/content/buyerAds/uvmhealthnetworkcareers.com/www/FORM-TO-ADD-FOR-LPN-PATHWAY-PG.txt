@@ -1,0 +1,67 @@
+ADD THIS CODE TO 
+https://www.uvmhealthnetworkcareers.org/lpn-pathway-program.html 
+when adding form to page:
+
+
+
+<section class="lpnpathway-form-holder">
+      <div class="inner">
+	 <div class="talent-network-form" id="lpnpathaway-pg-form">
+				<!--||{% block te-header %}||-->
+
+					<!-- This section will be replaced with either the Join Talent Network or Express Interest heading and copy -->
+					<h1>LPN Pathway Program Application (all required)</h1>
+
+					<span class="form-intro">
+					<p>Please complete the below form and a member of our team will be in touch.</p>
+					
+					</span>
+		        
+				<!--||{% endblock te-header %}||-->
+
+				<!--||{% block content %}{% endblock %}||-->
+
+				<!--||{% comment %}||-->
+
+   				<form method="post" id="tn-form" class="debounce" enctype="multipart/form-data"
+                          aria-label="{{ CORPORATE_NAME }} Talent Network sign-up form" aria-describedby="talent-network-description">
+        
+
+					<label>
+						First name:
+						<input type="text" name="first_name" maxlength="50" required="" id="id_first_name">
+				    </label>
+						
+					<label>
+						Last name:
+						<input type="text" name="last_name" maxlength="50" required="" id="id_last_name">
+				    </label>
+						
+					<label>
+						Email:
+						<input type="email" name="email" maxlength="100" required="" id="id_email">
+				    </label>
+					
+						<label>
+						Are you a current CVMC employee? (Yes or No)
+						<select name="contact_method" id="id_contact_method">
+							<option value="1" selected="">Yes</option>
+							<option value="2">No</option>
+					    </select>
+				    </label>
+									
+						
+					<p class="talent-disclaimer">By submitting information, you are not officially applying to a position at this time, and you authorize
+                        {{ CORPORATE_NAME }} to contact you via phone, email, and text messaging.</p>
+						
+					<div class="apply">
+						<input name="submit" type="submit" class="submit" id="submit" value="SUBMIT">
+				    </div>
+
+			    </form>
+				<!--||{% endcomment %}||-->				
+
+		    </div>
+	        
+      </div>
+    </section>

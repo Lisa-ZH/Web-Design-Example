@@ -1,0 +1,660 @@
+/*------ Location-- Primary Care Group & Specialty PhysicianGroup page & Corporate ------*/
+.page-intro.pcg h2, .page-intro.spg h2{
+	font-size: 30px;
+}
+.page-intro p {
+  font-size: 1.2em;
+  line-height: 1.1em;
+}
+.interior-banner .interior-banner-img.locations-pcg {
+  background-image: url("../images/redesign/sub/locations/primary-care/banner-pcg.jpg");
+  background-position: center top;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+.interior-banner .interior-banner-img.locations-spg {
+  background-image: url("../images/redesign/sub/locations/specialty-physician/banner-spg.jpg");
+  background-position: center top;
+}
+.interior-banner .interior-banner-img.locations-hmc {
+  background-image: url("../images/redesign/sub/locations/corporate/banner-hmc.jpg");
+  background-position: center top;
+}
+.interior-banner .interior-banner-img.sustainability{
+  background-image: url("../images/redesign/sub/sustainability/sustainability-banner.jpg");
+  background-position: center;
+}
+.pcg-content, .spg-content, .hmc-content {
+  width: 100%;
+  background-image: linear-gradient(90deg, #507491 0%, #345168 100%)
+}
+.pcg-content.pcg2, .spg-content.spg2, .hmc-content.hmc2 {
+  background-color: #fff;
+  background-image: none;
+}
+.pcg-content .inner, .spg-content .inner, .hmc-content .inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  max-width: unset;
+}
+.pcg-content.pcg1 .inner {
+  align-items: center;
+}
+.pcg-content .photo, .spg-content .photo, .hmc-content .photo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 50%;
+}
+.pcg-content.pcg1 .photo {
+  background-image: url("../images/redesign/sub/locations/primary-care/pcg-1.jpg");
+  background-position: center;
+  background-size: contain;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+.pcg-content.pcg2 .photo {
+  background-image: url("../images/redesign/sub/locations/primary-care/pcg-2.jpg");
+  background-position: 70% top;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+.spg-content.spg1 .photo {
+  background-image: url("../images/redesign/sub/locations/specialty-physician/spg-1.jpg");
+  background-position: center top;
+  padding-top: 12%;
+  padding-bottom: 12%;
+}
+.spg-content.spg2 .photo {
+  background-image: url("../images/redesign/sub/locations/specialty-physician/spg-2.jpg");
+  background-position: center center;
+  padding-top: 12%;
+  padding-bottom: 12%;
+}
+.hmc-content.hmc1 .photo {
+  background-image: url("../images/redesign/sub/locations/corporate/hmc-1.jpg");
+  background-position: center top;
+  background-size: cover;
+  padding-top: 12%;
+  padding-bottom: 12%;
+}
+.hmc-content.hmc2 .photo {
+  background-image: url("../images/redesign/sub/locations/corporate/hmc-2.jpg");
+  background-position: right top;
+  background-size: cover;
+  padding-top: 14%;
+  padding-bottom: 14%;
+}
+.pcg-content .inner .inner-wrap, .spg-content .inner .inner-wrap, .hmc-content .inner .inner-wrap {
+  width: 45%;
+  margin: 0 auto;
+  padding: 50px 25px;
+  text-align: center;
+}
+.pcg-content .inner h3, .spg-content .inner h3, .hmc-content .inner h3 {
+  font-size: 32px;
+  line-height: 1.2;
+  color: #fff;
+  margin: 0 0 15px;
+  font-weight: 300;
+}
+.pcg-content .inner h3 {
+  text-align: left;
+}
+.pcg-content .inner h3 strong, .spg-content .inner h3 strong, .hmc-content .inner h3 strong {
+  font-weight: 700;
+}
+.pcg-content.pcg2 .inner h3, .spg-content.spg2 .inner h3, .hmc-content.hmc2 .inner h3 {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #ab0032;
+  margin: 0 0 10px
+}
+.pcg-content .inner p {
+  color: #fff;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.spg-content .inner p {
+  color: #fff;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.hmc-content .inner p {
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.pcg-content.pcg2 .inner p, .hmc-content.hmc2 .inner p {
+  color: #ab0032;
+  margin-top: 0;
+}
+.spg-content.spg1 .inner h3{
+    text-align: left;
+}
+.spg-content.spg2 .inner p {
+  color: #000000;
+  margin-top: 0;
+}
+.pcg-content.pcg2 .list-inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.pcg-content .inner ul, .spg-content .inner ul {
+  font-size: 21px;
+  margin-bottom: 5px;
+  list-style-position: inside;
+  text-align: left;
+}
+.pcg-content .inner ul li, .spg-content .inner ul li {
+  margin: 0 10px 0 0;
+  color: #fff;
+}
+.pcg-content.pcg2 .inner ul li, .spg-content.spg2 .inner ul li {
+  color: #000;
+}
+.featured-talent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /*max-width: 1620px;*/
+  margin: 0 auto
+}
+.featured-talent h1 {
+  display: inline-block;
+  font-size: 4rem;
+  line-height: 2.5rem;
+  font-weight: 300;
+  color: #1e325a;
+  text-align: center;
+  margin-top: 60px;
+}
+.featured-talent-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.featured-talent .inner {
+  border: 1px solid #fff;
+  height: 0;
+  flex: 1;
+  position: relative;
+  padding-bottom: 38%;
+  padding-left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.featured-talent .inner.pcg-feature-1 {
+  background-image: url("../images/redesign/sub/locations/primary-care/featured-ph.jpg")
+}
+.featured-talent .inner.pcg-feature-2 {
+  background-image: url("../images/redesign/sub/locations/primary-care/featured-ma.jpg")
+}
+.featured-talent .inner.pcg-feature-3 {
+  background-image: url("../images/redesign/sub/locations/primary-care/featured-app.jpg")
+}
+.featured-talent .inner .copy {
+  background-color: #1e325a;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  max-height: 25%;
+  text-align: center;
+  padding: 15px 50px;
+  transition: all .25s ease-in-out
+}
+.featured-talent .inner .copy h2 {
+  font-size: 1.875vw;
+  margin: auto;
+  line-height: 1.2;
+  font-weight: normal;
+}
+.featured-talent .inner:hover .copy {
+  max-height: 100%;
+  background-color: rgba(30, 50, 90, .8)
+}
+.featured-talent .inner.spg-feature-1 {
+  background-image: url("../images/redesign/sub/locations/specialty-physician/featured-ph.jpg")
+}
+.featured-talent .inner.spg-feature-2 {
+  background-image: url("../images/redesign/sub/locations/specialty-physician/featured-ma.jpg")
+}
+.featured-talent .inner.spg-feature-3 {
+  background-image: url("../images/redesign/sub/locations/specialty-physician/featured-app.jpg")
+}
+.view-all-jobs .inner.hmc {
+  width: 90%;
+}
+/*------ Location-- Houston Methodist Corporate page ------*/
+/*-- ---- Careers Areas ---- --*/
+.career-areas {
+  width: 100%;
+  padding: 3em 0px;
+  text-align: center;
+  background-color: #e5f3fd;
+  background-image: url("../images/redesign/sub/career-areas/light-blue-bckgrd.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.homepage.career-areas ul {
+  flex-wrap: wrap;
+}
+#corp-areas {
+  background-color: #e5f3fd;
+  background-image: url(../images/redesign/sub/career-areas/light-blue-bckgrd.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.career-areas h2 {
+  font-size: 50px;
+  line-height: 1.1em;
+  font-weight: 700;
+  width: 90%;
+  letter-spacing: -0.02em;
+  margin: 0 auto 15px;
+  color: #134d7d;
+  text-transform: uppercase;
+}
+.career-areas h3 {
+  font-size: 25px;
+  line-height: 1.3em;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  margin: 20px auto;
+  width: 90%;
+  color: #222;
+}
+.career-areas p {
+  font-size: 22px;
+  line-height: 1.3em;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  margin: 0 auto 30px;
+  width: 90%;
+  max-width: 1200px;
+  color: #222;
+}
+.career-areas ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 1500px;
+  margin: 0px auto 0px auto;
+  list-style: none;
+  padding: 0px;
+  text-align: center;
+}
+.career-areas li {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 21%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom: 21%;
+  position: relative;
+  margin: 0px 9px 15px;
+  overflow: hidden;
+  box-shadow: 2px 4px 10px 3px rgba(0, 0, 0, .2);
+}
+.career-areas-01 .career-areas-label, .career-areas-02 .career-areas-label {
+  min-height: 2.3em;
+  padding: 20px 0px;
+}
+.career-areas-label br {
+  display: block;
+}
+.career-areas-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 12px 0px;
+  transition: all .5s ease;
+  font-size: 20px;
+  line-height: 1.1em;
+  letter-spacing: 0em;
+}
+#corp-areas.career-areas ul {
+  max-width: 1100px;
+}
+#corp-areas.career-areas li {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom: 30%;
+  position: relative;
+  margin: 0px 9px 15px;
+  overflow: hidden;
+  box-shadow: 2px 4px 10px 3px rgba(0, 0, 0, .2);
+}
+.career-areas {
+  background-image: url("../images/redesign/sub/career-areas/career-area-03.jpg");
+}
+.career-areas-01 {
+  background-image: url("../images/redesign/sub/career-areas/career-area-01.jpg");
+}
+.career-areas-02 {
+  background-image: url("../images/redesign/sub/career-areas/career-area-02.jpg");
+}
+.career-areas-03 {
+  background-image: url("../images/redesign/sub/career-areas/career-area-03.jpg");
+}
+.career-areas-04 {
+  background-image: url("../images/redesign/sub/career-areas/career-area-04.jpg");
+}
+.career-areas-05 {
+  background-image: url("../images/redesign/sub/career-areas/career-area-05.jpg");
+}
+.career-areas-06 {
+  background-image: url("../images/redesign/sub/career-areas/career-area-06.jpg");
+}
+.career-areas-07 {
+  background-image: url("../images/redesign/sub/career-areas/career-area-07.jpg");
+}
+.career-areas-08 {
+  background-image: url("../images/redesign/sub/career-areas/career-area-03.jpg");
+}
+.career-areas .career-areas-label {
+  background-color: rgba(34, 154, 221, 1);
+}
+.darkblue .career-areas-label {
+  background-color: rgba(19, 77, 125, .7) !important;
+}
+.darkblue:hover .career-areas-label {
+  background-color: rgba(19, 77, 125, .5) !important;
+}
+.career-areas li:hover .career-areas-label {
+  padding: 50% 0;
+}
+.career-areas li .career-areas-label span {
+  width: 100%;
+  transition: all .35s ease;
+}
+.career-areas li:hover .career-areas-label span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+}
+.career-areas .career-areas:hover .career-areas-label {
+  background-color: rgba(34, 154, 221, .7) !important;
+}
+
+/*------ Sustainability page ------*/
+.sustainability .row {
+  flex-direction: row-reverse;
+  position: relative;
+  display: flex
+}
+.sustainability .row > * {
+  flex: 1
+}
+.sustainability .first-row .image-column {
+  background-image: url("../images/redesign/sub/sustainability/sustainability-one.jpg");
+  background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat;
+  z-index: -1
+}
+.sustainability .first-row .text-column h3{
+    color: #ab0032;
+}
+.sustainability .second-row {
+  flex-direction: row
+}
+
+.sustainability .second-row .text-column{
+    color: #ffffff;
+    background-color: #1e325a;
+}
+.sustainability .second-row .image-column {
+  background-image: url("../images/redesign/sub/sustainability/sustainability-two.jpg");
+  background-size: cover;
+  background-position: center left
+}
+.sustainability .second-row .text-column ul {
+    padding-left: 20px;
+}
+.sustainability h2 {
+  font-size: 48px;
+  margin: 0;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #ab0032
+}
+.sustainability h2 strong {
+  font-weight: 700
+}
+.sustainability h3 {
+  font-size: 32px;
+  line-height: 1.3;
+  margin: 0
+}
+.sustainability .inner-wrap {
+  padding: 15% 50px;
+}
+.initiatives {
+  padding: 65px 0;
+  background-image: linear-gradient(90deg, #507491 0%, #345168 100%);
+  background-size: cover;
+  background-position: center center;
+  border-top: 10px solid #ab0032;
+  overflow: hidden
+}
+.initiatives .inner{
+    background-color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+}
+.initiatives h2 {
+  font-size: 2.5em;
+  line-height: 1.2em;
+  margin: 0;
+  font-weight: 300;
+  color: #ab0032;
+}
+.initiatives h2 strong {
+  font-weight: 700
+}
+.initiatives h3{
+    margin-bottom: 0;
+}
+.initiatives p {
+  color: #000;
+    margin-top: 0;
+}
+.initiatives .inner-wrap {
+  margin: 20px auto;
+}
+
+
+.ViewJobsBtn {
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.1em;
+  font-weight: 800;
+  text-align: center;
+  padding: 15px 20px;
+  background: #ffffff;
+  color: #134d7d !important;
+  border: 2px solid #134d7d;
+  border-radius: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px 5px 5px 0;
+  position: relative;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  transition: all 0.2s ease;
+  overflow: hidden;
+  /*max-width: 250px;*/
+}
+.ViewJobsBtn:first-of-type {
+  margin: 5px 5px 5px 20px;
+}
+#remote-btn.ViewJobsBtn:first-of-type {
+  margin: 5px 5px 5px 0px;
+  max-width: 450px;
+}
+.ViewJobsBtn:before {
+  background-color: #134d7d;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  transition: all 0.2s ease;
+  border-radius: 0px;
+  border: 2px solid #ffffff;
+}
+.ViewJobsBtn:hover, .ViewJobsBtn:focus, .ViewJobsBtn:active {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+.ViewJobsBtn:hover:before, .ViewJobsBtn:focus:before, .ViewJobsBtn:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  color: #ffffff;
+}
+/*------ Location-- Houston Methodist Corporate page ------*/
+/*------ Explore Current Opportunities ------*/
+/*-- ---- Cleaning Sections ---- --*/
+.cleaning-intro {
+  width: 100%;
+  padding: 40px 0px;
+  background-color: #134d7d;
+  background-image: url("../images/redesign/sub/locations/corporate/blue-square-bckgrd.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  border-top: 2px solid #ffffff;
+}
+.cleaning-intro .inner {
+  width: 90%;
+  max-width: 1200px;
+  text-align: center;
+  margin: 0px auto;
+  position: relative;
+}
+.cleaning-intro .inner h2 {
+  color: #ffffff;
+  font-size: 60px;
+  line-height: 1em;
+  text-align: center;
+  margin: 0 auto 30px;
+  text-transform: uppercase;
+}
+.cleaning-intro .inner h4 {
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 1.1em;
+  text-align: center;
+  margin: 0 auto 30px;
+  letter-spacing: -0.02em;
+}
+.cleaning-intro p {
+  margin: 0px auto 20px auto;
+  font-size: 20px;
+  line-height: 1.2em;
+  color: #ffffff;
+}
+.cleaning-areas {
+  width: 85%;
+  margin: 3% auto;
+  padding: 3% 4%;
+  border: 2px solid #ffffff;
+  background-image: url("../images/redesign/sub/locations/corporate/areas-bckgrd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.cleaning-areas p {
+  margin: 0px auto 20px;
+  font-size: 22px !important;
+  line-height: 1.2em !important;
+  color: #000000;
+  font-weight: 500;
+}
+.cleaning-areas p:last-of-type {
+  margin: 0px auto 0px;
+}
+.bonus-info {
+  font-size: 32px;
+  line-height: 1.2em;
+  margin: 0px auto 20px;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  padding: 2%;
+  color: #000000;
+  background-color: #77CEF3;
+}
+.cleaning-areas h3 {
+  font-size: 26px;
+  line-height: 1.2em;
+  margin: 0px auto 20px;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+}
+.cleaning-grp {
+  margin: 30px 0 30px;
+  width: auto;
+}
+.cleaning-grp img {
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  border: 2px solid #ffffff;
+}
+/*
+.specialties-group {
+  width: 100%;
+  padding: 3% 4%;
+  border: 2px solid #ffffff;
+  background-image: url(../images/main/areas-bckgrd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.nursing-intro .inner {
+  width: 90%;
+  max-width: 1200px;
+  text-align: center;
+  margin: 0px auto;
+  position: relative;
+}*/

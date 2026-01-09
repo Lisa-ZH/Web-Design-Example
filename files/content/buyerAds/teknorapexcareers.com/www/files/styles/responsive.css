@@ -1,0 +1,1844 @@
+@media screen and (max-width:1580px) {
+	#intro .callout .quote {
+		font-size: 2.25em;
+		line-height: 1em;
+		font-weight: 200;
+		margin: 0px 0px 0px -.35em;
+	}
+	#intro .callout span {
+		font-size: .95em;
+		line-height: 1em;
+		margin: .25em 0px 0px 1.5em;
+	}
+	.front-page-intro .inner .copy {
+		width: 45%;
+		padding: 5%;
+		font-size: 1.1vw;
+		line-height: 1.6em;
+		background-color: rgba(255,255,255,.7);
+	}
+	.career-paths-bottom > a h3 {
+		font-size: 1.8vw;
+		line-height: 1.1em;
+	}
+	.career-paths-bottom > a span {
+		font-size: 1.1vw;
+		line-height: 1.6em;
+	}
+	.featured-jobs-bottom > div {
+		font-size: 1vw;
+		line-height: 1.6em;
+	}
+	.featured-jobs-bottom > div h3 {
+		font-size: 1.65vw;
+		line-height: 1.2em;
+		min-height: 2.4em;
+	}
+	.talent-network-callout .copy span {
+		margin: 1.5em auto 1.75em;
+		font-size: 1.65vw;
+		line-height: 1.2em;
+	}
+	.sub-intro.who-intro {
+		padding: 0em 0px 8em;
+	}
+	.who-intro .inner .copy {
+		width: 55%;
+		padding: 5%;
+		font-size: 1.1vw;
+		line-height: 1.6em;
+	}
+	.who-intro .inner .copy p:last-child {
+		width: 75%;
+	}
+	.who-intro .background-grid {
+		width: 80%;
+		padding-bottom: 64%;
+		left: 90%;
+		top: 75%;
+	}
+	.why-work-here .copy p {
+		display: block;
+		margin: 1.5em auto 2em;
+		font-size: 1.2vw;
+		line-height: 1.6em;
+	}
+	.values-graphic .value-intro {
+		padding: 1.75em 0px 0em;
+	}
+	.values-graphic .background-band::after {
+		padding: 0px 0px 18%;
+	}
+	.values-graphic .inner .square-container {
+		width: 40%;
+		padding: 0px 0px 40%;
+	}
+	.values-graphic .inner .square-container h2 {
+		font-size: 1.8vw;
+		line-height: 1em;
+	}
+	.values-graphic .inner .square-container li a {
+		font-size: 1.3vw;
+		line-height: 1em;
+	}
+	.value-details .value-description {
+		font-size: 1vw;
+		line-height: 1.4em;
+	}
+	.sub-intro.benefits-intro {
+		padding: 7.5% 0px 8%;
+	}
+	.sub-intro.benefits-intro .inner .copy {
+		width: 42.5%;
+		font-size: 1.3vw;
+		line-height: 1.5em;
+		padding: 5% 2.5%;
+	}
+	header .inner .logo-holder {
+		width: 200px;
+	}
+
+	header .inner nav > ul > li > a, 
+	header .inner nav > ul > li > button {
+		padding: 34px 8px;
+	}
+
+
+}
+
+@media screen and (max-width:1250px) {
+	header .inner .logo-holder {
+		width: 150px;
+	}
+	header .inner nav > ul > li > a, header .inner nav > ul > li > button {
+		padding: 34px 2px;
+		font-size: 10px;
+		line-height: 13px;
+	}
+	.shareThis {
+		font-size: 10px;
+		line-height: 13px;
+		padding: 0px 0px 0px 0px;
+	}
+	h2 {
+		font-size: 1vw;
+		line-height: 1em;
+	}
+	#search_term {
+		font-size: 14px;
+		line-height: 14px;
+		padding: 8px 14px 8px;
+	}
+	.search-button, #id-zipcode-btn, #search-form > ul > li:first-child .search-button {
+		right: 14px;
+		width: 13px;
+		height: 13px;
+	}
+	.search.horizontal-search-bar ul.search-content > li {
+		display: inline-block;
+		vertical-align: middle;
+		width: 24%;
+		margin: 0px .25% 0px;
+	}
+	.search.horizontal-search-bar ul.search-content > li:first-child {
+		margin: 0px .25% 0px 0px;
+	}
+	.search.horizontal-search-bar ul.search-content > li:last-child {
+		margin: 0px 0px 0px .25%;
+	}
+	.search-accordion-button {
+		font-size: 14px;
+		line-height: 14px;
+		padding: 10px 14px;
+	}
+	.search.horizontal-search-bar .advanced-button {
+		font-size: 12px;
+		line-height: 12px;
+		padding: 11px 14px 11px 14px;
+	}
+	.featured-jobs-bottom > div {
+		font-size: 1.25vw;
+		line-height: 1.4em;
+		margin: 0px 9px;
+		padding: 8% 5% 105px;
+	}
+	.featured-jobs-bottom > div h3 {
+		font-size: 2em;
+		line-height: 1.05em;
+		min-height: 3em;
+	}
+	.featured-jobs-bottom > div dl .category {
+		top: 10%;
+		left: -10px;
+		padding: 3px 18px 3px;
+	}
+	.featured-jobs-bottom > div .red-button {
+		bottom: 40px;
+	}
+	.value-details .value-description a {
+		top: -140px;
+	}
+	.value-details .value-description {
+		font-size: 1.1vw;
+		line-height: 1.5em;
+		width: 30%;
+		margin: 0px 1.5% 3%;
+		padding: 24% 5% 4.5%;
+	}
+	.benefits-list .inner > ul {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.benefits-list .inner > ul > li {
+		width: calc(33.333333333333% - 30px);
+		margin: 0 15px 30px;
+	}
+	.benefits-list .icon {
+		padding-bottom: 40%;
+	}
+	#anniversary-video h2 {
+		font-size: 4vw;
+		margin-bottom: 20px;
+	}
+	#anniversary-video h3 {
+		font-size: 3.5vw;/*was 2vw*/
+	}
+}
+
+@media screen and (max-width: 1100px) and (min-width: 1000px) {
+	header .inner .logo-holder {
+		top: 30px;
+	}
+	header .inner {
+		text-align: left;
+	}
+
+	header .inner nav > ul > li > a, header .inner nav > ul > li > button {
+		padding: 60px 12px 34px;
+	}
+}
+
+
+@media screen and (max-width: 1000px) {
+	header .inner {
+		width: calc(100% - 30px);
+		padding: 20px 0px;
+		position: static;
+		box-sizing: border-box;
+	}
+	header .inner .logo-holder {
+		width: 200px;
+		position: static;
+		transform: none;
+	}
+	
+	.accordion-hamburger-title {
+		display: block;
+		position: fixed;
+		z-index: 2;
+		top: 0;
+		right: 0;
+		width: 110px;
+		height: 65px;
+	}
+	.burger {
+		padding: 0px 0px;
+		margin: 0px;
+		position: fixed;
+		z-index: -1;
+		display: inline-block;
+		right: 75px;
+		top: 18px
+	}
+	.burger-box {
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: relative;
+	}
+	.all-the-fixins {
+		display: block;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.all-the-fixins, .all-the-fixins::before, .all-the-fixins::after {
+  		background-color: rgba(60,60,67,1);
+  		width: 28px;
+  		height: 2px;
+		left: 50%;
+  		border-radius: 1px;
+  		position: absolute;
+		-webkit-transition: width .2s ease-in .2s, transform .2s ease-in-out .0s, height .2s ease-in-out .0s;
+		transition: width .2s ease-in .2s, transform .2s ease-in-out .0s, height .2s ease-in-out .0s;
+	}
+	.all-the-fixins::before, .all-the-fixins::after {
+		content: "";
+		display: block;
+	}
+	.all-the-fixins::before {
+		top: -6px;
+		transform: translateX(-50%);
+	}
+	.all-the-fixins::after {
+		bottom: -6px;
+		transform: translateX(-50%);
+	}
+	.burger.tasty .all-the-fixins {
+		width: 28px;
+  		height: 2px;
+		transform: translate(-50%, -50%) rotateZ(45deg);
+  		background-color: rgba(22,61,84,1);
+	}
+	.burger.tasty .all-the-fixins::before {
+		top: 0px;
+  		height: 2px;
+		transform: translate(-50%, 0px) rotateZ(-90deg);
+  		background-color: rgba(22,61,84,1);
+	}
+	.burger.tasty .all-the-fixins::after {
+		bottom: 0px;
+  		height: 2px;
+		transform: translate(-50%, 0px) rotateZ(-90deg);
+  		background-color: rgba(22,61,84,1);
+	}
+	.accordion-hamburger {
+		display: none;
+		position: fixed;
+		z-index: 1;
+		top: 108px;
+		left: 0;
+		right: 0;
+		text-align: left;
+		box-shadow: 2px 2px 6px 0px rgba(0,0,0,.12);
+	}
+	.talent-network-page .accordion-hamburger {
+		top: 65px;
+	}
+	header .inner ul.accordion-hamburger > li {
+		display: block;
+	}
+	header .inner nav > ul > li > a, header .inner nav > ul > li > button {
+		display: block;
+		box-sizing: border-box;
+		width: 100%;
+		padding: 15px 50px;
+		font-size: 14px;
+		line-height: 14px;
+		color: #ffffff;
+		background-color: #d2232a;
+		border-top: 1px solid #bc252c;
+		border-bottom: 1px solid #bc252c;
+}
+header .inner nav > ul > li > a:hover, header .inner nav > ul > li > a:focus, header .inner nav > ul > li > a:active, header .inner nav > ul > li > button:hover, header .inner nav > ul > li > button:focus, header .inner nav > ul > li > button:active, header .inner nav > ul > li > button.active {
+	color: #d2232a;
+}
+header .inner nav > ul > li > a::after, header .inner nav > ul > li > button::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 6px;
+	background-color: #d2232a;
+	transform: scaleX(0);
+	opacity: 0;
+	transition: .25s all ease-in-out;
+}
+	header .inner nav > ul > li.talent-network-link > a {
+		padding: 15px 50px 15px 72px;
+	}
+	header .inner nav > ul > li.talent-network-link > a::before {
+		left: 49px;
+		top: 50%;
+		width: 14px;
+		height: 14px;
+		background-image: url("../images/global/talent-network-white.png")
+	}
+	.shareThis {
+		box-sizing: border-box;
+		width: 100%;
+		font-size: 13px;
+		line-height: 13px;
+		font-weight: 400;
+		padding: 10px 30px 10px 30px;
+		text-align: center;
+		background-color: #d2232a;
+		color: #ffffff;
+		position: fixed;
+		bottom: -100px;
+		left: 0;
+		transition: .15s all ease-in-out .3s;
+	}
+	.open .shareThis {
+		opacity: 1;
+		bottom: 0;
+	}
+	.shareThis .label {
+		padding: 0px 0px 1px 0px;
+	}
+	.at-icon-wrapper {
+		width: 16px !important;
+		height: 16px !important;
+	}
+	.at-svc-facebook, .at-svc-twitter, .at-svc-linkedin, .at-svc-email {
+		background-repeat: no-repeat !important;
+		background-color: transparent !important;
+		background-size: 16px 16px;
+		width: 16px;
+		height: 16px;
+		background-position: center center;
+		transition: all .2s ease-out;
+		border-radius: 50% !important;
+	}
+	.at-svc-facebook {
+		background-image: url("../images/global/share-this-icons/facebook-on.png") !important;
+	}
+	.at-svc-facebook:hover {
+		background-image: url("../images/global/share-this-icons/facebook.png") !important;
+	}
+	.at-svc-twitter {
+		background-image: url("../images/global/share-this-icons/twitter-on.png") !important;
+	}
+	.at-svc-twitter:hover {
+		background-image: url("../images/global/share-this-icons/twitter.png") !important;
+	}
+	.at-svc-linkedin {
+		background-image: url("../images/global/share-this-icons/linkedin-on.png") !important;
+	}
+	.at-svc-linkedin:hover {
+		background-image: url("../images/global/share-this-icons/linkedin.png") !important;
+	}
+	.at-svc-email {
+		background-image: url("../images/global/share-this-icons/email-on.png") !important;
+	}
+	.at-svc-email:hover {
+		background-image: url("../images/global/share-this-icons/email.png") !important;
+	}
+	.at-share-tbx-element .at-share-btn:focus {
+		transform: none !important;
+		outline: none !important;
+	}
+	.at-share-btn-elements svg {
+		display: none !important;
+	}
+	.at-icon-wrapper {
+		background-color: rgba(51, 51, 51, 0) !important;
+	}
+	.at-share-tbx-element .at-icon-wrapper {
+		margin: 0px 0px 0px 6px !important;
+	}
+	#search-body .inner .sub-search, .search, .search.horizontal-search-bar {
+		position: fixed;
+		z-index: 2021;
+		left: 0;
+		top: 65px;
+		right: 0;
+		background-color: #c20018 !important;
+		padding: 0px 0px;
+		padding: 0px !important;
+		box-shadow: 2px 2px 6px 0px rgba(0,0,0,.12);
+		box-sizing: border-box;
+		width: 100vw;
+	}
+	.search.horizontal-search-bar .inner {
+		width: 100%;
+		margin: 0px auto;
+	}
+	.mobile-search-button {
+		width: 100%;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		-webkit-border-radius: 0px;
+		border-radius: 0px;
+		display: block;
+		box-sizing: border-box;
+		position: relative;
+		z-index: 1;
+		font-family: proxima-nova, sans-serif;
+		font-size: 14px;
+		line-height: 14px;
+		font-weight: 700;
+		letter-spacing: .05em;
+		text-transform: uppercase;
+		text-align: left;
+		padding: 15px 50px;
+		margin: 0px auto 0px;
+		color: #ffffff !important;
+		border: 0px solid #c20018;
+		background-color: #d2232a;
+		overflow: hidden;
+		transition: .25s all ease-in-out .05s;
+		text-decoration: none !important;
+	}
+	.mobile-search-button::before {
+		content: "";
+		position: absolute;
+		z-index: 1;
+		right: 50px;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 16px;
+		height: 16px;
+		background-image: url("../images/global/magnifying-glass-white.png");
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+		opacity: .6;
+		transition: .25s all ease-in-out;
+	}
+	.mobile-search-button:hover::before, .mobile-search-button:focus::before, .mobile-search-button:active::before {
+		opacity: 1;
+	}
+	.mobile-search-button::after {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		transform-origin: left;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #414042;
+		opacity: 0;
+		transform: scaleX(0);
+		transition: .25s all ease-in-out;
+	}
+	.mobile-search-button:hover::after, .mobile-search-button:focus::after, .mobile-search-button:active::after {
+		opacity: 1;
+		transform: scaleX(1);
+	}
+	.search ul.search-content {
+		padding: 18px 50px 25px;
+		display: none;
+	}
+	#search-body .inner .sub-search ul.search-content {
+		padding: 18px 50px 25px;
+		display: none;
+	}
+	.search.horizontal-search-bar ul.search-content > li, .search.horizontal-search-bar ul.search-content > li:first-child, .search.horizontal-search-bar ul.search-content > li:last-child {
+		display: block;
+		vertical-align: middle;
+		width: 100%;
+		margin: 5px auto 5px;
+	}
+	.search-accordion-button::before {
+		right: 16px;
+		width: 10px;
+		height: 10px;
+	}
+	ul.search-content2 {
+		position: relative;
+	}
+	.menu-background {
+		position: fixed;
+		z-index: 2019;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-image: url("../images/global/menu-back.jpg");
+		background-size: cover;
+		background-position: center bottom;
+		background-repeat: no-repeat;
+		display: none;
+		opacity: 0;
+	}
+	.menu-background.live {
+		display: block;
+		opacity: 1;
+		-webkit-animation-name: background-transition;
+		-webkit-animation-timing-function: ease-in;
+		-webkit-animation-duration: .15s;
+		-webkit-animation-fill-mode: backwards;
+		animation-name: background-transition;
+		animation-timing-function: ease-in;
+		animation-duration: .15s;
+		animation-fill-mode: both;
+	}
+	@keyframes-webkit- background-transition {
+		0% {opacity: 0}
+		100% {opacity: 1}
+	}
+	@keyframes background-transition {
+		0% {opacity: 0} 
+		100% {opacity: 1}
+	}
+	.bannerArea {
+		margin-top: 108px;
+	}
+	h2 {
+		font-size: 2vw;
+		line-height: 1em;
+	}
+	.front-page-intro {
+		padding: 5em 0px 4.5em;
+	}
+	#intro h2, .career-paths .inner h2, .featured-jobs .inner h2 {
+		position: absolute;
+		z-index: 2;
+		top: 40px;
+		left: 50px;
+		margin: 0px;
+		padding: 0px;
+	}
+	#intro .callout .quote {
+		font-size: 2.25em;
+		line-height: .9em;
+		font-weight: 300;
+		margin: 0px 0px 0px -.35em;
+		text-align: center;
+	}
+	#intro .callout span {
+		font-size: 1em;
+		line-height: 1.1em;
+		margin: .5em 0px 0px 0px;
+		text-align: center;
+	}
+	.front-page-intro .inner .copy {
+		width: 55%;
+		padding: 6.5% 7.5%;
+		font-size: 1.6vw;
+		line-height: 1.6em;
+		background-color: rgba(255,255,255,.7);
+	}
+	.featured-jobs {
+		padding: 6em 0px 4em;
+		position: relative;
+		z-index: 1;
+	}
+	.featured-jobs-bottom {
+		display: block;
+	}
+	.featured-jobs-bottom > div {
+		display: block;
+		font-size: 1.7vw;
+		line-height: 1.4em;
+		width: 100%;
+		margin: 0px auto 2em;
+		padding: 12% 7.5% 7.5%;
+	}
+	.featured-jobs-bottom > div h3 {
+		font-size: 2em;
+		line-height: 1.05em;
+		min-height: 1em;
+	}
+	.featured-jobs-bottom > div dl .category {
+		top: 11%;
+		left: -10px;
+		padding: 5px 21px 5px;
+		transform: translateY(0%);
+	}
+	.featured-jobs-bottom > div .red-button {
+		position: relative;
+		left: 0;
+		bottom: 0px;
+		margin: 2em 0px 0px;
+	}
+	footer {
+		padding: 40px 0px 50px;
+	}
+	footer .logo-holder {
+		width: 200px;
+	}
+	footer .inner .eoe-notification {
+		width: 100%;
+		text-align: left;
+		position: relative;
+		right: 0;
+		bottom: 0;
+		margin: 1em 0px 0px;
+	}
+	footer .inner > div {
+		display: block;
+		width: 100%;
+	}
+	footer .inner > div.left {
+		display: inline-block;
+		width: 50%;
+	}
+	footer .inner > div.center {
+		display: inline-block;
+		width: 48%;
+		padding: 0px 5% 0px;
+		border-right: 0px solid #ffffff;
+		border-left: 1px solid #ffffff;
+	}
+	footer .inner > div.right {
+		padding: 20px 0px 0px 0px;
+	}
+	footer ul.social {
+		text-align: left;
+		padding: 0px;
+		margin: 0px;
+	}
+	footer .social li {
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0px 7px 0px 0px;
+		font-size: 14px;
+		line-height: 14px;
+	}
+	footer .social li a {
+		display: block;
+		width: 24px;
+		height: 24px;
+		border-radius: 50%;
+		overflow: hidden;
+		position: relative;
+		z-index: 1;
+		background-color: #959595;
+	}
+	footer .social li a::before, footer .social li a::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		transition: .2s all ease-in-out;
+	}
+	footer .social li a::before {
+		z-index: 1;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	footer .social li a::after {
+		z-index: -1;
+		border-radius: 50%;
+		background-color: #ffffff;
+		opacity: 0;
+		transform: scale(0);
+	}
+	footer .social li a:hover::after, footer .social li a:focus::after, footer .social li a:active::after {
+		transform: scale(1);
+		opacity: 1;
+	}
+	footer .social li a.linkedin::before {
+		background-image: url("../images/global/socials/linkedin-icon-dark.png")
+	}
+	footer .social li a.twitter::before {
+		background-image: url("../images/global/socials/twitter-icon-dark.png")
+	}
+	footer .social li a.instagram::before {
+		background-image: url("../images/global/socials/instagram-icon-dark.png")
+	}
+	.search-results {
+		width: 100%;
+		float: none;
+		display: block;
+	}
+	.search-results-right {
+		width: 100%;
+		float: none;
+		display: block;
+	}
+	.search.horizontal-search-bar ul.search-content > li:nth-child(4) {
+		display: block;
+	}
+	.search.horizontal-search-bar ul.search-content > li:nth-child(5) {
+		display: block;
+	}
+	.sub-intro.who-intro {
+		padding: 3em 0px 60%;
+	}
+	.who-intro .inner .copy {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 6.5% 6.5%;
+		font-size: 1.6vw;
+		line-height: 1.6em;
+	}
+	#intro.who-intro h2 {
+		position: static;
+	}
+	.who-intro .inner .copy p:nth-child(3) {
+		width: 90%;
+	}
+	.who-intro .inner .copy p:last-child {
+		width: 70%;
+	}
+	.who-intro .background-grid {
+		width: 115%;
+		padding-bottom: 92%;
+		left: 80%;
+		top: 82%;
+	}
+	.why-work-here .copy p {
+		margin: 1.5em auto 2.75em;
+		font-size: 1.45vw;
+		line-height: 1.6em;
+	}
+	.talent-network-callout .copy span {
+		margin: 1.5em auto 2.75em;
+		font-size: 1.45vw;
+		line-height: 1.6em;
+	}
+	.bannerStatic {
+		height: 38vw;
+		margin: 108px auto 0px;
+		max-height: calc(100vh - 160px);
+	}
+	.bannerStatic  > .inner {
+		top: 35%;
+	}
+	.bannerSub .inner .copy {
+		box-sizing: border-box;
+		width: 45%;
+		padding: 70px 5% 65px;
+		margin: 70px 0px;
+		background-color: rgba(255,255,255,.95);
+		border-radius: 3px;
+	}
+	.bannerStatic .inner .copy {
+		width: 52%;
+		padding: .25% 3%;
+		background-color: rgba(255,255,255,.95);
+	}
+	.bannerStatic .inner .copy h1 {
+		text-align: center;
+		font-weight: 800;
+		letter-spacing: -.01em;
+		font-size: 4.75vw;
+	    line-height: 1em;
+	    color: #121212;
+		text-transform: uppercase;
+	}
+	.who-we-are-page .bannerStatic .inner .copy {
+		width: 52%;
+		padding: .25% 3%;
+		background-color: rgba(102,161,185,.85);
+	}
+	.values-graphic .value-intro {
+		width: 69%;
+		padding: 1.75em 0px 0em;
+		font-size: 2.5vw;
+		line-height: 1.3em;
+	}
+	.values-graphic .inner {
+		padding: 3em 0px;
+	}
+	.values-graphic .background-band::after {
+		padding: 0px 0px 23%;
+	}
+	.values-graphic .inner .square-container {
+		width: 50%;
+		padding: 0px 0px 50%;
+		border: 9px solid #ffffff;
+	}
+	.values-graphic .inner .square-container h2 {
+		font-size: 2.1vw;
+		line-height: 1em;
+	}
+	.values-graphic .inner .square-container li a {
+		font-size: 1.45vw;
+		line-height: 1em;
+	}
+	.value-details .value-description a {
+		top: -200px;
+	}
+	.value-details .value-description {
+		font-size: 1.4vw;
+		line-height: 1.5em;
+	}
+	.leadership-pledge::before {
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: auto;
+		height: 8px;
+		background-image: linear-gradient(135deg, rgba(210,35,45,.75), rgba(210,35,45,1), rgba(195,0,30,.75));
+		background-color: #ffffff;
+	}
+	.leadership-pledge::after {
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		background-image: linear-gradient(195deg, rgba(0,0,0,0) 70%, rgba(0,0,0,.1));
+	}
+	.leadership-pledge .inner {
+		box-sizing: border-box;
+		width: 100%;
+		margin: 0px auto;
+		padding: 0px 0px;
+		text-align: right;
+	}
+	.leadership-pledge .background-image {
+		position: absolute;
+		z-index: 2;
+		left: 56.5%;
+		bottom: 0;
+		right: 2.5%;
+		opacity: 1;
+		background-size: contain;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+		background-image: url("../images/sub/values/leadership-hand.png");
+	}
+	.leadership-pledge h2 {
+		display: none;
+	}
+	.leadership-pledge .inner .copy {
+		box-sizing: border-box;
+		display: block;
+		width: 100%;
+		margin: 0px auto;
+		padding: 10% 12.5% 9.5% 12.5%;
+		text-align: left;
+		color: #333333;
+		position: relative;
+		z-index: 1;
+	}
+	.leadership-pledge .inner .copy::after {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		left: 5%;
+		right: 5%;
+		top: 5%;
+		bottom: 5%;
+		background-color: rgba(255,255,255,.97);
+		border-radius: 5px;
+	}
+	.leadership-pledge .inner .copy h3 {
+		color: #454545;
+	}
+	.leadership-pledge .inner .copy ol {
+		margin: 1.5em 0px 0px;
+		padding: 0px;
+	}
+	.leadership-pledge .inner .copy ol li {
+		margin: 1.25em 0px 1.25em 1.25em;
+		padding: 0px 0px 0px .25em;
+		font-size: 1.5vw;
+		line-height: 1.5em;
+	}
+	.leadership-pledge .inner .copy ol li:nth-child(10), .leadership-pledge .inner .copy ol li:nth-child(11), .leadership-pledge .inner .copy ol li:nth-child(12) {
+		width: 55%
+	}
+	.sub-intro.benefits-intro {
+		padding: 10% 0px 9.5%;
+	}
+	.sub-intro.benefits-intro .inner .copy {
+		width: 47.5%;
+		font-size: 1.6vw;
+		line-height: 1.5em;
+		padding: 5% 2.5%;
+	}
+	.benefits-list .inner > ul > li {
+		width: calc(50% - 30px);
+		margin: 0 15px 30px;
+	}
+	#intro.benefits-intro h2 {
+		position: static;
+	}
+	.benefits-list .icon {
+		padding-bottom: 28%;
+	}
+	#anniversary-video h2 {
+		font-size: 6vw;
+	}
+	#anniversary-video h3 {
+		font-size: 4vw;/*was 4vw*/
+	}
+}
+@media screen and (max-width: 800px) {
+	.career-paths {
+		padding: 6em 0px 4.5em;
+		position: relative;
+		z-index: 1;
+	}
+	.career-paths-bottom {
+		display: block;
+	}
+	.career-paths-bottom > a  {
+		display: block;
+		font-size: 1.6vw;
+		line-height: 1.4em;
+		width: 100%;
+		margin: 0px auto 2em;
+		padding: 80% 0px 0px;
+	}
+	.career-paths-bottom > a .copy {
+		top: 72%;
+	}
+	.career-paths-bottom > a h3 {
+		font-size: 3.35em;
+		line-height: 1.05em;
+	}
+	.career-paths-bottom > a span {
+		font-size: 1.85em;
+	}
+	.featured-jobs {
+		padding: 6em 0px 4em;
+		position: relative;
+		z-index: 1;
+	}
+	.featured-jobs-bottom > div {
+		display: block;
+		font-size: 2.2vw;
+		line-height: 1.4em;
+		width: 100%;
+		margin: 0px auto 2em;
+		padding: 16% 7.5% 6.5%;
+	}
+	footer .inner > div.left {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	footer .inner > div.center {
+		display: block;
+		width: 100%;
+		padding: 0px;
+		text-align: center;
+		margin: 2em auto 0px;
+		border-left: 0px solid #ffffff;
+	}
+	footer .inner > div.right {
+		padding: 20px 0px 0px 0px;
+	}
+	footer ul.social {
+		text-align: left;
+		padding: 0px;
+		margin: 0px;
+	}
+	.bannerArea-search {
+		width: 100%;
+		margin-top: 60px;
+		background-image: url("../images/main/banner5-mobile.jpg");
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: contain;
+		background-color: rgba(245,245,245,1);
+		position: relative;
+		z-index: 1;
+		overflow: hidden;
+		border-bottom: 12px solid #D2232A;
+		-webkit-transition: all .35s ease-out;
+		transition: all .35s ease-out;
+	}
+	.bannerArea-search > .inner {
+		width: 100%;
+		margin: 0px auto;
+		padding: 80% 0px 0px;
+	}
+	.bannerArea-search .inner .copy {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 25px 5% 25px;
+		margin: 0px auto;
+		border-radius: 0px;
+	}
+	.value-details {
+		padding: 4% 0px 0em;
+	}
+	.value-details::before {
+		height: 8px;
+	}
+	.value-details .value-description {
+		font-size: 1.6vw;
+		line-height: 1.5em;
+		width: 45%;
+		margin: 0px 2% 4%;
+		padding: 34% 5% 4.5%;
+	}
+	.leadership-pledge .inner .copy ol li {
+		font-size: 1.75vw;
+		line-height: 1.5em;
+	}
+	.leadership-pledge .inner .copy ol li:nth-child(10) {
+		width: auto;
+	}
+	.sub-intro.benefits-intro .inner .copy {
+		width: 45%;
+		font-size: 1.95vw;
+		line-height: 1.5em;
+	}
+	
+	.additional-benefits {
+		background-image: none;
+	}
+	.additional-benefits:before {
+		content: '';
+		display: block;
+		width: 100%;
+		padding-bottom: 60%;
+		background-size: cover;
+		background-position: center;
+		background-image: url("../images/sub/benefits/benefits2.jpg");
+	}
+	.additional-benefits .inner {
+		padding:0;
+		width: 100%;
+	}
+	.additional-benefits .copy {
+		width: 100%;
+	}
+	
+	.benefits-home-callout {
+		background-image: none;
+	}
+	.benefits-home-callout:before {
+		content: '';
+		display: block;
+		width: 100%;
+		padding-bottom: 60%;
+		background-size: cover;
+		background-position: center;
+		background-image: url("../images/main/benefit-callout.jpg");
+	}
+	.benefits-home-callout:before {
+		background-image: url("../images/sub/who-we-are/take-action-mobile.jpg");
+	}
+	.benefits-home-callout .inner {
+		padding:0;
+		width: 100%;
+	}
+	.benefits-home-callout .copy {
+		width: 100%;
+	}
+	
+	.benefits-list .inner{
+		padding: 3em 0;
+	}
+	#event-holder{
+	width:100%;
+		padding: 1em 0;
+	}
+	#event-holder .inner {
+	width: 90%;
+	margin: 0px auto;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+#event-holder .copy {
+	background-color: #ffffff;
+    width: calc(100% - 2em);
+    flex-direction: column;
+    padding: 1em;
+}
+	#event-holder ul {
+	column-count: 1;
+}
+	#event-holder .photo {
+	width:100%;
+	padding-top:45%;
+}
+}
+
+@media screen and (max-width: 600px) {
+	.home4 .bannerArea {
+		height: auto;
+		padding-top: 80vw;
+		position: relative;
+		z-index: 1;
+	}
+	.home4 .bannerArea .inner {
+		width: 100%;
+	}
+	.home4 .bannerArea .inner .copy {
+		position: relative;
+		left: 0;
+		top: auto;
+		transform: translateY(0%);
+		box-sizing: border-box;
+		width: 100%;
+		padding: 7.5% 7.5% 8% !important;
+		margin: 0px 0px;
+		border-radius: 3px;
+		background-color: rgba(210,35,42,.9);
+	}
+	.home4 .bannerArea > .inner .copy h1 {
+		text-align: left;
+		font-size: 6.25vw;
+		line-height: 1em;
+		letter-spacing: .04em;
+		margin: 0px;
+		pafdding: 40px !important;
+	}
+	#centennialheader h1{
+	font-size: 6.25vw;
+	line-height: 1em;
+}
+	.bannerArea-search > .inner .copy h1 {
+		text-align: center;
+		font-size: 6.25vw;
+		line-height: 1em;
+		letter-spacing: .04em;
+		margin: 0px;
+	}
+	.home4 .image-grid {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		transform: translate(0%, 0%);
+		width: 100%;
+		padding-bottom: 0;
+	}
+	.home4 .bannerArea .img1 {
+		left: 0;
+		right: 80%;
+	}
+	.home4 .bannerArea .img2 {
+		display: none;
+	}
+	.home4 .bannerArea .img3 {
+		display: none;
+	}
+	.home4 .bannerArea .img4 {
+		left: 20%;
+		right: 50%;
+	}
+	.home4 .bannerArea .img5 {
+		left: 50%;
+		right: 20%;
+	}
+	.home4 .bannerArea .img6 {
+		left: 80%;
+		right: 0%;
+	}
+.home4 .image-grid .images-row-1 div {
+	top: 0;
+	bottom: 75%;
+}
+.home4 .image-grid .images-row-2 div {
+	top: 25%;
+	bottom: 50%;
+}
+.home4 .image-grid .images-row-3 div {
+	top: 50%;
+	bottom: 25%;
+}
+.home4 .image-grid .images-row-4 div {
+	top: 75%;
+	bottom: 0%;
+}
+.home4 .bannerArea .images-row-1 .img1 {
+	background-color: #333333;
+	right: 67%;
+	background-image: url("../images/main/banner-grid/Untitled-11.jpg");
+}
+.home4 .bannerArea .images-row-1 .img3 {
+	background-color: #454545;
+	background-image: url("../images/main/banner-grid/Untitled-7.jpg");
+	background-position: top center;
+}
+.home4 .bannerArea .images-row-1 .img4 {
+	background-color: #999999;
+	background-image: url("../images/main/banner-grid/Untitled-6.jpg");
+}
+.home4 .bannerArea .images-row-1 .img5 {
+	background-color: #D2232A;
+}
+.home4 .bannerArea .images-row-1 .img6 {
+	background-color: #454545;
+	bottom: 50%;
+	background-image: url("../images/main/banner-grid/Untitled-3.jpg");
+}
+.home4 .bannerArea .images-row-1 .img6::before {
+	background-image: url("../images/main/banner-grid/Untitled-16.jpg");
+	background-position: left center;
+	background-size: cover;
+	animation-delay: 2.5s;
+	animation-duration: 7s;
+}
+.home4 .bannerArea .images-row-2 .img1 {
+	background-color: #414042;
+	background-image: url("../images/main/banner-grid/Untitled-12.jpg");
+}
+.home4 .bannerArea .images-row-2 .img1::before {
+	content: "";
+	position: absolute;
+	z-index: 2;
+	opacity: .85;
+	background-color: #F9423A;
+}
+.home4 .bannerArea .images-row-2 .img4 {
+	background-color: #666666;
+	background-image: url("../images/main/banner-grid/Untitled-8.jpg");
+	bottom: 25%;
+}
+.home4 .bannerArea .images-row-2 .img4::before {
+	content: "";
+	position: absolute;
+	z-index: 2;
+	opacity: .5;
+	background-color: #66A1B9;
+}
+.home4 .bannerArea .images-row-2 .img5 {
+	background-color: #454545;
+	background-image: url("../images/main/banner-grid/Untitled-1.jpg");
+}
+.home4 .bannerArea .images-row-2 .img5::before {
+	background-image: url("../images/main/banner-grid/Untitled-13.jpg");
+	background-position: center right;
+	background-size: cover;
+	animation-delay: 1.5s;
+	animation-duration: 11s;
+}
+.home4 .bannerArea .images-row-3 .img1 {
+	background-color: #999999;
+	bottom: 0;
+	background-image: url("../images/main/banner-grid/Untitled-4.jpg");
+	background-position: center right;
+}
+.home4 .bannerArea .images-row-3 .img1::before {
+	background-image: url("../images/main/banner-grid/Untitled-15.jpg");
+	background-position: center right;
+	background-size: cover;
+	animation-delay: 2s;
+	animation-duration: 9s;
+}
+.home4 .bannerArea .images-row-3 .img7 {
+	left: 67%;
+	right: 0;
+	top: 50%;
+	bottom: 0;
+	background-color: #666666;
+	background-image: url("../images/main/banner-grid/Untitled-10.jpg");
+	overflow: hidden;
+}
+.home4 .bannerArea .images-row-3 .img7::before {
+	background-image: url("../images/main/banner-grid/Untitled-14.jpg");
+	
+}
+.home4 .bannerArea .images-row-4 .img2 {
+	background-color: #66A1B9;
+	background-image: url("../images/main/banner-grid/Untitled-5.jpg");
+}
+.home4 .bannerArea .images-row-4 .img2::before {
+	content: "";
+	position: absolute;
+	z-index: 2;
+	opacity: .5;
+	background-color: #D2232A;
+}
+.home4 .bannerArea .images-row-4 .img3 {
+	background-color: #454545;
+	background-image: url("../images/main/banner-grid/Untitled-2.jpg");
+}
+.home4 .bannerArea .images-row-4 .img4 {
+	background-color: #999999;
+	background-image: url("../images/main/banner-grid/Untitled-9.jpg")
+}
+	.featured-jobs {
+		padding: 80px 0px 30px;
+	}
+	.featured-jobs-bottom > div {
+		display: block;
+		font-size: 3.5vw;
+		line-height: 1.4em;
+		margin: 0px auto 2em;
+		padding: 22% 10% 10%;
+	}
+	.featured-jobs-bottom > div h3 {
+		font-size: 1.6em;
+		line-height: 1.1em;
+	}
+	.featured-jobs-bottom > div dl .category {
+		top: 8%;
+		left: -5px;
+		padding: 1.25% 5% 1.2%;
+	}
+	.featured-jobs-bottom > div .red-button {
+		margin: 1.5em 0px 0px;
+	}
+	
+	
+	.bannerStatic {
+		height: 110vw;
+		max-height: calc(100vh - 160px);
+	}
+	.bannerStatic  > .inner {
+		position: absolute;
+		z-index: 1;
+		top: 5%;
+		left: 50%;
+		transform: translate(-50%, 0%);
+		width: 90%;
+		margin: 0px auto;
+	}
+	.bannerSub .inner .copy {
+		box-sizing: border-box;
+		width: 45%;
+		padding: 70px 5% 65px;
+		margin: 70px 0px;
+		background-color: rgba(255,255,255,.95);
+		border-radius: 3px;
+	}
+	.bannerStatic .inner .copy {
+		width: 65%;
+		padding: 1% 3%;
+		background-color: rgba(255,255,255,.95);
+		margin: 0px;
+	}
+	.bannerStatic .inner .copy h1 {
+		text-align: center;
+		font-weight: 800;
+		letter-spacing: -.01em;
+		font-size: 6.5vw;
+	    line-height: 1em;;
+	}
+	.values .bannerStatic {
+		background-image: url("../images/sub/values/values-banner.jpg");
+	}
+	.values .bannerStatic .inner .copy {
+			width: 55%;
+			padding: 1% 3%;
+	}
+	.benefits .bannerStatic {
+		background-image: url("../images/sub/benefits/benefits-banner-mobile.jpg");
+	}
+	.benefits .bannerStatic .inner .copy {
+			width: 60%;
+			padding: 1% 3%;
+	}
+	.who-we-are-page .bannerStatic {
+		background-image: url("../images/sub/who-we-are/whoweare-banner-mobile.jpg");
+	}
+	.who-we-are-page .bannerStatic .inner .copy {
+		width: 65%;
+		padding: 1% 3%;
+	}
+	h2 {
+		font-size: 3vw;
+		line-height: 1em;
+	}
+	
+	.sub-intro.who-intro {
+		padding: 0px;
+		position: relative;
+		z-index: 1;
+		background-image: url("../images/sub/who-we-are/collage-mobile.jpg");
+		background-size: cover;
+		background-position: center bottom;
+		background-repeat: no-repeat;
+	}
+	.who-intro::before {
+		content: none;
+	}
+	.who-intro::after {
+		height: 8px;
+		background-image: linear-gradient(90deg, rgba(0,0,0,.3), rgba(0,0,0,.15), rgba(0,0,0,.5))
+	}
+	.sub-intro.who-intro .inner {
+		width: 85%;
+		padding: 7.5% 0px 50%;
+		margin: 0px auto;
+	}
+	.who-intro .inner .copy {
+		width: 100%;
+		padding: 15% 10% 10%;
+		background-color: rgba(255,255,255,.925);
+		font-size: 3vw;
+		line-height: 1.5em;
+		margin: 0px;
+		position: static;
+		border-radius: 5px;
+	}
+	.who-intro .inner .copy p:first-child {
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+	.who-intro .inner .copy p:nth-child(3), .who-intro .inner .copy p:last-child {
+		width: 100%;
+	}
+	.who-intro .background-grid {
+		display: none;
+	}
+	.why-work-here {
+		background-image: url("../images/sub/who-we-are/why-work-here-mobile.jpg");
+		background-position: top center;
+		background-repeat: no-repeat;
+		margin: 0px auto;
+		position: relative;
+		z-index: 1;
+	}
+	.why-work-here .inner {
+		width: 90%;
+		position: static;
+		padding: 75% 0px 10%;
+		text-align: center;
+	}
+	.why-work-here .copy {
+		display: block;
+		width: 100%;
+		padding: 10%;
+		text-align: center;
+		background-color: rgba(255,255,255,.85);
+		border-radius: 2px;
+	}
+	.why-work-here .copy p {
+		display: block;
+		margin: 0em auto 1.75em;
+		font-size: 3.25vw;
+		line-height: 1.4em;
+	}
+	.talent-network-callout {
+		background-image: url(../images/global/talent-network-callout-mobile.jpg), linear-gradient(150deg, rgba(0,0,0,.15) 50%, rgba(0,0,0,0) 95%);
+		background-repeat: no-repeat;
+		background-position: top center;
+		background-size: contain, cover;
+		position: relative;
+		z-index: 1;
+		background-color: #ffffff;
+	}
+	.talent-network-callout .inner {
+		width: 90%;
+		margin: 0px auto;
+		position: static;
+		z-index: 1;
+		padding: 67.5% 0px 5%;
+	}
+	.talent-network-callout .copy {
+		display: block;
+		box-sizing: border-box;
+		width: 100%;
+		padding: 10%;
+		margin: 0px auto;
+		text-align: center;
+		background: rgba(255,255,255,1);
+	}
+	.talent-network-callout .copy span {
+		margin: 0em auto 1.75em;
+		font-size: 3.25vw;
+		line-height: 1.4em;
+	}
+	#intro.who-intro h2, .talent-network-callout .copy h2, .why-work-here .copy h2 {
+		display: inline-block;
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		padding: .35em 1.15em .35em;
+	}
+	.talent-network-callout .copy h2 {
+		left: 0;
+		margin: 5% 0px 0px 5%;
+		background-color: rgba(65,64,66,.85);
+		color: #ffffff;
+	}
+	.why-work-here .copy h2 {
+		right: 0;
+		margin: 5% 5% 0px 0px;
+		background-color: rgba(255,255,255,.85);
+		color: #414042;
+	}
+	#intro.who-intro h2 {
+		position: absolute;
+		z-index: 1;
+		left: 5%;
+		top: 7%;
+		margin: 0px;
+		background-color: rgba(65,64,66,.85);
+		color: #ffffff;
+	}
+	.values-graphic .value-intro {
+		width: 69%;
+		padding: 1.75em 0px 1em;
+		font-size: 3.5vw;
+		line-height: 1.3em;
+	}
+	.values-graphic .inner {
+		padding: 2em 0px 2em;
+	}
+	.values-graphic .background-band::after {
+		padding: 0px 0px 29%;
+	}
+	.values-graphic .inner .square-container {
+		width: 62%;
+		padding: 0px 0px 62%;
+		border: 5px solid #ffffff;
+	}
+	.values-graphic .inner .square-container h2 {
+		font-size: 2.6vw;
+		line-height: 1em;
+	}
+	.values-graphic .inner .square-container li a {
+		font-size: 1.85vw;
+		line-height: 1em;
+	}
+	.value-details {
+		padding: 3.5% 0px 0em;
+	}
+	.value-details::before {
+		height: 6px;
+	}
+	.value-details .value-description {
+		font-size: 2.6vw;
+		line-height: 1.5em;
+		width: 100%;
+		margin: 0px 2% 4%;
+		padding: 72.5% 10% 9%;
+	}
+	.value-details .value-description h3 {
+		font-size: 2.2em;
+		line-height: 1em;
+	}
+	.leadership-pledge::before {
+		height: 6px;
+		background-image: linear-gradient(135deg, rgba(210,35,45,.85), rgba(210,35,45,1), rgba(195,0,30,.95));
+	}
+	.leadership-pledge::after {
+		background-image: linear-gradient(195deg, rgba(0,0,0,0) 15%, rgba(0,0,0,.1));
+	}
+	.leadership-pledge .inner {
+		margin: 0px auto;
+		padding: 2% 0px 32%;
+		text-align: center;
+	}
+	.leadership-pledge .background-image {
+		position: absolute;
+		z-index: 2;
+		left: 10%;
+		bottom: 0;
+		right: 10%;
+		top: auto;
+		padding: 0px 0px 50% 0px;
+	}
+	.leadership-pledge .inner .copy {
+		text-align: center;
+		padding: 13% 12.5% 15% 12.5%;
+	}
+	.leadership-pledge .inner .copy h3 {
+		text-align: center;
+		color: #454545;
+	}
+	.leadership-pledge .inner .copy ol {
+		list-style: none;
+		margin: 1em auto 0px;
+	}
+	.leadership-pledge .inner .copy ol li {
+		margin: 1.25em auto 1.25em;
+		padding: 0px;
+		font-size: 2.6vw;
+		line-height: 1.5em;
+	}
+	.leadership-pledge .inner .copy ol li:nth-child(10), .leadership-pledge .inner .copy ol li:nth-child(11), .leadership-pledge .inner .copy ol li:nth-child(12) {
+		width: 100%
+	}
+	.benefits-list .inner > ul > li {
+		width: 100%;
+		margin: 0 0 30px;
+		padding: 30% 2.5% 3%;
+	}
+	
+	.sub-intro.benefits-intro .inner .copy {
+	  width: 100%;
+	  padding: 15% 10% 10%;
+	  background-color: rgba(255,255,255,.925);
+	  font-size: 3vw;
+	  line-height: 1.5em;
+	  margin: 0px;
+	  position: static;
+	  border-radius: 5px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	header .inner {
+		width: calc(100% - 50px);
+	}
+	.accordion-hamburger-title {
+		display: block;
+		position: fixed;
+		z-index: 2;
+		top: 0;
+		right: 0;
+		width: 75px;
+		height: 65px;
+	}
+	.burger {
+		right: 25px;
+		top: 17px
+	}
+	.mobile-search-button {
+		padding: 15px 30px 14px;
+	}
+	.mobile-search-button::before {
+		right: 30px;
+		transform: translateY(-50%);
+	}
+	.search ul.search-content {
+		padding: 15px 30px 20px;
+	}
+	#search-body .inner .sub-search ul.search-content {
+		padding: 15px 30px 20px;
+	}
+	header .inner nav > ul > li.talent-network-link > a {
+		padding: 15px 30px 15px 52px;
+	}
+	header .inner nav > ul > li.talent-network-link > a::before {
+		left: 29px;
+		top: 50%;
+		width: 14px;
+		height: 14px;
+	}
+	.career-paths .inner {
+		width: calc(100% - 50px);
+	}
+	.featured-jobs .inner {
+		width: calc(100% - 50px);
+	}
+	#intro h2, .career-paths .inner h2, .featured-jobs .inner h2 {
+		position: absolute;
+		z-index: 2;
+		top: 30px;
+		left: 30px;
+		margin: 0px;
+		padding: 0px;
+	}
+	.featured-jobs {
+		padding: 65px 0px 20px;
+	}
+	.red-button {
+		font-size: 12px;
+		line-height: 12px;
+		padding: 10px 30px 10px 18px;
+	}
+	.red-button::before {
+		right: 13px;
+		transform: translateY(-53%);
+	}
+	.talent-network-form {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 2em 2.5em;
+	}
+	.bannerArea-tn {
+		background-image: url("../images/jobsearch/tn.jpg");
+	}
+	.search-results dl span {
+		display: block;
+		padding: 0px 0px 0px;
+		margin: 0px 5px 0px 0px;
+		background-color: rgba(255,255,255,0);
+		color: #333333;
+	}
+	.search-results dl span dt, .search-results dl span dd {
+		padding: 0px 0px 0px;
+		margin: 0px 3px 0px 0px;
+	}
+	.search-results h1 {
+		font-size: 1.8em;
+    	line-height: .95em;
+	}
+.front-page-intro {
+	padding: 60% 0px 0em !important;
+}
+.front-page-intro .inner {
+	width: 100%;
+	margin: 0px auto;
+}
+.front-page-intro .inner .copy {
+	box-sizing: border-box;
+	width: 100% !important;
+	padding: 8% 10% 10% !important;
+	font-size: 2.5vw !important;
+	line-height: 1.4em !important;
+	
+}
+.front-page-intro .background-image {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-image: url("../images/main/intro-mobile.jpg");
+	background-size: cover;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+h3 {
+	font-size: 21px;
+	line-height: 21px;
+}
+.search-results dl {
+	margin: 0px 0px .75em;
+}
+#search-body {
+	width: 100%;
+	padding: 2em 0px;
+}
+#search-body .inner {
+	width: calc(100% - 40px);
+}
+.results-content > div {
+	padding: 2em 0em;
+	border-bottom: 1px solid #EBEBEC;
+}
+	.values-graphic .value-intro {
+		width: 80%;
+		padding: 2em 0px 1em;
+		font-size: 5vw;
+		line-height: 1.3em;
+	}
+	.value-details {
+		padding: 0em;
+	}
+	.value-details::before {
+		height: 6px;
+	}
+	.value-details .value-description {
+		font-size: 3.35vw;
+		line-height: 1.5em;
+		width: 100%;
+		margin: 0px auto 6%;
+		padding: 77.5% 12% 10%;
+	}
+	.value-details .value-description h3 {
+		font-size: 2em;
+		line-height: 1em;
+	}
+	.leadership-pledge .inner {
+		padding: 2% 0px 22%;
+	}
+	.leadership-pledge .inner .copy {
+		padding: 12.5% 15% 25%;
+	}
+	.leadership-pledge .inner .copy h3 {
+		font-size: 1.8em;
+		line-height: 1em;
+	}
+	.leadership-pledge .inner .copy ol li {
+		font-size: 3.35vw;
+		line-height: 1.45em;
+	}
+	#intro.who-intro h2 {
+		left: 5%;
+		top: 6%;
+	}
+	.who-intro .inner .copy {
+		font-size: 3.35vw;
+		line-height: 1.5em;
+	}
+	#anniversary-video h2 {
+		font-size: 9vw;
+		margin-bottom:20px;
+	}
+	#anniversary-video h3 {
+		font-size: 6.5vw;/*was5vw*/
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.mobile-only {
+		display: none !important;
+	}
+	.accordion-hamburger {
+		display: block !important;
+	}
+	.search-content, .search ul
+	.mobile-only {
+		display: block !important;
+	}
+	.sub-search {
+		width: 100%;
+	}
+}

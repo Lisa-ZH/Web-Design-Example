@@ -1,0 +1,136 @@
+/*------ Cypress page ------*/
+.hear-from-our-team{
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color:  rgba(245, 245, 245, 1);
+    border-bottom: 10px solid #345168;
+}
+.hear-from-our-team h3{
+    width: 95%;
+    margin: 20px auto;
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 1.3em;
+    color:#124a7e;
+    text-align: center;
+}
+.hear-from-our-team .video-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.hear-from-our-team .video-container .video-player{
+    width: 50%;
+    margin: 1%;
+}
+.hear-from-our-team .video-container .video-player .responsive-frame iframe{
+    width: 90%;
+    height: 315px;
+}
+@media only screen and (max-width: 900px) {
+    .hear-from-our-team{
+        margin-bottom: 50px;
+    }
+    .hear-from-our-team .video-container{
+    flex-direction: column;
+}
+   .hear-from-our-team .video-container .video-player{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .hear-from-our-team h3{
+        font-size: 2.6em;
+    line-height: 1.1em;
+    }
+    .hear-from-our-team .video-container .video-player{
+        width: 100%;
+    }
+    .hear-from-our-team .video-container .video-player .responsive-frame iframe{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .hear-from-our-team h3{
+        font-size: 2em;
+    line-height: 1em;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .hear-from-our-team .video-container .video-player .responsive-frame iframe{
+        height: 280px;
+    }
+}
+
+/*------ Locations Specialty Physician page ------*/
+.hear-from-physicians{
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color:  rgba(245, 245, 245, 1);
+    border-bottom: 10px solid #345168;
+}
+.hear-from-physicians h3{
+    width: 95%;
+    margin: 20px auto;
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 1.3em;
+    color:#124a7e;
+    text-align: center;
+}
+.hear-from-physicians .video-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.hear-from-physicians .video-container .video-player{
+    width: 50%;
+    margin: 1%;
+}
+.hear-from-physicians .video-container .video-player .responsive-frame iframe{
+    width: 90%;
+    height: 315px;
+}
+@media only screen and (max-width: 900px) {
+    .hear-from-physicians{
+        margin-bottom: 50px;
+    }
+    .hear-from-physicians .video-container{
+    flex-direction: column;
+}
+    .hear-from-physicians .video-container .video-player{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .hear-from-physicians h3{
+        font-size: 2.6em;
+    line-height: 1.1em;
+    }
+    .hear-from-physicians .video-container .video-player{
+        width: 100%;
+    }
+    .hear-from-physicians .video-container .video-player .responsive-frame iframe{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .hear-from-physicians h3{
+        font-size: 2em;
+    line-height: 1em;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .hear-from-physicians .video-container .video-player .responsive-frame iframe{
+        height: 280px;
+    }
+}
+
+
+
+
+
+
+

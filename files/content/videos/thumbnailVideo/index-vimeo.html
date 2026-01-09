@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vimeo Video Player</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <style>
+        .video-container {
+            position: relative;
+            width: 640px;
+            height: 360px;
+            cursor: pointer;
+        }
+
+        .thumbnail {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: block;
+            z-index: 2;
+        }
+
+        .video-wrapper {
+            display: none;
+            width: 100%;
+            height: 100%;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="video-container">
+    <img src="thumbnail.jpg" class="thumbnail" alt="Video Thumbnail">
+    <div class="video-wrapper">
+        <!-- <iframe id="vimeo-video" src="https://player.vimeo.com/video/YOUR_VIDEO_ID?autoplay=0&muted=1" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
+        <!-- <iframe id="vimeo-video" src="https://player.vimeo.com/video/1030198538?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479?autoplay=0&muted=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Combatting Burnout with Cutting-Edge Technologies"></iframe> -->
+        <iframe id="vimeo-video" src="https://player.vimeo.com/video/1030198538?autoplay=0&muted=1" allow="autoplay; fullscreen" allowfullscreen></iframe> 
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        let iframe = document.getElementById("vimeo-video");
+        let player = new Vimeo.Player(iframe);
+
+        $(".thumbnail").click(function () {
+            $(this).fadeOut(300, function () { // Smooth fade out
+                $(".video-wrapper").show(); // Show the video wrapper
+                player.setCurrentTime(0); // Reset video to start
+                player.play(); // Start playing
+            });
+        });
+    });
+</script>
+
+</body>
+</html>

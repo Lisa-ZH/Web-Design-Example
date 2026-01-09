@@ -1,0 +1,199 @@
+/**************************** FOOTER STYLES ****************************/
+
+/*-- ---- ---- ---- CONTACT FORMS ---- ---- ---- --*/
+
+.sub-page-contact-form {
+	padding: 4em 0px;
+	background-image: url("../images/main/quote-loops.png"), linear-gradient(#005ca3, #0b88d1);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	text-align: center;
+	border-top: 8px solid #0b88d1;
+}
+.sub-page-contact-form .contact-form-header {
+	color: #ffffff;
+	text-align: center;
+}
+.sub-page-contact-form .contact-form-sub-header {
+	color: #ffffff;
+	text-align: center;
+	margin: 0px auto 1em;
+}
+.sub-page-contact-form .inner {
+	width: 80%;
+	max-width: 1450px;
+}
+.sub-page-contact-form .copy > p {
+	color: #ffffff;
+	text-align: center;
+}
+.sub-page-contact-form .copy > .fsBody {
+	font-family: proxima-nova, sans-serif;
+    color: #454545;
+    background-color: #fff;
+    background-image: none;
+    background-repeat: repeat;
+    margin: 1em auto !important;
+    padding: 1px 20px 5px !important;
+    font-weight: 400;
+    font-style: normal;
+	border-radius: 15px;
+	box-shadow: 3px 3px 6px 0px #005ca3;
+	text-align: left;
+}
+.sub-page-contact-form .fsForm .fsSubmit {
+    margin-top: 30px !important;
+    padding: 0px !important;
+	clear: none;
+}
+.sub-page-contact-form .fsForm .fsSubmitButton {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	font-family: proxima-nova, sans-serif !important;
+    clear: none;
+    padding: 12px 34px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px !important;
+    border-radius: 100px !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+    font-style: normal;
+    line-height: 14px;
+    color: #fff!important;
+    background-color: #0077bc !important;
+	transition: .15s all ease-in-out;
+}
+.sub-page-contact-form .fsForm .fsSubmitButton:focus, .sub-page-contact-form .fsForm .fsSubmitButton:hover, .sub-page-contact-form .fsForm .fsSubmitButton:active {
+	background-color: #053979 !important;
+}
+.sub-page-contact-form .fsborderradius .fsBody .fsSectionHeader {
+    margin-bottom: 10px !important;
+    padding: 20px !important;
+}
+.sub-page-contact-form .fsBody .fsForm .fsSectionHeading {
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #595d64;
+}
+
+
+/*-- ---- ---- ---- FOOTER STYLES ---- ---- ---- --*/
+
+footer {
+	width: 100%;
+	padding: 4.5em 0px;
+	position: relative;
+	z-index: 1;
+}
+footer::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 8px;
+	background-image: linear-gradient(90deg, rgba(0,120,190,1) -10%, rgba(0,120,190,.35) 35%, rgba(0,120,190,.35) 65%, rgba(0,120,190,1) 110%);
+}
+footer, footer a {
+	color: #0077bc !important;
+}
+footer .inner {
+	width: 90%;
+	margin: 0px auto;
+	position: relative;
+	z-index: 1;
+	text-align: left;
+	max-width: 1400px;
+}
+footer .logo-holder {
+	width: 165px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px 30px 0px 0px
+}
+footer .logo-holder a.logo {
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 60%;
+	background-image: url(../images/global/aveanna-logo-bottom.png);
+	background-position: top left;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+footer .footer-nav {
+	display: inline-block;
+	vertical-align: top;
+	width: calc(100% - 205px);
+	font-size: 14px;
+	line-height: 21px;
+}
+footer .address {
+	display: inline-block;
+	vertical-align: top;
+	width: 28%;
+}
+footer .links {
+	display: inline-block;
+	vertical-align: top;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+    -moz-column-gap: 1%;
+    -webkit-column-gap: 1%;
+    column-gap: 1%;
+	column-fill: balance;
+	width: 66%;
+	padding-left: 5%;
+	border-left: 1px solid rgba(0,120,190,.35);
+}
+footer a:hover, footer a:focus {
+	color: #047d96 !important;
+	font-weight: 700;
+	text-decoration: underline !important;
+}
+footer ul, footer li {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+footer .middle-footer {
+	text-align: center;
+	margin: 3em auto 2em;
+}
+footer .middle-footer .policy-links li {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 14px;
+	padding: 2px 10px 2px 13px;
+	border-left: 1px solid rgba(0,120,190,.35);
+}
+footer .middle-footer .policy-links li:first-child {
+	display: inline-block;
+	border-left: 0px solid rgba(0,120,190,.35);
+}
+footer .middle-footer .policy-links li:last-child {
+	display: block;
+	border-left: 0px solid rgba(0,120,190,.35);
+}
+footer .footer-bottom {
+	font-size: 14px;
+	line-height: 14px;
+	text-align: center;
+}
+footer .footer-bottom li {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 1px 5px 1px 3px;
+	border-right: 1px solid #0077bc;
+}
+footer .footer-bottom li:last-child {
+	border-right: 0px solid #0077bc;
+}

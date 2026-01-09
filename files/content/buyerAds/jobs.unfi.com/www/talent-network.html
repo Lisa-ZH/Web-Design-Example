@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--|| {% load i18n job_tags static %} ||-->
+	<meta id="testViewport" name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {% block headers %}{% endblock %}
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- Google -->
+	<meta itemprop="image" content="/static/sites/www/files/images/global/share-this/social-image.jpg">
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image:src" content="/static/sites/www/files/images/global/share-this/social-twitter-image.jpg">
+	<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+	<meta property="og:image" content="/static/sites/www/files/images/global/share-this/social-image.jpg">
+	<meta property="og:image:secure_url" content="/static/sites/www/files/images/global/share-this/social-image.jpg">
+	<!-- Open Graph (LinkedIn) -->
+	<meta name="image" property="og:image" content="/static/sites/www/files/images/global/share-this/social-image.jpg">
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "Organization",
+			"url": "",
+			"image": "files/images/global/knowledge-graph-logo/logo.png",
+			"logo": "files/images/global/knowledge-graph-logo/logo.png"
+		}
+	</script>
+<!-- Google tag (gtag.js) --> <script async src=https://www.googletagmanager.com/gtag/js?id=G-ZG8MH657YX></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-ZG8MH657YX'); </script>
+	
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ CANONICAL_URL }}/static/sites/www/files/images/global/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ CANONICAL_URL }}/static/sites/www/files/images/global/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ CANONICAL_URL }}/static/sites/www/files/images/global/favicons/favicon-16x16.png">
+	<link rel="manifest" href="{{ CANONICAL_URL }}/static/sites/www/files/images/global/favicons/site.webmanifest">
+	<link rel="shortcut icon" href="{{ CANONICAL_URL }}/static/sites/www/files/images/global/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#6db144">
+	<link rel="manifest" href="{{ CANONICAL_URL }}/static/sites/www/files/images/global/favicons/site.webmanifest">
+	<meta name="theme-color" content="#ffffff">
+	<!-- End Favicon -->
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<link rel="stylesheet" href="https://use.typekit.net/xap2can.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400;1,9..40,500;1,9..40,600&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="files/css/style.css">
+	<link rel="stylesheet" href="{{ CANONICAL_URL }}/static/sites/www/files/css/language-adjustments.css">
+</head>
+<body>
+ <header id="header-2024">
+    <div class="top-bar">
+      <div class="wrap">
+        <nav class="top-menu-right">
+          <ul>
+            <li><a href="https://unfi.com/about-us.html" target="_blank">About Us</a></li>
+            <li><a href="https://unfi.com/impact.html" target="_blank">Impact</a></li>
+            <li><a class="investor-link" href="https://ir.unfi.com/home/default.aspx" target="_blank">Investors</a></li>
+            <li><a href="https://unfi.referrals.selectminds.com/?sso_oif=true">Current Associates</a></li>
+            <li>
+              <button class="toggle-top-sub usa-flag flag">English</button>
+              <ul class="sub-menu">
+               <li><a href="/set-language/?next=/&language=es" class="spanish-flag flag">Español</a></li>
+               <li><a href="/set-language/?next=/&language=fr" class="canada-flag flag">Français</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="bottom-bar">
+      <div class="wrap clearfix">
+        <div class="left">
+          <div class="logo">
+            <a href="https://www.unfi.com/" target="_blank" rel="noopener noreferrer"><img src="files/images/global/logo.png" alt="UNFI Logo"></a>
+          </div>
+        </div>
+        
+        <button class="menu-toggle" aria-label="Open Menu"><span></span></button>
+        <nav class="bottom-bar-nav">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/#career-paths">Career Paths</a></li>
+            <li><a href="/#about-us">About Us</a></li>
+            <li><a href="/#well-being">Benefits</a></li>
+            
+            <li><a class="btn green" href="https://jobs.unfi.com/jobs">Job Openings</a></li> 
+          </ul>
+        </nav>
+      </div>
+    </div> 
+    
+    <div id="mobile-menu" class="mobile-menu">
+     
+      <nav id="home-anchor" class="anchor-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/#career-paths">Career Paths</a></li>
+          <li><a href="/#about-us">About Us</a></li>
+          <li><a href="/#well-being">Benefits</a></li>
+          <li><a href="https://unfi.referrals.selectminds.com/?sso_oif=true">Current Associates</a></li>
+          <li><a href="https://jobs.unfi.com/jobs">Job Openings</a></li> 
+        </ul>
+      </nav>
+      <nav class="util">
+        <ul>
+          <li><a href="https://unfi.com/about-us.html" target="_blank">About Us</a></li>
+          <li><a href="https://unfi.com/impact.html" target="_blank">Impact</a></li>
+          <li><a class="investor-link" href="https://ir.unfi.com/home/default.aspx" target="_blank">Investors</a></li>
+          <li><a href="https://www.myunfi.com" class="investor-link ">Customer Login</a></li>
+          <li><a href="https://suppliers.unfi.com/Account/Login" class="investor-link ">Supplier Login</a></li>
+          <li><a href="/set-language/?next=/&language=en" class="usa-flag flag">English</a></li>
+          <li><a href="/set-language/?next=/&language=es" class="spanish-flag flag">Español</a></li>
+          <li><a href="/set-language/?next=/&language=fr" class="canada-flag flag">Français</a></li>
+        </ul>
+      </nav>
+      
+    </div> 
+  </header>
+	  
+	<main class="">
+
+
+		<section class="inner-banner talent-network">
+			<div class="wrap">
+				<div class="copy">
+					<h1>Find a job that matters. Work with people<br> who care.</h1>
+				</div>
+			</div>
+		</section>
+
+
+
+		<div id="search-body" class="clearfix">
+			<div class="wrap">
+
+				<section class="sub-search">
+					<button class="mobile-search-button" href="#search-content" aria-controls="#search-content" aria-expanded="false">Search Jobs</button>
+					<form id="search-form" method="get">
+						<ul class="search-content" id="search-content">
+							<li>
+								<input name="search_term" type="text" id="search_term" placeholder="Search Jobs by Keyword" value="">
+								<button>Search</button>
+							</li>
+							<li>
+								<button class="search-accordion-button" href="#category-search" aria-controls="#category-search" aria-expanded="false">
+									Search Jobs by Category
+								</button>
+								<ul class="search-accordion-list" id="category-search">
+									<li class="accordion-link">
+										<a class="accordion-link search_link" href="/jobs/">Search All Categories</a>
+									</li>
+									<li class="accordion-link active"><a class="accordion-link search_link" href="/jobs/accounting-finance/">Accounting / Finance Jobs</a></li>
+								</ul>
+							</li>
+							<li>
+								<button class="search-accordion-button" href="#employment_type-search" aria-controls="#employment_type-search" aria-expanded="false">
+									Search Jobs by Schedule Type
+								</button>
+								<ul class="search-accordion-list" id="employment_type-search">
+									<li class="accordion-link active">
+										<a class="accordion-link search_link" href="/jobs/accounting-finance/">Search All Job Types</a>
+									</li>
+									<li class="accordion-link"><a class="accordion-link" href="/jobs/accounting-finance/?employment_type=Full Time">Full Time Jobs</a></li>
+								</ul>
+							</li>
+							
+							<li>
+								<button class="search-accordion-button" href="#location-search" aria-controls="#location-search" aria-expanded="false">
+									Search Jobs by Location
+								</button>
+								<ul class="search-accordion-list" id="location-search">
+							
+									<li class="accordion-link active">
+										<a class="accordion-link search_link" href="/jobs/accounting-finance/">Search All Locations</a>
+									</li>
+									<li class="accordion-link"><a class="accordion-link search-link search-link-40" href="/jobs/accounting-finance/us/">North America Jobs</a></li>
+									<li class="accordion-link"><a class="accordion-link search-link search-link-20" href="/jobs/accounting-finance/us-ma-leominster/">Leominster, MA Jobs</a></li>
+									<li class="accordion-link"><a class="accordion-link search-link search-link-20" href="/jobs/accounting-finance/us-ri-pawtucket/">Pawtucket, RI Jobs</a></li>
+								</ul>
+							</li>
+							<li>
+								<button class="search-accordion-button" href="#country-search" aria-controls="#country-search" aria-expanded="false">
+									Search Jobs by Country
+								</button>
+								<ul class="search-accordion-list" id="country-search">
+									<li class="accordion-link">
+										<a class="accordion-link search_link" href="/jobs/">Search All Countries</a>
+									</li>
+									<li class="accordion-link active"><a class="accordion-link search_link" href="/jobs/accounting-finance/">Canada</a></li>
+									<li class="accordion-link active"><a class="accordion-link search_link" href="/jobs/accounting-finance/">United States of America</a></li>
+								</ul>
+							</li>
+							<li>
+								<div class="zip-search">
+									<input name="zipcode" type="text" id="id_zipcode" class="radius2-col1" value="" placeholder="Zip/Postal Code" aria-label="Enter your desired Zip/Postal Code">
+									<select name="radius" class="search2" id="id_radius" aria-label="Radius (select number of miles from your desired zipcode)">
+										<optgroup>
+
+											<option value="10">10 Miles</option>
+
+											<option value="25" selected>25 Miles</option>
+
+											<option value="50">50 Miles</option>
+
+											<option value="100">100 Miles</option>
+
+										</optgroup>
+									</select>
+									<button id="id-zipcode-btn">
+										<span class="sr-only"> Submit Zip Code and Radius Search</span>
+									</button>
+								</div>
+							</li>
+							<li>
+							  <button class="search-accordion-button" href="#job-site-search" aria-controls="#location-search" aria-expanded="false">
+								View Remote or Hybrid Jobs
+							  </button>
+							  <ul class="search-content2 search-accordion-list" id="job-site-search">
+								  <li class="accordion-link"><a href="#0">Search All Jobs</a></li>
+								<li class="accordion-link"><a href="#0">Remote</a></li>
+								<li class="accordion-link"><a href="#0">Hybrid</a></li>
+							  </ul>
+							</li>
+							<li>
+								<a href="/jobs/" class="advanced-button">View All Jobs</a>
+							</li>
+						</ul>
+					</form>
+				</section>
+
+				<div class="talent-network-form">
+					<h1>Join Our Talent Network</h1>
+					<a href="javascript:history.back()" class="btn">Back</a>
+					<div class="form-intro">
+						<h2>Please tell us about yourself and your area of interest</h2>
+						<p>Joining our Talent Network will allow you to stay connected with UNFI via alerts with new job opportunities that match your interests, and relevant communications and updates from our organization. If you already signed up for this service, you should have an email with a link to manage your settings. To re-send this email, <a href="/talentnetwork/resend/">click here</a>. </p>
+						<p>You can also join our Talent Network via <img src="files/images/global/linkedin-color.png?1684852581" class="scalable" alt="LinkedIn (logo)"> by <a href="/talentnetwork/linkedin-subscribe/">clicking here</a>.</p>
+
+					</div>
+				
+					<form method="post" class="te-form debounce" enctype="multipart/form-data" aria-label="UNFI Talent Network sign-up form" aria-describedby="talent-network-description">
+						<input type="hidden" name="csrfmiddlewaretoken" value="t24a1rHuQaX3cBABD8zb7SH3tR6urlrH6IHefCCUaUq3qZs0bX3bjOwAfBiaVKaC">		
+							<div class="te-field te-field-first_name">
+								<label for="id_first_name">First name</label>
+								<input type="text" name="first_name" maxlength="50" required="" id="id_first_name">
+							</div>
+						
+							<div class="te-field te-field-last_name">
+								<label for="id_last_name">Last name</label>
+								<input type="text" name="last_name" maxlength="50" required="" id="id_last_name">
+								
+							</div>
+						
+							<div class="te-field te-field-email">
+								<label for="id_email">Email</label>
+								
+								<input type="email" name="email" maxlength="100" required="" id="id_email">
+								
+							</div>
+						
+							<div class="te-field te-field-phone_number">
+								<label for="id_phone_number">Mobile phone</label>
+								
+								<input type="text" name="phone_number" maxlength="30" id="id_phone_number">
+								
+							</div>
+						
+							<div class="te-field te-field-current_employer">
+								<label for="id_current_employer">Current employer</label>
+								
+								<input type="text" name="current_employer" maxlength="100" id="id_current_employer">
+								
+							</div>
+						
+							<div class="te-field te-field-current_title">
+								<label for="id_current_title">Current title</label>
+								
+								<input type="text" name="current_title" maxlength="100" id="id_current_title">
+								
+							</div>
+						
+							<div class="te-field te-field-resume">
+								<label for="id_resume">Resume</label>
+								
+								<input type="file" name="resume" id="id_resume">
+								
+									<div class="te-field-help">
+										Formats accepted: .pdf / .doc / .docx / .txt / .jpg / .jpeg / .png
+									</div>
+								
+							</div>
+						
+				
+						
+							
+							<div class="te-field te-field-categories">
+								<label for="">Categories</label>
+								
+								<ul id="id_categories">
+					
+				</ul>
+								
+							</div>
+							
+						
+							
+							<div class="te-field te-field-locations">
+								<label for="">Locations</label>
+								
+								<ul id="id_locations">
+					
+				</ul>
+								
+							</div>
+							
+						
+							
+							<div class="te-field te-field-frequency">
+								<label for="id_frequency">Frequency</label>
+								
+								<select name="frequency" id="id_frequency">
+				  <option value="7" selected="">Weekly</option>
+				
+				  <option value="14">Bi-weekly (every 2 weeks)</option>
+				
+				  <option value="30">Monthly</option>
+				
+				</select>
+								
+							</div>
+							
+						
+							
+						
+				
+						
+							<div class="te-recaptcha">
+								<script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+				<div class="g-recaptcha" data-sitekey="6Lea20ghAAAAAK_YuLzX340P2j5kF250i2cplv1e"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-98rka9dumrpt" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lea20ghAAAAAK_YuLzX340P2j5kF250i2cplv1e&amp;co=aHR0cHM6Ly9taWRkbGVzZXhoZWFsdGhjYXJlZXJzLm9yZzo0NDM.&amp;hl=en&amp;v=3sU2vDRVDmUU2E0Ro4VadvPr&amp;size=normal&amp;cb=uz0wcwxq836g"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+								
+							</div>
+						
+				
+						<div class="talent-disclaimer">
+							By submitting information, you are not officially applying to a position at this time, and you
+							authorize UNFI to contact you via phone, email, and text messaging. By agreeing to receive text messages, you acknowledge that standard text messaging rates from your wireless carrier may apply.
+						</div>
+				
+						<button name="submit" type="submit" class="te-submit">Submit</button>
+					</form>
+				
+				
+				
+							</div>
+
+
+
+				<div class="search-results-right">
+				
+
+
+
+					<section class="sub-featured-jobs">
+						<h2>
+							Featured Jobs
+						</h2>
+						<ul class="featured-jobs-bottom">
+
+
+
+
+							<li>
+								<h3>Production Supervisor - 3rd Shift</h3>
+								<dl>
+									<dt>Location:</dt>
+									<dd>City of Industry, CA</dd>
+									<span class="category">
+										<dt>Category:</dt>
+										<dd>Manufacturing / Production</dd>
+									</span>
+								</dl>
+								<p>Overview When Alfred Fain founded a small Rhode Island tire store in 1924, at the time no one could have predicted how UNFI would become an international custom compounder sought out by companies around the world. After a nearly hundred-year journey that&rsquo;s carried us through acquisitions and expansion, we …</p>
+								<a class="btn" href="/job/production-supervisor-3rd-shift-manufacturing-production-us-ca-city-of-industry-420-s-6th-ave-produ001580-27/">Read More</a>
+							</li>
+
+							<li>
+								<h3>Unit Operator - 2nd &amp; 3rd Shift</h3>
+								<dl>
+									<dt>Location:</dt>
+									<dd>Henderson, KY</dd>
+									<span class="category">
+										<dt>Category:</dt>
+										<dd>Manufacturing / Production</dd>
+									</span>
+								</dl>
+								<p>ESSENTIAL FUNCTIONS On a daily basis, keeps work area clean including equipment, floors, boxes, trash. On a daily basis keeps accurate records and notes on production sheets. On a daily basis, follow test procedures on finished goods and record results that may include; melt flow, specific gravity, hardness (test stand …</p>
+								<a class="btn" href="/job/unit-operator-2nd-3rd-shift-manufacturing-production-us-ky-henderson-3058-ohio-dr-unito001567-14/">Read More</a>
+							</li>
+
+						
+
+
+						</ul>
+					</section>
+
+
+
+
+
+					<section class="saved-jobs">
+						<h2>
+							Saved Jobs
+						</h2>
+						<ul class="featured-jobs-bottom">
+
+							<li>
+								<h3>Unit Operator - 2nd &amp; 3rd Shift</h3>
+								<dl>
+									<dt>Location:</dt>
+									<dd>Henderson, KY</dd>
+									<span class="category">
+										<dt>Category:</dt>
+										<dd>Manufacturing / Production</dd>
+									</span>
+								</dl>
+								<p>ESSENTIAL FUNCTIONS On a daily basis, keeps work area clean including equipment, floors, boxes, trash. On a daily basis keeps accurate records and notes on production sheets. On a daily basis, follow test procedures on finished goods and record results that may include; melt flow, specific gravity, hardness (test stand …</p>
+								<a class="btn" href="/job/unit-operator-2nd-3rd-shift-manufacturing-production-us-ky-henderson-3058-ohio-dr-unito001567-14/">Read More</a>
+							</li>
+
+						</ul>
+						
+						<a class="btn green" href="/my-saved-jobs/">View All</a>
+					</section>
+
+
+				</div>
+
+
+
+			</div>
+
+		</div>
+
+	
+
+		<footer id="footer">
+			<div class="wrap clearfix">
+
+				<ul class="menu">
+					<li class="first last expanded company mid-2553"><a href="https://www.unfi.com/">Company</a>
+					</li>
+
+					<li class="first last expanded products-services mid-2837"><a href="https://www.unfi.com/products">Products &amp; Services</a>
+
+					<li class="first last expanded better-for-all mid-20030">
+						<a href="https://www.betterforall.unfi.com" target="_blank">Better For All</a>
+					</li>
+
+					<li class="first last expanded careers mid-20034">
+						<a href="/">Careers</a>
+					</li>
+
+
+					<li class="first last expanded investors mid-20040">
+						<a href="https://ir.unfi.com/home/default.aspx" target="_blank">Investors</a>
+					</li>
+				</ul>
+
+				<ul class="social-media-menu-ul">
+					<li class="first leaf facebook facebook mid-3141"><a href="http://www.facebook.com/UNFInc" target="_blank">Facebook</a></li>
+					<li class="leaf linkedin linkedin mid-3143"><a href="https://www.linkedin.com/company/unfi" target="_blank">Linkedin</a></li>
+					<li class="leaf youtube youtube mid-3144"><a href="http://www.youtube.com/user/unfinc" target="_blank">Youtube</a></li>
+					<li class="last leaf instagram mid-38885"><a href="https://www.instagram.com/unfi" target="_blank">Instagram</a></li>
+				</ul>
+
+
+				<ul class="brands-menu-ul">
+					<li class="first leaf customer-login mid-22879"><a href="https://www.myunfi.com">{% translate "Customer Login" %}</a></li>
+					  <li class="leaf clearvue-login supplier-login mid-22880"><a href="https://suppliers.unfi.com/Account/Login" target="_blank">{% translate "Supplier Login" %}</a></li>
+					  <li class="last leaf svharbor-login mid-41082"><a href="https://myhome.svharbor.com/content/svpublic/home.html" target="_blank">{% translate "SVHarbor Homepage" %}</a></li>
+				</ul>
+
+
+			</div> <!-- /block -->
+
+
+			<div class="wrap clearfix">
+
+
+				<ul class="copyright-menu-ul">
+				  <li class="leaf top-nav-link" style="color: #b6b6b6;padding-right: 10px;">©2024 United Natural Foods, Inc.</li>
+				  <li class="first leaf top-nav-link"><a class="border" href="https://www.unfi.com/ethics-hotline.html">{% translate "Ethics Hotline" %}</a></li>
+					<li class="leaf top-nav-link"><a class="border" href="https://www.unfi.com/privacy/terms.html">{% translate "Terms of Use" %}</a></li>
+					<li class="leaf top-nav-link"><a class="border" href="https://www.unfi.com/privacy.html">{% translate "Privacy Policy" %}</a></li>
+					<li class="leaf top-nav-link"><a class="border" href="https://www.unfi.com/copyright.html">{% translate "Copyright" %}</a></li>
+					<li class="leaf top-nav-link"><a class="border" href="https://www.unfi.com/california-transparency.html">{% translate " California Transparency in Supply Chains Act Disclosure" %}</a></li>
+					<li class="leaf top-nav-link"><a class="border" href="https://www.unfi.com/map-policies.html">{% translate "MAP Policies" %}</a></li>
+					<li class="leaf top-nav-link"><a class="border" href="https://www.unfi.com/transparency-in-coverage-disclosure.html">{% translate "Transparency in Coverage Disclosure" %}</a></li>
+					<li class="leaf top-nav-link"><a href="https://www.unfi.com/animal-welfare-standards.html" class="border">{% translate "Animal Welfare Standards" %}</a></li>
+					<li class="leaf top-nav-link"><a class="border" href="https://www.unfi.com/deforestation-policy.html">{% translate "Deforestation Policy" %}</a></li>
+					<li class="leaf top-nav-link">
+					  <a href="https://www.unfi.com/accessibility-policy.html" class="border">Accessibility Policy</a>
+					</li>
+				  <!-- <li class="last leaf top-nav-link"><a class="border" href="https://privacy-central.securiti.ai/#/form-access-preference/2dd93cdc-9c8c-47d0-8742-bcb61f043323/3519d44a-c0f2-4802-8bb6-758e30e9ba95">{% translate "Your Privacy Choices" %}</a></li> -->
+				  <li> <button role="button" class="cmp-revoke-consent">
+					<img aria-hidden="true" data-cookiecategory="68" src="/static/sites/www/files/images/privacy-option-icon.png?1706288112"><span>{% translate "Your Privacy Choices" %}</span></button> </li>
+				</ul>
+
+
+				<!-- <div class="footer-text">
+			  ©2023 United Natural Foods, Inc.
+			</div> -->
+			</div>
+		</footer>
+
+		<script>
+			AOS.init();
+		</script>   
+		<script src="{{ CANONICAL_URL }}/static/sites/www/files/js/jquery.init.js" type="text/javascript"></script>
+</body>
+</html>

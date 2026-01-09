@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape HTML Characters</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <h1>Escape HTML Characters</h1>
+    <p>To show code on an HTML page as text (not executed), you need to escape HTML characters and
+        usually wrap the code
+        in &lt;pre&gt; and &lt;codee&gt; tags.
+    </p>
+
+    <h3>Example</h3>
+    <pre>
+        <code>
+    &lt;meta http-equiv="refresh" content="0; url=https://www.houstonmethodistcareers.org/culture-and-engagement.html"&gt;
+        </code>
+    </pre>
+
+    <h3>Why this works</h3>
+    <ul>
+        <li>
+            <pre> preserves spacing and line breaks</li>
+        <li><code> indicates code semantically</li>
+        <li>< and > are escaped so the browser doesn’t interpret them as HTML</li>
+    </ul>
+
+    <h3>HTML characters you must escape</h3>
+    <ul>
+        <li> `<`&nbsp;`&lt;`</li>
+        <li>`>`&nbsp;`&gt;`</li>
+        <li>`&`&nbsp;`&amp;`</li>
+        <li>`"`&nbsp;`&quot;`</li>
+        <li>`'`&nbsp;`&#39;`</li>
+    </ul>
+
+    | Character | Replace with |
+| --------- | ------------ |
+| `<`       | `&lt;`       |
+| `>`       | `&gt;`       |
+| `&`       | `&amp;`      |
+| `"`       | `&quot;`     |
+| `'`       | `&#39;`      |
+
+</body>
+
+</html>

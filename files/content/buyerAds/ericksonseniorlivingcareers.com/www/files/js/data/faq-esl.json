@@ -1,0 +1,125 @@
+{
+  "faqs": [
+	{
+	  "faqheader": "Application Process",
+	  "faqs": [
+		{
+		  "q": "How do I submit my application?",
+		  "a": "<p>Jobs posted to the Erickson Senior Living Careers site offer different ways to apply, depending on the role:</p><p>Some jobs will ask for your name, email address, and cell phone number, and give you the option to upload your resume.</p><p>Other jobs will ask you to start the application process by uploading your resume and filling out the application online, or by using your LinkedIn account to complete parts of the application.</p><p>If you do not see a job posting you would like to apply to at this time, you can always click <a href=\"/talentnetwork\">“Join Our Talent Network”</a> on the side of the job search page to request email alerts when new jobs are posted in your areas of interest.</p>"
+		},
+		{
+		  "q": "Can I save my application and come back later?",
+		  "a": "<p>Yes, if you have created an account on our Careers Site, you can save your application and log in later to complete your application.</p>"
+		},
+		{
+		  "q": "What file types are accepted for resumes and cover letters?",
+		  "a": "<p>You can upload either DOC, DOCX, HTML, PDF, or TXT file types (5MB max) for resumes and cover letters.</p>"
+		},
+		{
+		  "q": "I need a resume or CV to apply?",
+		  "a": "<p>You do not need to submit a CV to apply; however, it is recommended that you add your skills and experience to the application. Resumes are a great way to show your skills and expertise!</p>"
+		},
+		{
+		  "q": "Can I apply using my LinkedIn profile?",
+		  "a": "<p>Some jobs offer the ability to apply using your LinkedIn profile. After clicking apply, you might notice a LinkedIn button near the bottom of your screen. This will direct you to LinkedIn’s website, where you can apply using your LinkedIn account. During the application process, you are also given the option to add your LinkedIn profile to your application.</p>"
+		},
+		{
+		  "q": "Do I need to create an account?",
+		  "a": "<p>Creating an account is highly encouraged. An account allows you to save your application, review your application status, and is necessary to receive an offer.</p>"
+		}
+	  ]
+	},
+	{
+	  "faqheader": "Application Status",
+	  "faqs": [
+		{
+		  "q": "How can I check the status of my application?",
+		  "a": "<p>When you apply, an automated email message will be generated, letting you know that your application has been received.</p><p>You can check the status of your application by logging into your candidate account by visiting <a href=\"https://www.ericksonseniorlivingcareers.com/\">www.Ericksonseniorlivingcareers.com</a> and clicking on Returning Applicants near the top of the page. After you sign in, click the Candidate Home tab at the top of the page.</p>"
+		},
+		{
+		  "q": "What does each application status mean?",
+		  "a": "<p><strong>Not Submitted:</strong> Your application is still in progress and has not been entered into our system.</p><p><strong>In Process, Under Consideration:</strong> Your application has been successfully submitted and is being reviewed.</p><p><strong>Not Moving Forward:</strong> We will not be advancing you in the recruitment process for this position.</p>"
+		},
+		{
+		  "q": "When will I hear back after applying?",
+		  "a": "<p>If you are chosen to move forward, a recruiter will contact you. Timing may vary based on the number of applicants.</p>"
+		}
+	  ]
+	},
+	{
+	  "faqheader": "Technical Support",
+	  "faqs": [
+		{
+		  "q": "How do I reset my password on the Careers site?",
+		  "a": "<p>You can reset your password by clicking the “Forgot your password” link on the Returning Applicants sign-in page.</p>"
+		}
+	  ]
+	},
+	{
+	  "faqheader": "Interviews",
+	  "faqs": [
+		{
+		  "q": "How will I be contacted for an interview?",
+		  "a": "<p>A member of our recruitment team will contact you via email, phone, or text.</p>"
+		}
+	  ]
+	},
+	{
+	  "faqheader": "Background Checks",
+	  "faqs": [
+		{
+		  "q": "Are background checks required for all positions?",
+		  "a": "<p>Background checks are required for all applicants over the age of 18.</p>"
+		}
+	  ]
+	},
+	{
+	  "faqheader": "Job Opportunities",
+	  "faqs": [
+		{
+		  "q": "How do I find job openings on the site?",
+		  "a": "<p>Visit <a href=\"https://www.ericksonseniorlivingcareers.com/\">www.Ericksonseniorlivingcareers.com</a> and filter by keyword, category, or location.</p>"
+		},
+		{
+		  "q": "Can I search for jobs by location, department, or keywords?",
+		  "a": "<p>Yes, you can search by location, department, or keywords.</p>"
+		},
+		{
+		  "q": "Are there different types of roles available?",
+		  "a": "<p>Yes, we offer full-time, part-time, and PRN roles.</p>"
+		}
+	  ]
+	},
+	{
+	  "faqheader": "Eligibility",
+	  "faqs": [
+		{
+		  "q": "Do I need a college degree to qualify for a position?",
+		  "a": "<p>Many positions do not require a degree. Some roles may require specific certifications or licenses.</p>"
+		},
+		{
+		  "q": "Are there opportunities for current or former employees?",
+		  "a": "<p>Yes, current and former employees are welcome to apply.</p>"
+		}
+	  ]
+	},
+	{
+	  "faqheader": "Company Information",
+	  "faqs": [
+		{
+		  "q": "What is the company's culture like?",
+		  "a": "<p>Our mission is to help people live better lives. Our values focus on relationships, diversity, integrity, and excellence.</p>"
+		}
+	  ]
+	},
+	{
+	  "faqheader": "Benefits",
+	  "faqs": [
+		{
+		  "q": "What benefits are offered to employees?",
+		  "a": "<p>We offer a wide range of benefits based on hours worked. Visit our <a href=\"/our-benefits.html\">benefits page</a> for full details.</p>"
+		}
+	  ]
+	}
+  ]
+}

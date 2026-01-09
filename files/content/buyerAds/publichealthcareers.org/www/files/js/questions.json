@@ -1,0 +1,304 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "Build kitchen cabinets.",
+            "trait": "R"
+        },
+        {
+            "id": 2,
+            "question": "Drive a truck to deliver packages to offices and homes.",
+            "trait": "R"
+        },
+        {
+            "id": 3,
+            "question": "Put out forest fires.",
+            "trait": "R"
+        },
+        {
+            "id": 4,
+            "question": "Develop a new medicine.",
+            "trait": "I"
+        },
+        {
+            "id": 5,
+            "question": "Develop a way to better predict the weather.",
+            "trait": "I"
+        },
+        {
+            "id": 6,
+            "question": "Study ways to reduce water pollution.",
+            "trait": "I"
+        },
+        {
+            "id": 7,
+            "question": "Work in a biology lab.",
+            "trait": "I"
+        },
+        {
+            "id": 8,
+            "question": "Compose or arrange music.",
+            "trait": "A"
+        },
+        {
+            "id": 9,
+            "question": "Create special effects for movies.",
+            "trait": "A"
+        },
+        {
+            "id": 10,
+            "question": "Draw pictures.",
+            "trait": "A"
+        },
+        {
+            "id": 11,
+            "question": "Write books or plays.",
+            "trait": "A"
+        },
+        {
+            "id": 12,
+            "question": "Give career guidance to people.",
+            "trait": "S"
+        },
+        {
+            "id": 13,
+            "question": "Help people with personal or emotional problems.",
+            "trait": "S"
+        },
+        {
+            "id": 14,
+            "question": "Perform rehabilitation therapy.",
+            "trait": "S"
+        },
+        {
+            "id": 15,
+            "question": "Teach a high school class.",
+            "trait": "S"
+        },
+        {
+            "id": 16,
+            "question": "Manage a department within a large company.",
+            "trait": "E"
+        },
+        {
+            "id": 17,
+            "question": "Market a new line of clothing.",
+            "trait": "E"
+        },
+        {
+            "id": 18,
+            "question": "Represent a client in a lawsuit.",
+            "trait": "E"
+        },
+        {
+            "id": 19,
+            "question": "Start your own business.",
+            "trait": "E"
+        },
+        {
+            "id": 20,
+            "question": "Answer telephones, direct calls, and take messages.",
+            "trait": "C"
+        },
+        {
+            "id": 21,
+            "question": "Develop a spreadsheet using computer software.",
+            "trait": "C"
+        },
+        {
+            "id": 22,
+            "question": "Inventory supplies using a handheld computer.",
+            "trait": "C"
+        },
+        {
+            "id": 23,
+            "question": "Keep shipping and receiving records.",
+            "trait": "C"
+        },
+        {
+            "id": 24,
+            "question": "Load computer software into a large computer network.",
+            "trait": "C"
+        },
+        {
+            "id": 25,
+            "question": "Install computer systems.",
+            "trait": "R"
+        },
+        {
+            "id": 26,
+            "question": "Maintain aircraft engines.",
+            "trait": "R"
+        },
+        {
+            "id": 27,
+            "question": "Operate woodworking machines.",
+            "trait": "R"
+        },
+        {
+            "id": 28,
+            "question": "Drive a bus or motor coach.",
+            "trait": "R"
+        },
+        {
+            "id": 29,
+            "question": "Study ways to make foods safe and healthy.",
+            "trait": "I"
+        },
+        {
+            "id": 30,
+            "question": "Conduct research on ways to treat a new type of illness.",
+            "trait": "I"
+        },
+        {
+            "id": 31,
+            "question": "Evaluate the performance of a newly developed medicine.",
+            "trait": "I"
+        },
+        {
+            "id": 32,
+            "question": "Create computer-generated graphics or animation.",
+            "trait": "A"
+        },
+        {
+            "id": 33,
+            "question": "Design displays to sell products in stores.",
+            "trait": "A"
+        },
+        {
+            "id": 34,
+            "question": "Write advertisements.",
+            "trait": "A"
+        },
+        {
+            "id": 35,
+            "question": "Develop content for a podcast.",
+            "trait": "A"
+        },
+        {
+            "id": 36,
+            "question": "Instruct students in activities designed to further intellectual growth.",
+            "trait": "S"
+        },
+        {
+            "id": 37,
+            "question": "Advocate for individual or community needs.",
+            "trait": "S"
+        },
+        {
+            "id": 38,
+            "question": "Counsel clients with mental health issues.",
+            "trait": "S"
+        },
+        {
+            "id": 39,
+            "question": "Provide personal and economic assistance for homeless individuals.",
+            "trait": "S"
+        },
+        {
+            "id": 40,
+            "question": "Develop knowledge of government policy decisions.",
+            "trait": "E"
+        },
+        {
+            "id": 41,
+            "question": "Create business strategies or policies to increase productivity.",
+            "trait": "E"
+        },
+        {
+            "id": 42,
+            "question": "Direct sales or customer service activities.",
+            "trait": "E"
+        },
+        {
+            "id": 43,
+            "question": "Plan or coordinate one or more administrative services.",
+            "trait": "E"
+        },
+        {
+            "id": 44,
+            "question": "Supervise organizational operations or projects.",
+            "trait": "E"
+        },
+        {
+            "id": 45,
+            "question": "Test, maintain, and monitor computer programs and systems.",
+            "trait": "C"
+        },
+        {
+            "id": 46,
+            "question": "Write and review code for software.",
+            "trait": "C"
+        },
+        {
+            "id": 47,
+            "question": "Keep accounting records for a company.",
+            "trait": "C"
+        },
+        {
+            "id": 48,
+            "question": "Prepare budgets for a business.",
+            "trait": "C"
+        },
+        {
+            "id": 49,
+            "question": "Investigate criminal activity.",
+            "trait": "R"
+        },
+        {
+            "id": 50,
+            "question": "Plant, cultivate, and harvest crops.",
+            "trait": "R"
+        },
+        {
+            "id": 51,
+            "question": "Conserve wildlife habitats.",
+            "trait": "R"
+        },
+        {
+            "id": 52,
+            "question": "Develop medically useful products for humans.",
+            "trait": "I"
+        },
+        {
+            "id": 53,
+            "question": "Investigate the effects of bacteria on humans and animals.",
+            "trait": "I"
+        },
+        {
+            "id": 54,
+            "question": "Study ways of preventing disease.",
+            "trait": "I"
+        },
+        {
+            "id": 55,
+            "question": "Create photography art prints.",
+            "trait": "A"
+        },
+        {
+            "id": 56,
+            "question": "Write and report human interest stories.",
+            "trait": "A"
+        },
+        {
+            "id": 57,
+            "question": "Diagnose and resolve computer software problems.",
+            "trait": "C"
+        },
+        {
+            "id": 58,
+            "question": "Mediate legal disputes.",
+            "trait": "E"
+        },
+        {
+            "id": 59,
+            "question": "Assist people with special needs.",
+            "trait": "S"
+        },
+        {
+            "id": 60,
+            "question": "Help individuals plan special events.",
+            "trait": "S"
+        }
+    ]
+}

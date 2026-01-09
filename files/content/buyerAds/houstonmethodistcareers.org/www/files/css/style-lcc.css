@@ -1,0 +1,259 @@
+/*--Locations Continuing Care--*/
+/*  header banner*/
+.interior-banner .interior-banner-img.locations-continuing-care{
+    padding-bottom: 40%;
+	background-position: center;
+	position: relative;
+}
+
+.interior-banner .interior-banner-img.locations-continuing-care .left-title, .interior-banner .interior-banner-img.locations-continuing-care .right-title{
+	font-size: .7rem;
+	padding: 5px 10px;
+	color: #124a7e;
+	background-color: #ffffff;
+	position: absolute; 
+	bottom: 0;
+}
+
+.interior-banner .interior-banner-img.locations-continuing-care .left-title{
+	left:0;
+}
+
+.interior-banner .interior-banner-img.locations-continuing-care .right-title{
+	right: 0;
+}
+.hmcc-areas {
+    width: 100%;
+  background-color: #134d7d;
+}
+.hmcc-areas .inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: unset;
+    padding: 0;
+}
+.hmcc-areas .intro{
+  width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 5%;
+}
+.hmcc-areas .photo{
+    width: 50%;
+    background-image: url("../images/redesign/sub/locations/continuing-care/join-our-team.jpg");
+  background-size: cover;
+  background-position: center;
+    padding-top: 40%;
+}
+.intro {
+  background-color: #134d7d;
+  background-image: url("../images/redesign/sub/locations/continuing-care/intro-bckgrd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.intro p {
+  width: 100%;
+  display: block;
+  margin-bottom: 0px;
+  font-size: 22px;
+  line-height: 1.2em;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+.intro ul {
+  font-size: 22px;
+  line-height: 1.5;
+}
+.intro h2 {
+  font-size: 28px;
+  line-height: 1.2em;
+  font-weight: 700;
+  margin: 0px auto 20px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+.faded-img-text.cont-care{
+    padding: 0;
+}
+.faded-img-text.cont-care .inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+.faded-img-text.cont-care .inner .inner-wrap{
+    width: 50%;
+    padding: 0 40px;
+}
+.faded-img-text.cont-care:after{
+    content: none;
+}
+.faded-img-text.cont-care .photo{
+    width: 50%;
+    background-image: url("../images/redesign/sub/locations/continuing-care/continuing-care-one.jpg");
+  background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+.quote-holder.lcc .inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 10px;
+    background-color: #ffffff;
+}
+.quote-holder.lcc .quote-holder-inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 50%;
+    margin: 0;
+    padding: 0 20px;
+    text-align: center;
+    border-bottom: none;
+    background-color: transparent;
+}
+.quote-holder.lcc .quote-holder-left{
+    width: calc(100% - 70px);
+}
+.quote-holder.lcc h4{
+    width: 95%;
+      font-size: 1.8em;
+  line-height: 1.2em;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  color: #164c8c;
+  font-weight: 700;
+    text-align: center;
+}
+.quote-holder.lcc .quote-holder-inside h4{
+    padding-bottom: 20px;
+}
+.quote-holder.lcc .quote-holder-left p{
+    margin-top: 0;
+}
+.quote-holder.lcc .lcc-video{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    border-left: 5px solid #ab0032;
+}
+.quote-holder.lcc .lcc-video .video-container .video-player{
+    margin: 1%;
+}
+.quote-holder.lcc .lcc-video .video-container .video-player .responsive-frame iframe{
+    height: 315px;
+}
+.quote-holder.lcc .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+@media only screen and (max-width: 1280px){
+    .hmcc-areas .intro{
+        padding: 2%;
+    }
+    .quote-holder.lcc .lcc-video .video-container .video-player .responsive-frame iframe{
+        width: 480px;
+}
+}
+@media only screen and (max-width: 1000px){
+    .faded-img-text.cont-care .inner{
+        flex-direction: column-reverse;
+    }
+    .faded-img-text.cont-care .inner .inner-wrap{
+        width: 100%;
+        max-width: 100%;
+        padding: 5% 10%;
+    }
+    .faded-img-text.cont-care .photo{
+        width: 100%;
+        background-position: center;
+    }
+    .hmcc-areas .inner{
+        flex-direction: column;
+    }
+    .hmcc-areas .intro{
+        width: 100%;
+        padding: 5% 10%;
+    }
+    .hmcc-areas .photo{
+        width: 100%;
+    }
+    .quote-holder.lcc .inner{
+        flex-direction: column;
+    }
+    .quote-holder.lcc .lcc-video{
+        border-left: none;
+    }
+    .quote-holder.lcc .bottom{
+        padding-bottom: 20px;
+    }
+    .quote-holder.lcc .quote-holder-inside{
+        width: 100%;
+        border-bottom: 10px solid #ab0032;
+    }
+    .quote-holder.lcc .inner{
+        border-bottom: none;
+        padding: 40px;
+    }
+    .quote-holder.lcc .lcc-video{
+        width: 100%;
+        padding-top: 40px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .quote-holder .quote-holder-right img{
+        width: 280px;
+    }
+    .quote-holder .quote-holder-right{
+        width: 50%;
+        margin-right: 20px;
+    }
+}
+@media only screen and (max-width: 700px){
+	.interior-banner .interior-banner-img.locations-continuing-care .left-title, .interior-banner .interior-banner-img.locations-continuing-care .right-title{
+		font-size: .5rem;
+	}
+}
+@media only screen and (max-width: 500px){
+	.interior-banner .interior-banner-img.locations-continuing-care .left-title, .interior-banner .interior-banner-img.locations-continuing-care .right-title{
+		font-size: .3rem;
+	}
+    .quote-holder.lcc .bottom{
+        flex-direction: column;
+    }
+    .quote-holder.lcc .quote-holder-left{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .quote-holder .quote-holder-right{
+        width: 100%;
+    }
+    .quote-holder .quote-holder-right img{
+        width: 60%;
+    }
+    .quote-holder.lcc .lcc-video .video-container .video-player .responsive-frame iframe{
+        width: 320px;
+}
+}
+@media only screen and (max-width: 300px){
+	.interior-banner .interior-banner-img.locations-continuing-care .left-title, .interior-banner .interior-banner-img.locations-continuing-care .right-title{
+		display: none;
+	}
+}

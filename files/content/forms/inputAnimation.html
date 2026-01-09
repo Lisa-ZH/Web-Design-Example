@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Animation</title>
+<style>
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding: 20px;
+    border: 1px solid #cccccc;
+    caret-color: red;
+}
+input:focus{
+    padding-bottom: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+}
+input::placeholder{
+    color: lightblue;
+}
+
+</style>
+   
+</head>
+<body>
+   
+    <div class="container">
+        <input type="text" placeholder="Search" />
+    </div>
+</body>
+</html>

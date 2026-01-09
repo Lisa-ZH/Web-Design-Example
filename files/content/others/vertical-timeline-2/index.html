@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Timeline</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: auto;
+        }
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            left: 50%;
+            margin-left: -3px;
+            background-repeat: no-repeat;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+        }
+        .timeline-item {
+            position: relative;
+            background: white;
+            padding: 20px;
+            border-radius: 6px;
+            width: 45%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            /*margin-bottom: 20px;*/
+        }
+        .timeline-item:nth-child(odd) {
+            left: 0;
+        }
+        .timeline-item:nth-child(even) {
+            left: 50%;
+        }
+        .timeline-dot {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            border: 6px solid black;
+            border-radius: 50%;
+            top: -10px;
+            z-index: 1;
+        }
+        .year {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-dot" style="left: 96%; border-color: rgba(241, 177, 92, .8)";></div>
+            <div class="year">2008</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-dot" style="left: -4%; border-color: rgba(229, 132, 104, .5);"></div>
+            <div class="year">2009</div>
+            <p>Dolor sit amet, consectetuer adipiscing elit. consectetuer adipiscing elit.Dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-dot" style="left: 96%; border-color: rgba(179, 127, 124, .8);"></div>
+            <div class="year">2011</div>
+            <p>Consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-dot" style="left: -4%; border-color: rgba(166, 192, 96, .8);"></div>
+            <div class="year">2014</div>
+            <p>Adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-dot" style="left: 96%; border-color: rgba(103, 167, 214, .8);"></div>
+            <div class="year">2015</div>
+            <p>Labore et dolore magna aliqua.</p>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-dot" style="left: -4%; border-color: rgba(99, 169, 184, .8);"></div>
+            <div class="year">2017</div>
+            <p>Magna aliqua, ut enim ad minim veniam.</p>
+        </div>
+    </div>
+
+<!--  pseudo-elements (::after) cannot be directly modified using jQuery’s .css() method. 
+Instead, you need to dynamically update the styles in a <style> tag. -->
+
+    <!-- jQuery -->
+    <script>
+        function updateTimelineBackground() {
+            let timelineItems = $('.timeline-item');
+            let backgroundSize = [];
+            let backgroundPosition = [];
+            let offset = 0;
+
+            let colors = ["#f1b15c", "#e58468", "#B37f7c", "#a6c060", "#67a7d6", "#63a9b8"];
+            let colorStyles = [];
+
+            timelineItems.each(function (index) {
+                let height = $(this).outerHeight();
+                backgroundSize.push(`100% ${height}px`);
+                backgroundPosition.push(`0 ${offset}px`);
+                colorStyles.push(`linear-gradient(to bottom, ${colors[index % colors.length]}, ${colors[index % colors.length]})`);
+                offset += height;
+            });
+
+            let dynamicStyle = `
+                .timeline::after {
+                    height: ${offset}px;
+                    background-image: ${colorStyles.join(', ')};
+                    background-size: ${backgroundSize.join(', ')};
+                    background-position: ${backgroundPosition.join(', ')};
+                }
+            `;
+
+            $('#dynamic-timeline-style').remove(); // Remove old styles
+            $('head').append(`<style id="dynamic-timeline-style">${dynamicStyle}</style>`); // Append new styles
+        }
+
+        $(document).ready(updateTimelineBackground);
+        $(window).resize(updateTimelineBackground);
+    </script>
+    
+    <!-- js DOM -->
+    <!--<script>
+        function updateTimelineBackground() {
+            const timelineItems = document.querySelectorAll('.timeline-item');
+            const timeline = document.querySelector('.timeline');
+            const timelineLine = timeline.querySelector('::after');
+            
+            let backgroundSize = [];
+            let backgroundPosition = [];
+            let offset = 0;
+
+            timelineItems.forEach((item, index) => {
+               // let height = item.offsetHeight + 20; // Include margin-bottom, line 59
+               let height = item.offsetHeight; // Include margin-bottom
+                backgroundSize.push(`100% ${height}px`);
+                backgroundPosition.push(`0 ${offset}px`);
+                offset += height;
+            });
+
+            // Apply dynamic styles
+            timeline.style.setProperty('--bg-size', backgroundSize.join(', '));
+            timeline.style.setProperty('--bg-position', backgroundPosition.join(', '));
+
+            // Apply to CSS
+            document.styleSheets[0].insertRule(`
+                .timeline::after {
+                    background-size: var(--bg-size);
+                    background-position: var(--bg-position);
+                }
+            `, document.styleSheets[0].cssRules.length);
+        }
+
+        window.onload = updateTimelineBackground;
+        window.onresize = updateTimelineBackground;
+    </script>-->
+</body>
+</html>

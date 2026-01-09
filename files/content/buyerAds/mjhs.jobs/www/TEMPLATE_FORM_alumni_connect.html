@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta id="testViewport" name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>MJHS Alumni Connect</title>
+<meta name="keywords" content="MJHS, Home Care Hospice, Nursing, NYC">
+<meta name="description" content="Apply online for home care hospice and nursing jobs at MJHS. MJHS in New York offers many unique opportunities to deliver world-class patient care." />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!-- Google
+    <meta itemprop="name" content="MJHS | Career Opportunities"> -->
+<meta itemprop="image" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this/social-image.jpg">
+<!-- Twitter
+    <meta name="twitter:title" content="MJHS | Career Opportunities"> -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image:src" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this/social-twitter-image.jpg">
+<!-- Open Graph general (Facebook, Pinterest & Google+)
+    <meta property="og:title" content="MJHS | Career Opportunities"> -->
+<meta property="og:image" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this/social-image.jpg">
+<meta property="og:image:secure_url" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this/social-image.jpg">
+<meta property="og:type" content="website">
+<meta property="og:title" content="MJHS Alumni">
+<meta property="og:url" content="#">
+<!-- Open Graph (LinkedIn) -->
+<meta name="image" property="og:image" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this/social-image.jpg">
+
+<!-- icons -->
+    <link rel="icon" sizes="16x16 32x32 48x48" href="files/images/favicon.ico">
+    <link rel="icon" sizes="192x192" type="image/png" href="files/images/favicon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" type="image/png"  href="files/images/touch-icon-180x180.png">
+	
+<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@type": "Organization",
+"url": "{{ CANONICAL_URL }}/",
+"image": "{{ CANONICAL_URL }}/static/sites/www/files/images/global/knowledge-graph-logo/logo.png",
+"logo": "{{ CANONICAL_URL }}/static/sites/www/files/images/global/knowledge-graph-logo/logo.png"
+}
+</script>
+	
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="files/styles/styles-alumni.css" rel="stylesheet" type="text/css">
+<link href="files/styles/responsive-alumni.css" rel="stylesheet" type="text/css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+<script>window.jQuery || document.write('<script src="files/js/jquery-3.4.1.min.js"><\/script>')</script> 
+<script type="text/javascript" src="files/js/accordion.js"></script>
+</head>
+
+<body>
+
+<!--------------------------- HEADER -------------------------->
+<header>
+  <div class="header-inside">
+    <div class="header-logo"> <a href="https://mjhs.jobs"  target="_blank" class="logo"><span class="sr-only"></span></a> </div>
+  </div>
+</header>
+<main> 
+  
+  <!-- ---- BANNER AREA MAIN PAGE ---- -->
+  
+  <section class="banner-area-main">
+    <div class="inner">
+      <div class="banner-area-main-copy">
+        <h1>Now could be the perfect time to rejoin MJHS</h1>
+      </div>
+    </div>
+  </section>
+  
+  <!------------------------  CONTENT --------------------------- -->
+  
+  <section class="top-intro">
+    <div class="inner">
+      <p><strong>We know that our ability to continue raising the bar on the health care services we deliver is dependent on our team being comprised of the very best talent.</strong></p>
+      <p>That’s why we’re inviting you to rejoin us and explore the full range of job opportunities now available. Let us help you achieve your own professional goals while increasing our shared impact on the communities we serve.</p>
+    </div>
+  </section>
+  
+  <!-- ---- FORM START --- -->
+  <section class="mjhsalumni-form-holder">
+      <div class="inner">
+	 <div class="talent-network-form" id="alumni-pg-form">
+				<!--||{% block te-header %}||-->
+
+					<!-- This section will be replaced with either the Join Talent Network or Express Interest heading and copy -->
+					<h1>Connect with our recruiting team</h1>
+
+					<span class="form-intro">
+					<p>Please complete the below form and a member of our team will be in touch.</p>
+					
+					</span>
+		        
+				<!--||{% endblock te-header %}||-->
+
+				<!--||{% block content %}{% endblock %}||-->
+
+				<!--||{% comment %}||-->
+
+   				<form method="post" id="tn-form" class="debounce" enctype="multipart/form-data"
+                          aria-label="{{ CORPORATE_NAME }} Talent Network sign-up form" aria-describedby="talent-network-description">
+        
+
+					<label>
+						First name:
+						<input type="text" name="first_name" maxlength="50" required="" id="id_first_name">
+				    </label>
+						
+					<label>
+						Last name:
+						<input type="text" name="last_name" maxlength="50" required="" id="id_last_name">
+				    </label>
+						
+					<label>
+						Email:
+						<input type="email" name="email" maxlength="100" required="" id="id_email">
+				    </label>
+					
+						<label>
+						Are you a current employee of a MJHS employee? (Yes or No)
+						<select name="contact_method" id="id_contact_method">
+							<option value="1" selected="">Yes</option>
+							<option value="2">No</option>
+					    </select>
+				    </label>
+									
+						
+					<p class="talent-disclaimer">By submitting information, you are not officially applying to a position at this time, and you authorize
+                        {{ CORPORATE_NAME }} to contact you via phone, email, and text messaging.</p>
+						
+					<div class="apply">
+						<input name="submit" type="submit" class="submit" id="submit" value="SUBMIT">
+				    </div>
+
+			    </form>
+				<!--||{% endcomment %}||-->				
+
+		    </div>
+	        
+      </div>
+    </section>
+  <div class="shareThis-holder-main-pg">
+    <div class="share-this-icons">
+      <div>Share This Page</div>
+      <ul>
+        <li> <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ request.build_absolute_uri }}" class="share-facebook">Share on Facebook</a> </li>
+        <li> <a target="_blank" href="https://twitter.com/intent/tweet?url={{ request.build_absolute_uri }}" class="share-twitter">Share on Twitter</a> </li>
+        <li> <a target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url={{ request.build_absolute_uri }}" class="share-linkedin">Share on LinkedIn</a> </li>
+        <li><a  href="mailto:?body={{ request.build_absolute_uri }}&subject={{ job.posting.title }}" class="share-email">Share via Email</a></li>
+      </ul>
+    </div>
+  </div>
+</main>
+
+<!------------------------  FOOTER --------------------------- -->
+
+<footer>
+  <div class="inner">
+    <div class="footer-top">
+      <div class="eoe"> <span>©</span> 
+        <script type="text/javascript">date = new Date();
+                year = date.getFullYear();
+                document.write(year);//</script> 
+        &nbsp;MJHS. All rights reserved. We are an equal opportunity employer M/F/D/V. </div>
+    </div>
+    <div class="footer-bottom2">
+      <div class="footer-logo2"> <a href="https://mjhs.jobs/"  target="_blank" class="logo"><span class="sr-only"> (link opens in a new window)</span></a> </div>
+    </div>
+  </div>
+</footer>
+<script>
+		window.onscroll = function() {pageScroller()};
+
+		var Header = document.getElementById("scrollingDiv");
+		var Scrolled = (Header.offsetTop);
+
+		function pageScroller() {
+		if (window.pageYOffset > Scrolled) {
+			Header.classList.add("onScroll");
+		} else {
+			Header.classList.remove("onScroll");
+		}
+	}
+</script>
+</body>
+</html>

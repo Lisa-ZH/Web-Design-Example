@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: #27659e;
+}
+
+.scalable {
+    max-width: 100%;
+    height: auto;
+}
+
+.career-path-growth {
+    padding: 2.5% 0;
+    background-image: url("../images/skyline-photo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    text-align: center;
+}
+
+.career-path-growth .inner {
+    width: 80%;
+    max-width: 1620px;
+    margin: 0px auto;
+    padding: 0;
+}
+
+.career-path-growth .inner h2 {
+    margin: 0;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 36px;
+    line-height: 1.3em;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.career-path-growth .inner p {
+    color: #fff;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+.career-path-growth .inner p span{
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.career-path-growth-loc {
+    display: flex;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+}
+
+.career-path-growth-loc .box {
+    width: 32%;
+    min-width: 300px;
+    padding: 0 0 10px;
+    margin: 0px .25% 20px .25%;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .15);
+    background-image: linear-gradient(180deg, rgb(255, 255, 255) 50%, rgb(246, 243, 243) 100%);
+    text-align: center;
+    position: relative;
+}
+
+.career-path-growth-loc .box img {
+    margin: 0 0 10px;
+}
+
+.career-path-growth-loc .box .box-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    opacity: 0;
+    background-color: rgba(239, 241, 247, .9);
+    border-bottom: 6px solid #ab0032;
+}
+
+.career-path-growth-loc .box .box-inner p {
+    display: block;
+    color: #000;
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.career-path-growth-loc .box:hover .box-inner {
+    opacity: 1;
+    transition: .3s all ease-in-out;
+}
+
+.career-path-growth-loc .box a {
+    font-size: 16px;
+    line-height: 1.2em;
+    /*padding: .25% 5%;*/
+}
+
+.career-path-growth-loc .box .box-inner div{
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #000000;
+}
+.career-path-growth-loc .box .box-inner ul{
+    list-style-type: disc;
+    padding-left: 0px;
+}
+.career-path-growth-loc .box .box-inner ul li ul{
+    padding-left: 30px;
+}
+.career-path-growth-loc .box .box-inner li{
+    text-align: left;
+    font-size: .9em;
+    font-weight: 400;
+    color: #27659e;
+}
+.career-path-growth-loc .box.hmh a{
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
+@media only screen and (max-width:1400px) {
+    .career-path-growth-loc .box .box-inner p{
+        font-size: 1em;
+    }
+}
+@media only screen and (max-width:1100px) {
+    .career-path-growth-loc .box .box-inner p{
+        font-size: .9em;
+    }
+}
+@media only screen and (max-width: 800px){
+    .career-path-growth-loc div{
+        width: 60%;
+    }
+    .career-path-growth-loc .box-inner div{
+        width: auto;
+        margin: 0px 1%;
+    }
+    .career-path-growth-loc .box .box-inner ul{
+        width: 100%;
+    /*padding-left: 25%;*/
+}
+}
+@media only screen and (max-width:700px) {
+    .career-path-growth-loc div a {
+    font-size: 12px;
+  }
+    .career-path-growth-loc .box .box-inner p{
+        font-size: .8em;
+    }
+}
+
+@media only screen and (max-width: 600px){
+     .career-path-growth-loc .box-inner div{
+        padding-bottom: 0;
+    }
+}
+@media only screen and (max-width:400px) {
+    .career-path-growth-loc .box {
+    width: 100%;
+  }
+}
+
+

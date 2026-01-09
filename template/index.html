@@ -1,0 +1,42 @@
+<!--||{% load job_tags %}||-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <link href="file/css/style.css" rel="stylesheet" type="text/css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/default.min.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+   <title></title>
+   <style>
+      
+   </style>
+</head>
+
+<body>
+   <div class="container">
+      
+   </div>
+   <br>   <br>
+   <h3>HTML Code</h3>
+   <pre>
+      <code id="codeBlock"></code>
+   </pre>
+
+   <h3>CSS Code</h3>
+   <pre>
+      <code>
+      
+      </code>
+   </pre>
+   <script>
+      const code = `
+      
+      `;
+      document.getElementById('codeBlock').textContent = code;
+      hljs.highlightAll();
+   </script>
+</body>
+
+</html>

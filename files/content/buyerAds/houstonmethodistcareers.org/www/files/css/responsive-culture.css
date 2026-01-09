@@ -1,0 +1,326 @@
+@media only screen and (max-width: 1700px) {
+  .interior-banner .banner-copy {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .quote-container .inner .photo {
+    padding-top: 32%;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .interior-banner .banner-text-bold {
+    font-size: 3em;
+  }
+  .interior-banner .banner-text {
+    font-size: 2em;
+  }
+  .quote-container .inner {
+    flex-direction: column;
+	align-items: center;
+  }
+  .quote-container .inner .vl {
+    display: none;
+  }
+  .quote-container .quote-inner-right {
+    flex-direction: row-reverse;
+    margin-bottom: 50px;
+  }
+  .quote-container .quote-inner-left, .quote-container .quote-inner-right {
+    width: 80%;
+    margin-top: 50px;
+    border: 2px solid #dddddd;
+    border-bottom: 10px solid #ab0032;
+    box-shadow: 5px 5px 8px 0px rgb(0 0 0 / 50%);
+  }
+  .quote-container .inner .photo {
+    width: 30%;
+  }
+  .quote-container .inner .copy {
+    width: 65%;
+    padding-right: 30px;
+  }
+    .quote-container .inner .photo.vp {
+  background-image: url("../images/redesign/sub/culture/Arianne-Dowdell-mobile.jpg");
+}
+}
+@media only screen and (max-width: 1350px) {
+  .mission-container .photo {
+    padding-top: 30%;
+  }
+  .quote-container .inner .photo {
+    padding-top: 32%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .interior-banner .interior-banner-img.dei-pg {
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .erg-container .inner .logos ul li .erg-btn a {
+    padding: 5px 10px 8px;
+  }
+  .quote-container .quote-inner-left, .quote-container .quote-inner-right {
+    width: 90%;
+  }/*
+    .cultural-container .copy{
+        padding: 0;
+    }*/
+    table.dei{
+        margin-left: 80px;
+    }
+    .cultural-container .photo{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 1050px) {
+  .erg-container .inner .logos {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .interior-banner .interior-banner-img.dei-pg {
+    background-image: url("../images/redesign/sub/culture/culture-banner-mobile.jpg");
+    background-position: center;
+    padding-top: 40%;
+    padding-bottom: 0;
+    border-bottom: 5px solid #ffffff;
+  }
+  .interior-banner .banner-copy {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #0e4c7f;
+    color: #ffffff;
+    text-align: center;
+    opacity: .8;
+    animation: none;
+  }
+  .interior-banner .banner-copy br {
+    display: none;
+  }
+  .interior-banner .banner-text {
+    text-shadow: none;
+  }
+  .mission-container .inner {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .mission-container .inner .copy {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .mission-container .inner .photo {
+    width: 100%;
+    padding-top: 40%;
+  }
+    .cultural-container .inner{
+        flex-direction: column;
+    }
+  .cultural-container .inner .copy {
+    width: 90%;
+    margin: 0 auto 20px auto;
+    display: flex;
+      /*
+    align-items: center;
+    text-align: center;
+      */
+  }
+  .cultural-container .inner .photo {
+    padding-top: 30%;
+  }
+    .cultural-container .inner .copy{
+        width: 100%;
+        padding-top: 2%;
+    }
+  .quote-container .inner .copy {
+    width: 62%;
+  }
+  .quote-container .inner .photo {
+    width: 35%;
+  }
+  .erg-container .inner {
+    flex-direction: column;
+  }
+  .erg-container .copy {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .erg-container .inner .logos {
+    width: 100%;
+  }
+  .training-container .inner {
+    flex-direction: column;
+  }
+  .training-container .photo {
+    width: 100%;
+    padding-top: 40%;
+  }
+  .training-container .copy {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .training-container .copy p {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .program-container .inner {
+    flex-direction: column-reverse;
+  }
+  .program-container .photo {
+    width: 100%;
+    padding-top: 40%;
+  }
+  .program-container .copy {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .program-container .copy p {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .quote-container .quote-inner-left, .quote-container .quote-inner-right {
+    align-items: center;
+    padding-top: 30px;
+  }
+  .quote-container .quote-inner-left {
+    flex-direction: column;
+  }
+  .quote-container .quote-inner-right {
+    flex-direction: column-reverse
+  }
+  .quote-container .inner .copy {
+    width: 80%;
+    text-align: center;
+  } /*
+    .quote-container .inner .copy br{
+        display: none;
+    }*/
+  .quote-container .inner .photo {
+    width: 45%;
+    padding-top: 50%;
+  }
+  .quote-container .inner .copy h3 {
+    margin: 0 auto;
+  }
+    table.dei tr td{
+        display: table-cell;
+    }
+}
+@media only screen and (max-width: 750px) {
+  .interior-banner .banner-text-bold {
+    font-size: 2.2em;
+  }
+  .interior-banner .banner-text {
+    font-size: 1.5em;
+    padding: 0;
+  }
+  .mission-container .inner .copy {
+    margin: 30px auto;
+  }
+  .mission-container .copy h2 {
+    margin: 0;
+  }
+  .mission-container .copy p {
+    margin: 0;
+  }
+  .erg-container .inner .copy {
+    margin: 30px auto;
+  }
+  .erg-container .copy h2 {
+    margin: 0;
+    padding-top: 20px;
+  }
+  .mission-container .copy p {
+    margin: 0;
+  }
+  .erg-container .inner .logos ul {
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 600px) {
+    table.dei tr td{
+        display: block;
+    }
+}
+@media only screen and (max-width: 550px) {
+  .interior-banner .banner-text-bold {
+    font-size: 1.8em;
+  }
+  .interior-banner .banner-text {
+    font-size: 1.2em;
+  }
+  .erg-container .inner .logos ul li {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .quote-container .inner .photo {
+    width: 60%;
+    padding-top: 60%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .interior-banner .banner-text-bold {
+    font-size: 1.6em;
+  }
+  .interior-banner .banner-text {
+    font-size: 1.1em;
+  }
+  .mission-container .inner .copy {
+    margin: 20px 0 10px 0;
+  }
+  .mission-container .copy h2 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+  }
+  .mission-container .copy p {
+    font-size: 1.1em;
+    }
+    .cultural-container .inner .copy{
+        margin-bottom: 0;
+    }
+    .cultural-container .inner .photo{
+        width: 100%;
+        padding-top: 40%;
+    }
+    .cultural-container .inner .copy h2{
+        font-size: 1.6em;
+    }
+    .cultural-container .copy ul li{
+        font-size: 1.5em;
+    }
+  .erg-container .copy h2 {
+    font-size: 1.6em;
+  }
+  .training-container .copy h2 {
+    font-size: 1.6em;
+  }
+  .training-container .copy p {
+    font-size: 1.1em;
+  }
+  .program-container .copy h2 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+  }
+  .program-container .copy p {
+    font-size: 1.1em;
+  }
+    table.dei{
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 350px) {
+  .erg-container .inner .logos ul li {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+}

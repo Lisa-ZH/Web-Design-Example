@@ -1,0 +1,313 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+}
+#footer-2023 {
+  background-color: #124A7E;
+  padding-top: 30px;
+}
+#footer-2023 .right {
+  float: right;
+}
+#footer-2023 .left {
+  float: left;
+}
+#footer-2023 .footer-wrap {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+#footer-2023 .top-row {
+  border-bottom: 1px solid #CCCCCC;
+  padding-bottom: 30px;
+}
+#footer-2023 .top-row .nav-label {
+  font-size: 14px;
+  color: #fff;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2px;
+}
+#footer-2023 .top-row form .input-wrap {
+  margin-bottom: 0;
+  display: inline-flex;
+  align-items: center;
+}
+#footer-2023 .top-row form .input-wrap label {
+  display: inline-block;
+  color: #fff;
+  font-weight: 300;
+  text-transform: none;
+  margin-top: 0;
+  font-size: 14px;
+  margin-right: 15px;
+  margin-bottom: 0;
+}
+#footer-2023 .top-row form .input-wrap input[type=email] {
+  padding: 0 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 260px;
+  line-height: 29px;
+  height: 29px;
+  font-size: 14px;
+  border: none;
+  font-style: italic;
+  margin-right: 10px;
+}
+#footer-2023 .top-row form button.btn {
+  background-color: #AB0032;
+  border: none;
+  font-size: 13px;
+  text-transform: none;
+  font-weight: normal;
+  padding: 0 40px 0;
+  vertical-align: top;
+  border: none;
+  height: 29px;
+  line-height: 29px;
+}
+#footer-2023 .top-row nav {
+  display: inline-block;
+  vertical-align: top;
+}
+#footer-2023 .top-row nav ul {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+}
+#footer-2023 .top-row nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+#footer-2023 .top-row nav ul li a svg {
+  width: 25px;
+  height: 25px;
+  fill: #fff;
+}
+#footer-2023 .top-row nav ul li a:hover svg {
+  fill: #749abb;
+  stroke: #749abb;
+}
+#footer-2023 .bottom-row {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+#footer-2023 .bottom-row .column-wrap {
+  display: flex;
+}
+#footer-2023 .bottom-row .column-wrap > .col {
+  width: auto;
+  flex: 1;
+}
+#footer-2023 .bottom-row .donate-wrap {
+  background-color: #fff;
+  padding: 15px 15px;
+}
+#footer-2023 .bottom-row .donate-wrap .donate-header {
+  font-size: 26px;
+  text-transform: none;
+  color: #124A7E;
+  margin-bottom: 10px;
+}
+#footer-2023 .bottom-row .donate-wrap .donate-header:before {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 7px;
+  position: relative;
+  top: 3px;
+  height: 31px;
+  width: 29px;
+  background-image: url("../images/global/giving-icon.png");
+}
+#footer-2023 .bottom-row .donate-wrap .donate-content {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+#footer-2023 .bottom-row .donate-wrap .btn {
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: none;
+  background-color: #AB0032;
+  padding: 10px 10px;
+  width: 100%;
+  text-align: center;
+}
+#footer-2023 .bottom-row .column-wrap {
+  width: 100%;
+  display: flex;
+}
+#footer-2023 .bottom-row .col {
+  width: calc(16.66666666% - 30px);
+  margin-right: 30px;
+}
+#footer-2023 .bottom-row .col:nth-child(4) {
+  order: 5;
+  margin-right: 0;
+}
+#footer-2023 .bottom-row ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#footer-2023 .bottom-row ul.patients-nav {
+  line-height: 1.3;
+}
+#footer-2023 .bottom-row ul.patients-nav > li > a {
+  font-size: 12px;
+  text-decoration: underline;
+  font-weight: 400;
+}
+#footer-2023 .bottom-row ul.patients-nav > li > a:hover {
+  text-decoration: none;
+}
+#footer-2023 .bottom-row ul > li > a,
+#footer-2023 .bottom-row ul > li span {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+#footer-2023 .bottom-row ul > li > a:hover,
+#footer-2023 .bottom-row ul > li span:hover {
+  color: #7091a7;
+}
+#footer-2023 .bottom-row ul > li > ul > li > a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+#footer-2023 .bottom-row ul > li > ul > li > a:hover {
+  color: #7091a7;
+}
+#footer-2023 .bottom-half {
+  background-color: #013358;
+  padding: 10px 0 40px;
+  font-size: 11px;
+  color: #fff;
+}
+#footer-2023 .bottom-half .right {
+  margin-top: 4px;
+}
+#footer-2023 .bottom-half ul {
+  margin: 5px 0 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1;
+}
+#footer-2023 .bottom-half ul > li {
+  line-height: 1;
+  vertical-align: top;
+  margin-right: 5px;
+  display: inline-block;
+}
+#footer-2023 .bottom-half ul > li > a {
+  padding: 0;
+  display: block;
+  border-right: 1px solid #fff;
+  color: #fff;
+  line-height: 1.2;
+  font-size: 11px;
+  padding-right: 6px;
+}
+#footer-2023 .bottom-half ul > li:last-child > a {
+  padding-right: 0;
+  margin-right: 0;
+  border-right: 0;
+}
+
+@media screen and (max-width: 1100px) {
+  #footer-2023 .top-row .left,
+  #footer-2023 .top-row .right {
+    float: none;
+  }
+  #footer-2023 .top-row form {
+    margin-bottom: 20px;
+  }
+  #footer-2023 .top-row form .input-wrap {
+    width: 84%;
+  }
+  #footer-2023 .top-row form .input-wrap input[type=email] {
+    width: 69%;
+  }
+}
+@media screen and (max-width: 960px) {
+  #footer-2023 .bottom-row {
+    flex-wrap: wrap;
+  }
+  #footer-2023 .bottom-row .col {
+    margin-bottom: 20px;
+    margin-right: 0;
+    flex: auto;
+  }
+  #footer-2023 .bottom-row ul.patients-nav > li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+  }
+  #footer-2023 .bottom-row .column-wrap {
+    width: 100%;
+    -moz-columns: 2;
+         columns: 2;
+  }
+  #footer-2023 .bottom-half .left,
+  #footer-2023 .bottom-half .right {
+    float: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  #footer-2023 .top-row {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  #footer-2023 .top-row form .input-wrap {
+    width: 100%;
+  }
+  #footer-2023 .top-row form .input-wrap input[type=email] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #footer-2023 .top-row nav {
+    text-align: center;
+    width: 100%;
+  }
+  #footer-2023 .top-row .nav-label {
+    margin-bottom: 10px;
+    display: block;
+    font-size: 16px;
+  }
+  #footer-2023 .bottom-row {
+    flex-wrap: wrap;
+  }
+  #footer-2023 .bottom-row .col {
+    margin-bottom: 30px;
+  }
+  #footer-2023 .bottom-row .col:nth-child(3) {
+    margin-bottom: 70px;
+  }
+  #footer-2023 .bottom-row ul.patients-nav li {
+    display: block;
+  }
+  #footer-2023 .bottom-row .column-wrap {
+    display: block;
+    -moz-columns: 2;
+         columns: 2;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
+}
+@media screen and (max-width: 390px) {
+  #footer-2023 .bottom-row .col:nth-child(3) {
+    margin-bottom: 85px;
+  }
+}

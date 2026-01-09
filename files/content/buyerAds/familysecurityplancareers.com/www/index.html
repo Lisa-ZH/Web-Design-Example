@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--|| {% load job_tags static %} ||-->
+    <meta id="testViewport" name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Family Security Plan</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- Google -->
+    <meta itemprop="image" content="/static/sites/www/files/images/global/share-this/social-image.jpg">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image:src" content="/static/sites/www/files/images/global/share-this/social-twitter-image.jpg">
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta property="og:image" content="/static/sites/www/files/images/global/share-this/social-image.jpg">
+    <meta property="og:image:secure_url" content="/static/sites/www/files/images/global/share-this/social-image.jpg">
+    <!-- Open Graph (LinkedIn) -->
+    <meta name="image" property="og:image" content="/static/sites/www/files/images/global/share-this/social-image.jpg">
+    <link rel="shortcut icon" href="/static/sites/www/files/images/favicon.ico">
+
+    <script type="application/ld+json">
+       {
+           "@context": "http://schema.org",
+           "@type": "Organization",
+           "url": "{{ CANONICAL_URL }}/",
+           "logo": "{{ CANONICAL_URL }}/static/sites/www/files/images/global/knowledge-graph-logo/logo.png"
+       }
+    </script>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/sites/www/files/images/global/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/sites/www/files/images/global/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/sites/www/files/images/global/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/static/sites/www/files/images/global/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/static/sites/www/files/images/global/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- End Favicon -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital@0;1&family=Lato:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="files/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="files/js/jquery.plugins-min.js" type="text/javascript"></script>
+    <script src="files/js/jquery.init-min.js" type="text/javascript"></script>
+
+	<script src="{% static 'js/common.js' %}"></script>
+	<!--||{% block head %}{% endblock %}||-->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G3HSLD3MCN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-G3HSLD3MCN');
+    </script>
+</head>
+
+<body>
+    <a href="#main-content" class="scroll-to-content">Scroll to Content</a>
+    <header id="header">
+        <div class="top-bar">
+            <div class="wrap">
+                <a href="tel:+18009907890">Contact Recruiting 1-800-990-7890x1214</a>
+                <div class="add-this-wrap">
+                    Share This Page
+                   
+                   <div class="share-this-icons">
+                        <ul>
+                            <li>
+                                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ request.build_absolute_uri }}" class="share-facebook">Share on Facebook</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://twitter.com/intent/tweet?url={{ request.build_absolute_uri }}" class="share-twitter">Share on Twitter</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url={{ request.build_absolute_uri }}" class="share-linkedin">Share on LinkedIn</a>
+                            </li>
+                            <li><a href="mailto:?body={{ request.build_absolute_uri }}&subject={{ job.posting.title }}" class="share-email">Share via Email</a></li>
+                        </ul>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <div class="wrap">   
+            <div class="left">
+                <a href="https://familysecurityplan.com/" class="logo"><img src="files/images/global/FSP-logo.jpg" alt="The Family Security Plan"></a>
+            </div>
+            <div class="right">
+                <a href="#main-menu" class="menu-toggle" aria-expanded="false">
+                    <span>Open Menu</span>
+                </a>
+                <nav id="main-menu" class="main-menu">
+                    <ul>
+                        <li class="mobile-only"><a href="tel:+18009907890">Contact Recruiting 1-800-990-7890x1214</a></li>
+                        <li><a href="/index.html" class="active">Careers Home</a></li>
+                        <li><a href="/who-we-hire.html">Who We Are</a></li>
+                        <li><a href="/culture.html">Culture</a></li>
+                        <li><a href="/benefits.html">Benefits</a></li>
+                        <li><a href="/resources.html">Resources</a></li>
+                    </ul>
+                </nav>
+            </div>
+            </div>
+        </div>
+    </header>
+	<main class="">
+
+    <section class="hero-banner">
+        <div class="hero-slider">
+            <div class="hero-slide-1 hero-slide">
+                <div class="hero-banner-image">
+                    <div class="img-text">
+                       <div class="wrap">Go live life.</div>
+                   </div>
+                </div>
+                <div class="hero-banner-content">
+                   <div class="wrap">
+                       <div class="inner-wrap">
+                           <h1>Careers that<br> let you live life. </h1>
+                           <a href="/jobs/" class="btn">View All Jobs</a>
+                       </div>
+                   </div>
+                </div>
+            </div>
+            <!-- <div class="hero-slide-2 hero-slide">
+                <div class="hero-banner-image">
+                    <div class="img-text">
+                       <div class="wrap">Go Live Life.</div>
+                   </div>
+                </div>
+                <div class="hero-banner-content">
+                    <div class="wrap">
+                        <div class="inner-wrap">
+                            <h1>Careers that<br> let you live life. </h1>
+                            <a href="" class="btn">View All Jobs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-slide-3 hero-slide">
+               <div class="hero-banner-image">
+                   <div class="img-text">
+                       <div class="wrap">Go Live Life.</div>
+                   </div>
+               </div>
+                <div class="hero-banner-content">
+                    <div class="wrap">
+                        <div class="inner-wrap">
+                            <h1>Careers that<br> let you live life. </h1>
+                            <a href="" class="btn">View All Jobs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-slide-4 hero-slide">
+                <div class="hero-banner-image">
+                    <div class="img-text">
+                       <div class="wrap">Go Live Life.</div>
+                   </div>
+                </div>
+                <div class="hero-banner-content">
+                    <div class="wrap">
+                        <div class="inner-wrap">
+                            <h1>Careers that<br> let you live life. </h1>
+                            <a href="" class="btn">View All Jobs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-slide-5 hero-slide">
+                <div class="hero-banner-image">
+                   <div class="img-text">
+                      <div class="wrap">Go Live Life.</div>
+                  </div>
+                </div>
+                <div class="hero-banner-content">
+                    <div class="wrap">
+                        <div class="inner-wrap">
+                            <h1>Careers that<br> let you live life. </h1>
+                            <a href="" class="btn">View All Jobs</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <div class="control-wrap">
+            <div id="arrows"></div>
+            <div id="dots"></div>
+        </div>
+    </section>
+
+
+    <section class="search-home">
+        <button class="mobile-search-button" href="#search-form" aria-controls="#search-form" aria-expanded="false">Search Jobs</button>
+
+        <!--||{% block search-options %}{% include 'includes/search_options.html' %}{% endblock %}||--> 
+        
+        <!--||{% comment %}||-->
+        <form id="search-form" method="get">
+            <ul class="search-content" id="search-content">
+                <li>
+                    <input name="search_term" type="text" id="search_term" placeholder="Search Jobs by Keyword" value="">
+                    <input type="submit" class="search-button" id="search_term_btn" value="" aria-label="submit keyword search" />
+                </li>
+                <li>
+                    <button class="search-accordion-button" href="#category-search" aria-controls="#category-search" aria-expanded="false">
+                        Search Jobs by Category
+                    </button>
+                    <ul class="select-listing" id="category-search">
+                        <li class="accordion-link">
+                            <a class="accordion-link search_link" href="/jobs/">Search All Categories</a>
+                        </li>
+                        <li class="accordion-link active"><a class="accordion-link search_link" href="/jobs/accounting-finance/">Accounting / Finance Jobs</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="search-accordion-button" href="#type-search" aria-controls="#location-search" aria-expanded="false">
+                        Search Jobs by Type
+                    </button>
+                    <ul class="select-listing" id="type-search">
+                        <li class="accordion-link active">
+                            <a class="accordion-link search_link" href="/jobs/accounting-finance/">Search All Types</a>
+                        </li>
+                        <li class="accordion-link"><a class="accordion-link search-link search-link-40" href="/jobs/accounting-finance/us/">Full Time</a></li>
+                        <li class="accordion-link"><a class="accordion-link search-link search-link-20" href="/jobs/accounting-finance/us-ma-leominster/">Part Time</a></li>
+                        <li class="accordion-link"><a class="accordion-link search-link search-link-20" href="/jobs/accounting-finance/us-ri-pawtucket/">Per Diem</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="search-accordion-button" href="#location-search" aria-controls="#location-search" aria-expanded="false">
+                        Search Jobs by Location
+                    </button>
+                    <ul class="select-listing" id="location-search">
+                        <li class="accordion-link active">
+                            <a class="accordion-link search_link" href="/jobs/accounting-finance/">Search All Locations</a>
+                        </li>
+                        <li class="accordion-link"><a class="accordion-link search-link search-link-40" href="/jobs/accounting-finance/us/">North America Jobs</a></li>
+                        <li class="accordion-link"><a class="accordion-link search-link search-link-20" href="/jobs/accounting-finance/us-ma-leominster/">Leominster, MA Jobs</a></li>
+                        <li class="accordion-link"><a class="accordion-link search-link search-link-20" href="/jobs/accounting-finance/us-ri-pawtucket/">Pawtucket, RI Jobs</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <div class="zip-search">
+                        <input name="zipcode" type="text" id="id_zipcode" class="radius2-col1" value="" placeholder="Zip Code" aria-label="Enter your desired Zip Code">
+                        <select name="radius" class="search2" id="id_radius" aria-label="Radius (select number of miles from your desired zipcode)">
+                            <optgroup>
+                                <option value="10">10 Miles</option>
+                                <option value="25" selected>25 Miles</option>
+                                <option value="50">50 Miles</option>
+                                <option value="100">100 Miles</option>
+                            </optgroup>
+                        </select>
+                        <button id="id-zipcode-btn">
+                            <span class="sr-only"> Submit Zip Code and Radius Search</span>
+                        </button>
+                    </div>
+                </li>
+                <li>
+                    <a href="/jobs/" class="advanced-button">Advanced Search</a>
+                </li>
+            </ul>
+        </form>
+        <!--||{% endcomment %}||-->
+
+    </section>
+    <main id="main-content">
+        <section class="career-highlights">
+            <h2>Career Highlights</h2>
+            <ul>
+                <li><a href="https://www.familysecurityplancareers.com/jobs/insurance-sales/">Insurance Sales</a></li>
+                <li><a href="https://www.familysecurityplancareers.com/jobs/customer-service/">Customer Service</a></li>
+                <li><a href="https://www.familysecurityplancareers.com/jobs/corporate/">Corporate</a></li>
+            </ul>
+        </section>
+        <section class="mission-statement">
+            <div class="wrap ">
+                <div class="our-mission-wrap">
+                    <p>At The Family Security Plan®, we truly believe everyone deserves a secure future. It’s our goal to make sure the communities we serve have the protection they need. We also believe that work should be rewarding and fun. And our people should enjoy a healthy work/life balance while realizing their full potential.</p>
+                    <p>Join our family orientated company and secure your future success with The Family Security Plan®. We have offices in CT, NY & MD.</p>
+                    <!-- <a href="https://www.youtube.com/watch?v=x85B0fQK0NA" class="btn open-video">Watch Our <em>Recruiting Process</em> Video</a>  -->
+                </div>
+            </div>
+        </section>
+        
+        
+        <div class="video-callout">
+            <div class="wrap">
+                <h2>Our Recruiting Process</h2>
+                <div class="inner-wrap">
+                    <div class="embed-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/x85B0fQK0NA?si=8bQtD-Rm7E4VhZUN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--||{% featured_jobs %}||-->
+    
+        <!--||{% comment %}||-->
+        <section class="featured-jobs">
+            <div class="wrap">
+                <h2>Featured Jobs</h2>
+            </div>
+            <div class="featured-jobs-wrap">
+                <div class="wrap">
+                    <ul>
+                        <li class="featured-job">
+                            <h3>Sales Representative</h3>
+                            <div class="location">New York, NY</div>
+                            <p>At The Family Security Plan, our focus is on the employee and their growth. From your first day with us, you’ll be joining a company that values everyone’s opinion, rewards and recognizes exemplary work, and prioritizes diversity, equity, and inclusion. You will be part of a ... </p>   
+                        </li>
+                        <li class="featured-job">
+                            <h3>Customer Connect Supervisor</h3>
+                            <div class="location">Orange, CT</div>
+                            <p>At The Family Security Plan, our focus is on the employee and their growth. From your first day with us, you’ll be joining a company that values everyone’s opinion, rewards and recognizes exemplary work, and prioritizes diversity, equity, and inclusion. You will be part of a ... </p>   
+                        </li>
+                        <li class="featured-job">
+                            <h3>Payment Concierge Specialist</h3>
+                            <div class="location">Orange, CT</div>
+                            <p>The Concierge Specialist (CS) is responsible for improving paid business and persistency through educating and supporting the sales organization through calling out to policy owners who have missed either a first time payment or reoccurring payment on their ...</p>   
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--||{% endcomment %}||-->
+
+
+        <section class="talent-network-home">
+            <div class="wrap">
+                <h2>Join Our Talent Network</h2>
+                <p>Stay connected with The Family Security Plan® and receive alerts with new job opportunities and news relative to your interests.</p>
+                <a href="{% url "subscriptions" %}" class="btn">sign up now</a>
+            </div>
+        </section>
+        </main>
+        <footer>
+            <div class="top-row">
+                <div class="wrap">
+                    <div class="col">
+                        <h4>Contact Recruiting</h4>
+                        <a href="tel:+18009907890">(800) 990-7890x1214</a>
+                    </div>
+                    <div class="col">
+                        <h4>Email</h4>
+                        <a href="mailto:info@pfpservices.com">info@pfpservices.com</a>
+                    </div>
+                    <div class="col">
+                        <h4>Fax</h4>
+                        <a href="tel:+12039071653">(203) 907-1653</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mid-row">
+                <div class="wrap">
+                    <div class="col">
+                        <h4>Contact</h4>
+                        <address>
+                            The Family Security Plan®<br>
+                            34 Prindle Hill Rd.<br>
+                            Orange, CT 06477
+                        </address>
+                        <p>Billing Questions and Inquiries</p>
+                        <a href="tel:+18002432292">(800) 243-2292</a>
+                        <nav class="contact-nav">
+                            <ul>
+                                <li><a href="https://familysecurityplan.com/contact/">DIRECTIONS</a></li>
+                                <li><a href="/">CAREERS</a></li>
+                                <li><a href="https://familysecurityplan.com/blog/">BLOG</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="social-media">
+                            <ul>
+                                <li><a href="https://www.facebook.com/people/The-Family-Security-Plan/100063761101909/">Facebook</a></li>
+                                <li><a href="https://twitter.com/fsp_family">Twitter</a></li>
+                                <li><a href="https://www.linkedin.com/company/pfp-services?original_referer=https%3A%2F%2Ffamilysecurityplan.com%2F">LinkedIn</a></li>
+                                <li><a href="https://www.instagram.com/thefamilysecurityplan/">Instagram</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col">
+                        <h4>Insurance Products</h4>
+                        <nav>
+                            <ul>
+                                <li><a href="https://familysecurityplan.com/insurance-products/whole-life-insurance/">Whole Life Insurance</a></li>
+                                <li><a href="https://familysecurityplan.com/insurance-products/term-life-insurance/">
+                                    Term Life Insurance</a></li>
+                                <li><a href="https://familysecurityplan.com/insurance-products/disability-insurance/">Disability Insurance</a></li>
+                                <li><a href="https://familysecurityplan.com/insurance-products/critical-illness-insurance/">Critical Illness Insurance</a></li>
+                                <li><a href="https://familysecurityplan.com/insurance-products/accident-plus-insurance/">Accident Insurance</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col">
+                        <h4>Credit Unions</h4>
+                        <nav>
+                            <ul>
+                                <li><a href="https://familysecurityplan.com/credit-unions/business-development/">Employer Group Marketing</a></li>
+                                <li><a href="https://familysecurityplan.com/credit-unions/credit-union-referral-program/">Contact Center Partnership</a></li>
+                                <li><a href="https://familysecurityplan.com/credit-unions/digital-content-marketing/">Email/Digital Engagement</a></li>
+                                <li><a href="https://familysecurityplan.com/credit-unions/member-engagement/">Outbound Engagement Campaigns</a></li>
+                                <li><a href="https://familysecurityplan.com/credit-unions/branch-network-product-delivery/">Branch Network Product Delivery</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-row">
+                <div class="wrap">
+                    &copy; PFP 2022 /  <a href="https://familysecurityplan.com/privacy-policy/">Privacy Policy</a>  /  <a href="https://familysecurityplan.com/privacy-notice/">Privacy Notice</a>  /  <a href="https://familysecurityplan.com/terms-and-conditions/">Terms &amp; Conditions</a>  /  <a href="https://familysecurityplan.com/do-not-call/">Do Not Call Policy</a>  /  <a href="">Site Map</a>
+                </div>
+            </div>
+        </footer>
+        
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+        
+
+    <!--||{% block js %}{% endblock %}||-->   
+</body>
+
+</html>

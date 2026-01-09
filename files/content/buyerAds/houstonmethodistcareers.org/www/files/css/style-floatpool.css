@@ -1,0 +1,279 @@
+/*------ Float Pool Page ------*/
+.floatpool-intro {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.floatpool-intro p {
+  font-size: 18px;
+}
+.floatpool-centered {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+.floatpool-centered.row1 {
+  background-image: linear-gradient(90deg, #507491 0%, #345168 100%)
+}
+.floatpool-centered.row2 {
+  background-color: #fff;
+}
+.floatpool-centered.row3 {
+  background-color: #dde0e5;
+}
+.floatpool-centered.row1 .copy, .floatpool-centered.row2 .copy, .floatpool-centered.row3 .copy {
+  width: 50%;
+  padding: 5%;
+}
+.floatpool-centered.row1 h2, .floatpool-centered.row2 h2, .floatpool-centered.row3 h2 {
+  font-size: 2rem;
+  line-height: 2rem;
+  margin: 0 0 15px;
+  font-weight: 600;
+}
+.floatpool-centered.row1 h2 {
+  color: #fff;
+}
+.floatpool-centered.row1 .wrap{
+    padding: 20px 0;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px 0px rgb(0 0 0 / 50%);
+}
+.floatpool-centered.row1 h3 {
+    font-size: 1.6rem;
+  line-height: 2rem;
+    text-align: center;
+  margin: 0 0 15px;
+  font-weight: 300;
+  color: #124a7e;
+}
+.floatpool-centered.row1 ul{
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+.floatpool-centered.row1 ul>li{
+    display: inline-block;
+    color: #ab0032;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+.floatpool-centered.row2 h2 {
+  color: #ab0032;
+}
+.floatpool-centered.row3 h2 {
+  color: #124a7e;
+}
+.floatpool-centered.row1 p {
+  color: #fff;
+  font-size: 21px;
+}
+.floatpool-centered.row2 p {
+  color: #000;
+  font-size: 21px;
+}
+.floatpool-centered.row3 p {
+  color: #000;
+  font-size: 21px;
+}
+.floatpool-centered .photo {
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.floatpool-centered .photo.clinicians {
+  background-image: url("../images/redesign/sub/floatpool/float-pool-1.jpg");
+  background-position: center top;
+  padding-top: 30%;
+}
+.floatpool-centered .photo.staff {
+  background-image: url("../images/redesign/sub/floatpool/float-pool-2.jpg");
+  background-position: center;
+  padding-top: 30%;
+}
+.floatpool-centered .photo.community {
+  background-image: url("../images/redesign/sub/floatpool/float-pool-3.jpg");
+  background-position: center;
+  padding-top: 35%;
+}
+.centered-content.floatpool h3 {
+    width: 80%;
+  margin: 0 auto 15px auto;
+  font-size: 2rem;
+  line-height: 2.2rem;
+  font-weight: 300;
+  color: #124a7e
+}
+.centered-content.floatpool ul > li {
+  font-size: 22px;
+  margin: 0 8px 16px;
+  color: #ab0032
+}
+.faq-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+/* Slideshow container */
+.hearfromnurse {
+  background-color: #124a7e;
+  padding: 5% 0;
+  position: relative;
+}
+.slideshow {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 40vh;
+  background-color: #ffffff;
+  padding: 5%;
+  color: #323232;
+  border-radius: 15px;
+  box-shadow: 2px 2px 8px 0px rgb(0 0 0 / 50%);
+}
+/* Hide the images by default */
+.slides {
+  display: none;
+}
+/* Next & previous buttons */
+.floatpool-prev, .floatpool-next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.floatpool-next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+/*
+.floatpool-prev:hover, .floatpool-next:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}*/
+/* Caption text */
+.slides .copy {
+  width: 100%;
+  max-width: 700px;
+  opacity: 1;
+}
+.text {
+  position: relative;
+  color: #323232;
+  font-size: 1.3rem;
+    letter-spacing: 1px;
+  line-height: 1.6rem;
+  padding: 0 15px 15px 15px;
+  text-align: center;
+    font-style: italic;
+} /*
+.text:before, .text:after {
+  font-size: 30px;
+  position: absolute;
+  color: #ab0032
+}
+.text:before {
+  content: open-quote;
+  top: 20px;
+  left: 0
+}
+.text:after {
+  content: close-quote;
+  right: 0;
+  bottom: 0
+}
+*/
+.name {
+  font-size: 1.2rem;
+    line-height: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+    font-style: italic;
+}
+.active {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+
+.contact p{
+    width: 80%;
+    margin: 2% auto 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 900px) {
+  .floatpool-centered.row1, .floatpool-centered.row3 {
+    flex-direction: column-reverse;
+  }
+  .floatpool-centered.row2 {
+    flex-direction: column;
+  }
+  .floatpool-centered.row1 .copy, .floatpool-centered.row2 .copy, .floatpool-centered.row3 .copy {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .floatpool-centered .photo {
+    width: 100%;
+  }
+   .floatpool-centered .photo.clinicians, .floatpool-centered .photo.staff, .floatpool-centered .photo.community {
+      padding-top: 40%;
+    }
+    .floatpool-centered .photo.staff{
+       background-position: center 15%; 
+    }
+    .floatpool-centered .photo.community{
+       background-position: center 15%;
+    }
+    .centered-content.floatpool h3{
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+    }
+    .slideshow {
+    height: unset;
+  }
+}
+@media screen and (max-width: 660px) {
+  .slideshow {
+    height: unset;
+  }
+}

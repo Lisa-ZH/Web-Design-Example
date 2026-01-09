@@ -1,0 +1,1158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta id="testViewport" name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>
+    <!--||{% block title %}Careers{% endblock %}||--> | Houston Methodist Hospital Jobs
+  </title>
+  <meta name="description"
+    content="{% block meta_desc %}New openings for Houston Methodist jobs in nursing (RN, CNA), administration, professional, service and support, and other hospital job openings{% endblock %}" />
+  <!--||{% block canonical_link %}{% endblock %}||-->
+
+  <!--||{% block social_media_meta %}||-->
+  <!-- Google -->
+  <meta itemprop="image"
+    content="https://houstonmethodistcareers.org/static/sites/www/files/images/share-this/social-image.jpg">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image:src"
+    content="https://houstonmethodistcareers.org/static/sites/www/files/images/share-this/social-twitter-image.jpg">
+  <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+  <!--|| {% comment Don't include title or URL anymore, let the share services use whatever url/title the page is on %} ||-->
+  <meta itemprop="name" content="Houston Methodist Careers">
+  <meta name="twitter:title" content="Houston Methodist Careers">
+  <meta property="og:title" content="Houston Methodist Careers">
+  <meta property="og:url" content="https://www.houstonmethodistcareers.org/">
+  <!--|| {% endcomment %} ||-->
+  <meta property="og:image"
+    content="https://houstonmethodistcareers.org/static/sites/www/files/images/share-this/social-image.jpg">
+  <meta property="og:type" content="website">
+  <!--||{% endblock %}||-->
+  <link rel="apple-touch-icon" sizes="180x180" href="files/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="files/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="files/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="files/images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="files/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="files/images/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="files/images/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "{{ CANONICAL_URL }}/",
+      "image": "{{ CANONICAL_URL }}/static/sites/www/files/images/logo-schema.jpg",
+      "logo": "{{ CANONICAL_URL }}/static/sites/www/files/images/logo-schema.jpg"
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link href="files/css/style.css" rel="stylesheet" type="text/css">
+	<link href="files/css/new-header-footer.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="files/js/slick.min.js"></script>
+  <script src="files/js/main.js"></script>
+  <!-- <link href="files/styles/p7SOM-Core.css" rel="stylesheet" type="text/css" media="all">
+    <link href="files/styles/p7SOM-01.css" rel="stylesheet" type="text/css" media="all">
+    <link href="files/styles/added.css" rel="stylesheet" type="text/css">
+    <link href="files/styles/styles.css" rel="stylesheet" type="text/css">
+    <link href="files/styles/p7MGM-01.css" rel="stylesheet" type="text/css" media="all">
+    <link href="files/styles/p7PM3-01.css" rel="stylesheet" type="text/css" media="all">
+    <link href="files/styles/p7IR2-01.css" rel="stylesheet" type="text/css" media="all">
+    <link href="files/styles/responsive.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="files/js/jquery-3.2.1.min.js"><\/script>')</script>
+    <script type="text/javascript" src="files/js/rollover.js"></script>
+    <script type="text/javascript" src="files/js/accordion.js"></script>
+    <script type="text/javascript" src="files/js/showHide.js"></script>
+    <script type="text/javascript" src="files/js/p7MGMscripts.js"></script>
+    <script type="text/javascript" src="files/js/p7IR2scripts.js"></script>
+    <script type="text/javascript" src="files/js/p7PM3scripts.js"></script>
+    <script type="text/javascript" src="files/js/p7SOMscripts.js"></script> -->
+  <!--[if lt IE 9]>
+        <script src="files/js/html5shiv.js"></script>
+        <script src="files/js/respond.min.js"></script>
+        <script src='files/js/modernizr.min.js'</script>
+        <script src='files/js/placeholder.js'</script>
+    <![endif]-->
+  <!--||
+  {% load job_tags banners_tags static %}
+        <script src="{% static "js/common.js" %}"></script>
+  {% block head %}{% endblock %}
+  ||-->
+  <!-- <script type="text/javascript">
+    function MM_preloadImages() { //v3.0
+      var d = document;
+      if (d.images) {
+        if (!d.MM_p) d.MM_p = new Array();
+        var i, j = d.MM_p.length,
+          a = MM_preloadImages.arguments;
+        for (i = 0; i < a.length; i++)
+          if (a[i].indexOf("#") != 0) {
+            d.MM_p[j] = new Image;
+            d.MM_p[j++].src = a[i];
+          }
+      }
+    }
+  
+    function MM_swapImgRestore() { //v3.0
+      var i, x, a = document.MM_sr;
+      for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+    }
+  
+    function MM_findObj(n, d) { //v4.01
+      var p, i, x;
+      if (!d) d = document;
+      if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+        d = parent.frames[n.substring(p + 1)].document;
+        n = n.substring(0, p);
+      }
+      if (!(x = d[n]) && d.all) x = d.all[n];
+      for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+      for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+      if (!x && d.getElementById) x = d.getElementById(n);
+      return x;
+    }
+  
+    function MM_swapImage() { //v3.0
+      var i, j = 0,
+        x, a = MM_swapImage.arguments;
+      document.MM_sr = new Array;
+      for (i = 0; i < (a.length - 2); i += 3)
+        if ((x = MM_findObj(a[i])) != null) {
+          document.MM_sr[j++] = x;
+          if (!x.oSrc) x.oSrc = x.src;
+          x.src = a[i + 2];
+        }
+    }
+  </script> -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-104058566-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NWCN90T17Z"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-NWCN90T17Z');
+  </script>
+  <!-- OptanonConsentNoticeStart -->
+  <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="01955a35-f0d8-7a2a-9415-2e9dd7daf535" ></script>
+  <script type="text/javascript">
+  function OptanonWrapper() { }
+  </script>
+  <!-- OptanonConsentNoticeEnd -->
+</head>
+
+<body class="{% block body-class %}{% endblock %}">
+ <a class="skip-to-content-link" href="#main">
+   Skip to content
+ </a>
+  <!--||{% include 'files/static-includes/header.html' %}||-->
+    
+    <!--||{% comment %}||-->
+    <header id="header-2023">
+      <div class="top-row">
+        <div class="header-wrap desktop">
+          <nav>
+            <ul>
+              <li><a target="_blank" href="https://www.houstonmethodist.org/" style="--text: 'Houston Methodist Main Site'">Houston Methodist Main Site</a></li>
+  <li><a target="_blank" href="https://www.houstonmethodist.org/academic-institute/" style="--text: 'Research & Education'">Research &amp; Education</a></li>
+              <li><a target="_blank" href="https://www.houstonmethodist.org/global/" style="--text: 'International Patients'"> International Patients</a></li>
+              <li><a href="/" style="--text: 'Careers'">Careers</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="mid-row">
+        <div class="header-wrap clearfix">
+          <a href="/" class="logo">
+            <img src="files/svg/hm-logo-white.svg" alt="Houston Methodist: Leading Medicine" />
+            <span class="sr-only">(Opens in new tab)</span>
+          </a>
+          <div class="right">
+    
+            <nav class="mid-row-bottom-nav">
+              <ul class="desktop">
+                <li><a href="/jobs/" style="--text: 'Search Jobs'">Search Jobs</a></li>
+  <!--							<li><a href="https://careers-houstonmethodist.icims.com/jobs/login?loginOnly=1" style="--text: 'Returning Job Seekers'">Returning Job Seekers</a></li>-->
+                <li><a href="/talentnetwork/" style="--text: 'Join Our Talent Network'">Join Our Talent Network</a></li>
+  <!--							<li><a href="https://houstonmethodist.icims.com/icims2/servlet/icims2?module=Root&action=samlAuthnRequest&RelayState=https%3A%2F%2Finternal-houstonmethodist.icims.com%2Fr.jsp%3Fredirect%3Ddashboard" style="--text: 'Current Employees Apply'">Current Employees Apply</a></li>-->
+              </ul>		
+              <button class="menu-toggle" aria-controls="mobile-menu" aria-label="Open Menu">
+                <span></span>
+              </button>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-row desktop">
+        <div class="header-wrap">
+          <nav>
+            <ul>
+              <li>
+                <button href="#careers" class="open-sub">Careers</button>
+                <div id="careers" class="mega-menu">
+                  <div class="inner-wrap">
+                    <div class="col">
+                      <ul>
+                        <li><a href="/opportunity-overview.html"  style="--text: 'Overviews'">Overview</a></li>
+                        <li><a href="/opportunity-allied-health.html" style="--text: 'Allied Health'">Allied Health</a></li>
+                        <li><a href="/opportunity-nursing.html" style="--text: 'Nursing'">Nursing</a></li>
+                        <li><a href="/nurse-relocation.html" style="--text: 'Nurse Relocation'">Nurse Relocation</a></li>
+                        <li><a href="/opportunity-physicians.html" style="--text: 'Physicians'">Physicians</a></li>
+                        <li><a href="/opportunity-professional-it.html" style="--text: 'Professional &amp; IT'">Professional &amp; IT</a></li>
+                        <li><a href="/opportunity-research.html" style="--text: 'Research'">Research</a></li>
+                        <li><a href="/opportunity-support.html" style="--text: 'Support Services'">Support Services</a></li>
+                        <li><a href="https://www.houstonmethodistcareers.org/floatpool/" style="--text: 'System Float Pool'">System Float Pool</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <button class="close" title="Close 'Why Choose Us?' Menu">
+                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16,16 L4,4"></path>
+                      <path d="M16,4 L4,16"></path>
+                    </svg>	
+                  </button>
+                </div>
+              </li>
+              <li>
+                <button href="#why-choose-us" class="open-sub">Choosing Us</button>
+                <div id="why-choose-us" class="mega-menu">
+                  <div class="inner-wrap">
+                    
+                    <div class="col">
+                      <ul>
+                        <li><a href="/benefits.html" style="--text: 'Benefits'">Benefits</a></li>
+                        <li><a href="/blog" style="--text: 'Blog'">Blog</a></li>
+                        <li><a href="/career-paths.html" style="--text: 'Career Paths'">Career Paths</a></li>
+                        <li><a href="/culture-and-engagement.html" style="--text: 'Culture and Engagement'">Culture &amp; Engagement</a></li>
+                        
+                        <li><a href="/giving-back.html" style="--text: 'Giving Back'">Giving Back</a></li>
+                        <li><a href="/about-houston-culture.html" style="--text: 'Living in Houston'">Living in Houston</a></li>
+                        <li><a href="/our-history.html" style="--text: 'Our History'">Our History</a></li>
+                        <li><a href="/our-future.html" style="--text: 'Our Future'">Our Future</a></li>
+                                    <li><a href="/sustainability.html" style="--text: 'Sustainability'">Sustainability</a></li>
+                        <li><a href="/our-videos.html" style="--text: 'Video Gallery'">Video Gallery</a></li>
+                      </ul>
+                    </div>
+                    
+                  </div>
+                  <button class="close" title="Close 'Choosing Us' Menu">
+                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16,16 L4,4"></path>
+                      <path d="M16,4 L4,16"></path>
+                    </svg>
+                  </button>
+                </div>
+              </li>
+              <li>
+                <a href="/career-events.html">Events</a>
+              </li>
+              <li>
+                <a href="/hiring-process.html">Hiring Process</a>
+              </li>
+              <li>
+                <button href="#locations" class="open-sub">Locations</button>
+                <div id="locations" class="mega-menu">
+                  <div class="inner-wrap">
+                    <div class="col">
+                      <ul>
+                        <li><a href="/our-locations.html" style="--text: 'Our Locations Map'">Our Locations Map</a></li>
+                        <li><a href="/locations-academic-institute.html" style="--text: 'Houston Methodist Academic Institute'">Houston Methodist Academic Institute</a></li>
+                        <li><a href="/locations-baytown.html" style="--text: 'Houston Methodist Baytown Hospital'">Houston Methodist Baytown Hospital</a></li>
+                        <li><a href="/locations-clear-lake.html" style="--text: 'Houston Methodist Clear Lake Hospital'">Houston Methodist Clear Lake Hospital</a></li>
+                        <li><a href="/locations-continuing-care.html" style="--text: 'Houston Methodist Continuing Care Hospital'">Houston Methodist Continuing Care Hospital</a></li>
+                        <li><a href="/locations-corporate.html" style="--text: 'Houston Methodist Corporate'">Houston Methodist Corporate</a></li>
+                                  <li><a href="/locations-cypress.html" style="--text: 'Houston Methodist Cypress Hospital'">Houston Methodist Cypress Hospital</a></li>
+                        <li><a href="/locations-global-health.html" style="--text: 'Houston Methodist Global Health Care Service'">Houston Methodist Global Health Care Services</a></li> 
+                        <li><a href="/locations-hmh.html" style="--text: 'Houston Methodist Hospital'">Houston Methodist Hospital</a></li>
+                        <li><a href="/locations-primary-care.html" style="--text: 'Houston Methodist Primary Care Group'">Houston Methodist Primary Care Group</a></li>
+                        <li><a href="/locations-specialty-physician.html" style="--text: 'Houston Methodist Specialty Physician Group'">Houston Methodist Specialty Physician Group</a></li>
+                        <li><a href="/locations-sugarland.html" style="--text: 'Houston Methodist Sugar Land Hospital'">Houston Methodist Sugar Land Hospital</a></li>
+                        <li><a href="/locations-woodlands.html" style="--text: 'Houston Methodist The Woodlands Hospital'">Houston Methodist The Woodlands Hospital</a></li>
+                        <li><a href="/locations-west-hospital.html" style="--text: 'Houston Methodist West Hospital'">Houston Methodist West Hospital</a></li>
+                        <li><a href="/locations-willowbrook.html" style="--text: 'Houston Methodist Willowbrook Hospital'">Houston Methodist Willowbrook Hospital</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <button class="close" title="Close 'Locations' Menu">
+                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16,16 L4,4"></path>
+                      <path d="M16,4 L4,16"></path>
+                    </svg>	
+                  </button>
+                </div>
+              </li>
+              <li>
+                <button href="#student-and-graduates" class="open-sub">Students &amp; Graduates</button>
+                <div id="student-and-graduates" class="mega-menu">
+                  <div class="inner-wrap">
+                    <div class="col">
+                      <ul>
+                        <li><a style="--text: 'Overview'" href="/sg-overview.html">Overview</a></li>
+                        <li><a style="--text: 'Administrative Fellowship Program'" href="/sg-admin-fellowship.html">Administrative Fellowship Program</a></li>
+                        <li><a style="--text: 'Clinical Pastoral Education Program'" href="https://www.houstonmethodist.org/education/gme-postgraduate/graduate-medical-education/clinical-pastoral-education/" target="_blank">Clinical Pastoral Education Program</a></li>
+                        <li><a style="--text: 'Nurse Residency Program'" href="/graduatenurse/">Nurse Residency Program</a></li>
+                        <li><a style="--text: 'TMC and The Woodlands Extern Program'" href="/sg-nursing-students.html">TMC and The Woodlands Extern Program</a></li>
+                        <li><a style="--text: 'Hospital Administration/Operations Summer Internship Program'" href="/sg-summer-internship.html">Hospital Administration/Operations Summer Internship Program</a></li>
+                        
+                      </ul>
+                    </div>
+                    
+                  </div>
+                  <button class="close" title="Close 'Students &amp; Graduate' Menu">
+                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16,16 L4,4"></path>
+                      <path d="M16,4 L4,16"></path>
+                    </svg>	
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </nav>
+      
+        </div>
+      </div>
+      
+      <div id="mobile-menu" class="mobile-menu">
+        <nav class="houston-nav">
+          <ul>
+            <li><a class="careers-link" href="/">Careers Home Page</a></li>
+          </ul>
+        </nav>
+        <nav class="career-nav">
+          <ul>
+            <li>
+              <button aria-controls="careers-list" class="open-sub">Careers</button>
+              <ul id="careers-list">
+                <li><a href="/opportunity-overview.html">Overview</a></li>
+                <li><a href="/opportunity-allied-health.html">Allied Health</a></li>
+                <li><a href="/opportunity-nursing.html">Nursing</a></li>
+                <li><a href="/nurse-relocation.html">Nurse Relocation</a></li>
+                <li><a href="/opportunity-physicians.html">Physicians</a></li>
+                <li><a href="/opportunity-professional-it.html">Professional &amp; IT</a></li>
+                <li><a href="/opportunity-research.html">Research</a></li>
+                <li><a href="/opportunity-support.html">Support Services</a></li>
+              </ul>
+            </li>
+            <li>
+              <button aria-controls="choosing-us-list" class="open-sub">Choosing Us</button>
+              <ul id="choosing-us-list">
+                <li><a href="/benefits.html">Benefits</a></li>
+                      <li><a href="/blog">Blog</a></li>
+                <li><a href="/career-paths.html">Career Paths</a></li>
+                <li><a href="/culture-and-engagement.html">Culture &amp; Engagement</a></li>
+                
+                <li><a href="/giving-back.html">Giving Back</a></li>
+                <li><a href="/about-houston-culture.html">Living in Houston</a></li>
+                <li><a href="/our-history.html">Our History</a></li>
+                <li><a href="/our-future.html">Our Future</a></li>
+                <li><a href="sustainability.html">Sustainability</a></li>
+                <li><a href="/our-videos.html">Video Gallery</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="/career-events.html">Events</a>
+            </li>
+            <li>
+              <a href="/hiring-process.html">Hiring Process</a>
+            </li>
+            
+            <li>
+              <button aria-controls="locations-list" class="open-sub">Locations</button>
+              <ul id="locations-list">
+                <li><a href="/our-locations.html">Our Locations Map</a></li>
+                <li><a href="/locations-academic-institute.html">Houston Methodist Academic Institute</a></li>
+                <li><a href="/locations-baytown.html">Houston Methodist Baytown Hospital</a></li>
+                <li><a href="/locations-clear-lake.html">Houston Methodist Clear Lake Hospital</a></li>
+                <li><a href="/locations-continuing-care.html">Houston Methodist Continuing Care Hospital</a></li>
+                <li><a href="/locations-corporate.html">Houston Methodist Corporate </a></li>
+                <li><a href="/locations-cypress.html">Houston Methodist Cypress Hospital</a></li>
+                <li><a href="/locations-global-health.html">Houston Methodist Global Health Care Services</a></li> 
+                <li><a href="/locations-hmh.html">Houston Methodist Hospital</a></li>
+                <li><a href="/locations-primary-care.html">Houston Methodist Primary Care Group</a></li>
+                <li><a href="/locations-specialty-physician.html">Houston Methodist Specialty Physician Group</a></li>
+                <li><a href="/locations-sugarland.html">Houston Methodist Sugar Land Hospital</a></li>
+                <li><a href="/locations-woodlands.html">Houston Methodist The Woodlands Hospital</a></li>
+                <li><a href="/locations-west-hospital.html">Houston Methodist West Hospital</a></li>
+                <li><a href="/locations-willowbrook.html">Houston Methodist Willowbrook Hospital</a></li>
+              </ul>
+            </li>
+            <li>
+              <button aria-controls="students-list" class="open-sub">Students & Graduates</button>
+              <ul id="students-list">
+                <li><a href="/sg-overview.html">Overview</a></li>
+                <li><a href="/sg-admin-fellowship.html">Administrative Fellowship Program</a></li>
+                <li><a href="https://www.houstonmethodist.org/education/gme-postgraduate/graduate-medical-education/clinical-pastoral-education/">Clinical Pastoral Education Program</a></li>
+                <li><a href="/graduatenurse/" >Nurse Residency Program</a></li>
+                <li><a href="/sg-nursing-students.html">TMC and The Woodlands Extern Program</a></li>
+                <li><a href="/sg-summer-internship.html">Hospital Administration/Operations Summer Internship Program</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <nav class="mobile-sub-menu">
+          <ul>
+            <li><a href="/jobs/">Search Jobs</a></li>
+  <!--					<li><a href="https://careers-houstonmethodist.icims.com/jobs/login?loginOnly=1">Returning Job Seekers</a></li>-->
+            <li><a href="/talentnetwork/">Join Our Talent Network</a></li>
+          </ul>
+        </nav>
+        <nav class="houston-nav">
+          <ul>
+            <li><a class="main-site" target="_blank" href="https://www.houstonmethodist.org/">Houston Methodist Main Site</a></li>
+          <li><a class="research-education" target="_blank" href="https://www.houstonmethodist.org/academic-institute/">Research &amp; Education</a></li>
+            <li><a class="international-pat" target="_blank" href="https://www.houstonmethodist.org/global/">International Patients</a></li>
+          </ul>
+        </nav>
+      </div>
+    
+    </header>
+    
+    <!--||{% endcomment %}||-->
+
+
+    <!--||{% block banners %}||-->
+    <!--||{% banner_images "banners" %}||-->
+    <div class="interior-banner">
+        <div class="interior-banner-slide-show">
+
+            <!--||{% for banner in banners %}||-->
+            <div class="interior-banner-slide">
+                <!--||{% if banner.link %}<a href="{{ banner.link|safe }}">{% endif %}||-->
+                    <div class="interior-banner-slide-img" style="background-image: url('{{ banner.image.url }}');"></div>
+                    <div class="interior-banner-slide-content">
+                        <!--||{% if banner.hospital %}<span class="hospital">{{ banner.hospital }}</span>{% endif %}||-->
+                        <div class="wrap">
+                            <div class="h1-style">
+                                {{ banner.description|safe }}
+                            </div>
+                        </div>
+                    </div>
+                <!--||{% if banner.link %}</a>{% endif %}||-->
+            </div>
+            <!--||{% endfor %}||-->
+            
+        </div>
+    </div>
+    <!--||{% endblock %}||-->
+
+    <!--||{% comment %}||-->
+    <!-- <div class="interior-banner">
+        <div class="interior-banner-slide-show">
+            <div class="interior-banner-slide">
+              
+              
+                <div class="interior-banner-slide-img job-search"></div>
+                <div class="interior-banner-slide-content">
+                    <div class="wrap">
+                        <div class="h1-style">our commitment to innovation sets us apart.<br>
+                          <strong>our passion for caring brings us together.</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="interior-banner-slide">
+                <div class="interior-banner-slide-img job-search" style="background-image: url('files/images/banners/medical-assistant-virtual-hiring-event.jpg');"></div>
+                <div class="interior-banner-slide-content">
+                    <div class="wrap">
+                      <a href="">
+                        <div class="h1-style">
+                          Medical Assistant Virtual Hiring Event<br>
+                          <strong>Sept. 29, 4:00 pm - 6:00 pm</strong>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="interior-banner-slide">
+                <div class="interior-banner-slide-img job-search" style="background-image: url('files/images/banners/virtual-hiring-event.jpg');"></div>
+                <div class="interior-banner-slide-content">
+                    <div class="wrap">
+                      <a href="">
+                        <div class="h1-style">Virtual Hiring Event for Respiratory Care Practitioners<br>
+                          <strong>Aug. 25, 4:00 pm - 5:30 pm <br>$10,000 Sign-on Bonuses</strong>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!--||{% endcomment %}||-->
+
+  <!--||{% block subheader-links %}{% endblock subheader-links %}||-->
+
+  <!--||{% block subheader-linkedin %}||-->
+  <!-- <div class="content2-row2">
+	<a href="https://www.linkedin.com/company/houston-methodist" target="blank">
+		<span>Follow Us On</span> <img src="files/images/global/linkedin-logo-white.png" alt="LinkedIn (Link opens in a new window)" class="scalable"/>
+	</a>
+  </div> -->
+  <!--||{% endblock subheader-linkedin %}||-->
+
+  <div id="main" class="sub-content-wrapper listing-wrapper">
+    <div class="sub-content clearfix">
+      <div class="search-results-outer-holder clearfix">
+        <div id="search-results-holder-sub">
+          <button class="mobile-search-button" href="#search-form" aria-controls="#search-form" aria-expanded="true">Search Jobs</button>
+          <!--||
+          {% block search-options %}
+              {% include 'includes/search_options.html' with radius_choices=radius_choices zipcode=zipcode %}
+          {% endblock search-options %}
+          ||-->
+        
+          <!--||{% comment %}||-->
+          <div class="search-area-sub">
+           
+            <form id="search-form" action="">
+              <div class="keyword-search-sub">
+                <span class="searchKeyBoxfield">
+                  <label for="search_term" class="sr-only">Search Jobs by Keyword</label>
+                  <input id="search_term" name="search_term" type="text" class="search-textbox-sub" value=""
+                    placeholder="Jobs by Keyword" />
+                </span>
+                <div class="searchBoxbtn-sub">
+                  <button class="search-button">Submit</button>
+                </div>
+              </div>
+              <div class="accordion">
+                <div class="accordion-section accordion-border">
+                  <a class="accordion-section-title" href="#accordion-1">Jobs by Talent Area</a>
+                  <div id="accordion-1" class="accordion-section-content">
+                    <ul>
+                      <li class="accordion-link">Talent1</li>
+                      <li class="accordion-link"><a href="#">Talent Area1</a></li>
+                      <li class="accordion-link"><a href="#">Talent Area2</a></li>
+                      <li class="accordion-link"><a href="#">Talent Area3</a></li>
+                      <li class="accordion-link"><a href="#">Talent Area4</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="accordion-spacer"></div>
+                <div class="accordion-section accordion-border">
+                  <a class="accordion-section-title" href="#accordion-2">Jobs by Type</a>
+                  <div id="accordion-2" class="accordion-section-content">
+                    <ul>
+                      <li class="accordion-link"><a href="#">Job Type1</a></li>
+                      <li class="accordion-link"><a href="#">Job Type2</a></li>
+                      <li class="accordion-link"><a href="#">Job Type3</a></li>
+                      <li class="accordion-link"><a href="#">Job Type4</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="accordion-spacer"></div>
+                <div class="accordion-section accordion-border">
+                  <a class="accordion-section-title" href="#accordion-3">Jobs by Shift</a>
+                  <div id="accordion-3" class="accordion-section-content">
+                    <ul>
+                      <li class="accordion-link"><a href="#">Job Shift1</a></li>
+                      <li class="accordion-link"><a href="#">Job Shift2</a></li>
+                      <li class="accordion-link"><a href="#">Job Shift3</a></li>
+                      <li class="accordion-link"><a href="#">Job Shift4</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="accordion-spacer"></div>
+                <div class="accordion-section accordion-border">
+                  <a class="accordion-section-title" href="#accordion-4">Jobs by Location</a>
+                  <div id="accordion-4" class="accordion-section-content">
+                    <ul>
+                      <li class="accordion-link"><a href="#">Job Location1</a></li>
+                      <li class="accordion-link"><a href="#">Job Location2</a></li>
+                      <li class="accordion-link"><a href="#">Job Location3</a></li>
+                      <li class="accordion-link"><a href="#">Job Location4</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="radius-holder clearfix">
+                <div class="radius-col1">
+                  <label for="id_zipcode" class="sr-only">Zip Code</label>
+                  <input name="zipcode" type="text" id="id_zipcode" value="" placeholder="Zip Code">
+                </div>
+                <div class="radius-col2">
+                  <label for="id_radius" class="sr-only">Zip Code Search Radius</label>
+                  <select class="search" name="radius" id="id_radius">
+                    <optgroup>
+                      <option value="5">5 Miles</option>
+                      <option value="10">10 Miles</option>
+                      <option value="25" selected>25 Miles</option>
+                      <option value="50">50 Miles</option>
+                    </optgroup>
+                  </select>
+                </div>
+                <div class="radius-col3">
+                  <button id="id-zipcode-btn" class="search-button">Submit</button>
+                </div>
+              </div>
+              <div class="remote-jobs-box">
+                <a href="?remote-jobs=true" class="btn">View Remote Jobs</a>
+              </div>
+              <div id="moscode-search">
+                <div id="moscode-search-heading">For Military Professionals and Veterans</div>
+                <div class="moscode-wrap">
+                  <div class="radius-col1">
+                    <label for="id_moscode" class="sr-only">Military Code</label>
+                    <input name="moscode" type="text" id="id_moscode" value="" maxlength="20"
+                      placeholder="Jobs by MOS, NEC, or AFSC Code">
+                  </div>
+                  <div class="radius-col3">
+                    <button id="id-moscode-btn" class="search-button">Submit</button>
+                  </div>
+                </div>
+                  <div class="clear-filters">
+                    <a href="/jobs/" class="btn alt">Clear Filters</a>
+                  </div>        
+              </div>
+
+              
+          </div>
+          </form>
+          <!--||{% endcomment %}||-->
+        </div>
+        <!--||{% block full-width %}||-->
+        
+        <!--||{% block content %}||-->
+        <div id="search-results-inner-col1">
+          <div class="results-holder">
+            <!--||{% block page_title %}<div class="results-header">Jobs at {{ CORPORATE_NAME }}</div>{% endblock page_title %}||-->
+
+            <!--||{% block share %}||-->
+            <div class="results-row-sharethis clearfix">
+              <div class="results-row-sharethis-left">SHARE THIS</div>
+              <div class="results-row-sharethis-right">
+                <div class="share-box">
+                   <ul>
+                     <li>
+                       <a href="https://www.facebook.com/sharer/sharer.php?u={{ request.build_absolute_uri }}&quote=Houston%20Methodist%20Careers" class="share-facebook">Share on Facebook</a>
+                     </li>
+                     <li>
+                       <a href="https://twitter.com/intent/tweet?text=Houston%20Methodist%20Careers&url={{ request.build_absolute_uri }}" class="share-twitter">Share on Twitter</a>
+                     </li>
+                     <li>
+                       <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ request.build_absolute_uri }}" class="share-linkedin">Share on LinkedIn</a>
+                     </li>
+                     <li><a href="mailto:?body={{ request.build_absolute_uri }}" class="share-email">Share via Email</a></li>
+                   </ul>
+                 </div>
+              </div>
+            </div>
+            <!--||{% endblock share %}||-->
+
+            <!--||{% block results %}||-->
+            <div class="results-content">
+              <ul class="job-listing">
+                <li>
+                  <div class="logo-wrap">
+                    <img src="files/images/job-logos/logo-leading-medicine.jpg" alt="Leading Medicine">
+                  </div>
+                  <div>
+                    <a href="#0" rel="nofollow">
+                      <h2>Administrative Coordinator (RN) Emergency Room</h2>
+                    </a>
+                    <dl>
+                      <dt>Job Ref:</dt>
+                      <dd>#20792</dd>
+                      <dt>Talent Area:</dt>
+                      <dd>Emergency Services</dd>
+                      <dt>Job Shift:</dt>
+                      <dd>Full-Time</dd>
+                      <dt>Location:</dt>
+                      <dd>Houston Methodist Willowbrook Hospital, Houston, TX</dd>
+                    </dl>
+                  </div>
+                </li>
+                <li>
+                  <div class="logo-wrap">
+                    <img src="files/images/job-logos/logo-baytown.jpg" alt="Houston Methodist Baytown Logo">
+                  </div>
+                  <div>
+                    <a href="#0" rel="nofollow">
+                      <h2>Board Runner - Cardiovascular Operating Room - Days</h2>
+                    </a>
+                    <dl>
+                      <dt>Job Ref:</dt>
+                      <dd>#20792</dd>
+                      <dt>Talent Area:</dt>
+                      <dd>Emergency Services</dd>
+                      <dt>Job Shift:</dt>
+                      <dd>Full-Time</dd>
+                      <dt>Location:</dt>
+                      <dd>Houston Methodist Willowbrook Hospital, Houston, TX</dd>
+                    </dl>
+                  </div>
+                </li>
+                <li>
+                  <div class="logo-wrap">
+                    <img src="files/images/job-logos/logo-west.jpg" alt="Houston Methodist West Logo">
+                  </div>
+                  <div>
+                    <a href="#0" rel="nofollow">
+                      <h2>Board Runner, OR Services - Surgery</h2>
+                    </a>
+                    <dl>
+                      <dt>Job Ref:</dt>
+                      <dd>#20792</dd>
+                      <dt>Talent Area:</dt>
+                      <dd>Emergency Services</dd>
+                      <dt>Job Shift:</dt>
+                      <dd>Full-Time</dd>
+                      <dt>Location:</dt>
+                      <dd>Houston Methodist Willowbrook Hospital, Houston, TX</dd>
+                    </dl>
+                  </div>
+                </li>
+                <li>
+                  <div class="logo-wrap">
+                    <img src="files/images/job-logos/logo-woodlands.jpg" alt="Houston Methodist Woodland's Logo">
+                  </div>
+                  <div>
+                    <a href="#0" rel="nofollow">
+                      <h2>Case Manager</h2>
+                    </a>
+                    <dl>
+                      <dt>Job Ref:</dt>
+                      <dd>#20792</dd>
+                      <dt>Talent Area:</dt>
+                      <dd>Emergency Services</dd>
+                      <dt>Job Shift:</dt>
+                      <dd>Full-Time</dd>
+                      <dt>Location:</dt>
+                      <dd>Houston Methodist Willowbrook Hospital, Houston, TX</dd>
+                    </dl>
+                  </div>
+                </li>
+                <li>
+                  <div class="logo-wrap">
+                    <img src="files/images/job-logos/logo-clear-lake.jpg" alt="Houston Methodist Clear Lakes Logo">
+                  </div>
+                  <div>
+                    <a href="#0" rel="nofollow">
+                      <h2>Case Manager IIr</h2>
+                    </a>
+                    <dl>
+                      <dt>Job Ref:</dt>
+                      <dd>#20792</dd>
+                      <dt>Talent Area:</dt>
+                      <dd>Emergency Services</dd>
+                      <dt>Job Shift:</dt>
+                      <dd>Full-Time</dd>
+                      <dt>Location:</dt>
+                      <dd>Houston Methodist Willowbrook Hospital, Houston, TX</dd>
+                    </dl>
+                  </div>
+                </li>
+                <li>
+                  <div class="logo-wrap">
+                    <img src="files/images/job-logos/logo-continuing-care.jpg" alt="Houston Methodist Continuing Care Logo">
+                  </div>
+                  <div>
+                    <a href="#0" rel="nofollow">
+                      <h2>Case Manager (RN) - Case Management</h2>
+                    </a>
+                    <dl>
+                      <dt>Job Ref:</dt>
+                      <dd>#20792</dd>
+                      <dt>Talent Area:</dt>
+                      <dd>Emergency Services</dd>
+                      <dt>Job Shift:</dt>
+                      <dd>Full-Time</dd>
+                      <dt>Location:</dt>
+                      <dd>Houston Methodist Willowbrook Hospital, Houston, TX</dd>
+                    </dl>
+                  </div>
+                </li>
+                <li>
+                  <div class="logo-wrap">
+                    <img src="files/images/job-logos/logo-sugar-land.jpg" alt="Houston Methodist Sugar Land Logo">
+                  </div>
+                  <div>
+                    <a href="#0" rel="nofollow">
+                      <h2>Case Manager (RN) - Case Management</h2>
+                    </a>
+                    <dl>
+                      <dt>Job Ref:</dt>
+                      <dd>#20792</dd>
+                      <dt>Talent Area:</dt>
+                      <dd>Emergency Services</dd>
+                      <dt>Job Shift:</dt>
+                      <dd>Full-Time</dd>
+                      <dt>Location:</dt>
+                      <dd>Houston Methodist Willowbrook Hospital, Houston, TX</dd>
+                    </dl>
+                  </div>
+                </li>
+                <li>
+                  <div class="logo-wrap">
+                    <img src="files/images/job-logos/logo-texas-medical-center.jpg" alt="Houst Methodist Texas Medical Center's Logo">
+                  </div>
+                  <div>
+                    <a href="#0" rel="nofollow">
+                      <h2>Case Manager (RN) - Case Management</h2>
+                    </a>
+                    <dl>
+                      <dt>Job Ref:</dt>
+                      <dd>#20792</dd>
+                      <dt>Talent Area:</dt>
+                      <dd>Emergency Services</dd>
+                      <dt>Job Shift:</dt>
+                      <dd>Full-Time</dd>
+                      <dt>Location:</dt>
+                      <dd>Houston Methodist Willowbrook Hospital, Houston, TX</dd>
+                    </dl>
+                  </div>
+                </li>
+                <li>
+                  <div class="logo-wrap">
+                    <img src="files/images/job-logos/logo-texas-medical-center.jpg" alt="Houst Methodist Texas Medical Center's Logo">
+                  </div>
+                  <div>
+                    <a href="#0" rel="nofollow">
+                      <h2>Case Manager (RN) - Case Management</h2>
+                    </a>
+                    <dl>
+                      <dt>Job Ref:</dt>
+                      <dd>#20792</dd>
+                      <dt>Talent Area:</dt>
+                      <dd>Emergency Services</dd>
+                      <dt>Job Shift:</dt>
+                      <dd>Full-Time</dd>
+                      <dt>Location:</dt>
+                      <dd>Houston Methodist Willowbrook Hospital, Houston, TX</dd>
+                    </dl>
+                  </div>
+                </li>
+                <li>
+                  <div class="logo-wrap">
+                    <img src="files/images/job-logos/logo-texas-medical-center.jpg" alt="Houst Methodist Texas Medical Center's Logo">
+                  </div>
+                  <div>
+                    <a href="#0" rel="nofollow">
+                      <h2>Case Manager (RN) - Case Management</h2>
+                    </a>
+                    <dl>
+                      <dt>Job Ref:</dt>
+                      <dd>#20792</dd>
+                      <dt>Talent Area:</dt>
+                      <dd>Emergency Services</dd>
+                      <dt>Job Shift:</dt>
+                      <dd>Full-Time</dd>
+                      <dt>Location:</dt>
+                      <dd>Houston Methodist Willowbrook Hospital, Houston, TX</dd>
+                    </dl>
+                  </div>
+                </li>
+                <li>
+                  <div class="logo-wrap">
+                    <img src="files/images/job-logos/logo-texas-medical-center.jpg" alt="Houst Methodist Texas Medical Center's Logo">
+                  </div>
+                  <div>
+                    <a href="#0" rel="nofollow">
+                      <h2>Case Manager (RN) - Case Management</h2>
+                    </a>
+                    <dl>
+                      <dt>Job Ref:</dt>
+                      <dd>#20792</dd>
+                      <dt>Talent Area:</dt>
+                      <dd>Emergency Services</dd>
+                      <dt>Job Shift:</dt>
+                      <dd>Full-Time</dd>
+                      <dt>Location:</dt>
+                      <dd>Houston Methodist Willowbrook Hospital, Houston, TX</dd>
+                    </dl>
+                  </div>
+                </li>
+                <li>
+                  <div class="logo-wrap">
+                    <img src="files/images/job-logos/logo-texas-medical-center.jpg" alt="Houst Methodist Texas Medical Center's Logo">
+                  </div>
+                  <div>
+                    <a href="#0" rel="nofollow">
+                      <h2>Case Manager (RN) - Case Management</h2>
+                    </a>
+                    <dl>
+                      <dt>Job Ref:</dt>
+                      <dd>#20792</dd>
+                      <dt>Talent Area:</dt>
+                      <dd>Emergency Services</dd>
+                      <dt>Job Shift:</dt>
+                      <dd>Full-Time</dd>
+                      <dt>Location:</dt>
+                      <dd>Houston Methodist Willowbrook Hospital, Houston, TX</dd>
+                    </dl>
+                  </div>
+                </li>
+              </ul>
+
+            </div>
+            <div class="results-btm clearfix"><a href="#">&lt;&lt; previous&nbsp;|&nbsp;next &gt;&gt;</a></div>
+            <!--||{% endblock results %}||-->
+
+            <!--||{% block results-footer-text %}||-->
+            <p class="results-holder-txt">Since its founding in 1919, Houston Methodist has earned worldwide
+              recognition. Comprised of a nationally recognized academic medical center and seven community hospitals
+              with a history of health care innovation, Houston Methodist is affiliated with the Weill Medical College
+              of Cornell University and New York-Presbyterian Hospital, one of the nation's leading centers for medical
+              education and research. We have consistently been recognized by several national organizations as one of
+              the nation's best places to work, including being ranked as one of “America’s Best Large Employers” by
+              Forbes (2017). Houston Methodist directs millions of research dollars into patient care and offers the
+              latest innovations in medical, surgical and diagnostic techniques. With 2,165 operating beds, over 21,195
+              employees and more than 5,500 physicians, Houston Methodist offers complete care for patients from around
+              the world.</p>
+            <!--||{% endblock results-footer-text %}||-->
+          </div>
+        </div>
+        <!--||{% endblock content %}||-->
+
+        <!--||{% block side-bar %}||-->
+        <div id="search-results-inner-col2">
+          
+
+          <!--||{% block sidebar_image %}{% endblock sidebar_image %}||-->
+
+          <!--||{% block sidebar_video %}{% endblock sidebar_video %}||-->
+
+          <!--||{% block talent_community %}||-->
+          <div class="sidebar-photo-holder">
+            <a href="{% url 'subscriptions' %}">
+              <img src="files/images/talent-network.jpg" alt="" class="imgover scalable" />
+              <span class="talent-network-link">Join Our Talent Network</span>
+            </a>
+          </div>
+          <!--||{% endblock talent_community %}||-->
+
+          <!--||{% block featured %}{% endblock featured %}||-->
+
+          <!--||{% comment %}||-->
+          <div id="featured-jobs-holder-sub">
+            <div id="featured-job-header-sub">Featured Jobs</div>
+            <ul>
+              <li>
+                <h3><a href="">Staff Nurse III - Oncology Clinic</a></h3>
+                <address>
+                  <strong>Location:</strong><br>
+                  Houston Methodist Specialty Physician Group, Houston, TX 77030
+                </address>
+                <p>The Staff Nurse III is a Registered Nurse (RN) who provides nursing care to patients in an organized,
+                  effective manner. ...</p>
+              </li>
+              <li>
+                <h3><a href="">Senior Medical Device Integration Analyst</a></h3>
+                <address><strong>Location:</strong><br>Corporate, Houston, TX 77054</address>
+                <p>Work Shift: DAY Work Week: M - F Company ProfileHouston Methodist (HM) is one of the nation’s leading
+                  health systems and academic medical centers. HM consists ...</p>
+              </li>
+              <li>
+                <h3><a href="">Case Manager I</a></h3>
+                <address><strong>Location:</strong><br>
+                  Houston Methodist West Hospital, Houston, TX 77094
+                </address>
+                <p>Work Shift: DAYWork Week: M - FCompany ProfileHouston Methodist West Hospital is committed to leading
+                  medicine in West ... </p>
+              </li>
+            </ul>
+          </div>
+          <!--||{% endcomment %}||-->
+
+          <!--||{% block recent %}{% endblock recent %}||-->
+
+          <!--||{% comment %}||-->
+          <div id="recent-jobs">
+            <div id="recent-job-header-sub">Recent Jobs</div>
+            <ul>
+              <li>
+                <a href="/job/research-assistant-ii-academic-institute-houston-methodist-ac-15-20759/">Research Assistant II</a>
+                <div class="location">Houston Methodist Academic Institute </div>
+              </li>
+              <li>
+                <a href="/job/research-assistant-ii-academic-institute-houston-methodist-ac-15-20759/">Research Assistant II</a>
+                <div class="location">Houston Methodist Academic Institute </div>
+              </li>
+              <li>
+                <a href="/job/research-assistant-ii-academic-institute-houston-methodist-ac-15-20759/">Research Assistant II</a>  
+                <div class="location">Houston Methodist Academic Institute </div>
+              </li>
+            </ul>
+          </div>
+          <!--||{% endcomment %}||-->
+          
+          <!--||{% block social %}||-->
+          <div id="facebook-holder">
+            <div class="facebook-holder-top">
+              <a href="" class="facebook-header">Follow Us On Facebook <svg>
+                  <use xlink:href="files/svg/icons.svg#facebook"></use>
+                </svg></a>
+            </div>
+            <div id="facebook-holder-btm">
+              <div class="fb-page" data-href="https://www.facebook.com/houstonmethodist/?fref=nf" data-tabs="timeline"
+                data-width="400" data-height="440" data-small-header="true" data-adapt-container-width="true"
+                data-hide-cover="false" data-show-facepile="false">
+                <blockquote cite="https://www.facebook.com/houstonmethodist/?fref=nf" class="fb-xfbml-parse-ignore"><a
+                    href="https://www.facebook.com/houstonmethodist/?fref=nf">Houston Methodist</a></blockquote>
+              </div>
+              <div id="fb-root"></div>
+              <script>
+                (function (d, s, id) {
+                  var js, fjs = d.getElementsByTagName(s)[0];
+                  if (d.getElementById(id)) return;
+                  js = d.createElement(s);
+                  js.id = id;
+                  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+                  fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+              </script>
+            </div>
+          </div>
+          <!--||{% endblock social %}||-->
+         
+          <!--<a href="https://www.glassdoor.com/Overview/Working-at-Houston-Methodist-EI_IE4460.11,28.htm" class="glassdoor">
+            <img alt="Follow us on Glassdoor." src="https://www.glassdoor.com/pc-app/static/img/partnerCenter/badges/eng_FOLLOW_US_270x90.png">
+          </a>-->
+          
+
+        </div>
+        <!--||{% endblock side-bar %}||-->
+
+        <!--||{% endblock full-width %}||-->
+
+      </div>
+    </div>
+  </div>
+  <section class="blog-section">
+
+    <!--||{# block blog_banner #}||-->
+    <!--||{% comment %}||-->
+    <!-- <div class="blog-section-header">
+      <a href="/blog/" target="_blank">
+        <div class="blog-section-inside">
+          <span class="daily-dose-intro">Check Out - </span>
+          <span class="daily-dose-title">The Daily Dose</span>
+          <img src="files/images/global/daily-dose-pill.png" width="487" height="98" alt="" class="scalable" />
+          <span class="daily-dose-descriptor">News from the Houston Methodist Community</span>
+          <span class="sr-only"> (opens in a new window)</span>
+        </div>
+      </a>
+    </div> -->
+    <!--||{% endcomment %}||-->
+    <!--||{# endblock blog_banner #}||-->
+
+    <div class="blog-section-header">
+      <div class="wrap">
+        <a href="/blog/">
+          <h5>
+            <small>Check out</small>
+            The Daily Dose
+          </h5>
+          <div>
+            News from the<br> Houston Methodist Community
+          </div>
+        </a>
+      </div>
+    </div>
+
+  <!--||{% block articles %}||-->
+  <div class="daily-dose-content-wrapper">
+      {% load blog_tags %}
+      {% articles_by_category category_id=category.id %}
+      <p class="daily-dose-link2"><a href="{% url "blog_home" %}">VISIT <span class="bold">THE DAILY DOSE HOMEPAGE</span> FOR MORE ARTICLES &gt;&gt;</a></p>
+  </div>
+  <!--||{% endblock articles %}||-->
+
+  <!--||{% comment %}||-->
+    <div class="daily-dose-content-wrapper">
+      <article>
+        <div class="blog-article-heading">
+          <a href="/blog/article/112/">Houston Methodist Included On List Of Best Places To Work In 2022</a>
+        </div>
+        <div class="blog-article-body">
+
+          Houston Methodist Named a Best Place to Work in 2022.
+          Through voluntary and anonymous feedback shared on Glassdoor, Houston Methodist is proud to announce our
+          inclusion on their list of the Best Places to Work in 2022.
+          The feedback provided by our employees aligns with our I CARE values …
+        </div>
+      </article>
+
+      <article>
+        <div class="blog-article-heading">
+          <a href="/blog/article/111/">Houston Methodist Named Best Employer</a>
+        </div>
+        <div class="blog-article-body">
+          Houston Methodist is excited to announce that Forbes and Statista have again named us a Top Employer in Texas.
+          This is their third annual list highlighting noteworthy employers based on surveys from 80,000 Americans
+          working for businesses with at least 500 employees.
+          We at Houston Methodist are honored being featured …
+        </div>
+      </article>
+
+      <article>
+        <div class="blog-article-heading">
+          <a href="/blog/article/110/">Houston Methodist Hospital Named a ‘World’s Best Smart Hospital’</a>
+        </div>
+        <div class="blog-article-body">
+          Houston Methodist is proud to announce that Houston Methodist Hospital is named a ‘World’s Best Smart Hospital
+          2021’. Newsweek and Statista partnered to develop a list of hospitals deemed best for integrating new
+          technologies and data-driven opportunities as part of their delivery of health care.
+          At Houston Methodist, we strive …
+        </div>
+      </article>
+    </div>
+  <!--||{% endcomment %}||-->
+
+</section>
+
+  <div class="footer-awards">
+    <div class="inner">
+      <div class="awards-copy">
+           Award-Winning Workplace,
+           <strong>Powered by Exceptional People.</strong>
+       </div>
+      <img src="files/images/awards/awards.png"
+        alt="Magnet Recongized, Joint Commmission National Quality Approval, Forbes 2021 Best-In-State Employer, Indeed 2019, Glassdoor 2022, U.S. News Best Hospital"
+        class="scalable" width="635" height="322" />
+    </div>
+  </div>
+  
+  <!--||{% include 'files/static-includes/footer.html' %}||-->
+
+  <!--||{% block js %}{% endblock %}||-->
+  
+  <script>
+    jQuery(function($){
+      $('#id_zipcode').attr('aria-label', 'Search Jobs by Zipcode (enter zipcode)');
+      $('#search_term').attr('aria-label', 'Search Jobs by Keyword');
+      $('.search-button').attr('value', 'Submit Search Jobs by Keyword');
+      $('#id_radius').attr('aria-label', 'Zipcode Radius');
+    });
+  </script>
+</body>
+
+</html>

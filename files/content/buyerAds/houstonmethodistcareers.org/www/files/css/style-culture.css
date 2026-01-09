@@ -1,0 +1,447 @@
+/*------ Culture and Engagement page ------*/
+/*- Banner -*/
+.interior-banner .interior-banner-img.cult-engage-pg {
+  display: block;
+  width: 100%;
+  background-image: url("../images/redesign/sub/culture/culture-banner-desktop.jpg");
+  padding-top: 7%;
+  padding-bottom: 7%;
+  background-size: cover;
+  background-position: center left;
+  border-bottom: 5px solid #749ABA;
+}
+.interior-banner .inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.interior-banner .banner-copy {
+  width: 35%;
+  text-transform: uppercase;
+  text-align: left;
+  color: #0e4c7f;
+  padding: 20px 0;
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}*/
+.interior-banner .banner-text-bold {
+  font-size: 4em;
+  line-height: 1em;
+  font-weight: 700;
+  padding-top: 5px;
+}
+.interior-banner .banner-text {
+  width: 100%;
+  font-size: 2.6em;
+  font-weight: 300;
+  line-height: 1.2em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-shadow: 0 0 15px #ecebe9;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+/*- Culture and Engagement Mission -*/
+.mission-container {
+  background-color: #1e325a;
+}
+.mission-container .inner {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+.mission-container .copy {
+  width: 50%;
+  color: #ffffff;
+  padding: 0 50px;
+}
+.mission-container .copy h2 {
+  font-size: 2em;
+  line-height: 1.2em;
+  font-weight: 700;
+  text-align: center;
+}
+.mission-container .copy p {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 300;
+  padding-bottom: 1em;
+}
+.mission-container .photo {
+  width: 50%;
+  background-image: url("../images/redesign/sub/culture/mission.jpg");
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 22%;
+}
+/*- Monthly Cultural Observances -*/
+.cultural-container {
+  /*background-image: linear-gradient(90deg, #507491 0%, #345168 100%);*/
+  background-color: #ab0032; /* #ab0032(mulberryred); #749ABB; #625E5E(grey); #69813A; #e24301; #dde0e5; #345168; #007078; #625E5E(grey); */
+}
+.cultural-container .photo {
+  width: 100%; /* 50%; */
+  background-image: url("../images/redesign/sub/culture/cultural-observances.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 12%;/* Edited by LZ 2-13-2024 - was 20% */
+  padding-bottom: 12%;
+  /* border: 5px solid #fff; */
+}
+.cultural-container .inner {
+  width: 100%; /* 85% */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cultural-container .copy {
+  width: 100%; /* 60% */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    padding: 40px 0;
+}
+.cultural-container .copy h2 {
+  font-size: 2em; 
+  line-height: 1.2em;
+  font-weight: 700;
+  text-align: center;
+    margin: 0 auto;
+}
+/*
+.cultural-container .copy p{
+    font-size: 1.3em;
+    line-height: 1.2em;
+    padding: 0 50px;
+    text-align: center;
+}
+*/
+.cultural-container .copy ul{
+    padding-left: 0;
+}
+.cultural-container .copy ul li {
+  font-size: 1.3em;/* 1.8em */
+  line-height: 1em;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.cultural-container p{
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+.cultural-container a{
+  font-size: 1.2em;
+  line-height: 1em;
+  font-weight: 600;
+  padding-bottom: 10px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+/*- Quote -*/
+.quote-container {
+  background-color: #ffffff;
+}
+.quote-container .inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch; /* Edited by LZ 2-11-2025 - was center */
+  padding: 0;
+}
+.quote-container .quote-inner-left, .quote-container .quote-inner-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 48%;
+}
+.quote-container .quote-inner-left .photo, .quote-container .quote-inner-right .photo {
+  width: 40%;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 50%;
+}
+.quote-container .inner .copy {
+  width: 55%;
+  padding: 20px 0; /* Edited by LZ 2-11-2025 - was 30px 0;*/
+}
+.quote-container .inner .copy h3 {
+  color: #982036;
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+.quote-container .inner .copy p {
+  font-size: 1.1em;
+  line-height: 1.2em;
+}
+.quote-container .inner .vl {
+  border-left: 2px solid #982036;
+  height: 360px; /* Edited by LZ 2-11-2025 - was 300px */
+  vertical-align: middle;
+	align-self: center; /* Added by LZ 02-11-2025 */
+}
+.quote-container .inner .photo.ceo {
+  background-image: url("../images/redesign/sub/culture/Marc-Boom.jpg");
+}
+.quote-container .inner .photo.vp {
+  background-image: url("../images/redesign/sub/culture/Arianne-Dowdell.jpg");
+}
+/*- ERGs -*/
+.erg-container {
+  width: 100%;
+  background-image: url("../images/redesign/sub/culture/erg-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 5px solid #ab0032;
+  border-bottom: 5px solid #ab0032;
+  color: #1e325a;
+}
+.erg-container .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 0;
+}
+.erg-container .copy {
+  width: 40%; /* Edited by LZ 8-19-2025 - was 30% */
+  background-color: #ffffff;
+  opacity: .8;
+  margin-left: 5%;
+  padding: 0 30px;
+}
+.erg-container .copy h2 {
+  font-size: 2em;
+  line-height: 1.2em;
+  font-weight: 700;
+}
+.erg-container .copy p {
+  font-size: 1.1em;
+  line-height: 1.2em;
+  font-weight: 600;
+  padding-bottom: 1em;
+}
+.erg-container .inner .logos {
+  width: 70%;
+  padding: 20px;
+}
+.erg-container .inner .logos ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+.erg-container .inner .logos ul li {
+  width: 26%; /* Edited by LZ 8-19-2025 - was 22% */
+  margin: 0 10px;
+  padding: 10px 0;
+  transition: all .3s ease-in-out;
+}
+.erg-container .inner .logos ul li:hover {
+  transform: scale(1.15);
+}
+.erg-container .inner .logos ul li:hover {
+  transform: scale(1.15);
+}
+.erg-container .inner .logos ul li:hover .erg-btn a {
+  color: #D8D3D3;
+}
+.erg-container .inner .logos ul li .erg-btn {
+  /*background-color: #ab0032;*/
+}
+.erg-container .inner .logos ul li .erg-btn a {
+  color: #ffffff;
+  background-color: #ab0032;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 2px 30px 5px;
+}
+/*- Culture & Engegement Training -*/
+.training-container {
+  width: 100%;
+}
+.training-container .inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 0;
+  background-color: #ffffff;
+}
+.training-container .copy {
+  width: 60%;
+  color: #ffffff;
+  padding: 0 30px 30px 30px;
+  text-align: center;
+  background-color: #507491;
+}
+.training-container .copy h2 {
+  font-size: 2em;
+  line-height: 1.2em;
+  font-weight: 700;
+  text-align: center;
+}
+.training-container .copy p {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 300;
+  padding-bottom: 1em;
+}
+.training-container .photo {
+  width: 40%;
+  background-image: url("../images/redesign/sub/culture/training.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.training-container .btn.cult-engage-training a {
+  width: 100%;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  padding: 10px 20px;
+}
+/*- Summer Scholarshop Program -*/
+.program-container {
+  width: 100%;
+}
+.program-container .inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 0;
+  background-color: #ffffff;
+}
+.program-container .copy {
+  width: 60%;
+  color: #3f3f3f;
+  padding: 0 30px 30px 30px;
+  text-align: center;
+}
+.program-container .copy h2 {
+  font-size: 2em;
+  line-height: 1.2em;
+  font-weight: 700;
+  text-align: center;
+}
+.program-container .copy p {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 300;
+  padding-bottom: 1em;
+}
+.program-container .photo {
+  width: 40%;
+  background-image: url("../images/redesign/sub/culture/program.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.training-container .btn, .program-container .btn {
+  padding: 0;
+  font-size: unset;
+}
+.training-container .btn.cult-engage-training a, .program-container .btn.cult-engage-program a {
+  display: inline-block;
+  position: relative;
+  padding: 10px 30px;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  letter-spacing: .05em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #1e325a;
+  border: 1px solid #1e325a;
+  vertical-align: middle;
+  transform: translateY(0);
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.training-container .btn.cult-engage-training a:hover, .program-container .btn.cult-engage-program a:hover {
+  color: #003b4c;
+  background-color: #fff;
+}
+.training-container .btn.cult-engage-training a::before, .program-container .btn.cult-engage-program a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #fff;
+  transform: scaleY(0);
+  transform-origin: 0% 100%;
+  -webkit-transition: transform .2s ease-in-out;
+  -moz-transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+}
+.training-container .btn.cult-engage-training a:hover::before, .program-container .btn.cult-engage-program a:hover::before {
+  transform: scaleY(1);
+}
+table.cult-engage{
+    margin-left: 30px;
+}
+table.cult-engage tr td{
+    padding: 2px 5px;
+}

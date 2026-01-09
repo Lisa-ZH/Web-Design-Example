@@ -1,0 +1,2910 @@
+@media only screen and (min-width: 1735px) {
+	.table-image-spacer {
+		padding-bottom: 575px;
+	}
+	.main-event-row .table-image-spacer {
+	    padding-bottom: 450px;
+	}
+	.front-box-copy {
+		font-size: 1.05em;
+	}
+}
+
+@media only screen and (max-width: 1700px) {
+	.table-header {
+		font-size: 2.1em;
+	}
+	h1 {
+		font-size: 2.1em;
+		margin-bottom: .7em;
+	}
+	.heading3 {
+		font-size: 2.1em;
+		margin-bottom: .7em;
+	}
+	.her-banner-text {
+		font-size: 3vw;
+		line-height: 1em;
+	}
+	.main-event-row .title {
+		font-size: 2.8vw;
+		line-height: 1em;
+	}
+	.main-event-row p {
+		font-size: 1.8vw;
+		line-height: 1em;
+	}
+}
+
+@media only screen and (max-width: 1600px) {
+	.feature-box-heading {
+    	font-size: 2.4vw;
+	}
+	.lgbtq-banner .title {
+		font-size: 1.75vw;
+		line-height: 1em;
+	}
+}
+
+@media only screen and (max-width: 1500px) {
+	.section {
+		margin: 2em auto 2em auto;
+	}
+	.small-column {
+		width: 42%;
+	}
+	.copy-container {
+		width: 78%;
+		margin: 0px 10% 0px 10%;
+		max-width: none;
+	}
+	.table-header {
+		font-size: 2.4vw;
+	}
+	h1 {
+		margin-top: 0px !important;
+		font-size: 2.4vw;
+		margin-bottom: .5em;
+	}
+	.talent-header {
+		margin-top: 0px !important;
+		font-size: 2vw;
+		margin-bottom: .5em;
+	}
+	.heading3 {
+		margin-top: 0px !important;
+		font-size: 2.4vw;
+		margin-bottom: .5em;
+	}
+	.topSearchArea {
+		margin-top: 8px;
+	}
+	.corporate-job-copy .table-text {
+		font-size: 1.2vw;
+	}
+	.table-text {
+		font-size: 1.1vw;
+	}
+	.feature-box-heading {
+    	font-size: 2.6vw;
+    	min-height: 2.2em;
+	}
+	.learn-more a {
+		font-size:1.25vw;
+    	margin-top: 1em;
+    }
+	.loose-body-copy {
+		font-size: 1.3em;
+		margin: 1.75em auto 2.25em auto;
+	}
+	.summer-intern-info {
+		line-height: 1.4em;
+		letter-spacing: -.01em !important;
+	}
+	.job-copy-sub br {
+		display: inline-block;
+	}
+	.job-copy-sub2 br {
+		display: inline-block;
+	}
+	.affinity-logo-column {
+		width: 20%;
+		padding-bottom: 20%;
+	}
+	.affinity-description {
+		width: 80%;
+	}
+	.cs-sub-section2 ul {
+		width: 85%;
+	}
+	.feature-box-text {
+		height: 4em;
+	}
+	.dynamic-bannerArea {
+		margin: 21px auto 0px auto;
+    	padding: 0px 0px 42%;
+	}
+	.dynamic-bannerArea .slide .inner {
+		width: 85%;
+		max-width: 1110px;
+		top: 57%;
+		left: 50%;
+	}
+	.dynamic-bannerArea h1 {
+    	font-size: 2.8vw;
+    	line-height: 1em !important;
+    	margin: 0px 0px .25em;
+		padding: 0px;
+		width: 55%;
+	}
+	.dynamic-bannerArea span {
+    	font-size: 1.1em;
+    	line-height: 1.35em;
+		margin-bottom: 1.15em;
+	}
+	.dynamic-bannerArea .slide a {
+    	font-size: 1em;
+    	line-height: 1.35em;
+		margin: 0px 0px 0px -3px !important;
+		padding: 5px 20px 0px 3px;
+	}
+	.dynamic-bannerArea .slide a::after {
+	    content: "  \➞";
+	    font-size: 1.2em;
+		margin-left: .5em;
+	}
+	.dynamic-bannerArea .slide a:hover::after, .dynamic-bannerArea .slide 	a:focus::after, .dynamic-bannerArea .slide a:active::after {
+		margin-left: 1em;
+	}
+	#new-carousel .slidenav {
+		bottom: 21px;
+		right: 21px;
+	}
+	#new-carousel .slidenav li {
+		margin: 0px 0px 0px 5px;
+		width: 15px;
+		padding-bottom: 15px;
+	}
+	#new-carousel .slidenav li button {
+		font-size: 10px;
+		line-height: 10px;
+	}
+	#new-carousel .controls {
+		bottom: 21px;
+		right: auto;
+		left: 21px;
+	}
+	#new-carousel button img {
+		width: 10px;
+		height: 10px;
+	}
+}
+
+@media only screen and (max-width: 1300px) {
+	.featured-job {
+		height: 570px;
+	}
+	.featured-job2 {
+		height: 440px;
+	}
+	.featured-job3 {
+		height: 490px;
+	}
+	.opportunities-heading {
+		font-size: 2.3em;
+		width: 90%;
+		margin: 0px auto 30px auto;
+	}
+	.content-row1-col1-text {
+		font-size: 1em;
+	}
+	.content-row1-top-heading {
+		font-size: 2.4em;
+		margin: 30px auto 13px auto;
+	}
+	.content-row2-left-text {
+    	width: 90%;
+    	font-size: 1em;
+	}
+	.subpage-body {
+		padding: 40px 0px 50px 0px;
+		/* -- margin-top: 10px; -- */
+	}
+	.summer-intern-info {
+		font-size: 1.2em !important;
+		line-height: 1.4em;
+		letter-spacing: -.01em !important;
+	}
+	.affinity-description-copy {
+		width: 96%;
+		font-size: 1.2em;
+		line-height: 1.4em
+	}
+	.featured-job-front {
+	    width: 43% !important;
+		margin: 0px .95% 30px .95%;
+		display: inline-block;
+		position: relative;
+	}
+	.cs-sub-section2 ul {
+		width: 95%;
+		margin: 10px auto 0px auto;
+	}
+	.view-all-digital {
+		margin-top: .45em;
+		font-size: 1.65vw !important;
+	}
+	.view-all-digital a:after {
+	    font-size: 1.3em;
+		margin-left: 9px;
+	}
+	.loose-copy-heading {
+		font-size: 3.4vw;
+		line-height: 1.15em;
+		margin: 1.1em auto .85em auto;
+	}
+	.feature-box-text {
+		height: 5em;
+		font-size: 1.2em !important;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.searchKeyBox input {
+		width: 100%
+	}
+	.searchKeyBoxfield {
+		width: 50%;
+	}
+	.job-copy-sub br {
+		display: none;
+	}
+	.zip-col1 {
+		margin-right: 0px;
+	}
+	.zip-col1 input {
+		width: 75px;
+	}
+	.zip-col2 {
+		width: 50px;
+	}
+	select.searchZip {
+		padding: 10px 0px 8px 10px;
+	}
+	.event-title {
+		font-size: 1.8em;
+		line-height: 1em;
+		margin-bottom: 20px;
+	}
+	.large-bold-event-title {
+		font-size: 1.4em;
+		line-height: 1.3em;
+		font-weight: 500;
+	}
+	.event-note-1 {
+		font-size: 1.3em;
+		line-height: 1.2em;
+		font-weight: 500;
+		margin-bottom: 30px;
+		margin-top: 15px;
+	}
+	.event-date-and-time {
+		font-size: 1em;
+		line-height: 1.2em;
+		margin-bottom: 5px;
+	}
+	.event-location {
+		font-size: 1em;
+		line-height: 1.2em;
+		margin-bottom: 5px;
+	}
+	.event-note-2 {
+		font-size: 1.1em;
+		line-height: 1.3em;
+		font-weight: 400;
+		margin-bottom: 10px;
+		margin-top: 30px;
+	}
+	.jobs-btn-holder-top a {
+		padding: 10px 29px;
+		font-size: .9em !important;
+	}
+	.feature-box-heading {
+    	font-size: 2.2vw;
+    	min-height: 2.2em;
+	}
+	.learn-more a {
+		font-size:1.25vw;
+    	margin-top: 1em;
+    }
+	.follow-linkedin-right {
+		top: 420px;
+	}
+	.front-box-copy .feature-box-text {
+		font-size: 1.1em;
+		line-height: 1.45em;
+		min-height: 4em;
+		height: auto;
+	}
+	.front-box-copy .learn-more a {
+		font-size: 1.3em;
+	}
+
+}
+@media only screen and (max-width: 1100px) {
+	.heading-mid, .heading-right {
+	    display: none;
+	}
+	.hamburger {
+		display: inline-block !important;
+	}
+	.somlast {
+		padding-bottom: 24px;
+	}
+	.student-video-container {
+		width: 80%;
+		margin: 0px auto 40px auto;
+	}
+	.dynamic-job-title {
+		font-size: .95em;
+		line-height: 1em;
+	}
+	.affinity-description-copy {
+		width: 95%;
+		font-size: 1.1em;
+		line-height: 1.4em
+	}
+	.follow-linkedin-right {
+		top: 405px;
+	}		
+	header {
+		height: 58px;
+	}
+	.heading-left {
+		width: 110px;
+	}
+}
+@media only screen and (max-width: 1050px) {
+	.quality-quote br {
+		display: none;
+	}
+	.quality-quote {
+		font-size: 1.8em;
+		line-height: 1.1em;
+		margin-top: 20px;
+	}
+	.benefits-box {
+		width: 28%;
+		margin: 0px 2% 40px 2%
+	}
+	.benefits-box-top {
+		width: 50%;
+		margin: 0px auto 0px auto;
+	}
+	.benefits-box-btm {
+		font-size: 1.2em;
+		line-height: 1.2em;
+		margin-top: 5px;
+	}
+	.benefits-box a .benefit-description {
+    	width: 110%;
+		min-height: 180px;
+	}
+	.job-copy {
+		font-size: 1.2em;
+		margin-top: 10px;
+	}
+	.job-copy-sub {
+		font-size: .9em;
+	}
+	.job-copy-sub2 {
+		font-size: .9em;
+	}
+	.job-copy-sub3 {
+		font-size: .9em;
+	}
+	.view-all {
+		font-size: .9em !important;
+		margin-top: 0px;
+	}
+	.summer-intern-info {
+		font-size: 1em !important;
+		line-height: 1.3em;
+		letter-spacing: -.01em !important;
+		width: 100%;
+	}
+	.job-copy-sub br {
+		display: inline-block;
+	}
+	.accordion-section-title {
+		background-image: url(../images/global/down-arrow.jpg);
+		background-repeat: no-repeat;
+		background-position: 95% center;
+		background-color: #ffffff;
+		background-size: auto 20%;
+	}
+	.her-banner {
+		width: 89%;
+	}
+	.purple-gradient {
+		width: 40%;
+		margin-top: .5em;
+	}
+  .main-event-banner {
+		width: 85%;
+		margin: 0px auto 15px;
+		padding: 5% 5% 5%;
+/*    background-image: url("../images/global/event-background.jpg");*/
+	}
+  .main-event-banner .inner {
+      width: 90%;
+    transform: none;
+    margin: 0px;
+    position: static;
+    text-align: left;
+}
+  .main-event-row .title {
+		font-size: 5.3vw;
+		line-height: 1em;
+		letter-spacing: -.03em;
+		width: 100%;
+		margin-top: .5em;
+	}
+	.main-event-row p {
+		font-size: 3vw;
+		line-height: 1em;
+		letter-spacing: -.03em;
+		margin-top: .5em;
+	}
+  #banner-01 {
+    border-right: none !important;
+   border-bottom: 20px solid #000000
+}
+  #banner-02 {
+    border-left: none !important;
+}
+.two-banners-row .cell {
+    width: 100% !important;
+}
+  .two-banners-row .title{
+	  width: 90% !important;
+  margin-left: auto;
+    margin-right: auto;
+}
+.two-banners-row p {
+		  width: 90% !important;
+  margin-left: auto;
+    margin-right: auto;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+	.subpage-body {
+		padding: 20px 0px 20px 0px;
+	}
+	.job-copy-sub br {
+		display: none;
+	}
+	.white-box {
+		width: 55%;
+	}
+	#right-floating-column {
+		width: 42%;
+	}
+	.talent-row2-right {
+		width: 31%;
+		padding: 5%;
+	}
+.follow-linkedin-right {
+	top: 405px;
+	width: 31%;
+	padding: 5%;
+}
+	.heading3 {
+		line-height: 1em;
+		margin-top: -8px;
+	}
+	.table {
+		display: block;
+    }
+	.row {
+	    display: block;
+	}
+	.cell {
+		display: block;
+	}
+	.table-image-spacer {
+		display: none;
+	}
+	.small-column {
+    	width: 100%;
+		padding-top: 58.33%;
+    	background-repeat: no-repeat;
+    	background-position: top center;
+		background-size: contain;	
+	}
+  .main-event-row .small-column {
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 0;
+}
+  .main-event-row .large-column {
+    	width: 100%;
+		padding-top: 58.33%;
+    	background-repeat: no-repeat;
+    	background-position: top center;
+		background-size: contain;	
+}
+	.video-small-column {
+		padding-top: 0px;
+	}
+	.copy-container {
+		display: block;
+		padding: 2.75em 0em 2.75em 0em;
+		width: 85%;
+		margin: 0px auto 0px auto;
+	}
+	.table-header {
+		font-size: 2.4em;
+	}
+	h1 {
+		font-size: 2.1em;
+	}
+	.talent-header {
+		margin-top: 0px !important;
+		font-size: 1.9em;
+		margin-bottom: .5em;
+	}
+	.heading3 {
+		font-size: 2.1em;
+	}
+	.topSearchArea {
+		margin-top: 14px;
+	}
+	.corporate-job-copy .table-text {
+		font-size: 1.4vw;
+	}
+	.table-text {
+		font-size: 1.3em;
+		line-height: 1.4em;
+	}
+	.section {
+		margin: 2.75em auto 2.75em auto;
+	}
+
+	/*-- ---- Home Tables ---- --*/
+	.why-altice-home .small-column {
+	    background-image: url(../images/main/why-altice.jpg);
+	}
+
+	/*-- ---- Culture Tables ---- --*/
+	.culture-row-1 .small-column {
+	    background-image: url(../images/sub/Culture/Culture-Image-1.jpg);
+	}
+	.culture-row-2 .small-column {
+	    background-image: url(../images/sub/Culture/Culture-Image-2.jpg);
+	}
+	.culture-row-3 .small-column {
+	    background-image: none;
+	}
+	.culture-row-4 .small-column {
+	    background-image: url(../images/sub/Culture/Culture-Image-5.jpg);
+	}
+	.culture-row-5 .small-column {
+	    background-image: url(../images/sub/Culture/Culture-Image-6.jpg);
+	}
+	.culture-of-inclusion {
+		width: 90%;
+		margin: -1.75em auto 0px auto;
+		padding: 0em 0px 3.5em 0px
+	}
+
+ /*-- ---- Dynamic Job Tables ---- --*/
+  .dj-rsc-row-1 .small-column {
+  background-image:none;
+  padding-top: 0;
+  width: 100%;
+	}
+  .dj-rsc-row-1 .large-column {
+  display: block;
+	text-align: left;
+	width: 85%;
+	margin: 0px auto;
+	max-width: none;
+}
+  .dj-rsc-row-1 .copy-container {
+   display: block;
+    padding: 2.75em 0em 2em 0em;
+    width: 85%;
+    max-width: none;
+    margin: 0px auto;
+}
+  .dj-rsc-row-2 .small-column {
+  background-image:none;
+     padding-top: 0;
+     width: 100%;
+	}
+  .dj-rsc-row-2 .copy-container {
+	display: block;
+	text-align: left;
+	width: 85%;
+	margin: 0px auto;
+	max-width: none;
+}
+  .dj-rsc-row-2 .large-column .copy-container {
+  display: block;
+	text-align: left;
+	width: 85%;
+	margin: 0px auto;
+	max-width: none;
+}
+  .dj-rsc-row-2 .large-column {
+    margin: 0px 0 0px 0px !important;
+}
+  .dj-rsc-row-3 .small-column {
+  background-image: url(../images/sub/dynamic-job-posting/dj-rsc-image-3.jpg);
+	}
+	.dj-lasae-row-3 .small-column {
+  background-image: url("../images/sub/dynamic-job-posting/dj-lasae-image-3.jpg");
+	}
+  .dj-rsc-row-3 .copy-container, .dj-lasae-row-3 .copy-container  {
+	display: block;
+    padding: 2.75em 0em 2.75em 0em;
+    width: 85%;
+    max-width: none;
+    margin: 0px auto 0px auto;
+}
+	/*-- ---- Digital Tables ---- --*/
+	.digital-row-1 .small-column {
+	    background-image: url(../images/sub/digital/digital1.jpg);
+	}
+	.digital-row-2 .small-column {
+	    background-image: url(../images/sub/digital/digital2.jpg);
+	}
+	.digital-row-3 .small-column {
+	    background-image: url(../images/sub/digital/digital3.jpg);
+	}
+	.digital-row-4 .small-column {
+	    background-image: url(../images/sub/digital/digital4.jpg);
+	}
+	.digital-row-5 .small-column {
+	    background-image: url(../images/sub/digital/digital5.jpg);
+	}
+
+	/*-- ---- Corporate Tables ---- --*/
+	.corporate-row-1 .small-column {
+	    background-image: url(../images/sub/digital/digital3.jpg);
+	}
+	.corporate-row-2 .small-column {
+	    background-image: url(../images/sub/digital/digital3.jpg);
+	}
+	.corporate-row-3 .small-column {
+	    background-image: url(../images/sub/corporate/corporate3.jpg);
+	}
+	.corporate-row-4 .small-column {
+	    background-image: url(../images/sub/corporate/corporate4.jpg);
+	}
+	.corporate-row-5 .small-column {
+	    background-image: url(../images/sub/corporate/corporate5.jpg);
+	}
+	.corporate-row-6 .small-column {
+	    background-image: url(../images/sub/corporate/corporate6.jpg);
+	}
+	.corporate-row-7 .small-column {
+	    background-image: url(../images/sub/digital/digital3.jpg);
+	}
+	.corporate-row-8 .small-column {
+	    background-image: url(../images/sub/corporate/corporate8.jpg);
+	}
+
+	/*-- ---- Sales Tables ---- --*/
+	.sales-row-1 .small-column {
+	    background-image: url(../images/sub/B2B/B2B-Customer-Service.jpg);
+	}
+	.sales-row-2 .small-column {
+	    background-image: url(../images/sub/B2B/B2B-Sales.jpg);
+	}
+	
+	/*-- ---- Media Tables ---- --*/
+	.media-row-1 .small-column {
+	    background-image: url(../images/sub/media/media1.jpg);
+	}
+	.media-row-2 .small-column {
+	    background-image: url(../images/sub/media/media2.jpg);
+	}
+
+	/*-- ---- Media Tables ---- --*/
+	.marketing-row-1 .small-column {
+	    background-image: url(../images/sub/marketing/marketing-video-placeholder.jpg);
+	}
+
+	/*-- ---- Customer Services Tables ---- --*/
+	.customer-service-row-1 .small-column {
+	    background-image: url(../images/sub/customer-service/customer-service-1.jpg);
+	}
+
+	/*-- ---- Customer Services Tables ---- --*/
+	.students-row-1 .small-column {
+	    background-image: url("../images/global/main-event-background.jpg");
+	}
+
+  /*-- ---- Main Event Tables ---- --*/
+	.main-event-row-1 .small-column {
+	    background-image: url("../images/global/main-event-background.jpg");
+	}
+
+	/*-- ---- General Jobs Tables ---- --*/
+	.general-jobs .small-column {
+	    background-image: url(../images/sub/general-jobs-1.jpg);
+	}
+
+	/*-- ---- Sales Feature Boxes ---- --*/
+	.feature-boxes {
+		width: 100%;
+	}
+	.feature-box {
+		width: 90%;
+		max-width: 800px;
+		margin: 0px auto 2em auto;
+	}
+	.feature-box-heading {
+    	font-size: 5.6vw;
+		min-height: 0px;
+		margin-bottom: .5em;
+	}
+	.learn-more {
+	    width: 100%;
+	    margin-bottom: .75em;
+	}
+	.learn-more .gradient-rule {
+	    max-width: 600px;
+	}
+	.learn-more a {
+		font-size: 3vw;
+	    margin-top: 1.2em;
+    }
+	.learn-more a:after {
+	    font-size: 1.2em;
+	}
+	
+
+	.home-page-boxes {
+		margin: 10px auto;
+		width: 90%;
+		text-align: left;
+	}
+	.home-page-boxes:first-child {
+		margin: 10px auto;
+	}
+	.home-box-image {
+		width: 50%;
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: -6px;
+	}
+	.front-box-copy {
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0px;
+		font-size: 2vw;
+		width: 39%;
+		padding: 5%
+	}
+	.front-box-copy .feature-box-heading {
+    	margin: 0px 0px .15em -3px;
+		letter-spacing: -.02em !important;
+    	font-size: 3.8vw;
+    	line-height: 1em;
+		min-height: 0px;
+	}
+	.front-box-copy .feature-box-text {
+		font-size: 2vw;
+		line-height: 1.2em;
+		min-height: 2.5em;
+	}
+	.front-box-copy .gradient-rule {
+		display: block;
+		width: 100%;
+	    margin: .5em 0em 0em;
+	}
+	.front-box-copy .learn-more {
+	    width: 100%;
+		margin: 0px;
+	}
+	.front-box-copy .learn-more a {
+		font-size: 1em;
+		margin: .5em 0px 0px 0px;
+	}
+
+	.view-all-digital {
+		font-size: 1em !important;
+		font-weight: 600;
+		letter-spacing: .02em;
+	}
+	.view-all-digital a:after {
+	    content: "  \➞";
+	    font-size: 1.3em;
+		margin-left: 7px;
+	}
+	.view-all-digital a:hover:after {
+		margin-left: 12px;
+	}
+	.featured-job-front {
+	    width: 90% !important;
+		height: auto;
+		margin: 0px auto 30px auto;
+	}
+	.feature-box-text {
+		font-size: 3vw;
+		margin-bottom: .75em
+	}
+	.list-table .vertical-copy {
+		display: none;
+	}
+	.list-table {
+		text-align: center;
+	}
+	.list-table li {
+		margin: 2em auto 2em auto;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.bannerArea {
+	    width: 100%;
+		max-width: 1600px;
+	    position: relative;
+		  margin: 80px auto 0px auto;
+	    background-repeat: no-repeat;
+	    background-position: center top;
+	    background-size: contain;
+	    padding-bottom: 70%;
+	}
+	.dynamic-bannerArea {
+		margin: 80px auto 0px auto;
+	    padding-bottom: 48%;
+	}
+	.bannerArea-dynamicjob {
+	    width: 100%;
+		  max-width: 1600px;
+	    position: relative;
+		  margin: 80px auto 0px auto;
+	    background-repeat: no-repeat;
+	    background-position: center top;
+	    background-size: contain;
+	    padding-bottom: 70%;
+	}
+	.dj-rsc {
+   		background-image: url("../images/sub/dynamic-job-posting/mobile/dynamic-banner-RSC-mobile.jpg");
+	}
+   .dj-rdsae {
+   		background-image: url("../images/sub/dynamic-job-posting/mobile/dynamic-banner-RDSAE-mobile.jpg");
+	}
+	.dj-lasae {
+   		background-image: url("../images/sub/dynamic-job-posting/mobile/dynamic-banner-LASAE-mobile.jpg");
+	}
+	.home {
+   		background-image: url(../images/main/mobile/mobile-top-banner.jpg);
+		background-size: cover;
+		background-position: bottom center;
+	}
+	.b2b {
+   		background-image: url(../images/sub/B2B/mobile/B2B-header-image-mobile-3.jpg);
+	}
+	.culture {
+	    background-image: url(../images/sub/Culture/mobile/Culture-banner-image-mobile.jpg);
+	}
+	.events {
+	    background-image: url(../images/sub/events/mobile/events-banner-image-mobile.jpg);
+	}
+	.affinity {
+	    background-image: url(../images/sub/Culture/mobile/affinity-mobile.jpg);
+	}
+	.benefits {
+	    background-image: url(../images/sub/benefits/mobile/Benefits-banner-image-mobile.jpg);
+	}
+	.inteligis {
+	    background-image: url(../images/sub/Inteligis/mobile/Inteligis-banner-image-mobile.jpg);
+	}
+	.marketing {
+	    background-image: url(../images/sub/marketing/mobile/marketing-banner-image-mobile.jpg);
+	}
+	.media {
+	    background-image: url(../images/sub/media/mobile/mobile-banner-image-mobile.jpg);
+	}
+	.cs {
+	    background-image: url(../images/sub/customer-service/mobile/cs-banner-mobile.jpg);
+	}
+	.corporate {
+	    background-image: url(../images/sub/corporate/mobile/corporate-header-mobile.jpg);
+	}
+	.campus {
+	    background-image: url(../images/sub/CampusRecruiting/mobile/CR-banner-image-mobile.jpg);
+	}
+	.search {
+		padding-bottom: 70% !important;
+		background-image: url(../images/sub/search-pages/mobile/Search-banner-mobile.jpg);
+		background-size: cover !important;
+		background-position: right top;
+	}
+	.search2 .bannerArea-inside {
+		top: 70%;
+	}
+	.search2 {
+		padding-bottom: 70% !important;
+		background-image: url(../images/sub/search-pages/mobile/Search-banner-mobile2.jpg);
+		background-size: cover !important;
+		background-position: right top;
+	}
+	.search .bannerArea-inside {
+		top: 70%;
+	}
+	.home .bannerArea-inside {
+		top: 8%;
+	    width: 85%;
+	}
+	.home .bannerArea-text {
+		width: 75%;
+	}
+	.bannerArea-inside {
+		top: 42%;
+	    width: 85%;
+	}
+	.bannerArea-heading {
+		font-size: 5.6vw;
+		width: 80%;
+	}
+	.bannerArea-text {
+		font-size: 2.3vw;
+		width: 85%;
+	}
+	.bannerArea-dynamicjob-inside {
+		top: 42%;
+	    width: 85%;
+	}
+	.dynamic-bannerArea .inside {
+	    width: 85%;
+	}
+	.dynamic-bannerArea .slide .inner {
+		top: 45%;
+		transform: translate(-50%, -40%);
+	    width: 85%;
+	}
+	.dynamic-bannerArea h1 {
+		font-size: 3.8vw;
+	}
+	.dynamic-bannerArea span {
+		font-size: 2vw;
+		width: 50%;
+	}
+	.dynamic-bannerArea .slide a {
+		font-size: 1.8vw;
+		font-weight: 600;
+	}
+	.learn-more-2 a {
+		font-size: 2.1vw;
+	}
+	.content-row1 br {
+	    display: none;
+	}
+	.benefits-box {
+		width: 28%;
+		margin: 0px 2% 40px 2%
+	}
+	.benefits-box-top {
+		width: 60%;
+		margin: 0px auto 0px auto;
+	}
+	.benefits-box-btm {
+		font-size: 1.1em;
+		line-height: 1.2em;
+		margin-top: 5px;
+	}
+	
+	.description-header {
+	    font-size: 1.1em;
+		line-height: 1.1em;
+	}
+	.description-text {
+	    font-size: .9em;
+		line-height: 1.3em;
+	}
+	
+	.job-container {
+		width: 45%;
+		margin: 0px 2% 40px 2%;
+	}
+	.summer-intern-info {
+		font-size: 1.2em !important;
+		line-height: 1.5em;
+		letter-spacing: -.01em !important;
+		width: 100%;
+	}
+	.video-area-inner-campus {
+		background: url(../images/sub/CampusRecruiting/CR-video-image.jpg);
+	    background-repeat: no-repeat;
+	    background-position: left top;
+		background-size: cover;
+		width: 100%;
+		margin: 10px auto 0px auto;
+		text-align: center;
+		padding-top: 35%;
+		padding-bottom: 5%;
+	}
+	.youtube-video-icon {
+		width: 65px;
+		height: 46px;
+		margin-right: 10px;
+	    background-image: url(../images/sub/CampusRecruiting/youtube-video-logo.png);
+	    background-repeat: no-repeat;
+	    background-position: left top;
+		background-size: cover;
+	}
+	.youtube-video-link {
+		font-size: 1.4em;
+		padding-bottom: 5px;
+	}
+	.job-copy-sub2 br {
+		display: none;
+	}
+	.job-copy-sub3 br {
+		display: inline-block;
+	}
+	.white-box {
+		width: 100%;
+		margin-top: 30px;
+	}
+	#right-floating-column {
+		width: 100%;
+	}
+	.talent-row2-right {
+		position: relative;
+		width: 92%;
+		padding: 4%;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.talent-row2-right img {
+		width: 33%;
+	}
+	.talent-row2-right-top p {
+		margin-top: 10px !important;
+		margin-bottom: 0px !important;
+		padding: 0px !important;
+		
+	}
+	.SearchArea2 {
+		padding: 3% 5% 0px 5%;
+	}
+	.talent-network-search-bottom {
+		display: block;
+		width: 90%;
+		margin: 20px auto 20px auto;
+		padding: 0px;
+	}
+	.job-alerts-container1 {
+		display: none;
+	}
+	.event-banner-area {
+		width: 100%;
+		padding: 0px;
+		margin: 50px 0px 0px 0px;
+	    overflow: hidden;
+	    display: block;
+	    border-collapse: collapse;
+	}
+	.event-banner-row {
+		display: inline-block;
+		width: 100%;
+		background-image: url(../images/sub/dynamic-job-posting/mobile/dynamic-mobile-events.jpg);
+		background-repeat: no-repeat;
+		background-position: top center;
+		padding-top:50%;
+		background-color: #ffffff;
+		background-size: contain;
+	}
+	.column {
+		display: inline-block;
+		width: 100%
+	}
+	.event-banner-left {
+		width: 100%;
+		text-align: right;
+		vertical-align: middle;
+	}
+	.event-banner-right {
+		display: none;
+	}
+	.event-banner-left-inner {
+		width: 80%;
+		max-width: 650px;
+		display: block;
+		margin: 0px auto 0px auto;
+		text-align: center;
+		vertical-align: middle;
+		padding: 5%;
+	}
+
+	.event-title {
+		font-size: 2.1em;
+		line-height: 1.2em;
+		margin-bottom: 20px;
+	}
+	.large-bold-event-title {
+		font-size: 1.4em;
+		font-weight: 500;
+	}
+	.event-note-1 {
+		font-size: 1.5em;
+		font-weight: 500;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.event-date-and-time {
+		font-size: 1.4em;
+		margin-bottom: 5px;
+	}
+	.event-location {
+		font-size: 1.4em;
+		margin-bottom: 5px;
+	}
+	.event-note-2 {
+		font-size: 1.5em;
+		line-height: 1.2em;
+		font-weight: 700;
+		margin-bottom: 10px;
+		margin-top: 20px;
+	}
+	.dynamic-page-heading {
+		width: 70% !important;
+		max-width: 1500px !important;
+	}
+	.content-row1-top-heading {
+		width: 85% !important;
+    	font-size: 2.4em;
+	    margin: 26px auto 10px auto;
+		letter-spacing: -.01em !important;
+	}
+	.content-row1-col1-text {
+		width: 85% !important;
+	}
+	.follow-linkedin-right {
+		font-size: 2vw;
+		position: static;
+		width: 90%;
+		padding: 5% 5% 6% 5%;
+		margin-top: 20px;
+	}
+	.talent-network-search-pages {
+		width: 100%;
+		padding: 0%;
+		background-image: none;
+		margin-top: 2em;
+	}
+	.talent-network-search-title {
+		font-size: 3.1vw;
+		line-height: 1.15em;
+		margin-bottom: 0px;
+	}
+	.talent-network-search-copy {
+		margin-top: 12px;
+		font-size: 2vw;
+		width: 90%;
+	}
+	.mobile-talent-link-image {
+		display: inline-block;
+		vertical-align: middle;
+		width: 23%;
+		padding-bottom: 22%;
+		margin-right: 30px;
+		background: url(../images/sub/search-pages/talent-network.jpg);
+    	background-repeat: no-repeat;
+    	background-position: center top;
+		background-size: cover;
+	}
+	.mobile-talent-link-copy {
+		display: inline-block;
+		vertical-align: middle;
+		width: calc(77% - 35px);
+	}
+	.topSearchArea {
+		margin-top: 0px;
+	}
+	.topSearchArea-row1 {
+		display: none;
+	}
+	.corporate-job-copy .table-text {
+		font-size: 1.9vw;
+	}
+	#eeo-statment .inner {
+		font-size: 2.1vw;
+		line-height: 1.7em;
+	}
+	.eeo-section a.stand-alone-link, .eeo-link-section a.stand-alone-link {
+		font-size: 1.3em; 
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.featured-job {
+    	border: 2px solid #CCCCCC;
+    	width: 90% !important;
+		height: auto;
+		margin: 15px auto 25px auto;
+		display: block;
+	}
+	.featured-job2 {
+    	border: 2px solid #CCCCCC;
+    	width: 90% !important;
+		height: auto;
+		margin: 15px auto 25px auto;
+		display: block;
+	}
+	.featured-job3 {
+    	border: 2px solid #CCCCCC;
+    	width: 90% !important;
+		height: auto;
+		margin: 15px auto 25px auto;
+		display: block;
+	}
+	.content-row1-col1-text {
+		font-size: 1.1em;
+	}
+	.content-row2 {
+		margin: 10px auto 0px auto;
+	}
+	.content-row2-left-inside {
+    	width: 80%;
+    }
+	.content-row2-right-inside {
+		left: 10%;
+	    width: 80%;
+	}
+	.content-row2-left-inside-bottom {
+		bottom: 12%;
+	    left: 10%;
+	}
+	.content-row2-right-inside-bottom {
+		bottom: 12%;
+		left: 10%;
+	}
+	.content-row3-inside {
+    	width: 80%;
+	}
+	.content-row3-copy {
+		width: 60%;
+	}
+	.benefits-row3 {
+    	background-image: url(../images/sub/benefits/mobile/benefits-row3-mobile.jpg);
+    	background-repeat: no-repeat;
+    	background-position: center bottom;
+    	background-size: cover;
+    	color: #FFFFFF;
+    	margin: 0px auto 50px auto;
+		padding-bottom: 400px;
+	}
+	.content-row4-inside {
+		font-size: .7em !important;
+	}
+	.b2b-sub-section1 {
+		text-align: center;
+		border-top: 1px solid #cccccc;
+		border-bottom: 1px solid #eeeeee;
+		margin-bottom: 30px;
+    	background-image: url(../images/sub/B2B/mobile/B2B-image2-mobile.jpg);
+    	background-repeat: no-repeat;
+    	background-position: center top;
+		background-size: contain;
+		padding: 56.25% 0px 0px 0px
+	}
+	.campus-sub-section1 {
+		text-align: center;
+		border-top: 1px solid #cccccc;
+		border-bottom: 1px solid #eeeeee;
+		margin-bottom: 30px;
+    	background-image: url(../images/sub/CampusRecruiting/mobile/campus-image2-mobile.jpg);
+    	background-repeat: no-repeat;
+    	background-position: center top;
+		background-size: contain;
+		padding: 56.25% 0px 0px 0px
+	}
+	.b2c-sub-section1 {
+		text-align: center;
+		border-top: 1px solid #cccccc;
+		border-bottom: 1px solid #eeeeee;
+		margin-bottom: 30px;
+    	background-image: url(../images/sub/B2C/mobile/B2C-image2-mobile.jpg);
+    	background-repeat: no-repeat;
+    	background-position: center top;
+		background-size: contain;
+		padding: 56.25% 0px 0px 0px
+	}
+	.culture-sub-section4 .big-column {
+		width: 90%;
+	    display: block;
+	    vertical-align: middle;
+	    text-align: center;
+		padding: 0px;
+		margin: 0px auto 8% auto;
+	}
+	.affinity-table {
+		margin: 1% auto 3% auto;
+	}
+	.affinity-group-logo {
+		width: 20%;
+		margin: 1%;
+		padding-bottom: 20%;
+	}
+	.affinity-description-copy {
+		width: 94%;
+		font-size: 1.1em;
+		line-height: 1.5em
+	}
+	.benefits-sub-section1 {
+		text-align: center;
+		border-top: 1px solid #cccccc;
+		border-bottom: 1px solid #eeeeee;
+		margin-bottom: 30px;
+    	background-image: url(../images/sub/benefits/mobile/Benefits-image2-mobile.jpg);
+    	background-repeat: no-repeat;
+    	background-position: center top;
+		background-size: contain;
+		padding: 56.25% 0px 0px 0px
+	}
+	.inteligis-sub-section1 {
+		text-align: center;
+		border-top: 1px solid #cccccc;
+		border-bottom: 1px solid #eeeeee;
+		margin-bottom: 30px;
+    	background-image: url(../images/sub/Inteligis/mobile/Inteligis-image2-mobile.jpg);
+    	background-repeat: no-repeat;
+    	background-position: center top;
+		background-size: contain;
+		padding: 56.25% 0px 0px 0px
+	}
+	.dynamic-sub-section1 {
+		text-align: center;
+		border-top: 1px solid #cccccc;
+		border-bottom: 1px solid #eeeeee;
+		margin-bottom: 40px;
+    	background-image: url(../images/sub/dynamic-job-posting/mobile/dynamic-mobile-1.jpg);
+    	background-repeat: no-repeat;
+    	background-position: center top;
+		background-size: contain;
+		padding: 56.25% 0px 0px 0px
+	}
+	.dynamic-sub-section2 {
+		text-align: center;
+		border-top: 1px solid #cccccc;
+		border-bottom: 1px solid #eeeeee;
+		margin-top: -20px;
+		margin-bottom: 40px;
+    	background-image: url(../images/sub/dynamic-job-posting/mobile/dynamic-mobile-2.jpg);
+    	background-repeat: no-repeat;
+    	background-position: center top;
+		background-size: contain;
+		padding: 56.25% 0px 0px 0px
+	}
+	.dynamic-sub-section3 {
+		text-align: center;
+		border-top: 1px solid #cccccc;
+		border-bottom: 1px solid #eeeeee;
+		margin-top: 50px;
+		margin-bottom: 40px;
+    	background-image: url(../images/sub/dynamic-job-posting/mobile/dynamic-mobile-3.jpg);
+    	background-repeat: no-repeat;
+    	background-position: center top;
+		background-size: contain;
+		padding: 56.25% 0px 0px 0px
+	}
+	.dynamic-heading {
+		font-size: 2em;
+	}
+	.summer-intern-info {
+		font-size: 1.1em !important;
+		line-height: 1.4em;
+		letter-spacing: -.01em !important;
+		width: 100%;
+	}
+	.video-area {
+		display: none;
+	}
+	.video-area2 {
+		display: block;
+	}
+	.video-responsive {
+		padding-bottom: 56.25%;
+		width: 100%;
+	}
+	.b2c-spacer {
+		height: 30px;
+	}
+	.student-video-container {
+		width: 90%;
+		margin: 0px auto 40px auto;
+	}
+footer {
+    font-size: 1em;
+    padding: 7% 0px 5%;
+}
+.footer-inside {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.footer-inside-row-1 {
+    padding-bottom: 16px;
+}
+.footer-inside-row-1-left {
+    width: 80px;
+    float: none;
+    margin: 0px auto 12px auto;
+	padding-left: 0px;
+}
+.footer-inside-row-1-right {
+    width: auto;
+    float: none;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+.footer-inside-row-1-right2 {
+    width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0px;
+	text-align: center;
+}
+.footer-inside-row-1-right-row-1-col1 {
+    width: 100% !important;
+    float: none;
+    line-height: 1.5em;
+    font-size: 0.9em;
+    font-weight: bold !important;
+    margin: 6px auto 0px auto;
+	padding: 0px !important;
+    text-align: center;
+}
+.footer-inside-row-1-right-row-1-col1 br {
+    display: inherit;
+}
+.footer-inside-links-2 li {
+    margin: 0px 8px 0px 8px !important;
+}
+.footer-inside-row-1-right-row-1-col2 {
+    float: none;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0px;
+    padding-top: 2%;
+	display: block;
+}
+	.footer-icon {
+		float: none;
+		display: inline-block;
+		vertical-align: middle;
+	}
+.footer-inside-row-2 {
+    width: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: .8em;
+    line-height: 1.6em;
+}
+.footer-inside-row-2-left {
+    width: auto;
+    float: none;
+}
+.footer-inside-row-2-right {
+    width: auto;
+    float: none;
+}
+	.search-bar {
+		width: 85%;
+		padding: 0px;
+		margin: 0px auto 0px auto;
+	}
+	.keyword-search-sub-holder {
+		display: inline-block;
+		width: calc(100% - 2px);
+		margin: 15px 0px 15px 0px;
+		border: 1px solid #e1e1e1;
+	}
+	.accordion-section {
+		width: 100%;
+		margin: 0px 0px 15px 0px;
+		display: inline-block;
+	}
+	.accordion-section-title {
+		width: auto;
+		padding: 15px 17px;
+		display: block;
+		text-align: left;
+		font-size: 1em;
+		line-height: .6em;
+		border: 1px solid #e1e1e1;
+		background-position: 97% center;
+	}
+	.accordion-section-content {
+		width: 100%
+	}
+	.advanced-search-link {
+		font-size: .9em;
+		margin: -10px auto 0px auto;
+		font-weight: 600;
+	}
+	.big-column {
+		width: 100%;
+	    display: none;
+	}
+	.little-column {
+		width: 100%;
+    	display: inline-block;
+	}
+	.benefits-box-differentiators-2 {
+		display: inline-block;
+		vertical-align: top;
+		width: 27%;
+	}
+	.benefits-box-differentiators-2  img {
+		width: 65%;
+	}
+	#icons-adj .benefits-box-differentiators-2 {
+		display: inline-block;
+		vertical-align: top;
+		width: 27%;
+	}
+	#icons-adj .benefits-box-differentiators-2  img {
+		width: 65%;
+	}
+
+	.why-altice {
+		width: 100%;
+    	background-image: url(../images/main/mobile/why-altice-mobile.jpg);
+    	background-repeat: no-repeat;
+    	background-position: center top;
+		background-size: contain;
+		background-color: #ffffff;
+		padding-top: 58.33%
+	}
+	.list-table ul {
+		margin: 0px 0px 4em;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.job-list-area {
+		width: 100%;
+	}
+	.job-container {
+		width: 100%;
+		margin: 0px auto 60px auto;
+	}
+	.job-image {
+		padding-bottom: 0px;
+		background-color: #ffffff;
+	}
+	.job-copy {
+		margin-top: 30px;
+		font-size: 2.4em;
+		line-height: 1.1em;
+		font-weight: 400;
+	}
+	.job-copy-sub {
+		font-size: .8em;
+	}
+	.job-copy-sub2 {
+		font-size: .8em;
+	}
+	.view-all {
+		margin-top: 15px;
+		font-size: .5em !important;
+		font-weight: 400;
+	}
+	.summer-intern-info {
+		font-size: 1.2em !important;
+		line-height: 1.4em;
+		letter-spacing: 0em !important;
+		width: 85%;
+	}
+	.job-copy-sub3 br {
+		display: none;
+	}
+.content-row1-wrapper {
+    margin: 17% auto 0 0px;
+}
+.content-row1 {
+    display: inherit;
+    margin-top: 20px;
+    width: 100%;
+}
+.gradient-rule {
+    max-width: 680px;
+}
+.gradient-rule-2 {
+    max-width: 680px;
+}
+	.subpage-body {
+		padding: 20px 0px 10px 0px;
+		margin-top: 10px;
+	}
+	
+	.talent-row2-right {
+		position: relative;
+		width: 92%;
+		padding: 5% 5% 6.5% 5%;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.talent-row2-right img {
+		width: 45%;
+		margin-top: 10px;
+	}
+	.talent-row2-right-top p {
+		margin-top: 5px !important;
+		margin-bottom: 0px !important;
+		padding: 0px !important;
+	}
+	.linkedin-btn-holder {
+		margin-top: 25px;
+	}
+	.bottom-apply-button a {
+		font-size: 1em;
+	}
+	.copy-container {
+		display: block;
+		padding: 3.75em 0em 3.75em 0em;
+		width: 80%;
+		margin: 0px auto 0px auto;
+	}
+  .main-event-row .copy-container {
+    display: block;
+    padding: 2em 0em 2em 0em;
+    width: 80%;
+    margin: 0px auto 0px auto;
+}
+	.table-header {
+		font-size: 5.4vw;
+		letter-spacing: -.02em;
+	}
+	h1 {
+		font-size: 5.4vw;
+		letter-spacing: -.02em;
+	}
+	.talent-header {
+		font-size: 5vw;
+		margin-bottom: .5em;
+	}
+	.heading3 {
+		font-size: 5.4vw;
+		letter-spacing: -.02em;
+	}
+	.jobLine1, .jobLine2 {
+		font-size: 2.8vw;
+		line-height: 1.45em;
+		padding: 25px 15px;
+	}
+	.jobLine1 a, .jobLine2 a {
+		font-size: 1.6em;
+	}
+	.corporate-job-copy .table-text {
+		width: 85%;
+		margin: 0px auto;
+		font-size: 2.1vw;
+	}
+	.table-text {
+		font-size: 2.8vw;
+		line-height: 1.5em;
+	}
+	.section {
+		margin: 2em auto 2em auto;
+	}
+	.loose-body-copy {
+		font-size: 2.8vw;
+		margin: 0em auto 3.5em auto;
+	}
+	.loose-intro-copy {
+		margin-top: 2em !important;
+	}
+	.loose-copy-heading {
+		font-size: 5.5vw;
+		line-height: 1.15em;
+		margin: .75em auto 1em auto;
+	}
+	.talent-network-search-pages .gradient-rule {
+		margin: 0px;
+	}
+	.talent-network-search-title {
+		font-size: 3.1vw;
+		line-height: 1.15em;
+		margin-bottom: .5em;
+	}
+	.talent-network-search-copy {
+		margin-top: .5em;
+		font-size: 2.4vw;
+		line-height: 1.2em;
+		width: 90%;
+	}
+	.mobile-talent-link-image {
+		display: inline-block;
+		vertical-align: middle;
+		width: 24%;
+		padding-bottom: 24%;
+		margin-right: 30px;
+		background: url(../images/sub/search-pages/talent-network.jpg);
+    	background-repeat: no-repeat;
+    	background-position: center top;
+		background-size: cover;
+	}
+	.mobile-talent-link-copy {
+		display: inline-block;
+		vertical-align: middle;
+		width: calc(76% - 35px);
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.jobs-btn-holder-top {
+		margin: 20px 0px 0px -10px;
+		width: 100%;
+		text-align: left;
+	}
+	.jobs-btn-holder-top a {
+		width: auto;
+		display: inline-block;
+		padding: 10px 28px;
+		background-color: rgba(255,255,255,1);
+		color: #333333;
+		letter-spacing: .01em;
+		font-size: .85em !important;
+		line-height: normal !important;
+		margin: 0px 0px 0px 10px;
+	}
+	.jobs-btn-holder-top a:after {
+	    content: none !important;
+	}
+	.bannerArea {
+	    padding-bottom: 110%;
+	}
+	.dynamic-bannerArea {
+	    padding-bottom: 90%;
+	}
+	.dynamic-bannerArea .slide .inner {
+		top: auto;
+		bottom: 12%;
+		transform: translate(-50%, 0%);
+	    width: 85%;
+	}
+	#new-carousel .desktop-background-image {
+		display: none;
+	}
+	#new-carousel .mobile-background-image {
+		display: block;
+	}
+	.dynamic-bannerArea h1 {
+		font-size: 5.2vw;
+		width: 80%;
+	}
+	.dynamic-bannerArea span {
+		margin-bottom: 1em;
+		font-size: 2.8vw;
+		width: 100%;
+	}
+	.dynamic-bannerArea .slide a {
+		font-size: 2.6vw;
+	}
+	.dynamic-bannerArea .desktop {
+		display: none;
+	}
+	.dynamic-bannerArea .mobile {
+		display: block;
+	}
+	.dynamic-bannerArea .mobile::after {
+		content: "";
+		position: absolute;
+		z-index: 1;
+		display: block;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-image: linear-gradient(10deg, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 45%);
+	}
+	.home {
+		padding-bottom: 90%;
+	}
+	.bannerArea-inside {
+		top: 53%;
+	    width: 85%;
+	}
+	.bannerArea-heading {
+		font-size: 6.2vw;
+		width: 100%;
+	}
+	.bannerArea-text {
+		font-size: 2.8vw;
+		width: 100%;
+	}
+	.learn-more-2 a {
+		font-size: 2.8vw;
+	}
+	.bannerArea-search {
+		padding-bottom: 320px !important;
+	    background-size: cover;
+	}
+	.bannerArea-search .bannerArea-inside {
+		top: 30%;
+	}
+  .bannerArea-dynamicjob {
+	  padding-bottom: 0;
+    padding-top: 50%;
+    height: 100%;
+    margin-bottom: 0px;
+
+	}
+  .bannerArea-dynamicjob-inside {
+/* top: 50%; */
+    width: 85%;
+    position: static;
+    display: block;
+    max-width: none;
+    margin: 0 auto 0 !important;
+    left: 0;
+    transform: none;
+	}
+	.opportunities-heading {
+		font-size: 1.9em;
+		width: 90%;
+		margin: 0px auto 30px auto;
+	}
+	.benefits-box {
+		width: 28%;
+		margin: 0px 2% 30px 2%
+	}
+	.benefits-box-top {
+		width: 80%;
+		margin: 0px auto 0px auto;
+	}
+	.benefits-box-btm {
+		font-size: 1em;
+		line-height: 1.2em;
+		margin-top: 5px;
+	}
+	.job-copy {
+		width: 90%;
+		margin: 20px auto 0px auto;
+		font-size: 2.1em;
+		font-weight: 400;
+	}
+	.view-all {
+		margin-top: 15px;
+		font-size: .6em !important;
+		font-weight: 400;
+	}
+	.summer-intern-info {
+		font-size: 1.1em !important;
+		line-height: 1.4em;
+		letter-spacing: 0em !important;
+		width: 80%;
+	}
+.content-row4-inside-right {
+    float: none;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: auto;
+	width: 245px;
+	padding-right: 0px;
+}
+.content-row4-inside-left {
+    display: none
+}
+	.SearchArea2 {
+		padding: 1% 5% 0px 5%;
+	}
+	.event-banner-area {
+		margin: 50px 0px 15px 0px;
+	}
+	.event-banner-right {
+		display: none;
+	}
+	.event-banner-left-inner {
+		width: 80%;
+		max-width: 650px;
+		display: block;
+		margin: 0px auto 0px auto;
+		text-align: center;
+		vertical-align: middle;
+		padding: 8%;
+	}
+	.event-title {
+		font-size: 1.9em;
+		line-height: 1em;
+		margin-bottom: 10px;
+	}
+	.large-bold-event-title {
+		font-size: 1.2em;
+		line-height: 1em;
+		font-weight: 500;
+	}
+	.event-note-1 {
+		font-size: 1.3em;
+		font-weight: 500;
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
+	.event-date-and-time {
+		font-size: 1.1em;
+		margin-bottom: 0px;
+	}
+	.event-location {
+		font-size: 1.1em;
+		margin-bottom: 0px;
+	}
+	.event-note-2 {
+		font-size: .9em;
+		line-height: 1.2em;
+		font-weight: 700;
+		margin-bottom: 0px;
+		margin-top: 20px;
+	}
+	.bottom-apply-button a {
+		padding: 9px 28px;
+		font-size: .9em;
+		margin: 0px 5px 0px 5px;
+	}
+	.affinity-groups-content {
+		margin: 3% auto 2% auto;
+	}
+	.affinity-table {
+		width: 90%;
+ 		display: block;
+		margin: 0px auto 0px auto;
+	}
+	.affinity-row {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.affinity-logo-column {
+		display: inline-block;
+		width: 40%;
+		padding-bottom: 40%;
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	    background-size: contain;
+	}
+	.access {
+	    width: 70% !important;
+		background-size: cover;
+	}
+	.generations {
+	    width: 90% !important;
+		background-size: cover;	
+	}
+	.bean {
+	    width: 80% !important;
+		background-size: cover;	
+	}
+	.military {
+	    width: 90% !important;
+		background-size: cover;
+	}
+	.her {
+	    width: 70% !important;
+		background-size: cover;	
+	}
+	.together {
+	    width: 70% !important;
+		background-size: cover;	
+	}
+	.affinity-description {
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+		padding-bottom: 10%;
+		margin-bottom: 6%;
+		border-bottom: 1px dotted #000000;
+	}
+	.affinity-description-copy {
+		width: 90%;
+		display: inline-block;
+		vertical-algn: middle;
+		text-align: center;
+		font-size: 1em;
+		line-height: 1.5em;
+		margin: 0px;
+	}
+	.affinity-name {
+		font-size: 1.4em;
+		line-height: 1.2em;
+		margin-bottom: .75em;
+		font-weight: 500;
+	}
+	#front-page-featured-jobs {
+		font-size: 85%;
+	}
+	#front-page-featured-jobs .featured-job {
+		margin-bottom: 1.25em;
+	}
+	.follow-linkedin-right {
+		font-size: 3vw;
+		line-height: 1.5em;
+		position: static;
+		width: 90%;
+		padding: 5% 5% 6% 5%;
+		margin-top: 20px;
+	}
+	.accordion-section-title {
+		background-position: 96% center;
+	}
+	
+	.event-pop-up {
+		position: fixed;
+		bottom: 0px;
+		right: 0px;
+		left: 0px;
+		border-radius: 0px;
+		box-shadow: 0px 1px 4px 1px rgba(0,0,0,.25);
+		width: 100%;
+	}
+.accordion-section-title6 {
+	font-size: 3.8vw;
+	border-radius: 0px;
+	padding: 15px 5% 15px 0px !important;
+	width: 100%;
+	text-align: center;
+    background-image: url(../images/main/calander.png);
+    background-size: 4%;
+    background-position: 83% 45%;
+	background-repeat: no-repeat;
+}
+.accordion-section-title6:before {
+	border-radius: 0px;
+}
+.accordion-section-title6:hover:before {
+	-webkit-transform: scaleY(1);
+	transform: scaleY(1);
+}
+.event-pop-up-close {
+	font-size: 3.8vw;
+	border-radius: 0px;
+	padding: 15px 5% 15px 0px;
+	width: 100%;
+	text-align: center;
+    background-image: url(../images/main/calander.png);
+    background-size: 4%;
+    background-position: 83% 45%;
+	background-repeat: no-repeat;
+}
+.accordion-section-content6 {
+    display: none;
+    font-size: 1em;
+    line-height: 1.6em;
+	margin-top: 0px;
+    overflow-y: auto;
+    text-align: left;
+    border-radius: 0px;
+	z-index: 899;
+	width: 100%;
+	max-height: calc(100vh - 56px);
+}
+	.accordion-section-content6 ul {
+		max-height: calc(100vh - 175px);
+		overflow-y: auto;
+	}
+.accordion-section-content6 li {
+	list-style: none;
+	margin: 10px 0px 20px;
+}
+#event-list .event-name {
+    font-size: 6.1vw;
+    line-height: 1.2em;
+	font-weight: 700 !important;
+	padding-bottom: 5px;
+}
+
+	#eeo-statment .inner {
+		font-size: 3.1vw;
+		line-height: 1.7em;
+		padding: 1em 0px;
+	}
+	.eeo-section a.stand-alone-link, .eeo-link-section a.stand-alone-link {
+		font-size: 1.3em; 
+	}
+}
+@media only screen and (max-width: 550px) {
+	.jobs-btn-holder-top {
+		margin: 15px auto 0px auto;
+		width: 100%;
+		text-align: center;
+	}
+	.jobs-btn-holder-top a {
+		width: auto;
+		display: block;
+		padding: 10px 28px 9px;
+		background-color: rgba(255,255,255,1);
+		color: #333333;
+		letter-spacing: .01em;
+		font-weight: 400 !important;
+		font-size: .9em !important;
+		line-height: normal !important;
+		text-transform: uppercase;
+		margin: 0px auto 12px auto;
+		border: 2px solid rgba(204,204,204,1);
+	}
+	.jobs-btn-holder-top a:hover {
+		background-color: rgba(255,255,255,0);
+		color: #ffffff;
+		border: 2px solid rgba(255,255,255,1);	
+	}
+	.jobs-btn-holder-top a:after {
+	    content: none !important;
+	}
+	.corporate-job-copy .table-text {
+		font-size: 3.4vw;
+	}
+
+	.home-page-boxes {
+		width: 85%;
+	}
+	.home-box-image {
+		width: 100%;
+		display: block;
+		margin-right: 0px;
+	}
+	.front-box-copy {
+		display: block;
+		font-size: 3.4vw;
+		width: 80%;
+		padding: 10%
+	}
+	.front-box-copy .feature-box-text {
+		line-height: 1.4em;
+		min-height: 1em;
+	    margin: 0em 0em .85em;
+	}
+	.front-box-copy .gradient-rule {
+	    margin: 0em 0em;
+	}
+	.front-box-copy .learn-more a {
+		font-size: 1em;
+		margin: .75em 0px 0px 0px;
+	}
+	.front-box-copy .feature-box-heading {
+    	font-size: 6.4vw;
+		margin-bottom: .25em;
+		line-height: 1.2em;
+	}
+	.her-banner {
+		width: 85%;
+		padding: 5% 7.5% 62%;
+		border: none;
+		margin: 5px auto 15px;
+    	background-image: url("../images/global/womens-banner-mobile.jpg");
+		background-position: top center;
+	}
+	.her-banner::before {
+		content: "";
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 6px;
+		background-image: linear-gradient(to left, #361241 -10%, #724e8c 80%);
+	}
+	.her-banner-text {
+		font-size: 5vw;
+		line-height: 1.05em;
+		letter-spacing: -.03em;
+		padding: 0px;
+		margin: 0px;
+		width: 57%;
+	}
+	.her-banner-logo {
+		display: none;
+	}
+	.her-banner-text .title {
+		display: block;
+		width: 100%;
+		padding-bottom: 30%;
+		background-image: url("../images/global/womens-text-mobile.png");
+		background-size: contain;
+		background-position: left center;
+		background-repeat: no-repeat;
+		margin-top: .35em;
+	}
+	
+	.lgbtq-banner {
+		width: 85%;
+		padding: 8% 7.5% 75%;
+		border: none;
+		margin: 5px auto 15px;
+    	background-image: url("../images/global/lgbtq-banner-mobile.jpg");
+		background-position: top center;
+		color: #ffffff;
+		text-shadow: 2px 2px 2px rgba(55,0,80,.35);
+	}
+	.lgbtq-banner::before {
+		background-image: linear-gradient(180deg, rgba(50,0,75,.55) 10%, rgba(255,255,255,.0) 40%);
+	}
+	.lgbtq-banner:hover::after, .lgbtq-banner:focus::after, .lgbtq-banner:active::after {
+		opacity: .65;
+	}
+	.lgbtq-banner .title {
+		font-size: 3.5vw;
+		line-height: 1.05em;
+		letter-spacing: -.03em;
+		text-align: center;
+	}
+	.lgbtq-banner .title .big-text {
+		font-size: 1.85em;
+		line-height: 1em;
+		margin: .0em auto .1em;
+	}
+	.purple-gradient {
+		font-size: .7em;
+		line-height: 1em;
+		width: 80%;
+	}
+  .main-event-banner {
+		width: 75%;
+		margin: 5px auto 15px;
+      background-position: 350% center;
+	}
+  .main-event-row .title {
+		font-size: 6vw;
+		line-height: 1.05em;
+		letter-spacing: -.03em;
+	}
+	.main-event-row p {
+		font-size: 4vw;
+		line-height: 1.05em;
+		letter-spacing: -.03em;
+    margin-bottom: 0px;
+	}
+
+}
+@media only screen and (max-width: 510px) {
+	.search {
+		padding-bottom: 280px !important;
+	}
+	.search2 {
+		padding-bottom: 280px !important;
+	}
+	.dynamic-header-image {
+		padding-bottom: 500px !important;
+	}
+	.content-row2-right {
+	    background-image: url(../images/main/row-2/index-row2-right.jpg);
+	    background-repeat: no-repeat;
+	    background-position: center top;
+	    background-size: contain;
+	}
+	.content-row2-left {
+	    background-image: url(../images/main/row-2/index-row2-left.jpg);
+	    background-repeat: no-repeat;
+	    background-position: center top;
+	    background-size: contain;
+	}
+	.content-row2-heading {
+    	font-size: 1.9em;
+    	margin-bottom: 10px;
+	}
+	.content-row2-left-text {
+	    width: 100%;
+	    font-size: .9em;
+	    line-height: 1.35em !important;
+	}
+	.content-row3-heading {
+    	font-size: 1.9em;
+    	margin-bottom: 10px;
+	}
+	.content-row3-copy {
+	    width: 70%;
+	    font-size: .9em;
+	    line-height: 1.35em !important;
+	}
+	.more-mobile {
+		display: none;
+	}
+	.job-copy {
+		margin-top: 20px;
+		font-size: 1.9em;
+		font-weight: 400;
+	}
+	.view-all {
+		margin-top: 15px;
+		font-size: .65em !important;
+		font-weight: 400;
+	}
+	.youtube-video-icon {
+		width: 50px;
+		height: 35px;
+		margin-right: 5px;
+	}
+	.youtube-video-link {
+		font-size: 1.1em;
+		padding-bottom: 2px;
+	}
+	.searchpage-body {
+		margin-top: -10px;
+	}
+	.talent-row2-right {
+		position: relative;
+		width: 80%;
+		padding: 7% 10% 9.5% 10%;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.talent-row2-right img {
+		width: 65%;
+		margin-top: 10px;
+	}
+	.talent-row2-right-top p {
+		margin-top: 5px !important;
+		margin-bottom: 0px !important;
+		padding: 0px !important;
+	}
+	.linkedin-btn-holder {
+		margin-top: 25px;
+	}
+	.content-row2-heading br {
+		display: none;
+	}
+	.dynamic-heading {
+		font-size: 2.1em;
+		line-height: 1.1em;
+		width: 90%;
+		text-align: center;
+		margin: 0px auto 10px auto;
+	}
+	.dynamic-row-2 {
+		width: 90%;
+		max-width: 1300px;
+		text-align: center;
+		margin: 0px auto 30px auto;
+	}
+	.benefits-box-differentiators {
+		width: 90%;
+		margin: 0px 0% 0px 0%;
+		padding: 15px 0px 15px 0px;
+		border-bottom: 1px dotted #c3c3c3;
+	}
+	.benefits-box-differentiators img {
+		width: 100%;
+	}
+	.benefits-box-differentiators .benefits-box-top {
+		width: 20%;
+		margin-right: 4%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.benefits-box-differentiators .benefits-box-btm {
+		width: 60%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.benefits-box-differentiators-2 {
+		width: 90%;
+		margin: 0px 0% 0px 0%;
+		padding: 15px 0px 15px 0px;
+		border-bottom: 1px dotted #c3c3c3;
+	}
+  .last {
+		border-bottom: none;
+    padding: 15px 0px 0px;
+	}
+	.benefits-box-differentiators-2 img {
+		width: 100%;
+	}
+	.benefits-box-differentiators-2 .benefits-box-top {
+		width: 20%;
+		margin-right: 4%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.benefits-box-differentiators-2 .benefits-box-btm {
+		width: 60%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	
+	#icons-adj .benefits-box-differentiators-2 {
+		width: 90%;
+		margin: 0px 0% 0px 0%;
+		padding: 15px 0px 15px 0px;
+		border-bottom: 1px dotted #c3c3c3;
+	}
+	#icons-adj .benefits-box-differentiators-2 img {
+		width: 100%;
+	}
+	#icons-adj .benefits-box-differentiators-2 .benefits-box-top {
+		width: 20%;
+		margin-right: 4%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	#icons-adj .benefits-box-differentiators-2 .benefits-box-btm {
+		width: 60%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	#icons-adj .benefits-box-differentiators-2:last-of-type {
+		border-bottom: none;
+    padding: 15px 0px 0px;
+	}
+	
+	.dynamic-heading {
+		font-size: 1.7em;
+		margin-bottom: 5px;
+	}
+	.bottom-apply-button a {
+		padding: 11px 0px;
+		font-size: 1.1em;
+		margin: 0px auto 10px auto;
+		display: block;
+		width: 70%
+	}
+}
+@media only screen and (max-width: 450px) {
+	.bannerArea {
+	    padding-bottom: 100%;
+	}
+	.bannerArea-inside {
+		top: 40%;
+	    width: 85%;
+	}
+	.b2b .bannerArea-inside, .corporate .bannerArea-inside, .media .bannerArea-inside, .marketing .bannerArea-inside, .inteligis .bannerArea-inside {
+		top: 50%;
+	    width: 85%;
+	}
+	.search .bannerArea-inside {
+		top: 65%;
+	    width: 85%;
+	}
+	.search2 .bannerArea-inside {
+		top: 65%;
+	    width: 85%;
+	}
+	.bannerArea-heading {
+		font-size: 6.8vw;
+		width: 100%;
+	}
+	.bannerArea-text {
+		font-size: 3.3vw;
+		line-height: 1.65em;
+		width: 100%;
+	}
+	.home {
+		padding-bottom: 90%;
+	}
+	.home .bannerArea-inside {
+		top: 9%;
+	    width: 80%;
+	}
+	.home .bannerArea-heading {
+		font-size: 8.5vw;
+		font-weight: 400;
+	}
+	.home .bannerArea-text {
+		font-size: 4vw;
+		line-height: 1.45em;
+		width: 80%;
+	}
+/*
+  .bannerArea-dynamicjob {
+	    padding-bottom: 100%;
+	}
+*/
+	.bannerArea-dynamicjob-inside {
+		top: 40%;
+	    width: 85%;
+	}
+	.dj-rsc .bannerArea-dynamicjob-inside {
+		top: 50%;
+	 width: 85%;
+	}
+	.learn-more-2 a {
+		font-size: 3.2vw;
+	}
+	.search {
+		padding-bottom: 220px !important;
+	}
+	.search2 {
+		padding-bottom: 220px !important;
+	}
+	.learn-more-2 .gradient-rule-2 {
+	    margin: .75em 0em .75em 0em;
+	}
+	.jobs-btn-holder-top a {
+		width: auto;
+		display: block;
+		padding: 10px 28px 9px;
+		background-color: rgba(255,255,255,1);
+		color: #333333;
+		letter-spacing: .01em;
+		font-weight: 400 !important;
+		font-size: .9em !important;
+		line-height: normal !important;
+		text-transform: uppercase;
+		margin: 0px auto 12px auto;
+		border: 2px solid rgba(204,204,204,1);
+	}
+	.content-row1-top-heading {
+		font-size: 1.7em;
+    	margin-bottom: 5px;
+	}
+	.opportunities-heading {
+		font-size: 1.6em;
+	}
+	.benefits-box {
+		width: 90%;
+		margin: 0px 1% 40px 1%;
+		padding: 0px;
+	}
+	.benefits-box-top {
+		width: 50%;
+		margin: 0px auto 0px auto;
+	}
+	.benefits-box-btm {
+		font-size: 1.1em;
+		font-weight: 500;
+		margin-top: 0px;
+	}
+	.description-header {
+		display: none;
+		margin: 30px 20px 0px;
+	    font-size: 1.3em;
+	    text-transform: uppercase;
+	    padding-bottom: 10px;
+	    border-bottom: 1px dotted #ffffff;
+	}
+	.description-text {
+	    margin: 10px 20px 0px;
+	    font-size: .9em;
+		padding-top: 10px;
+	    border-top: 1px dotted #cccccc;
+}
+	.benefits-box a .benefit-description {
+    	color: #000000;
+    	display: block;
+    	background-color: rgba(255,255,255,0);
+    	position: relative;
+    	width: 100%;
+		min-height: 0px;
+    	border-radius: 10px;
+    	text-align: center;
+		left: 0;
+    	transform: translate(0%, 0%);
+    	-webkit-transform: translate(0%, 0%);
+    	-ms-transform: translate(0%, 0%);
+    	z-index: 1;
+	}
+	.job-container {
+		margin-bottom: 30px;
+	}
+	.job-copy {
+		margin-top: 10px !important;
+		font-size: 1.7em;
+		line-height: 1.1em;
+		font-weight: 400;
+		width: 90%;
+		margin: 15px auto 0px auto;
+	}
+	.view-all {
+		margin-top: 0px !important;
+		font-size: .6em !important;
+		font-weight: 400;
+	}
+	.youtube-video-icon {
+		width: 40px;
+		height: 28px;
+		margin-right: 5px;
+	}
+	.youtube-video-link {
+		font-size: .9em;
+		padding-bottom: 0px;
+	}
+	.event-banner-left-inner {
+		padding: 8% 10% 11% 10%;
+	}
+	.dynamic-sub-section2 {
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+	.dynamic-sub-section3 {
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+	.benefits-row3 {
+		padding-bottom: 200px;
+	}
+	.affinity-groups-content {
+		margin: 0% auto 2% auto;
+	}
+	.affinity-table {
+		width: 95%;
+	}
+	.affinity-logo-column {
+		width: 55%;
+		padding-bottom: 55%;
+	}
+	.affinity-description-copy {
+		width: 85%;
+		display: inline-block;
+		vertical-algn: middle;
+		text-align: center;
+		font-size: .85em;
+		line-height: 1.5em;
+	}
+	.affinity-name {
+		font-size: 1.6em;
+		line-height: 1.2em;
+		margin-bottom: .5em;
+	}
+	.cs-sub-section2 ul {
+		width: 80%;
+		margin: 10px auto 0px auto;
+		padding: 0px;
+	}
+	.copy-container {
+		display: block;
+		padding: 2.85em 0em 3em 0em;
+		width: 80%;
+		margin: 0px auto 0px auto;
+	}
+	.table-header {
+		font-size: 6vw;
+		letter-spacing: -.02em;
+	}
+	h1 {
+		font-size: 6.5vw;
+		letter-spacing: -.02em;
+	}
+	.talent-header {
+		font-size: 6.5vw;
+	}
+	.heading3 {
+		font-size: 6.3vw;
+		letter-spacing: -.02em;
+	}
+	.table-text {
+		font-size: 3.4vw;
+		line-height: 1.65em;
+	}
+	.corporate-job-copy .table-text {
+		font-size: 3.4vw;
+		line-height: 1.65em;
+	}
+	.pagination {
+		font-size: 3.4vw;
+		
+	}
+	.jobLine1, .jobLine2 {
+		font-size: 3.4vw;
+		line-height: 1.55em;
+		padding: 20px 15px;
+	}
+	.jobLine1 a, .jobLine2 a {
+		font-size: 1.6em;
+		line-height: 1.1em;
+	}
+	.section {
+		margin: 1.5em auto 1.5em auto;
+	}
+	.corporate-job-copy .table-header {
+		margin: .75em 0px 0px 0px;
+		font-size: 6vw;
+		letter-spacing: 0em;
+	}
+	.corporate-job-copy .view-all-digital {
+		margin: .25em auto 1em auto;
+	}
+
+	/*-- ---- Sales Feature Boxes ---- --*/
+	.feature-boxes {
+		width: 100%;
+	}
+	.feature-box {
+		margin: 0px auto 1.75em auto;
+	}
+	.feature-box-copy {
+		padding: 1em 2em 1.5em 2em;
+	}
+	.feature-box-heading {
+    	font-size: 6.4vw;
+		margin-bottom: .75em;
+		line-height: 1.2em;
+	}
+	.learn-more {
+	    margin-bottom: .25em;
+	}
+	.learn-more a {
+		font-size: 4vw;
+	    margin-top: 1em;
+    }
+	.learn-more a:after {
+	    font-size: 1.4em;
+	}
+	.loose-body-copy {
+		font-size: 3.4vw;
+		line-height: 1.65em;
+		margin: 0em auto 3.5em auto;
+	}
+	.loose-intro-copy {
+		margin-top: 2em !important;
+	}
+	.loose-copy-heading {
+		font-size: 6.6vw;
+		line-height: 1.15em;
+		margin: 1.25em auto .75em auto;
+	}
+	.content-row2-right {
+		padding-bottom: 430px;
+	}
+	.affinity-group-logo {
+		width: 30%;
+		padding-bottom: 30%;
+	}
+	.content-row2-left {
+		padding-bottom: 446px;
+	}
+	.follow-linkedin-right {
+		font-size: 4.2vw;
+		line-height: 1.5em;
+		position: static;
+		width: 80%;
+		padding: 9% 10% 10% 10%;
+		margin-top: 20px;
+	}
+	.featured-job-front {
+		margin: 1em 0px 0px 0px;
+	    width: 85% !important;
+		border-width: 1px;
+	}
+	.feature-box-text {
+		font-size: 4vw;
+		line-height: 1.4em;
+		margin: -.75em auto 1em auto;
+	}
+	.front-page-featured-jobs-inner {
+		width: 80%;
+		padding-top: 0em;
+	}
+	#front-page-featured-jobs {
+		padding: 3em 0px 3em 0px;
+	}
+	#front-page-featured-jobs .featuredJobs-heading {
+		font-size: 7.75vw !important;
+		letter-spacing: 0em;
+		margin-bottom: .5em;
+		padding-bottom: .5em;
+		border-bottom: 1px dotted #cccccc;
+	}
+	#front-page-featured-jobs .featured-job {
+		width: 100%;
+		margin: .75em 0em 1em 0em;
+		font-size: 1em;
+		line-height: 1.4em;
+		font-weight: 300;
+	}
+	#front-page-featured-jobs .featured-job a {
+		font-size: 6vw !important;
+		font-weight: 500;
+		margin-bottom: -15px;
+	}
+	
+	.learn-more .gradient-rule {
+	    margin-left: -5px;
+	}
+	.search-bar {
+		padding: 10px 0px 0px 0px;
+	}
+	.accordion-section-title {
+		background-position: 94% center;
+	}
+	.talent-network-search-pages .gradient-rule {
+		margin: 0px;
+	}
+	.talent-network-search-title {
+		font-size: 4.4vw;
+		line-height: 1.1em;
+		margin-bottom: .5em;
+	}
+	.talent-network-search-copy {
+		margin-top: .75em;
+		font-size: 2.9vw;
+		line-height: 1.2em;
+		letter-spacing: -.02em;
+		width: 80%;
+	}
+	.mobile-talent-link-image {
+		width: 40%;
+		padding-bottom: 40%;
+		margin-right: 15px;
+	}
+	.mobile-talent-link-copy {
+		width: calc(60% - 20px);
+	}
+	.front-box-copy {
+		display: block;
+		font-size: 4vw;
+		width: 80%;
+		padding: 10%
+	}
+	.headingArea-right {
+		display: block;
+		text-align: center;
+		margin: 25px 0px 25px 0px;
+	}
+	.btnHolder1, .btnHolder2 {
+		margin-right: 0px;
+	}
+	.btnHolder1 a, .btnHolder2 a {
+		padding: 10px 16px;
+		font-size: .75em;
+		letter-spacing: .01em;
+	}
+	.dynamic-bannerArea {
+	    padding-bottom: 100%;
+	}
+	.dynamic-bannerArea .slide .inner {
+		top: auto;
+		bottom: 40px;
+		transform: translate(-50%, 0%);
+	    width: calc(100% - 56px);
+	}
+	.dynamic-bannerArea h1 {
+		font-size: 6vw;
+		width: 100%;
+	}
+	.dynamic-bannerArea span {
+		margin-bottom: .65em;
+		font-size: 3.4vw;
+	}
+	.dynamic-bannerArea .slide a {
+		font-size: 3.2vw;
+	}
+	#new-carousel .slidenav {
+		bottom: 3px;
+		right: 21px;
+	}
+	#new-carousel .controls {
+		bottom: 3px;
+		left: 21px;
+	}
+}
+
+@media only screen and (max-width: 380px) and (-webkit-device-pixel-ratio : 2) {
+	.bannerArea {
+	    padding-bottom: 90%;
+	}
+	.bannerArea-inside {
+		top: 40%;
+	    width: 85%;
+	}
+	.b2b .bannerArea-inside, .corporate .bannerArea-inside, .media .bannerArea-inside, .marketing .bannerArea-inside, .inteligis .bannerArea-inside {
+		top: 50%;
+	    width: 85%;
+	}
+  .bannerArea-dynamicjob {
+	    padding-bottom: 90%;
+	}
+	.bannerArea-dynamicjob-inside {
+		top: 40%;
+	    width: 85%;
+	}
+	.dj-rsc .bannerArea-dynamicjob-inside {
+		top: 50%;
+	  width: 85%;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.talent-network-search-bottom-holder .talent-network-search-pages {
+		display: none;
+	}
+}

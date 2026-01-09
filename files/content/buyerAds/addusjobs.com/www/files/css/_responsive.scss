@@ -1,0 +1,1084 @@
+/* add sass util */
+@use "sass:color";
+@use "util";
+
+/* 1680 */
+@media screen and (max-width: 1680px) {
+
+
+.search-button {
+  background-size: 24px;
+}
+
+.search-accordion-button {
+  background-size: 20px;
+}
+
+#header {
+  .right-header {
+    .share-this {
+      >div {
+      }
+    }
+  }
+  .main-menu {
+    margin-top: 1%;
+    >ul>li>a {
+    }
+  }
+}
+
+.company-logos {
+  .main-logo {
+    max-width: 25%;
+  }
+}
+
+#company-logo-slider {
+  width: 73%;
+}
+
+.serving-patients-usa {
+  padding: 50px 0 60px;
+}
+
+.sub-featured-jobs.three-up {
+  ul {
+    li {
+      width: calc(33.33333333% - 30px); 
+    }
+  }
+}
+
+.our-values {
+  p {
+    color: #fff;
+  }
+}
+
+.talent-network {
+  .inner-wrap {
+    padding: 5% 0;
+  }
+}
+
+}
+
+/* 1400 */
+@media screen and (max-width: 1400px) {
+  #header {
+    .main-menu {
+      margin-top: 2px;
+    }
+  }
+  .wrap {
+    padding: 0 40px;
+  }
+}
+
+/* 1200 */
+@media screen and (max-width: 1200px) {
+.search-button {
+  background-size: 20px;
+}
+
+.search-accordion-button {
+  background-size: 18px;
+}
+
+#header {
+  .right-header {
+    .share-this { 
+      >ul>li>a {
+        height: 1.25rem;
+        width: 1.25rem;
+      }
+    }
+  }
+
+  .main-menu {
+    margin-top: -2px;
+    >ul>li {
+      margin: 0 0.25rem;
+      &:last-child {
+        margin: 0 0 0 .25rem; 
+      }
+      >a {
+        padding: .5rem;
+      }
+    }
+  }
+}
+
+  
+.serving-patients-usa {
+  padding: 50px 0 60px;
+
+  .map-col {
+    width: 40%;
+  }
+
+  .list-col {
+    width: 58%;
+
+  }
+}
+
+
+.our-values {
+  p {
+    color: #fff;
+  }
+
+  ul {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li {
+      width: 31%;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+
+  
+  .footer {
+
+    .footer-nav {
+      ul>li {
+        margin-right: 1.5%;
+        padding-right: 1.5%;
+      }
+    }
+  }
+  .sub-search {
+    padding: 20px 20px 10px;
+    .zip-search {
+      > input[id="id_zipcode"] {
+        padding-right: 3px;
+      }
+      > select {
+        padding-right: 3px;
+      }
+    }
+  }
+  
+  .footer {
+   
+
+    .footer-nav {
+      ul>li {
+        margin-right: 1.5%;
+        padding-right: 1.5%;
+
+        
+      }
+    }
+  }
+ 
+}
+
+@media screen and (max-width: 1100px) {
+  .career-highlights {
+    ul {
+      flex-wrap: wrap;
+      >li {
+        flex: 48%;
+      }
+    }
+  }
+}
+
+/* 1024 */
+@media screen and (max-width: 1024px) {
+
+
+  .search-button {
+    background-size: 20px;
+  }
+
+  .search-accordion-button {
+    background-size: 16px;
+  } 
+  #header {
+    .right-header {
+      .share-this {
+        margin-bottom: .5rem;
+     
+        >ul>li>a {
+          height: 1rem;
+          width: 1rem;
+        }
+      }
+    }
+
+    .main-menu {
+      >ul>li {
+        margin: 0 0.25rem;
+
+        >a {
+          padding: 0.25rem
+        }
+
+        &:last-child {
+          margin: 0 0 0 .25rem;
+          >a {
+            padding: .25rem 0 .25rem .25rem;
+          }
+        }
+      }
+    }
+  }
+ 
+
+
+  .sub-featured-jobs.three-up {
+    ul {
+      display: block;
+
+      li {
+        width: 100%;
+        margin-bottom: 40px;
+
+      }
+    }
+  }
+
+  #search-body {
+    @include util.clearfix();
+    border-top: none;
+    padding-top: 0px;
+  }
+  .sub-search,
+  .search-results-right {
+    float: none;
+    width: 100%;
+  }
+
+  .search-results,
+  .talent-network-form {
+    float: none;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+  .sub-search{
+    background-color: #093254;
+  margin: 0rem -2rem 0.625rem;
+  padding: 1rem;
+  width: calc(100% + 4rem);
+  .mobile-search-button {
+      display: block;
+      width: calc(100% - 30px);
+      margin: 0 auto;
+      text-align: left;
+      padding: 1.15rem;
+      background-color: #fff;
+      border: none;
+      background-position: calc(100% - 2rem) center;
+      background-repeat: no-repeat;
+      background-size: 28px;
+      cursor: pointer;
+      position: relative;
+
+      &.is-active {
+        .search-jobs-icon {
+          span {
+            background-color: transparent;
+
+            &:before {
+              transform: rotate(45deg);
+              top: 0;
+              width: 100%;
+            }
+
+            &:after {
+              transform: rotate(135deg);
+              bottom: 0;
+              width: 100%;
+            }
+          }
+        }
+      }
+
+      .search-jobs-icon {
+        position: absolute;
+        display: block;
+        height: util.$menuToggleWidth; //Use Width Variable to Make it a square
+        width: util.$menuToggleWidth;
+        float: right;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 20px;
+
+        span {
+          font-size: 0;
+          display: block;
+          width: 100%;
+          height: util.$menuToggleHeight;
+          background-color: util.$menuToggleBackgroundColor;
+          position: absolute;
+          top: 50%;
+          left: 0;
+          transform: translateY(-50%);
+          transition: all 0.25s ease-in-out;
+
+          &:before,
+          &:after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: util.$menuToggleHeight;
+            background-color: util.$menuToggleBackgroundColor;
+            transition: all 0.25s ease-in-out;
+          }
+
+          &:before {
+            position: absolute;
+            transform-origin: center;
+            top: -8px;
+            width: 80%;
+          }
+
+          &:after {
+            position: absolute;
+            transform-origin: center;
+            bottom: -8px;
+            width: 50%;
+          }
+        }
+
+
+      }
+    }
+ 
+    #search-form {
+      display: none;
+      padding: 15px;
+      background-color: #006fb9;
+      margin-top: 20px;
+      > ul {
+        display: block;
+        padding: 0;
+        > li {
+          display: block;
+          padding:0;
+        }
+      }
+    }
+
+.advanced-button {  
+  background-color: #fff;
+  color: util.$brightBlue;
+}
+
+    .zip-search {
+
+      > input[id="id_zipcode"],
+      > select {
+        margin-right: 5px;
+      }
+    }
+ 
+    .new-search-link {
+      float: none;
+    }
+  }
+  .search-results-right {
+    .recently-viewed-jobs,
+    .saved-jobs,
+    .sub-featured-jobs {
+      padding: 30px 20px;
+    }  
+  }
+  .job-details-btns {
+  margin: 30px 0;
+  display: block;;
+  >* {
+    display: block !important; 
+    margin: 0 0 10px;
+    text-align: center;
+    width: 100%;
+  }
+  form {
+    button {
+      width: 100%;
+    }
+  }
+}
+.search-headings {
+  margin: 30px 0; 
+  }
+
+}
+
+/* 960 */
+@media screen and (max-width: 960px) {
+  .serving-patients-usa {
+    .wrap.map-wrap {
+      display: block;
+    }
+
+    .map-col {
+      width: 90%;
+      margin: 0 auto 20px;
+      display: block;
+    }
+
+    .list-col {
+      width: 100%;
+      ul {
+        columns: 4;
+      }
+    }
+  }
+  .sub-featured-jobs.three-up {
+    ul {
+      display: block;
+
+      li {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .our-values {
+    p {
+      color: #fff;
+    }
+
+    ul {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      li {
+        width: 30%;
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .talent-network {
+    background-image: none;
+    background-color: util.$navy;
+
+    &:before {
+      background-image: url('../images/global/talent-network.jpg');
+      width: 100%;
+      padding-bottom: 45%;
+      background-size: cover;
+      background-position: center;
+      position: static;
+    }
+
+    &:after {
+      content: none;
+    }
+
+    .inner-wrap {
+      max-width: 100%;
+
+    }
+  }
+  .footer {
+
+    .social-media {
+      h3 {
+        display: block;
+        margin-bottom: 15px;
+      }
+
+    }
+  }
+  .dynamic-jobs-buttons {
+    > * {
+      display: block;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+/* 800 */
+@media screen and (max-width: 800px) {
+
+  #id-zipcode-btn {
+    background-size: 20px;
+  }
+
+  .search-button {
+    background-size: 20px;
+  }
+
+  .search-accordion-button,
+  .zip-search select {
+
+    background-size: 16px;
+  }
+  .job-search-bar {
+    .mobile-search-button {
+      display: block;
+      width: calc(100% - 30px);
+      margin: 0 auto;
+      text-align: left;
+      padding: 1.15rem;
+
+      background-color: #fff;
+      border: none;
+      background-position: calc(100% - 2rem) center;
+      background-repeat: no-repeat;
+      background-size: 28px;
+      cursor: pointer;
+      position: relative;
+
+      &.is-active {
+        .search-jobs-icon {
+          span {
+            background-color: transparent;
+
+            &:before {
+              transform: rotate(45deg);
+              top: 0;
+              width: 100%;
+            }
+
+            &:after {
+              transform: rotate(135deg);
+              bottom: 0;
+              width: 100%;
+            }
+          }
+        }
+      }
+
+      .search-jobs-icon {
+        position: absolute;
+        display: block;
+        height: util.$menuToggleWidth; //Use Width Variable to Make it a square
+        width: util.$menuToggleWidth;
+        float: right;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 20px;
+
+        span {
+          font-size: 0;
+          display: block;
+          width: 100%;
+          height: util.$menuToggleHeight;
+          background-color: util.$menuToggleBackgroundColor;
+          position: absolute;
+          top: 50%;
+          left: 0;
+          transform: translateY(-50%);
+          transition: all 0.25s ease-in-out;
+
+          &:before,
+          &:after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: util.$menuToggleHeight;
+            background-color: util.$menuToggleBackgroundColor;
+            transition: all 0.25s ease-in-out;
+          }
+
+          &:before {
+            position: absolute;
+            transform-origin: center;
+            top: -8px;
+            width: 80%;
+          }
+
+          &:after {
+            position: absolute;
+            transform-origin: center;
+            bottom: -8px;
+            width: 50%;
+          }
+        }
+
+
+      }
+    }
+
+    form#search-form {
+      display: none;
+      padding: 15px;
+      background-color: util.$brightBlue;
+      margin-top: 20px;
+
+      >ul {
+        display: block;
+        padding: 0;
+
+        >li {
+          display: block;
+          margin-bottom: 20px;
+          width: 100%;
+        }
+      }
+    }
+
+  }
+  #header {
+    .logo {
+      width: 125px;
+    }
+
+    .menu-toggle {
+      background: none;
+      border: none;
+      margin-top: 28px;
+      cursor: pointer;
+    }
+
+    .right-header {
+      margin-top: 0;
+
+      .menu-wrapper {
+        position: absolute;
+        float: none;
+        background-color: util.$navy;
+        width: 100%;
+        left: 0;
+        top: 109px;
+        z-index: 99;
+        flex-direction: column;
+        box-shadow: 0 0 8px rgba(0, 0, 0, .4);
+        display: none;
+      }
+
+      .share-this {
+        padding: 1rem;
+        text-align: center;
+        justify-content: center;
+
+        >div {
+          color: #fff;
+          text-transform: uppercase;
+         
+        }
+
+        >ul>li {
+          margin: 0 10px;
+          >a {
+            svg {
+              fill: #fff;
+            }
+            &:hover {
+              svg {
+                fill: util.$brightBlue;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .main-menu {
+      >ul {
+        >li {
+          display: block;
+          border-bottom: 1px solid util.$brightBlue;
+
+          >a {
+            
+            color: #fff;
+            padding: 1rem 3rem !important;
+            display: block;
+            text-align: center;
+
+            &:hover {
+              background-color: util.$brightBlue;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+  .hero-banner {
+    min-height: 0;
+    height: auto;
+    background-color: util.$navy;
+
+    &:before {
+      top: auto;
+      bottom: -300px;
+      transform: translateY(100%)
+    }
+
+    .hero-banner-image {
+      position: static;
+      background-image: url("../images/home/hero-banner-mobile.jpg");
+      background-position: center top;
+      padding-bottom: 55%;
+      background-size: cover;
+      height: 0;
+
+      &:before {
+        content: none;
+      }
+
+      &:after {
+        content: none;
+      }
+    }
+
+    .hero-banner-content {
+      position: static;
+      transform: none;
+
+    }
+  }
+  .company-logos {
+    border-bottom: 1px solid rgba(#000, .2);
+    .inner {
+      display: block;;
+    }
+    .main-logo {
+      width: 33%;
+      display: block;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  .splide__pagination {
+    display: none;
+  }
+
+  #company-logo-slider {
+    width: 100%;
+  }
+  
+  .mission-statement {
+    .wrap {
+      display: block;
+    }
+
+    .img-column {
+      display: block;
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    .text-column {
+      width: 100%;
+      text-align: center;
+     
+    }
+  }
+  .career-highlights {
+    ul {
+      display: block;
+
+      >li {
+        width: 100%;
+        margin-bottom: 20px;
+
+      }
+    }
+  }
+  .serving-patients-usa {
+    .list-col {
+      ul {
+        columns: 3;
+      }
+
+      .legend {
+        display: block;
+        text-align: center;
+
+        span {
+          display: block;
+          margin-top: 10px;
+         
+        }
+      }
+    }
+  }
+  .sub-featured-jobs.three-up {
+    ul {
+      display: block;
+
+      li {
+        width: 100%;
+        margin-bottom: 30px;
+
+      }
+    }
+  }
+  .our-values {
+    p {
+      
+      color: #fff;
+    }
+
+    ul {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      li {
+        width: 45%;
+        margin-bottom: 25px;
+
+      }
+    }
+  }
+  
+  .footer {
+    
+    .social-media {
+      h3 {
+        display: block;
+        margin-bottom: 15px;
+      }
+
+    }
+
+    
+    }
+  
+  .sub-search {
+  
+    .new-search-link {
+      float: none;
+    }
+  }
+  
+    
+
+ .job-info {
+  display: block;
+  .logo-col {
+    padding: 30px;
+    text-align: center;
+    width: auto;
+    display: block;
+    margin-bottom: 20px;
+    img {
+      max-width: 90%;
+      position: static;
+      transform: translate(0);
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .data-col {
+    width: 100%;
+   padding:0;
+  }
+ }
+
+  .dynamic-jobs-info {
+   
+    dl {
+      text-align: center;
+      div {
+        display: block;
+      }
+    }
+  }
+  .responsibilities {
+    .wrap {
+      flex-direction: column;
+    }
+    .image-col {
+      width: 50%;
+    }
+    .content-col {
+      width: 100%;
+      
+    }
+  }
+  .qualifications {
+    .wrap {
+      flex-direction: column;
+    }
+    .image-col {
+      width: 50%;
+    }
+    .content-col {
+      width: 100%;
+   
+    }
+  }
+  .benefits { 
+    ul {
+      flex-wrap: wrap;
+      > li {
+        flex:50%; 
+      }
+  
+    } 
+  }
+  .two-col-content {
+    .flex-wrap {
+      flex-direction: column;
+    }
+    
+  }
+
+}
+/* 480px */
+@media screen and (max-width: 480px) {
+	
+    .open-popup {
+     bottom: 0;
+      width: 100%;
+      right:auto;
+      border-right: none;
+      border-bottom: none;
+      border-left: none;
+      border-radius: 0; 
+      justify-content: center;
+      padding:.5rem;
+    }
+    
+	#id-zipcode-btn {
+		background-size: 20px;
+	}
+
+	.search-button {
+		background-size: 20px;
+	}
+
+	.search-accordion-button,
+	.zip-search select {
+		background-size: 16px;
+	}
+
+	
+  #header {
+    .main-menu {
+      >ul {
+        >li {
+          display: block;
+          border-bottom: 1px solid util.$brightBlue;
+
+          >a {
+            color: #fff;
+            padding: 1rem 3rem !important;
+            display: block;
+            text-align: center;
+
+            &:hover {
+              background-color: util.$brightBlue;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .company-logos {
+    .main-logo {
+      width: 70%;
+    }
+  }
+
+  .mission-statement {
+    .wrap {
+      display: block;
+    }
+
+    .img-column {
+      display: block;
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    .text-column {
+      width: 100%;
+
+    }
+  }
+  .career-highlights {
+    ul {
+      display: block;
+
+      >li {
+        width: 100%;
+
+      }
+    }
+  }
+  .serving-patients-usa {
+    .list-col {
+    
+
+      ul {
+        columns: 2;
+     }
+
+    }
+  }
+  .sub-featured-jobs.three-up {
+    ul {
+      display: block;
+
+      li {
+        width: 100%;
+        margin-bottom: 30px;
+
+
+      }
+    }
+  }
+  .our-values {
+    p {
+      color: #fff;
+    }
+
+    ul {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      li {
+        width: 100%;
+        margin-bottom: 25px;
+
+      }
+    }
+  }
+ 
+.footer {
+
+    .social-media {
+      h3 {
+        display: block;
+        margin-bottom: 15px;
+      }
+
+    }
+
+    .footer-nav {
+      ul>li {
+        display: block;
+        border-right: none;
+        margin-right: 0;
+        padding-right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.201);
+        max-width: 300px;
+        margin: 0 auto 10px;
+        padding-bottom: 10px;
+
+        &:last-child {
+          border-bottom: none;
+          margin: 0 auto 10px;
+        }
+
+     }
+    }
+  }
+	.sub-search {
+   .new-search-link {
+      float: none;
+    }
+  }
+}

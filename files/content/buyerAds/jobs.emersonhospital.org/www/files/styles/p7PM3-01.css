@@ -1,0 +1,266 @@
+.p7PM3-01 {
+	line-height: .9em !important;
+	font-size: 1em !important;
+	font-family: Helvetica, "Trebuchet MS", Arial, sans-serif;
+	-webkit-transform-style: preserve-3d;
+	width: 100%;
+	margin-bottom: 0px; /*menu top margin*/
+}
+.p7PM3-01.horiz {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.pmm3-toolbar {
+	display: none;
+}
+.p7PM3-01 a img {
+	border: none;
+	vertical-align: bottom;
+}
+.p7PM3-01.menu-centered {
+	text-align: center;
+}
+.p7PM3-01.menu-right {
+	text-align: right;
+}
+.p7PM3-01:after {
+	content: "\0020";
+	clear: both;
+	font-size: 0px;
+	line-height: 0;
+	display: inline;
+	height: 0px;
+}
+.p7PM3-01 ul {
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.p7PM3-01 ul li {
+	list-style-type: none;
+	float: left;
+	position: relative;
+}
+.p7PM3-01 ul li a { /*Menu spacing, border and text color- Steve*/
+	display: block;
+	padding: 12px 18px 12px 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-position: left center;
+	background-repeat: no-repeat;
+	border-bottom: 1px solid #000000;
+}
+.p7PM3-01 ul li a.pm3-link:hover { /*Single bar hover- Steve*/
+	color: #000000;
+	background-color: #09a356;
+}
+.p7PM3-01 a.trig_closed {
+	background-repeat: no-repeat;
+	background-image: url(../../p7pm3/url);
+}
+.p7PM3-01 a.trig_open { /*select sub item bar - Steve*/
+	background-image: url(../../images/nav-arrows/down-arrow-white.png);
+	background-color: #000000;
+	color: #FFFFFF;
+	background-repeat: no-repeat;
+}
+.p7PM3-01 ul ul li a { /*sub item bar - Steve*/
+	color: #FFFFFF;
+	font-size: 1em;
+	border-bottom: 1px solid #6B9BC3;
+}
+.p7PM3-01 ul ul li:last-child a {
+	border-bottom: 1px solid #0E4C7F;
+}
+.p7PM3-01 ul ul li a.pm3-link:hover, .p7PM3-01 ul ul li a.trig_open { /*sub hover - Steve*/
+	background-color: #008357;
+	color: #0E4C7F;
+}
+/*Turn off BG Image for links that are not triggers*/
+.p7PM3-01 ul li a.pm3-link, .p7PM3-01 ul li a.pm3-link:hover {
+	background-image: none;
+}
+.p7PM3-01 ul ul {
+	background: linear-gradient(90deg, rgba(34,34,34,1), rgba(0,0,0,1));
+	background-color: #000000;
+	display: block;
+	text-align: left;
+	width: 100%;
+}
+.p7PM3-01.transparent ul ul {
+}
+.p7PM3-01.shadows ul ul {
+	box-shadow: 10px 10px 30px #000000;
+	-webkit-box-shadow: 10px 10px 30px #000000;
+}
+.p7PM3-01.auto-subs ul ul {
+	width: auto;
+}
+.p7PM3-01.auto-subs ul ul li a {
+	white-space: nowrap;
+}
+.p7PM3-01 ul ul li {
+	position: relative;
+	float: none;
+	margin: 0px;
+	padding: 0px;
+}
+/*IMAGE LINKS*/
+.p7PM3-01 .p7PM3_img {
+	border: none;
+	padding: 0px;
+	text-align: center;
+	background: none !important;
+}
+.p7PM3-01 .p7PM3_img img {
+	border: none;
+	width: auto !important;
+	height: auto !important;
+	max-width: 100%;
+	vertical-align: bottom;
+}
+/*CURRENT MARK 
+.p7PM3-01 ul li a.current_mark {
+	text-shadow: -.5px 0px 0px #000;
+}
+.p7PM3-01 ul ul li a.current_mark {
+	color: #FFF;
+	font-weight: bold;
+	text-shadow: none;
+}
+.p7PM3-01.vert ul li a.current_mark {
+	font-weight: bold;
+	text-shadow: none;
+}
+/*
+NO-SCRIPT RULES
+The following rules enable your menu to work even when javascript is disabled in the browser
+*/
+.p7PM3-01.p7PM3noscript {
+	position: relative;
+}
+.p7PM3-01.p7PM3noscript ul ul {
+	position: absolute;
+	display: none !important;
+	top: 100%;
+}
+.p7PM3-01.p7PM3noscript ul ul ul {
+	display: none !important;
+	top: 0px;
+	left: 100%;
+}
+.p7PM3-01.vert.p7PM3noscript ul ul {
+	top: 0px;
+	left: 100%;
+}
+.p7PM3-01.p7PM3noscript li:hover ul {
+	display: block;
+}
+.p7PM3-01.p7PM3noscript li:hover ul ul, .p7PM3-01.p7PM3noscript li:hover ul ul ul, .p7PM3-01.p7PM3noscript li:hover ul ul ul ul, .p7PM3-01.p7PM3noscript li:hover ul ul ul ul ul, .p7PM3-01.p7PM3noscript li:hover ul ul ul ul ul ul {
+	display: none !important;
+}
+.p7PM3-01.p7PM3noscript li li:hover ul, .p7PM3-01.p7PM3noscript li li li:hover ul, .p7PM3-01.p7PM3noscript li li li li:hover ul, .p7PM3-01.p7PM3noscript li li li li li:hover ul, .p7PM3-01.p7PM3noscript li li li li li li:hover ul {
+	display: block;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 7000px) {
+.p7PM3-01.responsive:after {
+	display: none !important;
+}
+.p7PM3-01.responsive .pmm3-toolbar {
+	display: block;
+	padding: 8px;
+	text-align: right;
+	cursor: pointer;
+}
+.p7PM3-01.responsive .pmm3-toolbar a { /*menuIcon -Steve*/
+}
+.p7PM3-01.responsive .pmm3-toolbar a:hover {
+}
+.p7PM3-01.responsive .toggle-text.closed a:before {
+	content: "Show Menu \0020";
+	font-size: .5em;
+}
+.p7PM3-01.responsive .toggle-text.opened a:before {
+	content: "Hide Menu \0020";
+	font-size: .5em;
+}
+.p7PM3-01.responsive .pmm3-toolbar {/*sets distance of menu box from menu button steve*/
+	display: block;
+	float: right;
+	width: auto;
+/*	margin-top: 8px;*/
+	margin-bottom: 16px;
+}
+.p7PM3-01.responsive {
+	text-align: left !important;
+}
+.p7PM3-01.responsive.vert ul {
+	margin-top: 0px;
+}
+.p7PM3-01.responsive ul {
+	display: block;
+}
+.p7PM3-01.responsive ul li { /*menu item background color*/
+	float: none;
+	margin-right: 0px;
+	clear: both;
+	background-color: #008357;
+}
+.p7PM3-01.responsive a.trig_closed:hover { /*hover sub color*/
+	background-color: #CEDBDF;
+	color: #000000;
+}
+.p7PM3-01.responsive ul ul {
+	position: static !important;
+	width: auto;
+}
+.p7PM3-01.responsive .pmm3-title-bar {
+	padding: 10px 18px 12px;
+}
+.p7PM3-01.responsive ul ul a, .p7PM3-01.responsive ul ul .pmm3-title-bar {
+	padding-left: 24px;
+}
+.p7PM3-01.responsive ul ul ul a, .p7PM3-01.responsive ul ul ul .pmm3-title-bar {
+	padding-left: 32px;
+}
+.p7PM3-01.responsive ul.closed {
+	display: none !important;
+}
+.p7PM3-01.responsive ul.opened {
+	display: block;
+}
+.p7PM3-01.responsive.rounded, .p7PM3-01.responsive.rounded * {
+	border-radius: 0px !important;
+}
+.p7PM3-01.responsive.shadows * {
+	box-shadow: none !important;
+}
+.p7PM3-01_crumbs {
+	display: none !important;
+}
+.p7PM3-01_crumbs.show-mobile {
+	display: block;
+}
+.p7PM3.responsive.select .pmm3-select-wrapper {
+	display: block;
+	padding: 10px;
+}
+.p7PM3.responsive.select select {
+	width: 100%;
+	font-size: 1em;
+	padding: 4px;
+}
+.p7PM3.responsive.select .pmm3-toolbar {
+	display: none;
+}
+.p7PM3.responsive.select ul {
+	display: none !important;
+}
+/*Workaround for very old Android devices*/
+.p7PM3-01 div {
+	left: 0px !important;
+	top: 0px !important;
+}
+/*End old Android workaround*/

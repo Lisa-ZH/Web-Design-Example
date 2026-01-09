@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Apexnew';
+    src: url('ufonts.com_apexnew-book-opentype.otf') format('otf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apex-heavy';
+    src: url('ufonts.com_apexnew-heavy-opentype.otf') format('otf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+

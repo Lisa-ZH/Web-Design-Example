@@ -1,0 +1,2864 @@
+@media only screen and (max-width: 1500px) {
+  .talent-network-inside {
+    width: 100%;
+  }
+  .talent-network-sub-copy {
+    font-size: 1.45vw;
+    line-height: 1em;
+  }
+  .banner-area-sub-copy h2 {
+    font-size: 3.2vw;
+  }
+  .banner-area-sub-copy h1 {
+    font-size: 4vw;
+  }
+  .banner-area-sub-copy h3 {
+    font-size: 1.4vw;
+  }
+  .footer-legal {
+    font-size: 1vw;
+  }
+  .navbottom li {
+    font-size: 1vw;
+  }
+  .footer-eoe {
+    font-size: 1vw;
+  }
+  .footer-tagline {
+    font-size: 1.5vw;
+  }
+  .flex-item {
+    line-height: 1vw;
+    font-size: 1.2vw;
+  }
+  .bonus-banner .copy h2 {
+    font-size: 2.75vw;
+  }
+  .bonus-banner .copy p {
+    font-size: 2.2vw;
+  }
+  .bonus-banner .copy {
+    transform: translatex(5%);
+  }
+  .covid-banner .inside p {
+    font-size: 1.3vw;
+  }
+	.fraud-banner .inside p {
+	 font-size: 1.3vw;
+}
+  .featured-jobs-front h2 {
+    font-size: 3vw;
+    line-height: 1.2em;
+  }
+	.fraud-banner .inside h2 {
+    font-size: 2.5vw;
+    line-height: 1.2em;
+}
+  #job-list-section li dl div {
+    margin: 5px 5px 5px 0px;
+  }
+  .nursing-nimbleness .inner, .support-callout .inner, .non-clinical-callout .inner, .new-grad-growth .inner {
+    width: 100%;
+    max-width: 1550px;
+  }
+  .corp-smallteam .inner {
+    width: 100%;
+    max-width: 1550px;
+  }
+  .businesses-callout-01 .inner {
+    width: 100%;
+    max-width: 1550px;
+  }
+	.bonus-callout-main .inner {
+    width: 100%;
+    max-width: 1550px;
+  }
+  .extra-benefits .inner {
+    width: 100%;
+    max-width: 1550px;
+  }
+  section.culture-corevalues .inner h2 {
+    font-size: 3vw;
+    line-height: 1.1em;
+  }
+  section.nursing-bonus h2 {
+    font-size: 2.8vw;
+  }
+  .values-container h2 {
+    font-size: 3vw;
+    line-height: 1.1em;
+  }
+  .values-container p {
+    font-size: 1.5vw;
+    line-height: 1.3em;
+  }
+  .values-container li {
+    font-size: 1.5vw;
+    line-height: 1.12em;
+  }
+	.map-row p {
+  font-size: 1.6vw; 
+}
+	.bonus-callout-main h2 {
+    font-size: 2vw;
+    
+}
+	.bonus-callout-main p {
+    font-size: 1.5vw;
+    
+}
+#mainpgvideo.inner h2 {
+   	font-size: 1.8vw;		
+}
+#mainpgvideo.inner h3 {
+	font-size: 1.2vw;
+}
+.global-dual-copy h2 {
+  font-size: 2.1vw;
+}
+.global-dual-copy li a {
+   font-size: 1.5vw;
+  line-height: 1.1vw;
+ 
+}
+}
+@media only screen and (max-width: 1320px) {
+  header, header.fix {
+    /*		padding: 20px 30px 20px 30px;*/
+    /*		width: calc(100% - 60px);*/
+  }
+  header nav {
+    right: 30px;
+    z-index: 1;
+  }
+  header .accordion-section-content-hamburger > ul > li a, header.fix .accordion-section-content-hamburger > ul > li a {
+    /*		padding: 25px 13px 25px 13px;*/
+  }
+  header.fix .accordion-section-content-hamburger > ul > li:last-child a, header .accordion-section-content-hamburger > ul > li:last-child a {
+    /*		padding: 25px 0px 25px 13px;*/
+  }
+  header .accordion-section-content-hamburger > ul > li a.accordion-section-title-hamburger2, header.fix .accordion-section-content-hamburger > ul > li a.accordion-section-title-hamburger2 {
+    /*		padding: 25px 33px 25px 13px;*/
+  }
+  main, header.fix + main {
+    /*		margin-top: 68px;*/
+  }
+  .shareThis {
+    display: block;
+    text-align: left;
+    letter-spacing: .05em;
+    position: relative;
+    transform: translateY(0%);
+    margin: 0px 0px 10px 0px;
+    z-index: 1;
+  }
+  .shareThisMain {
+    display: block;
+    text-align: center;
+    letter-spacing: .05em;
+    position: block;
+    width: 50%;
+    margin: 0px auto 10px;
+    left: 50%;
+    transform: translatex(-50%);
+    z-index: 1;
+  }
+	.map-right .shareThis {
+    display: block;
+    vertical-align: middle;
+    margin: 0;
+    color: rgba(0, 104, 179, .8);
+    font-size: 1em;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0em;
+}
+}
+@media only screen and (max-width: 1200px) {
+  .search-bar-inside {
+    width: 98%;
+    max-width: 1500px;
+    margin: 0px auto;
+    text-align: center;
+  }
+  .featured-jobs-front {
+    padding: 40px 0px 40px;
+  }
+  .featured-jobs-front h2 {
+    width: 90%;
+    text-align: center;
+  }
+  .featured-jobs-front .featured-jobs-bottom {
+    width: 85%;
+    margin: 20px auto 0px auto;
+    display: block;
+  }
+  .featured-jobs-front .featured-jobs-bottom > div {
+    width: 90%;
+    display: block;
+    max-width: 650px;
+    margin: 0px auto 0px;
+    border-bottom: 1px dashed rgba(84, 88, 91, .45);
+    padding: 30px 5% 40px 5%;
+    text-align: center;
+  }
+  .featured-jobs-front .featured-jobs-bottom > div:first-child {
+    padding: 0px 5% 40px 5%;
+    margin: 0px auto 0px;
+  }
+  .featured-jobs-front .featured-jobs-bottom > div:last-child {
+    margin: 0px auto 0px;
+    padding: 30px 5% 0px 5%;
+    border-bottom: 0px dotted rgba(67, 176, 42, .25);
+  }
+  .featured-jobs-front .featured-jobs-bottom h4 {
+    margin: 0px 0px 10px;
+    font-size: 2.5vw;
+    min-height: 0;
+	  line-height: 1.2em;
+    border-image: linear-gradient(90deg, rgb(241, 240, 234, .05), rgb(0, 125, 195), rgb(241, 240, 234, .05)) 1;
+  }
+  .featured-jobs-front .featured-jobs-bottom span:nth-child(2) {
+    margin: 0px 0px 10px;
+  }
+  .featured-jobs-front .featured-jobs-bottom span {
+    display: block;
+	      margin-bottom: 15px;
+  }
+  .featured-jobs-front .featured-jobs-bottom a {
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    padding: 18px 40px 20px 40px;
+    margin-top: 0px;
+  }
+  .featured-jobs-front .featured-jobs-bottom a:hover {
+    background-position: 87% 48.5%;
+    padding: 18px 55px 20px 40px;
+  }
+  .featured-jobs-front .featured-jobs-bottom a:hover {
+    background-position: 87% 48.5%;
+  }
+  .talent-network-inside .table-text a {
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    padding: 18px 40px 20px 40px;
+    margin-top: 0px;
+  }
+  .talent-network-inside .table-text a:hover {
+    background-position: 87% 48.5%;
+    padding: 18px 55px 20px 40px;
+  }
+  .talent-network-inside .table-text a:hover {
+    background-position: 87% 48.5%;
+  }
+  .talent-network-sub-copy {
+    font-size: 1.7vw;
+    line-height: 1em;
+  }
+  .front-page-search .search-field {
+    width: calc(40% - 8px);
+  }
+  .front-page-search .search-field:nth-child(2) {
+    display: none;
+  }
+  .utility-btn {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: .01em;
+    padding: 11px 21px 13px 21px;
+  }
+  .utility-btn:hover, .utility-btn:focus, .utility-btn:active {
+    color: #ffffff;
+    padding: 11px 36px 13px 21px;
+  }
+  .utility-btn::before {
+    width: 9px;
+    height: 9px;
+    top: 50%;
+    right: 21px;
+  }
+  .new-slide-copy {
+    top: 20%;
+    left: 15%;
+    transform: translate(-20%, 0%);
+    width: 40%;
+  }
+  #new-carousel-mainpg {
+    padding-top: 500px;
+  }
+  .about-phil h2 {
+    font-size: 2.75vw;
+    line-height: 1em;
+  }
+  .extra-benefits h3 {
+    font-size: 2vw;
+  }
+  .extra-benefits .inner {
+    font-size: 1.2vw;
+    line-height: 1.5em;
+  }
+}
+@media only screen and (max-width: 1040px) {
+  header, header.fix {
+    /*padding: 20px 36px 10px 34px;
+		width: calc(100% - 50px);*/
+  }
+  header .logo-holder, header.fix .logo-holder {
+    /*
+		width: 250px;
+		padding-bottom: 21px;
+*/
+  }
+  header .accordion-section-content-hamburger > ul > li a, header.fix .accordion-section-content-hamburger > ul > li a {
+    font-size: 16px;
+    line-height: 16px;
+    /*		padding: 17px 11px 17px 11px;*/
+  }
+  header.fix .accordion-section-content-hamburger > ul > li:last-child a, header .accordion-section-content-hamburger > ul > li:last-child a {
+    /*		padding: 17px 0px 17px 11px;*/
+  }
+  header .accordion-section-content-hamburger > ul > li a.accordion-section-title-hamburger2, header.fix .accordion-section-content-hamburger > ul > li a.accordion-section-title-hamburger2 {
+    /*		padding: 17px 24px 17px 11px;*/
+  }
+  header .accordion-section-content-hamburger > ul > li a.accordion-section-title-hamburger2::after {
+    right: 11px;
+    width: 7px;
+    height: 7px;
+  }
+  main, header.fix + main {
+    /*		margin-top: 48px;*/
+  }
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none !important;
+  }
+  .featured-jobs-front .featured-jobs-bottom h4 {
+    font-size: 2.5vw;
+  }
+  .benefits-box {
+    width: 33%;
+    margin: 0px 1% 30px 1%;
+  }
+  .benefits-box2 {
+    width: 33%;
+    margin: 0px 1% 30px 1%;
+    min-height: 12.7em;
+  }
+  .benefits-box-top, .benefits-box-top-green {
+    width: 50%;
+    margin: 0px auto 0px auto;
+  }
+  .benefits-box-btm {
+    font-size: 1.6vw;
+    line-height: 1.1em;
+    margin-top: 20px;
+  }
+  .benefits-box a .benefit-description {
+    width: 120%;
+    min-height: 180px;
+  }
+  .benefits-row2-inside {
+    width: 96%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+
+	section.nursing-bonus .inner h2 {
+    font-size: 2.5vw;
+    line-height: 1.1em;
+  }
+/*
+	.nursing-bonus-txt{
+	font-size: 2.5vw;
+    line-height: 1.1em;
+}
+*/
+	
+  .allied-programs h2 {
+    font-size: 3vw;
+    line-height: 1em;
+  }
+  .allied-programs p {
+    font-size: 2vw;
+    line-height: 1.3em;
+  }
+  .nursing-nimbleness h2, .support-callout h2, .non-clinical-callout h2, .new-grad-growth h2 {
+    font-size: 3vw;
+    line-height: 1em;
+    width: 100%;
+  }
+  .nursing-nimbleness p, .support-callout p, .non-clinical-callout p, .new-grad-growth p {
+    font-size: 2vw;
+    line-height: 1.3em;
+    width: 100%;
+  }
+  .corp-smallteam h2 {
+    font-size: 3vw;
+    line-height: 1em;
+    width: 100%;
+  }
+  .corp-smallteam p {
+    font-size: 2vw;
+    line-height: 1.3em;
+    width: 100%;
+  }
+  .businesses-callout-01 h2 {
+    font-size: 3vw;
+    line-height: 1em;
+    width: 100%;
+  }
+  .businesses-callout-01 h3 {
+    font-size: 2.5vw;
+    line-height: 1em;
+    width: 100%;
+  }
+  .businesses-callout-01 p {
+    font-size: 2vw;
+    line-height: 1.3em;
+    width: 100%;
+  }
+	 .bonus-callout-main h2 {
+    font-size: 3vw;
+  }
+  .bonus-callout-main p {
+    font-size: 2vw;
+  }
+  .career-areas h2 {
+    font-size: 3vw;
+  }
+  .career-areas p {
+    font-size: 2vw;
+  }
+  .extra-benefits h2 {
+    font-size: 2.25vw;
+    line-height: 1em;
+    width: 100%;
+  }
+  .extra-benefits p {
+    font-size: 2vw;
+    line-height: 1.3em;
+    width: 100%;
+  }
+	.culture-employees .callout-singleimage .title p {
+    font-size: 2vw;
+    line-height: 1.3em;
+}
+  section.culture-employees .inner p {
+    font-size: 2vw;
+    line-height: 1.3em;
+    margin: 15px auto 0px;
+  }
+  section.culture-employees h2 {
+    font-size: 3vw;
+    line-height: 1.1em;
+  }
+  .mjhs-benefits h2 {
+    font-size: 3vw;
+  }
+  section.culture-intro .inside p {
+    font-size: 2vw;
+  }
+  section.benefits-intro .inside h2, section.culture-intro .inside h2, section.businesses-intro .inside h2, section.talent-areas-intro .inside h2,
+	section.privacy-intro .inside h2{
+    font-size: 3vw;
+    line-height: 1.1em;
+  }
+  section.benefits-intro .inside, section.businesses-intro .inside, section.talent-areas-intro .inside, section.privacy-intro .inside {
+    padding: 2em 0 2em;
+    width: 90%;
+  }
+  section.benefits-intro .inside p, section.businesses-intro .inside p, section.talent-areas-intro .inside p,
+	section.privacy-intro .inside p {
+    font-size: 2vw;
+  }
+  .elderplan-principles .copy {
+    padding: 3em 0 3em;
+    width: 90%;
+    max-width: none;
+    display: block;
+    margin: 0px auto;
+  }
+  .hospice-settings .copy h2 {
+    max-width: none;
+    font-size: 2.5vw;
+    line-height: 1.2em;
+  }
+  .hospice-settings .copy {
+    padding: 3em 0 3em;
+    width: 90%;
+    max-width: none;
+    display: block;
+    margin: 0px auto;
+  }
+  .hospice-settings .copy h2 {
+    max-width: none;
+    font-size: 2.5vw;
+    line-height: 1.2em;
+  }
+  .hospice-settings p {
+    font-size: 2vw;
+    line-height: 1.3em;
+    width: 100%;
+  }
+  .hospice-settings li {
+    font-size: 2.5vw;
+  }
+  header, header.fix {
+    padding: 20px 36px 20px 34px;
+  }
+  .talent-network, #talent-image02, #talent-image03 {
+    background-image: none;
+  }
+  .talent-network-inside {
+    width: 100%;
+  }
+  .talent-network-inside .table {
+    display: block;
+  }
+  .talent-network-inside .row {
+    display: block;
+  }
+  .talent-network-inside .cell {
+    display: block;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 56.58%;
+    background-image: url("../images/main/mobile/talent-network-mobile.jpg");
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+  #talent-image02 .talent-network-inside .cell {
+    display: block;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 56.58%;
+    background-image: url("../images/main/mobile/talent-network-v2-mobile.jpg");
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+  #talent-image03 .talent-network-inside .cell {
+    display: block;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 56.58%;
+    background-image: url("../images/main/mobile/talent-network-v3-mobile.jpg");
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+  .talent-network-inside .table-text {
+    text-align: center;
+    width: 85%;
+    max-width: 700px;
+    padding: 20px 0px 40px;
+    display: block;
+    margin: 0px auto;
+  }
+  .talent-network-inside .table-text .section-header-large {
+    font-size: 3.5vw;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+  }
+  .talent-network-inside .table-text a {
+    margin-top: 0em;
+    left: 0px;
+  }
+  .talent-network-right {
+    display: none !important;
+  }
+  .content-inner-holder {
+    width: 100%;
+    margin: 0px auto 50px;
+  }
+  .content-search-results-left {
+    display: block;
+    width: 90%;
+    margin: 5% auto 3%;
+    float: none;
+    min-height: 0;
+  }
+  .content-search-results-right {
+    display: block;
+    width: 90%;
+    margin: 0px auto;
+    float: none;
+  }
+  .talent-network-sub-copy {
+    font-size: 4.8vw;
+    line-height: 1em;
+  }
+  .talent-network-sub-copy span {
+    padding: 4% 10%;
+  }
+  .google-job-map {
+    padding-bottom: 400px;
+    margin-bottom: 20px;
+  }
+  .google-job-map iframe {
+    height: 400px;
+  }
+  .upload-buttons-holder button {
+    font-size: .9em;
+    width: 225px;
+  }
+  .desktop-upload + label {
+    width: auto !important;
+    font-size: .9em;
+  }
+  .dropbox-dropin-btn, .dropbox-dropin-btn:link, .dropbox-dropin-btn:hover {
+    font-size: .9em !important;
+  }
+  #page-name {
+    position: relative;
+    padding-bottom: 35%;
+  }
+  .mobile-search {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    z-index: 10000000000;
+    background-color: rgba(255, 255, 255, 1);
+    background-image: linear-gradient(rgba(19, 60, 85, 0) 40%, rgba(19, 60, 85, .04));
+    -moz-box-shadow: 0px -2px 8px rgba(19, 60, 85, .1);
+    -webkit-box-shadow: 0px -2px 8px rgba(19, 60, 85, .1);
+    box-shadow: 0px -2px 8px rgba(19, 60, 85, .1);
+    text-align: center;
+  }
+  a.mobile-search-title {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 400;
+    letter-spacing: .02em;
+    padding: 9px 43px 11px 20px;
+    margin: 10px auto 5px;
+    text-align: left;
+    color: #ffffff;
+    background-color: rgba(3, 68, 105, 1);
+    border-radius: 50px;
+    position: relative;
+    z-index: 2;
+    -moz-box-shadow: 1px 2px 3px rgba(19, 60, 85, .1);
+    -webkit-box-shadow: 1px 2px 3px rgb(19 60 85 / 10%);
+    box-shadow: 1px 2px 3px rgb(19 60 85 / 10%);
+    border: 2px solid rgba(3, 68, 105, .5);
+    background-image: linear-gradient(rgba(3, 68, 105, .5), rgba(3, 68, 105, .5));
+    /* text-shadow: 1px 1px 1px rgb(255 255 255 / 50%); */
+    overflow: hidden;
+    -webkit-transition: all .15s ease-in-out .15s;
+    transition: all .15s ease-in-out .15s;
+  }
+  a.mobile-search-title:hover, a.mobile-search-title:focus, a.mobile-search-title:active {
+    color: rgba(34, 154, 221, 1) !important;
+    text-shadow: 1px 1px 1px rgba(250, 110, 30, 0);
+    -webkit-transition: all .25s ease-in-out .05s;
+    transition: all .25s ease-in-out .05s;
+  }
+  a.mobile-search-title.active {
+    width: calc(100% - 94px);
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+    letter-spacing: .02em;
+    padding: 2px 53px 2px 35px;
+    margin: 5px auto 0px;
+    text-align: right;
+    color: rgba(34, 154, 221, 1);
+    background-color: #ffffff;
+    border-radius: 50px;
+    -moz-box-shadow: 1px 2px 3px rgba(19, 60, 85, 0);
+    -webkit-box-shadow: 1px 2px 3px rgba(19, 60, 85, 0);
+    box-shadow: 1px 2px 3px rgba(19, 60, 85, 0);
+    border: 2px solid rgba(247, 147, 30, 0);
+    background-image: none;
+    text-shadow: 1px 1px 1px rgba(250, 110, 30, 0);
+    -webkit-transition: all .15s ease-in-out 0s;
+    transition: all .15s ease-in-out 0s;
+  }
+  .mobile-search-title.active:hover, .mobile-search-title.active:focus, .mobile-search-title.active:active {
+    color: rgba(34, 154, 221, 1);
+    background-color: #ffffff;
+  }
+  .mobile-search-title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: linear-gradient(rgba(19, 60, 85, 0) 60%, rgba(19, 60, 85, .05));
+    background-color: rgba(255, 255, 255, 1);
+    transform: translateX(-105%);
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  .mobile-search-title.active::before {
+    background-image: linear-gradient(rgba(255, 158, 0, 0), rgba(255, 135, 0, 0));
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+  }
+  .mobile-search-title:hover::before, .mobile-search-title:focus::before, .mobile-search-title:active::before {
+    transform: translateX(0%)
+  }
+  .mobile-search-title::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 21px;
+    transform: translateY(-50%);
+    width: 14px;
+    height: 14px;
+    background-image: url("../images/global/magnifying-glass-white.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    -webkit-transition: all .1s ease-in-out .05s;
+    transition: all .1s ease-in-out .05s;
+  }
+  .mobile-search-title:hover::after, .mobile-search-title:focus::after, .mobile-search-title:active::after {
+    background-image: url("../images/global/magnifying-glass.png");
+    -webkit-transition: all .1s ease-in-out .25s;
+    transition: all .1s ease-in-out .25s;
+  }
+  .mobile-search-title.active::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 35px;
+    transform: translateY(-50%) rotateZ(0deg);
+    width: 13px;
+    height: 13px;
+    background-image: url("../images/global/x-white.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 7px;
+    background-color: rgba(34, 154, 221, 1);
+    -webkit-transition: all .4s ease-in-out 0s;
+    transition: all .4s ease-in-out 0s;
+    border-radius: 50%;
+  }
+  .mobile-search-content {
+    display: none;
+    margin: 0px auto;
+    padding: 20px 30px 16px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-bottom: 5px solid #153c54;
+  }
+  .mobile-search-content::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    background-image: linear-gradient(rgba(0, 36, 204, .9), rgba(37, 183, 234, 1));
+  }
+  .mobile-search-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -15px;
+    right: -15px;
+    bottom: -5px;
+    z-index: 0;
+    box-shadow: inset 1px 2px 25px rgba(19, 60, 85, .5);
+    background-image: url("../images/global/search-back-background.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    opacity: 1;
+  }
+  .front-page-search .search-field {
+    display: block !important;
+    margin: 0px auto 10px !important;
+    width: 100%;
+  }
+  .accordion-section-title3, .view-all-button {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: .02em;
+    padding: 10px 38px 12px 21px;
+    -moz-box-shadow: 1px 2px 4px rgba(19, 60, 85, .3);
+    -webkit-box-shadow: 1px 2px 4px rgb(19 60 85 / 30%);
+    box-shadow: 1px 2px 4px rgb(19 60 85 / 30%);
+    background-image: linear-gradient(rgba(0, 125, 195, 1), rgba(2, 95, 147, 1));
+    border: 1px solid rgba(0, 125, 195, 1);
+  }
+  .accordion-section-title3::after, .view-all-button::after {
+    right: 22px;
+    width: 12px;
+    height: 12px;
+  }
+  .accordion-section-content3 {
+    position: relative;
+    padding: 30px 20px 22px 20px;
+    width: calc(100% - 40px);
+    margin: 0px 0px -21px;
+    border-radius: 0px 0px 8px 8px;
+    max-height: 140px;
+    -moz-box-shadow: 1px 2px 4px rgba(19, 60, 85, .3);
+    -webkit-box-shadow: 1px 2px 4px rgba(19, 60, 85, .3);
+    box-shadow: 1px 2px 4px rgba(19, 60, 85, .3);
+    transform: translateY(-21px);
+  }
+  .job-search-top .accordion-section-content3 {
+    margin: 0px 0px -20px;
+  }
+  #search-form, #zip-form {
+    -moz-box-shadow: 1px 2px 4px rgba(19, 60, 85, .3);
+    -webkit-box-shadow: 1px 2px 4px rgba(19, 60, 85, .3);
+    box-shadow: 1px 2px 4px rgba(19, 60, 85, .3);
+  }
+  #search_term {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: .02em;
+    padding: 8px 0px 11px 21px;
+    width: 75%;
+  }
+  .search-button {
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+  }
+  #id_zipcode {
+    font-size: 16px !important;
+    line-height: 16px !important;
+    letter-spacing: .02em;
+    padding: 5px 16px 7px 21px;
+    margin: 3px 0px;
+    width: 70px;
+  }
+  select.search2 {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: .02em;
+    padding: 10px 21px 11px 16px;
+    margin: 0px;
+    width: 110px;
+    background-position: right 49%;
+    background-size: 12px;
+  }
+  .radius-button {
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+  }
+  header nav {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    transform: translateY(0%);
+    z-index: 2;
+    text-align: right;
+  }
+  header .logo-holder {
+    width: 160px;
+  }
+  .burger {
+    padding: 0px 0px;
+    margin: 0px;
+    position: fixed;
+    z-index: -1;
+    display: inline-block;
+    right: 24px;
+    top: 30px;
+  }
+  .burger-box {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    position: relative;
+  }
+  .all-the-fixins {
+    display: block;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .all-the-fixins, .all-the-fixins::before, .all-the-fixins::after {
+    background-color: rgba(255, 255, 255, 1);
+    width: 32px;
+    height: 3px;
+    left: 50%;
+    border-radius: 2px;
+    position: absolute;
+    -webkit-transition: width .2s ease-in .2s, transform .2s ease-in-out .0s, height .2s ease-in-out .0s;
+    transition: width .2s ease-in .2s, transform .2s ease-in-out .0s, height .2s ease-in-out .0s;
+  }
+  .accordion-section-title-hamburger:hover ~ .burger .all-the-fixins, .accordion-section-title-hamburger:focus ~ .burger .all-the-fixins, .accordion-section-title-hamburger:active ~ .burger .all-the-fixins {
+    opacity: .8;
+  }
+  .accordion-section-title-hamburger.active ~ .burger .all-the-fixins, .accordion-section-title-hamburger.active ~ .burger .all-the-fixins::before, .accordion-section-title-hamburger.active ~ .burger .all-the-fixins::after {
+    background-color: rgba(144, 196, 73, 1);
+    height: 4px;
+  }
+  .all-the-fixins::before, .all-the-fixins::after {
+    content: "";
+    display: block;
+  }
+  .all-the-fixins::before {
+    top: -8px;
+    transform: translateX(-50%);
+  }
+  .all-the-fixins::after {
+    bottom: -8px;
+    transform: translateX(-50%);
+  }
+  .accordion-section-title-hamburger.active ~ .burger .all-the-fixins {
+    -webkit-transition: width .2s ease-in 0s, transform .2s ease-in-out .35s, height .2s ease-in-out .35s;
+    transition: width .2s ease-in 0s, transform .2s ease-in-out .35s, height .2s ease-in-out .35s;
+    width: 27px;
+    height: 4px;
+    transform: translate(-50%, -50%) rotateZ(45deg);
+  }
+  .accordion-section-title-hamburger.active ~ .burger .all-the-fixins::before {
+    -webkit-transition: width .2s ease-in 0s, transform .2s ease-in-out .35s, height .2s ease-in-out .35s;
+    transition: width .2s ease-in 0s, transform .2s ease-in-out .35s, height .2s ease-in-out .35s;
+    width: 10px;
+    height: 4px;
+    transform: translate(-50%, -1px) rotateZ(-90deg);
+  }
+  .accordion-section-title-hamburger.active ~ .burger .all-the-fixins::after {
+    -webkit-transition: width .2s ease-in 0s, transform .2s ease-in-out .35s, height .2s ease-in-out .35s;
+    transition: width .2s ease-in 0s, transform .2s ease-in-out .35s, height .2s ease-in-out .35s;
+    width: 10px;
+    height: 4px;
+    transform: translate(-50%, 1px) rotateZ(-90deg);
+  }
+  .accordion-hamburger, .accordion-hamburger * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .accordion-section-title-hamburger {
+    display: inline-block;
+    width: 70px;
+    padding-bottom: 97px;
+    opacity: .5;
+  }
+  .accordion-section-content-hamburger {
+    display: none;
+    text-align: left;
+    position: relative;
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    padding: 0px 0px 180px;
+    background-image: url("../images/global/nav-back.jpg");
+    background-repeat: no-repeat !important;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+  }
+  header .accordion-section-content-hamburger > ul {
+    width: 100%;
+    margin: 0px 0px 0px;
+  }
+  header .accordion-section-content-hamburger > ul > li {
+    display: block;
+    background-color: #eeeeee;
+    transform: translateX(-100%);
+    -webkit-transition: all .4s ease-in-out 1s;
+    transition: all .4s ease-in-out 1s;
+  }
+  header .accordion-section-content-hamburger.open > ul > li {
+    display: block;
+    background-color: #cde0b1;
+    transform: translateX(0%);
+    -webkit-transition: transform .3s ease-in-out 0s;
+    transition: transform .3s ease-in-out 0s;
+  }
+  header .accordion-section-content-hamburger.open > ul > li:first-child {
+    -webkit-transition-delay: .5s;
+    transition-delay: .5s;
+  }
+  header .accordion-section-content-hamburger.open > ul > li:nth-child(2) {
+    -webkit-transition-delay: .7s;
+    transition-delay: .7s;
+  }
+  header .accordion-section-content-hamburger.open > ul > li:nth-child(3) {
+    -webkit-transition-delay: .9s;
+    transition-delay: .9s;
+  }
+  header .accordion-section-content-hamburger.open > ul > li:nth-child(4) {
+    -webkit-transition-delay: 1.1s;
+    transition-delay: 1.1s;
+  }
+  header .accordion-section-content-hamburger.open > ul > li:nth-child(5) {
+    -webkit-transition-delay: 1.3s;
+    transition-delay: 1.3s;
+  }
+  header .accordion-section-content-hamburger.open > ul > li:nth-child(6) {
+    -webkit-transition-delay: 1.5s;
+    transition-delay: 1.5s;
+  }
+  header .accordion-section-content-hamburger.open > ul > li:nth-child(7) {
+    -webkit-transition-delay: 1.7s;
+    transition-delay: 1.7s;
+  }
+  header .accordion-section-content-hamburger.open > ul > li:nth-child(8) {
+    -webkit-transition-delay: 1.9s;
+    transition-delay: 1.9s;
+  }
+  header .accordion-section-content-hamburger.open > ul > li:nth-child(9) {
+    -webkit-transition-delay: 2.1s;
+    transition-delay: 2.1s;
+  }
+  header .accordion-section-content-hamburger > ul > li a, header.fix .accordion-section-content-hamburger > ul > li a {
+    font-size: 16px;
+    line-height: 1.2em;
+    display: block;
+    font-weight: 400;
+    padding: 16px 30px 16px 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    position: relative;
+    z-index: 1;
+    color: #000000 !important;
+  }
+  .accordion-section-content-hamburger > ul > li > a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    width: 100%;
+    background-image: -webkit-linear-gradient(rgba(5, 79, 121, 1) 50%, rgba(5, 79, 121, .9));
+    background-image: -o-linear-gradient(rgba(5, 79, 121, 1) 50%, rgba(5, 79, 121, .9));
+    background-image: linear-gradient(rgba(5, 79, 121, 1) 50%, rgba(5, 79, 121, .9));
+    z-index: -1;
+    transform: scaleX(0);
+    opacity: .5;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    transform-origin: left;
+    color: #ffffff !important;
+  }
+  .accordion-section-content-hamburger > ul > li > a:hover::before, .accordion-section-content-hamburger > ul > li > a:focus::before, .accordion-section-content-hamburger > ul > li > a:active::before, .accordion-section-content-hamburger > ul > li > a.active::before {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+  header.fix .accordion-section-content-hamburger > ul > li:last-child a, header .accordion-section-content-hamburger > ul > li:last-child a {
+    border-bottom: 5px solid rgba(105, 179, 4, .6);
+    padding: 16px 30px 22px 30px;
+  }
+  header .accordion-section-content-hamburger > ul > li > a:focus, header .accordion-section-content-hamburger > ul > li > a:hover, header .accordion-section-content-hamburger > ul > li > a:active, header .accordion-section-content-hamburger > ul > li > a.active {
+    opacity: 1;
+    color: #ffffff !important;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+  }
+  header.fix .accordion-section-content-hamburger > ul > li:first-child > a, header .accordion-section-content-hamburger > ul > li:first-child > a {
+    border-top: 3px solid rgba(0, 0, 0, .1);
+    padding: 16px 30px 16px 30px;
+    background-color: #cde0b1;
+    /*background-image: linear-gradient(rgba(0,0,0,.05) 0%, rgba(0,0,0,0) 10%);*/
+  }
+  header .accordion-section-content-hamburger > ul > li a.accordion-section-title-hamburger2, header.fix .accordion-section-content-hamburger > ul > li a.accordion-section-title-hamburger2 {
+    padding: 16px 30px 16px 30px;
+    background-color: #cde0b1;
+  }
+  header .accordion-section-content-hamburger > ul > li a.accordion-section-title-hamburger2::after {
+    right: 30px;
+    width: 11px;
+    height: 11px;
+  }
+  header .accordion-section-content-hamburger > ul > li a.accordion-section-title-hamburger2:hover::after, header .accordion-section-content-hamburger > ul > li a.accordion-section-title-hamburger2:focus::after, header .accordion-section-content-hamburger > ul > li a.accordion-section-title-hamburger2:active::after, header .accordion-section-content-hamburger > ul > li a.accordion-section-title-hamburger2.active::after {
+    background-image: url("../images/global/top-nav-arrow-white.png");
+    background-repeat: no-repeat !important;
+    background-position: top center;
+    background-size: contain;
+    -webkit-transition: all .1s ease-in-out .2s;
+    transition: all .1s ease-in-out .2;
+  }
+  .accordion-section-content-hamburger2 {
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0);
+    margin: 0px;
+    padding: 8px 30px 23px;
+    border-bottom: 5px solid rgba(105, 179, 4, .6);
+    border-top: 3px solid rgba(19, 60, 85, .65);
+    /*--added the next 3 lines and 2 following styles to help scrolling on iphone*/
+    max-height: 220px;
+    overflow-x: hidden;
+    overflow-y: scroll !important;
+  }
+  .accordion-section-content-hamburger2::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 10px;
+  }
+  .accordion-section-content-hamburger2::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+  }
+  /*--end of new scrolling styles added*/
+  .accordion-section-content-hamburger2 li {
+    display: block;
+  }
+  .accordion-section-content-hamburger2 li a {
+    display: inline-block !important;
+    padding: 15px 20px 6px 5px !important;
+    white-space: nowrap;
+    border-top: 0px solid #5b6770;
+    border-bottom: 0px solid #5b6770 !important;
+    position: relative;
+    z-index: 1;
+  }
+  .accordion-section-content-hamburger2 li a:hover, .accordion-section-content-hamburger2 li a:focus, .accordion-section-content-hamburger2 li a:active {
+    text-decoration: none;
+    opacity: 1;
+	      background-color: #ffffff !important;
+  }
+  .accordion-section-content-hamburger2 li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 2px;
+    background-color: rgba(19, 60, 85, .35);
+    z-index: 1;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  .accordion-section-content-hamburger2 li a:hover::after, .accordion-section-content-hamburger2 li a:focus::after, .accordion-section-content-hamburger2 li a:active::after {
+    transform: scaleX(1);
+  }
+  .footer-lower {
+    padding: 0px 0px 90px;
+  }
+  .top {
+    display: none;
+    width: 100%;
+    background-color: #90c449;
+    margin: 0px;
+    text-align: center;
+    padding: 5px 0px 3px;
+  }
+  main {
+    margin-top: 100px;
+  }
+  .top > ul > li.talent-holder {
+    margin: 0px;
+  }
+  .top > ul > li.contact-holder {
+    margin: 0px;
+  }
+  section.bonus-banner .inside {
+    background-image: url(../images/main/bonus-banner-bckgrd.jpg);
+    background-repeat: no-repeat;
+       background-position: 70% center;
+    background-size: cover;
+  }
+  .covid-banner .inside p {
+    font-size: 1.8vw;
+  }
+	.fraud-banner .inside p {
+	 font-size: 1.8vw;
+}
+  section.bonus-banner {
+    padding: 1em 0 1em;
+  }
+  footer .logo-holder {
+    width: 200px;
+    display: block;
+    margin: 0px auto 30px;
+  }
+  footer .navright {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .footer-eoe {
+    width: 90%;
+    display: block;
+    margin: 0 auto 20px;
+    vertical-align: top;
+    text-align: center;
+    font-size: 1.8vw;
+  }
+  .footer-tagline {
+    font-size: 2.3vw;
+  }
+  .footer-nav {
+    width: 100%;
+    display: block;
+    margin: 0 auto 20px;
+    text-align: center;
+  }
+  .navtop {
+    vertical-align: middle;
+    text-align: center;
+    margin: 0px auto 10px;
+    padding: 0px;
+  }
+  .navbottom ul {
+    margin: 0;
+    padding-left: 0;
+  }
+  .navbottom li {
+    font-size: 2vw;
+  }
+  .navbottom {
+    display: block;
+    margin: 0 auto 50px;
+  }
+  .advanced-search-btn, .login-btn-holder {
+    display: none;
+  }
+  .featured-jobs-front h2 {
+    font-size: 3.5vw;
+  }
+	.fraud-banner .inside h2 {
+     font-size: 3.5vw;
+}
+  .return-candidates-mobile {
+    display: block !important;
+  }
+  .current-candiates-mobile {
+    display: block !important;
+  }
+  .talent-comm-mobile {
+    display: block !important;
+  }
+  .contact-us-mobile {
+    display: block !important;
+  }
+  .benefits-box-btm {
+    font-size: 2vw;
+    line-height: 1.2em;
+    margin-top: 20px;
+  }
+  .description-header {
+    font-size: 1.1em;
+    line-height: 1.1em;
+  }
+  .description-header {
+    font-size: 2vw;
+    line-height: 1.4em;
+  }
+  .description-text {
+    font-size: 2vw;
+    line-height: 1.4em;
+  }
+  .benefits-box2-txt {
+    width: 85%;
+    font-size: 2vw;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .benefits-row2-inside {
+    width: 96%;
+    margin: 0px auto;
+  }
+  .culture-employees .callout-lower {
+    display: block;
+    margin: 3em 0px 0px;
+  }
+  .culture-employees .callout-lower-2 {
+    display: block;
+    margin: 0px;
+  }
+  .culture-employees .callout {
+    display: block;
+    padding: 30% 7.5%;
+    width: 85%;
+    font-size: 13px;
+    line-height: 19px;
+    margin: 0px auto 1em;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .culture-employees .callout2 {
+    display: block;
+    padding: 30% 7.5%;
+    width: 85%;
+    font-size: 13px;
+    line-height: 19px;
+    margin: 0px auto 1em;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .culture-employees .callout-lower .callout:first-child {
+    width: auto;
+  }
+  .culture-employees .callout-lower .callout:nth-child(2) {
+    width: auto;
+  }
+  .culture-employees .callout-lower .callout:nth-child(3) {
+    width: auto;
+/*
+    background-image: url("../images/sub/culture/employees/photo-04-mobile.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+*/
+  }
+  .culture-employees .callout-lower-2 .callout2:first-child {
+    width: auto;
+  }
+  .culture-employees .callout-lower-2 .callout2:nth-child(2) {
+    width: auto;
+  }
+  .culture-employees .callout-lower-2 .callout2:nth-child(3) {
+    width: auto;
+  }
+  .culture-employees .callout-lower .callout:nth-child(2) h3 {
+    font-size: 2em;
+    letter-spacing: .4em;
+    letter-spacing: .05em;
+  }
+  .culture-intro .callout-lower {
+    display: block;
+    margin: 1.5em 0px 0px;
+  }
+  .culture-intro .callout {
+    display: block;
+    padding: 65% 7.5% 5%;
+    width: 85%;
+    font-size: 13px;
+    line-height: 19px;
+    margin: 0px auto 2em;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px 1px rgb(0 0 0 / 10%);
+    position: relative;
+    z-index: 1;
+    border-bottom: 8px solid #699d27;
+    overflow: hidden;
+  }
+	.culture-employees .callout-lower-3 {
+    display: block;
+    margin: 1.5em 0px 0px;
+  }
+	.culture-employees .callout-3 {
+  display: block;
+  padding: 3% 3% 3%;
+  width: 94%;
+  margin: 0px auto 2em;
+  z-index: 1;
+  font-size: 13px;
+  line-height: 19px;
+}
+	.culture-employees .callout-3 p {
+    font-size: 2.5vw;
+    line-height: 1.3em;
+    margin: 0;
+  }
+	.culture-employees .callout-3 h2 {
+    font-size: 5vw;
+    line-height: 1.1em;
+    margin: 10px 0px 20px;
+  }
+  .culture-intro .callout::before {
+    padding-bottom: 60%;
+  }
+  .culture-intro .callout h3 {
+    font-size: 5vw;
+    line-height: 1em;
+    margin: 10px 0px 20px;
+  }
+  .culture-intro .callout p {
+    font-size: 2.5vw;
+    line-height: 1.3em;
+    margin: 0;
+  }
+  section.culture-corevalues .inner p {
+    font-size: 2.5vw;
+    line-height: 1.3em;
+    width: 90%;
+  }
+  .career-areas {
+    padding: 2em 0px;
+  }
+  .career-areas li {
+    width: 40%;
+    padding-bottom: 40%;
+    margin: 0px 9px 15px
+  }
+  .career-areas li:hover .career-areas-label {
+    padding: 50% 0;
+  }
+  #corp-service-areas.career-areas li, #elderplan-areas.career-areas li, #hospice-areas.career-areas li {
+    width: 40%;
+    padding-bottom: 40%;
+    margin: 0px 9px 15px
+  }
+  #corp-service-areas.career-areas li:hover .career-areas-label, #elderplan-areas.career-areas li:hover .career-areas-label, #hospice-areas.career-areas li:hover .career-areas-label  {
+    padding: 50% 0;
+  }
+  .career-areas-finance .career-areas-label, .career-areas-legal .career-areas-label, .career-areas-market .career-areas-label, .career-areas-hr .career-areas-label, .career-areas-homecare-01 .career-areas-label, .career-areas-homecare-02 .career-areas-label, .career-areas-hospice-01 .career-areas-label, .career-areas-hospice-03 .career-areas-label, .career-areas-hospice-04 .career-areas-label {
+    min-height: 0;
+    padding: 12px 0px;
+  }
+  .career-areas-label {
+    font-size: 2vw;
+  }
+  section.nursing-bonus .inner h2 {
+    font-size: 4vw;
+    line-height: 1.1em;
+  }
+/*
+	.nursing-bonus-txt{
+	font-size: 3vw;
+    line-height: 1.2em;
+}
+*/
+	section.covid-banner .inside {
+    width: 90%;
+}
+	section.fraud-banner .inside {
+   width: 90%;
+}
+		.google-job-map {
+    padding-bottom: 400px;
+    margin-bottom: 20px !important;
+  }
+  .google-job-map iframe {
+    height: 400px;
+  }
+	.map-row .table {
+    width: 100%;
+    padding: 0px 0px;
+  }
+  .map-row .cell {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+  .map-row .row {
+    display: block;
+  }
+  .map-row .copy-container {
+    width: 100%;
+    padding: 0% 0px;
+    margin: 0px auto;
+  }
+  .map-row .heading {
+    font-size: 4vw;
+    text-align: center;
+  }
+  .map-row p {
+    font-size: 2vw;
+    line-height: 1.4em;
+    text-align: left;
+  }
+  .map-right {
+    position: static;
+  }
+	#djcna-isabella li, #djhospice-fieldrn li, #djcna-menorah li, #djlpn-isabella li, #djadmissions li {
+    font-size: 2vw;
+		margin: 0 0 5px;
+}
+	#dj-benefits.mjhs-benefits {
+    padding: 1.5em 0 1em;
+}
+	#dj-benefits .benefits-box:last-of-type {
+    margin-bottom: 10px !important;
+	}
+	#dj-icon.map-left {
+    padding: 4% !important;
+		margin: 0 auto 15px !important;
+		    width: 82%;
+}
+	#djhospice-fieldrn.businesses-callout-01 p {
+    font-size: 1.5vw;
+}
+	#dynamic-details h1 {
+    font-size: 4vw; 
+}
+	section.dj-bonus .inner h2 {
+    font-size: 3.5vw;
+}
+#mainpgvideo.inner h2 {
+   	font-size: 2.2vw;
+	    margin: 0px auto 10px;
+}
+#mainpgvideo.inner h3 {
+	font-size: 1.7vw;
+}
+.video-title {
+  width: 90%;
+  padding: 5%;
+  order: 1 !important;
+}
+.video-holder {
+  width: 100%;
+}
+	.video-image {
+  width: 100%;
+}
+.video-holder2 .inner {
+  flex-direction: column;
+}
+.global-dual-copy h2 {
+  font-size: 2.5vw;
+}
+.global-dual-copy p {
+  font-size: 1.6vw;
+}
+.global-dual-copy li a {
+   font-size: 1.8vw;
+ 
+}
+.global-dual-copy li {
+   padding: 30px 0;
+}
+}
+	@media only screen and (max-width: 900px) {
+	.nursing-bonus-txt {
+    font-size: 2.5vw;
+}
+}
+@media only screen and (max-width: 700px) {
+       #dynamic-details h1 {
+    font-size: 5vw;  
+}
+	section.dj-bonus .inner h2 {
+    font-size: 4vw;
+}
+	section.dj-bonus {
+    padding: 2% 0;
+}
+	#djhospice-fieldrn.businesses-callout-01 p {
+    font-size: 2.5vw;
+}
+	#djcna-isabella li, #djhospice-fieldrn li, #djcna-menorah li, #djlpn-isabella li, #djadmissions li{
+    font-size: 3.5vw;
+}
+	#job-list-section li dl div {
+    display: block;
+}
+	#job-list-section li a, #job-list-section li a:visited {
+    font-size: 4.5vw;
+    line-height: 1.2em;
+}
+	.career-areas {
+    padding: 2em 0px;
+  }
+  #corp-service-areas.career-areas li, #elderplan-areas.career-areas li, #hospice-areas.career-areas li  {
+    width: 80%;
+    padding-bottom: 80%;
+    margin: 0px 9px 15px
+  }
+  #corp-service-areas.career-areas li:hover .career-areas-label, #elderplan-areas.career-areas li:hover .career-areas-label, #hospice-areas.career-areas li:hover .career-areas-label {
+    padding: 50% 0;
+  }
+  .career-areas li {
+    width: 80%;
+    padding-bottom: 80%;
+    margin: 0px 9px 15px
+  }
+  .career-areas li:hover .career-areas-label {
+    padding: 50% 0;
+  }
+  .career-areas-label {
+    font-size: 3.25vw;
+  }
+  section.culture-corevalues .inner p {
+    font-size: 3vw;
+    line-height: 1.3em;
+    width: 90%;
+    margin: 0 auto 15px;
+  }
+  .culture-intro .callout::before {
+    padding-bottom: 60%;
+  }
+  .culture-intro .callout {
+    padding: 65% 7.5% 7.5%;
+    width: 85%;
+  }
+  .culture-intro .callout h3 {
+    margin-top: 0;
+  }
+  .culture-intro .callout p {
+    font-size: 3vw;
+  }
+  section.culture-intro .inside {
+    padding: 1em 0 1em;
+  }
+  .banner-area-sub {
+    padding-bottom: 90%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+  }
+  .banner-area-sub::before {
+    background-image: url("../images/main/slider/slide-arc-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 60;
+  }
+  .banner-area-sub .inner {
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    width: 90%;
+  }
+  .banner-area-sub-copy h2 {
+    font-size: 6vw;
+  }
+  .banner-area-sub-copy h1 {
+    font-size: 6vw;
+    margin-bottom: 5px;
+  }
+  .banner-area-sub-copy h3 {
+    font-size: 3.5vw;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .banner-area-sub-copy {
+    width: 100%;
+  }
+  .jbsrch {
+    background-image: url("../images/sub/banners/mobile/banner-jbsrch-mobile.jpg");
+  }
+  .jbdetails {
+    background-image: url("../images/sub/banners/mobile/banner-jbdetails-mobile.jpg");
+  }
+  .benefits {
+    background-image: url("../images/sub/banners/mobile/banner-benefits-mobile.jpg");
+  }
+  .culture {
+    background-image: url("../images/sub/banners/mobile/banner-culture-mobile.jpg");
+  }
+  .nursing {
+    background-image: url("../images/sub/banners/mobile/banner-nursing-mobile.jpg");
+  }
+  .new-grad {
+    background-image: url("../images/sub/banners/mobile/banner-new-grad-mobile.jpg");
+  }
+  .allied-hlth {
+    background-image: url("../images/sub/banners/mobile/banner-allied-hlth-mobile.jpg");
+  }
+	.support {
+    background-image: url("../images/sub/banners/mobile/banner-support-services-mobile.jpg");
+  }
+	.non-clinical {
+    background-image: url("../images/sub/banners/mobile/banner-non-clinical-mobile.jpg");
+  }
+  .corporate {
+    background-image: url("../images/sub/banners/mobile/banner-corporate-mobile.jpg");
+  }
+  .elderplan {
+    background-image: url("../images/sub/banners/mobile/banner-elderplan-mobile.jpg");
+  }
+	.mjhs-med-associates {
+    background-image: url("../images/sub/banners/mobile/banner-mjhs-med-associates-mobile.jpg");
+  }
+  .isabella {
+    background-image: url("../images/sub/banners/mobile/banner-isabella-mobile.jpg");
+  }
+  .menorah {
+    background-image: url("../images/sub/banners/mobile/banner-menorah-mobile.jpg");
+  }
+	.institute {
+    background-image: url("../images/sub/banners/mobile/banner-institute-mobile.jpg");
+  }
+  .mjhs-hospice {
+    background-image: url("../images/sub/banners/mobile/banner-mjhs-hospice-mobile.jpg");
+  }
+  .mjhs-home-care {
+    background-image: url("../images/sub/banners/mobile/banner-mjhs-home-care-mobile.jpg");
+  }
+  .career-events {
+    background-image: url("../images/sub/banners/mobile/banner-career-events.jpg");
+  }
+  .table {
+    display: block;
+  }
+  .row {
+    display: block;
+  }
+  .cell {
+    display: block;
+  }
+  .affiliate-link {
+    width: 50%;
+    display: block;
+    font-size: 3.6vw;
+    line-height: 1.1em;
+    background-position: left 39%, right 39%;
+    margin: 0px auto 0px auto;
+  }
+  footer {
+    padding: 0px;
+  }
+  .footer-logo {
+    width: 85%;
+    margin: 0 auto 0;
+    padding: 2% 0px;
+  }
+  .content-inner-holder {
+    /*    margin-top: 1em;*/
+  }
+  .talent-network-sub {
+    margin: 0px 0px 5% 0px;
+  }
+  section.locations-map {
+    color: rgba(0, 105, 177, 1);
+    background-image: url(../images/sub/who-we-are/mobile/map-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    padding-top: 64.81%;
+    border-bottom: 0px solid rgba(255, 164, 0, 1);
+  }
+  .locations-map {
+    font-size: 2vw;
+    text-align: center;
+  }
+  .locations-map .cell {
+    width: 100%;
+  }
+  .locations-map .table-text {
+    width: 80%;
+    padding: 10%;
+    display: inline-block;
+  }
+  .locations-map-right {
+    display: none;
+  }
+  .mission p {
+    font-size: 3vw !important;
+  }
+  .values-statement {
+    font-size: 3vw !important;
+  }
+  .howtoapply.apply p {
+    font-size: 3vw;
+    line-height: 1.3em;
+  }
+  section.mission-and-values {
+    padding: 5em 0px;
+  }
+  .values-statement {
+    width: 90%;
+  }
+  .flex-container {
+    display: block;
+  }
+  .flex-item {
+    line-height: 2vw;
+    font-size: 3.5vw;
+  }
+  .search-headings h1, h1.mobile-apply {
+    font-size: 5vw;
+    line-height: 1.2em;
+    margin: 0em 0px 15px;
+  }
+  .search-headings h2 {
+    font-size: 3.5vw;
+    line-height: 1em;
+    margin: 5px 0px 10px 0px;
+  }
+  .talent-inside .utility-btn {
+    margin: 10px 0px 5px -5px;
+    position: relative;
+  }
+  .talent-network-container > label {
+    margin-bottom: .5em;
+  }
+  .multi-choice-box {
+    margin: 5px 0px 10px 0px;
+  }
+  .talent-network-container select {
+    width: 100%;
+    margin: 5px 0px 0px;
+  }
+  .talent-inside ul li {
+    margin: 5px 0px;
+  }
+  .talent-inside ul li label {
+    max-width: 80%;
+  }
+  .featured-jobs-front .featured-jobs-bottom a {
+    margin: 25px 0px 0px 0px;
+  }
+  .bonus-banner .copy {
+    padding: 8em 0 2em;
+    width: 90%;
+  }
+  .covid-banner .inside p {
+    font-size: 3vw;
+	  line-height: 1.4em;
+  }
+	.fraud-banner .inside p {
+	 font-size: 3vw;
+		line-height: 1.4em;
+}
+  .footer-eoe {
+    width: 100%;
+    margin: 0 auto 20px;
+    font-size: 3vw;
+  }
+  .footer-tagline {
+    font-size: 3.5vw;
+    padding: 10px 0;
+  }
+  .navbottom li {
+    font-size: 3vw;
+  }
+  .featured-jobs-front h2 {
+    font-size: 6vw;
+    margin: 0 auto 20px;
+  }
+	.fraud-banner .inside h2 {
+    font-size: 5vw;
+    margin: 0 auto 10px;
+}
+	
+  .featured-jobs-front .featured-jobs-bottom h4 {
+    font-size: 5vw;
+    padding-top: 10px;
+  }
+  #new-carousel-mainpg .controls {
+    top: auto !important;
+    left: auto !important;
+    bottom: 23px;
+    right: 23px;
+  }
+  .utility-btn {
+    font-size: 3.5vw;
+    line-height: 16px;
+    letter-spacing: .01em;
+    padding: 11px 21px 13px 31px;
+    width: calc(100%-42px);
+    width: calc(100% - 52px);
+    margin: 0 0 3px;
+    text-transform: uppercase;
+  }
+  .utility-btn:hover, .utility-btn:focus, .utility-btn:active {
+    padding: 11px 21px 13px 31px;
+  }
+  .utility-btn::before {
+    right: 30px;
+    width: 16px;
+    height: 16px;
+  }
+  .utility-btn:hover:before, .utility-btn:focus:before, .utility-btn:active:before {
+    right: 22px;
+  }
+  .utility-btn:last-of-type {
+    margin: 0 0 15px;
+  }
+  .mjhs-benefits p {
+    font-size: 2.8vw;
+    line-height: 1.3em;
+  }
+  .mjhs-benefits {
+    padding: 2em 0;
+  }
+  .mjhs-benefits h2 {
+    margin-bottom: 15px;
+    font-size: 4vw;
+    line-height: 1.2em;
+  }
+  .mjhs-benefit-description {
+    font-size: 4vw;
+    line-height: 1.1em;
+  }
+  .mjhs-benefits a {
+    font-size: 3vw !important;
+  }
+  .allied-programs p {
+    font-size: 2.8vw;
+    line-height: 1.3em;
+    margin: 0px auto 20px;
+  }
+  .allied-programs {
+    padding: 2em 0;
+  }
+  .allied-programs h2 {
+    margin-bottom: 15px;
+    font-size: 4vw;
+    line-height: 1em;
+  }
+  .allied-programs-description {
+    font-size: 4vw;
+    line-height: 1.1em;
+  }
+  .culture-employees h2 {
+    margin-bottom: 15px;
+    font-size: 4vw;
+    line-height: 1em;
+  }
+  .culture-employees p {
+    font-size: 2.8vw;
+    line-height: 1.3em;
+  }
+  .culture-employees {
+    padding: 2em 0;
+  }
+  .benefits-box {
+    width: 90% !important;
+    margin: 0px auto 10px;
+    padding: 3%;
+    display: block;
+    max-width: none;
+  }
+	#djhospice-benefits.benefits-row2-inside .benefits-box
+	{
+    max-width: none;
+  }
+  .benefits-box2 {
+    width: 86%;
+    margin: 0px auto 10px;
+    max-width: none;
+    min-height: 16.5em;
+  }
+  .benefits-box2-txt {
+    width: 85%;
+    font-size: 5vw;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .benefits-box-top, .benefits-box-top-green {
+    width: 13%;
+    margin: 0px;
+    padding: 4%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+  }
+  .benefits-box-btm, .benefits-box-btm2 {
+    font-size: 4vw;
+	line-height: 1.2em;
+    font-weight: 600;
+    margin: 0 0 0 5%;
+    letter-spacing: -0.02em;
+    min-height: 0;
+    width: 65% !important;
+    display: inline-block;
+    vertical-align: middle !important;
+    text-align: left;
+  }
+  .benefits-box:last-of-type {
+    margin-bottom: 40px;
+  }
+  .description-header {
+    display: none;
+    margin: 30px 20px 0px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #ffffff;
+  }
+  .description-text {
+    margin: 20px auto 10px;
+    font-size: 4vw;
+    padding-top: 10px;
+    border-top: 2px dotted #cccccc;
+    color: #000000;
+  }
+  .benefits-box a .benefit-description {
+    color: #000000;
+    display: block;
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+    width: 100%;
+    min-height: 0px;
+    border-radius: 10px;
+    text-align: center;
+    left: 0;
+    transform: translate(0%, 0%);
+    -webkit-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    z-index: 1;
+  }
+  .extra-benefits .cell {
+    width: 100%;
+  }
+  .extra-benefits .table-text {
+    width: 90%;
+    padding: 2% 5%;
+    text-align: center;
+  }
+  .extra-benefits-image {
+    display: none;
+  }
+  .extra-benefits {
+    width: 100%;
+    background-image: url("../images/sub/benefits/mobile/family-photo-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    margin-top: 0px !important;
+    padding-top: 64.81% !important;
+  }
+  .extra-benefits p {
+    font-size: 2.8vw;
+    line-height: 1.2em;
+    margin: 0 0 10px;
+    width: 100%;
+  }
+  .extra-benefits p:last-child {
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+  .career-areas h2 {
+    font-size: 5vw;
+	  line-height: 1.3em;
+  }
+  .nursing-nimbleness h2, .support-callout h2, .non-clinical-callout h2, .corp-smallteam h2, .new-grad-growth h2 {
+    font-size: 5vw;
+    line-height: 1.1em;
+    margin: 10px 0px 15px;
+  }
+  .nursing-nimbleness .cell, .support-callout .cell, .non-clinical-callout .cell, .corp-smallteam .cell, .new-grad-growth .cell{
+    width: 100%;
+  }
+  .nursing-nimbleness .table-text, .support-callout .table-text, .non-clinical-callout .table-text, .new-grad-growth .table-text  {
+    width: 90%;
+    padding: 2% 5%;
+    text-align: center;
+  }
+  .businesses-callout-01 h2 {
+    font-size: 5vw;
+    line-height: 1.1em;
+    margin: 10px 0px 15px;
+    padding-top: 0px;
+  }
+  .businesses-callout-01 h3 {
+    font-size: 3.8vw;
+    line-height: 1.2em;
+    padding: 3% 3%;
+    width: 94%;
+  }
+  .businesses-callout-01 .cell {
+    width: 100%;
+  }
+  .businesses-callout-01 .table-text {
+    background-image: url("../images/main/banner-01-bckgrd.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 120% 100%;
+    width: 90%;
+    padding: 3% 5% 4%;
+    text-align: center;
+  }
+  .businesses-callout-01-image {
+    display: none;
+  }
+  .businesses-callout-01 p {
+    font-size: 3vw;
+    line-height: 1.3em;
+    margin: 0 0 10px;
+    width: 100%;
+  }
+  .businesses-callout-01 {
+    width: 100%;
+    background-image: url("../images/sub/corporate/executive-team.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    margin-top: 0px !important;
+    padding-top: 64.81% !important;
+  }
+	#menorah-living.businesses-callout-01 {
+  background-image: url("../images/sub/dynamic-jobs/menorah-photo-02.jpg") !important;
+}
+		.map-row p {
+    font-size: 3vw;
+    line-height: 1.3em;
+}
+	.bonus-callout-main h2 {
+    font-size: 4.5vw;
+    padding-top: 0px;
+  }
+  .bonus-callout-main .cell {
+    width: 100%;
+  }
+  .bonus-callout-main .table-text {
+    background: rgb(1, 85, 132);
+  background: linear-gradient(87deg, rgba(1, 85, 132, 1) 2%, rgba(34, 154, 221, 1) 100%);
+    width: 90%;
+    padding: 5%;
+    text-align: center;
+  }
+  .bonus-callout-main-image {
+    display: none;
+  }
+  .bonus-callout-main p {
+    font-size: 3.5vw;
+    margin:0px;
+    width: 100%;
+  }
+  .bonus-callout-main {
+    width: 100%;
+    background-image: url("../images/main/bonus-main.jpg") !important;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    margin-top: 0px !important;
+    padding-top: 64.81% !important;
+  }
+  #elderplan-freedom {
+    background-image: url("../images/sub/businesses/elderplan/elderplan-photo-01.jpg");
+    padding-top: 60% !important;
+  }
+  #elderplan-option {
+    background-image: url("../images/sub/businesses/elderplan/elderplan-photo-02.jpg");
+    padding-top: 60% !important;
+  }
+	#med-pc-quality {
+    background-image: url("../images/sub/businesses/med-associates/med-associates-photo-01.jpg");
+    padding-top: 60% !important;
+  }
+		#med-pc-team {
+    background-image: url("../images/sub/businesses/med-associates/med-associates-photo-02.jpg");
+    padding-top: 60% !important;
+  }
+  #isabella-team {
+    background-image: url("../images/sub/businesses/isabella/isabella-photo-01.jpg");
+    padding-top: 60% !important;
+  }
+  #isabella-living {
+    background-image: url("../images/sub/businesses/isabella/isabella-photo-02.jpg");
+    padding-top: 60% !important;
+  }
+  #menorah-team {
+    background-image: url("../images/sub/businesses/menorah/menorah-photo-01.jpg");
+    padding-top: 60% !important;
+  }
+  #mjhshospice-team {
+    background-image: url("../images/sub/businesses/hospice/hospice-photo-01.jpg");
+    padding-top: 60% !important;
+  }
+  #home-care-support {
+    background-image: url("../images/sub/businesses/home-care/home-care-photo-01.jpg");
+    padding-top: 60% !important;
+  }
+  #home-care-personal {
+    background-image: url("../images/sub/businesses/home-care/home-care-photo-02.jpg");
+    padding-top: 60% !important;
+  }
+	#palliative-education {
+  background-image: url("../images/sub/businesses/institute/institute-photo-01.jpg") !important;
+		padding-top: 60% !important;
+}
+#palliative-benefits {
+  background-image: url("../images/sub/businesses/institute/institute-photo-02.jpg") !important;
+	padding-top: 60% !important;
+}
+	#djcna-isabella {
+  background-image: url("../images/sub/dynamic-jobs/dj-cna-isabella-photo-01.jpg") !important;
+		padding-top: 60% !important;
+}
+	#djadmissions {
+  background-image: url("../images/sub/dynamic-jobs/dj-admissions-rn-photo-01.jpg") !important;
+		padding-top: 60% !important;
+}
+	#djlpn-isabella {
+  background-image: url("../images/sub/dynamic-jobs/dj-lpn-isabella-photo-01.jpg") !important;
+		padding-top: 60% !important;
+}
+	#djcna-menorah {
+  background-image: url("../images/sub/dynamic-jobs/dj-cna-menorah-photo-01.jpg") !important;
+		padding-top: 60% !important;
+}
+		#djhospice-fieldrn {
+  background-image: url("../images/sub/businesses/hospice/hospice-photo-01.jpg") !important;
+		padding-top: 60% !important;
+}
+	#dj-diversity {
+  background-image: url("../images/sub/dynamic-jobs/dj-diversity-photo-01.jpg") !important;
+		padding-top: 60% !important;
+}
+  #menorah-wings {
+    background-image: url("../images/sub/businesses/menorah/menorah-photo-02.jpg");
+    padding-top: 60% !important;
+    margin-top: 0px !important;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+  }
+  #menorah-wings .table-text {
+    background-image: url("../images/main/arc-bcgrd.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 120% 100%;
+  }
+  .corp-smallteam .table-text {
+    background-image: url("../images/main/banner-01-bckgrd.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 120% 100%;
+    width: 90%;
+    padding: 2% 5%;
+    text-align: center;
+  }
+  .nursing-nimbleness-image, .support-callout-image, .non-clinical-callout-image, .corp-smallteam-image, .new-grad-growth-image {
+    display: none;
+  }
+  .nursing-nimbleness {
+    width: 100%;
+    background-image: url("../images/sub/nursing/smiling-nurse.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    margin-top: 0px !important;
+    padding-top: 64.81% !important;
+  }
+  .new-grad-growth {
+    width: 100%;
+    background-image: url("../images/sub/new-grad/nurse-w-patients.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    margin-top: 0px !important;
+    padding-top: 64.81% !important;
+  }
+	.support-callout {
+    width: 100%;
+    background-image: url("../images/sub/support/support-callout-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    margin-top: 0px !important;
+    padding-top: 64.81% !important;
+  }
+	.non-clinical-callout {
+    width: 100%;
+    background-image: url("../images/sub/non-clinical/non-clinical-callout-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    margin-top: 0px !important;
+    padding-top: 60% !important;
+  }
+  .nursing-nimbleness p, .support-callout p, .corp-smallteam p, .non-clinical-callout p, .new-grad-growth p {
+    font-size: 3vw;
+    line-height: 1.3em;
+    margin: 0 0 10px;
+    width: 100%;
+  }
+  .corp-smallteam {
+    width: 100%;
+    background-image: url("../images/sub/corporate/executive-team.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    margin-top: 0px !important;
+    padding-top: 64.81% !important;
+  }
+  section.culture-intro .inside h2, section.benefits-intro .inside h2, section.businesses-intro .inside h2, section.talent-areas-intro .inside h2 {
+    font-size: 5vw;
+    line-height: 1.1em;
+  }
+  section.benefits-intro .inside p, section.culture-intro .inside p, section.businesses-intro .inside p, section.talent-areas-intro .inside p {
+    font-size: 3vw;
+  }
+  section.culture-employees h2 {
+    font-size: 5vw;
+    line-height: 1.1em;
+  }
+  section.culture-corevalues .inner h2 {
+    font-size: 5vw;
+    line-height: 1.1em;
+  }
+  section.culture-employees .inner p {
+    font-size: 3vw;
+    line-height: 1.3em;
+    margin: 10px auto 0px;
+  }
+	.culture-employees .callout-lower-3 .callout-3 p {
+    font-size: 3vw;
+    line-height: 1.3em;
+	width: 90%;
+    margin: 0 auto 5px;
+}
+	.culture-employees .callout-lower-3 .callout-3 h2 {
+    font-size: 4.5vw;
+    line-height: 1.1em;
+    margin: 10px auto 10px;
+  }
+	.culture-employees .callout-singleimage .title p {
+    font-size: 3vw;
+}
+  section.culture-corevalues .inner {
+    padding: 2em 0 2em;
+  }
+  section.nursing-bonus h2 {
+    font-size: 4.8vw;
+  }
+  .culture-employees .callout-lower {
+    display: block;
+    margin: 2em 0px 0px;
+  }
+  .values-container h2 {
+    font-size: 5vw;
+    line-height: 1.1em;
+    margin: 0 auto 15px;
+  }
+  .values-container p {
+    font-size: 3vw;
+    line-height: 1.3em;
+    width: 90%;
+  }
+  .values-container li {
+    font-size: 3.5vw;
+    line-height: 1em;
+    width: auto;
+  }
+  section.values .inner {
+    margin: 0px auto;
+    padding: .2em 0 .2em;
+    width: 100%;
+    background: none;
+  }
+  .values-container {
+    width: 85%;
+    display: inline-block;
+    font-family: 'Noto Serif', serif;
+    margin: 0 auto;
+    padding: 2em 5%;
+    background-color: rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 5px 5px 8px 0px rgb(0 0 0 / 50%);
+    box-shadow: 5px 5px 8px 0px rgb(0 0 0 / 50%);
+  }
+  section.nursing-bonus {
+    padding: 1em 0 1em;
+  }
+  .career-areas p {
+    font-size: 3vw;
+    margin: 0 auto 30px;
+  }
+  .elderplan-principles .copy {
+    padding: 2.5em 0 2.5em;
+    width: 90%;
+  }
+  .elderplan-principles .copy h2 {
+    max-width: none;
+    font-size: 3.5vw;
+  }
+  .hospice-settings .copy {
+    padding: 2.5em 0 2.5em;
+    width: 90%;
+  }
+  .hospice-settings .copy h2 {
+    max-width: none;
+    font-size: 3.5vw;
+  }
+  .hospice-settings p {
+    font-size: 3vw;
+    margin: 0 auto 30px;
+  }
+  .hospice-settings li {
+    display: block;
+    font-size: 3.5vw;
+    margin: 0 0 10px;
+  }
+  .career-areas-label br {
+    display: none;
+  }
+	.culture-community-full{
+  width:92%;
+  margin: 3% 0 2%;
+   flex-direction: column;
+}
+.culture-community-full div{
+  width:100%;
+}
+.culture-community-full div:first-child{
+  padding-right:0;
+	width:100%;
+	margin-bottom: 4%;
+}
+.culture-community-full div h2 {
+  font-size: 5vw;
+  margin: 2% 0 0%;	
+}
+#btn1{
+margin-top: 30px;
+}
+#btn2{
+margin-top: 10px;
+}
+#btn3{
+margin-top: 30px;
+}
+#btn4{
+margin-top: 30px;
+}
+#mainpgvideo.inner h2 {
+   	font-size: 3vw;		
+}
+#mainpgvideo.inner h3 {
+	font-size: 3vw;
+}
+.global-dual .inner {
+  flex-direction: column;
+}
+#livingphoto01 {
+ padding-top:50%;
+}
+.global-dual-copy h2 {
+  font-size: 4.5vw;
+}
+.global-dual-copy p {
+  font-size: 2.8vw;
+}
+.global-dual-copy li a {
+   font-size: 2.8vw;
+}
+.global-dual-copy li {
+   padding: 30px 0;
+}
+}
+@media only screen and (max-width : 600px) {
+  .callout-section {
+    padding: 4em 0px 2em;
+    text-align: center;
+  }
+  .callout-section .inner {
+    width: 90%;
+  }
+  .callout-section .inner > p {
+    width: 85%;
+    margin: 0px auto 15px;
+    font-size: 2.8vw;
+    line-height: 1.5em;
+    font-weight: 400;
+  }
+  section.culture-corevalues .inner ul {
+    padding: 1em .2em .25em;
+    margin: 0px;
+  }
+  section.culture-corevalues .inner li {
+    font-size: 3.5vw;
+    width: 100%;
+    max-width: 85%;
+    padding: 2% 5% 2%;
+    margin: 0 0 5px;
+  }
+	#dynamic-details {
+    width: 90%;
+    text-align: left; 
+		font-size: 3.5vw;
+		line-height: 1.3em;
+}
+	#dynamic-details dl dt, #dynamic-details dl dd {
+    display: block;
+}
+	#dynamic-details dl dd {
+    margin: 0px 0 5px;
+}
+#dynamic-details dl dd:last-child {
+    margin: 0px;
+}
+		#dynamic-details h1 {
+    text-align: left;
+}
+.global-dual-copy h2 {
+  font-size: 5vw;
+}
+.global-dual-copy p {
+  font-size: 3vw;
+}
+.global-dual-copy li a {
+   font-size: 3.2vw;
+}
+.global-dual-copy li {
+   padding: 28px 0;
+}
+}
+@media only screen and (max-width: 450px) {
+ #dynamic-details h1 {
+    font-size: 5.5vw;  
+}
+	#djhospice-fieldrn.businesses-callout-01 p {
+    font-size: 4vw;
+}
+	#djcna-isabella li, #djhospice-fieldrn li, #djcna-menorah li, #djlpn-isabella li, #djadmissions li {
+    font-size: 3.5vw;
+}
+	.nursing-nimbleness p, .support-callout p, .corp-smallteam p, .non-clinical-callout p, .new-grad-growth p{
+    font-size: 3.5vw;
+}
+	#job-details {
+    font-size: 3.5vw;
+    line-height: 1.3em;
+}
+	#category-text {
+    font-size: 3.5vw;
+    line-height: 1.3em;
+    margin: 10px 0px 20px;
+}
+	#job-list-section li dl p {
+  font-size: 3.5vw;
+    line-height: 1.3em;
+}
+	.featured-jobs-sub .featured-jobs-bottom {
+    font-size: 3.5vw;
+    line-height: 1.3em;
+}
+	.saved-jobs-sub .saved-jobs-bottom h4, .featured-jobs-sub .featured-jobs-bottom h4 {
+    font-size: 5vw;
+    line-height: 1.2em;
+}
+	.content-inner-holder {
+     margin: 0px auto 20px;
+}
+	.map-row p {
+    font-size: 3.5vw;
+  }
+	.businesses-callout-01 p {
+    font-size: 3.5vw;
+    margin: 0 0 10px;
+}
+	.bonus-callout-main p {
+    font-size: 3.5vw;
+    margin: 0 0 10px;
+}
+	.career-areas p {
+    font-size: 3.5vw;
+    margin: 0 auto 15px;
+}
+	.bonus-banner .copy h2 {
+    font-size: 5.5vw;
+}
+	.bonus-banner .copy p {
+    font-size: 4.5vw;
+}
+	.talent-network-inside .table-text {
+    width: 90%;
+    padding: 10px 0px 20px;
+}
+	.talent-network-inside .table-text .section-header-large {
+    font-size: 4.5vw;
+    margin-bottom: 10px;
+}
+	section.benefits-intro .inside h2, section.culture-intro .inside h2, section.businesses-intro .inside h2, section.talent-areas-intro .inside h2, section.privacy-intro .inside h2 {
+    font-size: 5.5vw;
+    line-height: 1.3em;
+    width: 100%;
+		    margin: 0 auto 15px;
+  }
+  section.benefits-intro .inside p, section.culture-intro .inside p, section.businesses-intro .inside p, section.talent-areas-intro .inside p,
+	section.privacy-intro .inside p{
+    font-size: 3.5vw;
+    line-height: 1.3em;
+  }
+	section.privacy-intro .inside p{
+		margin: 0 0 20px;
+	}
+  section.culture-employees h2 {
+    font-size: 5.5vw;
+    line-height: 1.1em;
+  }
+  section.culture-corevalues .inner h2 {
+    font-size: 5.5vw;
+    line-height: 1.1em;
+  }
+  section.culture-corevalues .inner p {
+    font-size: 3.5vw;
+    line-height: 1.3em;
+  }
+  section.culture-corevalues .inner {
+    padding: 2em 0 2em;
+    width: 90%;
+  }
+  .culture-intro .callout p {
+    font-size: 4vw;
+  }
+  .benefits-row2-inside {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .extra-benefits .table-text {
+    width: 85%;
+    padding: 3%;
+    text-align: center;
+  }
+  .nursing-nimbleness .table-text, .support-callout .table-text, .non-clinical-callout .table-text, .corp-smallteam .table-text, .new-grad-growth .table-text {
+    width: 94%;
+    padding: 3%;
+    text-align: center;
+  }
+  .mjhs-benefits h2 {
+    font-size: 4.5vw;
+    line-height: 1em;
+    width: 90%;
+  }
+  .allied-programs h2 {
+    font-size: 4.5vw;
+    line-height: 1em;
+    width: 90%;
+  }
+  .table-text .section-header-large {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  .section-header-large {
+    font-size: 8.5vw;
+    width: 80%;
+  }
+  .footer-logo {
+    width: 90%;
+  }
+  .share-mobile {
+    padding: 8px 7.5% 73px 7.5%;
+  }
+  .talent-network-sub-copy {
+    font-size: 4.6vw;
+    line-height: 1em;
+/*    padding-top: 13%;*/
+    text-align: center;
+  }
+  .talent-network-sub-copy span {
+    padding: 4% 10%;
+    width: 80%;
+  }
+  .locations-map {
+    font-size: 2.8vw;
+    text-align: center;
+  }
+  .locations-map .section-header-large {
+    max-width: 100% !important;
+    letter-spacing: -.02em;
+  }
+  .job-details-btns form {
+    display: block;
+  }
+  .apply-messenger-launcher {
+    bottom: 65px !important;
+    -webkit-transition: bottom .3s linear !important;
+    transition: bottom .3s linear !important;
+  }
+  .apply-chat-prompt {
+    bottom: 75px !important;
+    -webkit-transition: bottom .3s linear !important;
+    transition: bottom .3s linear !important;
+  }
+  .apply-messenger-launcher.open-menu {
+    bottom: 285px !important;
+    -webkit-transition: bottom .3s linear !important;
+    transition: bottom .3s linear !important;
+  }
+  .apply-chat-prompt.open-menu {
+    bottom: 295px !important;
+    -webkit-transition: bottom .3s linear !important;
+    transition: bottom .3s linear !important;
+  }
+  .search-headings h1, h1.mobile-apply {
+    font-size: 7vw;
+    line-height: 1em;
+    margin: 1.5em 0px 10px;
+  }
+  .search-headings h2 {
+    font-size: 3.6vw;
+    line-height: 1em;
+  }
+  .accordion-section-content-hamburger {
+    background-position: bottom center;
+  }
+  .covid-banner .inside p {
+    font-size: 3.5vw;
+  }
+  .shareThis {
+    letter-spacing: .05em;
+    position: relative;
+    transform: translateY(0%);
+    margin: 10px 0px 15px 0px;
+    z-index: 1;
+  }
+  .intro-main .icon {
+    width: 40%;
+    padding-bottom: 40%;
+    margin: 0px auto 10px;
+    display: block;
+  }
+  .intro-main li span {
+    width: 90%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .featured-jobs-front {
+    color: #54585b;
+    padding: 2em 0px;
+  }
+  .featured-jobs-front h2 {
+    font-size: 7vw;
+    line-height: 1em;
+    margin: 0 auto 10px;
+  }
+  .shareThis-holder-main-pg {
+    margin: 10px 0 15px;
+	  padding: 0;
+display: inline-block;
+  }
+  .featured-jobs-front .featured-jobs-bottom {
+    margin: 0px auto 0px auto;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .featured-jobs-front .featured-jobs-bottom > div, .featured-jobs-front .featured-jobs-bottom > div:first-child, .featured-jobs-front .featured-jobs-bottom > div:last-child {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 0px auto 0px;
+    position: relative;
+    padding: .75em 10px;
+    border-bottom: 1px dashed rgba(84, 88, 91, .45);
+  }
+  .featured-jobs-front .featured-jobs-bottom > div:last-child {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 0px auto 0px;
+    position: relative;
+    padding: 1em 10px 0;
+    border-bottom: 0px dashed rgba(84, 88, 91, .15);
+  }
+  .featured-jobs-front .featured-jobs-bottom h4 {
+    font-size: 1.6em;
+line-height: 1.2em;
+    display: block;
+    margin: 0px auto 10px;
+    letter-spacing: -.02em;
+  }
+  .featured-jobs-front .featured-jobs-bottom a, .talent-network-inside .table-text a {
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 400;
+    letter-spacing: .01em;
+    padding: 13px 24px 15px 24px;
+    display: inline-block;
+    text-align: left;
+    color: #ffffff !important;
+    border-radius: 50px;
+    position: relative;
+    z-index: 2;
+    -moz-box-shadow: 1px 2px 3px rgba(19, 60, 85, .2);
+    -webkit-box-shadow: 1px 2px 3px rgba(19, 60, 85, .2);
+    box-shadow: 1px 2px 3px rgba(19, 60, 85, .2);
+    margin: 15px 3px 10px 0;
+    transition: all 0.2s ease;
+    overflow: hidden;
+  }
+  .featured-jobs-front .featured-jobs-bottom a:hover, .featured-jobs-front .featured-jobs-bottom a:focus, .featured-jobs-front .featured-jobs-bottom a:active, .talent-network-inside .table-text a:hover, .talent-network-inside .table-text a:focus, .talent-network-inside .table-text a:active {
+    color: #ffffff;
+    padding: 13px 38px 15px 24px;
+  }
+  .featured-jobs-front .featured-jobs-bottom a::before, .talent-network-inside .table-text a::before {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 50%;
+    right: 21px;
+    z-index: 1;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: all 0.2s ease;
+  }
+  .featured-jobs-front .featured-jobs-bottom a:hover:before, .featured-jobs-front .featured-jobs-bottom a:focus:before, .featured-jobs-front .featured-jobs-bottom a:active:before, .talent-network-inside .table-text a:hover:before, .talent-network-inside .table-text a:focus:before, .talent-network-inside .table-text a:active:before {
+    opacity: 1;
+    transform: translateY(-50%);
+  }
+  .featured-jobs-front .featured-jobs-bottom p {
+    display: block;
+    min-height: 0em;
+    margin: 0px auto;
+  }
+	.stLeft {
+    display: block;
+    vertical-align: none;
+    margin: 0 auto 5px;
+}
+  .talent-network, .talent-network.inverted {
+    width: 100%;
+    color: #ffffff;
+    padding: 0px 0px;
+    margin: 5px 0px 0px;
+    border-top: 1px solid rgba(250, 250, 255, 1);
+  }
+  .talent-network.inverted h2 {
+    color: #ffffff;
+  }
+  .talent-network-inside .table-text p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .submit-holder {
+    display: block;
+    text-align: center;
+  }
+  #submit.submitBtn {
+    margin: 0px auto;
+  }
+  .body-class-main #optimator-form ul input.submitBtn {
+    margin: 0px auto;
+  }
+  .extra-benefits p {
+    font-size: 4vw;
+    line-height: 1.3em;
+    margin: 0 0 10px;
+  }
+  .career-areas {
+    padding: 20px 0px;
+    margin: 0px auto;
+  }
+  .career-areas li {
+    width: 80%;
+    padding-bottom: 80%;
+    margin: 10px auto;
+  }
+  .career-areas-label {
+    font-size: 4vw;
+    letter-spacing: -.0em;
+    line-height: 1.1em;
+	}
+	
+	}
+/*
+@media only screen and (min-width: 1000px) {
+  .mobile-search-content {
+    display: block !important;
+  }
+  .accordion-section-content-hamburger {
+    display: block !important;
+  }
+}*/

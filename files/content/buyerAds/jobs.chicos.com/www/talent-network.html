@@ -1,0 +1,720 @@
+	<!DOCTYPE html>
+	<html lang="en">
+
+	<head>
+		<!--|| {% load job_tags static %} ||-->
+		<meta id="testViewport" name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Retail Sales and Fashion Jobs at Chico's FAS</title>
+	<meta name="description" content="Apply online for retail sales, fashion, and corporate jobs at Chico's FAS, and join our three brands and hundreds of boutiques across the U.S.">
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<!-- Google -->
+		<meta itemprop="image" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this/social-image.jpg">
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:image:src" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this/social-twitter-image.jpg">
+		<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+		<meta property="og:image" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this/social-image.jpg">
+		<meta property="og:image:secure_url" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this/social-image.jpg">
+		<!-- Open Graph (LinkedIn) -->
+		<meta name="image" property="og:image" content="{{ CANONICAL_URL }}/static/sites/www/files/images/global/share-this/social-image.jpg?new">
+		<link rel="shortcut icon" href="{{ CANONICAL_URL }}/static/sites/www/files/images/favicon.ico">
+		<script type="application/ld+json">
+			{
+				"@context": "http://schema.org",
+				"@type": "Organization",
+				"url": "{{ CANONICAL_URL }}",
+				"image": "{{ CANONICAL_URL }}files/images/global/knowledge-graph-logo/logo.png",
+				"logo": "{{ CANONICAL_URL }}files/images/global/knowledge-graph-logo/logo.png"
+			}
+		</script>
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="files/images/global/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="files/images/global/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="files/images/global/favicons/favicon-16x16.png">
+		<link rel="manifest" href="files/images/global/favicons/site.webmanifest">
+		<link rel="mask-icon" href="files/images/global/favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+		<!-- End Favicon -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+		<link rel="stylesheet" href="files/css/style.css">
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<script src="files/js/jquery.init.js"></script>
+
+		<script src="{% static "js/common.js" %}"></script>
+		<!--||{% block head %}{% endblock %}||-->
+	</head>
+
+	<body class="{% block body-class %}{% endblock %}">
+		<header id="header">
+			<div class="top-row">
+				<div class="wrap">
+					<div class="left">
+						<ul>
+							<li>
+								<a href="https://www.dayforcehcm.com/MyDayforce/MyDayforce.aspx#SG9tZQ%3D%3D">Current Associate Login</a>
+								
+							</li>
+							<li class="has-children">
+								<button href="#return-apps-sub" class="">Returning Applicant Login</button>
+								<ul class="top-sub sub-menu" id="return-apps-sub">
+									<li><a rel="noreferrer noopener" target="_blank" href="https://www.dayforcehcm.com/CandidatePortal/en-US/chicosfas">Corporate Positions Login</a></li>
+									<li><a rel="noreferrer noopener" target="_blank" href="https://www.dayforcehcm.com/CandidatePortal/en-US/chicosfas/Site/STORECAREERS">Store Positions Login</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="right">
+						<div class="share-this-icons">
+							<div>share this</div>
+							<ul>
+								<li>
+									<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ request.build_absolute_uri }}" class="share-facebook">Share on Facebook</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://twitter.com/intent/tweet?url={{ request.build_absolute_uri }}" class="share-twitter">Share on Twitter</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url={{ request.build_absolute_uri }}" class="share-linkedin">Share on LinkedIn</a>
+								</li>
+								<li><a href="mailto:?body={{ request.build_absolute_uri }}&subject={{ job.title|default:SITE_TITLE }}" class="share-email">Share via Email</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom-row">
+				<a href="#" class="logo">
+					<img src="files/images/logo.png" alt="">
+				</a>
+				<button class="mobile-toggle" aria-label="Open Mobile Menu"><span></span></button>
+				<nav>
+					<ul>
+						<li><a href="/index.html">Career Home</a></li>
+						<li><a href="/who-we-are.html">Who We Are</a></li>
+						<li class="has-children">
+							<a href="/what-we-do.html">What We Do </a>
+							<button href="#what-we-do"><span class="sr-only">(Open Sub Menu)</span></button>
+							<ul id="what-we-do" class="sub-menu">
+								<li><a href="/store-careers.html">Store Careers</a></li>
+								<li><a href="/fashion-careers.html">Fashion Careers</a></li>
+								<li><a href="/corporate.html">Corporate Careers</a></li>
+								
+								<li><a href="/internships.html">Internships</a></li>
+							</ul>
+						</li>
+						<li class="has-children">
+							<a href="/life-at-chicos.html">Life at Chico's</a>
+							<button href="#life-at-chicos"><span class="sr-only">(Open Sub Menu)</span></button>
+							<ul id="life-at-chicos" class="sub-menu">
+								<li><a href="/values-and-culture.html">Values &amp; Culture </a></li>
+								<li><a href="/inclusion-and-diversity.html">Inclusion &amp; Diversity</a></li>
+								<li><a href="/philanthropy.html">Philanthropy</a></li>
+							</ul>
+						</li>
+						<li><a href="/benefits.html">Benefits</a></li>
+						<li><a href="/after-work.html">After Work</a></li>
+						<li><a href="/talentnetwork/">Join our Talent Network</a></li>
+						<li class="mobile-only">
+							<a href="https://www.dayforcehcm.com/CandidatePortal/en-US/chicosfas">Current Associate Login</a>
+						</li>
+						<li class="mobile-only has-children">
+							<button href="#return-apps-sub-mobile" class="">Returning Applicant Login</button>
+							<ul class="top-sub sub-menu" id="return-apps-sub-mobile">
+								<li><a rel="noreferrer noopener" target="_blank" href="https://www.dayforcehcm.com/CandidatePortal/en-US/chicosfas">Corporate Positions Login</a></li>
+								<li><a rel="noreferrer noopener" target="_blank" href="https://www.dayforcehcm.com/CandidatePortal/en-US/chicosfas/Site/STORECAREERS">Store Positions Login</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section class="inner-banner">
+			<div class="inner-banner-img talent-network-banner"></div>
+			<div class="inner-banner-title">
+				<h1>BE INSPIRED <i>and</i> INSPIRE OTHERS</h1>
+				<p>CHICO’S FAS CAREERS</p>
+			</div>
+		</section>
+
+		<div id="search-body">
+			<div class="wrap">
+				<section class="sub-search">
+					<button class="mobile-search-button btn blue" href="#search-form" aria-controls="#search-form" aria-expanded="false">Search Jobs</button>
+
+	                <!--||{% block search-options %}{% include 'includes/search_options.html' %}{% endblock %}||-->
+
+					<!--||{% comment %}||-->
+					<form id="search-form" method="get" action="/jobs/">
+						<ul class="search-fields" id="search-fields">
+							<li>
+								<div class="input-wrap">
+									<label for="#search-keyword">Search Jobs by Keyword</label>
+									<input id="search-keyword" name="search_term" type="text" placeholder="Search Jobs by Keyword" value="" aria-label="Search Jobs by Keyword">
+									<button type="submit" class="search-button">Submit Keyword Search</button>
+								</div>
+							</li>
+							<li>
+								<button class="search-accordion-button" href="#category-search" aria-controls="#category-search" aria-expanded="false">
+									Search Jobs By Category
+								</button>
+								<ul class="search-content2 search-accordion-list" id="category-search">
+
+														<li class="accordion-link active">
+									<a class="accordion-link search_link" href="/jobs/">Search All Categories</a>
+								</li>
+								<li class="accordion-link"><a class="accordion-link search_link" href="/jobs/administrative-services/">Administrative Services Jobs</a></li>
+								<li class="accordion-link"><a class="accordion-link search_link" href="/jobs/allocation/">Allocation Jobs</a></li>
+								<li class="accordion-link"><a class="accordion-link search_link" href="/jobs/apparel-technical-designer/">Apparel Technical Designer Jobs</a></li>
+								<li class="accordion-link"><a class="accordion-link search_link" href="/jobs/brand-planning/">Brand Planning Jobs</a></li>
+								<li class="accordion-link"><a class="accordion-link search_link" href="/jobs/business-process/">Business Process Jobs</a></li>
+								<li class="accordion-link"><a class="accordion-link search_link" href="/jobs/cad-design/">CAD Design Jobs</a></li>
+								<li class="accordion-link"><a class="accordion-link search_link" href="/jobs/store-operations/">Store Operations Jobs</a></li>
+								<li class="accordion-link"><a class="accordion-link search_link" href="/jobs/store-planner/">Store Planner Jobs</a></li>
+								<li class="accordion-link"><a class="accordion-link search_link" href="/jobs/store-planning/">Store Planning Jobs</a></li>
+								<li class="accordion-link"><a class="accordion-link search_link" href="/jobs/trainee-program/">Trainee Program Jobs</a></li>
+								<li class="accordion-link"><a class="accordion-link search_link" href="/jobs/visual-merchandiser/">Visual Merchandiser Jobs</a></li>
+								<li class="accordion-link"><a class="accordion-link search_link" href="/jobs/warehouse/">Warehouse Jobs</a></li>
+								
+								
+													
+								</ul>
+							</li>
+							<li>
+								<button class="search-accordion-button" href="#brand-search" aria-controls="#brand-search" aria-expanded="false">
+									Search Jobs by Brand
+								</button>
+								<ul class="search-content2 search-accordion-list" id="brand-search">
+									
+										<li class="accordion-link"><a class="accordion-link brand_link" href="?brand=">All Brands</a></li>
+										<li class="accordion-link"><a class="accordion-link brand_link" href="?brand=CHICOS">Chico's</a></li>
+										<li class="accordion-link"><a class="accordion-link brand_link" href="?brand=CHICOS_FAS">Chico's FAS, Inc-Shared Services</a></li>
+										<li class="accordion-link"><a class="accordion-link brand_link" href="?brand=SOMA">Soma Intimates</a></li>
+										<li class="accordion-link"><a class="accordion-link brand_link" href="?brand=WHBM">White House Black Market</a></li>
+										<li class="accordion-link"><a class="accordion-link brand_link" href="?brand=DC">Distribution Center (DC)</a></li>
+									
+								</ul>
+							</li>
+							<li>
+								<button class="search-accordion-button" href="#location-search" aria-controls="#location-search" aria-expanded="false">
+									Search Jobs by Location
+								</button>
+								<ul class="search-content2 search-accordion-list" id="location-search">
+									
+															<li class="accordion-link active">
+										<a class="accordion-link search_link" href="/jobs/">Search All Locations</a>
+									</li>
+									<li class="accordion-link">
+										<a class="accordion-link search_link" href="/jobs/virtual/">Virtual Jobs</a>
+									</li>
+									<li class="accordion-link"><a class="accordion-link search-link-30" href="/jobs/ca-on/">Ontario Jobs</a></li>
+									<li class="accordion-link"><a class="accordion-link search-link-30" href="/jobs/us-al/">Alabama Jobs</a></li>
+									<li class="accordion-link"><a class="accordion-link search-link-30" href="/jobs/us-ar/">Arkansas Jobs</a></li>
+									<li class="accordion-link"><a class="accordion-link search-link-30" href="/jobs/us-az/">Arizona Jobs</a></li>
+									<li class="accordion-link"><a class="accordion-link search-link-30" href="/jobs/us-ca/">California Jobs</a></li>
+									<li class="accordion-link"><a class="accordion-link search-link-30" href="/jobs/us-va/">Virginia Jobs</a></li>
+									<li class="accordion-link"><a class="accordion-link search-link-30" href="/jobs/us-vi/">Virgin Islands Jobs</a></li>
+									<li class="accordion-link"><a class="accordion-link search-link-30" href="/jobs/us-wa/">Washington Jobs</a></li>
+									<li class="accordion-link"><a class="accordion-link search-link-30" href="/jobs/us-wi/">Wisconsin Jobs</a></li>
+									<li class="accordion-link"><a class="accordion-link search-link-30" href="/jobs/us-wv/">West Virginia Jobs</a></li>
+									
+									
+									
+														
+								</ul>
+							</li>
+							<li>
+								<div class="zip-search">
+									<input name="zipcode" type="text" id="id_zipcode" class="radius2-col1" value="" placeholder="Zip Code" aria-label="Enter your desired Zip Code">
+									<select name="radius" class="search2" id="id_radius" aria-label="Radius (select number of miles from your desired zipcode)">
+										<optgroup>
+											<option value="10">10 Miles</option>
+											<option value="25" selected="">25 Miles</option>
+											<option value="50">50 Miles</option>
+											<option value="100">100 Miles</option>
+										</optgroup>
+									</select>
+									<button id="id-zipcode-btn">
+										<span class="sr-only">Submit Zip Code and Radius Search</span>
+									</button>
+								</div>
+							</li>
+							<li>
+								<div class="btn-wrap">
+									<a href="/jobs/" class="btn">Clear Search Fields</a>
+								</div>
+							</li>
+						</ul>
+					</form>
+					<!--||{% endcomment %}||-->
+				</section>
+
+				<section class="search-results">
+					<div class="optimator-form-container">
+                    
+                    <!--||{% block te-header %}{% endblock %}||-->
+                    <!--||{% block content %}{% endblock %}||-->
+                    
+					<!--||{% comment %}||-->
+							<p>Please tell us about yourself and select the job categories and locations
+								for which you want to receive updates on newly posted positions. </p>
+							
+								<p>
+									If you already signed up for this service, you should have an email
+									with a link to manage your settings. To re-send this email,
+									<a href="/talentnetwork/resend/">click here</a>.
+								</p>
+							
+							<form method="post" id="optimator-form" class="debounce" enctype="multipart/form-data">
+								<input type="hidden" name="csrfmiddlewaretoken" value="EUogoyFtejYUSEHa1XM5ML9SqTbecXpy8HjbmFI3xE3k1UYpnGD6SoxyZvi7QrrJ">
+								
+									<div class="optimator-form-field clearfix">
+										<label>First name:</label> 
+										<input type="text" name="first_name" maxlength="50" required="" id="id_first_name">
+										
+									</div>
+								
+									<div class="optimator-form-field clearfix">
+										<label>Last name:</label> 
+										<input type="text" name="last_name" maxlength="50" required="" id="id_last_name">
+										
+									</div>
+								
+									<div class="optimator-form-field clearfix">
+										<label>Email:</label> 
+										<input type="email" name="email" maxlength="100" required="" id="id_email">
+										
+									</div>
+								
+									<div class="optimator-form-field clearfix">
+										<label>Cell phone:</label> 
+										<input type="text" name="phone_number" maxlength="30" id="id_phone_number">
+										
+									</div>
+								
+									<div class="optimator-form-field clearfix">
+										<label>Current employer:</label> 
+										<input type="text" name="current_employer" maxlength="100" id="id_current_employer">
+										
+									</div>
+								
+									<div class="optimator-form-field clearfix">
+										<label>Current title:</label> 
+										<input type="text" name="current_title" maxlength="100" id="id_current_title">
+										
+									</div>
+								
+								
+									<div class="optimator-form-field clearfix">
+										<label>Categories:</label> 
+										<ul id="id_categories">
+						<li><label for="id_categories_0"><input type="checkbox" name="categories" value="18" id="id_categories_0">
+					 Administrative Services</label>
+					
+					</li>
+						<li><label for="id_categories_1"><input type="checkbox" name="categories" value="1" id="id_categories_1">
+					 Allocation</label>
+					
+					</li>
+						<li><label for="id_categories_2"><input type="checkbox" name="categories" value="8" id="id_categories_2">
+					 Apparel Technical Designer</label>
+					
+					</li>
+						<li><label for="id_categories_3"><input type="checkbox" name="categories" value="47" id="id_categories_3">
+					 Brand Planning</label>
+					
+					</li>
+						<li><label for="id_categories_4"><input type="checkbox" name="categories" value="56" id="id_categories_4">
+					 Business Process</label>
+					
+					</li>
+						<li><label for="id_categories_5"><input type="checkbox" name="categories" value="4" id="id_categories_5">
+					 CAD Design</label>
+					
+					</li>
+						<li><label for="id_categories_6"><input type="checkbox" name="categories" value="44" id="id_categories_6">
+					 Contact Center</label>
+					
+					</li>
+						<li><label for="id_categories_7"><input type="checkbox" name="categories" value="32" id="id_categories_7">
+					 Cashier</label>
+					
+					</li>
+						<li><label for="id_categories_8"><input type="checkbox" name="categories" value="42" id="id_categories_8">
+					 Construction</label>
+					
+					</li>
+						<li><label for="id_categories_9"><input type="checkbox" name="categories" value="12" id="id_categories_9">
+					 Copywriter</label>
+					
+					</li>
+						<li><label for="id_categories_10"><input type="checkbox" name="categories" value="21" id="id_categories_10">
+					 Creative</label>
+					
+					</li>
+						<li><label for="id_categories_11"><input type="checkbox" name="categories" value="3" id="id_categories_11">
+					 Customer Analytics and Intelligence</label>
+					
+					</li>
+						<li><label for="id_categories_12"><input type="checkbox" name="categories" value="39" id="id_categories_12">
+					 E-Commerce</label>
+					
+					</li>
+						<li><label for="id_categories_13"><input type="checkbox" name="categories" value="15" id="id_categories_13">
+					 Executive Management Training Program</label>
+					
+					</li>
+						<li><label for="id_categories_14"><input type="checkbox" name="categories" value="40" id="id_categories_14">
+					 Fabric</label>
+					
+					</li>
+						<li><label for="id_categories_15"><input type="checkbox" name="categories" value="6" id="id_categories_15">
+					 Fashion Designer</label>
+					
+					</li>
+						<li><label for="id_categories_16"><input type="checkbox" name="categories" value="5" id="id_categories_16">
+					 Fashion Marketing</label>
+					
+					</li>
+						<li><label for="id_categories_17"><input type="checkbox" name="categories" value="14" id="id_categories_17">
+					 Field Management</label>
+					
+					</li>
+						<li><label for="id_categories_18"><input type="checkbox" name="categories" value="19" id="id_categories_18">
+					 Finance</label>
+					
+					</li>
+						<li><label for="id_categories_19"><input type="checkbox" name="categories" value="10" id="id_categories_19">
+					 Global Sourcing</label>
+					
+					</li>
+						<li><label for="id_categories_20"><input type="checkbox" name="categories" value="16" id="id_categories_20">
+					 Graphic Design</label>
+					
+					</li>
+						<li><label for="id_categories_21"><input type="checkbox" name="categories" value="36" id="id_categories_21">
+					 Human Resources</label>
+					
+					</li>
+						<li><label for="id_categories_22"><input type="checkbox" name="categories" value="22" id="id_categories_22">
+					 Intern</label>
+					
+					</li>
+						<li><label for="id_categories_23"><input type="checkbox" name="categories" value="45" id="id_categories_23">
+					 Internal Audit</label>
+					
+					</li>
+						<li><label for="id_categories_24"><input type="checkbox" name="categories" value="2" id="id_categories_24">
+					 International</label>
+					
+					</li>
+						<li><label for="id_categories_25"><input type="checkbox" name="categories" value="9" id="id_categories_25">
+					 IT and Developer</label>
+					
+					</li>
+						<li><label for="id_categories_26"><input type="checkbox" name="categories" value="29" id="id_categories_26">
+					 Legal</label>
+					
+					</li>
+						<li><label for="id_categories_27"><input type="checkbox" name="categories" value="37" id="id_categories_27">
+					 Logistics</label>
+					
+					</li>
+						<li><label for="id_categories_28"><input type="checkbox" name="categories" value="17" id="id_categories_28">
+					 Loss Prevention</label>
+					
+					</li>
+						<li><label for="id_categories_29"><input type="checkbox" name="categories" value="11" id="id_categories_29">
+					 Merchandise Planner</label>
+					
+					</li>
+						<li><label for="id_categories_30"><input type="checkbox" name="categories" value="41" id="id_categories_30">
+					 Merchandising</label>
+					
+					</li>
+						<li><label for="id_categories_31"><input type="checkbox" name="categories" value="50" id="id_categories_31">
+					 Merchandising Systems</label>
+					
+					</li>
+						<li><label for="id_categories_32"><input type="checkbox" name="categories" value="33" id="id_categories_32">
+					 Planning &amp; Allocation</label>
+					
+					</li>
+						<li><label for="id_categories_33"><input type="checkbox" name="categories" value="7" id="id_categories_33">
+					 Product Development</label>
+					
+					</li>
+						<li><label for="id_categories_34"><input type="checkbox" name="categories" value="38" id="id_categories_34">
+					 Production</label>
+					
+					</li>
+						<li><label for="id_categories_35"><input type="checkbox" name="categories" value="55" id="id_categories_35">
+					 Project Management Office/PMO</label>
+					
+					</li>
+						<li><label for="id_categories_36"><input type="checkbox" name="categories" value="20" id="id_categories_36">
+					 Real Estate</label>
+					
+					</li>
+						<li><label for="id_categories_37"><input type="checkbox" name="categories" value="23" id="id_categories_37">
+					 Retail Assistant Manager</label>
+					
+					</li>
+						<li><label for="id_categories_38"><input type="checkbox" name="categories" value="46" id="id_categories_38">
+					 Retail Other</label>
+					
+					</li>
+						<li><label for="id_categories_39"><input type="checkbox" name="categories" value="25" id="id_categories_39">
+					 Retail Sales Associate</label>
+					
+					</li>
+						<li><label for="id_categories_40"><input type="checkbox" name="categories" value="49" id="id_categories_40">
+					 Security</label>
+					
+					</li>
+						<li><label for="id_categories_41"><input type="checkbox" name="categories" value="27" id="id_categories_41">
+					 Stocking</label>
+					
+					</li>
+						<li><label for="id_categories_42"><input type="checkbox" name="categories" value="53" id="id_categories_42">
+					 Store Design</label>
+					
+					</li>
+						<li><label for="id_categories_43"><input type="checkbox" name="categories" value="26" id="id_categories_43">
+					 Store Manager</label>
+					
+					</li>
+						<li><label for="id_categories_44"><input type="checkbox" name="categories" value="35" id="id_categories_44">
+					 Store Operations</label>
+					
+					</li>
+						<li><label for="id_categories_45"><input type="checkbox" name="categories" value="52" id="id_categories_45">
+					 Store Planner</label>
+					
+					</li>
+						<li><label for="id_categories_46"><input type="checkbox" name="categories" value="54" id="id_categories_46">
+					 Store Planning</label>
+					
+					</li>
+						<li><label for="id_categories_47"><input type="checkbox" name="categories" value="48" id="id_categories_47">
+					 Trainee Program</label>
+					
+					</li>
+						<li><label for="id_categories_48"><input type="checkbox" name="categories" value="24" id="id_categories_48">
+					 Visual Merchandiser</label>
+					
+					</li>
+						<li><label for="id_categories_49"><input type="checkbox" name="categories" value="13" id="id_categories_49">
+					 Warehouse</label>
+					
+					</li>
+					</ul>
+									</div>
+								
+									<div class="optimator-form-field clearfix">
+										<label>Brand:</label> 
+										<select name="brand" id="id_brand">
+					  <option value="0" selected="">All Brands</option>
+					
+					  <option value="1">Chico's</option>
+					
+					  <option value="2">Chico's FAS, Inc-Shared Services</option>
+					
+					  <option value="3">Soma Intimates</option>
+					
+					  <option value="4">White House Black Market</option>
+					
+					  <option value="5">Distribution Center (DC)</option>
+					
+					</select>
+									</div>
+								
+									<div class="optimator-form-field clearfix">
+										<label>Zip code:</label> 
+										<input type="text" name="zipcode" maxlength="5" id="id_zipcode">
+									</div>
+								
+									<div class="optimator-form-field clearfix">
+										<label>Radius:</label> 
+										<select name="radius" id="id_radius">
+					  <option value="5">5 miles</option>
+					
+					  <option value="10">10 miles</option>
+					
+					  <option value="25">25 miles</option>
+					
+					  <option value="50">50 miles</option>
+					
+					</select>
+									</div>
+								
+									<div class="optimator-form-field clearfix">
+										<label>Frequency:</label> 
+										<select name="frequency" id="id_frequency">
+					  <option value="7" selected="">Weekly</option>
+					
+					  <option value="14">Bi-weekly (every 2 weeks)</option>
+					
+					  <option value="30">Monthly</option>
+					
+					</select>
+									</div>
+								
+								<div class="optimator-form-field clearfix">
+									<em>By submitting information, you are not officially applying to a position at this time and you authorize Chico's to contact you via phone, email, and text messaging.  You also agree to receive automated messages. Message &amp; data rates apply.</em>
+									<div class="button_div">
+										<input name="SUBMIT" type="submit" class="buttons" id="SUBMIT" value="SUBMIT">
+									</div>
+								</div>
+							</form>
+					<!--||{% endcomment %}||-->
+
+                    </div>
+				</section>
+                
+                <!--||{% comment %}||-->
+				<div class="search-results-right">
+		
+					<section class="sub-jobs sub-featured-jobs">
+						<h2>
+							Featured Jobs
+						</h2>
+						
+						<ul class="featured-jobs-bottom">
+							<li>
+								<a href="" rel="nofollow">
+									<h3>Assistant Manager - White House Black Market</h3>
+								</a>
+								<dl>
+									<dt>Location:</dt>
+									<dd>Miami, FL</dd>
+								</dl>
+								<p>The Assistant Store Manager is responsible for supporting the Store Manager in promoting a customer and product-focused sales culture, where our values and guiding principles are at the forefront of all store operations ...</p>
+							</li>
+							<li>
+								<a href="" rel="nofollow">
+									<h3>Assistant Manager - White House Black Market</h3>
+								</a>
+								<dl>
+									<dt>Location:</dt>
+									<dd>Miami, FL</dd>
+								</dl>
+								<p>The Assistant Store Manager is responsible for supporting the Store Manager in promoting a customer and product-focused sales culture, where our values and guiding principles are at the forefront of all store operations ...</p>
+							</li>
+							<li>
+							
+									<a href="" rel="nofollow">
+										<h3>Assistant Manager - White House Black Market</h3>
+									</a>
+									<dl>
+										<dt>Location:</dt>
+										<dd>Miami, FL</dd>
+									</dl>
+									<p>The Assistant Store Manager is responsible for supporting the Store Manager in promoting a customer and product-focused sales culture, where our values and guiding principles are at the forefront of all store operations ...</p>
+							</li>
+						</ul>
+						
+					</section>
+					
+					<section class="sub-jobs saved-jobs">
+						<h2>Saved Jobs</h2>
+						<ul class="featured-jobs-bottom">
+							<li>
+								<a href="" rel="nofollow">
+									<h3>Assistant Manager - White House Black Market</h3>
+								</a>
+								<dl>
+									<dt>Location:</dt>
+									<dd>Miami, FL</dd>
+								</dl>
+								<p>The Assistant Store Manager is responsible for supporting the Store Manager in promoting a customer and product-focused sales culture, where our values and guiding principles are at the forefront of all store operations ...</p>
+							</li>
+							<li>
+								<a href="" rel="nofollow">
+									<h3>Assistant Manager - White House Black Market</h3>
+								</a>
+								<dl>
+									<dt>Location:</dt>
+									<dd>Miami, FL</dd>
+								</dl>
+								<p>The Assistant Store Manager is responsible for supporting the Store Manager in promoting a customer and product-focused sales culture, where our values and guiding principles are at the forefront of all store operations ...</p>
+							</li>
+						</ul>
+					</section>
+                </div>
+                <!--||{% endcomment %}||-->
+
+
+				
+			</div>
+		</div>
+
+		<section class="about-chicos">
+			<div class="wrap">
+				<div class="img-col">
+					
+				</div>
+				<div class="content-col">
+					<h4>About Chico’s FAS</h4>
+					<p>Chico's FAS, Inc., through its retail brands – Chico's, White House Black Market, and Soma, is a leading women's omni-channel specialty retailer of private branded, sophisticated, casual-to-dressy clothing, intimates, complementary accessories, and other non-clothing items. Under the Chico’s, White House Black Market, and Soma names, the company employs nearly 20,000 Associates, and operates over 1,400 stores and retail outlets throughout the U.S. and Canada, as well as an online presence for each of our brands.</p>
+				</div>
+			</div>
+		</section>
+
+		<footer id="footer">
+			<div class="top-row">
+				<div class="wrap">
+					<nav>
+						<ul>
+							<li><a href="/index.html">Career Home</a></li>
+							<li><a href="/who-we-are.html">Who We Are</a></li>
+							<li class="has-children">
+								<a href="/what-we-do.html">What We Do </a>
+								<button href="#what-we-do-foot"><span class="sr-only">(Open Sub Menu)</span></button>
+								<ul id="what-we-do-foot" class="sub-menu">
+									<li><a href="store-careers.html">Store Careers</a></li>
+									<li><a href="/fashion-careers.html">Fashion Careers</a></li>
+									<li><a href="/corporate.html">Corporate Careers</a></li>
+									
+									<li><a href="/internships.html">Internships</a></li>
+								</ul>
+							</li>
+							<li class="has-children">
+								<a href="/life-at-chicos.html">Life at Chico's</a>
+								<button href="#life-at-chicos-foot"><span class="sr-only">(Open Sub Menu)</span></button>
+								<ul id="life-at-chicos-foot" class="sub-menu">
+									<li><a href="/values-and-culture.html">Values &amp; Culture </a></li>
+									<li><a href="/inclusion-and-diversity.html">Inclusion &amp; Diversity</a></li>
+									<li><a href="/philanthropy.html">Philanthropy</a></li>
+								</ul>
+							</li>
+							<li><a href="/benefits.html">Benefits</a></li>
+							<li><a href="/after-work.html">After Work</a></li>
+						</ul>
+					</nav>
+					<p>Chico’s FAS, Inc. is an equal opportunity employer. We do not discriminate on the basis of race, color, religion, marital status, age, national origin, ancestry, physical or mental disability, medical condition, pregnancy, childbirth and related medical conditions, lactation, genetic information, gender, sexual orientation, gender identity or expression, military service, veteran status, or any other category protected under federal, state, or local law. </p>
+				</div>
+			</div>
+			<div class="bottom-row">
+				<div class="wrap">
+					<div class="brands-nav">
+						<span><img src="files/images/global/chicos.png" width="150" alt="Chico's" ></span>
+						<span><img src="files/images/global/whbm.png" alt="WHBM" width="150"></span>
+						<span><img src="files/images/global/soma.png" alt="SOMA" width="150"></span>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</body>
+
+	</html>

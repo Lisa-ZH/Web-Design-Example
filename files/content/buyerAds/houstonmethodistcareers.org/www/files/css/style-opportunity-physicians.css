@@ -1,0 +1,345 @@
+/* Added by LZ 03-19-2024 */
+/* opportunity-physicians.html */
+.faded-img-text.opps-physicians-pg:after {
+  background-position: 90% center;
+}
+/* Added by LZ 12-30-2024 opportunity-physicians.html */
+.interior-banner .interior-banner-img.opps-physicians {
+  background-position: top center;
+  padding-bottom: 30%;
+}/*
+.physicians.optimator-form-container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 6%;
+}*/
+.faded-img-text.opps-physicians-pg h3 {
+  font-weight: 600;
+}
+.callout-row2.physicians .text h4 {
+  margin: 10px 0 0 0;
+  font-weight: 600;
+}
+.callout-row2.physicians p span {
+  font-style: italic;
+}
+.callout-row2.physicians .text ul {
+  margin-top: 5px;
+	margin-bottom: 5px;
+}
+#innovation.photo {
+  background-image: url("../images/redesign/sub/opportunity/physicians/innovation.jpg")
+}
+#invest.photo {
+  background-image: url("../images/redesign/sub/opportunity/physicians/invest.jpg")
+}
+#leadership.photo {
+  background-image: url("../images/redesign/sub/opportunity/physicians/leadership.jpg")
+}
+#leading-medicine.photo {
+  background-image: url("../images/redesign/sub/opportunity/physicians/leading-medicine.jpg");
+  padding: 8% 5%;
+}
+.callout-row2 #invest.photo, .callout-row2 #innovation.photo {
+  background-position: top center;
+} /*
+.callout-row2.physicians.innovation a:after{
+	content: "➝";
+	font-size: 20px;
+	font-weight: 600;
+	margin-left: 2px;
+	margin-right: 10px;
+	position: relative;
+	top: 3px;
+}*/
+.callout-row2.physicians.innovation p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.physicians ul li a {
+  font-weight: 600;
+  text-decoration: underline;
+}
+.stickbutton-container{
+	position: sticky;
+    top: 0;
+	/*left: 50%;
+	transform: translate(-50%,0%);*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin: 20px auto;
+	z-index: 1000;
+}
+a.sticky-button {
+  padding: 20px 40px;
+  font-size: 1.6em;
+  font-weight: 700;
+  line-height: 1em;
+  text-align: center;
+  color: #fff;
+  background-color: #124a7e;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+a.sticky-button:hover{
+	background-color: #111d34;
+}
+.page-intro.opportunity-physicians p {
+  font-size: 1.2em;
+}
+.callout-row2.physicians #hmh-high-score {
+  background-position: 65% center;
+}
+.bckgrd-blue {
+  background-image: linear-gradient(90deg, #507491 0%, #345168 100%);
+}
+.bckgrd-light-blue {
+  background-color: #749ABB;
+}
+#location-map.photo {
+  background-image: url("../images/redesign/sub/opportunity/physicians/map.jpg");
+  background-size: contain;
+  cursor: pointer;
+  /*
+  transition: transform 0.2s;*/
+} /*
+#location-map.photo:hover {
+  transform: scale(1.1)
+}*/
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.popup-content {
+  max-width: 80%;
+  max-height: 80%;
+}
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.callout-row2.physicians.location-map {
+  flex-direction: row;
+}
+.callout-row2.location-map .text {
+  padding: 3% 5%;
+}
+.callout-row2.physicians .text.bckgrd-blue h3, .callout-row2.physicians .text.bckgrd-blue p {
+  color: #ffffff;
+}
+.callout-row2.physicians .text.bckgrd-blue a {
+  color: #ffffff;
+  font-weight: 700;
+}/*
+.page-intro.opportunity-physicians h2 {
+  padding-bottom: 30px;
+}*/
+.callout-row2.physicians hr {
+  width: 100%;
+}
+.callout-row2 .text.bckgrd-light-blue {
+  padding: 5%;
+  background-color: #749ABB;
+}
+.callout-row2 .text.bckgrd-light-blue p, .callout-row2 .text.bckgrd-light-blue h3, .callout-row2 .text.bckgrd-light-blue ul {
+  color: #ffffff;
+}
+.physicians.medicine ul {
+  list-style: none;
+}
+.physicians ul li {
+  font-size: 18px;
+  line-height: 2rem;
+  font-weight: 500;
+} /*
+.video-container-header {
+  position: relative;
+  width: 1600px;
+  height: 700px;
+	padding-bottom: 40%;
+  cursor: pointer;
+}
+.thumbnail {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  z-index: 2;
+}
+.video-wrapper {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-size: cover;
+  background-position: center;
+}
+.hear-from-physicians .responsive-frame{
+	position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+/*  height: 0;
+  margin-bottom: 20px;
+}*/
+.opportunity-physicians{
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color:  rgba(245, 245, 245, 1);
+}
+.opportunity-physicians h3{
+    width: 95%;
+    margin: 20px auto;
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 1.3em;
+    color:#124a7e;
+    text-align: center;
+}
+.opportunity-physicians .video-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.opportunity-physicians .video-container .video-player {
+  position: relative;
+  width: 48%;
+  padding-bottom: 27%;
+  height: 0;
+}
+.opportunity-physicians .video-container .video-player iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 1000px) {
+  .callout-row2.physicians.location-map, .callout-row2.physicians.medicine, .callout-row2.physicians.leadership {
+    flex-direction: column;
+  }
+  .callout-row2.physicians.invest, .callout-row2.physicians.innovation {
+    flex-direction: column-reverse;
+  }
+  .callout-row2 #location-map.photo, .callout-row2 #invest.photo, .callout-row2 #leading-medicine.photo, .callout-row2 #innovation.photo, .callout-row2 #leadership.photo {
+    padding-bottom: 30%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .callout-row2 #invest.photo, .callout-row2 #innovation.photo {
+    order: 0;
+  }
+}
+@media screen and (max-width: 768px)  {
+	.interior-banner .opps-physicians h1{
+		font-size: 5vw;
+	}
+	.interior-banner .interior-banner-img.opps-physicians {
+		padding-bottom: 40%;
+	}
+	.opportunity-physicians h3{
+    font-size: 2.6em;
+}
+	.opportunity-physicians .video-container {
+		flex-direction: column;
+	}
+	.opportunity-physicians .video-container .video-player{
+	width: 100%;
+  padding-bottom: 56.25%; /* Half of 56.25% to maintain 16:9 in two columns */	
+	}
+}
+@media screen and (max-width: 400px)  {
+	.callout-row2.physicians .text.bckgrd-blue h3, .callout-row2.physicians .text.bckgrd-white h3, .callout-row2.physicians .text.bckgrd-light-blue h3, .callout-row2.physicians .text h3{
+  font-size: 6vw;
+}
+	.interior-banner .opps-physicians h1{
+		font-size: 5.4vw;
+	}
+.physicians ul li{
+	font-size: 16px;
+	line-height: 1.5em;
+}
+.opportunities-nav.opportunity-physicians{
+	padding: 0;
+}
+}
+
+/* opportunity-physicians-jobs page*/
+.physicians-jobs{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+}
+.physicians-jobs .photo{
+	padding: 13% 5%;
+	background-image: url("../images/redesign/sub/opportunity/physicians/physicians-jobs-banner.jpg");
+	background-position: top center;
+  	background-size: cover;
+	background-repeat: no-repeat;
+}
+.physicians-jobs .text{
+	padding: 3%;
+	font-size: 1.5em;
+	line-height: 1.2em;
+	background-color: #dde0e5;
+}
+
+@media screen and (max-width: 800px)  {
+	.callout-row2.physicians-jobs .photo{
+		order:unset;
+	}
+}
+
+@media screen and (max-width: 768px)  {
+	.physicians-jobs .copy{
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+}
+@media screen and (max-width: 560px)  {
+	.physicians-jobs{
+	flex-direction: column;
+	}
+	.physicians-jobs .photo{
+		width: 100%;
+		padding-bottom: 30%;
+	}
+	.physicians-jobs .copy{
+		padding: 4% 6%;
+	}
+	.physicians.optimator-form-container{
+		padding-top: 0;
+	}
+}
+/*
+#location-map{
+	transition: transform 0.5s ease;
+	
+}
+#location-map:hover{
+	transform: translateX(-200px) scale(1.3);
+}*/
+/* End Added */

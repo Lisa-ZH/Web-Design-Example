@@ -1,0 +1,483 @@
+<!doctype html>
+<html>
+<head>
+	
+    <meta id="testViewport" name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta charset="utf-8">
+    <title>{% block title %}Jobs{% endblock %} | Teknor Apex Careers</title>
+    <!--||{% block canonical_link %}{% endblock %}||-->
+    <meta name="description" content="{% block meta_desc %}The scope of Teknor Apex products encompasses a universe. People around the world encounter Teknor Apex products in a myriad of forms every day. As a premier compound solutions provider, Teknor Apex is one of the most ethical, customer-connected companies in the industry. A vast range of polymer solutions means each customer receives the best fit for their needs. For nearly a century, Teknor Apex has compounded creativity with technology with each customer, each product, and every single solution.{% endblock %}"/>
+		
+ 	<!-- Google -->
+	<meta itemprop="name" content="Careers | Teknor Apex">
+	<meta itemprop="image" content="files/images/global/share-this/social-image.png">
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Careers | Teknor Apex">
+	<meta name="twitter:image:src" content="files/images/global/share-this/social-twitter-image.png">
+	<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+	<meta property="og:title" content="Careers | Teknor Apex">
+	<meta property="og:image" content="files/images/global/share-this/social-image.png">
+	<meta property="og:url" content="    ">
+	<meta property="og:type" content="website">
+	
+	<!-- icons -->
+	<link rel="icon" sizes="16x16 32x32 48x48" href="/static/sites/www/files/images/favicon.ico">
+	<link rel="icon" sizes="192x192" type="image/png" href="/static/sites/www/files/images/favicon-192x192.png">
+	<link rel="apple-touch-icon" sizes="180x180" type="image/png"  href="/static/sites/www/files/images/touch-icon-180x180.png">
+	
+	<script type="application/ld+json">
+	{
+	"@context": "http://schema.org",
+	"@type": "Organization",
+	"url": "{{ CANONICAL_URL }}/",
+	"image": "{{ CANONICAL_URL }}/static/sites/www/files/images/global/knowledge-graph-logo/logo.png",
+	"logo": "{{ CANONICAL_URL }}/static/sites/www/files/images/global/knowledge-graph-logo/logo.png"
+	}
+	</script>
+    
+	<link rel="stylesheet" href="https://use.typekit.net/olq2ovo.css">
+    <link href="files/styles/styles.css" rel="stylesheet" type="text/css">
+    <link href="files/styles/responsive.css" rel="stylesheet" type="text/css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="files/js/jquery-3.4.1.min.js"><\/script>')</script>
+    <script type="text/javascript" src="files/js/accordion.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="files/js/html5shiv.js"></script>
+    <script src="files/js/respond.min.js"></script>
+    <script src="files/js/modernizr.min.js" type="text/javascript">
+    <script src="files/js/placeholder.js" type="text/javascript"></script>
+    <![endif]-->
+	
+    <!--||{% block head %}{% endblock %}||-->
+	<!--||{% load job_tags %}||-->
+	
+</head>
+
+<body>
+	
+	<header id="scrollingDiv" class="default ">
+	  <div class="inner">
+		  
+			<div class="logo-holder">
+				<div class="color-logo"></div>
+			</div>
+		  
+			<nav>
+        	    <a class="accordion-hamburger-title" href="#accordion-hamburger" aria-controls="#accordion-hamburger" aria-expanded="false" aria-label="Open Website Menu (Hamburger Menu)"></a>
+				<div class="burger mmmmmm">
+					<div class="burger-box">
+						<div class="all-the-fixins">
+						</div>
+					</div>
+				</div>
+				<ul>
+					<li>
+						<a href="#">Careers Home</a>
+					</li>
+					<li>
+						<a href="https://www.teknorapex.com/contact-us">Contact Us </a>
+					</li>
+					<li class="talent-network-link">
+						<a href="{% url 'subscriptions' %}">Join Our Talent Network</a>
+					</li>
+					<li class="shareThis">
+						<span class="label">
+							Share This Page
+						</span>
+						<div class="links">
+            	    	    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53a47c2d2f5ca32d"></script>
+            	    	    <div class="addthis_sharing_toolbox"></div>
+            	    	</div>
+					</li>
+				</ul>
+			</nav>
+		  
+		</div>
+	</header>
+	
+	<main class="">
+		
+        <!--||{% block banner %}||-->
+		
+		<section class="bannerArea-search">
+		
+			<div class="inner">
+				<div class="copy">
+					<h1>When you treat employees with respect, success follows.</h1>
+				</div>
+			</div>
+			
+		</section>
+		
+        <!--||{% endblock %}||-->
+		
+		<div id="search-body" class="clearfix">
+			<div class="inner">
+			
+			<!--||{# block sub-search #}||-->
+			
+			<section class="sub-search">
+				<button class="mobile-search-button" href="#search-content" aria-controls="#search-content" aria-expanded="false">Search Jobs</button>
+
+					<!--||{% block search-options %}{% include 'includes/search_options.html' %}{% endblock %}||-->
+
+					<!--||{% comment %}||-->
+				
+				<ul class="search-content" id="search-content">
+					<li>
+						<form id="search-form" method="get" action="/jobs/">
+							<input name="search_term" type="text" id="search_term" placeholder="Search Jobs by Keyword" value="">
+							<input type="submit" class="search-button" value="" aria-label="submit keyword search"/>
+						</form>
+					</li>
+					<li>
+						<button class="search-accordion-button" href="#search-content4" aria-controls="#search-content4" aria-expanded="false">Search Jobs by Category</button>
+						<ul class="search-content2" id="search-content4">
+								
+								<li><a href="#">Item One</a></li>
+								<li><a href="#">Item Two</a></li>
+								<li><a href="#">Item Three</a></li>
+								<li><a href="#">Item Four</a></li>
+							
+						</ul>
+					</li>
+					<li>
+						<button class="search-accordion-button" href="#search-content2" aria-controls="#search-content2" aria-expanded="false">Search Jobs by Location</button>
+						<ul class="search-content2" id="search-content2">
+								
+								<li><a href="#">Item One</a></li>
+								<li><a href="#">Item Two</a></li>
+								<li><a href="#">Item Three</a></li>
+								<li><a href="#">Item Four</a></li>
+							
+						</ul>
+					</li>
+					<li>
+						<button class="search-accordion-button" href="#search-content3" aria-controls="#search-content3" aria-expanded="false">Search Jobs by Schedule</button>
+						<ul class="search-content2" id="search-content3">
+								
+								<li><a href="#">Item One</a></li>
+								<li><a href="#">Item Two</a></li>
+								<li><a href="#">Item Three</a></li>
+								<li><a href="#">Item Four</a></li>
+							
+						</ul>
+					</li>
+					<li>
+						<div class="zip-search">
+							<form id="zip-form" name="zip-form" method="get" action="{% url 'search' %}">
+								<input name="zipcode" type="text" id="id_zipcode" class="radius2-col1" value="" placeholder="Zip Code" aria-label="Enter your desired Zip Code">
+								<select name="radius" class="search2" id="id_radius" aria-label="Radius (select number of miles from your desired zipcode)">
+									<optgroup>
+										{% for r in radius_choices %}
+										<option value="{{ r }}"{% if r == radius %} selected{% endif %}>{{ r }} Miles</option>
+										{% endfor %}
+									</optgroup>
+								</select>
+							</form>
+							<a href="javascript:$('#zip-form').submit()" id="id-zipcode-btn">
+								<span class="sr-only"> Submit Zip Code and Radius Search</span>
+							</a>
+						</div>
+					</li>
+					<li>
+						<a href="/jobs/" class="advanced-button">New Search</a>
+					</li>
+				</ul>
+
+					<!--||{% endcomment %}||-->
+				
+			</section>
+		
+			<!--||{# endblock sub-search #}||-->
+			
+				
+			
+			<section class="search-results">
+				
+				<!--||{% block content %}{% endblock %}||-->
+
+				<!--||{% comment %}||-->
+				
+				<div class="search-headings">
+					<h1>Academic Advisor, Yokosuka Naval Base</h1>
+					<h2>Job Details</h2>
+				</div>
+				
+				<ul class="sub-buttons">
+					<li>
+						<a href="#">Apply</a>
+					</li>
+					<li>
+						<a href="#" class="utility-btn">Refer a Friend</a>
+					</li>
+					<li>
+						<form action="#" method="post" style="display: inline-block">
+							<input type="hidden" name="csrfmiddlewaretoken" value="5xMJjaW3rsFhKKAHKiPeQvumrAQN0EwNbCbONmd75hHVtJDfMKaL743QXAGf9Bj7">
+							<a href="#" onclick="$(this).closest('form').submit(); return false;" class="utility-btn">Save Job</a>
+						</form>
+					</li>
+					<li>
+						<a href="javascript:history.back();">Back</a>
+					</li>
+					<li class="shareThis">
+						<span class="stLeft">
+						Share This Job
+						</span>
+						<div class="stRight">
+            	    	    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53a47c2d2f5ca32d"></script>
+            	        	<div class="addthis_sharing_toolbox"></div>
+            	    	</div>
+					</li>
+				</ul>
+				
+				
+				<div class="job-details-content">
+		
+					<div class="google-job-map">
+        				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.2322714183942!2d-71.1103339840356!3d42.33757104451324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3798de681fccd%3A0x28872ef16d5e4f18!2sDana-Farber%20Cancer%20Institute!5e0!3m2!1sen!2sus!4v1579571773133!5m2!1sen!2sus" width="auto" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+					
+					<dl>
+						<span><dt>Job Ref:</dt> <dd>10013513</dd></span>
+						<span><dt>Location:</dt> <dd>Yokosuka Naval Base-Japan</dd></span>
+						<span><dt>Category:</dt> <dd>Advising and Enrollment</dd></span>
+						<span><dt>Type:</dt> <dd>Full time</dd></span>
+					</dl>
+					
+					<div class="copy">
+						<div><p>University of Maryland Global Campus (UMGC) Asia seeks an Academic Advisor. The Academic Advisor reports to the Assistant Director, Japan.</p><p><b>SPECIFIC RESPONSIBILITIES INCLUDE:</b></p><ul><li><p>Evaluate students' prior learning experience from both traditional and non-traditional sources to provide guidance to students pursuing UMGC Asia certificate and degree programs</p></li><li><p>Prepare tentative evaluations based upon students' specific degree goals and provide general advising and curriculum planning to UMGC Asia students</p></li><li><p>Communicate with students on a daily basis by telephone, email, and in person at their local UMGC education centers</p></li><li><p>Participate in outreach events and assist with marketing</p></li><li><p>Assist students with registration and actively work with the site staff to improve processes and increase enrollments</p></li><li><p>Relay academic policies and procedures in simple and accurate terms to students and education center personnel</p></li><li><p>Produce accurate work under pressure</p></li><li><p>Understand the needs of the non-traditional adult students</p></li><li><p>Be able to synthesize detailed information from various sources</p></li><li><p>Display an independent, cooperative, and professional attitude when interacting with internal and external clients</p></li><li><p>Other job-related duties as assigned</p></li></ul><p><b>REQUIRED EDUCATION AND EXPERIENCE:&nbsp;</b></p><ul><li><p>Bachelor's Degree from a U.S. regionally accredited institution or foreign degree equivalent</p></li><li><p>Excellent verbal, written, and interpersonal communication skills and a high level of analytical thinking for identifying and improving complex work projects</p></li><li><p>Strong attention to detail, quality customer service skills</p></li><li><p>1 (one) year experience with customer service, counseling/advising, military students or higher education</p></li><li><p>Ability to absorb and apply numerous policies and procedures</p></li><li><p>Ability to research and solve problems while considering multiple factors</p></li><li><p>Knowledge of the military culture</p></li><li><p>Successful applicants must be able to pass background check and meet requirements for individual logistic support (ILS)</p></li><li><p>Work on nights and weekends may be required</p></li></ul><p><b>PREFERRED EDUCATION AND EXPERIENCE:</b></p><ul><li><p>A Master's Degree</p></li><li><p>Experience with PeopleSoft, GoArmyEd and SalesForce</p></li><li><p>Proficient knowledge of computers including MS Office, Google Online Services, and other computer-based resources to include the Internet</p></li><li><p>Previous academic advising or higher education experience</p></li><li><p>Minimum of two years availability</p></li></ul><p><b>WHO MAY APPLY:</b></p><p>Applicants with individual logistical support (ILS) preferred. Applicant must qualify for ILS. Criteria under which applicants qualify for ILS are: must serve the US Forces exclusively; are not stateless persons; are not ordinarily resident in the host nation; are not US/dual citizens with a Schengen country and/or are willing to renounce Schengen citizenship if selected. Applicants MAY be eligible for ILS contingent upon the military and host nation requirements at time of hire.&nbsp;</p><p>All submissions should include a cover letter and resume. UMGC offers competitive compensation and comprehensive benefits for qualifying positions, such as tuition remission, generous leave and healthcare. For detailed benefits information, please visit: <b><a href="https://nam03.safelinks.protection.outlook.com/?url=https%3A//careers.umgc.edu/benefits.html&amp;data=02%7C01%7CKatie.Lively%40umgc.edu%7C31ed42333fb74dd78af908d8121e1a21%7C704ce3d6a4bf4e098516d52840c9f7a9%7C0%7C0%7C637279267800642117&amp;sdata=ELsLVpKqiyQ9jrzPLS%2BSAxg88cH4BeHCnm1p4Diey0c%3D&amp;reserved=0" target="_blank">https://careers.umgc.edu/benefits.html</a></b>.</p></div><p></p>
+					</div>
+					
+					<div class="apply">
+						<a href="#" class="red-button">Apply</a>
+					</div>
+				
+				</div>
+
+				<!--||{% endcomment %}||-->
+
+			</section>
+			
+				
+				
+			<!--||{% block side-bar %}||-->
+			
+			<div class="search-results-right">
+
+				<section class="tn-callout">
+					<a href="{% url 'subscriptions' %}"><div><span>Join Our <strong>Talent Network</strong></span></div></a>
+				</section>
+
+				<!--||{% block featured %}||-->
+				
+				<section class="sub-featured-jobs">
+
+					<h2>
+						Featured Jobs
+					</h2>
+
+					<div class="featured-jobs-bottom">
+
+					<!--||{% featured_jobs %}||-->
+
+					<!--||{% comment %}||-->
+				
+					<div>
+						<h3>Security Guard - Day Shift</h3>
+						<dl>
+							<dt>Location:</dt> <dd>Brownsville, TN</dd>
+							<span class="category"><dt>Category:</dt> <dd>Maintenance</dd></span>
+						</dl>
+						<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent accumsan eget neque ut vulputate. Phasellus eu ex sit amet magna commodo vestibulum ac et diam. Suspendisse potenti. Nam tristique finibus nibh nec pellentesque. Ut vestibulum lectus vitae consequat faucibus. ...</div>
+						<a class="red-button" href="#">Read More</a>
+					</div>
+			
+					<div>
+						<h3>Unit Operator (Extrusion 2nd &amp; 3rd Shift)</h3>
+						<dl>
+							<dt>Location:</dt> <dd>Brownsville, TN</dd>
+							<span class="category"><dt>Category:</dt> <dd>Manufacturing / Production</dd></span>
+						</dl>
+						<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent accumsan eget neque ut vulputate. Phasellus eu ex sit amet magna commodo vestibulum ac et diam. Suspendisse potenti. Nam tristique finibus nibh nec pellentesque. Ut vestibulum lectus vitae consequat faucibus. ...</div>
+						<a class="red-button" href="#">Read More</a>
+					</div>
+				
+					<div>
+						<h3>Unit Operator</h3>
+						<dl>
+							<dt>Location:</dt> <dd>St Albans, VT</dd>
+							<span class="category"><dt>Category:</dt> <dd>Manufacturing / Production</dd></span>
+						</dl>
+						<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent accumsan eget neque ut vulputate. Phasellus eu ex sit amet magna commodo vestibulum ac et diam. Suspendisse potenti. Nam tristique finibus nibh nec pellentesque. Ut vestibulum lectus vitae consequat faucibus. ...</div>
+						<a class="red-button" href="#">Read More</a>
+					</div>
+				
+				<!--||{% endcomment %}||-->
+
+					</div>
+				</section>
+				
+				<!--||{% endblock featured %}||-->
+
+				
+				
+				<!--||{% block saved-jobs %}||-->
+
+				<section class="saved-jobs">
+					
+					<h2>
+						Saved Jobs
+					</h2>
+					
+					<div class="featured-jobs-bottom">
+						
+					<!--||{% comment %}||-->
+			
+					<div>
+						<h3>Security Guard - Day Shift</h3>
+						<dl>
+							<dt>Location:</dt> <dd>Brownsville, TN</dd>
+							<span class="category"><dt>Category:</dt> <dd>Maintenance</dd></span>
+						</dl>
+						<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent accumsan eget neque ut vulputate. Phasellus eu ex sit amet magna commodo vestibulum ac et diam. Suspendisse potenti. Nam tristique finibus nibh nec pellentesque. Ut vestibulum lectus vitae consequat faucibus. ...</div>
+						<a class="red-button" href="#">Read More</a>
+					</div>
+			
+					<div>
+						<h3>Unit Operator (Extrusion 2nd &amp; 3rd Shift)</h3>
+						<dl>
+							<dt>Location:</dt> <dd>Brownsville, TN</dd>
+							<span class="category"><dt>Category:</dt> <dd>Manufacturing / Production</dd></span>
+						</dl>
+						<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent accumsan eget neque ut vulputate. Phasellus eu ex sit amet magna commodo vestibulum ac et diam. Suspendisse potenti. Nam tristique finibus nibh nec pellentesque. Ut vestibulum lectus vitae consequat faucibus. ...</div>
+						<a class="red-button" href="#">Read More</a>
+					</div>
+					
+            			<a class="red-button top-margin-20" href="/my-saved-jobs/">View All Saved Jobs</a>
+				
+					<!--||{% endcomment %}||-->
+						
+					</div>
+					
+				</section>
+				
+				<!--||{% endblock saved-jobs %}||-->
+				
+
+				<!-- Glassdoor Section -->
+
+				<section class="glassdoor-sub">
+					<h2 class="sr-only">Teknor Apex Glassdoor Reviews and Ratings</h2>
+					<div class="glassdoor-rating">
+						<span class="sr-only">Rated </span>4.2<span class="sr-only"> out of 5 stars</span>
+					</div>
+					<div class="glassdoor-stars">
+						<div class="glassdoor-green" style="width: 84%;"></div>
+					</div>
+					<div class="glassdoor-copy">
+						Reviews and Ratings on
+					</div>
+					<div class="glassdoor-logo">
+						<a href="https://www.glassdoor.com/Overview/Working-at-Teknor-Apex-EI_IE15418.11,22.htm" target="_blank" aria-label="Find UMGC on Glassdoor (Opens in a new window)"><img src="files/images/jobsearch/glassdoor-logo.png" alt="Glassdoor (logo)" width="276" height="55" class="scalable"/></a>
+					</div>
+					<div class="glassdoor-copy2">
+						"<strong>Amazing Expierence! Great People to work for...</strong>"
+					</div>
+					<div class="quote-person">
+						<strong>- Processing Technician</strong> 
+						in Henderson, KY
+					</div>
+				</section>
+				
+				<!--||{% endblock side-bar %}||-->
+				
+			</div>
+
+		</div>
+			
+		</div>
+		
+	</main>
+	
+	<footer>
+		
+		<div class="inner">
+			
+			<div class="left">
+				<div class="logo-holder">
+					<div class="white-logo"></div>
+				</div>
+				<p>The scope of Teknor Apex products encompasses a universe. People around the world encounter Teknor Apex products in a myriad of  forms every day. As a premier compound solutions provider, Teknor Apex is one of the most ethical, customer-connected companies in the industry. A vast range of polymer solutions means each customer receives the best fit for their needs. For nearly a century, Teknor Apex has compounded creativity with technology with each customer, each product, and every single solution.</p>
+				<span class="copyright">© <script type="text/javascript">date = new Date();
+                year = date.getFullYear();
+				document.write(year);//</script> Teknor Apex</span>
+			</div>
+			
+			<div class="center">
+				<ul>
+					<li>
+						<a href="/privacypolicy">Privacy Policy</a>
+					</li>
+					<li>
+						<a href="/careers">Careers</a>
+					</li>
+					<li>
+						<a href="/procurement-terms-conditions">Procurement Terms &amp; Conditions</a>
+					</li>
+					<li>
+						<a href="/contact-us">Contact</a>
+					</li>
+					<li>
+						<a href="/teknor-apex-company-terms-conditions-of-sale">TAC Terms &amp; Conditions</a>
+					</li>
+					<li>
+						<a href="/request-a-quote">Request a Quote</a>
+					</li>
+					<li>
+						<a href="/taap-terms-conditions-of-sale">TAAP Terms &amp; Conditions </a>
+					</li>
+					<li>
+						<a href="/locations">Locations</a>
+					</li>
+					<li>
+						<a href="/terms-of-use">Terms of Use</a>
+					</li>
+					<li>
+						<a href="/site-map">Site Map</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="right">
+				<ul class="social">
+					<li class="label">
+						Follow Us on Social Media
+					</li>
+					<li>
+						<a class="linkedin" href="https://www.linkedin.com/mwlite/company/teknor-apex-company" target="_blank" aria-label="Follow Us On LinkedIn (opens in a new window)"></a>
+					</li>
+					<li>
+						<a class="twitter" href="#" target="_blank" aria-label="Follow Us On Twitter (opens in a new window)"></a>
+					</li>
+					<li>
+						<a class="instagram" href="#" target="_blank" aria-label="Follow Us On Instagram (opens in a new window)"></a>
+					</li>
+				</ul>
+				<div class="eoe-notification">
+					Teknor Apex is an equal opportunity employer and does not discriminate against any protected status under state or federal laws.  Must be 18 years of age or older to work at Teknor Apex.
+				</div>
+			</div>
+			
+		</div>
+		
+	</footer>
+
+<!--||{% block js %}{% endblock %}||-->	
+	
+</body>
+</html>

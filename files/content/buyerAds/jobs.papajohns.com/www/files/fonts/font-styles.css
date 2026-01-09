@@ -1,0 +1,36 @@
+
+@font-face {
+ font-family:'PapaSans-Bold';
+ src:url("./PapaSans-Bold.woff2") format("woff2"),
+ url("./PapaSans-Bold.woff") format("woff");
+ font-weight:400;
+ font-style:normal
+}
+@font-face {
+ font-family:'PapaSans-MediumCondensed';
+ src:url("./PapaSans-MediumCondensed.woff2") format("woff2"),
+ url("./PapaSans-MediumCondensed.woff") format("woff");
+ font-weight:700;
+ font-style:normal
+}
+@font-face {
+ font-family:'PapaSans';
+ src:url("./PapaSans-Regular.woff2") format("woff2"),
+ url("./PapaSans-Regular.woff") format("woff");
+ font-weight:normal;
+ font-style:normal
+}
+@font-face {
+ font-family:'PapaSans-Heavy';
+ src:url("./PapaSans-Heavy.woff2") format("woff2"),
+ url("./PapaSans-Heavy.woff") format("woff");
+ font-weight:900;
+ font-style:normal
+}
+@font-face {
+ font-family:'PapaSans-Italic';
+ src:url("./PapaSans-Italic.woff2") format("woff2"),
+ url("./PapaSans-Italic.woff") format("woff");
+ font-weight:normal;
+ font-style:italic
+}

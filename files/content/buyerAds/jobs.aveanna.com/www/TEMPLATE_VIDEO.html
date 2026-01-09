@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!--||{% block headers %}||-->
+	<title>Upload Videos | Aveanna Healthcare</title>
+	<meta name="description" content="{% block meta_desc %}Explore jobs at Aveanna Healthcare, the new standard for highly skilled in-home pediatric nursing services.{% endblock %}"/>
+	<!--||{% endblock %}||-->
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- Google -->
+	<meta itemprop="image" content="/static/sites/www/files/images/global/share-this/social-image.jpg">
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image:src" content="/static/sites/www/files/images/global/share-this/social-twitter-image.jpg">
+	<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+	<meta property="og:image" content="/static/sites/www/files/images/global/share-this/social-image.jpg">
+	<meta property="og:image:secure_url" content="/static/sites/www/files/images/global/share-this/social-image.jpg">
+	<!-- Open Graph (LinkedIn) -->
+	<meta name="image" property="og:image" content="/static/sites/www/files/images/global/share-this/social-image.jpg">
+	<link rel="shortcut icon" href="/static/sites/www/files/images/global/favicon.png">
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "Organization",
+			"url": "{{ CANONICAL_URL }}/",
+			"image": "{{ CANONICAL_URL }}/static/sites/www/files/images/global/knowledge-graph-logo/logo.png",
+			"logo": "{{ CANONICAL_URL }}/static/sites/www/files/images/global/knowledge-graph-logo/logo.png"
+		}
+	</script>
+	<!--||{% load job_tags static %}||-->
+	<!--||{% block head %}{% endblock %}||-->
+	<script src="{% static 'js/common.js' %}"></script>	
+	
+	<!-- Google tag (gtag.js) -->
+	<script defer src="https://www.googletagmanager.com/gtag/js?id=G-2S33ZYTC6N&l=myNewName"></script>
+	<script defer>
+		window.myNewName = window.myNewName || [];
+	
+		function gtag() {
+			myNewName.push(arguments);
+		}
+		gtag('js', new Date());
+		gtag('config', 'G-2S33ZYTC6N');
+	</script>
+	<script defer>
+		(function(w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer1', 'GTM-PWX427N');
+	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script defer src="https://www.googletagmanager.com/gtag/js?id=UA-109176187-3"></script>
+	<script defer>
+		window.dataLayer = window.dataLayer || [];
+	
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+		gtag('config', 'UA-109176187-3');
+	</script>
+	<!-- End Google Tag Manager -->
+	<link rel="stylesheet" href="https://use.typekit.net/vks0jiu.css">
+	<link rel="shortcut icon" href="/static/sites/www/files/images/favicon.png">
+
+	<link media="screen" href="files/styles/all-styles.css" rel="stylesheet" type="text/css" />
+	<link media="screen" href="files/styles/slider-buttons.css" rel="stylesheet" type="text/css" />
+	<script src="files/js/jquery-3.7.0.min.js"></script>
+	<script defer src="files/js/slick.js"></script>
+	<script defer  src="files/js/all-min.js"></script>
+	
+	
+	<link rel="preload" fetchpriority="high" as="image" href="/static/sites/www/files/images/jobpages/job-details-banner.webp" type="image/webp" media="(min-width: 700px)">
+	<link rel="preload" fetchpriority="high" as="image" href="/static/sites/www/files/images/jobpages/job-details-banner-mobile.webp" type="image/webp" media="(max-width: 700px)">
+
+	<link rel="preload" fetchpriority="high" as="image" href="/static/sites/www/files/images/jobpages/job-listing-banner.webp" type="image/webp" media="(min-width: 700px)">
+	<link rel="preload" fetchpriority="high" as="image" href="/static/sites/www/files/images/jobpages/job-listing-banner-mobile.webp" type="image/webp" media="(max-width: 700px)">
+	
+	
+	
+</head>
+
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWX427N" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<div class="skip-to-content">
+		<a href="#page-body">
+			Skip to Page Content <span class="sr-only">(will bypass menus and search fields)</span>
+		</a>
+	</div>
+	<!--------------------------- HEADER -------------------------->
+	<header>
+		<nav class="top-nav">
+			<div class="inner">
+				<ul class="top-left">
+					<li class="home-link">
+						<a href="https://www.aveanna.com/">Aveanna Home</a>
+					</li>
+					<li class="home-link-mobile">
+						<a href="https://www.aveanna.com/">Home</a>
+					</li>
+					<li class="top-search">
+						<div id="site-search" class="site-search">
+							<form method="get" action="{% url "search" %}">
+								<label for="q" class="sr-only">Search aveanna.com</label>
+								<input id="q" type="text" name="q" placeholder="Search site...">
+							</form>
+						</div>
+					</li>
+					<li class="top-social-links">
+						<ul class="social" aria-label="Social Media Links">
+							<li class="facebook">
+								<a href="https://www.facebook.com/officialAveannaHealthcare/" target="_blank" aria-label="Visit Aveanna on Facebook (opens in a new window)">
+								</a>
+							</li>
+							<li class="instagram">
+								<a href="https://www.instagram.com/aveannahealthcare/" target="_blank" aria-label="Visit Aveanna on Instagram (opens in a new window)">
+								</a>
+							</li>
+							<li class="linkedin">
+								<a href="https://www.linkedin.com/company/aveanna-healthcare/" target="_blank" aria-label="Visit Aveanna on LinkedIn (opens in a new window)">
+								</a>
+							</li>
+							<li class="glassdoor">
+								<a href="https://www.glassdoor.com/Overview/Working-at-Aveanna-Healthcare-EI_IE1820653.11,29.htm" target="_blank" aria-label="Check Aveanna Out on Glassdoor (opens in a new window)"></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="top-right">
+					<li class="top-services-pdn">
+						<a href="https://www.aveanna.com/private-duty/index.html">Private Duty Services</a>
+					</li>
+					<li class="top-services-hhh">
+						<a href="https://www.aveanna.com/home-health/index.html">Home Health &amp; Hospice</a>
+					</li>
+					<li class="top-services-ms">
+						<a href="https://www.aveannamedicalsolutions.com/" target="_blank">Medical Solutions</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="inner lower-header">
+
+			<div class="left">
+				<a href="https://www.aveanna.com/" class="logo">
+					<span class="sr-only">Aveanna Healthcare</span>
+				</a>
+			</div>
+
+			<div class="right">
+
+				<nav class="top">
+					<ul>
+						<li>
+							<a href="https://www.aveanna.com/referral-sources.html">Referral Sources</a>
+						</li>
+						<li>
+							<a href="https://ir.aveanna.com/">Investors</a>
+						</li>
+						<li>
+							<a href="https://www.aveanna.com/blog/">Blog</a>
+						</li>
+						<li>
+							<a href="https://jobs.aveanna.com/culture.html">Culture</a>
+						</li>
+						<li class="google-translate">
+							<!-- ---- ---- GOOGLE TRANSLATE ---- ---- -->
+							<div id="google_translate_element"></div>
+							<script type="text/javascript">
+								function googleTranslateElementInit() {
+									new google.translate.TranslateElement({
+										pageLanguage: 'en',
+										layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+									}, 'google_translate_element');
+								}
+							</script>
+							<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+						</li>
+					</ul>
+				</nav>
+
+				<nav class="bottom" aria-label="Website Navigation">
+					<a class="accordion-hamburger-title" href="#accordion-hamburger" aria-controls="#accordion-hamburger" aria-expanded="false" aria-label="Open Website Navigation (Hamburger Menu)"></a>
+					<div class="burger mmmmmm">
+						<div class="burger-box">
+							<div class="all-the-fixins">
+							</div>
+						</div>
+					</div>
+
+					<!-- ---- ---- ---- NAV ---- ---- ---- -->
+
+					<ul id="accordion-hamburger" class="accordion-hamburger">
+						<li class="mobile-only mobile-home-section">
+							<ul class="division-nav">
+								<li class="section-home">
+									<a href="/">
+										Aveanna Home
+									</a>
+								</li>
+								<li class="services-accordion-pd-mobile">
+									<a href="https://www.aveanna.com/private-duty/index.html">Private Duty Services</a>
+								</li>
+								<li class="services-accordion-hhh-mobile">
+									<a href="https://www.aveanna.com/home-health/index.html">Home Health &amp; Hospice</a>
+								</li>
+								<li class="services-accordion-ms-mobile">
+									<a href="https://www.aveannamedicalsolutions.com/">Medical Solutions</a>
+								</li>
+							</ul>
+						</li>
+						
+						<li>
+							<a class="accordion-hamburger-title-2" href="#sub-nav-1" aria-controls="#sub-nav-1" aria-expanded="false">About Us</a>
+							<ul id="sub-nav-1" class="accordion-hamburger-2">
+								<li>
+									<a href="https://www.aveanna.com/our-story.html">Our Story</a>
+								</li>
+								<li>
+									<a href="https://www.aveanna.com/culture.html">Culture, Mission &amp; Core Values</a>
+								</li>
+								<li>
+									<a href="https://www.aveanna.com/difference.html">The Aveanna Difference</a>
+								</li>
+								<li>
+									<a href="https://www.aveanna.com/leadership.html">Leadership</a>
+								</li>
+								<li>
+									<a href="https://www.aveanna.com/board-of-directors.html">Board of Directors</a>
+								</li>
+								<li>
+									<a href="http://aveannarelief.org/">Relief Fund</a>
+								</li>
+								<li>
+									<a href="https://www.aveanna.com/compliance.html">Compliance</a>
+								</li>
+								<li>
+									<a href="https://www.aveanna.com/privacypolicy.html">Privacy Policy</a>
+								</li>
+								<li>
+									<a href="https://www.aveanna.com/HIPAANotice.html">HIPAA Notice</a>
+								</li>
+								<li>
+									<a href="https://www.aveanna.com/accessibility.html">Accessibility</a>
+								</li>
+								<li>
+									<a href="https://www.aveanna.com/accredation.html">Accreditation</a>
+								</li>
+							</ul>
+						</li>
+						<li class="desktop-only">
+							<a class="accordion-hamburger-title-2" href="#sub-nav-2" aria-controls="#sub-nav-2" aria-expanded="false">Services</a>
+							<ul id="sub-nav-2" class="accordion-hamburger-2 services-dropdown">
+								<li class="services-accordion-pd">
+									<a href="https://www.aveanna.com/private-duty/index.html">Private Duty Services</a>
+								</li>
+								<li class="services-accordion-hhh">
+									<a href="https://www.aveanna.com/home-health/index.html">Home Health &amp; Hospice</a>
+								</li>
+								<li class="services-accordion-ms">
+									<a href="https://www.aveannamedicalsolutions.com/">Medical Solutions</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a class="accordion-hamburger-title-2" href="#sub-nav-3" aria-controls="#sub-nav-3" aria-expanded="false">Resources</a>
+							<ul id="sub-nav-3" class="accordion-hamburger-2 resources-hamburger">
+								<li>
+									<a class="accordion-hamburger-title-3" href="#sub-nav-3a" aria-controls="#sub-nav-3a" aria-expanded="false">Family Resources</a>
+									<ul id="sub-nav-3a" class="accordion-hamburger-3">
+										<li><a href="https://www.aveanna.com/family-resources.html">Overview</a></li>
+										<li><a href="https://www.aveanna.com/insurance-process.html">Insurance Process</a></li>
+									</ul>
+								</li>
+								<li><a class="accordion-hamburger-title-3" href="#sub-nav-3b" aria-controls="#sub-nav-3b" aria-expanded="false">Employee Resources</a>
+									<ul id="sub-nav-3b" class="accordion-hamburger-3">
+										<li><a href="https://www.aveanna.com/employee-resources.html">Overview</a></li>
+										<li><a href="https://www.aveanna.com/employee-scholarship-n-tuition-discounts.html">Employee Tuition Reimbursement &amp; Tuition Discounts</a></li>
+										<li><a href="https://www.myworkday.com/wday/authgwy/psahealthcare/login.htmld" target="_blank">Workday Login<span class="sr-only"> (link opens in a new window)</span></a></li>
+										<li><a href="https://www.aveanna.com/code-of-conduct.html">Code of Conduct</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a class="accordion-hamburger-title-2" href="#sub-nav-careers" aria-controls="#sub-nav-careers" aria-expanded="false">Careers</a>
+							<ul id="sub-nav-careers" class="accordion-hamburger-2 resources-hamburger">
+								<li><a href="/">Careers Home</a></li>
+								<li><a href="/jobs/">Job Search</a></li>
+								<li><a href="find-yourself-here.html">Find Yourself Here</a></li>
+								<li><a href="/culture.html">Culture</a></li>
+								<li><a href="inclusion-and-engagement.html">Inclusion &amp; Engagement</a></li>
+								<li><a href="benefits.html">Benefits</a></li>
+								<li><a href="new-grads.html">New Grads</a></li>
+								<li><a href="veterans.html">Veterans</a></li>
+								<li><a href="faqs.html">FAQs</a></li>
+								<li>
+									<a class="accordion-hamburger-title-3" href="#sub-sub-nav-careers" aria-controls="#sub-sub-nav-careers" aria-expanded="false">Featured Careers</a>
+									<ul id="sub-sub-nav-careers" class="accordion-hamburger-3">
+										<li><a href="/in-home-nursing-pediatric-and-adult.html">In-Home Nursing Pediatric and Adult</a></li>
+										<li><a href="/home-health-and-hospice.html">Home Health and Hospice Nursing</a></li>
+										<li><a href="/pediatric-therapy.html">Pediatric Therapy</a></li>
+										<li><a href="/home-health-therapy.html">Home Health Therapy</a></li>
+										<li><a href="/educational-staffing-services.html">Educational Staffing Services</a></li>
+										<li><a href="/location-and-corporate-support.html">Location and Corporate Support</a></li>
+									</ul>
+								</li>
+								<li><a href="/interview-checklist.html">Pre-Interview Checklist</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="https://www.aveanna.com/locations/">Locations</a>
+						</li>
+						<li class="weird-mobile-link">
+							<a href="https://www.aveanna.com/referral-sources.html">Referral Sources</a>
+						</li>
+						<li class="weird-mobile-link">
+							<a href="https://ir.aveanna.com/">Investors</a>
+						</li>
+						<li class="weird-mobile-link">
+							<a href="https://www.aveanna.com/blog/">Blog</a>
+						</li>
+						<li class="contact-holder">
+							<a href="{% url 'subscriptions' %}" class="contact-link">Join Our Talent Network</a>
+						</li>
+					</ul>
+
+				</nav>
+
+			</div>
+		</div>
+		<nav class="careers-nav">
+			<div class="inner">
+				<ul>
+					<li><a href="/index.html">Careers Home</a></li>
+					<li><a href="/find-yourself-here.html">Find Yourself Here</a></li>
+					<li><a href="/culture.html">Culture</a></li>
+					<li><a href="/inclusion-and-engagement.html">Inclusion &amp; Engagement</a></li>
+					<li><a href="/benefits.html">Benefits</a></li>
+					<li><a href="/new-grads.html">New Grads</a></li>
+					<li><a href="/veterans.html">Veterans</a></li>
+					<li><a href="/faqs.html">FAQs</a></li>
+					<li class="has-children"><a>Featured Careers</a>
+						<ul>
+							<li><a href="/in-home-nursing-pediatric-and-adult.html">In-Home Nursing Pediatric and Adult</a></li>
+							<li><a href="/home-health-and-hospice.html">Home Health and Hospice Nursing</a></li>
+							<li><a href="/pediatric-therapy.html">Pediatric Therapy</a></li>
+							<li><a href="/home-health-therapy.html">Home Health Therapy</a></li>
+							<li><a href="/educational-staffing-services.html">Educational Staffing Services</a></li>
+							<li><a href="/location-and-corporate-support.html">Location and Corporate Support</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	
+	<main id="page-body">
+	
+		<section class="inner-banner">
+			<div class="inner-banner-image v1"></div>
+			<div class="inner-banner-content">
+				<div class="inner">
+					<h1>Tell us how you found <br>yourself at Aveanna</h1>
+				</div>
+			</div>
+		</section>			
+		
+		<div class="heart-divider">
+			<div class="inner"></div>
+		</div>
+	
+        
+        <div id="video-upload-container" class="clearfix">
+            <div class="inner">
+            <!--||{% block video-content %}{% endblock %}||-->
+            <!--||{% comment %}||-->
+			<div id="upload-area">
+				
+				<div class="upload-picker">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3>We want to hear from you! </h3>
+						<p>Tell us why you love working at Aveanna Healthcare. Submit your employee experience today and we may use it on our career site.</p>
+					</div>
+					<div class="panel-body">
+		
+						<div id="upload-form">
+							<form method="post" action="/videos/upload/verify/">
+								<input type="hidden" name="csrfmiddlewaretoken" value="mgEE0jgOmZ36OUgar607KcrfDqB7CyL5gJvshMqjG8e9FwE71I89tmc4HFabeefv">
+																	
+								<div class="input-wrap">
+									<label for="id_email">First Name:</label>
+									<input type="email" name="email" maxlength="254" required="" id="id_email" disabled="" value="{{ user.email }}">
+								</div>					
+								<div class="input-wrap">
+									<label for="id_email">Email:</label>
+									<input type="email" name="email" maxlength="254" required="" id="id_email" disabled="" value="{{ user.email }}">
+								</div>
+								<div class="input-wrap">
+									<label for="id_title">Job Title:</label><input type="text" name="tel" maxlength="254" required="" id="id_title">
+								</div>
+							  
+								<div class="input-wrap">
+									<label for="id_employment_length">How long have you been with Aveanna Healthcare?</label><input type="text" name="employment_length" maxlength="200" required="" id="id_employment_length">
+								</div>
+		
+								<div class="input-wrap">
+									
+									<label for="id_quote">Quote (leave blank if uploading a video or photo):</label><textarea name="quote" cols="40" rows="10" id="id_quote"></textarea>
+								</div>
+								
+								<div id="fine-uploader"><div><div class="qq-uploader-selector qq-uploader" qq-drop-area-text="Drop files here">
+								
+								
+								
+									<div class="qq-upload-drop-area-selector qq-upload-drop-area" qq-hide-dropzone="" style="display: none;">
+										
+									</div>
+									<div class="qq-upload-button-selector btn btn-color btn-lg" style="position: relative; overflow: hidden; direction: ltr;">
+										<div>Choose Video or Image</div>
+									<input qq-button-id="44279f18-c9ba-4e4a-98e0-43e473b0208a" title="file input" accept="video/*,image/*" type="file" name="qqfile" style="position: absolute; right: 0px; top: 0px; font-family: Arial; font-size: 118px; margin: 0px; padding: 0px; cursor: pointer; opacity: 0; height: 100%;"></div>
+									<span class="qq-drop-processing-selector qq-drop-processing qq-hide">
+										<span>Processing dropped files...</span>
+										<span class="qq-drop-processing-spinner-selector qq-drop-processing-spinner"></span>
+									</span>
+									<ul class="qq-upload-list-selector qq-upload-list" aria-live="polite" aria-relevant="additions removals"></ul>
+								
+									<button id="do-upload" class="btn btn-color btn-lg" style="display: none;">
+										Start Upload
+									</button>
+								
+									<dialog class="qq-alert-dialog-selector">
+										<div class="qq-dialog-message-selector"></div>
+										<div class="qq-dialog-buttons">
+											<button type="button" class="qq-cancel-button-selector">Close</button>
+										</div>
+									</dialog>
+								
+									<dialog class="qq-confirm-dialog-selector">
+										<div class="qq-dialog-message-selector"></div>
+										<div class="qq-dialog-buttons">
+											<button type="button" class="qq-cancel-button-selector">No</button>
+											<button type="button" class="qq-ok-button-selector">Yes</button>
+										</div>
+									</dialog>
+								
+									<dialog class="qq-prompt-dialog-selector">
+										<div class="qq-dialog-message-selector"></div>
+										<input type="text">
+										<div class="qq-dialog-buttons">
+											<button type="button" class="qq-cancel-button-selector">Cancel</button>
+											<button type="button" class="qq-ok-button-selector">Ok</button>
+										</div>
+									</dialog>
+								</div></div></div>
+								
+								<!-- <p class="note">NOTE: You may use this field to provide us a Quote for display, or if you've uploaded an image, this field will be the caption (optional)
+									Select Video or Image
+								</p> -->
+								<div class="accordion-tos">
+									<label for="id_agree">
+										<input type="checkbox" name="id_agree" value="1" required="" id="id_agree">
+										By submitting this form I give Aveanna Healthcare consent to feature my content on https://jobs.hopkinsmedicine.org and I agree with the <a href="#terms" aria-controls="#terms" aria-expanded="false" class="accordion-section-title-tos">Terms of Service</a> and understand that video submissions are subject to review.
+									</label>
+									<div id="terms" class="accordion-section-content-tos">
+										<h3 class="tos-title">
+											Aveanna Healthcare Content Consent and Release Form
+										</h3>
+										<p>By uploading a video or image, I state that I have authorized Aveanna Healthcare (“Aveanna Healthcare”), its affiliates, and their respective successors and assigns to use and/or disclose my name, image, statements, and/or comments, including, but not limited to those referring to and/or including information about my case history and/or protected health information for educational, advocacy, promotional, and/or testimonial purposes. This authorization includes any and all mediums such as photographs, video footage, or voice recordings. I also authorize the agency to alter said video footage, photographs, or voice recordings for the purposes described herein. I further acknowledge consent and agree as follows:</p>
+										<p>The materials containing my name, image, statements, and/or comments, including but not limited to those referring to or including information about my case history and/or protected health information will forever remain the property of the agency. I understand that I have no right, legal, equitable, or otherwise, in or to this property, it being expressly understood and agreed that I have assigned all copyright interests and rights of compensation to the agency.</p>
+										<p>I hereby authorize the agency to copy, exhibit, publish, or distribute my name, image, statements, and/or comments, including but not limited to those referring to or including information about my case history and/or protected health information for the purposes of publicizing the agency’s programs or for any other lawful purpose. These statements and/or my likeness may be used in various forms of distribution media, including but not limited to printed publications, multimedia presentations, and/or websites.</p>
+										<p>All rights to privacy are waived in connection with the use of this material.</p>
+										<p>Aveanna Healthcare, its affiliates, officers, directors, employees, attorneys, assigns, and any other person(s) acting on its behalf shall be held free and harmless from any and all liabilities, claims, demands, and causes of action that might arise from the use, publication, distribution, or release of the information subject to this authorization. I agree that I will make no monetary or other claim against the agency for the use of my likeness and/or statements.</p>
+										<p>I understand that I may revoke this authorization at any time. The revocation will not apply to information that has already been released in response to this authorization. I must revoke this authorization in writing. The procedure for revoking this authorization is to present my written revocation to the Location Director.</p>
+									</div>
+								</div>
+								<button class="submit-form btn">Submit</button>
+							</form>
+		
+						</div>
+		
+					</div>
+				</div>
+			</div>
+			
+			<div class="preview">
+				<div class="panel panel-default">
+					
+					<div class="panel-body">
+						<div id="v-pre-text">
+						  
+							<p><strong>Getting started</strong></p>
+							<div class="how-to-imagep-wrap">
+							   <img src="files/images/hands-taking-photo-vertical.png?1708647381" alt="Shoot vertically (portrait) not horizontally (landscape).">
+							 </div>
+							<ul>
+								<li>Record the video with your phone in a <strong>vertical (portrait)</strong> position.</li>
+								<li>Ideal smartphone camera settings are 4k or 1080p HD with 24 or 30 fps. Turn on image stabilization.</li>
+								<li>Recommended video length is 1 minute</li>
+								<li>Find a quiet, well-lit place and face the light. Avoid being directly under overhead lighting.</li>
+								<li>Distance yourself from the background, so you’re not against a wall.</li>
+								<li>Frame yourself from the chest up with your head towards the top of the frame without touching.</li>
+								<li>Introduce yourself using only your first name and job title.</li>
+							</ul>
+							<p><strong>Inspiration</strong></p>
+							<ul>
+							  <li>Tell us about a day-in-the-life in your role</li>
+							  <li>What do you love about working at Aveanna?</li>
+							  <li>Talk about the culture of Aveanna.</li>
+							  <li>Give a brief overview of your career path from when you joined us to today</li>
+							  <li>Pick one of our values and describe an example that you’ve seen it applied</li>
+							  <li>Tell us about one of our benefits that makes the most difference in your life?</li>
+							  <li>What would you say to someone who is thinking about joining Aveanna?</li>
+							  <li>If you’re a recruiter or hiring leader, describe an open role as if you’re speaking to that ideal candidate, or record a personal invitation to attend an upcoming hiring event.</li>
+							</ul>
+							<p class="footnote">
+								All submissions may be shared by Aveanna Healthcare on social media, in internal communications, or on other platform.                                    
+							</p>
+							<!-- Choose a video by clicking the Choose Video button, or by
+							dragging and dropping a video file from your computer into
+							the indicated area. -->
+						</div>
+						<div id="video-container" style="display: none;">
+							<video id="video-preview" class="video-js vjs-16-9"></video>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+            <!--||{% endcomment %}||-->
+		</div>
+		</div>
+	
+	</main>
+	
+	
+	<!------------------------  FOOTER --------------------------- -->
+		
+	<footer class="quote-footer">
+		<div class="inner">
+			
+			<div class="top-footer">
+				<div class="logo-holder">
+					<a href="/" class="logo"><span class="sr-only">Aveanna Healthcare | Family of Companies</span></a>
+				</div>
+				<nav class="footer-nav">
+					<div class="address">
+						Aveanna Healthcare<br />
+						400 Interstate North Parkway, SE<br />
+						Suite 1600<br />
+						Atlanta, GA 30339<br />
+						<a href="tel:+17704411580">(770) 441-1580</a>
+					</div>
+					<ul class="links">
+						<li>
+							<a href="https://www.aveanna.com/">Aveanna Home</a>
+						</li>
+						<li>
+							<a href="https://www.aveanna.com/our-story.html">Our Story</a>
+						</li>
+						<li>
+							<a href="https://www.aveanna.com/leadership.html">Leadership</a>
+						</li>
+						<li>
+							<a href="https://www.aveanna.com/family-resources.html">Family Resources</a>
+						</li>
+						<li>
+							<a href="https://www.aveanna.com/employee-resources.html">Employee Resources</a>
+						</li>
+						<li>
+							<a href="https://www.aveanna.com/referral-sources.html">Referral Sources</a>
+						</li>
+						<li>
+							<a href="https://www.aveanna.com/private-duty/index.html">Private Duty Services</a>
+						</li>
+						<li>
+							<a href="https://www.aveanna.com/home-health/index.html">Home Health &amp; Hospice</a>
+						</li>
+						<li>
+							<a href="https://www.aveannamedicalsolutions.com/">Medical Solutions</a>
+						</li>
+						<li>
+							<a href="https://www.aveanna.com/private-duty/adult-private-duty-nursing.html">Private Duty Nursing</a>
+						</li>
+						<li>
+							<a href="https://www.aveanna.com/private-duty/pediatric-therapy.html">Pediatric Therapy</a>
+						</li>
+						<li>
+							<a href="https://www.aveanna.com/private-duty/personal-care-and-companionship.html">Personal Care</a>
+						</li>
+						<li>
+							<a href="/">Join Our Team</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+	
+			  <div class="middle-footer">
+				<p><span>©</span>
+				<script type="text/javascript">date = new Date();
+					year = date.getFullYear();
+			document.write(year);//</script> Aveanna Healthcare, LLC. The Aveanna Heart Logo is a registered trademark of Aveanna Healthcare LLC and its subsidiaries. <br>
+				We value accessibility and are making efforts to be ADA compliant.</p>
+				<ul class="policy-links" aria-label="Privacy and Accessibility Information">
+					<li>
+						<a href="https://www.aveanna.com/privacypolicy.html">Privacy Policy</a>
+					</li>
+					<li>
+						<a href="https://www.aveanna.com/HIPAANotice.html">HIPAA Notice</a>
+					</li>
+					<li>
+						<a href="https://www.aveanna.com/accessibility.html">Accessibility</a>
+					</li>
+					<li>
+						<a href="https://www.aveanna.com/contact-us.html">Contact Us</a>
+					</li>
+					<li>
+						<a href="https://www.aveanna.com/CaliforniaPrivacyNotices.html">Notice for California Residents</a>
+					</li>			
+				</ul>
+			</div>
+				
+			<div class="footer-bottom">
+					<a href="https://www.aveanna.com/eoe-statement.html">Notice of Nondiscrimination</a> | 
+					<a href="https://www.aveanna.com/eoe-statement-languages.html#es" aria-label="Español (opens in a new window)" target="_blank" lang="es">Español</a> | 
+					<a href="https://www.aveanna.com/eoe-statement-languages.html#zh" aria-label="繁體中文 (opens in a new window)" target="_blank" lang="zh">繁體中文</a> | 
+					<a href="https://www.aveanna.com/eoe-statement-languages.html#vi" aria-label="Tiếng Việt (opens in a new window)" target="_blank" lang="vi">Tiếng Việt</a> | 
+					<a href="https://www.aveanna.com/eoe-statement-languages.html#ht" aria-label="Kreyòl Ayisyen (opens in a new window)" target="_blank" lang="ht">Kreyòl Ayisyen</a> | 
+					<a href="https://www.aveanna.com/eoe-statement-languages.html#ko" aria-label="한국어 (opens in a new window)" target="_blank" lang="ko">한국어</a> | 
+					<a href="https://www.aveanna.com/eoe-statement-languages.html#ru" aria-label="Русский (opens in a new window)" target="_blank" lang="ru">Русский</a> | 
+					<a href="https://www.aveanna.com/eoe-statement-languages.html#pl" aria-label="Polski (opens in a new window)" target="_blank" lang="pl">Polski</a> | 
+					<a href="https://www.aveanna.com/eoe-statement-languages.html#sq" aria-label="ال عرب ية (opens in a new window)" target="_blank" lang="sq"> ال عرب ية</a> |
+					<a href="https://www.aveanna.com/eoe-statement-languages.html#pt" aria-label="Português (opens in a new window)" target="_blank" lang="pt"> Português</a> | 
+					<a href="https://www.aveanna.com/eoe-statement-languages.html#fr" aria-label="Français (opens in a new window)" target="_blank" lang="fr">Français</a> | 
+					<a href="https://www.aveanna.com/eoe-statement-languages.html#tl" aria-label="Tagalog (opens in a new window)" target="_blank" lang="tl">Tagalog</a> | 
+					<a href="https://www.aveanna.com/eoe-statement-languages.html#it" aria-label="Italiano (opens in a new window)" target="_blank" lang="it">Italiano</a> | 
+					<a href="https://www.aveanna.com/eoe-statement-languages.html#gu" aria-label="ગુજરાતી (opens in a new window)" target="_blank" lang="gu">ગુજરાતી</a> | 
+					<a href="https://www.aveanna.com/eoe-statement-languages.html#pa" aria-label="اُررُا (opens in a new window)" target="_blank" lang="pa">اُررُا</a>
+			</div>
+			<div class="ndn-text">Aveanna is proud to be an equal-opportunity employer. We are committed to providing a work environment free of harassment, discrimination, retaliation, disrespect or other unprofessional conduct on any basis protected by federal, state or local law or ordinance or regulation. We have comprehensive policies to support this commitment.</div>
+		</div>
+	</footer>
+	<script defer type="text/javascript" src="files/js/lazysizes.min.js"></script>
+	<script type="text/javascript">
+		jQuery(function($){
+			$('.accordion-section-title-tos').on('click', function(e){
+				e.preventDefault();
+				var target = $(this).attr('href');
+				$(target).slideToggle();
+				
+			});
+		});
+	</script>
+	<!--||{% block js %}{% endblock %}||-->
+	<!-- InstanceBeginEditable name="oneStop" -->
+	<!-- InstanceEndEditable -->
+	</body>
+	<!-- InstanceEnd --></html>

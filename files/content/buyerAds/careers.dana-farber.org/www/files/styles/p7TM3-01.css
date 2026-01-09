@@ -1,0 +1,141 @@
+/* 
+  -----------------------------------
+  Tree Menu Magic 3 for Mobile Menu
+  -----------------------------------
+*/
+.p7TM3-01 {
+	font-size: inherit;
+	zoom: 1;
+}
+.p7TM3-01:after {
+	font-size: 0px;
+	display: inline;
+	overflow: hidden;
+	line-height: 1;
+}
+.p7TM3-01 ul {
+	margin: 0;
+	padding: 0;
+}
+.p7TM3-01 ul ul {/*drop down color bg*/
+	padding-right: 0px;
+	padding-left: 0px;
+	background-color: #45b2e9;
+	border-top: 1px solid #00a4d2;
+}
+.p7TM3-01 ul ul ul {
+	border: none;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+.p7TM3-01 li {
+	list-style-type: none;
+	margin: 0;
+}
+.p7TM3-01 ul ul li {
+}
+.p7TM3-01 ul a { /*sub menu item*/
+	color: #ffffff;
+	display: block;
+	padding: 12px 20px 12px 20px;
+	text-decoration: none;
+	border-bottom: 1px solid #00a4d2;
+	font-size: 1.1em;
+}
+.p7TM3-01 ul a:hover, .p7TM3-01 ul a:focus {
+	color: #FFFFFF;
+	outline: none;
+	background-color: #157eb4;
+}
+.p7TM3-01 ul ul a {
+	font-size: 1em; /*sub sub menu*/
+	padding-left: 30px;
+}
+.p7TM3-01 ul ul a:hover, .p7TM3-01 ul ul a:focus {/*hover on sub sub item*/
+	background-color: #ffffff;
+}
+.p7TM3-01 ul ul a.p7tm3_page:after {
+	color: #DBDBDB;
+	-webkit-transition: color linear .4s .1s;
+	transition: color linear .4s .1s;
+}
+.p7TM3-01 ul ul a.p7tm3_page:hover:after {
+}
+.p7TM3-01 a.trig_closed {
+	background-image: url(../images/umuc-images/mobile/nav-arrows/nav-arrow.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	
+}
+.p7TM3-01 a.trig_open {
+	background-image: url(../images/umuc-images/mobile/nav-arrows/nav-arrow-down.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	border-bottom-color: transparent;
+}
+.p7TM3-01 ul ul a.trig_open {
+	color: #000;
+}
+.p7TM3-01 a.current_mark {
+	font-weight: bold;
+}
+.p7TM3-01 ul ul a.current_mark {
+	font-weight: bold;
+}
+.p7TM3-01_toggle_all {
+	margin: 0 0 12px 0;
+	display: block;
+	font-size: .75em;
+	text-transform: uppercase;
+}
+.p7TM3-01_toggle_all a {
+	color: #000;
+}
+.p7TM3-01_toggle_all a:hover, .p7TM3-01_toggle_all a:focus, .p7TM3-01_toggle_all a:active {
+	outline: none;
+	background-image: none;
+}
+/*Toolbar for Smartphones to Hide or Show entire menu*/
+.p7TM3-toolbar {
+	display: none;
+}
+/*IE10 Kill Default Active Background*/
+.p7TM3-01 a:active {
+	background-color: transparent;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 5000px) { /*wide width to keep it mobile only Steve*/
+.p7TM3-01_toggle_all {
+	display: none;
+}
+.p7TM3-01.responsive .p7TM3-toolbar {/*hamburger menu size and position*/
+	position: relative;
+	z-index: 999;
+	display: block;
+	text-align: left;
+	cursor: pointer;
+	float: right; /*added by Steve*/
+	background-image: url(../images/mobile/hamburger-menu.png); /*added by Steve*/
+	background-repeat: no-repeat; /*added by Steve*/
+	width: 30px; /*added by Steve*/
+	height: 24px; /*added by Steve*/
+	margin-right: 10px; /*added by Steve*/
+	margin-top: 20px;
+}
+.p7TM3-01.responsive .p7TM3-toolbar:hover { /*added by Steve*/
+	background-image: url(../images/mobile/hamburger-menu-on.png);
+}
+.p7TM3.responsive ul.closed {
+	display: none;
+}
+.p7TM3.responsive ul.opened {
+	display: block;
+	margin-top: 86px; /*added by Steve - distance of menu items from the top*/
+	background-color: #45b2e9;
+}
+.p7TM3-01.responsive .p7TM3-toolbar img {
+	border: none;
+	display: inline-block;
+	vertical-align: baseline;
+}
+}

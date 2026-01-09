@@ -1,0 +1,131 @@
+@media only screen and (max-width: 1000px) {
+	main.private-duty-sub section.sub-page-contact-form .inner {
+		width: 90%;
+	}
+	main.home-health-sub section.sub-page-contact-form .inner {
+		width: 90%;
+	}
+	main section.sub-page-contact-form .inner {
+		width: 90%;
+	}
+	.sub-page-contact-form .copy > .fsBody {
+	    margin: .5em auto !important;
+	    padding: 1px 5px 5px !important;
+		border-radius: 9px;
+	}
+	footer {
+		padding: 3em 0px 4.5em;
+	}
+	footer::before {
+		height: 4px;
+	}
+	footer .inner {
+		width: 85%;
+		text-align: center;
+		padding: 0px;
+		margin: 0px auto;
+	}
+	footer .logo-holder {
+		width: 165px;
+		display: block;
+		margin: 0px auto 1.5em !important;
+		padding: 0px 0px 0px 0px;
+		text-align: center;
+	}
+	footer .logo-holder a.logo {
+		width: 100%;
+		padding-bottom: 60%;
+		background-image: url(../images/global/aveanna-logo-bottom.png);
+		background-position: top center;
+	}
+	footer .footer-nav, footer .middle-footer {
+		display: block;
+		width: 100%;
+		font-size: 12px;
+		line-height: 17px;
+	}
+	footer .middle-footer {
+		text-align: center;
+		margin: 2em auto 2em;
+	}
+	footer .middle-footer .policy-links li {
+		font-size: 12px;
+		line-height: 17px;
+		margin: 0px auto;
+	}
+	footer .footer-nav li {
+		margin-bottom: 3px;
+	}
+	footer .address {
+		width: 25%;
+		padding-right: 3%;
+	}
+	footer .links {
+	    -moz-column-count: 3;
+	    -webkit-column-count: 3;
+	    column-count: 3;
+	    -moz-column-gap: 1%;
+	    -webkit-column-gap: 1%;
+	    column-gap: 1%;
+		column-fill: balance;
+		width: 67%;
+		padding-left: 3%;
+	}
+	footer .footer-bottom {
+		font-size: 12px;
+		line-height: 17px;
+	}
+	footer .footer-bottom a {
+		display: inline-block;
+	}
+
+}
+
+
+@media only screen and (max-width: 850px) {
+	footer .address {
+		display: block;
+		width: 100%;
+		padding: 0px 0px 3em;
+	}
+	footer .links {
+		width: 100%;
+		padding: 5% 0px;
+		border-left: 0px;
+		border-top: 1px solid rgba(0,120,190,.35);
+		border-bottom: 1px solid rgba(0,120,190,.35);
+	}
+	
+}
+
+
+@media only screen and (max-width: 750px) {
+	footer.quote-footer::before {
+		content: none;
+	}
+
+}
+	
+	
+@media only screen and (max-width: 600px) {
+	.sub-page-contact-form {
+		padding: 2em 0px;
+		background-image: url("../images/main/quote-loops-mobile.png"), linear-gradient(#005ca3, #0b88d1);
+		border-top: 6px solid #0b88d1;
+	}
+	footer .links {
+	    -moz-column-count: 2;
+	    -webkit-column-count: 2;
+	    column-count: 2;
+	    -moz-column-gap: 1%;
+	    -webkit-column-gap: 1%;
+	    column-gap: 1%;
+		column-fill: balance;
+	}
+	footer .middle-footer .policy-links li {
+		font-size: 12px;
+		line-height: 12px;
+		padding: 2px 2px 2px 6px;
+	}
+	
+}

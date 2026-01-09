@@ -1,0 +1,36 @@
+@media only screen and (max-width:1400px) {
+    .career-path-growth-loc .box .box-inner p{
+        font-size: 1em;
+    }
+}
+@media only screen and (max-width:1100px) {
+    .career-path-growth-loc .box .box-inner p{
+        font-size: .9em;
+    }
+}
+@media only screen and (max-width:880px) {
+    .career-path-growth-loc .box {
+    width: 31%;
+  }
+}
+@media only screen and (max-width:700px) {
+    .career-path-growth-loc div a {
+    font-size: 12px;
+  }
+    .career-path-growth-loc .box .box-inner p{
+        font-size: .8em;
+    }
+}
+@media only screen and (max-width:600px) {
+    .career-path-growth-loc .box {
+    width: 48%;
+  }
+}
+@media only screen and (max-width:400px) {
+    .career-path-growth-loc .box {
+    width: 100%;
+  }
+     .career-path-growth-loc .box .box-inner p{
+        font-size: 1em;
+    }
+}
